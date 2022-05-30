@@ -35,7 +35,7 @@ const std::string SECOND_LIFE_BETA_LABEL = "Second Life Beta";
 #if defined(OPENSIM) && defined(SINGLEGRID)
 const std::string MAINGRID = SINGLEGRID_URI;
 #else
-const std::string MAINGRID = "util.agni.lindenlab.com";
+const std::string MAINGRID = "robust.heuguchon.com";
 #endif
 
 // <FS:AW optional opensim support>
