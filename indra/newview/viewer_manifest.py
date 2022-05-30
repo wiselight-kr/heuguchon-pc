@@ -572,8 +572,8 @@ class WindowsManifest(ViewerManifest):
         debpkgdir = os.path.join(pkgdir, "lib", "debug")
 
         if self.is_packaging_viewer():
-            # Find firestorm-bin.exe in the 'configuration' dir, then rename it to the result of final_exe.
-            self.path(src='%s/firestorm-bin.exe' % self.args['configuration'], dst=self.final_exe())
+            # Find heuguchon-bin.exe in the 'configuration' dir, then rename it to the result of final_exe.
+            self.path(src='%s/heuguchon-bin.exe' % self.args['configuration'], dst=self.final_exe())
 
             # <FS:Ansariel> Remove VMP
             #with self.prefix(src=os.path.join(pkgdir, "VMP")):
@@ -1838,7 +1838,7 @@ class LinuxManifest(ViewerManifest):
 
         with self.prefix(dst="bin"):
             self.path( os.path.join(os.pardir,'build_data.json'), "build_data.json" )
-            self.path("firestorm-bin","do-not-directly-run-firestorm-bin")
+            self.path("heuguchon-bin","do-not-directly-run-heuguchon-bin")
             self.path("../linux_crash_logger/linux-crash-logger","linux-crash-logger.bin")
             self.path2basename("../llplugin/slplugin", "SLPlugin")
             #this copies over the python wrapper script, associated utilities and required libraries, see SL-321, SL-322 and SL-323

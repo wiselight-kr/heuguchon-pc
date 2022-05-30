@@ -147,7 +147,7 @@ endif (WINDOWS)
 # sets the 'startup project' for debugging from visual studio.
 set_property(
     DIRECTORY ${VIEWER_PREFIX}
-    PROPERTY VS_STARTUP_PROJECT firestorm-bin
+    PROPERTY VS_STARTUP_PROJECT heuguchon-bin
     )
 
 if (USE_BUGSPLAT)
@@ -161,10 +161,10 @@ else (USE_BUGSPLAT)
 endif (USE_BUGSPLAT)
 
 add_subdirectory(${VIEWER_PREFIX}newview)
-add_dependencies(viewer firestorm-bin)
+add_dependencies(viewer heuguchon-bin)
 
 set_target_properties(
-    firestorm-bin PROPERTIES
+    heuguchon-bin PROPERTIES
     VS_DEBUGGER_WORKING_DIRECTORY "..\\..\\indra\\newview")
 
 add_subdirectory(${VIEWER_PREFIX}doxygen EXCLUDE_FROM_ALL)

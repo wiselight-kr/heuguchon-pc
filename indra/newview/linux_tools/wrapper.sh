@@ -162,19 +162,19 @@ done
 # Don't quote $LL_WRAPPER because, if empty, it should simply vanish from the
 # command line. But DO quote "${ARGS[@]}": preserve separate args as
 # individually quoted.
-$LL_WRAPPER bin/do-not-directly-run-firestorm-bin "${ARGS[@]}"
+$LL_WRAPPER bin/do-not-directly-run-heuguchon-bin "${ARGS[@]}"
 LL_RUN_ERR=$?
 
 # Handle any resulting errors
 if [ $LL_RUN_ERR -ne 0 ]; then
 	# generic error running the binary
 	echo '*** Bad shutdown ($LL_RUN_ERR). ***'
-	if [ "$(uname -m)" = "x86_64" ] && [ "$(file bin/do-not-directly-run-firestorm-bin | grep -o 64-bit )" != "64-bit" ]; then
+	if [ "$(uname -m)" = "x86_64" ] && [ "$(file bin/do-not-directly-run-heuguchon-bin | grep -o 64-bit )" != "64-bit" ]; then
 		echo
 		cat << EOFMARKER
 You are running the Firestorm Viewer on a x86_64 platform.  The
 most common problems when launching the Viewer (particularly
-'bin/do-not-directly-run-firestorm-bin: not found' and 'error while
+'bin/do-not-directly-run-heuguchon-bin: not found' and 'error while
 loading shared libraries') may be solved by enabling 32-bit
 architecture and installing one or more 32-bit compatibility libraries.
 Consult the Firestorm wiki at
