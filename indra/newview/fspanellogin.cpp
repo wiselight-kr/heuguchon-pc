@@ -1290,7 +1290,11 @@ void FSPanelLogin::addUsersToCombo(BOOL show_server)
 			/// they are using the OpenSim build. That way users who only want Second Life Agni can remain
 			/// blissfully ignorant. We will also not show them any saved credential that isn't Agni because
 			/// they don't want them.
-			if (SECOND_LIFE_MAIN_LABEL == grid_label)
+			if (HEUGUCHON_LABEL == grid_label)
+			{
+				add_grid = true;
+			}
+			else if (SECOND_LIFE_MAIN_LABEL == grid_label)
 			{
 				if (show_server)
 					name.append( " @ " + grid_label);

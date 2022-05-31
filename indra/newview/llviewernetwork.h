@@ -30,6 +30,7 @@
 
 const std::string SECOND_LIFE_MAIN_LABEL = "Second Life";
 const std::string SECOND_LIFE_BETA_LABEL = "Second Life Beta";
+const std::string HEUGUCHON_LABEL = "Heuguchon";
 
 // @TODO this really should be private, but is used in llslurl
 #if defined(OPENSIM) && defined(SINGLEGRID)
