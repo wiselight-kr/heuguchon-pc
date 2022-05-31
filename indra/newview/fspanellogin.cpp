@@ -328,7 +328,7 @@ void FSPanelLogin::addFavoritesToStartLocation()
 	// Load favorites into the combo.
 	std::string user_defined_name = getChild<LLComboBox>("username_combo")->getSimple();
 	std::string canonical_user_name = canonicalize_username(user_defined_name);
-	U32 resident_pos = canonical_user_name.find("Resident");
+	U32 resident_pos = canonical_user_name.find("User");
 	if (resident_pos > 0)
 	{
 		canonical_user_name = canonical_user_name.substr(0, resident_pos - 1);
@@ -524,7 +524,7 @@ void FSPanelLogin::setFields(LLPointer<LLCredential> credential, bool from_start
 		std::string firstname = identifier["first_name"].asString();
 		std::string lastname = identifier["last_name"].asString();
 		login_id = firstname;
-		if (!lastname.empty() && lastname != "Resident")
+		if (!lastname.empty() && lastname != "User")
 		{
 			// support traditional First Last name SLURLs
 			login_id += " ";
@@ -700,7 +700,7 @@ void FSPanelLogin::getFields(LLPointer<LLCredential>& credential,
 			// ...on Linden grids, single username users as considered to have
 			// last name "Resident"
 			// *TODO: Make login.cgi support "account_name" like above
-			last = "Resident";
+			last = "User";
 		}
 		
 		if (last.find_first_of(' ') == last.npos)
@@ -1246,7 +1246,7 @@ std::string canonicalize_username(const std::string& name)
 	{
 		// ...on Linden grids, single username users as considered to have
 		// last name "Resident"
-		last = "Resident";
+		last = "User";
 	}
 
 	// Username in traditional "firstname lastname" form.

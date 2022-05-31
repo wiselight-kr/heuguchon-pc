@@ -141,7 +141,7 @@ void LLAvatarName::fromString(const std::string& full_name)
 		mLegacyLastName = full_name.substr(index+1);
 		// <FS:CR> FIRE-6659 - Trim "Resident" from legacy name
 		//if (mLegacyLastName != "Resident")
-		if ((mLegacyLastName != "Resident") || !sTrimResidentSurname)
+		if ((mLegacyLastName != "User") || !sTrimResidentSurname)
 		// </FS:CR>
 		{
 			mUsername = mLegacyFirstName + "." + mLegacyLastName;
@@ -202,7 +202,7 @@ std::string LLAvatarName::getCompleteName(bool use_parentheses, bool force_use_c
 		else if (sUseLegacyNameFormat)
 		{
 			// FIRE-6659
-			if (sTrimResidentSurname && (mLegacyLastName == "Resident" || mLegacyLastName.empty()))
+			if (sTrimResidentSurname && (mLegacyLastName == "User" || mLegacyLastName.empty()))
 			{
 				name = mDisplayName + " (" + mLegacyFirstName + ")";
 			}
@@ -275,7 +275,7 @@ std::string LLAvatarName::getDisplayName(bool force_use_display_name) const
 std::string LLAvatarName::getUserName(bool lowercase) const
 {
 	std::string name;
-	if (mLegacyLastName.empty() || (mLegacyLastName == "Resident"))
+	if (mLegacyLastName.empty() || (mLegacyLastName == "User"))
 	{
 		if (mLegacyFirstName.empty())
 		{
@@ -312,14 +312,14 @@ std::string LLAvatarName::getUserNameForDisplay() const
 		// If we cannot create a user name from the legacy strings, use the display name
 		name = mDisplayName;
 	}
-	else if ((mLegacyLastName.empty() || (mLegacyLastName == "Resident")) && sTrimResidentSurname)
+	else if ((mLegacyLastName.empty() || (mLegacyLastName == "User")) && sTrimResidentSurname)
 	{
 		// The last name might be empty if it defaulted to "Resident"
 		name = mLegacyFirstName;
 	}
 	else if (mLegacyLastName.empty() && !sTrimResidentSurname)
 	{
-		name = mLegacyFirstName + " Resident";
+		name = mLegacyFirstName + " User";
 	}
 	else
 	{

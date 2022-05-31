@@ -542,7 +542,7 @@ std::string LLCacheName::buildFullName(const std::string& first, const std::stri
 // </FS:CR> FIRE-6659: Legacy "Resident" name toggle
 		std::string fullname = first;
 		if (!last.empty()
-			&& last != "Resident")
+			&& last != "User")
 		{
 			fullname += ' ';
 			fullname += last;
@@ -595,7 +595,7 @@ std::string LLCacheName::buildUsername(const std::string& full_name)
 		username = full_name.substr(0, index);
 		std::string lastname = full_name.substr(index+1);
 
-		if (lastname != "Resident")
+		if (lastname != "User")
 		{
 			username = username + "." + lastname;
 		}
@@ -859,7 +859,7 @@ std::string LLCacheName::getDefaultName()
 //static 
 std::string LLCacheName::getDefaultLastName()
 {
-	return "Resident";
+	return "User";
 }
 
 void LLCacheName::Impl::processPendingAsks()
@@ -1113,14 +1113,14 @@ void LLCacheName::Impl::processUUIDReply(LLMessageSystem* msg, bool isGroup)
 
 					//fix what we are putting in the cache
 					entry->mFirstName = full_name;
-					entry->mLastName = "Resident";
+					entry->mLastName = "User";
 				}
 // <FS:CR> FIRE-6659: Legacy "Resident" name toggle
 				else
 				{
 					if (entry->mFirstName.find(" ")==std::string::npos)
 					{
-						entry->mLastName = "Resident";
+						entry->mLastName = "User";
 					}
 					full_name = LLCacheName::buildFullName(entry->mFirstName, entry->mLastName);
 				}

@@ -6680,7 +6680,7 @@ void LLAppViewer::handleLoginComplete()
 			std::string temp_string = login_response["last_name"].asString();
 			LLStringUtil::replaceChar(temp_string, '"', ' ');
 			LLStringUtil::trim(temp_string);
-			if (temp_string.compare("Resident") != 0)
+			if (temp_string.compare("User") != 0)
 			{
 				full_name.append(" ").append(temp_string);
 			}

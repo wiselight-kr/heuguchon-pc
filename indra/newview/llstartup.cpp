@@ -1402,7 +1402,7 @@ bool idle_startup()
 			(underscore_pos < userid.length()-1))
 		{
 			std::string id_last = userid.substr(underscore_pos+1);
-			if (id_last.compare("Resident") != 0)
+			if (id_last.compare("User") != 0)
 			{
 				display_id = display_id + " " + id_last;
 			}
@@ -4325,7 +4325,7 @@ bool process_login_success_response(U32 &first_sim_size_x, U32 &first_sim_size_y
 	if(response.has("last_name") && !gAgentUsername.empty())
 	{
 		std::string last_name = response["last_name"].asString();
-		if (last_name != "Resident")
+		if (last_name != "User")
 		{
 		    LLStringUtil::replaceChar(last_name, '"', ' ');
 		    LLStringUtil::trim(last_name);

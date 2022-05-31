@@ -616,7 +616,7 @@ void LLFloaterAvatarPicker::find()
 		std::string first = text.substr(0, separator_index);
 		std::string last = text.substr(separator_index+1, text.npos);
 		LLStringUtil::trim(last);
-		if("Resident" == last)
+		if("User" == last)
 		{
 			text = first;
 		}

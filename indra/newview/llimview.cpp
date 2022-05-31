@@ -1206,7 +1206,7 @@ void LLIMModel::testMessages()
 
 	LLUUID bot2_id;
 	std::string firstname[] = {"Roflcopter", "Joe"};
-	std::string lastname[] = {"Linden", "Tester", "Resident", "Schmoe"};
+	std::string lastname[] = {"Linden", "Tester", "User", "Schmoe"};
 
 	S32 rand1 = ll_rand(sizeof firstname)/(sizeof firstname[0]);
 	S32 rand2 = ll_rand(sizeof lastname)/(sizeof lastname[0]);
