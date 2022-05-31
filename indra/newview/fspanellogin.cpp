@@ -632,7 +632,31 @@ void FSPanelLogin::getFields(LLPointer<LLCredential>& credential,
 	LL_INFOS("Credentials", "Authentication") << "retrieving username:" << username << LL_ENDL;
 	// determine if the username is a first/last form or not.
 	size_t separator_index = username.find_first_of(' ');
-	if (separator_index == username.npos
+
+	size_t check_heuguchon_grid = LLGridManager::getInstance()->getLoginPage().find("heuguchon");
+	if (check_heuguchon_grid != std::string::npos)
+	{
+		std::string first = username;
+		std::string last = "User";
+		
+		LL_INFOS("Credentials", "Authentication") << "agent: " << username << LL_ENDL;
+		// traditional firstname / lastname
+		identifier["type"] = CRED_IDENTIFIER_TYPE_AGENT;
+		identifier["first_name"] = first;
+		identifier["last_name"] = last;
+		
+		if (FSPanelLogin::sInstance->mPasswordModified)
+		{
+			authenticator = LLSD::emptyMap();
+			authenticator["type"] = CRED_AUTHENTICATOR_TYPE_HASH;
+			authenticator["algorithm"] = "md5";
+			LLMD5 pass((const U8 *)password.c_str());
+			char md5pass[33];               /* Flawfinder: ignore */
+			pass.hex_digest(md5pass);
+			authenticator["secret"] = md5pass;
+		}
+	}
+	else if (separator_index == username.npos
 		&& !LLGridManager::getInstance()->isSystemGrid())
 	{
 		LL_INFOS("Credentials", "Authentication") << "account: " << username << LL_ENDL;
