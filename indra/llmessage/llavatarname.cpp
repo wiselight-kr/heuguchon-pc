@@ -184,7 +184,11 @@ std::string LLAvatarName::getCompleteName(bool use_parentheses, bool force_use_c
 			// then display only the easier to read instance of the person's name.
 			// <FS:CR> FIRE-6659 - Trim "Resident" from legacy name
 			//name = mDisplayName;
-			if (sTrimResidentSurname || mLegacyFirstName.empty())
+			if (mLegacyLastName == "User")
+			{
+				name = mLegacyFirstName;
+			}
+			else if (sTrimResidentSurname || mLegacyFirstName.empty())
 			{
 				name = mDisplayName;
 			}
