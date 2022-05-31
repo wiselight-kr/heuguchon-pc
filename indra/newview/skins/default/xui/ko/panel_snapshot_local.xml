@@ -26,7 +26,7 @@
      text_color="white"
      type="string"
      top_delta="2">
-        Disk
+        디스크
     </text>
     <view_border 
      bevel_style="in"
@@ -40,14 +40,14 @@
     <combo_box
      follows="left|top|right"
      height="20"
-     label="Resolution"
+     label="결의안"
      layout="topleft"
      left_delta="0"
      name="local_size_combo"
      right="-5"
      top_pad="5">
         <combo_box.item
-         label="Current Window"
+         label="현재 창"
          name="CurrentWindow"
          value="[i0,i0]" />
         <combo_box.item
@@ -75,7 +75,7 @@
          name="1600x1200"
          value="[i1600,i1200]" />
         <combo_box.item
-         label="Custom"
+         label="사용자화"
          name="Custom"
          value="[i-1,i-1]" />
     </combo_box>
@@ -85,7 +85,7 @@
      follows="left|top"
      height="20"
      increment="32"
-     label="Width x Height"
+     label="폭 x 높이"
      label_width="90"
      layout="topleft"
      left="10"
@@ -112,7 +112,7 @@
     <check_box
      top_pad="12"
      follows="left|top"
-     label="Constrain proportions"
+     label="제약 비율"
      layout="topleft"
      left="10"
      name="local_keep_aspect_check" />
@@ -126,12 +126,12 @@
       name="local_format_label"
       top_pad="7"
       width="50">
-         Format:
+         형식:
      </text>
     <combo_box
      follows="left|top|right"
      height="20"
-     label="Format"
+     label="형식"
      layout="topleft"
      left="65"
      right="-5"
@@ -139,7 +139,7 @@
      top_delta="-3"
      width="120">
         <combo_box.item
-         label="PNG (Lossless)"
+         label="PNG (손실없는)"
          name="PNG"
          value="PNG" />
         <combo_box.item
@@ -147,7 +147,7 @@
          name="JPEG"
          value="JPEG" />
         <combo_box.item
-         label="BMP (Lossless)"
+         label="BMP (손실없는)"
          name="BMP"
          value="BMP" />
     </combo_box>
@@ -157,7 +157,7 @@
      height="15"
      increment="1"
      initial_value="75"
-     label="Quality:"
+     label="질:"
      label_width="45"
      layout="topleft"
      left="10"
@@ -183,12 +183,12 @@
      left_delta="20"
      width="200"
      wrap="true">
-        Save location and filename between sessions
+        세션 간 위치 및 파일 이름 저장
     </text>
     <button
      follows="right|bottom"
      height="23"
-     label="&#x25B6; Selection"
+     label="&#x25B6; 선택"
      layout="topleft"
      name="cancel_btn"
      right="-5"
@@ -200,7 +200,7 @@
     <flyout_button
      follows="left|bottom"
      height="23"
-     label="Save"
+     label="저장"
      layout="topleft"
      left="10"
      name="save_btn"
@@ -208,11 +208,11 @@
      top_delta="0"
      width="97">
         <flyout_button.item
-         label="Save"
+         label="저장"
          name="save_item"
          value="save" />
         <flyout_button.item
-         label="Save As..."
+         label="다른이름으로 저장..."
          name="saveas_item"
          value="save as" />
     </flyout_button>

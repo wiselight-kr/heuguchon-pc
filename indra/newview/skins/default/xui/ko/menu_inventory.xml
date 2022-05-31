@@ -5,7 +5,7 @@
  name="Popup"
  visible="false">
 	<menu_item_call
-        label="Create listing"
+        label="목록 생성"
         layout="topleft"
         name="Marketplace Create Listing">
 		<menu_item_call.on_click
@@ -13,7 +13,7 @@
         parameter="marketplace_create_listing" />
 	</menu_item_call>
 	<menu_item_call
-        label="Associate listing"
+        label="연관 목록"
         layout="topleft"
         name="Marketplace Associate Listing">
 		<menu_item_call.on_click
@@ -21,7 +21,7 @@
         parameter="marketplace_associate_listing" />
 	</menu_item_call>
 	<menu_item_call
-        label="Get (Refresh) listing"
+        label="목록 가져오기(새로고침)"
         layout="topleft"
         name="Marketplace Get Listing">
 		<menu_item_call.on_click
@@ -29,7 +29,7 @@
         parameter="marketplace_get_listing" />
 	</menu_item_call>
 	<menu_item_call
-        label="Check for errors"
+        label="오류 확인"
         layout="topleft"
         name="Marketplace Check Listing">
 		<menu_item_call.on_click
@@ -37,7 +37,7 @@
         parameter="marketplace_check_listing" />
 	</menu_item_call>
 	<menu_item_call
-        label="Edit listing"
+        label="목록 확인"
         layout="topleft"
         name="Marketplace Edit Listing">
 		<menu_item_call.on_click
@@ -45,7 +45,7 @@
         parameter="marketplace_edit_listing" />
 	</menu_item_call>
 	<menu_item_call
-        label="List"
+        label="목록"
         layout="topleft"
         name="Marketplace List">
 		<menu_item_call.on_click
@@ -53,7 +53,7 @@
         parameter="marketplace_list" />
 	</menu_item_call>
 	<menu_item_call
-        label="Unlist"
+        label="목록 해제"
         layout="topleft"
         name="Marketplace Unlist">
 		<menu_item_call.on_click
@@ -61,7 +61,7 @@
         parameter="marketplace_unlist" />
 	</menu_item_call>
 	<menu_item_call
-        label="Activate"
+        label="활성화"
         layout="topleft"
         name="Marketplace Activate">
 		<menu_item_call.on_click
@@ -69,7 +69,7 @@
         parameter="marketplace_activate" />
 	</menu_item_call>
 	<menu_item_call
-        label="Deactivate"
+        label="비활성화"
         layout="topleft"
         name="Marketplace Deactivate">
 		<menu_item_call.on_click
@@ -80,7 +80,7 @@
     layout="topleft"
     name="Marketplace Listings Separator" />
     <menu_item_call
-     label="Share"
+     label="공유"
      layout="topleft"
      name="Share"
      visible="true">
@@ -88,7 +88,7 @@
          function="Inventory.Share" />
     </menu_item_call>
     <menu_item_call
-     label="Open"
+     label="열기"
      layout="topleft"
      name="Task Open">
         <menu_item_call.on_click
@@ -96,7 +96,7 @@
          parameter="task_open" />
     </menu_item_call>
     <menu_item_call
-     label="Play"
+     label="재생"
      layout="topleft"
      name="Task Play">
         <menu_item_call.on_click
@@ -104,7 +104,7 @@
          parameter="task_play" />
     </menu_item_call>
     <menu_item_call
-     label="Properties"
+     label="소유물"
      layout="topleft"
      name="Task Properties">
         <menu_item_call.on_click
@@ -112,7 +112,7 @@
          parameter="task_properties" />
     </menu_item_call>
     <menu_item_call
-     label="Rename"
+     label="개명"
      layout="topleft"
      name="Task Rename">
         <menu_item_call.on_click
@@ -120,7 +120,7 @@
          parameter="rename" />
     </menu_item_call>
     <menu_item_call
-     label="Delete"
+     label="삭제"
      layout="topleft"
      name="Task Remove">
         <menu_item_call.on_click
@@ -128,7 +128,7 @@
          parameter="delete" />
     </menu_item_call>
     <menu_item_call
-     label="Empty Trash"
+     label="쓰레기 비우기"
      layout="topleft"
      name="Empty Trash">
         <menu_item_call.on_click
@@ -136,7 +136,7 @@
          parameter="rename" />
     </menu_item_call>
     <menu_item_call
-     label="Empty Lost And Found"
+     label="빈 분실물 센터"
      layout="topleft"
      name="Empty Lost And Found">
         <menu_item_call.on_click
@@ -144,7 +144,7 @@
          parameter="rename" />
     </menu_item_call>
     <menu_item_call
-     label="New Folder"
+     label="새 폴더"
      layout="topleft"
      name="New Folder">
         <menu_item_call.on_click
@@ -152,7 +152,7 @@
          parameter="category" />
     </menu_item_call>
     <menu_item_call
-     label="New Outfit"
+     label="새 의상"
      layout="topleft"
      name="New Outfit">
         <menu_item_call.on_click
@@ -160,7 +160,7 @@
          parameter="outfit" />
     </menu_item_call>
     <menu_item_call
-     label="New Script"
+     label="새 스크립트"
      layout="topleft"
      name="New Script">
         <menu_item_call.on_click
@@ -168,7 +168,7 @@
          parameter="lsl" />
     </menu_item_call>
     <menu_item_call
-     label="New Notecard"
+     label="새 노트카드"
      layout="topleft"
      name="New Note">
         <menu_item_call.on_click
@@ -176,7 +176,7 @@
          parameter="notecard" />
     </menu_item_call>
     <menu_item_call
-     label="New Gesture"
+     label="새 제스쳐"
      layout="topleft"
      name="New Gesture">
         <menu_item_call.on_click
@@ -184,11 +184,11 @@
          parameter="gesture" />
     </menu_item_call>
     <menu
-     label="New Clothes"
+     label="새 옷"
      layout="topleft"
      name="New Clothes">
         <menu_item_call
-         label="New Shirt"
+         label="새 셔츠"
          layout="topleft"
          name="New Shirt">
             <menu_item_call.on_click
@@ -196,7 +196,7 @@
              parameter="shirt" />
         </menu_item_call>
         <menu_item_call
-         label="New Pants"
+         label="새 바지"
          layout="topleft"
          name="New Pants">
             <menu_item_call.on_click
@@ -204,7 +204,7 @@
              parameter="pants" />
         </menu_item_call>
         <menu_item_call
-         label="New Shoes"
+         label="새 신발"
          layout="topleft"
          name="New Shoes">
             <menu_item_call.on_click
@@ -212,7 +212,7 @@
              parameter="shoes" />
         </menu_item_call>
         <menu_item_call
-         label="New Socks"
+         label="새 양말"
          layout="topleft"
          name="New Socks">
             <menu_item_call.on_click
@@ -220,7 +220,7 @@
              parameter="socks" />
         </menu_item_call>
         <menu_item_call
-         label="New Jacket"
+         label="새 자켓"
          layout="topleft"
          name="New Jacket">
             <menu_item_call.on_click
@@ -228,7 +228,7 @@
              parameter="jacket" />
         </menu_item_call>
         <menu_item_call
-         label="New Skirt"
+         label="새 치마"
          layout="topleft"
          name="New Skirt">
             <menu_item_call.on_click
@@ -236,7 +236,7 @@
              parameter="skirt" />
         </menu_item_call>
         <menu_item_call
-         label="New Gloves"
+         label="새 장갑"
          layout="topleft"
          name="New Gloves">
             <menu_item_call.on_click
@@ -244,7 +244,7 @@
              parameter="gloves" />
         </menu_item_call>
         <menu_item_call
-         label="New Undershirt"
+         label="새 속셔츠"
          layout="topleft"
          name="New Undershirt">
             <menu_item_call.on_click
@@ -252,7 +252,7 @@
              parameter="undershirt" />
         </menu_item_call>
         <menu_item_call
-         label="New Underpants"
+         label="새 속옷"
          layout="topleft"
          name="New Underpants">
             <menu_item_call.on_click
@@ -260,7 +260,7 @@
              parameter="underpants" />
         </menu_item_call>
         <menu_item_call
-         label="New Alpha Mask"
+         label="새 알파 마스크"
          layout="topleft"
          name="New Alpha Mask">
             <menu_item_call.on_click
@@ -268,7 +268,7 @@
              parameter="alpha" />
         </menu_item_call>
         <menu_item_call
-         label="New Tattoo"
+         label="새 문신"
          layout="topleft"
          name="New Tattoo">
             <menu_item_call.on_click
@@ -276,7 +276,7 @@
              parameter="tattoo" />
         </menu_item_call>
       <menu_item_call
-         label="New Universal"
+         label="새 유니버셜"
          layout="topleft"
          name="New Universal">
         <menu_item_call.on_click
@@ -284,7 +284,7 @@
          parameter="universal" />
       </menu_item_call>
         <menu_item_call
-         label="New Physics"
+         label="새로운 몸매"
          layout="topleft"
          name="New Physics">
             <menu_item_call.on_click
@@ -293,11 +293,11 @@
         </menu_item_call>
     </menu>
     <menu
-     label="New Body Parts"
+     label="새로운 몸 부분"
      layout="topleft"
      name="New Body Parts">
         <menu_item_call
-         label="New Shape"
+         label="새로운 모양"
          layout="topleft"
          name="New Shape">
             <menu_item_call.on_click
@@ -305,7 +305,7 @@
              parameter="shape" />
         </menu_item_call>
         <menu_item_call
-         label="New Skin"
+         label="새 피부"
          layout="topleft"
          name="New Skin">
             <menu_item_call.on_click
@@ -313,7 +313,7 @@
              parameter="skin" />
         </menu_item_call>
         <menu_item_call
-         label="New Hair"
+         label="새 머리"
          layout="topleft"
          name="New Hair">
             <menu_item_call.on_click
@@ -321,7 +321,7 @@
              parameter="hair" />
         </menu_item_call>
         <menu_item_call
-         label="New Eyes"
+         label="새 눈"
          layout="topleft"
          name="New Eyes">
             <menu_item_call.on_click
@@ -330,11 +330,11 @@
         </menu_item_call>
     </menu>
     <menu
-     label="New Settings"
+     label="새 설정"
      layout="topleft"
      name="New Settings">
         <menu_item_call
-         label="New Sky"
+         label="새 하늘"
          layout="topleft"
          name="New Sky">
             <menu_item_call.on_click
@@ -344,7 +344,7 @@
                     function="Inventory.EnvironmentEnabled" />
         </menu_item_call>
         <menu_item_call
-         label="New Water"
+         label="새 물"
          layout="topleft"
          name="New Water">
             <menu_item_call.on_click
@@ -354,7 +354,7 @@
                     function="Inventory.EnvironmentEnabled" />
         </menu_item_call>
         <menu_item_call
-         label="New Day Cycle"
+         label="새 요일 주기"
          layout="topleft"
          name="New Day Cycle">
             <menu_item_call.on_click
@@ -365,11 +365,11 @@
         </menu_item_call>
     </menu>
     <menu
-     label="Use as default for"
+     label="기본값으로 사용하기"
      layout="topleft"
      name="upload_def">
       <menu_item_call
-       label="Image uploads"
+       label="이미지 업로드"
        layout="topleft"
        name="Image uploads">
         <menu_item_call.on_click
@@ -377,7 +377,7 @@
          parameter="texture" />
       </menu_item_call>
       <menu_item_call
-       label="Sound uploads"
+       label="소리 업로드"
        layout="topleft"
        name="Sound uploads">
         <menu_item_call.on_click
@@ -385,7 +385,7 @@
          parameter="sound" />
       </menu_item_call>
       <menu_item_call
-       label="Animation uploads"
+       label="애니메이션 업로드"
        layout="topleft"
        name="Animation uploads">
         <menu_item_call.on_click
@@ -393,7 +393,7 @@
          parameter="animation" />
       </menu_item_call>
       <menu_item_call
-       label="Model uploads"
+       label="모델 업로드"
        layout="topleft"
        name="Model uploads">
         <menu_item_call.on_click
@@ -402,11 +402,11 @@
       </menu_item_call>
     </menu>
     <menu
-     label="Change Type"
+     label="타입 변경"
      layout="topleft"
      name="Change Type">
         <menu_item_call
-         label="Default"
+         label="기본값"
          layout="topleft"
          name="Default">
             <menu_item_call.on_click
@@ -414,7 +414,7 @@
              parameter="change_folder_type_default" />
         </menu_item_call>
         <menu_item_call
-         label="Gloves"
+         label="장갑"
          layout="topleft"
          name="Gloves">
             <menu_item_call.on_click
@@ -422,7 +422,7 @@
              parameter="change_folder_type_gloves" />
         </menu_item_call>
         <menu_item_call
-         label="Jacket"
+         label="자켓"
          layout="topleft"
          name="Jacket">
             <menu_item_call.on_click
@@ -430,7 +430,7 @@
              parameter="change_folder_type_jacket" />
         </menu_item_call>
         <menu_item_call
-         label="Pants"
+         label="바지"
          layout="topleft"
          name="Pants">
             <menu_item_call.on_click
@@ -438,7 +438,7 @@
              parameter="change_folder_type_pants" />
         </menu_item_call>
         <menu_item_call
-         label="Shape"
+         label="모양"
          layout="topleft"
          name="Shape">
             <menu_item_call.on_click
@@ -446,7 +446,7 @@
              parameter="change_folder_type_shape" />
         </menu_item_call>
         <menu_item_call
-         label="Shoes"
+         label="신발"
          layout="topleft"
          name="Shoes">
             <menu_item_call.on_click
@@ -454,7 +454,7 @@
              parameter="change_folder_type_shoes" />
         </menu_item_call>
         <menu_item_call
-         label="Shirt"
+         label="셔츠"
          layout="topleft"
          name="Shirt">
             <menu_item_call.on_click
@@ -462,7 +462,7 @@
              parameter="change_folder_type_shirt" />
         </menu_item_call>
         <menu_item_call
-         label="Skirt"
+         label="치마"
          layout="topleft"
          name="Skirt">
             <menu_item_call.on_click
@@ -470,7 +470,7 @@
              parameter="change_folder_type_skirt" />
         </menu_item_call>
         <menu_item_call
-         label="Underpants"
+         label="속옷"
          layout="topleft"
          name="Underpants">
             <menu_item_call.on_click
@@ -478,7 +478,7 @@
              parameter="change_folder_type_underpants" />
         </menu_item_call>
         <menu_item_call
-         label="Undershirt"
+         label="속 셔츠"
          layout="topleft"
          name="Undershirt">
             <menu_item_call.on_click
@@ -487,7 +487,7 @@
         </menu_item_call>
     </menu>
     <menu_item_call
-     label="Teleport"
+     label="순간이동"
      layout="topleft"
      name="Landmark Open">
         <menu_item_call.on_click
@@ -495,7 +495,7 @@
          parameter="open" />
     </menu_item_call>
     <menu_item_call
-     label="Open"
+     label="열기"
      layout="topleft"
      name="Animation Open">
         <menu_item_call.on_click
@@ -503,7 +503,7 @@
          parameter="open" />
     </menu_item_call>
     <menu_item_call
-     label="Open"
+     label="열기"
      layout="topleft"
      name="Sound Open">
         <menu_item_call.on_click
@@ -514,7 +514,7 @@
      layout="topleft"
      name="Folder Wearables Separator" />
     <menu_item_call
-     label="Replace Current Outfit"
+     label="현재 의상 교체"
      layout="topleft"
      name="Replace Outfit">
         <menu_item_call.on_click
@@ -522,7 +522,7 @@
          parameter="replaceoutfit" />
     </menu_item_call>
     <menu_item_call
-     label="Add To Current Outfit"
+     label="현재 의상에서 추가"
      layout="topleft"
      name="Add To Outfit">
         <menu_item_call.on_click
@@ -530,7 +530,7 @@
          parameter="addtooutfit" />
     </menu_item_call>
     <menu_item_call
-     label="Wear Items"
+     label="아이템 입기"
      layout="topleft"
      name="Wear Items">
       <menu_item_call.on_click
@@ -538,7 +538,7 @@
        parameter="replaceitems" />
     </menu_item_call>
     <menu_item_call
-     label="Remove From Current Outfit"
+     label="현재 의상에서 제거"
      layout="topleft"
      name="Remove From Outfit">
         <menu_item_call.on_click
@@ -546,7 +546,7 @@
          parameter="removefromoutfit" />
     </menu_item_call>
     <menu_item_call
-     label="Copy outfit list to clipboard"
+     label="의상 목록 클립보드에 복사"
      layout="topleft"
      name="Copy outfit list to clipboard">
         <menu_item_call.on_click
@@ -557,7 +557,7 @@
      layout="topleft"
      name="Outfit Separator" />
     <menu_item_call
-     label="Find Original"
+     label="원본 찾기"
      layout="topleft"
      name="Find Original">
         <menu_item_call.on_click
@@ -565,7 +565,7 @@
          parameter="goto" />
     </menu_item_call>
     <menu_item_call
-     label="Purge Item"
+     label="항목 정리"
      layout="topleft"
      name="Purge Item">
         <menu_item_call.on_click
@@ -573,7 +573,7 @@
          parameter="purge"/>
     </menu_item_call>
     <menu_item_call
-     label="Restore Item"
+     label="아이템 복구"
      layout="topleft"
      name="Restore Item">
         <menu_item_call.on_click
@@ -581,7 +581,7 @@
          parameter="restore" />
     </menu_item_call>
     <menu_item_call
-     label="Open"
+     label="열기"
      layout="topleft"
      name="Open">
         <menu_item_call.on_click
@@ -589,7 +589,7 @@
          parameter="open" />
     </menu_item_call>
     <menu_item_call
-     label="Open Original"
+     label="원본 열기"
      layout="topleft"
      name="Open Original">
         <menu_item_call.on_click
@@ -597,7 +597,7 @@
          parameter="open_original" />
     </menu_item_call>
     <menu_item_call
-     label="Properties"
+     label="속성"
      layout="topleft"
      name="Properties">
         <menu_item_call.on_click
@@ -605,7 +605,7 @@
          parameter="properties" />
     </menu_item_call>
     <menu_item_call
-     label="Rename"
+     label="개명"
      layout="topleft"
      name="Rename">
         <menu_item_call.on_click
@@ -613,7 +613,7 @@
          parameter="rename" />
     </menu_item_call>
     <menu_item_call
-     label="Protect"
+     label="보호"
      layout="topleft"
      name="ProtectFolder">
         <menu_item_call.on_click
@@ -621,7 +621,7 @@
          parameter="protect_folder" />
     </menu_item_call>
     <menu_item_call
-     label="Unprotect"
+     label="보호되지 않음"
      layout="topleft"
      name="UnprotectFolder">
         <menu_item_call.on_click
@@ -629,7 +629,7 @@
          parameter="unprotect_folder" />
     </menu_item_call>
     <menu_item_call
-     label="Copy Asset UUID"
+     label="재산 복사 UUID"
      layout="topleft"
      name="Copy Asset UUID">
         <menu_item_call.on_click
@@ -637,7 +637,7 @@
          parameter="copy_uuid" />
     </menu_item_call>
     <menu_item_call
-     label="Show in Main View"
+     label="메인 뷰에서 보기"
      layout="topleft"
      name="Show in Main Panel">
         <menu_item_call.on_click
@@ -645,7 +645,7 @@
          parameter="show_in_main_panel" />
     </menu_item_call>
     <menu_item_call
-     label="Restore to Last Position"
+     label="마지막 위치로 복구"
      layout="topleft"
      name="Restore to Last Position">
         <menu_item_call.on_click
@@ -656,7 +656,7 @@
      layout="topleft" 
      name="Copy Separator" />
     <menu_item_call
-     label="Copy"
+     label="복사"
      layout="topleft"
      name="Copy">
         <menu_item_call.on_click
@@ -664,7 +664,7 @@
          parameter="copy" />
     </menu_item_call>
     <menu_item_call
-     label="Cut"
+     label="자르기"
      layout="topleft"
      name="Cut">
         <menu_item_call.on_click
@@ -672,7 +672,7 @@
          parameter="cut" />
     </menu_item_call>
     <menu_item_call
-     label="Paste"
+     label="붙이기"
      layout="topleft"
      name="Paste">
         <menu_item_call.on_click
@@ -680,7 +680,7 @@
          parameter="paste" />
     </menu_item_call>
     <menu_item_call
-     label="Paste As Link"
+     label="링크로 붙여넣기"
      layout="topleft"
      name="Paste As Link">
         <menu_item_call.on_click
@@ -688,7 +688,7 @@
          parameter="paste_link" />
     </menu_item_call>
     <menu_item_call 
-     label="Find All Links"
+     label="모든 링크 찾기"
      layout="topleft"
      name="Find Links">
         <menu_item_call.on_click
@@ -696,7 +696,7 @@
          parameter="find_links" />
     </menu_item_call>
     <menu_item_call
-     label="Replace Links"
+     label="링크 대체"
      layout="topleft"
      name="Replace Links">
         <menu_item_call.on_click
@@ -707,7 +707,7 @@
      layout="topleft" 
      name="Paste Separator" />
     <menu_item_call
-     label="Delete"
+     label="삭제"
      layout="topleft"
      name="Delete">
         <menu_item_call.on_click
@@ -715,7 +715,7 @@
          parameter="delete" />
     </menu_item_call>
     <menu_item_call
-     label="Cleanup broken Links"
+     label="끊어진 링크 정리"
      layout="topleft"
      name="Cleanup broken Links">
         <menu_item_call.on_click
@@ -723,7 +723,7 @@
          parameter="cleanup_broken_links"/>
     </menu_item_call>
     <menu_item_call
-     label="Move to Default Folder"
+     label="기본 폴더로 이동"
      layout="topleft"
      name="Move to Default Folder">
         <menu_item_call.on_click
@@ -731,7 +731,7 @@
          parameter="move_to_default_folder" />
     </menu_item_call>
     <menu_item_call
-     label="Move to Lost And Found"
+     label="분실물센터로 이동"
      layout="topleft"
      name="Move to Lost And Found">
         <menu_item_call.on_click
@@ -739,7 +739,7 @@
          parameter="move_to_lost_and_found" />
     </menu_item_call>
     <menu_item_call
-     label="Delete System Folder"
+     label="시스템 폴더 삭제"
      layout="topleft"
      name="Delete System Folder">
         <menu_item_call.on_click
@@ -751,7 +751,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Start Conference Chat"
+     label="회의 채팅 시작"
      layout="topleft"
      name="Conference Chat Folder">
         <menu_item_call.on_click
@@ -761,7 +761,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Play"
+     label="재생"
      layout="topleft"
      name="Sound Play">
         <menu_item_call.on_click
@@ -772,7 +772,7 @@
      layout="topleft"
      name="Landmark Separator" />
     <menu_item_call
-    label="Copy SLurl"
+    label="복사 SLurl"
     layout="topleft"
     name="url_copy">
        <menu_item_call.on_click
@@ -780,7 +780,7 @@
         parameter="copy_slurl" />
    </menu_item_call> 
    <menu_item_call
-     label="About Landmark"
+     label="랜드마크에 대해"
      layout="topleft"
      name="About Landmark">
         <menu_item_call.on_click
@@ -788,7 +788,7 @@
          parameter="about" />
     </menu_item_call>
    <menu_item_call
-     label="Show on Map"
+     label="지도에서 표시"
      layout="topleft"
      name="show_on_map">
         <menu_item_call.on_click
@@ -799,7 +799,7 @@
      layout="topleft" 
      name="Animation Separator" />
     <menu_item_call
-     label="Play Inworld"
+     label="인월드 재생"
      layout="topleft"
      name="Animation Play">
         <menu_item_call.on_click
@@ -807,7 +807,7 @@
          parameter="playworld" />
     </menu_item_call>
     <menu_item_call
-     label="Play Locally"
+     label="로컬 재생"
      layout="topleft"
      name="Animation Audition">
         <menu_item_call.on_click
@@ -818,7 +818,7 @@
      layout="topleft" 
      name="Send Instant Message Separator" />
     <menu_item_call
-     label="Send Instant Message"
+     label="인스턴스 메세지 전송"
      layout="topleft"
      name="Send Instant Message">
         <menu_item_call.on_click
@@ -826,7 +826,7 @@
          parameter="begin_im" />
     </menu_item_call>
     <menu_item_call
-     label="Offer Teleport..."
+     label="순간이동 제안..."
      layout="topleft"
      name="Offer Teleport...">
         <menu_item_call.on_click
@@ -834,7 +834,7 @@
          parameter="lure" />
     </menu_item_call>
     <menu_item_call
-     label="Request Teleport..."
+     label="순간이동 요청..."
      layout="topleft"
      name="Request Teleport...">
         <menu_item_call.on_click
@@ -842,7 +842,7 @@
         parameter="request_lure" />
     </menu_item_call>
     <menu_item_call
-     label="Start Conference Chat"
+     label="회의 채팅 시작"
      layout="topleft"
      name="Conference Chat">
         <menu_item_call.on_click
@@ -853,7 +853,7 @@
      layout="topleft" 
      name="Gesture Separator" />
     <menu_item_call
-     label="Activate"
+     label="활성화"
      layout="topleft"
      name="Activate">
         <menu_item_call.on_click
@@ -861,7 +861,7 @@
          parameter="activate" />
     </menu_item_call>
     <menu_item_call
-     label="Deactivate"
+     label="비활성화"
      layout="topleft"
      name="Deactivate">
         <menu_item_call.on_click
@@ -872,26 +872,18 @@
      layout="topleft" 
      name="Texture Separator" />
     <menu_item_call
-     label="Save As"
+     label="다른이름으로 저장"
      layout="topleft"
      name="Save As">
         <menu_item_call.on_click
          function="Inventory.DoToSelected"
          parameter="save_as" />
     </menu_item_call>
-  <menu_item_call
- label="Save to"
- layout="topleft"
- name="Save Selected As">
-    <menu_item_call.on_click
-     function="Inventory.DoToSelected"
-     parameter="save_selected_as" />
-  </menu_item_call>
     <menu_item_separator
      layout="topleft" 
      name="Wearable And Object Separator"/>
     <menu_item_call
-     label="Wear"
+     label="입기"
      layout="topleft"
      name="Wearable And Object Wear">
         <menu_item_call.on_click
@@ -899,7 +891,7 @@
          parameter="wear" />
     </menu_item_call>
     <menu_item_call
-     label="Add"
+     label="추가"
      layout="topleft"
      name="Wearable Add">
         <menu_item_call.on_click
@@ -907,15 +899,15 @@
          parameter="wear_add" />
     </menu_item_call>
     <menu
-     label="Attach To"
+     label="붙이기"
      layout="topleft"
      name="Attach To" />
     <menu
-     label="Attach To HUD"
+     label="HUD에 붙이기"
      layout="topleft"
      name="Attach To HUD" />
     <menu_item_call
-     label="Touch"
+     label="터치"
      layout="topleft"
      name="Attachment Touch">
         <menu_item_call.on_click
@@ -923,7 +915,7 @@
          parameter="touch" />
     </menu_item_call>
     <menu_item_call
-     label="Edit"
+     label="수정"
      layout="topleft"
      name="Wearable Edit">
         <menu_item_call.on_click
@@ -931,7 +923,7 @@
          parameter="edit" />
     </menu_item_call>
     <menu_item_call
-     label="Texture Refresh"
+     label="텍스쳐 새로고침"
      layout="topleft"
      name="Texture Refresh Attachment">
         <menu_item_call.on_click
@@ -939,7 +931,7 @@
          parameter="texture_refresh_attachment" />
     </menu_item_call>
     <menu_item_call
-     label="Detach From Yourself"
+     label="자기 자신으로부터 분리"
      layout="topleft"
      name="Detach From Yourself">
         <menu_item_call.on_click
@@ -947,7 +939,7 @@
          parameter="detach" />
     </menu_item_call>
     <menu_item_call
-     label="Take Off"
+     label="벗기"
      layout="topleft"
      name="Take Off">
         <menu_item_call.on_click
@@ -960,7 +952,7 @@
     <menu_item_call
             name="Settings Apply Local"
             layout="topleft"
-            label="Apply Only To Myself">
+            label="자기자신에게만 적용">
         <menu_item_call.on_click 
                 function="Inventory.DoToSelected"
                 parameter="apply_settings_local" />
@@ -968,7 +960,7 @@
     <menu_item_call
             name="Settings Apply Parcel"
             layout="topleft"
-            label="Apply To Parcel">
+            label="구획에 적용">
         <menu_item_call.on_click 
                 function="Inventory.DoToSelected"
                 parameter="apply_settings_parcel" />
@@ -977,7 +969,7 @@
 	 layout="topleft"
 	 name="Marketplace Separator" />
 	<menu_item_call
-        label="Copy to Marketplace Listings"
+        label="마켓플레이스 목록에 복사"
         layout="topleft"
         name="Marketplace Copy">
 		<menu_item_call.on_click
@@ -985,7 +977,7 @@
         parameter="copy_to_marketplace_listings" />
 	</menu_item_call>
 	<menu_item_call
-        label="Move to Marketplace Listings"
+        label="마켓플레이스 목록으로 이동"
         layout="topleft"
         name="Marketplace Move">
 		<menu_item_call.on_click
@@ -993,7 +985,7 @@
         parameter="move_to_marketplace_listings" />
 	</menu_item_call>
 	<menu_item_call
-     label="--no options--"
+     label="--옵션 없음--"
      layout="topleft"
      name="--no options--" />
     <menu_item_separator

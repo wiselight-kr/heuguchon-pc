@@ -26,7 +26,7 @@
      text_color="white"
      type="string"
      top_delta="3">
-        Inventory
+        인벤토리
     </text>
     <view_border 
      bevel_style="in"
@@ -41,30 +41,30 @@
     <combo_box
      follows="top|left|right"
      height="20"
-     label="Resolution"
+     label="결의안"
      layout="topleft"
      left_delta="0"
      name="texture_size_combo"
      right="-5"
      top_pad="5">
         <combo_box.item
-         label="Small (128x128)"
+         label="작음 (128x128)"
          name="Small(128x128)"
          value="[i128,i128]" />
         <combo_box.item
-         label="Medium (256x256)"
+         label="중간 (256x256)"
          name="Medium(256x256)"
          value="[i256,i256]" />
         <combo_box.item
-         label="Large (512x512)"
+         label="큼 (512x512)"
          name="Large(512x512)"
          value="[i512,i512]" />
         <combo_box.item
-         label="Current Window(512x512)"
+         label="지금 창(512x512)"
          name="CurrentWindow"
          value="[i0,i0]" />
         <combo_box.item
-         label="Custom"
+         label="사용자화"
          name="Custom"
          value="[i-1,i-1]" />
     </combo_box>
@@ -74,7 +74,7 @@
      follows="left|top"
      height="20"
      increment="32"
-     label="Width x Height"
+     label="폭 x 높이"
      label_width="90"
      layout="topleft"
      left="10"
@@ -101,7 +101,7 @@
     <check_box
      top_pad="12"
      follows="left|top"
-     label="Constrain proportions"
+     label="비율 제한"
      layout="topleft"
      left="10"
      name="inventory_keep_aspect_check"
@@ -110,7 +110,7 @@
      control_name="TemporaryUpload"
      top_pad="-10"
      follows="left|top"
-     label="Temp upload"
+     label="임시 업로드"
      layout="topleft"
      left="10"
      name="inventory_temp_upload"
@@ -127,12 +127,12 @@
      width="200"
      type="string"
      word_wrap="true">
-        To save your image as a texture select one of the square formats.
+        이미지를 텍스처로 저장하려면 정사각형 형식 중 하나를 선택합니다.
     </text>
     <button
      follows="right|bottom"
      height="23"
-     label="&#x25B6; Selection"
+     label="&#x25B6; 선택"
      layout="topleft"
      name="cancel_btn"
      right="-5"
@@ -144,7 +144,7 @@
     <button
      follows="left|bottom"
      height="23"
-     label="Save"
+     label="저장"
      layout="topleft"
      left="10"
      name="save_btn"

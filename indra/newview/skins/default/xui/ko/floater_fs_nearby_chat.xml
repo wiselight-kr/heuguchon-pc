@@ -22,7 +22,7 @@
   can_resize="true"
   min_width="250"
   min_height="150">
-  <floater.string name="chatbox_label">To nearby chat</floater.string>
+  <floater.string name="chatbox_label">근처 채팅에게</floater.string>
   <layout_stack
     border_size="0"
     animate="false"
@@ -57,7 +57,7 @@
       image_hover_unselected="Toolbar_Middle_Over"
       image_selected="Toolbar_Middle_Selected"
       image_unselected="Toolbar_Middle_Off"
-      tool_tip="Use selected translation service"
+      tool_tip="선택한 번역 서비스 사용"
       name="translate_btn"/>
     </layout_panel>
      <layout_panel
@@ -78,7 +78,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Open the nearby chat transcript."
+       tool_tip="근처 대화 내용 열기."
        name="chat_history_btn"/>
      </layout_panel>
      <layout_panel
@@ -102,7 +102,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Shows the muted chat in nearby chat transcript."
+       tool_tip="주변 대화 내용에 음소거된 대화 표시."
        name="chat_history_muted_btn"/>
     </layout_panel>
      <layout_panel
@@ -125,7 +125,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Chat Options"
+       tool_tip="대화 옵션"
        name="chat_options_btn"/>
     </layout_panel>
     <layout_panel
@@ -147,7 +147,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Search nearby chat"
+       tool_tip="주변 대화 찾기"
        image_overlay="Script_Search"/>
     </layout_panel>
     <layout_panel
@@ -249,7 +249,7 @@
             left="6"
             height="14"
             bottom="-3">
-            Unread Messages: [NUM]
+            읽지 않은 메세지: [NUM]
           </text>
         </layout_panel>
         <layout_panel
@@ -318,7 +318,7 @@
                min_val="-2147483647"
                mouse_opaque="true"
                name="ChatChannel"
-               tool_tip="Channel to send chat on. Enabled in Preferences -> Chat -> Firestorm -> Show channel selection in chat bar." />
+               tool_tip="채팅을 보낼 채널입니다. [환경설정] -> [대화] -> [파이어스톰] -> [대화창에 채널 선택 표시]에서 사용 가능." />
 
             </layout_panel>
             <layout_panel
@@ -343,19 +343,19 @@
               drop_down_button.image_unselected="PushButton_Off"
               drop_down_button.halign="center"
               list_position="above"
-              tool_tip="Whisper = 10m, Say = 20m, Shout = 100m">
+              tool_tip="속삭임 = 10m, 말하기 = 20m, 외침 = 100m">
               <combo_box.item
                 name="chat_type_whisper"
-                value="whisper"
-                label="Whisper" />
+                value="속삭임"
+                label="속삭임" />
               <combo_box.item
                 name="chat_type_say"
-                value="say"
-                label="Say" />
+                value="말하기"
+                label="말하기" />
               <combo_box.item
                 name="chat_type_shout"
-                value="shout"
-                label="Shout" />
+                value="외침"
+                label="외침" />
             </combo_box>
             <!-- pad_bottom used to move the button text away so it's invisible under the combo box -->
             <button
@@ -369,10 +369,10 @@
               right="-22"
               height="24"
               follows="bottom|left|right"
-              label="Say"
+              label="말하기"
               pad_bottom="-22"
               name="send_chat"
-              tool_tip="Whisper = 10m, Say = 20m, Shout = 100m" />
+              tool_tip="속삭임 = 10m, 말하기 = 20m, 외침 = 100m" />
             <icon
               name="chat_type_combo_arrow_icon"
               layout="topleft"

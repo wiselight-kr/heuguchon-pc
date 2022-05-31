@@ -7,10 +7,10 @@
  left="1"
  top="1"
  width="540"
- label="Opensim"
+ label="오픈심"
  name="opensim_panel">
 <tab_container
- label="Opensim"
+ label="오픈심"
  layout="topleft"
  follows="all"
  top="5"
@@ -28,7 +28,7 @@
   left="0"
   top="0"
   width="540"
-  label="Grid Manager"
+  label="그리드 매니저"
   name="grid_management_panel">
     <text
       type="string"
@@ -40,7 +40,7 @@
       name="add_grid_text"
       top="12"
       width="400">
-      Add new grid
+      새로운 그리드 추가
     </text>
     <line_editor
       border_style="line"
@@ -53,13 +53,13 @@
       max_length_chars="4096"
       name="add_grid"
       top_pad="5"
-	  label="Enter a LoginURI"
+	  label="로그인URI 입력"
       width="270" />
     <button
       follows="left|top"
       height="19"
-      label="Clear"
-      label_selected="Clear"
+      label="클리어"
+      label_selected="클리어"
       layout="topleft"
       left_pad="2"
       name="clear_grid"
@@ -71,7 +71,7 @@
     <button
       follows="left|top"
       height="19"
-      label="Apply"
+      label="적용"
       layout="topleft"
       left_pad="2"
       name="apply_new_grid"
@@ -90,7 +90,7 @@
       name="add_grid_text"
       top_pad="10"
       width="400">
-      Manage Grids
+      그리드 관리
     </text>
     <scroll_list
       height="125"
@@ -101,18 +101,18 @@
       top="104"
       width="370">
         <scroll_list.columns
-          label="Grid name"
+          label="그리드 이름"
           name="grid_label"
           width="150" />
         <scroll_list.columns
           dynamic_width="true"
-          label="Login URI"
+          label="로그인 URI"
           name="login_uri" />
     </scroll_list>
       <button
       follows="left|top"
       height="19"
-      label="Refresh"
+      label="새로고침"
       layout="topleft"
       left_pad="5"
       name="refresh_grid"
@@ -124,7 +124,7 @@
     <button
       follows="left|top"
       height="19"
-      label="Remove"
+      label="삭제"
       layout="topleft"
       left_delta="0"
       name="remove_grid"
@@ -151,7 +151,7 @@
 			  height="16"
 			  name="grid_name_text"
 			  width="130">
-			  Grid Name:
+			  그리드 이름:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -191,7 +191,7 @@
 			  height="16"
 			  name="grid_uri_text"
 			  width="130">
-			  Grid URI:
+			  그리드 URI:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -210,7 +210,7 @@
 			  height="16"
 			  name="login_page_text"
 			  width="130">
-			  Login Page:
+			  로그인 페이지:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -229,7 +229,7 @@
 			  height="16"
 			  name="helper_uri_text"
 			  width="130">
-			  Helper URI:
+			  도움 URI:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -248,7 +248,7 @@
 			  height="16"
 			  name="website_text"
 			  width="130">
-			  Grid Website:
+			  그리드 웹사이트:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -267,7 +267,7 @@
 			  height="16"
 			  name="support_text"
 			  width="130">
-			  Grid Support:
+			  그리드 도움:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -286,7 +286,7 @@
 			  height="16"
 			  name="register_text"
 			  width="130">
-			  Grid Registration:
+			  그리드 등록:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -305,7 +305,7 @@
 			  height="16"
 			  name="password_text"
 			  width="130">
-			  Grid Password URI:
+			  그리드 비밀번호 URI:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -324,7 +324,7 @@
 			  height="16"
 			  name="search_text"
 			  width="130">
-			  Grid Search:
+			  그리드 검색:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -343,7 +343,7 @@
 			  height="16"
 			  name="message_text"
 			  width="130">
-			  Grid Message URI:
+			  그리드 메세지 URI:
 		  </text>
 		  <line_editor
 		  enabled_control="FSEditGrid"
@@ -364,13 +364,13 @@
 	left="0"
 	top="0"
 	width="540"
-	label="Miscellaneous"
+	label="일종의"
 	name="opensim_misc_panel">
 	  <check_box
       control_name="DebugSearch"
       height="16"
       initial_value="false"
-      label="Debug Search"
+      label="디버그 검색"
       layout="topleft"
       left="30"
       name="DebugSearch"
@@ -386,7 +386,7 @@
 		  name="search_url_debug_text"
 		  top_pad="5"
 		  width="400">
-		  Override current search url: (no override if empty)
+		  현재 검색 url 무시: (비어있다면 무시하지 않음)
 	  </text>
 	  <line_editor
       control_name="SearchURLDebug"
@@ -406,8 +406,8 @@
 		  enabled_control="DebugSearch"
 		  follows="left|top"
 		  height="19"
-		  label="Clear"
-		  label_selected="Clear"
+		  label="클리어"
+		  label_selected="클리어"
 		  layout="topleft"
 		  left_pad="2"
 		  name="clear_search_url_debug"
@@ -420,7 +420,7 @@
 		  enabled_control="DebugSearch"
 		  follows="left|top"
 		  height="19"
-		  label="Pick"
+		  label="픽"
 		  layout="topleft"
 		  left_pad="2"
 		  name="pick_current_search_url"

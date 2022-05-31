@@ -6,15 +6,15 @@
  width="490">
     <string
      name="default_subject">
-        Postcard from [SECOND_LIFE].
+        [SECOND_LIFE]의 영역 추적기에 영역 추가 포스트카드.
     </string>
     <string
      name="default_message">
-        Check this out!
+        확인해보세요!
     </string>
     <string
      name="upload_message">
-        Sending...
+        보내는중...
     </string>
     <icon
      follows="top|left"
@@ -65,20 +65,20 @@
       <panel
        follows="all"
        layout="topleft"
-       label="Message"
+       label="메세지"
        name="panel_postcard_message"
        filename="panel_postcard_message.xml" />
       <panel
        follows="all"
        layout="topleft"
-       label="Settings"
+       label="설정"
        name="panel_postcard_settings"
        filename="panel_postcard_settings.xml" />
     </tab_container>
     <button
      follows="right|bottom"
      height="23"
-     label="&#x25B6; Selection"
+     label="&#x25B6; 선택"
      layout="topleft"
      name="cancel_btn"
      right="-6"
@@ -90,7 +90,7 @@
     <button
      follows="left|bottom"
      height="23"
-     label="Send"
+     label="전송"
      layout="topleft"
      left="10"
      name="send_btn"

@@ -14,7 +14,7 @@
  single_instance="true"
  title="World Map"
  width="650">
- <floater.string name="UnnamedParcel">(Unnamed Parcel)</floater.string>
+ <floater.string name="UnnamedParcel">(이름 없는 구획)</floater.string>
  <layout_stack
   follows="all"
   layout="topleft"
@@ -40,7 +40,31 @@
     left="5"
     name="objects_mapview"
     top="5"
-    width="386"/>
+    width="381"/>
+   <panel
+    follows="right|top"
+    height="40"
+	left="330"
+	top="10"
+    width="60"
+	layout="topleft"
+	background_visible="false"
+    name="map_details_selection">
+    <button
+     follows="right|top"
+     control_name="StarLightShowMapDetails"
+     height="40"
+	 is_toggle="true"
+	 image_unselected="TabIcon_Open_Off"
+	 image_selected="TabIcon_Close_Off"
+     mouse_opaque="false"
+     left="10"
+     layout="topleft"
+     name="Show Map details"
+     tool_tip="세계 지도 옆에 세부 정보 표시 또는 숨기기"
+     top="6"
+     width="40"/>
+   </panel>
    <panel
     follows="right|bottom"
     height="20"
@@ -74,53 +98,6 @@
      width="150" />
     </panel>
    </layout_panel>
-
-  <!-- <FS:Zi> FIRE-31376: Splitter panel to show/hide map details -->
-  <layout_panel
-   follows="all"
-   height="512"
-   left_delta="0"
-   min_width="8"
-   name="map_details_splitter"
-   width="8">
-
-   <panel
-    follows="all"
-    height="512"
-    layout="topleft"
-    left="0"
-    top="0"
-    width="8">
-
-    <panel
-     background_visible="true"
-     bg_alpha_color="1.0 1.0 1.0 0.1"
-     follows="all"
-     height="506"
-     layout="topleft"
-     left="1"
-     top="2"
-     width="8"
-    />
-
-    <button
-     control_name="StarLightShowMapDetails"
-     follows="all"
-     height="512"
-     image_unselected="Arrow_Left_Unscaled"
-     image_selected="Arrow_Right_Unscaled"
-     is_toggle="true"
-     layout="topleft"
-     left="0"
-     name="Show Map details"
-     top="0"
-     width="12" />
-
-   </panel>
-
-  </layout_panel>
-  <!-- </FS:Zi> -->
-
   <layout_panel
    follows="right|bottom"
    top="0"	
@@ -153,7 +130,7 @@
      name="events_label"
      top="3"
      width="215">
-        Legend
+        전설
     </text>
    </panel>
    <panel
@@ -170,7 +147,7 @@
      left="4"
      layout="topleft"
      name="Show My Location"
-     tool_tip="Center map on my avatar&apos;s location"
+     tool_tip="내 아바타&apos;위치 중간 맵"
      top="6"
      width="24" >
 		<button.commit_callback
@@ -187,7 +164,7 @@
      layout="topleft"
      name="me_label"
      width="90">
-        Me
+        나
     </text>
     <check_box
      control_name="MapShowPeople"
@@ -220,7 +197,7 @@
      layout="topleft"
      name="person_label"
      width="90">
-        Person
+        사람
     </text>
     <check_box
      control_name="MapShowInfohubs"
@@ -252,7 +229,7 @@
      layout="topleft"
      name="infohub_label"
      width="90">
-        Infohub
+        정보허브
     </text>
     <check_box
      control_name="MapShowLandForSale"
@@ -284,7 +261,7 @@
      layout="topleft"
      name="land_sale_label"
      width="90">
-        Land Sale
+        땅 판매
     </text>
     <icon
      color="PropertyColorAuction"
@@ -307,7 +284,7 @@
      name="auction_label"
      top_delta="3"
      width="170">
-        land auction
+        땅 경매
     </text>
     <icon
      color="Yellow"
@@ -330,7 +307,7 @@
      name="by_owner_label"
      top_delta="3"
      width="100">
-       by owner
+       소유자에게
     </text>
 
     <button
@@ -343,7 +320,7 @@
      left="136"
      top="6"
      name="Go Home"
-     tool_tip="Teleport to my home location"
+     tool_tip="내 집 위치로 순간이동"
      width="24" >
 		<button.commit_callback
 		function="WMap.GoHome" />
@@ -359,7 +336,7 @@
      layout="topleft"
      name="Home_label"
      width="70">
-        Go Home
+        집으로 가기
     </text>
     <text
      type="string"
@@ -372,7 +349,7 @@
      name="events_label"
      top_pad="9"
      width="66">
-        Events:
+        이벤트:
     </text>
 
     <check_box
@@ -404,7 +381,7 @@
      layout="topleft"
      name="pg_label"
      width="60">
-        General
+        일반
     </text>
 
     <check_box
@@ -438,7 +415,7 @@
      layout="topleft"
      name="events_mature_label"
      width="66">
-        Moderate
+        적당한
     </text>
 
     <check_box
@@ -471,7 +448,7 @@
      layout="topleft"
      name="events_adult_label"
      width="66">
-        Adult
+        성인
     </text>
 </panel>
 
@@ -497,7 +474,7 @@
      name="find_on_map_label"
      top="3"
      width="215">
-        Find on Map
+        지도에서 찾기
     </text>
   </panel>
     <panel
@@ -521,16 +498,16 @@
      allow_text_entry="true"
      follows="top|right"
      height="23"
-     label="Online Friends"
+     label="온라인 친구"
      layout="topleft"
      top_delta="-4"
      left_pad="7"
      max_chars="60"
      name="friend combo"
-     tool_tip="Show friends on map"
+     tool_tip="지도에 친구 표시"
      width="227">
         <combo_box.item
-         label="My Friends Online"
+         label="내 친구 온라인"
          name="item1"
          value="None" />
 		<combo_box.commit_callback
@@ -551,16 +528,16 @@
      allow_text_entry="true"
      follows="top|right"
      height="23"
-     label="My Landmarks"
+     label="내 랜드마크"
      layout="topleft"
      top_delta="-3"
      left_pad="7"
      max_chars="64"
      name="landmark combo"
-     tool_tip="Landmark to show on map"
+     tool_tip="지도에 랜드마크 표시"
      width="227">
         <combo_box.item
-         label="My Landmarks"
+         label="내 랜드마크"
          name="item1"
          value="None" />
 		<combo_box.commit_callback
@@ -582,13 +559,13 @@
      search_button_visible="false"
      height="22"
      text_readonly_color="DkGray"
-     label="Regions by Name"
+     label="이름별 지역"
      layout="topleft"
      top_delta="-2"
      left_pad="7"
      name="location"
      select_on_focus="true"
-     tool_tip="Type the name of a region"
+     tool_tip="지역 이름 입력"
      width="134">
                <search_editor.commit_callback
                 function="WMap.Location" />
@@ -596,12 +573,12 @@
     <button
      follows="top|right"
      height="23"
-     label="Find"
+     label="찾기"
      layout="topleft"
      left_pad="2"
      top_delta="-1"
      name="DoSearch"
-     tool_tip="Search for region"
+     tool_tip="지역에서 검색"
      width="87">
 		<button.commit_callback
 		function="WMap.Location" />
@@ -638,7 +615,7 @@
       name="events_label"
       top_pad="16"
       width="70">
-      Location:
+      위치:
       </text>
       <spinner
         decimal_digits="0"
@@ -689,11 +666,11 @@
     <button
      follows="left|right|bottom"
      height="23"
-     label="Teleport"
+     label="순간이동"
      layout="topleft"
      left="0"
      name="Teleport"
-     tool_tip="Teleport to selected location"
+     tool_tip="선택된 위치로 순간이동"
      top_pad="8"
      width="81">
         <button.commit_callback
@@ -702,11 +679,11 @@
     <button
      follows="left|right|bottom"
      height="23"
-     label="Copy SLurl"
+     label="SLurl 복사"
      layout="topleft"
      left_pad="3"
      name="copy_slurl"
-     tool_tip="Copies current location as SLurl to be used on the web."
+     tool_tip="현재 위치를 웹에서 사용할 SLurl로 복사합니다.."
      top_delta="0"
      width="82">
         <button.commit_callback
@@ -715,11 +692,11 @@
     <button
      follows="left|right|bottom"
      height="23"
-     label="Clear"
+     label="지우기"
      left_pad="3"
      top_delta="0"
      name="Clear"
-     tool_tip="Clear tracking lines and reset map"
+     tool_tip="추적 라인 지우기 및 지도 재설정"
      width="81">
         <button.commit_callback
         function="WMap.Clear" />
@@ -728,11 +705,11 @@
      enabled="false"
      follows="left|right|bottom"
      height="23"
-     label="Show Selection"
+     label="선택 표시"
      layout="topleft"
      left="0"
      name="Show Destination"
-     tool_tip="Center map on selected location"
+     tool_tip="선택한 위치의 중앙 지도"
      top_pad="5"
      width="123">
         <button.commit_callback
@@ -742,11 +719,11 @@
      follows="left|right|bottom"
      enabled="false"
      height="23"
-     label="Track Region"
+     label="지역 추적"
      left_pad="4"
      top_delta="0"
      name="track_region"
-     tool_tip="Add the region to the region tracker"
+     tool_tip="영역 추적기에 영역 추가"
      width="123">
         <button.commit_callback
         function="WMap.TrackRegion" />

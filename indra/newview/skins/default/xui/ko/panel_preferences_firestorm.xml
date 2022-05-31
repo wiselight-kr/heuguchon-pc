@@ -73,14 +73,14 @@
          name="grouplandrez"
          width="270"
          control_name="RezUnderLandGroup"
-         tool_tip="Attempts to rez objects under the land group if you're in the land group regardless of which current group tag you're wearing."/>
+         tool_tip="현재 그룹 태그에 관계 없이 랜드 그룹에 속해 있는 경우 랜드 그룹 아래의 객체 크기를 조정하려고 시도."/>
 		<check_box
 		 control_name="EffectScriptChatParticles"
 		 height="16"
 		 label="Create particle effects when scripts communicate"
 		 layout="topleft"
 		 name="EffectScriptChatParticles"
-		 tool_tip="If enabled scripted objects display swirling particle lights when the scripts communicate"
+		 tool_tip="사용하도록 설정된 경우 스크립트가 통신할 때 스크립트 개체가 소용돌이치는 입자 조명을 표시합니다."
 		 initial_value="true"
 		 top_pad="3"
 		 width="350" />
@@ -92,14 +92,14 @@
          name="FSDisableAvatarTrackerAtCloseIn"
          width="270"
          control_name="FSDisableAvatarTrackerAtCloseIn"
-         tool_tip="If enabled, the tracking beacon will be disabled automatically, if the distance to the targeted avatar is less than 3m. (Default)"/>
+         tool_tip="활성화된 경우 표적 아바타까지의 거리가 3m 미만인 경우 추적 비콘이 자동으로 비활성화됩니다. (기본값)"/>
         <check_box
          top_pad="3"
          follows="left|top"
          height="16"
          label="Fix Bento Idle Animation"
          name="play_default_bento_idle_animation_toggle"
-         tool_tip="If enabled, the viewer will run a default, priority 0 bento animation that poses hands, wings, mouth and tail in a natural position when no other bento animation is running."
+         tool_tip="활성화된 경우, 뷰어는 다른 도시락 애니메이션이 실행되지 않을 때 손, 날개, 입 및 꼬리를 자연스러운 위치로 포즈하는 기본 우선 순위 0 도시락 애니메이션을 실행합니다."
          width="270"
          control_name="FSPlayDefaultBentoAnimation"/>
         <check_box
@@ -110,7 +110,7 @@
          name="login_screen_toggle"
          width="270"
          control_name="FSDisableLoginScreens"
-         tool_tip="Disables the black login progress Screen"/>
+         tool_tip="검은색 로그인 진행률 화면 비활성화"/>
         <check_box
          top_pad="3"
          follows="left|top"
@@ -119,7 +119,7 @@
          name="logout_screen_toggle"
          width="270"
          control_name="FSDisableLogoutScreens"
-         tool_tip="Disables the black Logout progress screen."/>
+         tool_tip="검은색 로그아웃 진행률 화면을 비활성화합니다."/>
 
 		<check_box
 		 control_name="FSRenderFarClipStepping"
@@ -127,7 +127,7 @@
 		 label="Enable progressive draw distance stepping"
 		 layout="topleft"
 		 name="FSRenderFarClipStepping"
-		 tool_tip="If enabled, Firestorm will use a progressive draw distance stepping after teleporting."
+		 tool_tip="활성화된 경우 Firestorm은 텔레포트 후 점진적인 드로잉 거리 스텝을 사용합니다."
 		 initial_value="true"
 		 top_pad="10"
 		 width="250" />
@@ -146,7 +146,7 @@
 		 max_val="30"
 		 min_val="5"
 		 width="225"
-		 tool_tip="Interval in seconds between each draw distance increment"/>
+		 tool_tip="각 그리기 거리 증가 사이의 간격(초)"/>
 
         <check_box
          top_pad="10"
@@ -158,7 +158,7 @@
          label="Enable LSL-Client Bridge"
          left="10"
          width="270"
-         tool_tip="Allows the Viewer to use a scripted attachment (Bridge) to extend its features"/>
+         tool_tip="뷰어가 스크립트로 작성된 첨부 파일(브릿지)을 사용하여 기능을 확장할 수 있습니다."/>
         <combo_box
          control_name="UseLSLFlightAssist"
          enabled_control="UseLSLBridge"
@@ -168,7 +168,7 @@
          follows="left|top"
          height="25"
          name="UseLSLFlightAssist"
-         tool_tip="Enables the script that assists flying and hovering at extended altitudes"
+         tool_tip="확장된 고도에서 비행 및 호버링을 지원하는 스크립트 사용"
          width="225">
             <combo_box.item
              label="Flight Assist: Disabled"
@@ -206,7 +206,7 @@
          max_val="60"
          min_val="0"
          width="520"
-         tool_tip="Interval in seconds over which manual environment changes will blend. Zero is instant."/>
+         tool_tip="수동 환경 변경이 혼합되는 간격(초)입니다. 0이 인스턴스입니다."/>
         <check_box
          top_pad="5"
          control_name="EnvironmentPersistAcrossLogin"
@@ -217,7 +217,7 @@
          label="Persist Environment settings throughout sessions"
          left="10"
          width="500"
-         tool_tip="Restores the current environment settings after next login."/>
+         tool_tip="다음 로그인 후 현재 환경 설정을 복원합니다."/>
     </panel>
 
 
@@ -254,7 +254,7 @@
          height="12"
          name="revokepermissions_txt"
          width="200">
-         Revoke Permissions:
+         사용 권한 취소:
          </text>
         <radio_group
          top_pad="5"
@@ -306,7 +306,7 @@
          height="12"
          name="SurfaceAreaThreshholdLabel"
          width="360">
-         Texture Lag Protection (may break some objects):
+         텍스처 지연 방지(일부 개체 손상 가능):
          </text>
         <check_box
          top_pad="8"
@@ -317,7 +317,7 @@
          height="16"
          name="RenderVolumeSAProtection"
          width="380"
-         tool_tip="This protects you from objects with very large textures over large surface areas often designed to crash the viewer. Default is 5000 square meters, but if you find that some objects are not rendering and this option is enabled you may need to increase it."/>
+         tool_tip="이렇게 하면 뷰어를 손상시키도록 설계된 넓은 표면적에 질감이 매우 큰 객체로부터 사용자를 보호할 수 있습니다. 기본값은 5000제곱미터이지만 일부 개체가 렌더링되지 않고 이 옵션이 활성화된 경우 이 값을 늘려야 할 수 있습니다."/>
         <spinner
          enabled_control="RenderVolumeSAProtection"
          top_delta="-5"
@@ -337,7 +337,7 @@
         <check_box
          top_pad="10"
          left="10"
-         label="Enable Spam Protection"
+         label="스팸 방지 사용"
          control_name="UseAntiSpam"
          follows="left|top"
          height="16"
@@ -346,14 +346,14 @@
         <!-- FS:TS FIRE-23138: Enable spam protection for user's objects -->
         <check_box
          left="20"
-         label="Enable Spam Protection even for objects owned by you"
+         label="사용자가 소유한 개체에 대해서도 스팸 방지 사용"
          control_name="FSUseAntiSpamMine"
          enabled_control="UseAntiSpam"
          follows="left|top"
          height="16"
          name="FSUseAntiSpamMine"
          width="380"
-         tool_tip="This will apply antispam protection even to objects you own."/>
+         tool_tip="이렇게 하면 소유한 개체에도 스팸 방지 보호 기능이 적용됩니다."/>
         <!-- /FS:TS FIRE-23138 -->
         <text
          top_pad="5"
@@ -365,7 +365,7 @@
          left="30"
          name="AntiSpamText1"
          width="200">
-           Max lines in a single message:
+           단일 메시지에서 최대 줄 수:
         </text>
         <spinner
          enabled_control="UseAntiSpam"
@@ -382,7 +382,7 @@
          min_val="5"
          name="_NACL_AntiSpamNewlines"
          width="50"
-         tool_tip="Maximum number of lines to accept in a single text message [Default: 70]"/>
+         tool_tip="단일 텍스트 메시지에서 수락할 최대 줄 수 [기본값: 70]"/>
         <text
          top_pad="10"
          type="string"
@@ -393,7 +393,7 @@
          left="30"
          name="AntiSpamText2"
          width="200">
-           Max events from same source:
+           같은 소스에서 최대 이벤트:
         </text>
         <spinner
          enabled_control="UseAntiSpam"
@@ -410,7 +410,7 @@
          min_val="2"
          name="_NACL_AntiSpamAmount"
          width="50"
-         tool_tip="Maximum number of similar events to accept within 2 seconds from the same source [Default: 10]"/>
+         tool_tip="동일한 소스에서 2초 이내에 수락할 최대 유사 이벤트 수 [기본값: 10]"/>
         <text
          top_pad="10"
          type="string"
@@ -421,7 +421,7 @@
          left="30"
          name="AntiSpamText3"
          width="200">
-           Sound play requests multiplier:
+           사운드 재생 요청 승수:
         </text>
         <spinner
          enabled_control="UseAntiSpam"
@@ -438,7 +438,7 @@
          min_val="1"
          name="_NACL_AntiSpamSoundMulti"
          width="50"
-         tool_tip="Event multiplier for sound play requests [Default: 10]"/>
+         tool_tip="사운드 재생 요청에 대한 이벤트 승수 [기본값: 10]"/>
         <text
          top_pad="10"
          type="string"
@@ -449,7 +449,7 @@
          left="30"
          name="AntiSpamText4"
          width="200">
-           Sound preload requests multiplier:
+           사운드 프리로드 요청 승수:
         </text>
         <spinner
          enabled_control="UseAntiSpam"
@@ -466,7 +466,7 @@
          min_val="1"
          name="_NACL_AntiSpamSoundPreloadMulti"
          width="50"
-         tool_tip="Event multiplier for sound preload requests [Default: 4]"/>
+         tool_tip="사운드 프리로드 요청에 대한 이벤트 승수 [기본값: 4]"/>
         <button
          enabled_control="UseAntiSpam"
          layout="topleft"
@@ -476,19 +476,19 @@
          height="20"
          left="40"
          name="AntiSpamUnblock"
-         label="Unblock all spam sources"
+         label="모든 스팸 소스 차단 해제"
          commit_callback.function="NACL.AntiSpamUnblock"/>
 
         <check_box
          top_pad="8"
          left="10"
-         label="Confirm before paying. Threshold:"
+         label="결제하기 전에 확인하세요. 임계값:"
          control_name="FSConfirmPayments"
          follows="left|top"
          height="16"
          name="FSConfirmPayments"
          width="205"
-         tool_tip="Show a confirmation dialog before paying sums greater than the threshold. To always show a confirmation, set the threshold to 0."/>
+         tool_tip="임계값보다 큰 금액을 지불하기 전에 확인 대화 상자를 표시합니다. 항상 확인을 표시하려면 임계값을 0으로 설정합니다."/>
         <spinner
          enabled_control="FSConfirmPayments"
          top_delta="-5"
@@ -503,7 +503,7 @@
          max_val="2147483647"
          min_val="0"
          name="FSPaymentConfirmationThreshold"
-         tool_tip="Show a confirmation dialog before paying sums greater than the threshold. To always show a confirmation, set the threshold to 0."
+         tool_tip="임계값보다 큰 금액을 지불하기 전에 확인 대화 상자를 표시합니다. 항상 확인을 표시하려면 임계값을 0으로 설정합니다.."
          width="100"/>
     </panel>
 
@@ -515,7 +515,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Avatar"
+     label="아바타"
      name="firestorm_avatar" >
 
         <text
@@ -528,7 +528,7 @@
          layout="topleft"
          name="HeadMovement"
          width="500">
-            Amount that Avatar's head Follows Mouse (set to '0' for no movement):
+            아바타의 머리가 마우스를 따라가는 양(움직이지 않을 경우 '0'으로 설정):
         </text>
         <slider
          control_name="PitchFromMousePosition"
@@ -536,8 +536,8 @@
          follows="left|top"
          height="16"
          increment="15"
-         label="Vertical range that avatar's head follows mouse:"
-         tool_tip="Vertical range that avatar's head follows mouse (pitch) in degrees"
+         label="아바타의 머리가 마우스를 따르는 수직 범위:"
+         tool_tip="아바타의 헤드가 마우스(피치)를 따르는 수직 범위(각도)"
          label_width="300"
          layout="topleft"
          left="15"
@@ -556,7 +556,7 @@
          name="PitchFromMousePositionText"
          top_delta="0"
          width="50">
-            degrees
+            각도
         </text>
         <slider
          control_name="YawFromMousePosition"
@@ -564,8 +564,8 @@
          follows="left|top"
          height="16"
          increment="5"
-         label="Horizontal range that avatar's head follows mouse:"
-         tool_tip="Horizontal range that avatar's head follows mouse (yaw) in degrees"
+         label="아바타의 머리가 마우스를 따라가는 수평 범위:"
+         tool_tip="아바타의 머리가 마우스(요)를 따르는 수평 범위(도)"
          label_width="300"
          layout="topleft"
          left="15"
@@ -584,7 +584,7 @@
          name="YawFromMousePositionText"
          top_delta="0"
          width="50">
-            degrees
+            각도
         </text>
         <text
          top_pad="5"
@@ -595,7 +595,7 @@
          text_color="White_50"
          height="12"
          width="500">
-             (Avatar look at target settings are on the Privacy tab.)
+             (아바타 조회 대상 설정은 개인 정보 탭에 있습니다.)
         </text>
 
         <check_box
@@ -603,7 +603,7 @@
          enabled="false"
          follows="left|top"
          height="16"
-         label="Disable random avatar eye movements"
+         label="임의 아바타 눈동자 이동 비활성화"
          left="15"
          name="FSStaticEyes"
          width="250"
@@ -615,7 +615,7 @@
          follows="left|top"
          left="15"
          bottom_delta="25" >
-            Selection beam particle effects
+            선택 빔 입자 효과
         </text>
         <view_border
          bevel_style="none"
@@ -630,8 +630,8 @@
         <button
          enabled_control="ShowSelectionBeam"
          name="BeamColor_delete"
-         label="Delete"
-         tool_tip="Remove this preset"
+         label="삭제"
+         tool_tip="이 프리셋 삭제"
          left="15"
          top_delta="10"
          width="55"
@@ -649,13 +649,13 @@
          name="BeamColor_combo"
          width="170"
          control_name="FSBeamColorFile"
-         tool_tip="Select the color preset for the selection beam"/>
+         tool_tip="선택 빔의 색상 사전 설정 선택"/>
 
         <button
          enabled_control="ShowSelectionBeam"
          name="BeamColor_new"
-         label="Create New"
-         tool_tip="Create a new color preset"
+         label="새로 만들기"
+         tool_tip="새로운 색깔 프리셋 선택"
          left="15"
          bottom_delta="25"
          width="80"
@@ -665,8 +665,8 @@
         <button
          enabled_control="ShowSelectionBeam"
          name="BeamColor_refresh"
-         label="Refresh List"
-         tool_tip="Refresh the preset list"
+         label="리스트 새로고침"
+         tool_tip="프리셋 리스트 새로고침"
          left="15"
          bottom_delta="25"
          width="80"
@@ -702,13 +702,13 @@
          height="18"
          increment="1"
          initial_value="4"
-         label="Beam updates/sec:"
+         label="빔 업데이트/sec:"
          label_width="100"
          max_val="200"
          min_val="4"
          show_text="true"
          width="250"
-         tool_tip="How many beam updates to send in a second. Default 40" />
+         tool_tip="초당 전송할 빔 업데이트 수. 기본 40" />
 
         <check_box
          bottom_delta="18"
@@ -716,11 +716,11 @@
          follows="left|top"
          height="16"
          initial_value="true"
-         label="Enable selection beam"
+         label="선택 빔 활성화"
          left="15"
          name="SLPartBeam"
          width="250"
-         tool_tip="Disabling this setting will prevent selection beams from being rendered locally. It does not prevent selection beams being sent to other avatars. If you do not wish to show your selection, you can disable that via Preferences -&gt; Privacy -&gt; LookAt -&gt; Don't send my selection target hints."
+         tool_tip="이 설정을 비활성화하면 선택 보가 로컬로 렌더링되지 않습니다. 선택 빔이 다른 아바타로 전송되는 것을 방지하지 않습니다. 선택 항목을 표시하지 않으려면 [환경설정] -&gt; [개인 정보] -&gt; [찾기] -&gt; [선택 대상 힌트 전송 안 함]을 통해 해당 항목을 비활성화할 수 있습니다."
          control_name="ShowSelectionBeam" />
 
         <check_box
@@ -729,10 +729,10 @@
          follows="left|top"
          height="16"
          initial_value="true"
-         label="Send selection data to chat"
+         label="채팅으로 선택 데이터 보내기"
          left="15"
          name="FSParticleChat"
-         tool_tip="Sends selection data (selection start/stop and global position) to chat channel 9000."
+         tool_tip="선택 데이터(선택 시작/중지 및 전역 위치)를 채팅 채널 9000으로 보냅니다."
          width="250"
          control_name="FSParticleChat" />
 
@@ -757,13 +757,13 @@
          name="FSBeamShape_combo"
          width="170"
          control_name="FSBeamShape"
-         tool_tip="Select the shape for the particle beam" />
+         tool_tip="입자 빔의 모양을 선택합니다" />
 
         <button
          enabled_control="ShowSelectionBeam"
          name="delete_beam"
-         label="Delete"
-         tool_tip="Remove this beam"
+         label="삭제"
+         tool_tip="이 빔 제거"
          left_delta="175"
          bottom_delta="0"
          width="55"
@@ -773,8 +773,8 @@
         <button
          enabled_control="ShowSelectionBeam"
          name="custom_beam_btn"
-         label="Create New"
-         tool_tip="Customize the beam shape"
+         label="새로 만들기"
+         tool_tip="빔 모양 사용자화"
          left_delta="-20"
          bottom_delta="25"
          width="80"
@@ -784,8 +784,8 @@
         <button
          enabled_control="ShowSelectionBeam"
          name="refresh_beams"
-         label="Refresh List"
-         tool_tip="Refresh the beam list"
+         label="리스트 새로고침"
+         tool_tip="빔 리스트 새로고침"
          left_delta="0"
          bottom_delta="25"
          width="80"
@@ -821,13 +821,13 @@
          height="18"
          increment="0.1"
          initial_value="1"
-         label="Scale:"
+         label="스케일:"
          label_width="35"
          max_val="4"
          min_val="0.1"
          show_text="true"
          width="150"
-         tool_tip="Change the scale of the shape used for the Phoenix Shaped Beam" />
+         tool_tip="피닉스 형상 빔에 사용되는 형상의 축척 변경" />
 
         <text
          type="string"
@@ -839,12 +839,12 @@
          layout="topleft"
          name="BridgeProtocols"
          width="500">
-            LSL-Client Bridge external protocols integration:
+            LSL-Client Bridge 외부 프로토콜 통합:
         </text>
         <check_box
          follows="left|top"
          height="16"
-         label="Allow OpenCollar protocol to enable or disable built in AO"
+         label="OpenCollar 프로토콜이 기본 제공 AO를 활성화하거나 비활성화하도록 허용"
          left="15"
          top_pad="10"
          name="BridgeIntegrationOC"
@@ -854,7 +854,7 @@
         <check_box
          follows="left|top"
          height="16"
-         label="Allow LockMeister protocol to enable or disable built in AO"
+         label="LockMeister 프로토콜이 기본 제공 AO를 사용하거나 사용하지 않도록 허용"
          left="15"
          top_pad="2"
          name="BridgeIntegrationLM"
@@ -871,7 +871,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Build 1"
+     label="1 빌드"
      name="BuildTab">
      
         <text
@@ -881,7 +881,7 @@
          left="20"
          name="text_box_objprams"
          width="175">
-         Default Object Size
+         기본 개체 크기
         </text>
         <text
          top="5"
@@ -890,7 +890,7 @@
          left="180"
          name="text_box_objprams2"
          width="175">
-         Settings
+         설정
         </text>
         <text
          top="5"
@@ -899,7 +899,7 @@
          left="350"
          name="text_box_objprams3"
          width="175">
-         Texture
+         텍스쳐
         </text>
         <view_border
          top_pad="5"
@@ -936,7 +936,7 @@
          follows="left|top"
          height="16"
          increment="0.05"
-         label="X size"
+         label="X 사이즈"
          label_width="40"
          max_val="10"
          min_val="0.01"
@@ -949,7 +949,7 @@
          follows="left|top"
          height="16"
          increment="0.05"
-         label="Y size"
+         label="Y 사이즈"
          label_width="40"
          max_val="10"
          min_val="0.01"
@@ -962,7 +962,7 @@
          follows="left|top"
          height="16"
          increment="0.05"
-         label="Z size"
+         label="Z 사이즈"
          label_width="40"
          max_val="10"
          min_val="0.01"
@@ -976,7 +976,7 @@
          follows="left|top"
          font="SansSerifSmall"
          height="16"
-         label="Phantom"
+         label="유령"
          left="155"
          mouse_opaque="true"
          name="FSBuildPrefs_PhantomToggle"
@@ -989,7 +989,7 @@
          follows="left|top"
          font="SansSerifSmall"
          height="16"
-         label="Physical"
+         label="몸매"
          left_delta="0"
          mouse_opaque="true"
          name="FSBuildPrefs_PhysicalToggle"
@@ -1002,7 +1002,7 @@
          follows="left|top"
          font="SansSerifSmall"
          height="16"
-         label="Temporary"
+         label="임시"
          left_delta="0"
          mouse_opaque="true"
          name="FSBuildPrefs_TemporaryToggle"
@@ -1020,13 +1020,13 @@
          name="material"
          width="87"
          control_name="FSBuildPrefs_Material">
-             <combo_item name="Stone" value="Stone" label="Stone"/>
-             <combo_item name="Metal" value="Metal" label="Metal"/>
-             <combo_item name="Glass" value="Glass" label="Glass"/>
-             <combo_item name="Wood" value="Wood" label="Wood"/>
-             <combo_item name="Flesh" value="Flesh" label="Flesh"/>
-             <combo_item name="Plastic" value="Plastic" label="Plastic"/>
-             <combo_item name="Rubber" value="Rubber" label="Rubber"/>
+             <combo_item name="Stone" value="Stone" label="돌"/>
+             <combo_item name="Metal" value="Metal" label="메탈"/>
+             <combo_item name="Glass" value="Glass" label="유리"/>
+             <combo_item name="Wood" value="Wood" label="나무"/>
+             <combo_item name="Flesh" value="Flesh" label="고기"/>
+             <combo_item name="Plastic" value="Plastic" label="플라스틱"/>
+             <combo_item name="Rubber" value="Rubber" label="고무"/>
         </combo_box>
 
         <texture_picker
@@ -1036,12 +1036,12 @@
          default_image_name="Default"
          follows="left|top"
          height="80"
-         label="Texture"
+         label="텍스쳐"
          left="275"
          mouse_opaque="true"
          name="texture control"
          control_name="FSDefaultObjectTexture"
-         tool_tip="Click to choose a picture"
+         tool_tip="그림을 고르려면 선택하시오"
          width="64"/>
         <color_swatch
          border_color="0.45098, 0.517647, 0.607843, 1"
@@ -1050,11 +1050,11 @@
          color="1, 1, 1, 1"
          follows="left|top"
          height="80"
-         label="Color"
+         label="색깔"
          left_delta="75"
          mouse_opaque="true"
          name="colorswatch"
-         tool_tip="Click to open Color Picker"
+         tool_tip="색상 선택기를 열려면 클릭하십시오"
          width="64"
          control_name="FSBuildPrefs_Color"/>
         <spinner
@@ -1063,7 +1063,7 @@
          follows="left|top"
          height="16"
          increment="1"
-         label="Alpha"
+         label="알파"
          label_width="40"
          left_delta="70"
          max_val="100"
@@ -1079,7 +1079,7 @@
          follows="left|top"
          height="16"
          increment="0.05"
-         label="Glow"
+         label="빛"
          label_width="40"
          left_delta="0"
          max_val="1"
@@ -1094,7 +1094,7 @@
          follows="left|top"
          font="SansSerifSmall"
          height="16"
-         label="Full Bright"
+         label="가장 밝게"
          left_delta="0"
          mouse_opaque="true"
          name="EmFBToggle"
@@ -1110,13 +1110,13 @@
          max_chars="20"
          mouse_opaque="true"
          name="combobox shininess"
-         tool_tip="Set the amount of shine for the object"
+         tool_tip="객체의 광택 양을 설정합니다"
          width="90"
          control_name="FSBuildPrefs_Shiny">
-          <combo_item name="None" value="None" label="None"/>
-          <combo_item name="Low" value="Low" label="Low"/>
-          <combo_item name="Medium" value="Medium" label="Medium"/>
-          <combo_item name="High" value="High" label="High"/>
+          <combo_item name="None" value="None" label="없음"/>
+          <combo_item name="Low" value="Low" label="낮음"/>
+          <combo_item name="Medium" value="Medium" label="중간"/>
+          <combo_item name="High" value="High" label="높음"/>
         </combo_box>
         <check_box
          name="FSBuildPrefs_EmbedItem"
@@ -1126,7 +1126,7 @@
          font="SansSerifSmall"
          height="16"
          initial_value="false"
-         label="Embed an item into new prims"
+         label="새 prims 항목 포함"
          left="10"
          mouse_opaque="true"
          control_name="FSBuildPrefs_EmbedItem"
@@ -1153,10 +1153,10 @@
          left_delta="0"
          mouse_opaque="true"
          name="embed_item"
-         tool_tip="Drop an inventory item here."
+         tool_tip="인벤토리 아이템을 여기에 놓으십시오.."
          v_pad="2"
          width="250">
-         Drop an inventory item here.
+         여기에 인벤토리 아이템 버리기.
         </fs_embedded_item_drop_target>
         <view_border
          bevel_style="in"
@@ -1182,7 +1182,7 @@
          tool_tip=""
          v_pad="2"
          width="250">
-         Currently set to: [ITEM]
+         현재 설정: [ITEM]
         </text>
         <text
          top_pad="-60"
@@ -1191,7 +1191,7 @@
          height="10"
          name="text_box_pivotpoint"
          width="135">
-          Pivot Point
+          기준점
         </text>
         <view_border
          top_pad="5"
@@ -1205,8 +1205,8 @@
          top_delta="13"
          left_delta="3"
          follows="left|top"
-         label="Axis on root prim"
-         tool_tip="Default behaviour is to show the axis on the center of mass of a linkset. If enabled, the axis will be shown on the root prim of the linkset instead."
+         label="루트 프림의 축"
+         tool_tip="기본 동작은 링크 세트의 질량 중심에 축을 표시하는 것입니다. 활성화된 경우 축이 링크 세트의 루트 프림에 대신 표시됩니다."
          name="FSBuildPrefsActualRoot_toggle"
          control_name="FSBuildPrefs_ActualRoot"/>
         <spinner
@@ -1216,7 +1216,7 @@
          follows="left|top"
          height="16"
          increment="0.05"
-         label="X pos"
+         label="X 포스"
          label_width="40"
          max_val="256"
          min_val="-256"
@@ -1229,7 +1229,7 @@
          follows="left|top"
          height="16"
          increment="0.05"
-         label="Y pos"
+         label="Y 포스"
          label_width="40"
          max_val="256"
          min_val="-256"
@@ -1242,7 +1242,7 @@
          follows="left|top"
          height="16"
          increment="0.05"
-         label="Z pos"
+         label="Z 포스"
          label_width="40"
          max_val="256"
          min_val="-256"
@@ -1255,8 +1255,8 @@
          enabled="true"
          follows="left|top"
          height="16"
-         label="Values are percent"
-         tool_tip="Default settings are Percentages and every axis set at 50"
+         label="값은 퍼센트입니다"
+         tool_tip="기본 설정은 백분율이고 모든 축은 50으로 설정됩니다."
          name="FSPivotPercToggle"
          width="100"
          control_name="FSBuildPrefs_PivotIsPercent"/>
@@ -1264,7 +1264,7 @@
         <button
          follows="left|top"
          height="25"
-         label="Default Creation Permissions"
+         label="기본 생성 허가"
          layout="topleft"
          name="fs_default_creation_permissions"
          left="8"
@@ -1280,7 +1280,7 @@
          follows="left|top"
          name="text_box_scripting_font"
          width="100">
-          Script Editor Font:
+          스크립트 에디터 글꼴:
         </text>
         <combo_box
          allow_text_entry="false"
@@ -1292,10 +1292,10 @@
          name="FSScriptingFontName"
          width="100"
          control_name="FSScriptingFontName"
-         tool_tip="Name of the font used in the LSL script editor">
-             <combo_item name="Monospace" value="Monospace" label="Monospace"/>
-             <combo_item name="Scripting" value="Scripting" label="Scripting"/>
-             <combo_item name="Cascadia" value="Cascadia" label="Cascadia Code"/>
+         tool_tip="LSL 스크립트 편집기에 사용되는 글꼴 이름">
+             <combo_item name="Monospace" value="Monospace" label="모노스페이스"/>
+             <combo_item name="Scripting" value="Scripting" label="스크립팅"/>
+             <combo_item name="Cascadia" value="Cascadia" label="캐스캐디아 코드"/>
         </combo_box>
         <combo_box
          allow_text_entry="false"
@@ -1307,13 +1307,13 @@
          name="FSScriptingFontSize"
          width="100"
          control_name="FSScriptingFontSize"
-         tool_tip="Size of the font used in the LSL script editor">
-             <combo_item name="Monospace" value="Monospace" label="Monospace"/>
-             <combo_item name="Scripting" value="Scripting" label="Scripting"/>
-             <combo_item name="Cascadia" value="Cascadia" label="Cascadia Code"/>
-             <combo_item name="Small" value="Small" label="Small"/>
-             <combo_item name="Medium" value="Medium" label="Medium"/>
-             <combo_item name="Large" value="Large" label="Large"/>
+         tool_tip="LSL 스크립트 편집기에 사용되는 글꼴 크기">
+             <combo_item name="Monospace" value="Monospace" label="모노스페이스"/>
+             <combo_item name="Scripting" value="Scripting" label="스크립팅"/>
+             <combo_item name="Cascadia" value="Cascadia" label="캐스캐디아 코드"/>
+             <combo_item name="Small" value="Small" label="작음"/>
+             <combo_item name="Medium" value="Medium" label="중간"/>
+             <combo_item name="Large" value="Large" label="큼"/>
         </combo_box>
 
         <check_box
@@ -1321,8 +1321,8 @@
          height="16"
          top_pad="10"
          left="5"
-         label="Enable LSL preprocessor"
-         tool_tip="When checked, the LSL preprocessor is enabled."
+         label="LSL 전처리기 활성화"
+         tool_tip="이 옵션을 선택하면 LSL 사전 프로세서가 활성화됩니다."
          name="preproc_checkbox"
          control_name="_NACL_LSLPreprocessor" />
         <check_box
@@ -1330,8 +1330,8 @@
          height="16"
          left="15"
          enabled_control="_NACL_LSLPreprocessor"
-         label="Script optimizer"
-         tool_tip="When checked, the LSL preprocessor will optimize space used by scripts."
+         label="스크립트 최적화"
+         tool_tip="이 옵션을 선택하면 LSL 사전 프로세서가 스크립트에서 사용하는 공간을 최적화합니다."
          name="preprocoptimizer_checkbox"
          control_name="_NACL_PreProcLSLOptimizer" />
         <check_box
@@ -1340,8 +1340,8 @@
          top_delta="0"
          left_delta="120"
          enabled_control="_NACL_LSLPreprocessor"
-         label="switch() statement"
-         tool_tip="When checked, the LSL preprocessor will allow the use of the switch() statement for script flow control."
+         label="switch() 문구"
+         tool_tip="이 옵션을 선택하면 LSL 사전 프로세서가 스크립트 흐름 제어를 위해 switch() 문을 사용할 수 있습니다."
          name="preprocswitch_checkbox"
          control_name="_NACL_PreProcLSLSwitch" />
         <check_box
@@ -1350,8 +1350,8 @@
          top_delta="0"
          left_delta="130"
          enabled_control="_NACL_LSLPreprocessor"
-         label="Lazy lists"
-         tool_tip="When checked, the LSL preprocessor will allow the use of syntax extensions for list handling."
+         label="게으른 리스트"
+         tool_tip="이 옵션을 선택하면 LSL 사전 프로세서가 목록 처리를 위한 구문 확장 사용을 허용합니다."
          name="preproclazy_checkbox"
          control_name="_NACL_PreProcLSLLazyLists" />
         <check_box
@@ -1360,8 +1360,8 @@
          left_delta="80"
          height="16"
          enabled_control="_NACL_LSLPreprocessor"
-         label="#includes from local disk"
-         tool_tip="When checked, the LSL preprocessor will allow #include statements to reference files on your local disk."
+         label="#로컬 디스크에서 포함"
+         tool_tip="이 옵션을 선택하면 LSL 프리프로세서가 #include 문을 로컬 디스크에 있는 파일을 참조할 수 있습니다."
          name="preprocinclude_checkbox"
          control_name="_NACL_PreProcEnableHDDInclude" />
         <text
@@ -1374,7 +1374,7 @@
          name="lslpreprocinclude_textbox"
          left="10"
          width="256">
-          Preprocessor include path:
+          경로를 포함한 전처리기:
         </text>
         <line_editor
          control_name="_NACL_PreProcHDDIncludeLocation"
@@ -1391,8 +1391,8 @@
          follows="left|top"
          height="23"
          enabled_control="_NACL_PreProcEnableHDDInclude"
-         label="Browse"
-         label_selected="Browse"
+         label="둘러보기"
+         label_selected="둘러보기"
          left_pad="5"
          name="SetPreprocInclude"
          top_delta="0"
@@ -1409,7 +1409,7 @@
          name="externaleditor_textbox"
          left="10"
          width="256">
-          External Editor:
+          외부 에디터:
         </text>
         <line_editor
          control_name="ExternalEditor"
@@ -1424,8 +1424,8 @@
         <button
          follows="left|top"
          height="23"
-         label="Browse"
-         label_selected="Browse"
+         label="둘러보기"
+         label_selected="둘러보기"
          left_pad="5"
          name="SetExternalEditor"
          top_delta="0"
@@ -1442,22 +1442,22 @@
      left="1"
      right="-1"
      follows="all"
-     label="Build 2"
+     label="2 빌드"
      name="BuildTab2">
         <check_box
          top="10"
          follows="left|top"
          height="16"
          left="3"
-         label="Enable highlighting of selected prims"
-         tool_tip="When unchecked, the yellow/blue outline effects are not rendered, improving performance when large numbers of prims are selected."
+         label="선택한 프림의 강조 표시 사용"
+         tool_tip="이 옵션을 선택하지 않으면 노란색/파란색 아웃라인 효과가 렌더링되지 않으므로 많은 수의 프라이머를 선택할 때 성능이 향상됩니다."
          name="FSBuildPrefsRenderHighlight_toggle"
          control_name="RenderHighlightSelections"/>
         <check_box
          top_pad="8"
          follows="left|top"
          height="16"
-         label="Highlight boundary of currently selected parcel"
+         label="현재 선택한 구획의 경계 강조 표시"
          name="RenderParcelSelection"
          control_name="RenderParcelSelection"
          width="190"/>
@@ -1467,7 +1467,7 @@
          follows="left|top"
          height="16"
          left="13"
-         label="Show boundary up to maximum build height"
+         label="최대 빌드 높이까지 경계 표시"
          name="FSRenderParcelSelectionToMaxBuildHeight"
          control_name="FSRenderParcelSelectionToMaxBuildHeight"
          width="190"/>
@@ -1476,7 +1476,7 @@
          follows="left|top"
          height="16"
          left="3"
-         label="Limit select distance (meters):"
+         label="선택 거리 제한 (미터):"
          name="LimitSelectDistance"
          control_name="LimitSelectDistance"
          width="190"/>
@@ -1493,13 +1493,13 @@
          min_val="0.001"
          name="MaxSelectDistance"
          width="75"
-         tool_tip="Maximum allowed selection distance (meters from avatar) [Default: 128.000]"/>
+         tool_tip="최대 허용 선택 거리(아바타로부터 미터) [기본값: 128.000]"/>
         <check_box
          left="3"
          top_pad="13"
          follows="left|top"
          height="16"
-         label="Limit drag distance (meters):"
+         label="드래그 거리 제한 (미터):"
          name="LimitDragDistance"
          control_name="LimitDragDistance"
          width="190"/>
@@ -1516,7 +1516,7 @@
          min_val="0.001"
          name="MaxDragDistance"
          width="75"
-         tool_tip="Maximum allowed distance in a single operation of move tool (meters from start point) [Default: 48.000]"/>
+         tool_tip="단일 이동 도구 작동에서 허용되는 최대 거리(시작 지점으로부터 미터) [기본값: 48.000]"/>
         <text
          left="3"
          top_pad="13"
@@ -1524,7 +1524,7 @@
          height="16"
          name="RotationStepText1"
          width="190">
-          Constrain rotations to multiples of
+          회전을 다음 배수로 제한합니다.
         </text>
         <spinner
          control_name="RotationStep"
@@ -1538,7 +1538,7 @@
          min_val="0.01"
          name="RotationStep"
          width="65"
-         tool_tip="All rotations via rotation tool are constrained to multiples of this unit [Default: 1.0]"/>
+         tool_tip="회전 도구를 통한 모든 회전은 본 장치의 배수[기본값: 1.0]로 제한됩니다."/>
         <text
          left_pad="5"
          top_pad="-11"
@@ -1546,14 +1546,14 @@
          height="16"
          name="RotationStepText2"
          width="270">
-          degrees, when not using 'snap to grid'
+          각도, '격자로 스냅'을 사용하지 않는 경우
         </text>
         <check_box
          left="3"
          top_pad="8"
          follows="left|top"
          height="16"
-         label="Show unlink confirmation dialog if linkset has minimum"
+         label="링크 집합에 최소값이 있는 경우 링크 해제 확인 대화 상자 표시"
          name="FSUnlinkConfirmEnabled"
          control_name="FSUnlinkConfirmEnabled"
          width="325"/>
@@ -1577,39 +1577,39 @@
          height="16"
          name="MinObjectsForUnlinkConfirmText2"
          width="270">
-          objects
+          개체
         </text>
         <check_box
          left="3"
          top_pad="8"
          follows="left|top"
          height="16"
-         label="Use old &quot;Set Object For Sale&quot; behavior"
-         tool_tip="When checked, object for sale info is saved on change instead of requiring a confirm."
+         label="오래된 &quot; 사용 판매를 위한 개체 설정&quot; 행동"
+         tool_tip="이 옵션을 선택하면 변경 시 확인을 요구하지 않고 판매 대상 정보가 저장됩니다."
          name="FSCommitForSaleOnChange_toggle"
          control_name="FSCommitForSaleOnChange"/>
         <check_box
          top_pad="8"
          follows="left|top"
          height="16"
-         label="Save scripts edited from inventory as Mono"
-         tool_tip="When checked, editing a script directly from inventory and then saving it saves as Mono instead of LSL."
+         label="인벤토리에서 편집한 스크립트를 Mono로 저장"
+         tool_tip="이 옵션을 선택하면 인벤토리에서 직접 스크립트를 편집한 다음 LSL 대신 Mono로 저장됩니다."
          name="FSSaveInventoryScriptsAsMono_toggle"
          control_name="FSSaveInventoryScriptsAsMono"/>
         <check_box
          top_pad="8"
          follows="left|top"
          height="16"
-         label="Save textures from inventory to disk as PNG instead of TGA by default"
-         tool_tip="Used in the texture preview floater and context menu in inventory."
+         label="인벤토리에서 디스크로 텍스처를 기본적으로 TGA 대신 PNG로 저장"
+         tool_tip="인벤토리의 텍스처 미리보기 플로터 및 컨텍스트 메뉴에 사용."
          name="FSTextureDefaultSaveAsFormat"
          control_name="FSTextureDefaultSaveAsFormat"/>
         <check_box
          top_pad="8"
          follows="left|top"
          height="16"
-         label="Use Ctrl+mouse to grab and manipulate objects"
-         tool_tip="When checked, you will be able to grab and move objects with your mouse and CTRL key."
+         label="Ctrl+마우스를 사용하여 개체 잡기 및 조작"
+         tool_tip="이 옵션을 선택하면 마우스와 Ctrl 키를 사용하여 물체를 잡고 이동할 수 있습니다."
          name="FSEnableGrab"
          control_name="EnableGrab"/>
         <check_box
@@ -1617,24 +1617,24 @@
          follows="left|top"
          height="16"
 		 initial_value="false"
-         label="Allow click-drag or click-scale (together with caps lock) of a texture face in build mode"
-         tool_tip="If enabled, allows to click-drag or click-scale (together with caps lock) a texture face in build mode. This feature is still experimental and should be used with caution."
+         label="빌드 모드에서 텍스처 면을 클릭 드래그 또는 클릭 스케일(캡슐 잠금과 함께) 허용"
+         tool_tip="이 옵션을 선택하면 빌드 모드에서 텍스처 면을 클릭하거나(캡슐 잠금과 함께) 클릭 스케일링할 수 있습니다. 이 기능은 아직 실험 중이므로 주의하여 사용해야 합니다."
          name="FSExperimentalDragTexture"
          control_name="FSExperimentalDragTexture"/>
         <check_box
          top_pad="8"
          follows="left|top"
          height="16"
-         label="Preview animations on own avatar during upload"
-         tool_tip="If enabled, you can preview animations during the upload process on your own avatar"
+         label="업로드하는 동안 자체 아바타에서 애니메이션 미리 보기"
+         tool_tip="활성화된 경우 업로드 프로세스 중에 자신의 아바타에서 애니메이션을 미리 볼 수 있습니다"
          name="FSUploadAnimationOnOwnAvatar"
          control_name="FSUploadAnimationOnOwnAvatar"/>
         <check_box
          top_pad="8"
          follows="left|top"
          height="16"
-         label="Enable extended script info details"
-         tool_tip="If enabled, extend basic script info feature with various details useful for builders"
+         label="확장 스크립트 정보 세부 정보 사용"
+         tool_tip="활성화된 경우 기본 스크립트 정보 기능을 빌더에 유용한 다양한 세부 정보로 확장"
          name="FSScriptInfoExtended"
          enabled_control="UseLSLBridge"
          control_name="FSScriptInfoExtended"/>
@@ -1647,7 +1647,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Uploads"
+     label="업로드"
      name="UploadsTab">
       <text
        type="string"
@@ -1659,7 +1659,7 @@
        name="title"
        top_pad="10"
        width="250">
-        Current destination folders for uploads:
+        업로드에 대한 현재 대상 폴더:
       </text>
 
       <text
@@ -1672,7 +1672,7 @@
        name="title_images"
        top_pad="17"
        width="100">
-        Images
+        이미지
       </text>
       <text
        type="string"
@@ -1697,7 +1697,7 @@
        name="title_sounds"
        top_pad="7"
        width="100">
-        Sounds
+        소리
       </text>
       <text
        type="string"
@@ -1722,7 +1722,7 @@
        name="title_animations"
        top_pad="7"
        width="100">
-        Animations
+        애니메이션
       </text>
       <text
        type="string"
@@ -1747,7 +1747,7 @@
        name="title_models"
        top_pad="7"
        width="100">
-        Models
+        모델
       </text>
       <text
        type="string"
@@ -1773,12 +1773,12 @@
        name="upload_help"
        top_pad="6"
        width="475">
-        To change a destination folder, right click on it in inventory and choose
+        대상 폴더를 변경하려면 인벤토리에서 해당 폴더를 마우스 오른쪽 버튼으로 클릭
      "Use as default for"
       </text>
       <button
        name="reset_default_folders"
-       label="Reset default folders"
+       label="기본 폴더 초기화"
        left="10"
        top_pad="10"
        width="200"

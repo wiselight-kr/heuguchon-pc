@@ -7,13 +7,13 @@
  left="1"
  top="1"
  width="540"
- label="Setup"
+ label="설정"
  name="Input panel">
     <tab_container
      name="tabs"
      tab_min_width="50"
      tab_position="top"
-     label="Setup"
+     label="설정"
      left="1"
      right="-1"
      top="5"
@@ -27,7 +27,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Connection"
+     label="연결"
      name="tab-conn">
 
 		<text
@@ -41,7 +41,7 @@
 		 mouse_opaque="false"
 		 top_pad="15"
 		 width="500">
-			Maximum bandwidth ([https://wiki.firestormviewer.org/fs_speedtest need a suggestion?]):
+			최대 대역폭([https://wiki.firestormviewer.org/fs_speedtest에 제안 필요):
 		</text>
 
 		<icon
@@ -154,7 +154,7 @@
 		 name="NetworkPrefText3"
 		 top_delta="0"
 		 width="63">
-			Cable
+			케이블
 		</text>
 		<text
 		 type="string"
@@ -167,13 +167,13 @@
 		 name="NetworkPrefText4"
 		 top_delta="0"
 		 width="205">
-			May cause issues
+			이슈 발생 가능
 		</text>
 
 		<check_box
 		 control_name="ConnectionPortEnabled"
 		 height="16"
-		 label="Custom port"
+		 label="사용자 지정 포트"
 		 layout="topleft"
 		 left="15"
 		 name="connection_port_enabled"
@@ -191,7 +191,7 @@
 		 height="23"
 		 increment="1"
 		 initial_value="13000"
-		 label="Port number:"
+		 label="포트 번호:"
 		 label_width="75"
 		 layout="topleft"
 		 max_val="13050"
@@ -211,7 +211,7 @@
 		 name="Web:"
 		 top_pad="15"
 		 width="400">
-			Web browser:
+			웹 브라우저:
 		</text>
 	  <radio_group
 	   control_name="PreferredBrowserBehavior"
@@ -224,28 +224,28 @@
 	   width="480">
 		<radio_item
 		  height="20"
-		  label="Use the default system browser for all links"
+		  label="모든 링크에 기본 시스템 브라우저 사용"
 		  layout="topleft"
 		  left="0"
 		  name="new_external"
 		  value="0"
-		  tool_tip="Use the default system web browser for help, web links, etc. Not recommended if running fullscreen."
+		  tool_tip="도움말, 웹 링크 등에 기본 시스템 웹 브라우저를 사용합니다. 전체 화면을 실행하는 경우에는 권장되지 않음."
 		  top="0"
 		  width="480" />
 		<radio_item
 		  height="20"
-		  label="Use the built-in browser for Second Life links only"
+		  label="기본 제공 브라우저는 Second Life 링크에만 사용"
 		  layout="topleft"
 		  left_delta="0"
 		  name="new_internal"
 		  value="1"      
-		  tool_tip="Use the default system web browser for help, web links, etc. The built-in browser will be used only for LindenLab/SecondLife links."
+		  tool_tip="도움말, 웹 링크 등에 기본 시스템 웹 브라우저를 사용합니다. 기본 제공 브라우저는 LindenLab/SecondLife 링크에만 사용됩니다."
 		  top_delta="15"
 		  width="480" />
 		<radio_item
 		  top_delta="15"
 		  height="20"
-		  label="Use the built-in browser for all links"
+		  label="모든 링크에 대해 기본 제공 브라우저 사용"
 		  layout="topleft"
 		  left="0"
 		  name="new_internal_all"
@@ -263,7 +263,7 @@
 		 mouse_opaque="false"
 		 top_pad="10"
 		 width="300">
-			Maximum number of web browser windows:
+			최대 웹 브라우저 창 수:
 		</text>
 		<combo_box
 		 control_name="WebContentWindowLimit"
@@ -272,23 +272,23 @@
 		 layout="topleft"
 		 left_delta="0"
 		 top_pad="10"
-		 tool_tip="Maximum number of web brower windows that can be open at once in the Web content floater"
+		 tool_tip="웹 컨텐츠 플로터에서 한 번에 열 수 있는 최대 웹 브라우저 창 수"
 		 name="web_number_combobox"
 		 width="200">
 			<combo_box.item
-			 label="Unlimited windows"
+			 label="제한 없는 창"
 			 name="web_unlimited"
 			 value="0" />
 			<combo_box.item
-			 label="One window"
+			 label="창 한개"
 			 name="web_1"
 			 value="1" />
 			<combo_box.item
-			 label="Five windows"
+			 label="창 다섯개"
 			 name="web_5"
 			 value="5" />
 			<combo_box.item
-			 label="Ten windows"
+			 label="창 열개"
 			 name="web_10"
 			 value="10" />
 		</combo_box>
@@ -296,7 +296,7 @@
 		<button
 		 follows="right|top"
 		 height="23"
-		 label="Clear Browser Cache"
+		 label="브라우저 캐시 청소"
 		 layout="topleft"
 		 right="-10"
 		 name="ClearWebBrowserCache"
@@ -311,9 +311,23 @@
 		 follows="left|top"
 		 height="16"
 		 initial_value="true"
-		 control_name="BrowserJavascriptEnabled"
-		 label="Enable Javascript"
+		 control_name="BrowserPluginsEnabled"
+		 label="플러그인 활성화"
 		 left="25"
+		 mouse_opaque="true"
+		 name="browser_plugins_enabled"
+		 radio_style="false"
+		 width="200"
+		 top_pad="5"/>
+
+		<check_box
+		 enabled="true"
+		 follows="left|top"
+		 height="16"
+		 initial_value="true"
+		 control_name="BrowserJavascriptEnabled"
+		 label="Javascript 활성화"
+		 left_delta="0"
 		 mouse_opaque="true"
 		 name="browser_javascript_enabled"
 		 radio_style="false"
@@ -329,16 +343,15 @@
 		 height="16"
 		 initial_value="false"
 		 control_name="MediaEnablePopups"
-		 label="Enable media browser pop-ups"
+		 label="미디어 브라우저 팝업 실행"
 		 left_delta="0"
 		 mouse_opaque="true"
 		 top_pad="5"
 		 name="media_popup_enabled"
 		 width="200"/>
 
-		<!--
 		<button
-		 label="Adjust proxy settings"
+		 label="프록시 설정 조절"
 		 follows="left|top"
 		 height="23"
 		 width="220"
@@ -350,19 +363,6 @@
 			<button.commit_callback
 			  function="Pref.Proxy" />
 		</button>
-		-->
-		<text
-		 type="string"
-		 length="1"
-		 follows="left|top"
-		 height="20"
-		 layout="topleft"
-		 left="15"
-		 name="proxy_settings_label"
-		 top_pad="5"
-		 width="500">
-		   Your system's existing proxy settings will be used.
-		</text>
 		
 		<text
 		 type="string"
@@ -374,7 +374,7 @@
 		 name="home_page_label_l"
 		 top_pad="5"
 		 width="500">
-		   Browser home page:
+		   브라우저 홈페이지:
 		</text>
 		
 		<line_editor
@@ -395,7 +395,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Directories"
+     label="디렉토리"
      name="tab-dir">
 
 		<text
@@ -409,7 +409,7 @@
 		 name="cache_size_label_l"
 		 top_pad="15"
 		 width="500">
-		   Texture Cache Size ([https://wiki.firestormviewer.org/cache need a suggestion?]):
+		   텍스처 캐시 크기([https://wiki.firestormviewer.org/cache에서 제안 필요?]):
 		</text>
 		<slider
 		 can_edit_text="true"
@@ -449,7 +449,7 @@
 		 name="asset_cache_size_label_l"
 		 top_pad="15"
 		 width="500">
-		   Asset Cache Size:
+		   자산 캐시 크기:
 		</text>
 		<slider
 		 can_edit_text="true"
@@ -482,7 +482,7 @@
 		 enabled="false"
 		 follows="left|top"
 		 height="23"
-		 label="Clear Inventory Cache"
+		 label="인벤토리 캐시 청소"
 		 layout="topleft"
 		 left="398"
 		 name="ClearInventoryCache"
@@ -501,7 +501,7 @@
 		 name="Cache location"
 		 top_delta="25"
 		 width="300">
-			Cache location:
+			캐시 위치:
 		</text>
 		<line_editor
 		 control_name="CacheLocationTopFolder"
@@ -520,7 +520,7 @@
 		 enabled="true"
 		 follows="left|top"
 		 height="23"
-		 label="Open"
+		 label="열기"
 		 label_selected="Open"
 		 layout="topleft"
 		 left_pad="5"
@@ -533,7 +533,7 @@
 		<button
 		 follows="left|top"
 		 height="23"
-		 label="Set"
+		 label="설정"
 		 label_selected="Set"
 		 layout="topleft"
 		 left_pad="5"
@@ -546,7 +546,7 @@
 		<button
 		 follows="left|top"
 		 height="23"
-		 label="Reset"
+		 label="재설정"
 		 label_selected="Reset"
 		 layout="topleft"
 		 left_pad="3"
@@ -559,7 +559,7 @@
 		<button
 		 follows="left|top"
 		 height="23"
-		 label="Clear Cache"
+		 label="캐시 청소"
 		 label_selected="Clear Cache"
 		 layout="topleft"
 		 left_pad="10"
@@ -580,7 +580,7 @@
 		 name="Sound Cache location"
 		 top_delta="35"
 		 width="300">
-			Sound Cache location:
+			사운드 캐시 위치:
 		</text>
 		<line_editor
 		 control_name="FSSoundCacheLocation"
@@ -599,7 +599,7 @@
 		 enabled="true"
 		 follows="left|top"
 		 height="23"
-		 label="Open"
+		 label="열기"
 		 label_selected="Open"
 		 layout="topleft"
 		 left_pad="5"
@@ -612,7 +612,7 @@
 		<button
 		 follows="left|top"
 		 height="23"
-		 label="Set"
+		 label="설정"
 		 label_selected="Set"
 		 layout="topleft"
 		 left_pad="5"
@@ -625,7 +625,7 @@
 		<button
 		 follows="left|top"
 		 height="23"
-		 label="Reset"
+		 label="재설정"
 		 label_selected="Reset"
 		 layout="topleft"
 		 left_pad="3"
@@ -640,8 +640,8 @@
 		 follows="left|top"
 		 height="16"
 		 control_name="FSKeepUnpackedCacheFiles"
-		 label="Don't delete unpacked DSF (sound) cache files when logging out"
-		 tool_tip="If checked, the viewer won't delete unpacked sound files from the cache when logging out, which may improve experience with playing inworld sounds. Please note: Enabling this will likely fill your cache directory very quickly, and does not adhere to the max cache setting. This may result in excessive disk space usage. Disabled by default."
+		 label="로그아웃할 때 포장되지 않은 DSF(사운드) 캐시 파일 삭제 안 함"
+		 tool_tip="이 옵션을 선택하면 로그아웃할 때 캐시에서 압축 해제된 사운드 파일을 삭제하지 않으므로 소리 재생 환경이 개선될 수 있습니다. 참고: 이 기능을 활성화하면 캐시 디렉토리가 매우 빠르게 채워질 수 있으며 최대 캐시 설정을 준수하지 않습니다. 이로 인해 디스크 공간이 과도하게 사용될 수 있습니다. 사용 안 함을 기본으로."
 		 left="15"
 		 mouse_opaque="true"
 		 name="keep_unpacked_cache"
@@ -659,7 +659,7 @@
 		 name="log_path_desc"
 		 top_pad="10"
 		 width="300">
-			Conversation logs and transcripts location:
+			대화 로그 및 대화 내용 위치:
 		</text>
 		<line_editor
 		 control_name="InstantMessageLogPath"
@@ -678,7 +678,7 @@
 		 enabled="false"
 		 follows="left|top"
 		 height="23"
-		 label="Open"
+		 label="열기"
 		 label_selected="Open"
 		 layout="topleft"
 		 left_pad="5"
@@ -692,7 +692,7 @@
 		 enabled="false"
 		 follows="left|top"
 		 height="23"
-		 label="Set"
+		 label="설정"
 		 label_selected="Set"
 		 layout="topleft"
 		 left_pad="5"
@@ -706,7 +706,7 @@
 		 enabled="false"
 		 follows="left|top"
 		 height="23"
-		 label="Reset"
+		 label="재설정"
 		 label_selected="Reset"
 		 layout="topleft"
 		 left_pad="3"
@@ -720,7 +720,7 @@
 		 enabled="true"
 		 follows="left|top"
 		 height="23"
-		 label="Open Viewer Logs"
+		 label="뷰어 로그 열기"
 		 label_selected="Open Viewer Logs"
 		 layout="topleft"
 		 left="20"
@@ -734,7 +734,7 @@
 		 enabled="true"
 		 follows="left|top"
 		 height="23"
-		 label="Open Settings folder"
+		 label="설정 폴더 열기"
 		 label_selected="Open Settings folder"
 		 layout="topleft"
 		 left_pad="10"

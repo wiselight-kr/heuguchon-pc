@@ -7,10 +7,10 @@
  left="1"
  top="1"
  width="540"
- label="UI-Pref"
+ label="UI-선호"
  name="Display panel">
 <tab_container
- label="Firestorm Prefs"
+ label="Firestorm 선호"
  layout="topleft"
  follows="all"
  top="5"
@@ -28,7 +28,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="3D World"
+     label="3D 월드"
      name="UI Prefs Panel" >
 
         <text
@@ -41,17 +41,17 @@
          layout="topleft"
          name="HoverTipText"
          width="100">
-            Hover Tips:
+            호버 팁:
         </text>
         <check_box
          control_name="ShowHoverTips"
          height="16"
          initial_value="true"
-         label="Show Hover Tips"
+         label="호버 팁 보기"
          layout="topleft"
          left_delta="10"
          name="ShowHoverTips"
-         tool_tip="Set this to show hover tips on avatars and some other things - set this one first (CTRL+SHIFT+T)"
+         tool_tip="아바타 등에 호버 팁을 표시하려면 이 옵션을 설정합니다(Ctrl+SHIFT+T)"
          top_pad="7"
          width="256" />
         <check_box
@@ -59,8 +59,8 @@
          control_name="ShowAllObjectHoverTip"
          height="16"
          initial_value="true"
-         label="on All Objects"
-         tool_tip="Set this to show hover tips on in-world objects"
+         label="모든 개체에"
+         tool_tip="내부 개체에 대한 호버 팁을 표시하려면 이 옵션을 설정합니다"
          layout="topleft"
          left_delta="10"
          name="ShowAllHoverTips"
@@ -71,8 +71,8 @@
          control_name="ShowLandHoverTip"
          height="16"
          initial_value="true"
-         label="on Land"
-         tool_tip="Set this to show hover tips on land"
+         label="땅에"
+         tool_tip="육지에 호버 팁을 표시하려면 이 옵션을 설정합니다 "
          layout="topleft"
          name="ShowLandHoverTips"
          top_pad="2"
@@ -81,7 +81,7 @@
 		enabled_control="ShowHoverTips"
 		control_name="FSAdvancedTooltips"
 		name="FSAdvancedTooltips"
-		label="Show extended information in hovertips"
+		label="호버팁으로 확장 정보 표시"
 		layout="topleft"
 		top_pad="5"
 		left_delta="-10"
@@ -91,7 +91,7 @@
 		enabled_control="ShowHoverTips"
 		control_name="FSShowGroupTitleInTooltip"
 		name="FSShowGroupTitleInTooltip"
-		label="Show avatar group titles in hovertips"
+		label="호스트 팁으로 아바타 그룹 제목 표시"
 		layout="topleft"
 		top_pad="2"
 		height="16"
@@ -107,7 +107,7 @@
          name="tooltip_textbox"
          top="8"
          width="200">
-           Hovertip Trigger Delays:
+           호버팁 트리거 지연:
         </text>
 		
         <slider
@@ -117,13 +117,13 @@
          height="16"
          increment="0.025"
          initial_value="0.7"
-         label="Tooltips:"
+         label="툴 팁:"
          label_width="50"
          layout="topleft"
          max_val="6.0"
          min_val="0"
          name="ToolTipDelay_slider"
-         tool_tip="Delay after that tooltips for user interface elements such as buttons are shown. (Default: 0.7)"
+         tool_tip="버튼과 같은 사용자 인터페이스 요소에 대한 툴팁이 표시된 후 지연 시간(기본값: 0.7)"
          top_pad="7"
          left="275"
          width="200" />
@@ -137,7 +137,7 @@
          name="ToolTipDelay_text"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
 		
         <slider
@@ -148,14 +148,14 @@
          height="17"
          increment="0.025"
          initial_value="0.35"
-         label="Avatars:"
+         label="아바타:"
          label_width="50"
          layout="topleft"
          left="275"
          max_val="6.0"
          min_val="0"
          name="AvatarInspectorTooltipDelay_slider"
-         tool_tip="Delay after that hovertips for avatars are shown. (Default: 0.35)"
+         tool_tip="아바타에 대한 대기 팁이 표시된 후 지연 시간(기본값: 0.35)"
          top_pad="2"
          width="200" />
         <text
@@ -168,7 +168,7 @@
          name="AvatarInspectorTooltipDelay_text"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
 		
         <slider
@@ -179,14 +179,14 @@
          height="17"
          increment="0.025"
          initial_value="0.35"
-         label="Objects:"
+         label="개체:"
          label_width="50"
          layout="topleft"
          left="275"
          max_val="6.0"
          min_val="0"
          name="ObjectInspectorTooltipDelay_slider"
-         tool_tip="Delay after that hovertips for objects are shown. (Default: 0.35)"
+         tool_tip="개체에 대한 대기 팁이 표시된 후 지연 시간(기본값: 0.35)"
          top_pad="2"
          width="200" />
         <text
@@ -199,7 +199,7 @@
          name="ObjectInspectorTooltipDelay_text"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
         <slider
          control_name="FSHudTextFadeDistance"
@@ -207,8 +207,8 @@
          follows="left|top"
          height="16"
          increment="0.25"
-         label="Floating text fade distance (in m):"
-         tool_tip="Sets the distance where floating text (hovertext) starts to fade"
+         label="부동 텍스트 페이드 거리(m):"
+         tool_tip="부동 텍스트가 페이드되기 시작하는 거리를 설정합니다."
          label_width="200"
          layout="topleft"
          left="10"
@@ -223,8 +223,8 @@
          follows="left|top"
          height="16"
          increment="0.25"
-         label="Floating text fade range (in m):"
-         tool_tip="Sets the range it takes for a floating text (hovertext) to fade from fully visible to completely invisible"
+         label="부동 텍스트 페이드 범위(m):"
+         tool_tip="수상 텍스트 완전히 보이는에서 완전히 보이지 않는 희미하는 범위를 설정합니다."
          label_width="200"
          layout="topleft"
          left="10"
@@ -242,7 +242,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="2D Overlay"
+     label="2D 오버레이"
      name="ui-2d-overlay" >
         <text
          type="string"
@@ -254,7 +254,7 @@
          name="UI Size:"
          top_pad="8"
          width="80">
-            UI Scaling:
+            UI 스케일링:
         </text>
         <slider
          control_name="UIScaleFactor"
@@ -281,7 +281,7 @@
          name="HUD Size:"
          top_pad="5"
          width="80">
-            HUD Scaling:
+            HUD 스케일링:
         </text>
         <slider
          control_name="HUDScaleFactor"
@@ -307,7 +307,7 @@
        height="16"
        layout="topleft"
        name="ScriptDialogsPerObjectLabel">
-        Script Dialogs per Object:
+        개체별 스크립트 대화:
       </text>
       <combo_box
        control_name="ScriptDialogLimitations"
@@ -318,34 +318,34 @@
        name="ScriptDialogPerObjectDropdown"
        width="180">
         <combo_box.item
-         label="One per Object"
+         label="개체 당 하나"
          name="ScriptDialogOption_0"
          value="0"/>
         <combo_box.item
-         label="One per Channel"
+         label="채널 당 하나"
          name="ScriptDialogOption_1"
          value="1"/>
         <combo_box.item
-         label="One per Channel for Attachments"
+         label="첨부파일의 경우 채널 당 하나"
          name="ScriptDialogOption_2"
          value="2"/>
         <combo_box.item
-         label="One per Channel for HUDs"
+         label="HUD의 경우 채널 당 하나"
          name="ScriptDialogOption_3"
          value="3"/>
         <combo_box.item
-         label="Unconstrained for HUDs"
+         label="HUD에 대한 제한 없음"
          name="ScriptDialogOption_4"
          value="4"/>
         <combo_box.item
-         label="Unconstrained"
+         label="제한 없음"
          name="ScriptDialogOption_5"
          value="5"/>
       </combo_box>
         <check_box
          control_name="FSRemoveScriptBlockButton"
          height="16"
-         label="Remove &quot;Block&quot; button"
+         label="제거 &quot;블록&quot; 버튼"
          layout="topleft"
          left_pad="5"
          name="FSRemoveScriptBlockButton"
@@ -361,7 +361,7 @@
        height="16"
        layout="topleft"
        name="ScriptDialogsPositionLabel">
-        Script Dialogs Position:
+        스크립트 대화 상자 위치:
       </text>
 
         <combo_box
@@ -371,27 +371,27 @@
          left_pad="10"
          top_delta="-5"
          name="ScriptDialogsPositionDropdown"
-         tool_tip="Choose where script dialogs (menus) come up on your screen."
+         tool_tip="화면에서 스크립트 대화 상자(메뉴)를 표시할 위치 선택."
          width="180">
 
         <combo_box.item
-         label="Docked to Chiclet"
+         label="치클렛에 도킹"
          name="ScriptDialogPositionOption_1"
          value="1"/>
         <combo_box.item
-         label="Top Left"
+         label="왼쪽 위"
          name="ScriptDialogPositionOption_2"
          value="2"/>
         <combo_box.item
-         label="Top Right"
+         label="오른쪽 위"
          name="ScriptDialogPositionOption_3"
          value="3"/>
         <combo_box.item
-         label="Bottom Left"
+         label="왼쪽 아래"
          name="ScriptDialogPositionOption_4"
          value="4"/>
         <combo_box.item
-         label="Bottom Right"
+         label="오른쪽 아래"
          name="ScriptDialogPositionOption_5"
          value="5"/>
 
@@ -400,11 +400,11 @@
          control_name="FSAnimatedScriptDialogs"
          height="16"
          initial_value="true"
-         label="Animate Script Dialogs"
+         label="애니메이션 스크립트 대화 상자"
          layout="topleft"
          left_pad="5"
          name="FSAnimatedScriptDialogs"
-         tool_tip="Set this to make script dialogs animate when opening (Classic V1.x behavior). Only works when dialogs open from the top down."
+         tool_tip="열 때 스크립트 대화 상자가 활성화되도록 하려면 이 옵션을 설정합니다(클래식 V1.x 동작). 대화 상자가 위에서 아래로 열릴 때만 작동합니다."
          top_delta="4"
          width="256" />
 
@@ -415,13 +415,13 @@
          height="16"
          increment="1"
          initial_value="20"
-         label="Visible rows per script dialog:"
+         label="스크립트당 표시되는 행 수 대화 상자:"
          label_width="160"
          layout="topleft"
          max_val="50"
          min_val="2"
          name="FSRowsPerScriptDialog"
-         tool_tip="The maximum number of rows in a script dialog that will be visible at the same time."
+         tool_tip="동시에 표시되는 스크립트 대화 상자의 최대 행 수."
          top_pad="9"
          left="10"
          width="400" />
@@ -429,33 +429,33 @@
       <check_box
        control_name="UsePieMenu"
        height="16"
-       label="Use Pie Menu"
+       label="원형 메뉴 사용"
        layout="topleft"
        left="5"
        name="UsePieMenu"
-       tool_tip="Use the classic V1 ring menu instead of rectangular context menus when right clicking on land, avatars, objects or attachments."
+       tool_tip="랜드, 아바타, 객체 또는 첨부 파일을 마우스 오른쪽 버튼으로 클릭할 때 직사각형 컨텍스트 메뉴 대신 클래식 V1 링 메뉴 사."
        top_pad="12"
        width="256" />
       <check_box
        control_name="PieMenuPopupFontEffect"
        enabled_control="UsePieMenu"
        height="16"
-       label="Enable text animation"
+       label="텍스트 애니메이션 사용"
        layout="topleft"
        left="15"
        name="PieMenuPopupFontEffect"
-       tool_tip="Enables the text within the pie menu being part of the animation when the pie menu opens."
+       tool_tip="원형 메뉴가 열릴 때 애니메이션에 포함된 원형 메뉴 내의 텍스트를 활성화"
        top_pad="3"
        width="256" />
       <check_box
        control_name="PieMenuOuterRingShade"
        enabled_control="UsePieMenu"
        height="16"
-       label="Enable outer ring shade"
+       label="외부 링 셰이드를 활성화"
        layout="topleft"
        left="15"
        name="PieMenuOuterRingShade"
-       tool_tip="Enables an additional outer ring shade that helps visualizing sub menus."
+       tool_tip="하위 메뉴를 시각화하는 데 도움이 되는 추가 외부 링 음영 사용."
        top_pad="3"
        width="256" />
 
@@ -468,7 +468,7 @@
          top_pad="8"
          type="string"
          width="210">
-           Group Notices and chiclets location:
+           그룹 알림 및 치클렛 위치:
         </text>
 
         <radio_group
@@ -479,11 +479,11 @@
          left_pad="5"
          top_delta="-1"
          name="ShowGroupNoticesTopRight"
-         tool_tip="Choose where group notifications and chiclet icons will appear on the screen."
+         tool_tip="화면에 그룹 알림 및 키클릿 아이콘을 표시할 위치 선택."
          width="200">
         <radio_item
          height="16"
-         label="Bottom Right"
+         label="오른쪽 아래"
          layout="topleft"
          left="0"
          name="radio"
@@ -492,7 +492,7 @@
          width="100" />
         <radio_item
          height="16"
-         label="Top Right"
+         label="오른쪽 위"
          layout="topleft"
          left_pad="0"
          name="radio1"
@@ -509,28 +509,28 @@
          top_pad="-14"
          type="string"
          width="128">
-           (requires restart)
+           (재시작 요청)
         </text>
 
         <check_box
          control_name="FSDisableIMChiclets"
          height="16"
-         label="Hide group and IM chat chiclets"
+         label="그룹 및 IM 채팅 치클 숨기기"
          layout="topleft"
          left="5"
          name="FSDisableIMChiclets"
-         tool_tip="If checked, Firestorm will not show any group / IM chat chiclets (notifications envelope and sum of IMs will remain on the screen)."
+         tool_tip="이 옵션을 선택하면 Firestorm에서 그룹/IM 채팅 치클렛이 표시되지 않습니다(알림 봉투 및 IM 합계는 화면에 남습니다)."
          top_pad="6"
          width="256" />
         <check_box
          control_name="FSLegacyNotificationWell"
          height="16"
          initial_value="true"
-         label="Use legacy list layout for Notifications window"
+         label="알림 창에 레거시 목록 레이아웃 사용"
          layout="topleft"
          left="5"
          name="FSLegacyNotificationWell"
-         tool_tip="If checked, Firestorm will use the legacy list view to display stored notifications."
+         tool_tip="이 옵션을 선택하면 Firestorm은 레거시 목록 보기를 사용하여 저장된 알림을 표시합니다."
          top_pad="3"
          width="265" />
         <text
@@ -543,37 +543,37 @@
          layout="topleft"
          text_color="White_50"
          name="FSLegacyNotificationWellRequiresRestart">
-            (requires restart)
+            (재시작 요청)
         </text>
         <check_box
          control_name="FSLegacyNotificationWellAutoResize"
          height="16"
          initial_value="true"
-         label="Auto-resize Conversations and legacy Notifications lists"
+         label="대화 및 레거시 알림 목록 자동 크기 조정"
          layout="topleft"
          left="5"
          name="FSLegacyNotificationWellAutoResize"
-         tool_tip="If checked, Firestorm will always resize the Conversations and legacy Notifications lists automatically when items get added or removed."
+         tool_tip="이 옵션을 선택하면 항목이 추가 또는 제거될 때 Firestorm은 항상 대화 및 레거시 알림 목록의 크기를 자동으로 조정합니다."
          top_pad="3"
          width="450" />
         <check_box
          control_name="FSRemapLinuxShortcuts"
          height="16"
-         label="Remap shortcuts already used by Linux (Linux only; requires restart)"
+         label="Linux에서 이미 사용 중인 재맵 바로 가기(Linux만 해당, 다시 시작해야 함)"
          layout="topleft"
          left="5"
          name="FSRemapLinuxShortcuts"
-         tool_tip="If enabled, shortcuts that are already used by the Linux operating system (such as CTRL-ALT-Fx) will be remapped."
+         tool_tip="사용하도록 설정한 경우 리눅스 운영 체제에서 이미 사용하고 있는 바로 가기(예: CTRL-ALT-Fx)가 다시 매핑됩니다."
          top_pad="5"
          width="256" />
         <check_box
          control_name="FSStatisticsNoFocus"
          height="16"
-         label="Prevent statistics window from gaining focus"
+         label="통계 창의 포커스 방지"
          layout="topleft"
          left="5"
          name="FSStatisticsNoFocus"
-         tool_tip="If enabled, the statistics window will never receive focus when another window is closed (actions such as changing graph layout for items are still possible when enabled)."
+         tool_tip="활성화된 경우 다른 창이 닫혔을 때 통계 창에 포커스가 표시되지 않습니다(활성화된 경우 항목의 그래프 레이아웃 변경과 같은 작업은 계속 가능합니다)."
          top_pad="3"
          width="256" />
 
@@ -583,7 +583,7 @@
          follows="left|top"
          height="16"
          increment="1"
-         label="Number of times IM tabs flash:"
+         label="IM 탭이 깜박이는 횟수:"
          label_width="200"
          layout="topleft"
          left="10"
@@ -598,8 +598,8 @@
          follows="left|top"
          height="16"
          increment="0.25"
-         label="IM tab flash period:"
-         tool_tip="Time in seconds a single flash of IM tabs takes - used for IM notifications"
+         label="IM 탭 플래시 기간:"
+         tool_tip="IM 탭을 한 번 깜박이는 데 걸리는 시간(초) - IM 알림에 사용"
          label_width="200"
          layout="topleft"
          left="10"
@@ -618,7 +618,7 @@
          name="ButtonFlashRateText"
          top_delta="0"
          width="50">
-            sec
+            초
         </text>
 
     </panel>	
@@ -630,7 +630,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Top Bars"
+     label="상단 막대"
      name="UI-interface-top-bars" >
 
 		<text
@@ -643,14 +643,14 @@
 		left="10"
 		top_pad="8"
 		width="200">
-		Status bar:
+		상태 막대:
 		</text>
 
 		<check_box
 		 control_name="ShowNetStats"
 		 height="16"
-		 tool_tip="Show traffic indicator in top menu"
-		 label="Show traffic indicator in upper right corner of the screen"
+		 tool_tip="상단 메뉴에 트래픽 표시기 표시"
+		 label="화면의 오른쪽 상단 모서리에 트래픽 표시기 표시"
 		 layout="topleft"
 		 name="ShowNetStats"
 		 top_pad="8"
@@ -661,18 +661,18 @@
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Use legacy period mean per second display for traffic indicator"
+		 label="트래픽 표시기에 초당 레거시 기간 평균 표시 사용"
 		 name="FSStatbarLegacyMeanPerSec"
 		 width="270"
 		 left="20"
 		 control_name="FSStatbarLegacyMeanPerSec"
-		 tool_tip="If enabled, Firestorm will use the legacy method of showing the period mean per second value in the traffic indicator instead of the current observed value"/>
+		 tool_tip="활성화된 경우 Firestorm은 트래픽 표시기에 현재 관측 값 대신 초당 기간 평균 값을 표시하는 기존 방법을 사용합니다"/>
 		<check_box
 		 enabled_control="ShowNetStats"
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Clicking on traffic indicator opens Statistics instead of the Lag Meter"
+		 label="트래픽 표시기를 클릭하면 지연 미터 대신 통계가 열립니다"
 		 name="FSUseStatsInsteadOfLagMeter"
 		 width="270"
 		 left="20"
@@ -681,17 +681,17 @@
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Show media controls in top menu"
+		 label="상단 메뉴에 미디어 컨트롤 표시"
 		 name="FSEnableVolumeControls"
 		 left="10"
 		 width="270"
 		 control_name="FSEnableVolumeControls"
-		 tool_tip="If checked, Firestorm will show media controls (volume, media, stream) in upper right corner of the screen. Useful, if skin already has its own controls."/>
+		 tool_tip="이 옵션을 선택하면 Firestorm이 화면 오른쪽 상단 모서리에 미디어 컨트롤(볼륨, 미디어, 스트림)을 표시합니다. 피부에 이미 자체 컨트롤이 있는 경우 유용함."/>
 		<check_box
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Show location in top menu"
+		 label="상단 메뉴에 위치 표시"
 		 name="ShowMenuBarLocation"
 		 width="270"
 		 left="10"
@@ -700,18 +700,18 @@
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Show simulator version in top menu"
+		 label="상단 메뉴에 시뮬레이터 버전 표시"
 		 left="20"
 		 name="FSStatusbarShowSimulatorVersion"
 		 enabled_control="ShowMenuBarLocation"
 		 width="270"
 		 control_name="FSStatusbarShowSimulatorVersion"
-		 tool_tip="Shows the current simulator version in the V1-like status bar."/>
+		 tool_tip="V1과 유사한 상태 표시줄에 현재 시뮬레이터 버전을 표시합니다."/>
 		<check_box
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Show menu search"
+		 label="메뉴 검색 표시"
 		 left="10"
 		 name="show_search_menu_check"
 		 width="270"
@@ -720,7 +720,7 @@
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Show currency balance"
+		 label="통화 잔액 표시"
 		 name="FSShowCurrencyBalanceInStatusbar"
 		 width="270"
 		 control_name="FSShowCurrencyBalanceInStatusbar"/>
@@ -728,7 +728,7 @@
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Enable mouse rollover popup on status bar menu icons"
+		 label="상태 표시줄 메뉴 아이콘에서 마우스 롤오버 팝업 사용"
 		 name="FSStatusBarMenuButtonPopupOnRollover"
 		 width="270"
 		 control_name="FSStatusBarMenuButtonPopupOnRollover"/>
@@ -741,7 +741,7 @@
 		 left="13"
 		 top_pad="8"
 		 width="75">
-		 Time format:
+		 시간 형식:
 		</text>
 		<combo_box
 		 control_name="FSStatusBarTimeFormat"
@@ -750,42 +750,42 @@
 		 left_pad="10"
 		 top_delta="-4"
 		 name="FSStatusBarTimeFormat"
-		 tool_tip="Selects the time format used on main menu bar."
+		 tool_tip="기본 메뉴 표시줄에 사용되는 시간 형식을 선택합니다."
 		 width="250">
 			<combo_box.item
-			 label="Language default"
+			 label="언어 기본"
 			 name="Language"
 			 value="Language"/>
 			<combo_box.item
-			 label="12 Hour"
+			 label="12 시간"
 			 name="12_Hour"
 			 value="12 Hour"/>
 			<combo_box.item
-			 label="12 Hour incl. Seconds"
+			 label="12 시간 포함. 초"
 			 name="12_Hour_Seconds"
 			 value="12 Hour Seconds"/>
 			<combo_box.item
-			 label="12 Hour incl. Timezone"
+			 label="12 시간 포함. 시간대"
 			 name="12_Hour_TZ"
 			 value="12 Hour TZ"/>
 			<combo_box.item
-			 label="12 Hour incl. Seconds &amp; Timezone"
+			 label="12 시간 포함. 초 및 시간대"
 			 name="12_Hour_TZ_Seconds"
 			 value="12 Hour TZ Seconds"/>
 			<combo_box.item
-			 label="24 Hour"
+			 label="24 시간"
 			 name="24_Hour"
 			 value="24 Hour"/>
 			<combo_box.item
-			 label="24 Hour incl. Seconds"
+			 label="24 시간 포함. 초"
 			 name="24_Hour_Seconds"
 			 value="24 Hour Seconds"/>
 			<combo_box.item
-			 label="24 Hour incl. Timezone"
+			 label="24 시간 포함. 시간대"
 			 name="24_Hour_TZ"
 			 value="24 Hour TZ"/>
 			<combo_box.item
-			 label="24 Hour incl. Seconds &amp; Timezone"
+			 label="24 시간 포함. 초 및 시간대"
 			 name="24_Hour_TZ_Seconds"
 			 value="24 Hour TZ Seconds"/>
 		</combo_box>
@@ -800,14 +800,14 @@
 		left="10"
 		top_pad="10"
 		width="200">
-		Navigation &amp; Favourites bars:
+		탐색 및 즐겨찾기 모음:
 		</text>
 
 		<check_box
 		 top_pad="8"
 		 follows="left|top"
 		 height="16"
-		 label="Show Favorites Bar"
+		 label="즐겨찾기 모음 표시"
 		 name="ShowNavbarFavoritesPanel"
 		 width="270"
 		 left="10"
@@ -816,7 +816,7 @@
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Show Navigation and Search Bar"
+		 label="탐색 및 검색 표시줄 표시"
 		 name="ShowNavbarNavigationPanel"
 		 width="270"
 		 control_name="ShowNavbarNavigationPanel"/>
@@ -825,7 +825,7 @@
 		 top_pad="4"
 		 follows="left|top"
 		 height="16"
-		 label="Show Search Bar"
+		 label="검색 막대 표시"
 		 name="ShowSearchTopBar"
 		 width="270"
 		 left="20"
@@ -839,16 +839,16 @@
      left="1"
      right="-1"
      follows="all"
-     label="Interface Windows"
+     label="인터페이스 창"
      name="UI-interface-windows-tab" >
 
 		<check_box
 		 control_name="FSInspectAvatarSlurlOpensProfile"
 		 height="16"
-		 label="Open avatar profile directly when clicking on its name"
+		 label="이름을 클릭하면 아바타 프로필 바로 열기"
 		 layout="topleft"
 		 name="FSInspectAvatarSlurlOpensProfile"
-		 tool_tip="If enabled, Firestorm will open the profile of an avatar directly when clicking on a link with its name"
+		 tool_tip="활성화된 경우 Firestorm은 이름이 있는 링크를 클릭할 때 아바타의 프로필을 직접 엽니다."
 		 initial_value="true"
 		 top_pad="6"
 		 left="10"
@@ -857,47 +857,47 @@
 		 top_pad="0"
 		 follows="left|top"
 		 height="16"
-		 label="Use web profiles by default"
+		 label="기본적으로 웹 프로파일 사용"
 		 name="FSUseWebProfiles"
 		 width="270"
 		 control_name="FSUseWebProfiles"
-		 tool_tip="Shows profiles as a web page instead of a v1-style panel."/>
+		 tool_tip="프로파일을 v1 스타일 패널 대신 웹 페이지로 표시합니다."/>
 		<check_box
 		 top_pad="0"
 		 follows="left|top"
 		 height="16"
-		 label="Disable automatic opening of block list"
+		 label="차단 목록의 자동 열기 사용 안 함"
 		 name="FSDisableBlockListAutoOpen"
 		 width="270"
 		 control_name="FSDisableBlockListAutoOpen"
-		 tool_tip="Disables the automatic opening of the block list when blocking avatars or objects."/>
+		 tool_tip="아바타 또는 객체를 차단할 때 블록 목록의 자동 열기를 비활성화합니다."/>
 		<check_box
 		 top_pad="0"
 		 follows="left|top"
 		 height="16"
-		 label="'Friends' and 'Groups' in 'Comm' menu opens the [SHORT_VIEWER_GENERATION] based windows"
+		 label="''일반' 메뉴의 친구' 및 '그룹'에서 [SHORT_VIEWER_GENERATION] 기반 창이 열립니다."
 		 name="FSUseV2Friends"
 		 width="270"
 		 control_name="FSUseV2Friends"
-		 tool_tip="If enabled, Friends / Groups will open through the People panel - otherwise they will open in the Contacts panel."/>
+		 tool_tip="사용 가능한 경우 친구/그룹이 [사용자] 패널을 통해 열립니다. 그렇지 않으면 [연락처] 패널에서 열립니다."/>
 		<check_box
 		 top_pad="0"
 		 follows="left|top"
 		 height="16"
-		 label="Use legacy object properties"
+		 label="레거시 개체 속성 사용"
 		 name="FSUseLegacyObjectProperties"
 		 width="270"
 		 control_name="FSUseLegacyObjectProperties"
-		 tool_tip="If enabled, the legacy object profile window will be used when opening object properties."/>
+		 tool_tip="사용하도록 설정된 경우 개체 속성을 열 때 레거시 개체 프로파일 창이 사용됩니다."/>
 		<check_box
 		 top_pad="0"
 		 follows="left|top"
 		 height="16"
-		 label="Use small camera window"
+		 label="작은 카메라 창 사용"
 		 name="FSUseSmallCameraFloater"
 		 width="270"
 		 control_name="FSUseSmallCameraFloater"
-		 tool_tip="If enabled, the smaller, legacy camera window without camera preset controls will be used."/>
+		 tool_tip="활성화된 경우 카메라 사전 설정 컨트롤이 없는 더 작은 레거시 카메라 윈도우가 사용됩니다."/>
 
 		<text
 		type="string"
@@ -909,7 +909,7 @@
 		left="10"
 		top_pad="7"
 		width="200">
-		Use stand-alone windows for:
+		독립 실행형 창 사용:
 		</text>
 		<check_box
 		top_pad="2"
@@ -917,38 +917,38 @@
 		follows="left|top"
 		height="16"
 		name="FSUseStandaloneGroupFloater"
-		label="Group profiles"
+		label="그룹 프로필"
 		left="20"
 		width="170"
-		tool_tip="If enabled, group profiles will open in separate windows."/>
+		tool_tip="활성화된 경우 그룹 프로파일이 별도의 창에 열립니다."/>
 		<check_box
 		control_name="FSUseStandaloneTeleportHistoryFloater"
 		follows="left|top"
 		height="16"
 		name="FSUseStandaloneTeleportHistoryFloater"
-		label="Teleport history"
+		label="순간이동 기록"
 		left_pad="5"
 		width="170"
-		tool_tip="If enabled, using the shortcut for teleport history will open the history in a separate window."/>
+		tool_tip="활성화된 경우 텔레포트 기록에 대한 바로 가기를 사용하면 기록이 별도의 창에 열립니다."/>
 		<check_box
 		top_pad="2"
 		control_name="FSUseStandaloneBlocklistFloater"
 		follows="left|top"
 		height="16"
 		name="FSUseStandaloneBlocklistFloater"
-		label="Block/mute list"
+		label="차단/음소거 목록"
 		left="20"
 		width="170"
-		tool_tip="If enabled, the list of blocked/muted residents and objects will open in a separate window."/>
+		tool_tip="활성화된 경우 차단/음소거된 거주자 및 개체 목록이 별도의 창에 열립니다."/>
 		<check_box
 		control_name="FSUseStandalonePlaceDetailsFloater"
 		follows="left|top"
 		height="16"
 		name="FSUseStandalonePlaceDetailsFloater"
-		label="Landmarks, place details and teleport history details"
+		label="랜드마크, 배치 세부 정보 및 텔레포트 내역 세부 정보"
 		left_pad="5"
 		width="170"
-		tool_tip="If enabled, landmarks, place details and teleport history details will open in separate windows."/>
+		tool_tip="활성화된 경우 랜드마크, 장소 세부 정보 및 텔레포트 기록 세부 정보가 별도의 창에 열립니다."/>
 
 		<text
 		 top_pad="7"
@@ -958,7 +958,7 @@
 		 height="16"
 		 width="300"
 		 name="ExtendedTeleportHistoryLabel">
-			Extend teleport history by:
+			순간이동 기록 연장 방법:
 		</text>
 		<check_box
 		control_name="FSTeleportHistoryShowPosition"
@@ -968,19 +968,19 @@
 		follows="left|top"
 		height="16"
 		name="FSTeleportHistoryShowPosition"
-		label="Position"
+		label="위치"
 		width="75"
-		tool_tip="If enabled, the local coordinates within the region will be shown in the teleport history."/>
+		tool_tip="활성화된 경우 영역 내의 로컬 좌표가 텔레포트 기록에 표시됩니다."/>
 		<check_box
 		top_delta="0"
 		control_name="FSTeleportHistoryShowDate"
 		follows="left|top"
 		height="16"
 		name="FSTeleportHistoryShowDate"
-		label="Date"
+		label="날짜"
 		left_pad="5"
 		width="75"
-		tool_tip="If enabled, the date and time of the teleport will be shown in the teleport history."/>
+		tool_tip="활성화된 경우 텔레포트의 날짜와 시간이 텔레포트 기록에 표시됩니다."/>
 
 		<text
 		 top_pad="7"
@@ -990,7 +990,7 @@
 		 height="16"
 		 width="300"
 		 name="textFriendlistOptions">
-			Contact list options:
+			연락처 목록 옵션:
 		</text>
 		<text
 		 top_pad="2"
@@ -1000,18 +1000,18 @@
 		 height="16"
 		 width="125"
 		 name="textFriendlistColumns">
-			Visible name columns:
+			보이는 이름 열:
 		</text>
 		<check_box
 		 top_delta="0"
 		 left_pad="15"
 		 follows="left|top"
 		 height="16"
-		 label="Username"
+		 label="사용자 이름"
 		 name="FSFriendListColumnShowUserName"
 		 width="70"
 		 control_name="FSFriendListColumnShowUserName"
-		 tool_tip="The contact list will show a column with the friend's username.">
+		 tool_tip="연락처 목록에 친구의 사용자 이름이 있는 열이 표시됩니다.">
 			<check_box.commit_callback
 			 function="FS.CheckContactListColumnMode" />
 		</check_box>
@@ -1020,11 +1020,11 @@
 		 left_pad="15"
 		 follows="left|top"
 		 height="16"
-		 label="Display name"
+		 label="이름 표시"
 		 name="FSFriendListColumnShowDisplayName"
 		 width="90"
 		 control_name="FSFriendListColumnShowDisplayName"
-		 tool_tip="The contact list will show a column with the friend's display name.">
+		 tool_tip="연락처 목록에 친구의 표시 이름이 있는 열이 표시됩니다.">
 			<check_box.commit_callback
 			 function="FS.CheckContactListColumnMode" />
 		</check_box>
@@ -1033,11 +1033,11 @@
 		 left_pad="15"
 		 follows="left|top"
 		 height="16"
-		 label="Full name"
+		 label="풀네임"
 		 name="FSFriendListColumnShowFullName"
 		 width="70"
 		 control_name="FSFriendListColumnShowFullName"
-		 tool_tip="The contact list will show a column with the friend's full name.">
+		 tool_tip="연락처 목록에 친구의 전체 이름이 있는 열이 표시됩니다.">
 			<check_box.commit_callback
 			 function="FS.CheckContactListColumnMode" />
 		</check_box>
@@ -1047,7 +1047,7 @@
 		 follows="left|top"
 		 name="textFriendListSortOrder"
 		 width="60">
-		 Sort list by:
+		 에 의한 리스트 정렬:
 		</text>
 		<radio_group
 		 top_delta="0"
@@ -1059,7 +1059,7 @@
 		 tool_tip=""
 		 width="331">
 			<radio_item
-			 label="Username"
+			 label="사용자 이름"
 			 layout="topleft"
 			 name="username"
 			 value="0"
@@ -1067,7 +1067,7 @@
 			 width="75" />
 			<radio_item
 			 left_pad="15"
-			 label="Display name"
+			 label="이름 표시"
 			 layout="topleft"
 			 top_delta="0"
 			 name="displayname"
@@ -1080,7 +1080,7 @@
 		 follows="left|top"
 		 name="textFriendListFullNameFormat"
 		 width="105">
-		 Show full name as:
+		 전체 이름 표시:
 		</text>
 		<radio_group
 		 top_delta="0"
@@ -1093,7 +1093,7 @@
 		 tool_tip=""
 		 width="331">
 			<radio_item
-			 label="Username (Display name)"
+			 label="사용자 이름(표시 이름)"
 			 layout="topleft"
 			 name="username_displayname"
 			 value="0"
@@ -1101,7 +1101,7 @@
 			 width="160" />
 			<radio_item
 			 left_pad="15"
-			 label="Display name (Username)"
+			 label="표시 이름(사용자 이름)"
 			 layout="topleft"
 			 top_delta="0"
 			 name="displayname_username"
@@ -1113,22 +1113,22 @@
 		 left="20"
 		 follows="left|top"
 		 height="16"
-		 label="Show permissions column"
+		 label="사용 권한 열 표시"
 		 name="FSFriendListColumnShowPermissions"
 		 width="270"
 		 control_name="FSFriendListColumnShowPermissions"
-		 tool_tip="The contact list will show the columns with the permissions you granted this avatar and vice versa.">
+		 tool_tip="접속 목록은 이 아바타를 허가한 권한이 있는 열을 표시합니다. 그 반대도 마찬가지입니다.">
 		</check_box>
 		<check_box
 		 top_pad="2"
 		 left="20"
 		 follows="left|top"
 		 height="16"
-		 label="Show search filter"
+		 label="검색 필터 표시"
 		 name="FSContactListShowSearch"
 		 width="270"
 		 control_name="FSContactListShowSearch"
-		 tool_tip="The contact list will show a search textbox to filter the list.">
+		 tool_tip="연락처 목록에 목록을 필터링하기 위한 검색 텍스트 상자가 표시됩니다.">
 		</check_box>
 
 		<text
@@ -1139,48 +1139,48 @@
 		 height="16"
 		 width="300"
 		 name="textInventoryOptions">
-			Inventory options:
+			인벤토리 옵션:
 		</text>
 		<check_box
 		 top_pad="2"
 		 left="20"
 		 follows="left|top"
 		 height="16"
-		 label="Hide empty system folders from inventory"
+		 label="인벤토리에서 빈 시스템 폴더 숨기기"
 		 name="DebugHideEmptySystemFolders"
 		 width="270"
 		 control_name="DebugHideEmptySystemFolders"
-		 tool_tip="If enabled, the inventory windows will hide all empty system folders like Favorites, Landmarks etc."/>
+		 tool_tip="이 옵션을 활성화하면 인벤토리 창에서 즐겨찾기, 랜드마크 등과 같은 빈 시스템 폴더를 모두 숨깁니다."/>
 		<check_box
 		 top_pad="2"
 		 follows="left|top"
 		 height="16"
-		 label="Show the Received Items folder in normal inventory"
+		 label="일반 인벤토리에 수신된 항목 폴더 표시"
 		 name="FSShowInboxFolder"
 		 width="270"
 		 control_name="FSShowInboxFolder"
-		 tool_tip="If enabled, the inventory windows will also show the Received Items folder"/>
+		 tool_tip="활성화된 경우 인벤토리 창에는 수신된 항목 폴더도 표시됩니다"/>
 		<check_box
 		 top_pad="2"
 		 left="30"
 		 follows="left|top"
 		 height="16"
-		 label="Always show Received Items button at bottom of inventory"
+		 label="인벤토리 하단에 항상 수신된 항목 표시 단추"
 		 name="FSAlwaysShowInboxButton"
 		 width="270"
 		 control_name="FSAlwaysShowInboxButton"
 		 enabled_control="FSShowInboxFolder"
-		 tool_tip="If enabled, the Received Items button is always shown at the bottom of the inventory windows, even if the folder is shown in the inventory."/>
+		 tool_tip="이 옵션을 선택하면 폴더가 인벤토리에 표시되는 경우에도 항상 인벤토리 창의 맨 아래에 수신 항목 버튼이 표시됩니다."/>
 		<check_box
 		 top_pad="2"
 		 left="20"
 		 follows="left|top"
 		 height="16"
-		 label="Allow separate search terms on each tab in inventory"
+		 label="인벤토리의 각 탭에서 별도의 검색어 허용"
 		 name="FSSplitInventorySearchOverTabs"
 		 width="270"
 		 control_name="FSSplitInventorySearchOverTabs"
-		 tool_tip="If enabled, it is possible to enter a different search term for each tab in inventory."/>
+		 tool_tip="활성화된 경우 인벤토리의 각 탭에 대해 다른 검색어를 입력할 수 있습니다."/>
 
     </panel>
 
@@ -1191,7 +1191,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Toasts"
+     label="토스트"
      name="UI-toasts-tab" >
         <text
          type="string"
@@ -1203,7 +1203,7 @@
          layout="topleft"
          name="ToastSettings"
          width="330">
-            Notification Display Settings (popups, console, toasts):
+            알림 표시 설정(팝업, 콘솔, 토스트):
         </text>
         <slider
          control_name="ChannelBottomPanelMargin"
@@ -1211,8 +1211,8 @@
          follows="left|top"
          height="16"
          increment="1"
-         label="Space between lowest Toast and bottom:"
-         tool_tip="Space in pixels between the bottom of the UI and the bottom toast"
+         label="가장 낮은 토스트와 가장 낮은 토스트 사이의 공간:"
+         tool_tip="UI 하단과 하단 토스트 사이의 공간(픽셀)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1231,7 +1231,7 @@
          name="ToastSpaceText"
          top_delta="0"
          width="80">
-            pixels
+            픽셀
         </text>
         <slider
          control_name="NotificationToastLifeTime"
@@ -1240,8 +1240,8 @@
          height="16"
          increment="1"
          initial_value="5"
-         label="Notification Toast life:"
-         tool_tip="Number of seconds that a notification toast is displayed before fading"
+         label="토스트 생명 알림:"
+         tool_tip="페이딩되기 전에 알림 토스트가 표시되는 시간(초)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1259,7 +1259,7 @@
          name="ToastLifetimeText"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
         <slider
          control_name="NotificationTipToastLifeTime"
@@ -1268,8 +1268,8 @@
          height="16"
          increment="1"
          initial_value="5"
-         label="Tip Toast life:"
-         tool_tip="Number of seconds that a tip toast is displayed before fading"
+         label="토스트 생명 팁:"
+         tool_tip="페이딩하기 전에 팁 토스트가 표시되는 시간(초)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1287,7 +1287,7 @@
          name="TipToastLifetimeText"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
         <slider
          control_name="NearbyToastLifeTime"
@@ -1296,8 +1296,8 @@
          height="16"
          increment="1"
          initial_value="5"
-         label="Nearby Chat Toast life:"
-         tool_tip="Number of seconds that a nearby chat popup is displayed before fading"
+         label="근처 채팅 토스트 생명:"
+         tool_tip="페이딩되기 전에 근처 채팅 팝업이 표시되는 시간(초)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1315,7 +1315,7 @@
          name="NearbyToastLifetimeText"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
         <slider
          control_name="FSNearbyChatToastsOffset"
@@ -1324,8 +1324,8 @@
          height="16"
          increment="1"
          initial_value="5"
-         label="Nearby Chat Toast z-offset:"
-         tool_tip="Controls the z-offset of nearby chat toasts"
+         label="근처 채팅 토스트 z 간격띄우기:"
+         tool_tip="주변 대화 토스트의 z 간격띄우기 제어"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1343,7 +1343,7 @@
          name="FSNearbyChatToastsOffsetText"
          top_delta="0"
          width="80">
-            pixels
+            픽셀
         </text>
         <slider
          control_name="NearbyToastFadingTime"
@@ -1351,8 +1351,8 @@
          follows="left|top"
          height="16"
          increment="1"
-         label="Nearby Chat Toast fade time:"
-         tool_tip="Number of seconds that a nearby chat popup takes to fade completely"
+         label="근처 채팅 토스트 페이드 타임:"
+         tool_tip="근처 채팅 팝업이 완전히 페이드되는 데 걸리는 시간(초)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1370,7 +1370,7 @@
          name="NearbyToastFadingTimeText"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
         <slider
          control_name="StartUpToastLifeTime"
@@ -1379,8 +1379,8 @@
          height="16"
          increment="1"
          initial_value="5"
-         label="Startup Toast life:"
-         tool_tip="Number of seconds that a toast is shown on startup before fading"
+         label="스타트업 토스트 생명:"
+         tool_tip="페이딩하기 전에 시작할 때 토스트가 표시되는 시간(초)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1398,7 +1398,7 @@
          name="StartupToastLifetimeText"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
         <slider
          control_name="ToastFadingTime"
@@ -1406,8 +1406,8 @@
          follows="left|top"
          height="16"
          increment="1"
-         label="Normal Toast fade time:"
-         tool_tip="Number of seconds that a normal toast is displayed before fading"
+         label="일반 토스트 페이드 타임:"
+         tool_tip="페이딩되기 전에 일반 토스트가 표시되는 시간(초)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1425,7 +1425,7 @@
          name="ToastFadingTimeText"
          top_delta="0"
          width="80">
-            seconds
+            초
         </text>
         <slider
          control_name="ToastGap"
@@ -1434,8 +1434,8 @@
          height="16"
          increment="1"
          initial_value="5"
-         label="Gap between Toasts:"
-         tool_tip="Gap between adjacent toasts in pixels"
+         label="토스트 간 간격:"
+         tool_tip="인접한 토스트 간의 간격(픽셀)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1453,7 +1453,7 @@
          name="ToastGapText"
          top_delta="0"
          width="80">
-            pixels
+            픽셀
         </text>
         <slider
          control_name="OverflowToastHeight"
@@ -1461,8 +1461,8 @@
          follows="left|top"
          height="16"
          increment="1"
-         label="Height of Overflow Toast:"
-         tool_tip="Height of an overflow toast in pixels"
+         label="오버플로 토스트의 높이:"
+         tool_tip="오버플로 토스트 높이(픽셀)"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1480,7 +1480,7 @@
          name="OverflowToastHeightText"
          top_delta="0"
          width="80">
-            pixels
+            픽셀
         </text>
         <slider
          control_name="NearbyToastWidth"
@@ -1488,8 +1488,8 @@
          follows="left|top"
          height="16"
          increment="1"
-         label="Width of Nearby Chat Toast:"
-         tool_tip="Width of a the nearby chat popups in percent of screen width"
+         label="근처 채팅 토스트 폭:"
+         tool_tip="화면 너비의 백분율로 표시된 근처 채팅 팝업의 너비"
          label_width="250"
          layout="topleft"
          left="10"
@@ -1514,7 +1514,7 @@
        control_name="FSShowToastsInFront"
        height="16"
        initial_value="true"
-       label="Show toasts in front of other windows"
+       label="다른 창 앞에 토스트 표시"
        layout="topleft"
        left="10"
        name="FSShowToastsInFront"
@@ -1523,7 +1523,7 @@
       <check_box
        control_name="FSUseNewRegionRestartNotification"
        height="16"
-       label="Use new region restart notification"
+       label="새 영역 다시 시작 알림 사용"
        layout="topleft"
        left="10"
        name="FSUseNewRegionRestartNotification"
@@ -1533,37 +1533,12 @@
        enabled_control="FSUseNewRegionRestartNotification"
        control_name="FSNoScreenShakeOnRegionRestart"
        height="16"
-       label="Don't shake my screen when region restart alert message is shown"
+       label="지역 다시 시작 경고 메시지가 표시될 때 내 화면 흔들기 안 함"
        layout="topleft"
        left="15"
        name="FSNoScreenShakeOnRegionRestart"
-       top_pad="3"
+       top_pad="5"
        width="256" />
-      <check_box
-       enabled_control="FSUseNewRegionRestartNotification"
-       control_name="FSReportRegionRestartToChat"
-       height="16"
-       label="Send region restart info to channel:"
-       layout="topleft"
-       left="15"
-       name="FSReportRegionRestartToChat"
-       top_pad="3"
-       width="215" />
-      <spinner
-       top_delta="-4"
-       control_name="FSRegionRestartAnnounceChannel"
-       enabled_control="FSUseNewRegionRestartNotification"
-       decimal_digits="0"
-       layout="topleft"
-       follows="left|top"
-       height="18"
-       left_pad="5"
-       increment="1"
-       initial_value="473405"
-       max_val="16777216"
-       min_val="1"
-       name="FSRegionRestartAnnounceChannel"
-       width="90" />
 	</panel>
 
     <!--Font-->
@@ -1573,7 +1548,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Font"
+     label="글꼴"
      name="UI-font-tab" >
 
         <text
@@ -1586,7 +1561,7 @@
          name="tooltip_textbox1"
          top_pad="10"
          width="120">
-           Font Scheme:
+           글꼴 구성:
         </text>
         <combo_box
          height="23"
@@ -1608,7 +1583,7 @@
          follows="left|top"
          type="string"
          length="1">
-           (Requires restart)
+           (재시작 요청)
         </text>
 
         <text
@@ -1621,7 +1596,7 @@
          follows="left|top"
          type="string"
          length="1">
-           Font Size Adjustment:
+           글꼴 크기 조정:
         </text>
         <spinner
          name="font_size_adj_slider"
@@ -1648,8 +1623,8 @@
          type="string"
          length="1"
          line_spacing.pixels="5" >
-           pt (requires restart)
-Default 0. Larger values may not work well.
+           pt (재시작 요청)
+기본값은 0입니다. 값이 클수록 제대로 작동하지 않을 수 있습니다.
         </text>
 
         <text
@@ -1662,7 +1637,7 @@ Default 0. Larger values may not work well.
          name="tooltip_textbox3"
          top_pad="15"
          width="120">
-           Chat Line spacing:
+           채팅 줄 간격:
         </text>
         <spinner
          top_delta="-5"
@@ -1689,8 +1664,8 @@ Default 0. Larger values may not work well.
          type="string"
          length="1"
          line_spacing.pixels="5">
-          pixels (requires restart)
-[VIEWER_GENERATION] default 0. Viewer 1 default 2.
+          픽셀 (재시작 요청)
+[VIEWER_GENERATION] 기본값은 0입니다. 뷰어 1 기본값 2.
         </text>
 
         <text
@@ -1703,7 +1678,7 @@ Default 0. Larger values may not work well.
          name="Label_FolderItemViewHeight"
          top_pad="15"
          width="120">
-           Folder Item Height:
+           폴더 아이템 높이:
         </text>
         <spinner
          top_delta="-5"
@@ -1730,8 +1705,8 @@ Default 0. Larger values may not work well.
          type="string"
          length="1"
          line_spacing.pixels="5">
-          pixels (requires restart)
-[VIEWER_GENERATION] default 20. Viewer 1 default 18.
+          픽셀 (재시작 요청)
+[VIEWER_GENERATION] 기본값은 20입니다. 뷰어 1 기본값은 18입니다.
         </text>
 
 <!-- not a live preview

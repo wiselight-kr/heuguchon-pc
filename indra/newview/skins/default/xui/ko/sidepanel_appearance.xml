@@ -14,16 +14,16 @@ left="0"
 width="333">
    <string
    name="No Outfit"
-   value="No Outfit" />
+   value="겉옷 없음" />
    <string
    name="Unsaved Changes"
-   value="Unsaved changes" />
+   value="저장되지 않은 변경 사항" />
    <string
    name="Now Wearing"
-   value="Now wearing..." />
+   value="입는중..." />
    <string
    name="Changing outfits"
-   value="Changing outfits" />
+   value="겉옷 변경중" />
    <panel
    background_opaque="false"
    background_visible="false"
@@ -71,7 +71,7 @@ width="333">
       top="3"
       mouse_opaque="false"
       name="currentlook_status" >
-      (Status)
+      (상태)
       </text>
       <text
       font="SansSerifLargeBold"
@@ -86,7 +86,7 @@ width="333">
       word_wrap="false"
       mouse_opaque="false"
       name="currentlook_name">
-      MyOutfit With a really Long Name like MOOSE
+      무스처럼 이름이 정말 긴 내 의상
       </text>
       <button
       follows="top|right"

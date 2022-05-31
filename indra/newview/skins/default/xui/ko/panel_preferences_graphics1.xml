@@ -7,10 +7,10 @@
  left="1"
  top="1"
  width="540"
- label="Graphics"
+ label="그래픽"
  name="Display panel">
   <tab_container
-   label="Graphics Prefs"
+   label="그래픽 선호"
    layout="topleft"
    follows="all"
    top="5"
@@ -28,7 +28,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="General"
+     label="일반"
      name="General" >
   <text
     follows="top|left|right"
@@ -38,7 +38,7 @@
     name="preset_label"
     top="5"
     width="70">
-      Preset in use:
+      사전 설정 사용 중:
   </text>
 
   <text
@@ -49,7 +49,7 @@
     name="preset_text"
     top="5"
     width="120">
-      (None)
+      (없음)
   </text>
 
       <text
@@ -62,7 +62,7 @@
        name="QualitySpeed"
        top="25"
        width="400">
-        Quality and speed:
+        질과 속도:
       </text>
       <text
        type="string"
@@ -75,7 +75,7 @@
        name="FasterText"
        top_pad="4"
        width="80">
-        Performance
+        퍼포먼스
       </text>
       <text
        type="string"
@@ -87,7 +87,7 @@
        name="BetterText"
        top_delta="0"
        width="100">
-        Quality
+        질
       </text>
       <icon
        color="Slidermark"
@@ -180,7 +180,7 @@
        name="ShadersPrefText"
        top_delta="20"
        width="80">
-        Low
+        낮음
       </text>
       <text
        type="string"
@@ -193,7 +193,7 @@
        name="ShadersPrefText2"
        top_delta="0"
        width="80">
-        Mid
+        중간
       </text>
       <text
        type="string"
@@ -206,7 +206,7 @@
        name="ShadersPrefText3"
        top_delta="0"
        width="80">
-        High
+        높음
       </text>
       <text
        type="string"
@@ -219,7 +219,7 @@
        name="ShadersPrefText4"
        top_delta="0"
        width="80">
-        Ultra
+        울트라
       </text>
         <check_box
          control_name="FullScreen"
@@ -229,7 +229,7 @@
          layout="topleft"
          left="4"
          name="Fullscreen Mode"
-         tool_tip="Run Firestorm in Fullscreen mode. A restart is required to change mode."
+         tool_tip="Firestorm을 전체 화면 모드로 실행합니다. 모드를 변경하려면 다시 시작해야 합니다."
          top="80"
          width="280" />
         <text
@@ -242,13 +242,13 @@
          name="ShadersText"
          top_pad="5"
          width="128">
-          Shaders:
+          셰이더:
         </text>
         <check_box
          control_name="RenderTransparentWater"
          height="16"
          initial_value="true"
-         label="Transparent Water"
+         label="투명한 물"
          layout="topleft"
          left_delta="5"
          name="TransparentWater"
@@ -261,7 +261,7 @@
          control_name="RenderObjectBump"
          height="16"
          initial_value="true"
-         label="Bump mapping and shiny"
+         label="범프 매핑 및 반짝임"
          layout="topleft"
          left_delta="0"
          name="BumpShiny"
@@ -274,7 +274,7 @@
          control_name="RenderLocalLights"
          height="16"
          initial_value="true"
-         label="Local Lights"
+         label="지역 빛"
          layout="topleft"
          left_delta="0"
          name="LocalLights"
@@ -284,7 +284,7 @@
          control_name="WindLightUseAtmosShaders"
          height="16"
          initial_value="true"
-         label="Atmospheric shaders"
+         label="대기 셰이더"
          layout="topleft"
          left_delta="0"
          name="WindLightUseAtmosShaders"
@@ -297,8 +297,8 @@
          control_name="RenderDeferred"
          height="16"
          initial_value="true"
-         label="Advanced Lighting Model"
-         tool_tip="Enables advanced light rendering."
+         label="고급 조명 모델"
+         tool_tip="고급 조명 렌더링 지원."
          layout="topleft"
          left_delta="0"
          name="UseLightShaders"
@@ -311,7 +311,7 @@
          control_name="RenderDeferredSSAO"
          height="16"
          initial_value="true"
-         label="Ambient Occlusion"
+         label="은은한 맞물림"
          layout="topleft"
          left_delta="0"
          name="UseSSAO"
@@ -332,7 +332,7 @@
          layout="topleft"
          left_delta="-5"
          name="shadows_label">
-          Shadows:
+          그림자:
         </text>
         <combo_box
          control_name="RenderShadowDetail"
@@ -345,15 +345,15 @@
           <combo_box.commit_callback
          function="Pref.RenderOptionUpdate" />
           <combo_box.item
-           label="None"
+           label="없음"
            name="0"
            value="0"/>
           <combo_box.item
-           label="Sun/Moon"
+           label="해/달"
            name="1"
            value="1"/>
           <combo_box.item
-           label="Sun/Moon + Projectors"
+           label="해/달 + 프로젝터"
            name="2"
            value="2"/>
         </combo_box>
@@ -369,7 +369,7 @@
          layout="topleft"
          left_delta="-5"
          name="reflection_label">
-          Water Reflections:
+          물 반사:
         </text>
         <combo_box
          control_name="RenderReflectionDetail"
@@ -380,31 +380,31 @@
          name="Reflections"
          width="150">
           <combo_box.item
-           label="None (opaque)"
+           label="없음 (불투명함)"
            name="-2"
            value="-2"/>
           <combo_box.item
-           label="None (transparent)"
+           label="없음 (투명함)"
            name="-1"
            value="-1"/>
           <combo_box.item
-           label="Minimal"
+           label="최소"
            name="0"
            value="0"/>
           <combo_box.item
-           label="Terrain and trees"
+           label="지형과 나무"
            name="1"
            value="1"/>
           <combo_box.item
-           label="All static objects"
+           label="모든 정적 개체"
            name="2"
            value="2"/>
           <combo_box.item
-           label="All avatars and objects"
+           label="모든 아바타와 개체"
            name="3"
            value="3"/>
           <combo_box.item
-           label="Everything"
+           label="모든 것"
            name="4"
            value="4"/>
         </combo_box>
@@ -421,8 +421,8 @@
          layout="topleft"
          left_delta="-5"
          name="local lights_label"
-         tool_tip="Affects the number of rendered light sources when Advanced Lighting Model is disabled. A restart is required to change mode.">
-          Point Lighting (restart required)
+         tool_tip="고급 조명 모델이 비활성화된 경우 렌더링된 광원 수에 영향을 줍니다. 모드를 변경하려면 다시 시작해야 합니다.">
+          점 라이팅 (재시작이 요구됨)
         </text>
         <combo_box
          control_name="RenderShaderLightingMaxLevel"
@@ -433,15 +433,15 @@
          name="LocalLightsDetail"
          width="150">
           <combo_box.item
-           label="Full (default)"
+           label="꽉참 (기본값)"
            name="3"
            value="3"/>
           <combo_box.item
-           label="Reduced"
+           label="감소된"
            name="2"
            value="2"/>
           <combo_box.item
-           label="Sun/Moon Only"
+           label="해/달 만"
            name="1"
            value="1"/>
         </combo_box>
@@ -453,7 +453,7 @@
          height="15"
          increment="8"
          initial_value="160"
-         label="Draw distance"
+         label="거리 그리기"
          label_width="185"
          layout="topleft"
          left="200"
@@ -481,7 +481,7 @@
          height="15"
          increment="256"
          initial_value="4096"
-         label="Max. particle count"
+         label="최대. 입자 수"
          label_width="185"
          layout="topleft"
          left="200"
@@ -491,13 +491,13 @@
          width="301" />
         <slider
          control_name="IndirectMaxComplexity"
-         tool_tip="Controls at what point a visually complex avatar is drawn as a JellyDoll"
+         tool_tip="시각적으로 복잡한 아바타가 젤리 돌로 그려지는 시점을 제어합니다."
          decimal_digits="0"
          follows="left|top"
          height="15"
          increment="1"
          initial_value="101"
-         label="Maximum complexity"
+         label="최대 복잡도"
          label_width="185"
          layout="topleft"
          left_delta="0"
@@ -531,7 +531,7 @@
          height="15"
          increment="1"
          initial_value="12"
-         label="Max. # of non-impostor avatars"
+         label="최대. # 논-임포스터 아바타"
          label_width="185"
          layout="topleft"
          left="200"
@@ -565,7 +565,7 @@
          height="15"
          increment="1"
          initial_value="8"
-         label="Post process quality"
+         label="후공정품질"
          label_width="185"
          layout="topleft"
          left="200"
@@ -589,7 +589,7 @@
          name="PostProcessText"
          top_delta="0"
          width="128">
-          Low
+          낮음
         </text>
 
         <slider
@@ -599,7 +599,7 @@
          decimal_digits="2"
          initial_value="1"
          increment=".05"
-         label="Avatar Physics"
+         label="아바타 몸"
          label_width="185"
          layout="topleft"
          left="200"
@@ -618,17 +618,17 @@
          name="MeshDetailText"
          top_pad="10"
          width="400">
-          Level of Detail (LOD) Distance Factors:
+          디테일 정도 (LOD) 거리 요소:
         </text>
 
         <slider
          control_name="RenderVolumeLODFactor"
-         tool_tip="Controls when lower-detail objects can be used to reduce rendering cost. Higher values cause lag, use with care."
+         tool_tip="렌더링 비용을 줄이기 위해 하위 세부 개체를 사용할 수 있는 시기를 제어합니다. 값이 높을수록 지연이 발생하므로 주의하여 사용하십시오."
          follows="left|top"
          height="15"
          increment="0.125"
          initial_value="2"
-         label="  Objects &amp; Sculpts LOD"
+         label="  개체 &amp; 조각 LOD"
          label_width="140"
          layout="topleft"
          left_delta="0"
@@ -643,7 +643,7 @@
         follows="left|top"
         height="15"
         initial_value="160"
-        label="  Flexiprims"
+        label="  플렉시프림"
         label_width="140"
         layout="topleft"
         left_delta="0"
@@ -658,7 +658,7 @@
          increment="0.125"
          initial_value="160"
          min_val="0.125"
-         label="  Trees"
+         label="  나무"
          label_width="140"
          layout="topleft"
          left_delta="0"
@@ -672,7 +672,7 @@
          height="15"
          increment="0.125"
          initial_value="160"
-         label="  Avatars"
+         label="  아바타"
          label_width="140"
          layout="topleft"
          left_delta="0"
@@ -686,7 +686,7 @@
          height="15"
          increment="0.125"
          initial_value="160"
-         label="  Terrain"
+         label="  지역"
          label_width="140"
          layout="topleft"
          left_delta="0"
@@ -704,7 +704,7 @@
          height="15"
          increment="8"
          initial_value="160"
-         label="  Sky"
+         label="  하늘"
          label_width="140"
          layout="topleft"
          left_delta="0"
@@ -737,13 +737,13 @@
          name="AvatarRenderingText"
          top_pad="12"
          width="128">
-          Avatar Rendering:
+          아바타 렌더링:
         </text>
         <check_box
          control_name="RenderAvatarVP"
          height="16"
          initial_value="true"
-         label="Hardware skinning"
+         label="하드웨어 스키닝"
          layout="topleft"
          left_delta="0"
          name="AvatarVertexProgram"
@@ -756,7 +756,7 @@
          control_name="RenderAvatarCloth"
          height="16"
          initial_value="true"
-         label="Avatar cloth"
+         label="아바타 옷"
          layout="topleft"
          left_delta="0"
          name="AvatarCloth"
@@ -809,12 +809,12 @@
          name="Presets_Label"
          top_pad="7"
          width="155">
-          Presets:
+          사전설정:
         </text>
         <button
          follows="left|top"
          height="23"
-         label="Save"
+         label="저장"
          layout="topleft"
          left="260"
          name="PrefSaveButton"
@@ -827,7 +827,7 @@
         <button
          follows="left|top"
          height="23"
-         label="Load"
+         label="불러오기"
          layout="topleft"
          left_pad="10"
          name="PrefLoadButton"
@@ -840,7 +840,7 @@
         <button
          follows="left|top"
          height="23"
-         label="Delete"
+         label="삭제"
          layout="topleft"
          left_pad="10"
          name="PrefDeleteButton"
@@ -856,7 +856,7 @@
        follows="left|top"
        height="23"
        image_overlay="Refresh_Off"
-       tool_tip="Reload default graphics settings."
+       tool_tip="기본 그래픽 설정 다시 로드."
        layout="topleft"
        left="460"
        name="Defaults"
@@ -874,61 +874,61 @@
      left="1"
      right="-1"
      follows="all"
-     label="Hardware Settings"
+     label="하드웨어 설정"
      name="Hardware Settings" >
         <check_box
          control_name="RenderAnisotropic"
          height="16"
-         label="Anisotropic Filtering (slower when enabled)"
+         label="이방성 필터링 (활성화 시 느림)"
          layout="topleft"
          left="10"
          name="ani"
-         tool_tip="This checkbox enables anisotropic filtering, which is a method to enhance the quality of textures when they are viewed at relatively large angles in relation to your camera position. Usually makes them look less blurry at greater distances."
+         tool_tip="이 확인란은 이방성 필터링을 활성화합니다, 이것은 당신의 카메라 위치와 관련하여 상대적으로 큰 각도로 볼 때 질감의 품질을 향상시키는 방법이다. 일반적으로 먼 거리에서도 흐릿해 보이지 않게 합니다."
          top="20"
          width="256" />
         <check_box
          control_name="RenderVBOEnable"
          height="16"
          initial_value="true"
-         label="Enable OpenGL Vertex Buffer Objects"
+         label="OpenGL 정점 버퍼 개체 사용"
          layout="topleft"
          left="10"
          top_pad="5"
          name="vbo"
-         tool_tip="Enabling this on modern hardware gives a performance gain.  However, older hardware often has poor implementations of VBOs and you may get crashes when this is enabled."
+         tool_tip="최신 하드웨어에서 이 기능을 활성화하면 성능이 향상됩니다.  하지만, 이전 하드웨어의 VBO 구현이 잘못된 경우가 많으며 이 기능을 사용하도록 설정하면 충돌이 발생할 수 있습니다."
          width="315" />
         <check_box
          control_name="RenderUseStreamVBO"
          height="16"
          initial_value="false"
-         label="Enable Streamed VBOs"
+         label="스트리밍 사용 VBOs"
          layout="topleft"
          left="10"
          top_pad="5"
          name="vbo_stream"
-         tool_tip="Disabling this may improve performance when VBOs are enabled. Disabling produced observable improvement on various AMD and Intel GPUs."
+         tool_tip="이를 사용하지 않도록 설정하면 VBO를 사용하도록 설정할 때 성능이 향상될 수 있습니다. 다양한 AMD 및 Intel GPU에서 관찰 가능한 개선 사항 비활성화."
          width="315" />
         <check_box
          control_name="RenderCompressTextures"
          height="16"
          initial_value="false"
-         label="Enable Lossy Texture Compression (requires restart)"
+         label="손실 텍스처 압축 사용 (재시작 필요)"
          layout="topleft"
          left="10"
          top_pad="5"
          name="texture compression"
-         tool_tip="Compresses textures in video memory, allowing for higher resolution textures and/or more textures to be loaded at the cost of some color quality."
+         tool_tip="비디오 메모리의 텍스처를 압축하여 일부 색 품질을 희생하여 고해상도 텍스처 및/또는 더 많은 텍스처를 로드할 수 있습니다."
          width="315" />
         <check_box
          control_name="RenderHiDPI"
          height="16"
          initial_value="true"
-         label="Enable support for HiDPI displays (Mac OSX only; requires restart)"
+         label="HiDPI 디스플레이 지원 사용 (Mac OSX only; 재시작 필요)"
          layout="topleft"
          left="10"
          top_pad="5"
          name="use HiDPI"
-         tool_tip="Enable OpenGL for High-Resolution Drawing."
+         tool_tip="고해상도 도면에 OpenGL 사용."
          width="315" />
         <text
          type="string"
@@ -940,14 +940,14 @@
          name="Antialiasing:"
          top_pad="10"
          width="220"
-          tool_tip="Changes to this setting may require a restart on some hardware.">
-          Antialiasing (restart recommended):
+          tool_tip="이 설정을 변경하면 일부 하드웨어에서 다시 시작해야 할 수 있습니다.">
+          에일리어싱 제거 (재시작 추천):
         </text>
         <combo_box
          control_name="RenderFSAASamples"
          height="22"
          initial_value="false"
-         label="Antialiasing"
+         label="에일리어싱 제거"
          follows="left|top"
          layout="topleft"
          left="10"
@@ -955,7 +955,7 @@
          top_pad="5"
          width="130">
             <combo_box.item
-             label="Disabled"
+             label="장애"
              name="FSAADisabled"
              value="0" />
             <combo_box.item
@@ -983,7 +983,7 @@
          height="16"
          increment="0.01"
          initial_value="1"
-         label="Gamma:"
+         label="감마:"
          label_width="198"
          layout="topleft"
          left="10"
@@ -1001,7 +1001,7 @@
          name="brightness text"
          top_delta="2"
          width="385">
-            (0/1.0 = default brightness, lower = brighter)
+            (0/1.0 = 기본 밝기, lower = 밝게)
         </text>
         <slider
          control_name="TextureMemory"
@@ -1009,25 +1009,25 @@
          follows="left|top"
          height="20"
          increment="16"
-         label="Viewer Texture Memory Buffer (MB):"
+         label="뷰어 텍스쳐 메모리 버퍼 (MB):"
          label_width="195"
          layout="topleft"
          left="10"
          min_val="64"
          max_val="2048"
          name="GraphicsCardTextureMemory"
-         tool_tip="Amount of memory to allocate for textures. Defaults to video card memory up to 512MB on 32bit systems and up to 2048MB on 64bit systems, depending on the available dedicated video memory of the video card. Reducing this may improve performance but may also make textures blurry."
+         tool_tip="텍스처에 할당할 메모리 양. 32비트 시스템에서는 최대 512MB, 64비트 시스템에서는 최대 2048MB의 비디오 카드 메모리로 기본 설정, 비디오 카드의 사용 가능한 전용 비디오 메모리에 따라 다름. 이 값을 줄이면 성능이 향상될 수 있지만 질감이 흐려질 수도 있음."
          top_pad="18"
          width="360" />
         <check_box
          control_name="FSDynamicTextureMemory"
          height="16"
-         label="Enable Dynamic Texture Memory"
+         label="동적 텍스쳐 메모리 사용"
          layout="topleft"
          left="10"
          top_pad="5"
          name="FSDynamicTextureMemory"
-         tool_tip="Enables dynamic texture memory calculation (only available on 64bit viewers and AMD/NVIDIA GPUs with at least 512MB of video memory)"
+         tool_tip="동적 텍스처 메모리 계산 가능(64비트 뷰어 및 512MB 이상의 비디오 메모리가 있는 AMD/NVIDIA GPU에서만 사용 가능)"
          width="315" />
         <slider
          control_name="FSDynamicTextureMemoryMinTextureMemory"
@@ -1036,14 +1036,14 @@
          height="20"
          increment="16"
          initial_value="32"
-         label="Minimum Viewer Texture Memory Buffer (MB):"
+         label="최소 뷰어 텍스처 메모리 버퍼 (MB):"
          label_width="275"
          layout="topleft"
          left="25"
          min_val="64"
          max_val="4096"
          name="FSDynamicTextureMemoryMinTextureMemory"
-         tool_tip="The minimum amount of memory to allocate for textures. This will make sure the specified amount will always be used for textures, even if it exceeds the amount of available video memory. If the specified amount plus the reserves exceed the amount of physical video memory, it will be capped accordingly."
+         tool_tip="텍스처에 할당할 최소 메모리 양입니다. 이렇게 하면 사용 가능한 비디오 메모리 양을 초과하더라도 지정된 양이 텍스처에 항상 사용됩니다. 지정된 양에 예약량을 더한 값이 실제 비디오 메모리의 양을 초과하면 그에 따라 제한됩니다."
          top_pad="5"
          width="475" />
         <slider
@@ -1052,14 +1052,14 @@
          follows="left|top"
          height="20"
          increment="1"
-         label="Additional Texture Memory Cache Reserve (%):"
+         label="추가 텍스처 메모리 캐시 예약 (%):"
          label_width="275"
          layout="topleft"
          left="25"
          min_val="5"
          max_val="30"
          name="FSDynamicTextureMemoryCacheReserve"
-         tool_tip="The percentage of physical video memory reserved to cache loaded textures that are currently not being displayed."
+         tool_tip="로드된 텍스처를 캐시하기 위해 예약된 몸매 비디오 메모리의 백분율은 현재 표시되지 않음."
          top_pad="5"
          width="475" />
         <slider
@@ -1068,14 +1068,14 @@
          follows="left|top"
          height="20"
          increment="1"
-         label="Physical Video Memory Reserve (%):"
+         label="몸 동영상 메모리 예약(%):"
          label_width="275"
          layout="topleft"
          left="25"
          min_val="5"
          max_val="30"
          name="FSDynamicTextureMemoryGPUReserve"
-         tool_tip="The percentage of physical video memory reserved for other usage."
+         tool_tip="다른 용도로 예약된 실제 비디오 메모리의 백분율."
          top_pad="5"
          width="475" />
         <spinner
@@ -1084,7 +1084,7 @@
          follows="left|top"
          height="22"
          initial_value="4"
-         label="Fog Distance Ratio:"
+         label="안개 거리 비율:"
          label_width="198"
          layout="topleft"
          left="10"
@@ -1099,14 +1099,14 @@
          increment="1"
          follows="left|top"
          height="22"
-         label="Image decode concurrency:"
+         label="이미지 디코딩 동시성:"
          label_width="198"
          layout="topleft"
          left="10"
          max_val="64"
          min_val="0"
          name="image_decode_threads"
-         tool_tip="The number of threads to use for decoding images. 0 = Auto, 1 = Synchronous, 2+ = user specified. (0 or 1 are recommended)"
+         tool_tip="이미지 디코딩에 사용할 스레드 수입니다. 0 = Auto, 1 = Synchronous, 2+ = user 지정. (0 또는 1을 권장합니다)"
          top_pad="7"
          width="262" />
     </panel>
@@ -1118,7 +1118,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Rendering"
+     label="렌더링"
      name="Rendering" >
       <!-- world pauser -->
       <text
@@ -1131,14 +1131,14 @@
          name="World Updating"
          top_pad="10"
          width="308">
-            World Updating:
+            월드 업데이트:
         </text>
         <check_box
          control_name="AgentPause"
          height="16"
          initial_value="false"
-         label="Freeze updates to World (pause everything)"
-         tool_tip="Set this to freeze all updates from the server - stops all actions in-world but does not affect chat, IMs or voice"
+         label="월드에 대한 업데이트 중지 (모든 것 중지)"
+         tool_tip="서버에서 모든 업데이트를 중지하려면 이 옵션을 설정합니다. - 세상의 모든 작업을 중지하지만 대화, IM 또는 음성에는 영향을 주지 않습니다"
          layout="topleft"
          left_delta="5"
          name="WorldPause"
@@ -1155,14 +1155,14 @@
          name="Texture Rendering"
          top_pad="10"
          width="308">
-            Texture Rendering:
+            텍스쳐 렌더링:
         </text>
 
         <check_box
          control_name="FSRestrictMaxTextureSize"
          height="16"
-         label="Restrict maximum texture resolution to 512px (64bit only; requires Restart)"
-         tool_tip="Set this restrict the maximum display resolution for inworld textures to 512px. This allows displaying more textures before exceeding the available texture memory and observing blurry textures."
+         label="최대 텍스처 해상도를 512px로 제한 (64bit 만; 재시작 필요)"
+         tool_tip="내부 텍스처의 최대 디스플레이 해상도를 512px로 제한합니다. 이렇게 하면 사용 가능한 텍스처 메모리를 초과하기 전에 더 많은 텍스처를 표시할 수 있습니다."
          layout="topleft"
          left_delta="0"
          name="FSRestrictMaxTextureSize"
@@ -1181,7 +1181,7 @@
          layout="topleft"
          left_delta="0"
          name="TextureDetailLabel">
-            Max Texture Quality Level:
+            최대 텍스처 품질 수준:
         </text>
         <combo_box
          control_name="TextureDiscardLevel"
@@ -1192,21 +1192,21 @@
          top_pad="-23"
          name="TextureDetail"
          width="150"
-         tool_tip="Quality to load textures to, affects the setting TextureDiscardLevel"> <!-- To translators, do not try to translate the word TextureDiscardLevel -->
+         tool_tip="텍스처를 로드할 품질로, 텍스처 폐기 수준 설정에 영향을 줍니다"> <!-- To translators, do not try to translate the word TextureDiscardLevel -->
             <combo_box.item
-             label="Normal (0) quality"
+             label="일반 (0) 질"
              name="0"
              value="0"/>
             <combo_box.item
-             label="Mid (3) quality"
+             label="중간 (3) 질"
              name="3"
              value="3"/>
             <combo_box.item
-             label="Low (4) quality"
+             label="낮음 (4) 질"
              name="4"
              value="4"/>
             <combo_box.item
-             label="No (5) textures"
+             label="없음 (5) 텍스쳐"
              name="5"
              value="5"/>
         </combo_box>
@@ -1221,15 +1221,15 @@
          name="Alpha Mask Rendering"
          top_pad="10"
          width="308">
-            Alpha Mask Rendering:
+            알파 마스크 렌더링:
         </text>
 
         <check_box
          control_name="RenderAutoMaskAlphaNonDeferred"
          height="16"
          initial_value="false"
-         label="Render alpha masks when 'Advanced Lighting Model' is not enabled"
-         tool_tip="When ticked this makes the Alpha masks (see-thru bits) render correctly when ALM is not selected"
+         label="'고급 조명 모델'이 활성화되지 않았을 때 알파 마스크 렌더"
+         tool_tip="이 옵션을 선택하면 Alm이 선택되지 않은 경우 알파 마스크(스루 비트 참조)가 올바르게 렌더링됩니다"
          layout="topleft"
          left_delta="10"
          name="RenderAutoMaskAlphaNonDeferred"
@@ -1239,8 +1239,8 @@
          control_name="RenderAutoMaskAlphaDeferred"
          height="16"
          initial_value="false"
-         label="Render alpha masks when 'Advanced Lighting Model' is enabled"
-         tool_tip="When ticked this makes the Alpha masks (see-thru bits) render correctly when ALM is selected"
+         label="'고급 조명 모델'이 활성화된 경우 알파 마스크 렌더"
+         tool_tip="이 옵션을 선택하면 Alm이 선택되었을 때 알파 마스크(스루 비트 참조)가 올바르게 렌더링됩니다"
          layout="topleft"
          left_delta="0"
          name="RenderAutoMaskAlphaDeferred"
@@ -1257,15 +1257,15 @@
          name="Miscellaneous Rendering"
          top_pad="10"
          width="308">
-            Miscellaneous Rendering:
+            기타 렌더링:
         </text>
 
         <check_box
          control_name="RenderGlow"
          height="16"
          initial_value="true"
-         label="Render glow"
-         tool_tip="Render glow. Note that strength needs to be set to zero to disable glow when shadows are enabled."
+         label="광선 렌더"
+         tool_tip="빛을 내다. 그림자가 활성화된 경우 예열 기능을 비활성화하려면 강도를 0으로 설정해야 합니다."
          layout="topleft"
          left_delta="10"
          name="RenderGlow"
@@ -1280,8 +1280,8 @@
 		height="16"
 		increment="1"
 		initial_value="160"
-		label="Strength:"
-		tool_tip="Glow strength. Higher = wider and smoother (default is 2) "
+		label="힘:"
+		tool_tip="광력. 높은 = 더 넓고 부드럽게(기본값은 2) "
 		label_width="50"
 		layout="topleft"
 		max_val="3"
@@ -1296,7 +1296,7 @@
          control_name="RenderUnloadedAvatar"
          height="16"
          initial_value="false"
-         label="Show avatars that haven't finished loading"
+         label="로딩이 끝나지 않은 아바타 표시"
          layout="topleft"
          left_delta="-240"
          name="RenderUnloadedAvatars"
@@ -1306,7 +1306,7 @@
          control_name="FSLimitFramerate"
          height="16"
          initial_value="true"
-         label="Limit Framerate"
+         label="프레임레이트 제한"
          layout="topleft"
          left_delta="0"
          name="FSLimitFramerate"
@@ -1334,7 +1334,7 @@
          layout="topleft"
          left="20"
          top_pad="9"
-         label="Show the Scene as Wireframe"
+         label="장면을 와이어프레임으로 표시"
          name="Wireframe">
         <check_box.on_check
          function="Advanced.CheckWireframe"
@@ -1347,8 +1347,8 @@
          layout="topleft"
          left="20"
          top_pad="9"
-         label="Enable Attached Lights (Face Lights)"
-         tool_tip="This will enable any lights, such as face lights, avatars have attached to them. Useful for turning off facelights when necessary."
+         label="연결된 조명 사용 (얼굴 조명)"
+         tool_tip="이렇게 하면 얼굴 조명, 아바타가 부착한 조명 등 모든 조명을 사용할 수 있습니다. 필요한 경우 전면 조명을 끄는 데 유용합니다."
          name="Render Attached Lights">
         <check_box.on_check
          function="CheckControl"
@@ -1362,7 +1362,7 @@
          layout="topleft"
          left="20"
          top_pad="9"
-         label="Render Attached Particles"
+         label="부착된 입자 렌더링"
          name="Render Attached Particles">
          <check_box.on_check
          function="CheckControl"
@@ -1378,8 +1378,8 @@
          height="16"
          increment="1"
          initial_value="200"
-         label="Time to delay while pre-caching before showing world"
-         tool_tip="How long to delay before showing world to you after you show as being online to others (default is 6 seconds)"
+         label="월드를 표시하기 전에 사전 캐슁하는 동안 지연 시간"
+         tool_tip="다른 사용자에게 온라인 상태로 표시된 후 사용자에게 월드를 표시하기 전에 지연되는 시간(기본값은 6초)"
          label_width="300"
          layout="topleft"
          max_val="15"
@@ -1397,7 +1397,7 @@
          name="PrecachingDelayText"
          top_delta="0"
          width="50">
-            seconds
+            초
         </text>
         <slider
          control_name="RenderShadowResolutionScale"
@@ -1406,8 +1406,8 @@
          height="16"
          increment="0.1"
          initial_value="1.0"
-         label="Quality of the Shadows"
-         tool_tip="What is the quality of the Shadows (default is 1)"
+         label="그림자 품질"
+         tool_tip="그림자의 품질은 무엇인가요(기본값은 1)"
          label_width="300"
          layout="topleft"
          left="10"
@@ -1423,14 +1423,14 @@
          height="16"
          increment="1"
          initial_value="12"
-         label="Scale of Terrain Texture Rendering (requires restart)"
+         label="지형 텍스처 렌더링의 척도 (재시작 필요)"
          label_width="300"
          layout="topleft"
          left="10"
          max_val="24"
          min_val="1"
          name="RenderTerrainScale"
-         tool_tip="Determines scale of terrain textures - lower is more compressed (requires viewer restart)"
+         tool_tip="지형 질감의 크기를 결정 - 낮음이 더 압축됨(뷰어 다시 시작)"
          top_pad="3"
          width="405" />
     </panel>
@@ -1442,13 +1442,13 @@
      left="1"
      right="-1"
      follows="all"
-     label="Depth of Field"
+     label="필드의 깊이"
      name="DOF panel" >
        <check_box
         control_name="RenderDepthOfField"
         height="16"
         initial_value="true"
-        label="Enable Depth of Field (This will blur the view except where the camera focus is at.)"
+        label="필드의 깊이 활성화 (이렇게 하면 카메라 초점이 있는 곳을 제외하고 시야가 흐려집니다.)"
         layout="topleft"
         left="10"
         name="UseDoF"
@@ -1462,7 +1462,7 @@
          enabled_control="RenderDepthOfField"
          height="16"
          initial_value="false"
-         label="Enable while in edit mode"
+         label="편집 모드에서 사용"
          layout="topleft"
          left_delta="18"
          name="RenderDepthOfFieldInEditMode"
@@ -1473,7 +1473,7 @@
          enabled_control="RenderDepthOfField"
          height="16"
          initial_value="false"
-         label="Enable while underwater"
+         label="수중 사용 중 활성화"
          layout="topleft"
          name="FSRenderDoFUnderwater"
          top_pad="4"
@@ -1482,7 +1482,7 @@
          control_name="FSFocusPointFollowsPointer"
          enabled_control="RenderDepthOfField"
          height="16"
-         label="Depth of Field focus follows pointer"
+         label="포인터를 따르는 필드 포커스 깊이"
          layout="topleft"
          name="FSFocusPointFollowsPointer"
          tool_tip="Depth of Field (DoF) focus will follow your mouse, this behaviour matches that seen when using flycam. Use in conjunction with DoF focus lock"
@@ -1496,7 +1496,7 @@
          height="16"
          increment=".5"
          initial_value="9.5"
-         label="Camera F Number:"
+         label="카메라 F 번호:"
          label_width="160"
          layout="topleft"
          left_delta="-18"
@@ -1514,7 +1514,7 @@
          height="16"
          increment="1"
          initial_value="50"
-         label="Camera Focal Length mm:"
+         label="카메라 초점 거리 mm:"
          label_width="160"
          layout="topleft"
          left_delta="0"
@@ -1532,14 +1532,14 @@
          height="16"
          increment="1"
          initial_value="60"
-         label="Camera FOV degs:"
+         label="카메라 FOV 디그:"
          label_width="160"
          layout="topleft"
          left_delta="0"
          max_val="200"
          min_val="10"
          name="Camera FOV"
-         tool_tip="Vertical camera field of view for DoF effect (in degrees)"
+         tool_tip="DoF 효과에 대한 수직 카메라 시야(도 단위)"
          top_pad="5"
          width="468"/>
         <slider
@@ -1550,14 +1550,14 @@
          height="16"
          increment="0.01"
          initial_value="0.5"
-         label="DOF Focus Transition Time:"
+         label="DOF 초점 전환 시간:"
          label_width="160"
          layout="topleft"
          left_delta="0"
          max_val="10"
          min_val="0.1"
          name="CameraFocusTrans"
-         tool_tip="Time taken to alter focus from one place to the next"
+         tool_tip="초점을 한 장소에서 다른 장소로 바꾸는 데 걸리는 시간"
          top_pad="5"
          width="478"/>
        <slider
@@ -1568,14 +1568,14 @@
          height="16"
          increment="0.025"
          initial_value="0.70"
-         label="DOF Rendering Quality:"
+         label="DOF 렌더링 품질:"
          label_width="160"
          layout="topleft"
          left_delta="0"
          max_val="1"
          min_val="0.25"
          name="CameraDoFResScale"
-         tool_tip="Affects the quality of the blurring and the performance of rendering.  (higher = better quality, lower = better perforamce)"
+         tool_tip="블러링의 품질과 렌더링 성능에 영향을 미칩니다. (예: = 더 나은 품질, 더 낮은 성능 = 더 나은 성능)"
          top_pad="5"
          width="477"/>
     </panel>
@@ -1587,7 +1587,7 @@ are saved in a preset file. -->
     control_name="RenderAvatarMaxComplexity"
     visible="false"
     height="0"
-    label="RenderAvatarMaxComplexity"
+    label="렌더링 Avatar 최대 복잡성"
     layout="topleft"
     left="0"
     name="RenderAvatarMaxNonImpostors"
@@ -1599,7 +1599,7 @@ are saved in a preset file. -->
     control_name="RenderAvatarMaxNonImpostors"
     visible="false"
     height="0"
-    label="RenderAvatarMaxNonImpostors"
+    label="임포터가 아닌 AvatarMax 렌더링"
     layout="topleft"
     left="0"
     name="RenderAvatarMaxNonImpostors"

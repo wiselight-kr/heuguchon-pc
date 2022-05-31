@@ -7,10 +7,10 @@
  left="1"
  top="1"
  width="540"
- label="Colors"
+ label="색깔"
  name="colors_panel">
  <tab_container
-	 label="Color Prefs"
+	 label="색깔 프리픽스"
 	 layout="topleft"
 	 follows="all"
 	 top="5"
@@ -27,7 +27,7 @@
 	  left="1"
 	  right="-1"
 	  follows="all"
-	  label="Chat Color"
+	  label="대화 색깔"
 	  name="tab-chat" >
      <text
        follows="left|top"
@@ -37,7 +37,7 @@
        name="font_colors"
        top_pad="15"
        width="120">
-       Chat Message Colors:
+       대화 메세지 색깔:
      </text>
      <color_swatch
        color="UserChatColor"
@@ -68,7 +68,7 @@
        name="user_label"
        top_delta="5"
        width="95">
-       My text
+       내 텍스트
      </text>
      <color_swatch
        color="AgentChatColor"
@@ -99,7 +99,7 @@
        name="others_label"
        top_delta="5"
        width="95">
-       Others
+       다른
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -131,7 +131,7 @@
        name="text_box3"
        top_delta="5"
        width="95">
-       Objects
+       개체
      </text>
      
      <color_swatch
@@ -195,7 +195,7 @@
        name="linden_label"
        top_delta="5"
        width="95">
-       Linden
+       주름
      </text>
      
      <color_swatch
@@ -228,7 +228,7 @@
        name="muted_label"
        top_delta="5"
        width="110">
-       Muted
+       음소거
      </text>
      
      <color_swatch
@@ -261,7 +261,7 @@
        name="system_label"
        top_delta="5"
        width="95">
-       System
+       시스템
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -292,7 +292,7 @@
        name="script_error_label"
        top_delta="5"
        width="95">
-       Errors
+       에러
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -324,7 +324,7 @@
        name="object_im_label"
        top_delta="5"
        width="110">
-       Object IMs
+       IMs 개체
      </text>
      
      <color_swatch
@@ -357,7 +357,7 @@
        name="llownersay_label"
        top_delta="5"
        width="95">
-       Owner
+       주인
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -420,7 +420,7 @@
        name="uriquerypart_label"
        top_delta="5"
        width="110">
-       URL Query Part
+       URL 쿼리 부분
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -452,7 +452,7 @@
        name="direct_label"
        top_delta="5"
        width="95">
-       Direct
+       직접
      </text>
     <text
      follows="left|top"
@@ -462,7 +462,7 @@
      name="header_colors"
      top_pad="15"
      width="120">
-     Chat headers:
+     대화 헤더:
     </text>
      <color_swatch
        can_apply_immediately="true"
@@ -493,7 +493,7 @@
      name="chat_name_label"
      top_delta="5"
      width="110">
-     Avatars
+     아바타
     </text>
     <color_swatch
      can_apply_immediately="true"
@@ -524,21 +524,21 @@
      name="object_name_header_label"
      top_delta="5"
      width="95">
-     Objects
+     개체
     </text>
      <slider
       control_name="FSBeyondNearbyChatColorDiminishFactor"
       follows="left|top"
       height="16"
       increment="0.05"
-      label="Beyond chat range diminish factor:"
+      label="채팅 범위 초과 감소 요소:"
       layout="topleft"
       left="30"
       label_width="200"
       min_val="0"
       max_val="1"
       name="FSBeyondNearbyChatColorDiminishFactor"
-      tool_tip="The factor used to diminish the actual chat color if the sender is beyond normal chat range (0 = dim, 1 = bright)"
+      tool_tip="발신인이 정상적인 채팅 범위를 벗어나는 경우 실제 채팅 색상을 줄이는 데 사용되는 요인 (0 = dim, 1 = bright)"
       top_pad="20"
       width="450" />
      <check_box
@@ -550,7 +550,7 @@
        height="12"
        name="FSColorIMsDistinctly"
        width="450"
-       label="Color IM/Group chat distinctly in console:" />
+       label="콘솔에서 IM/그룹 채팅 색 구분:" />
      <panel
        top_pad="2"
        height="25"
@@ -588,7 +588,7 @@
          name="console_im_label"
          top_delta="5"
          width="95">
-         IMs/Group
+         IMs/그룹
        </text>
      </panel>
    </panel>
@@ -608,7 +608,7 @@
        name="nametag_colors"
        top_pad="15"
        width="400">
-       Name tag Colors:
+       이름 태그 색깔:
      </text>
      <color_swatch
        color="NameTagSelf"
@@ -639,7 +639,7 @@
        name="self_tag_label"
        top_delta="5"
        width="95">
-       My tag
+       내 태그
      </text>
      <color_swatch
        color="NameTagFriend"
@@ -670,7 +670,7 @@
        name="friend_tag_label"
        top_delta="5"
        width="95">
-       Friends
+       친구
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -702,7 +702,7 @@
        name="muted_tag_label"
        top_delta="5"
        width="95">
-       Muted
+       음소거
      </text>
      
      <color_swatch
@@ -734,7 +734,7 @@
        name="linden_tag_label"
        top_delta="5"
        width="95">
-       Linden Lab
+       주름 실험실
      </text>
      <color_swatch
        color="NameTagMatch"
@@ -765,7 +765,7 @@
        name="match_tag_label"
        top_delta="5"
        width="95">
-       Match
+       매치
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -797,7 +797,7 @@
        name="mismatch_tag_label"
        top_delta="5"
        width="95">
-       Mismatch
+       미스매치
      </text>
      <check_box
      control_name="FSColorUsername"
@@ -808,8 +808,8 @@
      name="FSColorUsername"
      top_pad="20"
      width="450"
-     label="Color usernames distinctly"
-     tool_tip="Displays usernames in a different color" />
+     label="사용자 이름을 구별해 색칠"
+     tool_tip="사용자 이름을 다른 색으로 표시합니다." />
      <check_box
      control_name="NameTagShowFriends"
      follows="left|top"
@@ -819,8 +819,8 @@
      name="NameTagShowFriends"
      top_pad="4"
      width="450"
-     label="Color friend name tags distinctly"
-     tool_tip="Displays friend name tags in a different color" />
+     label="친구 이름 태그를 다르게 색칠"
+     tool_tip="친구 이름 태그를 다른 색으로 표시합니다." />
      <color_swatch
        visibility_control="FSColorUsername"
        color="NameTagUsername"
@@ -852,7 +852,7 @@
        name="username_tag_label"
        top_delta="5"
        width="95">
-       Username
+       사용자
      </text>
      
      <text
@@ -863,7 +863,7 @@
        name="bubble_chat"
        top_pad="16"
        width="450">
-       Name Tag / Bubble Chat:
+       이름 태그 / 버블 채팅:
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -875,7 +875,7 @@
        left_delta="10"
        top_pad="10"
        name="background"
-       tool_tip="Choose name tag color"
+       tool_tip="이름 태그 색깔 선택"
        width="44">
        <color_swatch.init_callback
        function="Pref.getUIColor"
@@ -890,12 +890,12 @@
       height="16"
       increment="0.05"
       initial_value="1"
-      label="Name Tag Opacity:"
+      label="이름 태그 불투명도:"
       layout="topleft"
       left_pad="10"
       label_width="105"
       name="bubble_chat_opacity"
-      tool_tip="Choose name tag opacity"
+      tool_tip="이름 태그 투명도 선택"
       top_delta="0"
       width="405" />
 	 <slider
@@ -904,7 +904,7 @@
 		 height="16"
 		 increment="1"
 		 initial_value="0"
-		 label="Name tag Z-Offset:"
+		 label="이름 태그 z-오프셋:"
 		 layout="topleft"
 		 left_delta="0"
 		 max_val="5"
@@ -912,7 +912,7 @@
 		 top_pad="1"
 		 label_width="105"
 		 name="FSNameTagZOffsetCorrection"
-		 tool_tip="Changes the Z-offset for avatar name tags. Default 0"
+		 tool_tip="아바타 이름 태그의 Z-오프셋을 변경합니다. 기본값 0"
 		 width="405" />
      
      <check_box
@@ -924,8 +924,8 @@
       name="FSTagShowDistance"
       top_pad="4"
       width="450"
-      label="Show distance in name tag"
-      tool_tip="Show distance from an avatar in their name tag" />
+      label="이름표에 거리 표시"
+      tool_tip="이름표에 아바타와의 거리 표시" />
      <check_box
       control_name="FSTagShowDistanceColors"
       follows="left|top"
@@ -934,7 +934,7 @@
       height="12"
       name="FSTagShowDistanceColors"
       width="450"
-      label="Color name tags based on distance:" />
+      label="거리에 따른 색상 이름 태그:" />
      <panel
        top_pad="2"
        height="75"
@@ -972,7 +972,7 @@
        name="chat_distance_tag_label"
        top_delta="5"
        width="200">
-       Chat range
+       대화 거리
      </text>
      <color_swatch
        color="NameTagWhisperDistanceColor"
@@ -1003,7 +1003,7 @@
        name="whisper_distance_tag_label"
        top_delta="5"
        width="200">
-       Whisper Range
+       속삭임 거리
      </text>
      
      <color_swatch
@@ -1035,7 +1035,7 @@
        name="shout_tag_label"
        top_delta="5"
        width="200">
-       Shout
+       외침
      </text>
        <color_swatch
          color="NameTagBeyondShoutDistanceColor"
@@ -1066,7 +1066,7 @@
          name="beyond_shout_distance_tag_label"
          top_delta="5"
          width="200">
-         Beyond Shout Range
+         외침 거리 너머
        </text>
     </panel>
     <!-- Client tag settings -->
@@ -1085,7 +1085,7 @@
         name="client_tags_colors"
         top_pad="4"
         width="400">
-        Client tag Colors: (OpenSim/AuroraSim only)
+        클라이언트 태그 색상: (오픈심/오로라심 만)
       </text>
       <text
         type="string"
@@ -1097,7 +1097,7 @@
         name="whattagstoshow"
         top_pad="10"
         width="220">
-        What tags would you want to see?
+        무슨 태그를 보고싶나요?
       </text>
       <combo_box
         control_name="FSClientTagsVisibility"
@@ -1112,19 +1112,19 @@
         <combo_box.item
          name="No Viewertags"
          value="0"
-         label="No Viewertags" />
+         label="뷰어 태그 없음" />
         <combo_box.item
          name="TPVD Viewer"
          value="1"
-         label="TPVD Viewers (using a list)" />
+         label="TPVD 뷰어 (리스트 사용)" />
         <combo_box.item
          name="All known Viewers"
          value="2"
-         label="All known Viewers (using a list)" />
+         label="알려진 모든 뷰어 (리스트 사용)" />
         <combo_box.item
          name="All Viewers"
          value="3"
-         label="All Viewers" />
+         label="모든 뷰어" />
       </combo_box>
       <text
         type="string"
@@ -1136,7 +1136,7 @@
         name="colorbasedonviewer"
         top_pad="10"
         width="220">
-        Tag Color based on Viewer?
+        뷰어 기준 태그 색깔?
       </text>
       <combo_box
         control_name="FSColorClienttags"
@@ -1151,19 +1151,19 @@
         <combo_box.item
          name="Color not based on Viewer"
          value="0"
-         label="Color not based on Viewer" />
+         label="뷰어를 기준으로 하지 않은 색깔" />
         <combo_box.item
          name="Single color per Viewer"
          value="1"
-         label="Single color per Viewer" />
+         label="뷰어별 하나의 색깔" />
         <combo_box.item
          name="Multiple colors per Viewer"
          value="2"
-         label="Multiple colors per Viewer" />
+         label="뷰어별 여러 색깔" />
         <combo_box.item
          name="Userdefined color"
          value="3"
-         label="Userdefined Color" />
+         label="사용자정의 색깔" />
       </combo_box>
       <text
         type="string"
@@ -1175,7 +1175,7 @@
         name="listtodisplayviewertags_txt"
         top_pad="10"
         width="220">
-        Use a list to display Viewertags?
+        뷰어태그를 사용하기 위해 리스트를 사용하나요?
       </text>
       <combo_box
         control_name="FSUseLegacyClienttags"
@@ -1190,15 +1190,15 @@
         <combo_box.item
          name="Don't use a list"
          value="0"
-         label="Don't use a list" />
+         label="리스트를 사용하지 않음" />
         <combo_box.item
          name="Local Clienttags"
          value="1"
-         label="Local Tag List" />
+         label="지역 태그 리스트" />
         <combo_box.item
          name="Download Clienttags"
          value="2"
-         label="Download Tag List at Viewer Start" />
+         label="뷰어 시작 시 태그 목록 다운로드" />
       </combo_box>
     </panel>
    </panel>
@@ -1208,7 +1208,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Minimap"
+     label="미니맵"
      name="tab-minimap">
      <slider
        can_edit_text="false"
@@ -1220,7 +1220,7 @@
        initial_value="1.0"
        layout="topleft"
        label_width="115"
-       label="Background opacity:"
+       label="배경 투명도:"
        left="30"
        max_val="1.00"
        min_val="0.00"
@@ -1238,7 +1238,7 @@
        height="15"
        name="netmap_pickradius_color_textbox"
        width="115">
-       Pick radius color:
+       반지름 색상 선택:
      </text>
      <color_swatch
        color="MapPickRadiusColor"
@@ -1249,7 +1249,7 @@
        layout="topleft"
        left_pad="13"
        name="MapPickRadiusColor"
-       tool_tip="Controls the color of the pick range on the minimap. The size of the pick range can be adjusted with the Pick radius setting."
+       tool_tip="최소 지도에서 선택 범위의 색상을 제어합니다. 반지름 선택 설정으로 거리 선택 의 크기를 조정할 수 있습니다.."
        top_delta="-5"
        width="44" >
        <color_swatch.init_callback
@@ -1269,7 +1269,7 @@
        name="netmap_pickradius_opacity_textbox"
        top_delta="5"
        width="50">
-       Opacity:
+       투명도:
      </text>
      <slider
        can_edit_text="false"
@@ -1283,7 +1283,7 @@
        min_val="0.00"
        name="MapPickRadiusTransparency"
        show_text="true"
-       tool_tip="Controls the opacity of the pick range on the minimap. The size of the pick range can be adjusted with the Pick radius setting."
+       tool_tip="최소맵에서 선택 범위의 불투명도를 제어합니다. 반지름 선택 설정으로 거리 선택 의 크기를 조정할 수 있습니다.."
        width="173" />
      <text
        type="string"
@@ -1295,7 +1295,7 @@
        height="15"
        name="netmap_dots_textbox"
        width="400">
-       Minimap dots:
+       미니맵 도트:
      </text>
      <color_swatch
        color="MapAvatarSelfColor"
@@ -1326,7 +1326,7 @@
        name="MapAvatarSelfColor_label"
        top_delta="5"
        width="95">
-       Me
+       나
      </text>
      <color_swatch
        color="MapAvatarColor"
@@ -1357,7 +1357,7 @@
        name="MapAvatarColor_label"
        top_delta="5"
        width="95">
-       Others
+       다른 사람
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -1389,7 +1389,7 @@
        name="MapAvatarFriendColor_label"
        top_delta="5"
        width="95">
-       Friends
+       친구
      </text>
      
      <color_swatch
@@ -1422,7 +1422,7 @@
        name="MapAvatarLindenColor_label"
        top_delta="5"
        width="95">
-       Linden Lab
+       주름 실험실
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -1453,12 +1453,12 @@
        name="MapAvatarMutedColor_label"
        top_delta="5"
        width="95">
-       Muted
+       음소거
      </text>
      <check_box
        control_name="MiniMapChatRing"
        name="MiniMapChatRing"
-       label="Display rings on the mini map indicating the whisper, say and shout chat ranges:"
+       label="작은 지도에 속삭임, 말하기 및 소리 지르기 대화 범위를 나타내는 링 표시:"
        layout="topleft"
        top_pad="16"
        left="25"
@@ -1506,7 +1506,7 @@
        name="netmap_whisperring_color_label"
        top_delta="5"
        width="95">
-       Whisper range
+       속삭임 거리
      </text>
      <check_box
        visibility_control="MiniMapChatRing"
@@ -1550,7 +1550,7 @@
        name="netmap_chatring_color_label"
        top_delta="5"
        width="95">
-       Chat range
+       대화 거리
      </text>
      <check_box
        visibility_control="MiniMapChatRing"
@@ -1594,7 +1594,7 @@
        name="netmap_shoutring_color_label"
        top_delta="5"
        width="95">
-       Shout range
+       외침 거리
      </text>
 
 	 </panel>
@@ -1617,7 +1617,7 @@
        name="effects_color_textbox"
        top_pad="15"
        width="200">
-       Selection Effects (Particle Beam):
+       효과 선택 (입자 빔):
      </text>
      <text
        type="string"
@@ -1630,7 +1630,7 @@
        name="ScriptDialogFgLabel"
        top_delta="0"
        width="95">
-       Script Dialog F/B:
+       스크립트 대화 F/B:
      </text>
      <color_swatch
        color="EffectColor"
@@ -1696,7 +1696,7 @@
        name="floater_opacity"
        top_pad="15"
        width="220">
-       Floating Window Opacity:
+       창 투명도 플로팅:
      </text>
      <slider
      can_edit_text="false"
@@ -1760,7 +1760,7 @@
        name="console_opacity"
        top_pad="15"
        width="220">
-       Console Opacity:
+       콘솔 투명도:
      </text>
      <color_swatch
      can_apply_immediately="true"
@@ -1772,7 +1772,7 @@
      left="40"
      top_pad="5"
      name="console_background"
-     tool_tip="Choose console color"
+     tool_tip="콘솔 색깔 선택"
      width="44">
         <color_swatch.init_callback
         function="Pref.getUIColor"
@@ -1794,7 +1794,7 @@
      layout="topleft"
      label_width="118"
      name="console_background_opacity"
-     tool_tip="Choose console background opacity"
+     tool_tip="콘솔 배경 투명도 선택"
      left_pad="10"
      width="378" />
 
@@ -1806,7 +1806,7 @@
        name="preferences_search_label"
        top_pad="15"
        width="220">
-       Preferences Search Highlight Color:
+       기본 설정 검색 하이라이트 색상:
      </text>
      <color_swatch
      can_apply_immediately="true"
@@ -1817,7 +1817,7 @@
      left="40"
      top_pad="5"
      name="preferences_search_color"
-     tool_tip="Choose preferences search highlight Color"
+     tool_tip="기본 설정 선택 검색 하이라이트 색상"
      width="44">
         <color_swatch.init_callback
         function="Pref.getUIColor"
@@ -1835,7 +1835,7 @@
        name="area_search_beacon_color_label"
        top_pad="15"
        width="400">
-       Area search beacon Color:
+       영역 검색 비콘 색깔:
      </text>
      <color_swatch
      can_apply_immediately="true"
@@ -1846,7 +1846,7 @@
      left="40"
      top_pad="5"
      name="area_search_beacon_color"
-     tool_tip="Choose area search beacon color"
+     tool_tip="영역 검색 비콘 색상 선택"
      width="44">
         <color_swatch.init_callback
         function="Pref.getUIColor"
@@ -1865,7 +1865,7 @@
      name="FSScriptDialogNoTransparency"
      top_pad="15"
      width="450"
-     label="Always show script dialogs on an opaque background" />
+     label="항상 불투명 배경에 스크립트 대화 상자 표시" />
      <check_box
      control_name="FSGroupNotifyNoTransparency"
      follows="left|top"
@@ -1875,7 +1875,7 @@
      name="FSGroupNotifyNoTransparency"
      top_pad="5"
      width="450"
-     label="Always show group notices on an opaque background" />
+     label="항상 불투명 배경에 그룹 알림 표시" />
      
      <!-- ## Zi: Pie menu -->
      <check_box
@@ -1887,7 +1887,7 @@
      name="override_pie_color_checkbox"
      top_pad="5"
      width="450"
-     label="Override pie menu background color and opacity:" />
+     label="파이 메뉴 배경색 및 불투명도 재정의:" />
      <panel
        top_pad="2"
        height="45"
@@ -1907,7 +1907,7 @@
          left_delta="10"
          top_pad="5"
          name="pie_bg_color_override"
-         tool_tip="Choose pie menu background color"
+         tool_tip="파이 메뉴 배경 색깔 선택"
          width="44">
          <color_swatch.init_callback
          function="Pref.getUIColor"
@@ -1926,7 +1926,7 @@
          left_pad="4"
          top_delta="0"
          name="pie_selected_color_override"
-         tool_tip="Choose pie menu selection color"
+         tool_tip="파이 메뉴 선택 색깔 선택"
          width="44">
          <color_swatch.init_callback
          function="Pref.getUIColor"
@@ -1941,12 +1941,12 @@
        height="16"
        increment="0.05"
        initial_value="0.0"
-       label="Opacity:"
+       label="투명도:"
        layout="topleft"
        left_pad="10"
        label_width="70"
        name="pie_menu_opacity"
-       tool_tip="Choose pie menu opacity"
+       tool_tip="파이 메뉴 투명도 선택"
        top_delta = "0"
        width="330" />
        <slider
@@ -1955,11 +1955,11 @@
        height="16"
        increment="0.05"
        initial_value="0.0"
-       label="Fade out:"
+       label="흐려짐:"
        layout="topleft"
        label_width="70"
        name="pie_menu_fade_out"
-       tool_tip="Choose the amount of fade out to the pie edges"
+       tool_tip="파이 가장자리의 흐려짐 양을 선택합니다."
        top_pad="2"
        width="330" />
      </panel>

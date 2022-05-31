@@ -7,7 +7,7 @@
  left="1"
     top="1"
  width="540"
- label="Communication"
+ label="대화"
  name="im">
  
 	<string name="AutoresponseItemNotSet">
@@ -21,7 +21,7 @@
 	</string>
  
 <tab_container
- label="Privacy"
+ label="프라이버시"
  layout="topleft"
  follows="all"
  top="5"
@@ -39,20 +39,20 @@
    left="1"
    right="-1"
    follows="all"
-   label="General"
+   label="일반"
    name="tab-general" >
 
   <panel.string
    name="log_in_to_change">
-   log in to change
+   변경을 위해 로그인하다
   </panel.string>
 
    <button
     enabled="false"
     follows="left|top"
     height="23"
-    label="Clear History"
-    tool_tip="Clear login image, last location, teleport history, web and texture cache"
+    label="기록 정리"
+    tool_tip="로그인 이미지, 마지막 위치, 순간이동 기록, 웹 및 텍스처 캐시 지우기"
     layout="topleft"
     left="15"
     name="clear_webcache"
@@ -74,13 +74,13 @@
     name="cache_size_label"
     text_color="LtGray_50"
     width="300">
-    (Locations, images, web, search history)
+    (위치, 이미지, 웹, 검색 기록)
    </text>
 
    <check_box
     height="16"
     enabled="true"
-    label="Show my profile info in Search results"
+    label="검색 결과에 내 프로필 정보 표시"
     layout="topleft"
     left="15"
     name="online_searchresults"
@@ -89,7 +89,7 @@
    <check_box
     height="16"
     enabled="false"
-    label="Only friends and groups know I'm online"
+    label="친구 및 그룹만 온라인 상태임을 알 수 있습니다."
     layout="topleft"
     name="online_visibility"
     top_pad="3"
@@ -97,7 +97,7 @@
    <check_box
     enabled="false"
     height="16"
-    label="Only friends and groups can call or IM me"
+    label="친구 및 그룹만 전화하거나 IM으로 보낼 수 있습니다."
     layout="topleft"
     name="voice_call_friends_only_check"
     top_pad="3"
@@ -105,7 +105,7 @@
    <check_box
     control_name="FSShowJoinedGroupInvitations"
     height="16"
-    label="Show invitations for already joined groups"
+    label="이미 가입한 그룹에 대한 초대 표시"
     layout="topleft"
     name="FSShowJoinedGroupInvitations"
     top_pad="3"
@@ -114,7 +114,7 @@
     enabled_control="EnableVoiceChat"
     control_name="AutoDisengageMic"
     height="16"
-    label="Switch off microphone when ending calls"
+    label="통화를 종료할 때 마이크 끄기"
     layout="topleft"
     name="auto_disengage_mic_check"
     top_pad="3"
@@ -122,7 +122,7 @@
    <check_box
     control_name="LanguageIsPublic"
     height="16"
-    label="Let scripted objects see my current language setting"
+    label="스크립팅된 개체에 내 현재 언어 설정을 표시하도록 허용"
     layout="topleft"
     name="LanguageIsPublic"
     top_pad="3"
@@ -130,7 +130,7 @@
    <check_box
     control_name="ShowFavoritesOnLogin"
     enabled="false"
-    label="Show my Favorite Landmarks at Login (via &apos;Start At&apos; drop-down menu)"
+    label="로그인 시 즐겨찾기 랜드마크 표시 ( 경유 &apos;시작&apos; 드롭다운 메뉴)"
     layout="topleft"
     name="favorites_on_login_check"
     top_pad="3"
@@ -140,7 +140,7 @@
    <check_box
     control_name="AutoAcceptNewInventory"
     height="16"
-    label="Automatically accept new inventory items"
+    label="새 인벤토리 아이템 자동 수락"
     layout="topleft"
     name="Auto_Accept_New_Inventory"
     top_pad="10"
@@ -149,7 +149,7 @@
     control_name="FSLogAutoAcceptInventoryToChat"
     enabled_control="AutoAcceptNewInventory"
     height="16"
-    label="Log automatically accepted inventory items to nearby chat"
+    label="자동으로 수락된 인벤토리 아이템을 인근 채팅에 기록"
     layout="topleft"
     left_delta="10"
     name="FSLogAutoAcceptInventoryToChat"
@@ -158,17 +158,17 @@
    <check_box
     control_name="FSUseLegacyInventoryAcceptMessages"
     height="16"
-    label="Use legacy inventory offer accept/decline messages"
+    label="레거시 인벤토리 오퍼 수락/거부 메시지 사용"
     layout="topleft"
     left_delta="-10"
     name="FSUseLegacyInventoryAcceptMessages"
-    tool_tip="If enabled, the viewer will only send accept and decline messages after pressing the according button. If disabled, the accept response will be sent automatically as soon as the inventory offer has been received. This option has no effect if inventory offers are accepted automatically."
+    tool_tip="활성화된 경우 뷰어는 해당 버튼을 누른 후에만 승인 및 거부 메시지를 보냅니다. 비활성화된 경우 재고 제안을 받는 즉시 승인 응답이 자동으로 전송됩니다. 재고 제안이 자동으로 수락되는 경우 이 옵션은 적용되지 않습니다."
     top_pad="3"
     width="350" />
    <check_box
     control_name="ShowInInventory"
     height="16"
-    label="Automatically show newly accepted items in inventory"
+    label="인벤토리에서 자동으로 새로 승인된 항목 표시"
     layout="topleft"
     name="Show_In_Inventory"
     top_pad="3"
@@ -176,7 +176,7 @@
    <check_box
     control_name="ShowNewInventory"
     height="16"
-    label="Automatically view notecards, textures, landmarks after accepting"
+    label="승인 후 노트 카드, 텍스처, 랜드마크 자동 보기"
     layout="topleft"
     name="Show_New_Inventory"
     top_pad="3"
@@ -184,7 +184,7 @@
    <check_box
     control_name="FSOpenInventoryAfterSnapshot"
     height="16"
-    label="Automatically show snapshots in inventory after upload"
+    label="업로드 후 인벤토리에 스냅샷 자동 표시"
     layout="topleft"
     name="FSOpenInventoryAfterSnapshot"
     top_pad="3"
@@ -192,7 +192,7 @@
    <check_box
     control_name="FSCreateGiveInventoryParticleEffect"
     height="16"
-    label="Create particle effects upon giving inventory objects to other avatars"
+    label="인벤토리 개체를 다른 아바타에 제공할 때 입자 효과 생성"
     layout="topleft"
     name="FSCreateGiveInventoryParticleEffect"
     top_pad="3"
@@ -201,7 +201,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Manage Block / Mute list"
+     label="블록 관리 / 음소거 리스트"
      layout="topleft"
      name="block_list"
      top_pad="15"
@@ -218,7 +218,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Logs &amp; Transcripts"
+     label="로그 &amp; 성적표"
      name="tab-logging" >
 
 	   <text
@@ -240,28 +240,28 @@
 		height="23"
 		layout="topleft"
 		left="15"
-		tool_tip="Log (Conversation Log): The list of chat conversations started by you or another party. Transcript: The actual written text as it appeared on the screen."
+		tool_tip="로그 (대화 로그): 사용자 또는 다른 상대방이 시작한 대화 목록입니다. 대화 내용: 화면에 나타나는 실제 쓰여진 텍스트."
 		top_pad="5"
 		name="conversation_log_combo"
 		width="200">
 		 <item
 		  name="log_and_transcripts"
-		  label="Log and transcripts"
+		  label="로그와 성적표"
 		  value="2"/>
 		 <item
 		  name="log_only"
-		  label="Log only"
+		  label="로그만"
 		  value="1"/>
 		 <item
 		  name="no_log_or_transcript"
-		  label="No log or transcripts"
+		  label="로그나 성적표 없음"
 		  value="0"/>
 	   </combo_box>
 	   <button
 		enabled="false"
 		follows="left|top"
 		height="23"
-		label="Clear log..."
+		label="로그 클리어..."
 		layout="topleft"
 		left_pad="4"
 		name="clear_log"
@@ -274,7 +274,7 @@
 		 enabled="false"
 		 follows="left|top"
 		 height="23"
-		 label="Delete transcripts..."
+		 label="성적표 삭제..."
 		 layout="topleft"
 		 left_pad="5"
 		 top_delta="0"
@@ -289,36 +289,36 @@
 		name="LogNearbyChat"
 		top_pad="2"
 		left="15"
-		label="Save nearby chat transcript"
+		label="주변 대화 내용 저장"
 		layout="topleft"
 		height="18"
-		tool_tip="Record nearby chat message transcript to your hard drive"
+		tool_tip="하드 드라이브에 근처 채팅 메시지 대화 내용 녹음"
 		width="350" />
 
 	   <check_box
 		 control_name="UseLegacyIMLogNames"
-		 label="Use legacy file name format for transcripts"
+		 label="스크립트에 레거시 파일 이름 형식 사용"
 		 layout="topleft"
 		 name="UseLegacyIMLogNames"
-		 tool_tip="If enabled, the legacy file name format for transcripts (User Name) will be used instead of new format (user_name)."
+		 tool_tip="활성화된 경우 새 형식(user_name) 대신 스크립트에 대한 레거시 파일 이름 형식(사용자 이름)이 사용됩니다.."
 		 top_pad="15"
 		 height="16"
 		 width="350" />
 	   <check_box
 		 control_name="LogFileNamewithDate"
-		 label="Add date stamp to transcript filenames"
+		 label="스크립트 파일 이름에 날짜 스탬프 추가"
 		 layout="topleft"
 		 name="LogFileNamewithDate"
-		 tool_tip="Add date stamp to chat and IM logs with format chat-YYYY-MM-DD and 'IM file name'-YYYY-MM."
+		 tool_tip="대화-YYYY-MM-DD 형식과 'IM 파일 이름'-YYY-MM 형식의 채팅 및 IM 로그에 날짜 스탬프 추가."
 		 top_pad="3"
 		 height="16"
 		 width="350" />
 	   <check_box
 		 control_name="FSUseBuiltInHistory"
-		 label="Use built-in transcript viewer"
+		 label="빌트인 성적표 뷰어 사용"
 		 layout="topleft"
 		 name="FSUseBuiltInHistory"
-		 tool_tip="Uses the built-in transcript viewer for reading transcripts. If disabled, transcripts will open in your operating system's defined text editor."
+		 tool_tip="기본 제공 대화 상자 뷰어를 사용하여 대화 상자를 읽습니다. 비활성화된 경우 운영 체제의 정의된 텍스트 편집기에서 스크립트가 열립니다."
 		 top_pad="3"
 		 height="16"
 		 width="350" />
@@ -332,19 +332,19 @@
      left="1"
      right="-1"
      follows="all"
-     label="LookAt"
+     label="바라보기"
      name="tab-lookat" >
      
         <check_box
          top="10"
          follows="left|top"
          height="16"
-         label="Show look at targets:"
+         label="대상 보기 표시:"
          left="15"
          name="showlookat"
          width="270"
          control_name="DebugLookAt"
-         tool_tip="The LookAt point is an animation hint, viewers use it to know which way to turn your eyes, head and torso. It can also be used to determine the anchor point of an avatar's camera."/>
+         tool_tip="LookAt 포인트는 애니메이션 힌트로, 시청자들은 여러분의 눈, 머리, 몸통을 어느 방향으로 돌려야 하는지 알기 위해 그것을 사용합니다. 또한 아바타 카메라의 앵커 포인트를 결정하는 데 사용할 수 있습니다.."/>
         <text
          type="string"
          length="1"
@@ -353,10 +353,10 @@
          layout="topleft"
          left="35"
          name="lookatshownames"
-         tool_tip="Name format to show avatar names on the look at targets"
+         tool_tip="표적에 아바타 이름을 표시하는 이름 형식"
          top_pad="5"
          width="200">
-            Show names for look at targets:
+            대상을 보기 위한 이름 표시:
         </text>
         <combo_box
          enabled_control="DebugLookAt"
@@ -370,27 +370,27 @@
          width="150">
             <combo_box.item
              enabled="true"
-             label="None"
+             label="없음"
              name="None"
              value="0" />
             <combo_box.item
              enabled="true"
-             label="Complete name"
+             label="이름 완료"
              name="Complete_Name"
              value="1" />
             <combo_box.item
              enabled="true"
-             label="Display name"
+             label="이름 전시"
              name="Display_Name"
              value="2" />
             <combo_box.item
              enabled="true"
-             label="Legacy name"
+             label="레거시 이름"
              name="Legacy_Name"
              value="3" />
             <combo_box.item
              enabled="true"
-             label="Username"
+             label="사용자 이름"
              name="User_Name"
              value="4" />
         </combo_box>
@@ -399,7 +399,7 @@
          control_name="DebugLookAtHideOwn"
          height="16"
          initial_value="true"
-         label="Don't show me my own lookat target"
+         label="목표물을 직접 보지 마세요"
          layout="topleft"
          left="30"
          name="LookAtHideOwn"
@@ -411,11 +411,11 @@
          control_name="ExodusLookAtLines"
          height="16"
          initial_value="true"
-         label="Render lines to lookat target"
+         label="대상을 보기 위해 렌더 선"
          layout="topleft"
          left="30"
          name="ExodusLookAtLines"
-         tool_tip="Render a line from the avatar to their lookat target crosshair"
+         tool_tip="아바타에서 대상 십자선에 선을 렌더링합니다."
          top_pad="4"
          width="350" />
 
@@ -429,44 +429,44 @@
       name="mylookat"
       top_pad="25"
       width="200">
-        My look at targets:
+        대상을 바라보는 내 시선:
       </text>
         <check_box
          control_name="PrivateLookAtTarget"
          height="16"
-         label="Don't send my look at targets to others"
+         label="대상에 대한 내 시선을 다른 사람에게 보내지 않음"
          layout="topleft"
          left_delta="15"
          name="privatelookat"
-         tool_tip="Prevents your look at hints from being broadcast to others"
+         tool_tip="힌트를 보는 것이 다른 사람에게 브로드캐스트되지 않도록 합니다."
          top_pad="4"
          width="350" />
         <check_box
          control_name="PrivateLocalLookAtTarget"
          height="16"
-         label="Don't send any look at targets at all, not even to myself"
+         label="목표물을 전혀 보지 마세요, 심지어 나 자신에게도"
          layout="topleft"
          name="privateLocalLookat"
-         tool_tip="Prevents your avatar's head from moving to face a point your camera is focused on in your own view. This head movement is not necessarily visible to others whether or not this option is enabled"
+         tool_tip="아바타의 머리가 카메라의 초점이 맞춰진 지점을 향하도록 움직이지 않도록 합니다. 이 옵션이 활성화되었는지 여부에 관계없이 이 머리 움직임은 다른 사람에게 반드시 보이지 않습니다."
          top_pad="4"
          width="400" />
         <check_box
          control_name="PrivatePointAtTarget"
          height="16"
-         label="Don't send my selection target hints"
+         label="선택 대상 힌트를 보내지 않음"
          layout="topleft"
          name="privatepointat"
-         tool_tip="Prevents your selection point from showing to others"
+         tool_tip="선택 점이 다른 사람에게 표시되지 않도록 합니다."
          top_pad="4"
          width="350" />
         <check_box
          control_name="FSLookAtTargetLimitDistance"
          height="16"
-         label="Limit distance from head:"
+         label="머리로부터의 거리 제한:"
          follows="left|top"
          layout="topleft"
          name="LimitLookAt"
-         tool_tip="Clamps your look at target around your head."
+         tool_tip="목표물을 머리 주위에 고정시킵니다."
          top_pad="4"
          width="160" />
         <slider
@@ -504,7 +504,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Autoresponse 1"
+     label="자동응답 1"
      name="tab-autoresponse-1" >
         <text
          type="string"
@@ -518,7 +518,7 @@
          top_pad="5"
          width="475"
          wrap="true">
-           Note: To activate the Autoresponse messages please set your online status via Comm Menu &gt; Online Status
+           노트: 자동 응답 메시지를 활성화하려면 통신 메뉴를 통해 온라인 상태를 설정하십시오. &gt; 온라인 상태
         </text>
         <text
          type="string"
@@ -531,7 +531,7 @@
          name="text_box3"
          top_pad="10"
          width="475">
-          Automatic response when in UNAVAILABLE (ie, BUSY)  mode:
+          사용할 수 없는 경우 자동 응답 (예, 바쁨)  모드:
         </text>
         <text_editor
          control_name="DoNotDisturbModeResponse"
@@ -559,7 +559,7 @@
          name="autorespond_response_label"
          top_pad="5"
          width="475">
-           Automatic response to all avatars when in AUTORESPONSE to everyone mode:
+           AUTRESSONE 모드에서 모든 아바타에 대한 자동 응답:
         </text>
         <text_editor
          control_name="FSAutorespondModeResponse"
@@ -587,7 +587,7 @@
          name="autorespond_nf_response_label"
          top_pad="5"
          width="475">
-           Automatic response to non-friends when in AUTORESPONSE TO NON-FRIENDS mode:
+           비친구 자동응답 모드일 때 비친구 자동응답:
         </text>
         <text_editor
          control_name="FSAutorespondNonFriendsResponse"
@@ -608,7 +608,7 @@
         top_pad="5"
         follows="left|top"
         height="16"
-        label="Send autoresponse when in AWAY mode:"
+        label="AWAY 모드일 때 자동 응답 전송:"
         left="15"
         name="send_away_av_response"
         width="270"
@@ -634,12 +634,12 @@
          top_pad="5"
          follows="left|top"
          height="16"
-         label="Send autoresponse to MUTED avatars:"
+         label="음소거 아바타에 자동 응답 보내기:"
          left="15"
          name="send_muted_av_response"
          width="270"
          control_name="FSSendMutedAvatarResponse"
-         tool_tip="Send the text below when someone you've muted sends you an IM."/>
+         tool_tip="음소거한 사용자가 IM을 보낼 때 아래 텍스트 보내기."/>
         <text_editor
          enabled_control="FSSendMutedAvatarResponse"
          control_name="FSMutedAvatarResponse"
@@ -665,7 +665,7 @@
      left="1"
      right="-1"
      follows="all"
-     label="Autoresponse 2"
+     label="자동응답 2"
      name="tab-autoresponse-2" >
 
         <text
@@ -679,7 +679,7 @@
          name="autorespond_rto_response_label"
          top="10"
          width="500">
-           Automatic response to all avatars when in REJECT TELEPORT OFFERS mode:
+           REJECT TELEPORT OFFERS 모드에서 모든 아바타에 대한 자동 응답:
         </text>
         <text_editor
          control_name="FSRejectTeleportOffersResponse"
@@ -700,7 +700,7 @@
         left="35"
         follows="left|top"
         height="16"
-        label="Don't reject teleport offers (and send response) from people on friends list"
+        label="친구 목록에 있는 사람의 순간이동 제안을 거부하지 않고 응답 보내기"
         name="FSDontRejectTeleportOffersFromFriends"
         width="500"
         control_name="FSDontRejectTeleportOffersFromFriends"/>
@@ -716,7 +716,7 @@
          name="autorespond_rfr_response_label"
          top_pad="5"
          width="500">
-           Automatic response to all avatars when in REJECT FRIENDSHIP REQUESTS mode:
+           REJECT FRIENDS REQUEST 모드에서 모든 아바타에 대한 자동 응답:
         </text>
         <text_editor
          control_name="FSRejectFriendshipRequestsResponse"
@@ -744,7 +744,7 @@
          name="autoresponse_item_label"
          top_pad="25"
          width="180">
-          Item sent with all autoresponses:
+          모든 자동 응답과 함께 보낸 항목:
         </text>
         <fs_copytrans_inventory_drop_target
          name="autoresponse_item"
@@ -755,11 +755,11 @@
          max_length_bytes="255"
          top_delta="-5"
          right="-50"
-         tool_tip="Drag and drop source inventory item here."/>
+         tool_tip="소스 인벤토리 항목을 여기로 끌어다 놓으십시오.."/>
         <button
          follows="left|top"
          height="23"
-         label="Clear"
+         label="클리어"
          layout="topleft"
          left_pad="4"
          name="clear_autoresponse_item"

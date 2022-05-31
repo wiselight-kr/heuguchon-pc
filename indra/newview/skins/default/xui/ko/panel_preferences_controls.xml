@@ -3,7 +3,7 @@
  border="true"
  follows="all"
  height="408"
- label="Controls"
+ label="조작"
  layout="topleft"
  left="102"
  name="controls"
@@ -18,19 +18,19 @@
    width="232"
    name="key_mode">
     <combo_box.item
-     label="When in third person"
+     label="3인칭일 시"
      name="third_person"
      value="1"/>
     <combo_box.item
-     label="When in first person mode (Mouselook)"
+     label="1인칭일 시(마우스룩)"
      name="first_person"
      value="0"/>
     <combo_box.item
-     label="When editing avatar"
+     label="아바타 수정 시"
      name="edit_avatar"
      value="2"/>
     <combo_box.item
-     label="When sitting"
+     label="앉을 시"
      name="sitting"
      value="3"/>
   </combo_box>
@@ -42,8 +42,8 @@
    right="-1"
    height="23"
    width="140"
-   label="Restore Defaults"
-   tool_tip="Restores default values for all control modes."
+   label="기본값 복원"
+   tool_tip="모든 제어모드의 기본값을 복원."
    name="restore_defaults"/>
 
   <scroll_list

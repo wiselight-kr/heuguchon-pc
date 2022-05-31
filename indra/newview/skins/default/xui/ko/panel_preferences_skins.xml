@@ -7,7 +7,7 @@
  left="1"
  top="1"
  width="540"
- label="Skins"
+ label="피부"
  name="skin_panel">
 
     <button
@@ -36,7 +36,7 @@
      name="skin_textbox"
      top_pad="15"
      width="400">
-        Skin:
+        피부:
     </text>
     <combo_box
      follows="left|top"
@@ -58,7 +58,7 @@
      left_pad="10"
      name="skin_textbox1"
      width="200">
-        (Requires restart)
+        (재시작 요청)
     </text>
 
     <text
@@ -71,7 +71,7 @@
      top_pad="15"
      name="theme_textbox"
      width="200">
-        Colour scheme:
+        색 구성표:
     </text>
     <combo_box
      follows="left|top"
@@ -92,7 +92,7 @@
      left_pad="10"
      name="theme_textbox2"
      width="200">
-        (Requires restart)
+        (재시작 요청)
     </text>
 
     <check_box
@@ -101,8 +101,8 @@
      follows="left|top"
      height="16"
      initial_value="true"
-     label="Reset toolbars to the skin's preferred layout when changing skins."
-	 tool_tip="When enabled, this option preserves the skin's designed toolbar button layout and will override your chosen button customisations when you change skins."
+     label="스킨을 변경할 때 툴바를 스킨의 기본 레이아웃으로 재설정."
+	 tool_tip="이 옵션을 선택하면 스킨이 디자인한 도구 모음 단추 레이아웃이 유지되고 스킨을 변경할 때 선택한 단추 사용자 지정이 무시됩니다."
      layout="topleft"
      left="30"
      top_pad="15"
@@ -115,8 +115,8 @@
      follows="left|top"
      height="16"
      initial_value="true"
-     label="Reset toolbars to the login mode's preferred layout when changing login modes."
-	 tool_tip="When enabled, this option preserves the login mode's designed toolbar button layout and will override your chosen button customisations when you change login mode."
+     label="로그인 모드를 변경할 때 도구 모음을 로그인 모드의 기본 레이아웃으로 재설정."
+	 tool_tip="이 옵션을 선택하면 로그인 모드의 설계된 도구 모음 단추 레이아웃이 유지되고 로그인 모드를 변경할 때 선택한 단추 사용자 지정이 무시됩니다."
      layout="topleft"
      left="30"
      top_pad="5"
@@ -128,7 +128,7 @@
      follows="left|top"
      height="16"
      initial_value="true"
-     label="Use Viewer 1 style cursors"
+     label="뷰어 1 스타일 커서 사용"
      layout="topleft"
      left="30"
      top_pad="5"
@@ -145,7 +145,7 @@
      left_pad="30"
      name="theme_textbox3"
      width="200">
-        (Requires restart)
+        (재시작 요청)
     </text>
 
 

@@ -12,7 +12,7 @@
     width="1024">
   <panel.string
      name="real_url" translate="false">
-     https://phoenixviewer.com/app/loginV3/
+     http://phoenixviewer.com/app/loginV3/
   </panel.string>
   <string name="reg_in_client_url" translate="false">
     http://secondlife.eniac15.lindenlab.com/reg-in-client/
@@ -159,15 +159,15 @@
           name="start_location_combo"
           width="165">
         <combo_box.item
-            label="Last location"
+            label="마지막 위치"
             name="MyLastLocation"
             value="last" />
         <combo_box.item
-            label="Home"
+            label="홈"
             name="MyHome"
             value="home" />
         <combo_box.item
-            label="&lt;Type region name&gt;"
+            label="&lt;지역 이름을 입력하세요&gt;"
             name="Typeregionname" value="" />
       </combo_box>
     </layout_panel>
@@ -236,7 +236,7 @@
           follows="left|bottom"
           top_pad="9"
           height="23"
-          label="Log In"
+          label="로그인"
           layout="topleft"
           name="connect_btn"
           width="90" />
@@ -247,7 +247,7 @@
           left="110"
           top="45"
           height="16"
-          label="Remember username"
+          label="유저 이름 기억하기"
           name="remember_username_check"
           width="145" />
       <check_box
@@ -257,7 +257,7 @@
           font="SansSerifSmall"
           left="110"
           height="16"
-          label="Remember password"
+          label="비밀번호 기억하기"
           top_pad="1"
           name="remember_check"
           width="145" />

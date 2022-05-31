@@ -7,7 +7,7 @@
  left="1"
  top="1"
  width="540"
- label="Crash Reports"
+ label="충돌 신고"
  name="crash_reports">
     <panel.string name="PrivacyPolicyUrl">
         https://www.firestormviewer.org/privacy-policy
@@ -19,7 +19,7 @@
      top="30"
      width="250"
      height="16"
-     label="Send crash reports to firestormviewer.org"
+     label="firestormviewer.org에 충돌 신고하기"
      name="checkSendCrashReports"
      enabled="false" />
 
@@ -29,7 +29,7 @@
      left="60"
      top_pad="7"
      height="16"
-     label="Always ask before sending"
+     label="전송 전 항상 묻기"
      name="checkSendCrashReportsAlwaysAsk"
      width="250"
      enabled="false" />
@@ -39,7 +39,7 @@
      follows="top|left"
      top_pad="5"
      height="16"
-     label="Include settings files"
+     label="설정 파일 포함"
      name="checkSendSettings"
      width="130"
      enabled="false" />
@@ -52,7 +52,7 @@
      height="20"
      width="230"
      text_color="White_25">
-        (contains username)
+        (사용자 이름 포함)
     </text>
 
     <check_box
@@ -61,7 +61,7 @@
      left="60"
      top_pad="0"
      height="16"
-     label="Include username"
+     label="사용자이름 포함"
      name="checkSendName"
      width="160"
      enabled="false" />
@@ -74,7 +74,7 @@
      height="20"
      width="275"
      text_color="White_25">
-        (used to ask for additional information if needed)
+        필요하다면 추가 정보를 요구하는 데 사용됩니다
     </text>
 
     <text
@@ -89,7 +89,7 @@
      top_pad="10"
      visible="false"
      width="475">
-        Changes made to any setting require a restart to become effective.
+        모든 설정을 변경하려면 다시 시작해야 합니다.
     </text>
 
     <text
@@ -103,7 +103,7 @@
      name="textInformation1"
      top_pad="20"
      width="475">
-        Unless checked above crash reports only contain information relevant to the crash.
+        위에서 선택하지 않는 한 충돌 보고서에는 충돌과 관련된 정보만 포함됩니다
     </text>
     <text
      layout="topleft"
@@ -115,7 +115,7 @@
      mouse_opaque="false"
      name="textInformation2"
      width="475" >
-        Logs are not sent, please review the contents and email separately
+        로그가 전송되지 않습니다. 내용 및 이메일을 별도로 검토하십시오
     </text>
     <text
      layout="topleft"
@@ -127,7 +127,7 @@
      mouse_opaque="false"
      name="textInformation3"
      width="475" >
-        if you feel they might contain additional information.
+        추가 정보를 포함할 수 있다고 생각된다면.
     </text>
 
     <text
@@ -142,6 +142,6 @@
      top_pad="20"
      width="500"
      font.style="BOLD" >
-        Privacy policy: [URL]
+        개인 정보 보호 정책: [URL]
     </text>
 </panel>

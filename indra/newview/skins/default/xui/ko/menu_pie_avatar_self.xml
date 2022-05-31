@@ -2,28 +2,28 @@
 <pie_menu
     name="Self Pie">
     <pie_slice
-        label="Profile"
+        label="프로필"
         name="Profile...">
         <pie_slice.on_click
             function="ShowAgentProfile"
             parameter="agent" />
     </pie_slice>
     <pie_slice
-        label="Groups"
+        label="그룹"
         name="Groups...">
         <pie_slice.on_click
             function="SideTray.PanelPeopleTab"
             parameter="groups_panel" />
     </pie_slice>
     <pie_menu
-        label="Take Off &gt;"
+        label="끄기 &gt;"
         name="Take Off &gt;">
         <pie_menu
-            label="Clothes &gt;"
+            label="옷 &gt;"
             name="Clothes &gt;">
             <pie_slice
                 enabled="false"
-                label="Shirt"
+                label="셔츠"
                 name="Shirt">
                 <pie_slice.on_click
                     function="Edit.TakeOff"
@@ -34,7 +34,7 @@
             </pie_slice>
             <pie_slice
                 enabled="false"
-                label="Pants"
+                label="바지"
                 name="Pants">
                 <pie_slice.on_click
                     function="Edit.TakeOff"
@@ -45,7 +45,7 @@
             </pie_slice>
             <pie_slice
                 enabled="false"
-                label="Shoes"
+                label="신발"
                 name="Shoes">
                 <pie_slice.on_click
                     function="Edit.TakeOff"
@@ -56,7 +56,7 @@
             </pie_slice>
             <pie_slice
                 enabled="false"
-                label="Socks"
+                label="양말"
                 name="Socks">
                 <pie_slice.on_click
                     function="Edit.TakeOff"
@@ -67,7 +67,7 @@
             </pie_slice>
             <pie_slice
                 enabled="false"
-                label="Jacket"
+                label="자켓"
                 name="Jacket">
                 <pie_slice.on_click
                     function="Edit.TakeOff"
@@ -78,7 +78,7 @@
             </pie_slice>
             <pie_slice
                 enabled="false"
-                label="Gloves"
+                label="장갑"
                 name="Gloves">
                 <pie_slice.on_click
                     function="Edit.TakeOff"
@@ -88,11 +88,11 @@
                     parameter="gloves" />
             </pie_slice>
             <pie_menu
-                label="More &gt;"
+                label="더 &gt;"
                 name="Clothes More">
                 <pie_slice
                     enabled="false"
-                    label="Undershirt"
+                    label="속 셔츠"
                     name="Self Undershirt">
                     <pie_slice.on_click
                         function="Edit.TakeOff"
@@ -105,7 +105,7 @@
                 <pie_separator />
 
                 <pie_slice
-                    label="All Clothes"
+                    label="모든 옷"
                     name="All Clothes">
                     <pie_slice.on_click
                         function="Edit.TakeOff"
@@ -116,7 +116,7 @@
 
                 <pie_slice
                     enabled="false"
-                    label="Underpants"
+                    label="속옷"
                     name="Self Underpants">
                     <pie_slice.on_click
                         function="Edit.TakeOff"
@@ -128,7 +128,7 @@
 
                 <pie_slice
                     enabled="false"
-                    label="Tattoo"
+                    label="문신"
                     name="Self Tattoo">
                     <pie_slice.on_click
                         function="Edit.TakeOff"
@@ -140,7 +140,7 @@
 
                 <pie_slice
 					enabled="false"
-					label="Physics"
+					label="몸매"
 					name="Self Physics">
                     <pie_slice.on_click
 						function="Edit.TakeOff"
@@ -152,7 +152,7 @@
 
                 <pie_slice
                     enabled="false"
-                    label="Alpha"
+                    label="알파"
                     name="Self Alpha">
                     <pie_slice.on_click
                         function="Edit.TakeOff"
@@ -165,7 +165,7 @@
 
             <pie_slice
                 enabled="false"
-                label="Skirt"
+                label="치마"
                 name="Skirt">
                 <pie_slice.on_click
                     function="Edit.TakeOff"
@@ -183,13 +183,13 @@
         <pie_separator />
 
         <pie_menu
-            label="Detach &gt;"
+            label="탈착 &gt;"
             name="Pie Object Detach">
             <pie_menu
-             label="Ext. Skeleton &gt;"
+             label="Ext. 스켈레톤 &gt;"
              name="Enhanced Skeleton">
                 <pie_slice
-                 label="Right Wing"
+                 label="오른쪽 날개"
                  name="Right Wing">
                     <pie_slice.on_click
                      function="Attachment.DetachFromPoint"
@@ -199,7 +199,7 @@
                      parameter="46"/>
                 </pie_slice>
                 <pie_slice
-                 label="Groin"
+                 label="사타구니"
                  name="Groin">
                     <pie_slice.on_click
                      function="Attachment.DetachFromPoint"
@@ -209,7 +209,7 @@
                      parameter="53"/>
                 </pie_slice>
                 <pie_slice
-                 label="Tail Base"
+                 label="꼬리 기지"
                  name="Tail Base">
                     <pie_slice.on_click
                      function="Attachment.DetachFromPoint"
@@ -219,7 +219,7 @@
                      parameter="43"/>
                 </pie_slice>
                 <pie_slice
-                 label="Tail Tip"
+                 label="꼬리 팁"
                  name="Tail Tip">
                     <pie_slice.on_click
                      function="Attachment.DetachFromPoint"
@@ -229,7 +229,7 @@
                      parameter="44"/>
                 </pie_slice>
                 <pie_slice
-                 label="Left Wing"
+                 label="왼쪽 날개"
                  name="Left Wing">
                     <pie_slice.on_click
                      function="Attachment.DetachFromPoint"
@@ -239,7 +239,7 @@
                      parameter="45"/>
                 </pie_slice>
                 <pie_slice
-                 label="L Hind Foot"
+                 label="왼 뒷발"
                  name="Left Hind Foot">
                     <pie_slice.on_click
                      function="Attachment.DetachFromPoint"
@@ -249,10 +249,10 @@
                      parameter="54"/>
                 </pie_slice>
                 <pie_menu
-                 label="More &gt;"
+                 label="더 &gt;"
                  name="Enhanced Skeleton More">
                     <pie_slice
-                     label="Alt R Ear"
+                     label="Alt R 귀"
                      name="Alt Right Ear">
                         <pie_slice.on_click
                          function="Attachment.DetachFromPoint"
@@ -262,7 +262,7 @@
                          parameter="49"/>
                     </pie_slice>
                     <pie_slice
-                     label="Alt R Eye"
+                     label="Alt R 눈"
                      name="Alt Right Eye">
                         <pie_slice.on_click
                          function="Attachment.DetachFromPoint"
@@ -272,7 +272,7 @@
                          parameter="51"/>
                     </pie_slice>
                     <pie_slice
-                     label="Tongue"
+                     label="혀"
                      name="Tongue">
                         <pie_slice.on_click
                          function="Attachment.DetachFromPoint"
@@ -282,7 +282,7 @@
                          parameter="52"/>
                     </pie_slice>
                     <pie_slice
-                     label="Alt L Eye"
+                     label="Alt L 눈"
                      name="Alt Left Eye">
                         <pie_slice.on_click
                          function="Attachment.DetachFromPoint"
@@ -292,7 +292,7 @@
                          parameter="50"/>
                     </pie_slice>
                     <pie_slice
-                     label="Alt L Ear"
+                     label="Alt L 귀"
                      name="Alt Left Ear">
                         <pie_slice.on_click
                          function="Attachment.DetachFromPoint"
@@ -302,7 +302,7 @@
                          parameter="48"/>
                     </pie_slice>
                     <pie_slice
-                     label="L Ring Finger"
+                     label="왼손 약지"
                      name="Left Ring Finger">
                         <pie_slice.on_click
                          function="Attachment.DetachFromPoint"
@@ -312,7 +312,7 @@
                          parameter="41"/>
                     </pie_slice>
                     <pie_slice
-                     label="Jaw"
+                     label="턱"
                      name="Jaw">
                         <pie_slice.on_click
                          function="Attachment.DetachFromPoint"
@@ -322,7 +322,7 @@
                          parameter="47"/>
                     </pie_slice>
                     <pie_slice
-                     label="R Ring Finger"
+                     label="오른손 약지"
                      name="Right Ring Finger">
                         <pie_slice.on_click
                          function="Attachment.DetachFromPoint"
@@ -333,7 +333,7 @@
                     </pie_slice>
                 </pie_menu>
                 <pie_slice
-                 label="R Hind Foot"
+                 label="오른쪽 뒷발"
                  name="Right Hind Foot">
                     <pie_slice.on_click
                      function="Attachment.DetachFromPoint"
@@ -348,7 +348,7 @@
         <pie_separator />
 
         <pie_slice
-            label="Detach All"
+            label="모두 탈착"
             name="Detach All">
             <pie_slice.on_click
                 function="Self.RemoveAllAttachments"
@@ -359,7 +359,7 @@
     </pie_menu>
 
     <pie_slice
-        label="Sit Down"
+        label="앉기"
         start_autohide="true"
         name="Sit Down Here">
         <pie_slice.on_click
@@ -368,7 +368,7 @@
             function="Self.EnableSitDown" />
     </pie_slice>
     <pie_slice
-        label="Stand Up"
+        label="일어서기"
         autohide="true"
         name="Stand Up">
         <pie_slice.on_click
@@ -378,7 +378,7 @@
     </pie_slice>
     <pie_slice
         enabled="true"
-        label="Script Info"
+        label="스크립트 정보"
         name="ScriptInfo">
         <pie_slice.on_click
             function="Tools.ScriptInfo" />
@@ -386,7 +386,7 @@
             function="EnableBridgeFunction" />
     </pie_slice>
     <pie_slice
-        label="Gestures..."
+        label="제스쳐..."
         name="Gestures">
         <pie_slice.on_click
             function="Floater.Toggle"
@@ -394,7 +394,7 @@
     </pie_slice>
 
     <pie_menu
-        label="Appearance &gt;"
+        label="외모 &gt;"
         name="Appearance &gt;">
 
         <pie_slice label="Edit Shape"
@@ -406,21 +406,21 @@
         </pie_slice>
 		<pie_menu
 			name="ResetMenu"
-			label="Reset &gt;">
+			label="초기화 &gt;">
 			<pie_slice
-				label="Skel. &amp; Anim."
+				label="스켈레톤. &amp; Anim."
 				name="Reset Skeleton And Animations">
 				<pie_slice.on_click
 					function="Avatar.ResetSkeletonAndAnimations" />
 			</pie_slice>
 			<pie_slice
-				label="Skeleton"
+				label="스켈레톤"
 				name="Reset Skeleton">
 				<pie_slice.on_click
 					function="Avatar.ResetSkeleton" />
 			</pie_slice>
 			<pie_slice
-				label="Mesh LOD"
+				label="메쉬 LOD"
 				name="Reset Mesh LOD">
 				<pie_slice.on_click
 					function="Avatar.ResetMeshLOD" />
@@ -428,7 +428,7 @@
 		</pie_menu>
         <pie_slice
             enabled="true"
-            label="Tex Refresh"
+            label="텍스쳐 새로고침"
             name="Texture Refresh">
             <pie_slice.on_click
                 function="Avatar.TexRefresh" />
@@ -436,7 +436,7 @@
 
         <pie_separator />
 
-        <pie_slice label="Edit Outfit"
+        <pie_slice label="의상 수정"
            name="Edit My Outfit">
            <pie_slice.on_click
                function="EditOutfit" />
@@ -445,7 +445,7 @@
         </pie_slice>
 		<pie_separator />
 		<pie_slice
-			label="Dump XML"
+			label="XML 버리기"
 			name="Dump XML">
 			<pie_slice.on_click
 				function="Advanced.AppearanceToXML" />
@@ -453,7 +453,7 @@
 				function="Advanced.EnableAppearanceToXML"/>
 		</pie_slice>
 		<pie_slice
-		 label="Hover Height"
+		 label="오버 높이"
 		 name="Hover Height">
 			<pie_slice.on_click
 			 function="HoverHeight" />
@@ -463,7 +463,7 @@
 
     </pie_menu>
     <pie_slice
-        label="Textures"
+        label="텍스쳐"
         name="Debug...">
         <pie_slice.on_click
             function="Avatar.Debug" />

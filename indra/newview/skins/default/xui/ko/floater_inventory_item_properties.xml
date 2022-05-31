@@ -75,7 +75,7 @@
      name="LabelItemDescTitle"
      top="45"
      width="78">
-        Description:
+        묘사:
     </text>
     <line_editor
      border_style="line"
@@ -98,7 +98,7 @@
      name="LabelCreatorTitle"
      top="65"
      width="78">
-        Creator:
+        생성자:
     </text>
     <text
      type="string"
@@ -112,12 +112,12 @@
      translate="false"
      use_ellipses="true" 
      width="170">
-        TestString PleaseIgnore
+        테스트 문자열 무시하십시오
     </text>
     <button
      follows="top|right"
      height="16"
-     label="Profile..."
+     label="프로필..."
      layout="topleft"
      left_delta="174"
      name="BtnCreator"
@@ -133,7 +133,7 @@
      name="LabelOwnerTitle"
      top="85"
      width="78">
-        Owner:
+        소유자:
     </text>
     <text
      type="string"
@@ -147,12 +147,12 @@
      translate="false"
      use_ellipses="true"
      width="170">
-      TestString PleaseIgnore
+      테스트 문자열 무시하십시오
     </text>
     <button
      follows="top|right"
      height="16"
-     label="Profile..."
+     label="프로필..."
      layout="topleft"
      left_delta="174"
      name="BtnOwner"
@@ -168,7 +168,7 @@
      name="LabelAcquiredTitle"
      top="105"
      width="78">
-        Acquired:
+        요청:
     </text>
     <text
      type="string"
@@ -180,7 +180,7 @@
      name="LabelAcquiredDate"
      top_delta="0"
      width="252">
-        Wed May 24 12:50:46 2006
+        수요일 5월 24 12:50:46 2006
     </text>
     <text
      type="string"
@@ -192,7 +192,7 @@
      name="LabelItemExperienceTitle"
      top="125"
      width="78">
-        Experience:
+        경험:
     </text>
     <text
      type="string"
@@ -214,11 +214,11 @@
      name="OwnerLabel"
      top="145"
      width="78">
-        You:
+        당신:
     </text>
     <check_box
      height="16"
-     label="Modify"
+     label="수정"
      layout="topleft"
      left_pad="5"
      name="CheckOwnerModify"
@@ -226,7 +226,7 @@
      width="78" />
     <check_box
      height="16"
-     label="Copy"
+     label="복사"
      layout="topleft"
      left_delta="0"
      name="CheckOwnerCopy"
@@ -234,7 +234,7 @@
      width="88" />
     <check_box
      height="16"
-     label="Transfer"
+     label="환승"
      layout="topleft"
      left_delta="0"
      name="CheckOwnerTransfer"
@@ -242,7 +242,7 @@
      width="106" />
     <check_box
      height="16"
-     label="Export"
+     label="내보내기"
      layout="topleft"
      left_delta="0"
      name="CheckOwnerExport"
@@ -258,11 +258,11 @@
      name="AnyoneLabel"
      top_pad="5"
      width="78">
-        Anyone:
+        누구나:
     </text>
     <check_box
      height="16"
-     label="Copy"
+     label="복사"
      layout="topleft"
      left_pad="5"
      name="CheckEveryoneCopy"
@@ -278,11 +278,11 @@
      name="GroupLabel"
      top_pad="5"
      width="78">
-        Group:
+        그룹:
     </text>
     <check_box
      height="16"
-     label="Share"
+     label="공유"
      layout="topleft"
      left_pad="5"
      name="CheckShareWithGroup"
@@ -299,11 +299,11 @@
      top_pad="5"
      width="78"
      word_wrap="true">
-        Next owner:
+        다음 소유자:
     </text>
     <check_box
      height="16"
-     label="Modify"
+     label="수정"
      layout="topleft"
      left_pad="5"
      name="CheckNextOwnerModify"
@@ -311,7 +311,7 @@
      width="78" />
     <check_box
      height="16"
-     label="Copy"
+     label="복사"
      layout="topleft"
      left_delta="0"
      name="CheckNextOwnerCopy"
@@ -319,7 +319,7 @@
      width="88" />
     <check_box
      height="16"
-     label="Transfer"
+     label="환승"
      layout="topleft"
      left_delta="0"
      name="CheckNextOwnerTransfer"
@@ -327,7 +327,7 @@
      width="106" />
     <check_box
      height="16"
-     label="For Sale"
+     label="판매중"
      layout="topleft"
      left="10"
      name="CheckPurchase"
@@ -342,15 +342,15 @@
      width="110">
        <combo_box.item
          name="Copy"
-         label="Copy"
+         label="복사"
          value="2" />
        <combo_box.item
          name="Contents"
-         label="Contents"
+         label="내용"
          value="3" />
        <combo_box.item
          name="Original"
-         label="Original"
+         label="원본"
          value="1" />
     </combo_box>
     <spinner
@@ -358,7 +358,7 @@
         decimal_digits="0"
         increment="1"
         name="Edit Cost"
-        label="Price:"
+        label="가격:"
         label_width="100"
         left="10"
         width="192"

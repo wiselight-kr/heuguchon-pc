@@ -9,11 +9,11 @@
  width="802">
     <menu
      create_jump_keys="true"
-     label="Viewer"
+     label="뷰어"
      tear_off="true"
      name="File">
         <menu_item_call
-         label="Preferences..."
+         label="속성..."
          name="Preferences..."
          shortcut="control|P">
             <menu_item_call.on_click
@@ -21,7 +21,7 @@
              parameter="preferences" />
         </menu_item_call>
         <menu_item_call
-         label="Close Window"
+         label="창 닫기"
          name="Close Window"
          visible="false" 
          shortcut="control|W">
@@ -31,7 +31,7 @@
              function="File.EnableCloseWindow" />
         </menu_item_call>
         <menu_item_check
-         label="Show Grid Picker"
+         label="격자 피커 보기"
          name="Show Grid Picker"
          visible="false" 
          shortcut="control|shift|G">
@@ -44,7 +44,7 @@
         </menu_item_check>
         <menu_item_separator />
         <menu_item_call
-         label="Exit [APP_NAME]"
+         label="나가기 [APP_NAME]"
          name="Quit"
          shortcut="control|Q">
             <menu_item_call.on_click
@@ -53,7 +53,7 @@
     </menu>
     <menu
      create_jump_keys="true"
-     label="Help"
+     label="도움말"
      tear_off="true"
      name="Help">
         <menu_item_call
@@ -73,14 +73,16 @@
             name="wiki_troubleshooting_url"
             parameter="WebLaunchExternalTarget,https://wiki.firestormviewer.org/firestorm_troubleshooting" />
        </menu_item_call>
+<!--
+       <menu_item_separator />
         <menu_item_call
-         label="Guidebook"
-         name="How To">
+         label="사용법..."
+         name="How To"
+         shortcut="F1">
             <menu_item_call.on_click
              function="Help.ToggleHowTo"
              parameter="" />
         </menu_item_call>
-<!--
 		<menu_item_separator/>
         <menu_item_call
              label="Knowledge Base"
@@ -97,14 +99,14 @@
                  parameter="http://wiki.secondlife.com"/>
         </menu_item_call>
         <menu_item_call
-             label="Community Forums"
+             label="커뮤니티 포럼"
              name="Community Forums">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"
                  parameter="http://community.secondlife.com/t5/Forums/ct-p/Forums"/>
         </menu_item_call>         
         <menu_item_call
-             label="Support portal"
+             label="지원 포탈"
              name="Support portal">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"
@@ -112,14 +114,14 @@
         </menu_item_call>
         <menu_item_separator/>
         <menu_item_call
-             label="[SECOND_LIFE] News"
+             label="[SECOND_LIFE] 뉴스"
              name="Second Life News">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"
                  parameter="http://community.secondlife.com/t5/Featured-News/bg-p/blog_feature_news"/>  
         </menu_item_call>
         <menu_item_call
-             label="[SECOND_LIFE] Blogs"
+             label="[SECOND_LIFE] 블로그"
              name="Second Life Blogs">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"
@@ -128,14 +130,14 @@
         <menu_item_separator/>       
 -->
         <menu_item_call
-             label="Report Bug"
+             label="버그 신고"
              name="Report Bug">
                 <menu_item_call.on_click
                  function="Advanced.ReportBug"/>
             </menu_item_call>
         <menu_item_separator/>
         <menu_item_call
-         label="About [APP_NAME]"
+         label=" [APP_NAME]에 대하여"
          name="About Second Life">
             <menu_item_call.on_click
              function="Floater.Show"
@@ -143,14 +145,14 @@
         </menu_item_call>
         <menu_item_separator name="grid_help_seperator_login"/>
         <menu_item_call
-         label="[CURRENT_GRID] Help"
+         label="[CURRENT_GRID] 도움말"
          name="current_grid_help_login">
             <menu_item_call.on_click
              function="ShowHelp"
              parameter="grid_help" />
         </menu_item_call>
         <menu_item_call
-         label="About [CURRENT_GRID]"
+         label="[CURRENT_GRID]에 대하여"
          name="current_grid_about_login">
             <menu_item_call.on_click
              function="ShowHelp"
@@ -158,7 +160,7 @@
         </menu_item_call>
     </menu>
     <menu_item_check
-      label="Show Debug Menu"
+      label="디버그 메뉴 보기"
       name="Show Debug Menu"
       visible="false" 
       shortcut="control|alt|D">
@@ -172,11 +174,11 @@
     <menu
      create_jump_keys="true"
      visible="false"
-     label="Debug"
+     label="디버그"
      name="Debug"
      tear_off="true">
       <menu_item_call
-         label="Show Debug Settings"
+         label="디버그 세팅 보기"
          shortcut="control|alt|shift|S"
          name="Debug Settings">
             <menu_item_call.on_click
@@ -185,7 +187,7 @@
         </menu_item_call>
         <menu_item_separator />
         <menu_item_call
-         label="XUI Preview Tool"
+         label="XUI 프리뷰 도구"
          name="UI Preview Tool"
          shortcut="control|T">
             <menu_item_call.on_click
@@ -195,11 +197,11 @@
       <menu_item_separator />
       <menu
        create_jump_keys="true"
-       label="UI Tests"
+       label="UI 테스트"
        name="UI Tests"
        tear_off="true">
         <menu_item_call
-         label="Textbox"
+         label="문구 상자"
          name="Textbox"
          translate="false"
          shortcut="control|1">
@@ -208,7 +210,7 @@
            parameter="test_textbox" />
         </menu_item_call>
         <menu_item_call
-         label="Text Editor"
+         label="문구 에디터"
          name="Text Editor"
          translate="false"
          shortcut="control|2">
@@ -217,7 +219,7 @@
            parameter="test_text_editor" />
         </menu_item_call>
         <menu_item_call
-         label="Widgets"
+         label="위젯"
          name="Widgets"
          translate="false"
          shortcut="control|shift|T">
@@ -226,7 +228,7 @@
            parameter="test_widgets" />
         </menu_item_call>
         <menu_item_call
-         label="Inspectors"
+         label="조사"
          translate="false"
          name="Inspectors">
           <menu_item_call.on_click
@@ -247,28 +249,28 @@
 -->
       <menu_item_separator />
       <menu_item_call
-       label="Set Window Size..."
+       label="창 크기 설정..."
        name="Set Window Size...">
         <menu_item_call.on_click
          function="Floater.Show"
          parameter="window_size" />
       </menu_item_call>
         <menu_item_call
-         label="Show TOS"
+         label="TOS 보기"
          name="TOS">
             <menu_item_call.on_click
              function="Floater.Show"
              parameter="message_tos" />
         </menu_item_call>
         <menu_item_call
-         label="Show Critical Message"
+         label="크리티컬 메세지 보기"
          name="Critical">
             <menu_item_call.on_click
              function="Floater.Show"
              parameter="message_critical" />
         </menu_item_call>
       <menu_item_call
-       label="Media Browser"
+       label="미디어 브라우저"
        name="Media Browser">
         <menu_item_call.on_click
          function="Advanced.WebContentTest"
@@ -276,12 +278,12 @@
       </menu_item_call>
       <menu
        create_jump_keys="true"
-       label="Set Logging Level"
+       label="로깅 단계 설정"
        name="Set Logging Level"
        tear_off="true">
         <menu_item_check
          name="Debug"
-         label="Debug">
+         label="디버그">
           <menu_item_check.on_check
             function="Develop.CheckLoggingLevel"
             parameter="0" />
@@ -291,7 +293,7 @@
         </menu_item_check>
         <menu_item_check
          name="Info"
-         label="Info">
+         label="정보">
           <menu_item_check.on_check
             function="Develop.CheckLoggingLevel"
             parameter="1" />
@@ -301,7 +303,7 @@
         </menu_item_check>
         <menu_item_check
          name="Warning"
-         label="Warning">
+         label="경고">
           <menu_item_check.on_check
             function="Develop.CheckLoggingLevel"
             parameter="2" />
@@ -311,7 +313,7 @@
         </menu_item_check>
         <menu_item_check
          name="Error"
-         label="Error">
+         label="에러">
           <menu_item_check.on_check
             function="Develop.CheckLoggingLevel"
             parameter="3" />
@@ -321,7 +323,7 @@
         </menu_item_check>
         <menu_item_check
          name="None"
-         label="None">
+         label="없음">
           <menu_item_check.on_check
             function="Develop.CheckLoggingLevel"
             parameter="4" />
@@ -331,7 +333,7 @@
         </menu_item_check>
       </menu>
       <menu_item_call
-        label="Show Notifications Console"
+        label="알림 콘솔 보기"
         name="Show Notifications Console"
         visible="false"
         shortcut="control|shift|5">

@@ -7,11 +7,11 @@
  left="1"
  top="1"
  width="540"
- label="Text Chat"
+ label="문자 채팅"
  name="chat">
 
 <tab_container
- label="Firestorm Prefs"
+ label="파이어스톰 pref"
  layout="topleft"
  follows="all"
  top="5"
@@ -29,7 +29,7 @@
          left="1"
          right="-1"
          follows="all"
-         label="Visuals"
+         label="비주얼"
          name="ChatVisuals" >
 
             <text
@@ -40,7 +40,7 @@
              name="console_font_size"
              width="150"
              top="10">
-                Onscreen console font size:
+                화면 콘솔 글꼴 크기:
             </text>
             <radio_group
              height="20"
@@ -52,7 +52,7 @@
              width="280">
                 <radio_item
                  height="16"
-                 label="Small"
+                 label="작음"
                  layout="topleft"
                  left="0"
                  name="consradio"
@@ -61,7 +61,7 @@
                  width="60" />
                 <radio_item
                  height="16"
-                 label="Medium"
+                 label="중간"
                  layout="topleft"
                  left_delta="60"
                  name="consradio2"
@@ -70,7 +70,7 @@
                  width="75" />
                 <radio_item
                  height="16"
-                 label="Large"
+                 label="큼"
                  layout="topleft"
                  left_delta="75"
                  name="consradio3"
@@ -79,7 +79,7 @@
                  width="60" />
                 <radio_item
                  height="16"
-                 label="Huge"
+                 label="거대함"
                  layout="topleft"
                  left_delta="75"
                  name="consradio4"
@@ -92,7 +92,7 @@
 			 control_name="PlayChatAnim"
 			 follows="left|top"
 			 height="16"
-			 label="Play avatar animations (such as shouting)"
+			 label="아바타 애니메이션 재생(예: 소리 지르기)"
 			 layout="topleft"
 			 left="20"
 			 top_pad="5"
@@ -102,7 +102,7 @@
              control_name="FSIMSystemMessageBrackets"
              enabled_control="PlainTextChatHistory"
              name="FSIMSystemMessageBrackets"
-             label="Wrap system chat messages in brackets (V1 style chat headers only)"
+             label="시스템 대화 메시지를 괄호로 묶습니다(V1 스타일 대화 헤더만 해당)."
              layout="topleft"
              top_pad="1"
              height="16"
@@ -110,7 +110,7 @@
             <check_box
              control_name="FSChatHistoryShowYou"
              name="FSChatHistoryShowYou"
-             label="Show &quot;You&quot; in chat transcript instead of your name"
+             label="보기 &quot;너 &quot; 당신의 이름 대신 채팅으로"
              layout="topleft"
              top_pad="1"
              height="16"
@@ -118,7 +118,7 @@
 			<check_box
 			 control_name="EmotesUseItalic"
 			 name="EmotesUseItalic"
-			 label="Emotes use italic font"
+			 label="이모티콘은 기울임꼴 글꼴을 사용합니다."
 			 layout="topleft"
 			 top_pad="1"
 			 height="16"
@@ -126,7 +126,7 @@
 			<check_box
 			 control_name="FSEmphasizeShoutWhisper"
 			 name="FSEmphasizeShoutWhisper"
-			 label="Bold shouting, Italicize whispering"
+			 label="대담한 외침, 속삭임 이탤릭체"
 			 layout="topleft"
 			 top_pad="1"
 			 height="16"
@@ -138,12 +138,12 @@
 			 width="400"
 			 name="FSMarkObjects"
 			 control_name="FSMarkObjects"
-			 label="Mark objects with (no name) when they speak to avoid spoofing"/>
+			 label="스푸핑을 방지하기 위해 객체가 말할 때 (이름 없음으로 표시)"/>
             <check_box
              control_name="FSllOwnerSayToScriptDebugWindow"
              enabled="false"
              height="16"
-             label="Route llOwnerSay to script debug window"
+             label="Route lllOwnerSay to script 디버그 창"
              layout="topleft"
              name="FSllOwnerSayToScriptDebugWindow_checkbox"
              top_pad="1"
@@ -152,7 +152,7 @@
              control_name="UseChatBubbles"
              follows="left|top"
              height="16"
-             label="Show chat in bubbles above avatars"
+             label="아바타 위의 버블에 채팅 표시"
              layout="topleft"
              top_pad="1"
              name="bubble_text_chat"
@@ -162,7 +162,7 @@
              enabled_control="UseChatBubbles"
              follows="left|top"
              height="16"
-             label="Don't show chat in Nearby Chat console and toasts"
+             label="근처 채팅 콘솔 및 토스트에 채팅 표시 안 함"
              layout="topleft"
              left="30"
              top_pad="1"
@@ -172,7 +172,7 @@
              control_name="UseTypingBubbles"
              follows="left|top"
              height="16"
-             label="Show typing indicator in bubbles above avatars"
+             label="아바타 위의 버블에 입력 표시기 표시"
              layout="topleft"
              left="20"
              top_pad="1"
@@ -182,7 +182,7 @@
              control_name="FSShowTypingStateInNameTag"
              follows="left|top"
              height="16"
-             label="Show typing indicator in nametag above avatars"
+             label="아바타 위의 이름 태그에 입력 표시기 표시"
              layout="topleft"
              top_pad="1"
              name="FSShowTypingStateInNameTag"
@@ -191,7 +191,7 @@
             <check_box
              control_name="FSSecondsinChatTimestamps"
              name="FSSecondsinChatTimestamps"
-             label="Show seconds in timestamps [HH:MM:SS]"
+             label="타임스탬프로 초 표시 [HH:MM:SS]"
              follows="left|top"
              layout="topleft"
              top_pad="15"
@@ -205,12 +205,12 @@
              left="25"
              height="12"
              width="120">
-             Show timestamps in:
+             타임스탬프 표시 위치:
             </text>
             <check_box
              control_name="FSShowTimestampsNearbyChat"
              height="16"
-             label="Nearby Chat"
+             label="근처 대화"
              layout="topleft"
              left_pad="4"
              top_delta="0"
@@ -227,7 +227,7 @@
             <check_box
              control_name="FSShowTimestampsTranscripts"
              height="16"
-             label="Transcript"
+             label="증명서"
              layout="topleft"
              name="show_timestamps_transcripts"
              left_pad="4"
@@ -242,8 +242,8 @@
              height="18"
              name="FSConsoleClassicDrawMode"
              control_name="FSConsoleClassicDrawMode"
-             label="Use classic draw mode for console"
-             tool_tip="Classic draw mode renders the console background as single block over all lines with width of the longest line."/>
+             label="콘솔에 클래식 그리기 모드 사용"
+             tool_tip="클래식 그리기 모드에서는 가장 긴 선의 너비를 가진 모든 라인에 대해 콘솔 배경을 단일 블록으로 렌더링합니다.."/>
             <check_box
              layout="topleft"
              follows="left|top"
@@ -253,7 +253,7 @@
              height="18"
              name="ChatFullWidth"
              control_name="ChatFullWidth"
-             label="Use full width of screen for console"/>
+             label="콘솔에 전체 화면 너비 사용"/>
             <spinner
              top_pad="2"
              control_name="ChatPersistTime"
@@ -262,7 +262,7 @@
              height="20"
              increment="1"
              initial_value="20"
-             label="Fade chat after:"
+             label="대화 후에 희미해지기:"
              label_width="90"
              left="25"
              max_val="60"
@@ -275,7 +275,7 @@
              left_pad="3"
              name="text_box4"
              width="70">
-                (seconds)
+                (초)
             </text>
             <spinner
              decimal_digits="0"
@@ -295,7 +295,7 @@
              left_pad="3"
              name="text_box5"
              width="60">
-                (# lines)
+                (# 선)
             </text>
 
         </panel>
@@ -307,7 +307,7 @@
          left="1"
          right="-1"
          follows="all"
-         label="Chat Windows"
+         label="대화 창"
          name="ChatWindows">
 
             <text
@@ -318,7 +318,7 @@
              height="12"
              name="font_size"
              width="130">
-                Chat window font size:
+                대화 창 글꼴 크기:
             </text>
             <radio_group
              height="20"
@@ -330,7 +330,7 @@
              width="280">
                 <radio_item
                  height="16"
-                 label="Small"
+                 label="작음"
                  layout="topleft"
                  left="0"
                  name="radio"
@@ -339,7 +339,7 @@
                  width="60" />
                 <radio_item
                  height="16"
-                 label="Medium"
+                 label="중간"
                  layout="topleft"
                  left_delta="60"
                  name="radio2"
@@ -348,7 +348,7 @@
                  width="75" />
                 <radio_item
                  height="16"
-                 label="Large"
+                 label="큼"
                  layout="topleft"
                  left_delta="75"
                  name="radio3"
@@ -357,7 +357,7 @@
                  width="60" />
                 <radio_item
                  height="16"
-                 label="Huge"
+                 label="거대함"
                  layout="topleft"
                  left_delta="75"
                  name="radio4"
@@ -369,7 +369,7 @@
             <check_box
              control_name="IMShowNamesForP2PConv"
              name="IMShowNamesForP2PConv"
-             label="Show names in direct IMs"
+             label="직접 IM으로 이름 표시"
              layout="topleft"
              left="20"
              top_pad="5"
@@ -379,7 +379,7 @@
              control_name="PlainTextChatHistory"
              enabled="true"
              height="16"
-             label="Use V1 style chat headers"
+             label="V1 스타일 채팅 헤더 사용"
              layout="topleft"
              name="plain_text_chat_history"
              top_pad="1"
@@ -389,7 +389,7 @@
              control_name="ShowChatMiniIcons"
              height="16"
              initial_value="false"
-             label="When using [SHORT_VIEWER_GENERATION] style chat headers, show mini icons"
+             label="[SHORT_VIEWER_GENERATION] 스타일 채팅 헤더를 사용할 때 미니 아이콘 표시"
              layout="topleft"
              name="ShowChatMiniIcons"
              top_pad="1"
@@ -399,7 +399,7 @@
              control_name="LogShowHistory"
              height="16"
              initial_value="true"
-             label="Show the end of last conversation"
+             label="마지막 대화의 끝 표시"
              layout="topleft"
              name="LogShowHistory"
              top_pad="1"
@@ -411,7 +411,7 @@
              width="400"
              name="FSTypingChevronPrefix"
              control_name="FSTypingChevronPrefix"
-             label="Add additional chevron (&gt;) as typing indicator to IM sessions"/>
+             label="추가 쉐브론(&gt;)을 입력 표시기로 IM 세션에 추가"/>
             <text
              name="show_unread_messages_label"
              follows="left|top"
@@ -420,7 +420,7 @@
              height="12"
              width="200"
              top_pad="5">
-                 Show new message notification for:
+                 다음에 대한 새 메시지 알림 표시:
             </text>
             <check_box
              layout="topleft"
@@ -430,8 +430,8 @@
              width="100"
              name="FSNotifyUnreadChatMessages"
              control_name="FSNotifyUnreadChatMessages"
-             label="Nearby chat"
-             tool_tip="Shows a notification with the number of new unread messages in the nearby chat window if new messages arrive while the view is scrolled back to read the chat history."/>
+             label="근처 대화"
+             tool_tip="대화 기록을 읽기 위해 보기를 스크롤하는 동안 새 메시지가 도착할 경우 근처 대화 창에 읽지 않은 새 메시지 수와 함께 알림 표시."/>
             <check_box
              layout="topleft"
              left_pad="10"
@@ -440,8 +440,8 @@
              width="200"
              name="FSNotifyUnreadIMMessages"
              control_name="FSNotifyUnreadIMMessages"
-             label="Instant and group messages"
-             tool_tip="Shows a notification with the number of new unread messages in the instant/group message window if new messages arrive while the view is scrolled back to read the chat history."/>
+             label="인스턴트 및 그룹 메시지"
+             tool_tip="대화 기록을 읽기 위해 보기를 스크롤하는 동안 새 메시지가 도착할 경우 인스턴트/그룹 메시지 창에 읽지 않은 새 메시지 수와 함께 통지 표시."/>
 
             <text
              name="show_ims_in_label"
@@ -451,7 +451,7 @@
              height="16"
              width="110"
              top_pad="15">
-                 Show IMs in:
+                 IM 표시 위치:
             </text>
             <radio_group
              height="16"
@@ -460,13 +460,13 @@
              top_delta="-1"
              control_name="FSChatWindow"
              name="chat_window"
-             tool_tip="Show your Instant Messages in separate floaters, or in one floater with many tabs (Requires restart)"
+             tool_tip="인스턴트 메시지를 별도의 플로터 또는 여러 탭이 있는 하나의 플로터에 표시(다시 시작해야 함)"
              width="190">
                 <radio_item
                  top="0"
                  left="0"
                  height="16"
-                 label="Separate windows"
+                 label="창 구분"
                  layout="topleft"
                  name="radio"
                  value="0"
@@ -475,7 +475,7 @@
                  top="0"
                  left="130"
                  height="16"
-                 label="Tabs"
+                 label="탭"
                  layout="topleft"
                  name="radio2"
                  value="1"
@@ -490,7 +490,7 @@
              text_color="White_50"
              height="16"
              width="100">
-                 (requires restart)
+                 (재시작 요청)
             </text>
 
             <text
@@ -501,7 +501,7 @@
              name="tab_direction_label"
              width="150"
              top_pad="3">
-              Chat Tab Mode Orientation:
+              대화 탭 모드 방향:
             </text>
             <radio_group
              left_pad="10"
@@ -510,13 +510,13 @@
              layout="topleft"
              control_name="ChatTabDirection"
              name="chat_tab_direction"
-             tool_tip="Change flow of the chat/IM tabs between horizontal and vertical when consolidated tab mode is active. (Requires restart)"
+             tool_tip="통합 탭 모드가 활성화된 경우 채팅/IM 탭의 흐름을 가로/세로로 변경하십시오. (재시작 요청)"
              width="150">
                 <radio_item
                  top="2"
                  left="0"
                  height="16"
-                 label="Horizontal"
+                 label="수평"
                  layout="topleft"
                  name="radio_horizontal"
                  value="0"
@@ -525,7 +525,7 @@
                  top="2"
                  left_pad="1"
                  height="16"
-                 label="Vertical"
+                 label="수직"
                  layout="topleft"
                  name="radio_vertical"
                  value="1"
@@ -540,7 +540,7 @@
              text_color="White_50"
              height="16"
              width="100">
-                 (requires restart)
+                 (재시작 요청)
             </text>
 
 			<text
@@ -551,7 +551,7 @@
 			 height="16"
 			 width="150"
 			 top_pad="3">
-				Name format for IM tabs:
+				IM 탭의 이름 형식:
 			</text>
 			<combo_box
 			 control_name="FSIMTabNameFormat"
@@ -564,19 +564,19 @@
 			 name="FSIMTabNameFormat"
 			 width="200">
 				<combo_box.item
-				 label="Display Name"
+				 label="이름 표시"
 				 name="display_name"
 				 value="0" />
 				<combo_box.item
-				 label="Username"
+				 label="사용자 이름"
 				 name="user_name"
 				 value="1" />
 				<combo_box.item
-				 label="Display Name (Username)"
+				 label="이름 표시 (사용자 이름)"
 				 name="display_user_name"
 				 value="2" />
 				<combo_box.item
-				 label="Username (Display Name)"
+				 label="사용자 이름 (이름 표시)"
 				 name="user_display_name"
 				 value="3" />
 			</combo_box>
@@ -591,7 +591,7 @@
              height="20"
              control_name="FSHighlightGroupMods"
              name="FSHighlightGroupMods"
-             label="Enable group moderator message highlighting"/>
+             label="그룹 진행자 메시지 강조 표시 사용"/>
             <text
              name="Moderator Name Style"
              layout="topleft"
@@ -600,7 +600,7 @@
              left="30"
              height="16"
              width="50">
-              Names:
+              이름:
             </text>
             <combo_box
              enabled_control="FSHighlightGroupMods"
@@ -613,35 +613,35 @@
              name="mod_name_style"
              width="150">
             <combo_box.item
-             label="Normal"
+             label="일반"
              name="normal"
              value="0" />
             <combo_box.item
-             label="Bold"
+             label="굵은"
              name="BOLD"
              value="1" />
             <combo_box.item
-             label="Italic"
+             label="이탈릭"
              name="ITALIC"
              value="2" />
             <combo_box.item
-             label="Bold &amp; Italic"
+             label="굵게 &amp; 이탈릭"
              name="BOLDITALIC"
              value="3" />
             <combo_box.item
-             label="Underline"
+             label="밑줄"
              name="UNDERLINE"
              value="4" />
             <combo_box.item
-             label="Bold &amp; Underline"
+             label="굵게 &amp; 밑줄"
              name="BOLDUNDERLINE"
              value="5" />
             <combo_box.item
-             label="Italic &amp; Underline"
+             label="이탈릭 &amp; 밑줄"
              name="ITALICUNDERLINE"
              value="6" />
             <combo_box.item
-             label="Bold, Italic &amp; Underline"
+             label="굵게, 이탈릭 &amp; 밑줄"
              name="BOLDITALICUNDERLINE"
              value="7" />
             </combo_box>
@@ -653,7 +653,7 @@
              top_delta="0"
              height="16"
              width="40">
-              Text:
+              텍스트:
             </text>
             <combo_box
              enabled_control="FSHighlightGroupMods"
@@ -666,35 +666,35 @@
              name="mod_text_style"
              width="150">
             <combo_box.item
-              label="Normal"
+              label="일반"
               name="normal"
               value="0" />
             <combo_box.item
-              label="Bold"
+              label="굵게"
               name="BOLD"
               value="1" />
             <combo_box.item
-              label="Italic"
+              label="이탈릭"
               name="ITALIC"
               value="2" />
             <combo_box.item
-              label="Bold &amp; Italic"
+              label="굵게 &amp; 이탈릭"
               name="BOLDITALIC"
               value="3" />
             <combo_box.item
-              label="Underline"
+              label="밑줄"
               name="UNDERLINE"
               value="4" />
             <combo_box.item
-              label="Bold &amp; Underline"
+              label="굵게 &amp; 밑줄"
               name="BOLDUNDERLINE"
               value="5" />
             <combo_box.item
-              label="Italic &amp; Underline"
+              label="이탈릭 &amp; 밑줄"
               name="ITALICUNDERLINE"
               value="6" />
             <combo_box.item
-              label="Bold, Italic &amp; Underline"
+              label="굵게, 이탈릭 &amp; 밑줄"
               name="BOLDITALICUNDERLINE"
               value="7" />
             </combo_box>
@@ -708,7 +708,7 @@
              height="18"
              control_name="FSMuteAllGroups"
              name="FSMuteAllGroups"
-             label="Disable ALL group chats"/>
+             label="모든 그룹 채팅 사용 안 함"/>
             <check_box
              layout="topleft"
              follows="left|top"
@@ -717,7 +717,7 @@
              height="18"
              control_name="FSMuteGroupWhenNoticesDisabled"
              name="FSMuteGroupWhenNoticesDisabled"
-             label="When 'Receive group notices' is disabled, disable group chat as well"/>
+             label="'그룹 통지 수신'이 비활성화되면 그룹 채팅도 비활성화합니다"/>
             <check_box
              layout="topleft"
              follows="left|top"
@@ -726,7 +726,7 @@
              height="18"
              name="FSIgnoreAdHocSessions"
              control_name="FSIgnoreAdHocSessions"
-             label="Automatically ignore and leave all conference (ad-hoc) chats"/>
+             label="자동으로 모든 회의(애드혹) 대화 무시 및 종료"/>
             <check_box
              layout="topleft"
              follows="left|top"
@@ -737,7 +737,7 @@
              height="18"
              name="FSReportIgnoredAdHocSession"
              control_name="FSReportIgnoredAdHocSession"
-             label="Report ignored conference chats in nearby chat"/>
+             label="주변 대화에서 무시된 전화 회의 대화 보고"/>
             <check_box
              layout="topleft"
              follows="left|top"
@@ -747,7 +747,7 @@
              height="18"
              name="FSDontIgnoreAdHocFromFriends"
              control_name="FSDontIgnoreAdHocFromFriends"
-             label="Don't ignore conference chats invitations from my friends"/>
+             label="내 친구의 전화 회의 초대 무시 안 함"/>
             <text
              name="group_snooze_time_label"
              layout="topleft"
@@ -755,9 +755,9 @@
              follows="left|top"
              top_pad="8"
              height="16"
-             tool_tip="Amount of time a group chat will be muted when pressing the &quot;Snooze&quot; button. Setting a value of 0 will effectively just close the window until the next group message arrives."
+             tool_tip="&quot;를 누를 때 그룹 채팅이 음소거되는 시간;snoze&quot; 버튼을 클릭합니다. 값을 0으로 설정하면 다음 그룹 메시지가 도착할 때까지 창이 사실상 닫힙니다."
              width="160">
-              Group Chat Snooze Duration:
+              그룹 채팅 중지 기간:
             </text>
             <spinner
              decimal_digits="0"
@@ -769,7 +769,7 @@
              min_val="0"
              max_val="2147483647"
              name="GroupSnoozeTime"
-             tool_tip="Amount of time a group chat will be muted when pressing the &quot;Snooze&quot; button. Setting a value of 0 will effectively just close the window until the next group message arrives."
+             tool_tip="&quot;를 누를 때 그룹 채팅이 음소거되는 시간;snoze&quot; 버튼을 클릭합니다. 값을 0으로 설정하면 다음 그룹 메시지가 도착할 때까지 창이 사실상 닫힙니다."
              width="60" />
             <text
              follows="left|top"
@@ -777,9 +777,9 @@
              left_pad="3"
              top_delta="4"
              name="group_snooze_time_seconds_label"
-             tool_tip="Amount of time a group chat will be muted when pressing the &quot;Snooze&quot; button. Setting a value of 0 will effectively just close the window until the next group message arrives."
+             tool_tip="&quot;를 누를 때 그룹 채팅이 음소거되는 시간;snoze&quot; 버튼을 클릭합니다. 값을 0으로 설정하면 다음 그룹 메시지가 도착할 때까지 창이 사실상 닫힙니다."
              width="70">
-                seconds
+                초
             </text>
             <check_box
              layout="topleft"
@@ -790,7 +790,7 @@
              height="18"
              name="FSEnablePerGroupSnoozeDuration"
              control_name="FSEnablePerGroupSnoozeDuration"
-             label="Set group chat snooze duration individually per group"/>
+             label="그룹별 그룹 채팅 중지 시간 개별적으로 설정"/>
         </panel>
 
         <!-- Chat: Typing -->
@@ -800,7 +800,7 @@
 	   left="1"
 	   right="-1"
 	   follows="all"
-	   label="Typing"
+	   label="타이핑"
 	   name="ChatTyping" >
 		<button
 		 layout="topleft"
@@ -811,7 +811,7 @@
 		 height="23"
 		 name="autoreplace_showgui"
 		 commit_callback.function="Pref.AutoReplace"
-		 label="Auto-Replace...">
+		 label="자동 대치...">
 		</button>
 		<button
 		 follows="top|left"
@@ -820,7 +820,7 @@
 		 left_pad="5"
 		 name="spellcheck_showgui"
 		 commit_callback.function="Pref.SpellChecker"
-		 label="Spell Checking..."
+		 label="철자 검사..."
 		 width="160">
 		</button>
 		<button
@@ -831,13 +831,13 @@
 		 name="translation_settings_btn"
 		 width="160"
 		 commit_callback.function="Pref.TranslationSettings"
-		 label="Translation...">
+		 label="번역...">
 		</button>
 		<check_box
 		 control_name="PlayTypingAnim"
 		 height="16"
 		 initial_value="true"
-		 label="Play typing animation when chatting"
+		 label="채팅 시 타이핑 애니메이션 재생"
 		 layout="topleft"
 		 top="45"
 		 left="20"
@@ -848,7 +848,7 @@
 		 control_name="FSTypeDuringEmote"
 		 height="16"
 		 initial_value="true"
-		 label="Play typing animation also when emoting"
+		 label="이모티콘에서도 타이핑 애니메이션 재생"
 		 layout="topleft"
 		 top_pad="1"
 		 left="30"
@@ -858,7 +858,7 @@
 		 control_name="PlayModeUISndTyping"
 		 follows="left|top"
 		 height="16"
-		 label="Hear typing sound when people type in nearby chat"
+		 label="사람들이 근처 채팅에서 타이핑할 때 타이핑 소리 듣기"
 		 layout="topleft"
 		 left="20"
 		 top_pad="1"
@@ -869,14 +869,14 @@
 		 follows="left|top"
 		 top_pad="1"
 		 height="16"
-		 label="Send typing notifications to other avatars during IM sessions"
+		 label="IM 세션 중에 다른 아바타로 입력 알림 보내기"
 		 layout="topleft"
 		 name="FSSendTypingState"
 		 width="400" />
 		<check_box
 		 control_name="FSChatbarGestureAutoCompleteEnable"
 		 name="FSChatbarGestureAutoCompleteEnable"
-		 label="Enable auto-completion of gestures in nearby chat bar"
+		 label="근처 채팅 표시줄에서 제스처 자동 완성 사용"
 		 layout="topleft"
 		 top_pad="1"
 		 height="16"
@@ -884,7 +884,7 @@
 		<check_box
 		 control_name="FSChatbarNamePrediction"
 		 name="FSChatbarNamePrediction"
-		 label="Enable automatic name prediction in nearby chat bar"
+		 label="인근 채팅 표시줄에서 자동 이름 예측 사용"
 		 layout="topleft"
 		 top_pad="1"
 		 height="16"
@@ -892,7 +892,7 @@
 		<check_box
 		 control_name="AllowMUpose"
 		 name="AllowMUpose"
-		 label="&quot;:&quot; as a synonym for &quot;/me&quot;"
+		 label="&quot;:&quot; 의 동의어로 &quot;/나&quot;"
 		 layout="topleft"
 		 top_pad="1"
 		 height="16"
@@ -900,7 +900,7 @@
 		<check_box
 		 control_name="AutoCloseOOC"
 		 name="AutoCloseOOC"
-		 label="Auto-close ((OOC)) parentheses"
+		 label="자동 닫기 ((OOC)) 괄호"
 		 layout="topleft"
 		 top_pad="1"
 		 height="16"
@@ -912,7 +912,7 @@
 		 width="400"
 		 control_name="FSShowIMSendButton"
 		 name="FSShowIMSendButton"
-		 label="Show send chat button in chat bar for IM sessions"/>
+		 label="IM 세션에 대한 채팅 표시줄에 채팅 보내기 버튼 표시"/>
 		<check_box
 		 layout="topleft"
 		 top_pad="1"
@@ -920,7 +920,7 @@
 		 width="400"
 		 control_name="FSNearbyChatbar"
 		 name="FSNearbyChatbar"
-		 label="Add a chat bar in the Nearby Chat window"/>
+		 label="주변 대화 창에 대화 모음 추가"/>
 		<check_box
 		 layout="topleft"
 		 left="30"
@@ -930,7 +930,7 @@
 		 control_name="FSShowChatChannel"
 		 enabled_control="FSNearbyChatbar"
 		 name="FSShowChatChannel"
-		 label="Show channel selection in chat bar"/>
+		 label="채팅 표시줄에 채널 선택 표시"/>
 		<check_box
 		 layout="topleft"
 		 top_pad="1"
@@ -939,7 +939,7 @@
 		 control_name="FSShowChatType"
 		 enabled_control="FSNearbyChatbar"
 		 name="FSShowChatType"
-		 label="Show chat type / send chat button in chat bar"/>
+		 label="채팅 표시줄에 채팅 유형 표시 / 채팅 보내기 버튼"/>
 		<check_box
 		 left="20"
 		 control_name="AutohideChatBar"
@@ -947,13 +947,13 @@
 		 height="16"
 		 width="400"
 		 initial_value="false"
-		 label="Autohide main chatbar"
+		 label="기본 대화 상자 자동 숨기기"
 		 layout="topleft"
 		 name="AutohideChatBar"
-		 tool_tip="Hide the chat bar from the bottom button bar and only show it as an overlay when needed." />
+		 tool_tip="맨 아래 단추 표시줄에서 대화 표시줄을 숨기고 필요할 때만 오버레이로 표시." />
 		<check_box
 		 control_name="CloseChatOnReturn"
-		 label="Deselect chat after sending a message"
+		 label="메시지를 보낸 후 대화 선택 취소"
 		 layout="topleft"
 		 top_pad="1"
 		 height="16"
@@ -961,7 +961,7 @@
 		 name="CloseChatOnReturn" />
 		<check_box
 		 control_name="FSUnfocusChatHistoryOnReturn"
-		 label="De-focus chat history as well"
+		 label="채팅 기록도 비초점화"
 		 layout="topleft"
 		 top_pad="1"
 		 left="30"
@@ -977,26 +977,26 @@
 		 name="textUseKeyboardShortcuts"
 		 follows="left|top"
 		 layout="topleft">
-			  Use Keyboard Shortcuts:
+			  바로 가기 키 사용:
 		</text>
 		<check_box
 		 control_name="FSUseCtrlShout"
 		 name="FSUseCtrlShout"
-		 label="Ctrl+Enter (Shout)"
+		 label="Ctrl+Enter (외침)"
 		 layout="topleft"
 		 top_pad="5"
 		 left_delta="10"
 		 height="18"
-		 tool_tip="Enable this if you would like to use the keyboard shortcut Ctrl+Enter to Shout in Nearby Chat."
+		 tool_tip="바로 가기 키 Ctrl+Enter 주변 대화 안 외침을 사용하려면 이 옵션을 선택합니다."
 		 width="155" />
 		<check_box
 		 control_name="FSUseShiftWhisper"
 		 name="FSUseShiftWhisper"
-		 label="Shift+Enter (Whisper)"
+		 label="Shift+Enter (속삭임)"
 		 layout="topleft"
 		 left_pad="10"
 		 height="18"
-		 tool_tip="Enable this if you would like to use the keyboard shortcut Shift+Enter to Whisper in Nearby Chat"
+		 tool_tip="Shift+Enter 주변 대화 안 속삭임을 사용하려면 이 옵션을 선택합니다."
 		 width="170" />
 		<check_box
 		 control_name="FSUseAltOOC"
@@ -1005,7 +1005,7 @@
 		 layout="topleft"
 		 left_pad="10"
 		 height="18"
-		 tool_tip="Enable this if you would like to use the keyboard shortcut Alt+Enter to send ((OOC)) messages to Nearby Chat."
+		 tool_tip="바로 가기 키 Alt+Enter를 사용하여 주변 채팅으로 메시지 보내기(OOC)."
 		 width="110" />
 	  </panel>
 
@@ -1017,7 +1017,7 @@
 	 left="1"
 	 right="-1"
 	 follows="all"
-	 label="Notices"
+	 label="알림"
 	 name="ChatNotices" >
 
 		<text
@@ -1028,26 +1028,26 @@
 		 name="disable_toast_label"
 		 follows="left|top"
 		 layout="topleft">
-			 Enable incoming chat popups:
+			 수신 채팅 팝업 활성화:
 		</text>
 		<check_box
 		 control_name="EnableGroupChatPopups"
 		 name="EnableGroupChatPopups"
-		 label="Group Chats"
+		 label="그룹 채팅"
 		 layout="topleft"
 		 top_pad="1"
 		 left_delta="10"
 		 height="18"
-		 tool_tip="Check to see popups when a Group Chat message arrives"
+		 tool_tip="그룹 채팅 메시지가 도착할 때 팝업을 보려면 선택하십시오."
 		 width="100" />
 		<check_box
 		 control_name="EnableIMChatPopups"
 		 name="EnableIMChatPopups"
-		 label="IM Chats"
+		 label="IM 채팅"
 		 layout="topleft"
 		 left_pad="10"
 		 height="18"
-		 tool_tip="Check to see popups when an instant message arrives"
+		 tool_tip="인스턴트 메시지가 도착할 때 팝업을 보려면 선택하십시오."
 		 width="100" />
 
 		<check_box
@@ -1059,7 +1059,7 @@
 		 height="18"
 		 name="FSUseNearbyChatConsole"
 		 control_name="FSUseNearbyChatConsole"
-		 label="Use console for chat popups instead of floating toasts (Viewer 1.x style)"/>
+		 label="유동 토스트 대신 대화 팝업에 콘솔 사용(Viewer 1.x 스타일)"/>
 
 		<check_box
 		 enabled_control="FSUseNearbyChatConsole"
@@ -1071,7 +1071,7 @@
 		 height="18"
 		 name="FSLogImToChatConsole"
 		 control_name="FSLogImToChatConsole"
-		 label="Show IMs in chat console"/>
+		 label="대화 콘솔에 IM 표시"/>
 
 		<check_box
 		 enabled_control="FSUseNearbyChatConsole"
@@ -1082,7 +1082,7 @@
 		 height="18"
 		 name="FSLogGroupImToChatConsole"
 		 control_name="FSLogGroupImToChatConsole"
-		 label="Show group chat in chat console"/>
+		 label="대화 콘솔에서 그룹 대화 표시"/>
 
 		<text
 		 follows="left|top"
@@ -1091,7 +1091,7 @@
 		 left_delta="4"
 		 name="FSShowGroupNameLength_label"
 		 width="290">
-			Length of group name to be printed in chat transcript
+			대화 내용에서 인쇄할 그룹 이름 길이
 		</text>
 		<spinner
 		 decimal_digits="0"
@@ -1101,7 +1101,7 @@
 		 height="20"
 		 increment="1"
 		 initial_value="0"
-		 tool_tip="-1 for full group name, 0 for disabled"
+		 tool_tip="-1은 전체 그룹 이름, 0은 사용 안 함"
 		 left_pad="3"
 		 max_val="63"
 		 min_val="-1"
@@ -1116,7 +1116,7 @@
 		 height="18"
 		 name="FSOpenIMContainerOnOfflineMessage"
 		 control_name="FSOpenIMContainerOnOfflineMessage"
-		 label="Open Conversations when an offline message has been received"/>
+		 label="오프라인 메시지가 수신되면 대화 열기"/>
 		<check_box
 		 enabled="false"
 		 layout="topleft"
@@ -1124,45 +1124,17 @@
 		 top_pad="-1"
 		 width="400"
 		 height="18"
-		 label="Email me IMs when I'm offline ([EMAIL])"
+		 label="오프라인 상태일 때 IM을 이메일로 보내기([EMAIL])"
 		 name="send_im_to_email" />
-		<text
-		 font="SansSerifSmall"
-		 follows="left|top"
-		 height="18"
-		 layout="topleft"
-		 left_delta="5"
-		 length="1"
-		 name="email_settings"
-		 skip_link_underline="true"
-		 top_delta="5"
-		 type="string"
-		 width="400">
-		 [https://accounts.secondlife.com/change_email Open email notification settings for offline IMs]
-		</text>
-		<text
-		 font="SansSerifSmall"
-		 follows="left|top"
-		 height="18"
-		 layout="topleft"
-		 length="1"
-		 name="email_settings_login_to_change"
-		 skip_link_underline="true"
-		 top_delta="0"
-		 type="string"
-		 width="400">
-		 Login to change offline IMs to Email settings
-		</text>
 		<check_box
 		 layout="topleft"
 		 follows="left|top"
 		 top_pad="-1"
-		 left_delta="-5"
 		 width="400"
 		 height="18"
 		 name="FSShowIMInChatHistory"
 		 control_name="FSShowIMInChatHistory"
-		 label="Show IMs and Group Chat in Nearby Chat Window"/>
+		 label="주변 채팅 창에 IM 및 그룹 채팅 표시"/>
 		<check_box
 		 enabled_control="FSShowIMInChatHistory"
 		 layout="topleft"
@@ -1173,7 +1145,7 @@
 		 height="18"
 		 name="FSLogIMInChatHistory"
 		 control_name="FSLogIMInChatHistory"
-		 label="Save IMs and Group Chat in Nearby Chat"/>
+		 label="주변 채팅에서 IM 및 그룹 채팅 저장"/>
 		<text
 		 top_pad="0"
 		 follows="left|top"
@@ -1181,7 +1153,7 @@
 		 left="34"
 		 name="FSIMChatHistoryFade_label"
 		 width="340">
-			Fade IM text into the background of the chat transcript window
+			IM 텍스트를 대화 내용 창의 배경으로 페이드
 		</text>
 		<spinner
 		 decimal_digits="2"
@@ -1190,7 +1162,7 @@
 		 height="20"
 		 increment="0.01"
 		 initial_value="0.5"
-		 tool_tip="0.25-1.0, 0.25 for a lot of fade, 1 for no fade"
+		 tool_tip="0.25-1.0, 0.25 오래도록, 1 사라지지 않기 위해"
 		 left_pad="3"
 		 max_val="1.0"
 		 min_val="0.25"
@@ -1206,7 +1178,7 @@
 		 height="18"
 		 name="FSShowMessageCountInWindowTitle"
 		 control_name="FSShowMessageCountInWindowTitle"
-		 label="Show number of unread IMs in Firestorm's window title"/>
+		 label="Firestorm의 창 제목에 읽지 않은 IM 수 표시"/>
 
 		<check_box
 		 layout="topleft"
@@ -1217,7 +1189,7 @@
 		 height="18"
 		 name="FSAnnounceIncomingIM"
 		 control_name="FSAnnounceIncomingIM"
-		 label="Announce incoming IMs as soon as the sender starts typing"/>
+		 label="발신인이 입력을 시작하는 즉시 수신 IM 공지"/>
 
 		<check_box
 		 layout="topleft"
@@ -1227,7 +1199,7 @@
 		 height="18"
 		 name="FSIMChatFlashOnFriendStatusChange"
 		 control_name="FSIMChatFlashOnFriendStatusChange"
-		 label="Flash IM tabs when friends come online or go offline"/>
+		 label="친구가 온라인 상태가 되거나 오프라인 상태가 될 때 IM 탭 깜박임"/>
 
 		<check_box
 		 layout="topleft"
@@ -1237,8 +1209,8 @@
 		 height="18"
 		 name="FSNotifyNearbyChatFlash"
 		 control_name="FSNotifyNearbyChatFlash"
-		 label="Flash chat toolbar button if new nearby chat arrives"
-		 tool_tip="Flashes the chat toolbar button if a new nearby chat arrives. The nearby chat window must be docked to the conversations window and the conversations window must be closed for the button to flash."/>
+		 label="새 채팅이 도착할 경우 대화 도구 모음 버튼 깜박임"
+		 tool_tip="근처 새 채팅이 도착하면 대화 도구 모음 단추를 깜박입니다. 버튼이 깜박이려면 대화 창에 가까운 대화 창을 도킹하고 대화 창을 닫아야 합니다."/>
 
 		<check_box
 		 layout="topleft"
@@ -1248,8 +1220,8 @@
 		 height="18"
 		 name="FSNotifyIMFlash"
 		 control_name="FSNotifyIMFlash"
-		 label="Flash chat toolbar button if a new IM arrives"
-		 tool_tip="Flashes the chat toolbar button if a new (group) IM arrives. The IM window must be docked to the conversations window and the conversations window must be closed for the button to flash. This option is only available if IMs will be shown in tabs instead of separate windows (see &quot;General&quot; tab)."/>
+		 label="새 IM이 도착하면 대화 도구 모음 버튼 깜박임"
+		 tool_tip="새 (그룹) IM이 도착하면 대화 도구 모음 단추를 깜박입니다. 버튼이 깜박이려면 IM 창을 대화 창에 도킹하고 대화 창을 닫아야 합니다. 이 옵션은 IM이 별도의 창 대신 탭에 표시되는 경우에만 사용할 수 있습니다(&quot; 참조).일반&quot; 탭)."/>
 
 		<check_box
 		 layout="topleft"
@@ -1259,7 +1231,7 @@
 		 height="18"
 		 name="FSReportMutedGroupChat"
 		 control_name="FSReportMutedGroupChat"
-		 label="Report muted group chat in nearby chat"/>
+		 label="주변 채팅에서 음소거된 그룹 채팅 보고"/>
 
 		<check_box
 		 layout="topleft"
@@ -1269,7 +1241,7 @@
 		 height="18"
 		 name="FSGroupNoticesToIMLog"
 		 control_name="FSGroupNoticesToIMLog"
-		 label="Show group notices in group chats, in addition to toasts"/>
+		 label="그룹 채팅에 그룹 통지 표시 및 토스트"/>
 		<check_box
 		 enabled_control="FSGroupNoticesToIMLog"
 		 layout="topleft"
@@ -1280,7 +1252,7 @@
 		 height="18"
 		 name="FSBetterGroupNoticesToIMLog"
 		 control_name="FSBetterGroupNoticesToIMLog"
-		 label="Show their subjects and authors as well"/>
+		 label="주제와 저자도 표시"/>
 
 	</panel>
 
@@ -1291,13 +1263,13 @@
 	 left="1"
 	 right="-1"
 	 follows="all"
-	 label="Radar"
+	 label="레이더"
 	 name="ChatRadar" >
 
 		<check_box
 		 control_name="RadarReportChatRangeEnter"
 		 name="reportChatRangeEnter"
-		 label="Radar reports when avatars enter chat range"
+		 label="아바타가 채팅 범위에 들어갈 때 레이더 신고"
 		 layout="topleft"
 		 left="20"
 		 top_pad="5"
@@ -1312,7 +1284,7 @@
 		 height="20"
 		 control_name="PlayModeUISndRadarChatEnter"
 		 name="PlayModeUISndRadarChatEnter"
-		 label="Play sound UUID:"/>
+		 label="UUID 소리 재생:"/>
 		<line_editor
 		 enabled_control="RadarReportChatRangeEnter"
 		 follows="left|top"
@@ -1346,7 +1318,8 @@
 		 layout="topleft"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Reset to the default UUID.">
+		 tool_tip="기본 UUID로 재설정
+.">
 			 <button.commit_callback
 			  function="ResetControl"
 			  parameter="UISndRadarChatEnter"/>
@@ -1355,7 +1328,7 @@
 		<check_box
 		 control_name="RadarReportChatRangeLeave"
 		 name="reportChatRangeLeave"
-		 label="Radar reports when avatars leave chat range"
+		 label="아바타가 채팅 범위를 벗어날 때 레이더 신고"
 		 layout="topleft"
 		 left="20"
 		 top_pad="5"
@@ -1370,7 +1343,7 @@
 		 height="20"
 		 control_name="PlayModeUISndRadarChatLeave"
 		 name="PlayModeUISndRadarChatLeave"
-		 label="Play sound UUID:"/>
+		 label="UUID소리 재생:"/>
 		<line_editor
 		 enabled_control="RadarReportChatRangeLeave"
 		 follows="left|top"
@@ -1390,7 +1363,7 @@
 		 top_delta="-1"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Preview this sound.">
+		 tool_tip="이 소리 프리뷰.">
 			 <button.commit_callback
 			  function="PreviewUISound"
 			  parameter="UISndRadarChatLeave"/>
@@ -1404,7 +1377,7 @@
 		 layout="topleft"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Reset to the default UUID.">
+		 tool_tip="기본 UUID로 재설정.">
 			 <button.commit_callback
 			  function="ResetControl"
 			  parameter="UISndRadarChatLeave"/>
@@ -1413,7 +1386,7 @@
 		<check_box
 		 control_name="RadarReportDrawRangeEnter"
 		 name="reportDrawRangeEnter"
-		 label="Radar reports when avatars enter draw distance"
+		 label="아바타가 드로우 거리에 진입할 때 레이더 신고"
 		 layout="topleft"
 		 left="20"
 		 top_pad="5"
@@ -1428,7 +1401,7 @@
 		 height="20"
 		 control_name="PlayModeUISndRadarDrawEnter"
 		 name="PlayModeUISndRadarDrawEnter"
-		 label="Play sound UUID:"/>
+		 label="UUID소리 재생:"/>
 		<line_editor
 		 enabled_control="RadarReportDrawRangeEnter"
 		 follows="left|top"
@@ -1448,7 +1421,7 @@
 		 top_delta="-1"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Preview this sound.">
+		 tool_tip="이 소리 프리뷰.">
 			 <button.commit_callback
 			  function="PreviewUISound"
 			  parameter="UISndRadarDrawEnter"/>
@@ -1462,7 +1435,7 @@
 		 layout="topleft"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Reset to the default UUID.">
+		 tool_tip="기본 UUID로 재설정.">
 			 <button.commit_callback
 			  function="ResetControl"
 			  parameter="UISndRadarDrawEnter"/>
@@ -1471,7 +1444,7 @@
 		<check_box
 		 control_name="RadarReportDrawRangeLeave"
 		 name="reportDrawRangeLeaave"
-		 label="Radar reports when avatars leave draw distance"
+		 label="레이더에서 아바타가 드로우 거리를 벗어날 때 보고함"
 		 layout="topleft"
 		 left="20"
 		 top_pad="5"
@@ -1486,7 +1459,7 @@
 		 height="20"
 		 control_name="PlayModeUISndRadarDrawLeave"
 		 name="PlayModeUISndRadarDrawLeave"
-		 label="Play sound UUID:"/>
+		 label="UUID 소리 재생:"/>
 		<line_editor
 		 enabled_control="RadarReportDrawRangeLeave"
 		 follows="left|top"
@@ -1506,7 +1479,7 @@
 		 top_delta="-1"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Preview this sound.">
+		 tool_tip="이 소리 프리뷰.">
 			 <button.commit_callback
 			  function="PreviewUISound"
 			  parameter="UISndRadarDrawLeave"/>
@@ -1520,7 +1493,7 @@
 		 layout="topleft"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Reset to the default UUID.">
+		 tool_tip="기본 UUID로 재설정.">
 			 <button.commit_callback
 			  function="ResetControl"
 			  parameter="UISndRadarDrawLeave"/>
@@ -1529,7 +1502,7 @@
 		<check_box
 		 control_name="RadarReportSimRangeEnter"
 		 name="RadarReportSimRangeEnter"
-		 label="Radar reports when avatars enter the region"
+		 label="레이더에서 아바타가 해당 지역에 진입할 때 보고합니다"
 		 layout="topleft"
 		 left="20"
 		 top_pad="5"
@@ -1544,7 +1517,7 @@
 		 height="20"
 		 control_name="PlayModeUISndRadarSimEnter"
 		 name="PlayModeUISndRadarSimEnter"
-		 label="Play sound UUID:"/>
+		 label="UUID 소리 재생:"/>
 		<line_editor
 		 enabled_control="RadarReportSimRangeEnter"
 		 follows="left|top"
@@ -1564,7 +1537,7 @@
 		 top_delta="-1"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Preview this sound.">
+		 tool_tip="이 소리 프리뷰.">
 			 <button.commit_callback
 			  function="PreviewUISound"
 			  parameter="UISndRadarSimEnter"/>
@@ -1578,7 +1551,7 @@
 		 layout="topleft"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Reset to the default UUID.">
+		 tool_tip="기본 UUID로 재설정.">
 			 <button.commit_callback
 			  function="ResetControl"
 			  parameter="UISndRadarSimEnter"/>
@@ -1587,7 +1560,7 @@
 		<check_box
 		 control_name="RadarReportSimRangeLeave"
 		 name="RadarReportSimRangeLeave"
-		 label="Radar reports when avatars leave the region"
+		 label="레이더에서 아바타가 지역을 떠날 때 신고"
 		 layout="topleft"
 		 left="20"
 		 top_pad="5"
@@ -1602,7 +1575,7 @@
 		 height="20"
 		 control_name="PlayModeUISndRadarSimLeave"
 		 name="PlayModeUISndRadarSimLeave"
-		 label="Play sound UUID:"/>
+		 label="UUID소리 재생:"/>
 		<line_editor
 		 enabled_control="RadarReportSimRangeLeave"
 		 follows="left|top"
@@ -1622,7 +1595,7 @@
 		 top_delta="-1"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Preview this sound.">
+		 tool_tip="이 소리 프리뷰.">
 			 <button.commit_callback
 			  function="PreviewUISound"
 			  parameter="UISndRadarSimLeave"/>
@@ -1636,7 +1609,7 @@
 		 layout="topleft"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Reset to the default UUID.">
+		 tool_tip="기본 UUID로 재설정.">
 			 <button.commit_callback
 			  function="ResetControl"
 			  parameter="UISndRadarSimLeave"/>
@@ -1645,7 +1618,7 @@
 	  <check_box
 	   control_name="RadarEnterChannelAlert"
 	   name="RadarEnterChannelAlert"
-	   label="Report enter alerts to scripts"
+	   label="보고서 스크립트에 대한 경고 입력"
 	   layout="topleft"
 	   left="20"
 	   top_pad="5"
@@ -1655,7 +1628,7 @@
 	  <check_box
 	   control_name="RadarLeaveChannelAlert"
 	   name="RadarLeaveChannelAlert"
-	   label="Report exit alerts to scripts"
+	   label="스크립트에 종료 알림 보고"
 	   layout="topleft"
 	   top_pad="0"
 	   height="20"
@@ -1665,8 +1638,8 @@
 	   enabled_control="UseLSLBridge"
 	   control_name="FSRadarEnhanceByBridge"
 	   name="FSRadarEnhanceByBridge"
-	   label="Enhance Radar with LSL-Client Bridge"
-	   tool_tip="If this is enabled, radar functions responsible for determining avatar locations at high altitudes are assisted by the LSL-Client Bridge, particularly when they're beyond draw distance."
+	   label="LSL-Client Bridge를 통한 레이더 향상"
+	   tool_tip="이 기능이 활성화되면 높은 고도에서 아바타 위치를 결정하는 레이더 기능이 LSL-Client Bridge의 지원을 받습니다. 특히 이 기능이 견인 거리를 초과할 때 말이죠."
 	   layout="topleft"
 	   top_pad="0"
 	   height="20"
@@ -1680,7 +1653,7 @@
 	   height="14"
 	   width="175"
 	   name="AgeAlertLabel">
-		Age Alert:
+		나이 알림:
 	  </text>
 
 		<text
@@ -1690,7 +1663,7 @@
 		 left="28"
 		 name="RadarAvatarAgeAlertValueLabel"
 		 width="70">
-			Threshold:
+			문지방:
 		</text>
 		<spinner
 		 top_delta="-4"
@@ -1704,7 +1677,7 @@
 		 min_val="-1"
 		 max_val="100000"
 		 name="RadarAvatarAgeAlertValue"
-		 tool_tip="Also colors the age column in the radar. Set to -1 to disable."
+		 tool_tip="또한 레이더의 연령 열에 색을 입힙니다. 사용하지 않으려면 -1로 설정."
 		 width="60" />
 		<text
 		 top_delta="4"
@@ -1713,13 +1686,13 @@
 		 left_pad="5"
 		 name="RadarAvatarAgeAlertValueLabelSuffix"
 		 width="70">
-			Days
+			일
 		</text>
 
 		<check_box
 		 control_name="RadarAvatarAgeAlert"
 		 name="RadarAvatarAgeAlert"
-		 label="Radar reports avatars younger than the specified age"
+		 label="레이더에서 지정된 연령보다 어린 아바타를 신고"
 		 layout="topleft"
 		 left="20"
 		 top_pad="0"
@@ -1734,7 +1707,7 @@
 		 height="20"
 		 control_name="PlayModeUISndRadarAgeAlert"
 		 name="PlayModeUISndRadarAgeAlert"
-		 label="Play sound UUID:"/>
+		 label="UUID소리 재생:"/>
 		<line_editor
 		 enabled_control="RadarAvatarAgeAlert"
 		 follows="left|top"
@@ -1754,7 +1727,7 @@
 		 top_delta="-1"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Preview this sound.">
+		 tool_tip="이 소리 프리뷰.">
 			 <button.commit_callback
 			  function="PreviewUISound"
 			  parameter="UISndRadarAgeAlert"/>
@@ -1768,7 +1741,7 @@
 		 layout="topleft"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Reset to the default UUID.">
+		 tool_tip="기본 UUID로 재설정.">
 			 <button.commit_callback
 			  function="ResetControl"
 			  parameter="UISndRadarAgeAlert"/>
@@ -1782,7 +1755,7 @@
 	 left="1"
 	 right="-1"
 	 follows="all"
-	 label="Keyword Alerts"
+	 label="키보드 알람"
 	 name="ChatKeywordAlerts">
 
 		<check_box
@@ -1795,7 +1768,7 @@
 		 height="20"
 		 control_name="FSKeywordOn"
 		 name="FSKeywordOn"
-		 label="Enable Keyword Alerts"/>
+		 label="키보드 알람 활성화"/>
 		<check_box
 		 enabled="false"
 		 enabled_control="FSKeywordOn"
@@ -1807,7 +1780,7 @@
 		 height="20"
 		 control_name="FSKeywordInChat"
 		 name="FSKeywordInChat"
-		 label="Look for Keywords In Nearby Chat"/>
+		 label="근처 채팅에서 키워드 찾기"/>
 		<check_box
 		 enabled="false"
 		 enabled_control="FSKeywordOn"
@@ -1819,7 +1792,7 @@
 		 height="20"
 		 control_name="FSKeywordInIM"
 		 name="FSKeywordInIM"
-		 label="Look for Keywords In IMs and Group Chat"/>
+		 label="키워드 인 IMs과 그룹 채팅"/>
 		<check_box
 		 enabled="false"
 		 enabled_control="FSKeywordOn"
@@ -1831,7 +1804,7 @@
 		 height="20"
 		 control_name="FSKeywordSpeakersName"
 		 name="FSKeywordSpeakersName"
-		 label="Check sender's name for keywords"/>
+		 label="보낸 사람의 이름에서 키워드 확인"/>
 		<check_box
 		 enabled="false"
 		 enabled_control="FSKeywordOn"
@@ -1843,7 +1816,7 @@
 		 height="20"
 		 control_name="FSKeywordCaseSensitive"
 		 name="FSKeywordCaseSensitive"
-		 label="All Keywords are case-sensitive"/>
+		 label="모든 키워드는 대소문자를 구분합니다."/>
 		<check_box
 		 enabled="false"
 		 enabled_control="FSKeywordOn"
@@ -1855,7 +1828,7 @@
 		 height="20"
 		 control_name="FSKeywordMatchWholeWords"
 		 name="FSKeywordMatchWholeWords"
-		 label="Only match whole words"/>
+		 label="전체 단어만 일치"/>
 		<text
 		 layout="topleft"
 		 follows="left|top"
@@ -1864,7 +1837,7 @@
 		 height="20"
 		 width="250"
 		 name="textFSKeywords">
-		  Keywords (separated by commas):
+		  키워드 (콤마로 구분):
 		</text>
 		<text_editor
 		 enabled="false"
@@ -1895,7 +1868,7 @@
 		 height="20"
 		 control_name="FSKeywordChangeColor"
 		 name="FSKeywordChangeColor"
-		 label="Enable Color Alert"/>
+		 label="색깔 알림 활성화"/>
 
 		<color_swatch
 		 enabled="false"
@@ -1910,7 +1883,7 @@
 		 height="15"
 		 width="15"
 		 name="colorswatch"
-		 tool_tip="Click to open color picker"/>
+		 tool_tip="색깔 선택기를 열려면 클릭하십시오."/>
 
 		<check_box
 		 enabled="false"
@@ -1923,7 +1896,7 @@
 		 height="20"
 		 control_name="PlayModeUISndFSKeywordSound"
 		 name="FSKeywordPlaySound"
-		 label="Play alert sound"/>
+		 label="경고음 재생"/>
 
 		<text
 		 layout="topleft"
@@ -1933,7 +1906,7 @@
 		 height="14"
 		 width="120"
 		 name="textFSKeywordSound">
-		  Alert Sound UUID:
+		  UUID소리 경고:
 		</text>
 		<line_editor
 		 enabled="false"
@@ -1956,7 +1929,7 @@
 		 top_delta="-1"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Preview this sound.">
+		 tool_tip="이 소리 프리뷰.">
 			 <button.commit_callback
 			  function="PreviewUISound"
 			  parameter="UISndFSKeywordSound"/>
@@ -1971,7 +1944,7 @@
 		 layout="topleft"
 		 left_pad="1"
 		 width="17"
-		 tool_tip="Reset to the default UUID.">
+		 tool_tip="기본 UUID로 재설정.">
 			 <button.commit_callback
 			  function="ResetPerAccountControl"
 			  parameter="UISndFSKeywordSound"/>
@@ -2005,7 +1978,7 @@
 	  left="10"
 	  name="FSCmdLineCalc_txt"
 	  width="235">
-	  Calc. expressions (usage: cmd SIN(2+2))
+	  계산식(사용법: cmd SIN(2+2))
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2024,7 +1997,7 @@
 	  height="14"
 	  name="FSCmdLineDrawDistance_txt"
 	  width="235">
-	  Change Draw Dist (usage: cmd meters)
+	  그리기 거리 변경(사용량: cmd 미터)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2043,7 +2016,7 @@
 	  height="14"
 	  name="FSCmdLineBandWidth_txt"
 	  width="235">
-	  Max. Bandwidth (usage: cmd kbps)
+	  최대 대역폭(사용량: cmd kbps)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2062,7 +2035,7 @@
 	  height="14"
 	  name="FSCmdLineCopyCam_txt"
 	  width="235">
-	  Copy camera position to clipboard
+	  카메라 위치를 클립보드에 복사
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2081,7 +2054,7 @@
 	  height="14"
 	  name="FSCmdLineAO_txt"
 	  width="235">
-	  Turn AO on/off (usage: cmd on/off)
+	  AO 설정/해제(사용법: cmd 설정/해제)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2100,7 +2073,7 @@
 	  height="14"
 	  name="FSCmdLineClearChat_txt"
 	  width="235">
-	  Clear the chat transcript (usage: cmd)
+	  대화 내용 지우기(사용법: cmd)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2108,7 +2081,7 @@
 	  follows="left|top"
 	  height="18"
 	  max_length_chars="256"
-	  tool_tip="Clears the Chat Transcript to prevent lag effects from chat spammers."
+	  tool_tip="채팅 스팸 발송자의 지연 효과를 방지하기 위해 대화 내용을 지웁니다."
 	  name="FSCmdLineClearChat"
 	  control_name="FSCmdLineClearChat"
 	  width="200"/>
@@ -2119,7 +2092,7 @@
 	  height="14"
 	  name="FSCmdLineMedia_txt"
 	  width="235">
-	  Set the media url (usage: cmd url type)
+	  미디어 URL 설정(사용법: cmd url 유형)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2127,7 +2100,7 @@
 	  follows="left|top"
 	  height="18"
 	  max_length_chars="256"
-	  tool_tip="Sets and plays your media stream to the entered url"
+	  tool_tip="입력한 URL로 미디어 스트림을 설정하고 재생합니다."
 	  name="FSCmdLineMedia"
 	  control_name="FSCmdLineMedia"
 	  width="200"/>
@@ -2138,7 +2111,7 @@
 	  height="14"
 	  name="FSCmdLineMusic_txt"
 	  width="235">
-	  Set the music stream url (usage: cmd url)
+	  음악 스트림 URL 설정(사용법: cmd url)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2146,7 +2119,7 @@
 	  follows="left|top"
 	  height="18"
 	  max_length_chars="256"
-	  tool_tip="sets and plays your music stream to the entered url"
+	  tool_tip="입력한 URL로 음악 스트림을 설정하고 재생합니다."
 	  name="FSCmdLineMusic"
 	  control_name="FSCmdLineMusic"
 	  width="200"/>
@@ -2157,7 +2130,7 @@
 	  height="14"
 	  name="FSCmdLineRezPlatform_txt"
 	  width="235">
-	  Rez a platform (usage: cmd 0 - 64)
+	  플랫폼 리자(사용법: cmd 0 - 64)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2179,13 +2152,13 @@
 	  height="18"
 	  increment="0.5"
 	  initial_value="5"
-	  label="Width"
+	  label="폭"
 	  label_width="64"
 	  max_val="64"
 	  min_val="5"
 	  show_text="true"
 	  width="200"
-	  tool_tip="How big do you want the platform to appear to be?"/>
+	  tool_tip="얼마나 크게 플랫폼이 보기일 원하십니까?"/>
 
 	<view_border
 	  bevel_style="none"
@@ -2205,7 +2178,7 @@
 	  height="14"
 	  name="FSCmdLineKeyToName_txt"
 	  width="280">
-	  Get avatar name from key (usage: cmd key)
+	  키에서 아바타 이름 가져오기(사용법: cmd 키)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2224,7 +2197,7 @@
 	  height="14"
 	  name="FSCmdLineRollDice_txt"
 	  width="280">
-	  Roll dice (usage: cmd dice faces mt mv)
+	  주사위 굴리기(사용법: cmd 주사위 면 mt mv)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2232,7 +2205,7 @@
 	  follows="left|top"
 	  height="18"
 	  max_length_chars="256"
-	  tool_tip="Rolls dice - cmd [number of dice] [number of faces] [modifier type (optional)] [modifier value (optional)]. Example: cmd 1 20, cmd 2 40 + 5. Lack of parameters is equal to cmd 1 6 (standard die)."
+	  tool_tip="주사위 굴리기 - cmd [ 주사위 수] [면 수] [수식자 유형(선택사항)] [수식자 값(선택사항)] 예: cmd120, cmd240 +5. 매개 변수 부족은 cmd16(표준 다이)과 같습니다."
 	  name="FSCmdLineRollDice"
 	  control_name="FSCmdLineRollDice"
 	  width="200"/>
@@ -2243,7 +2216,7 @@
 	  height="14"
 	  name="FSCmdLinePos_txt"
 	  width="280">
-	  Teleport within region (usage: cmd x y z)
+	  영역 내에서 순간이동(사용법: cmd x y z)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2262,7 +2235,7 @@
 	  height="14"
 	  name="FSCmdLineGround_txt"
 	  width="280">
-	  Teleport to ground (usage: cmd)
+	  지면으로 순간이동(사용법: cmd)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2281,7 +2254,7 @@
 	  height="14"
 	  name="FSCmdLineHeight_txt"
 	  width="280">
-	  Teleport to altitude (usage: cmd z)
+	  고도로 순간이동(사용법: cmd z)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2300,7 +2273,7 @@
 	  height="14"
 	  name="FSCmdTeleportToCam_txt"
 	  width="280">
-	  Teleport to cam position (usage: cmd)
+	  캠 위치로 순간이동(사용법: cmd)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2319,7 +2292,7 @@
 	  height="14"
 	  name="FSCmdLineOfferTp_txt"
 	  width="280">
-	  Offer teleport to avatar (usage: cmd key)
+    아바타에 텔레포트 제공(사용법: cmd 키)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2338,7 +2311,7 @@
 	  height="14"
 	  name="FSCmdLineTP2_txt"
 	  width="280">
-	  Teleport to avatar (usage: cmd name)
+	  아바타로 순간이동(사용법: cmd 이름)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2346,7 +2319,7 @@
 	  follows="left|top"
 	  height="18"
 	  max_length_chars="256"
-	  tool_tip="The syntax of this command allows partial names and is not case sensitive. Better results if used while the Radar is open."
+	  tool_tip="이 명령어의 구문은 부분 이름을 허용하며 대소문자를 구분하지 않습니다. Radar가 열려 있는 동안 사용할 경우 더 나은 결과."
 	  name="FSCmdLineTP2"
 	  control_name="FSCmdLineTP2"
 	  width="200"/>
@@ -2357,7 +2330,7 @@
 	  height="14"
 	  name="FSCmdLineTeleportHome_txt"
 	  width="280">
-	  Teleport home (usage: cmd)
+    집으로 순간이동(사용법: cmd)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2376,7 +2349,7 @@
 	  height="14"
 	  name="FSCmdLineMapTo_txt"
 	  width="280">
-	  Teleport to region (usage: cmd regionname | x y z)
+	  영역으로 순간이동(사용법: cmd regionname | xyz)
 	</text>
 	<line_editor
 	  enabled_control="FSCmdLine"
@@ -2393,7 +2366,7 @@
 	  top_pad="2"
 	  follows="left|top"
 	  height="14"
-	  label="Use same position between regions"
+	  label="지역 간에 동일한 위치 사용"
 	  name="toggle"
 	  width="270"
 	  control_name="FSCmdLineMapToKeepPos"/>

@@ -30,7 +30,7 @@
    image_overlay_alignment="left"
    image_top_pad="-0"
    imgoverlay_label_space="10"
-   label="Save to Disk"
+   label="디스크에 저장"
    layout="topleft"
    left="9"
    name="save_to_computer_btn"
@@ -54,7 +54,7 @@
    image_overlay_alignment="left"
    image_top_pad="-1"
    imgoverlay_label_space="10"
-   label="Save to Inventory (L$[AMOUNT])"
+   label="인벤토리에 저장 (L$[AMOUNT])"
    layout="topleft"
    left="9"
    name="save_to_inventory_btn"
@@ -78,7 +78,7 @@
    image_overlay_alignment="left"
    image_top_pad="-1"
    imgoverlay_label_space="10"
-   label="Share to Profile Feed"
+   label="프로필 피드에 공유"
    layout="topleft"
    name="save_to_profile_btn"
    left="9"
@@ -102,7 +102,7 @@
    image_overlay_alignment="left"
    image_top_pad="0"
    imgoverlay_label_space="10"
-   label="Share to Flickr"
+   label="flickr에 공유"
    layout="topleft"
    left="9"
    name="send_to_flickr_btn"
@@ -126,7 +126,7 @@
    image_overlay_alignment="left"
    image_top_pad="0"
    imgoverlay_label_space="10"
-   label="Send via E-mail"
+   label="E-mail 로 전송"
    layout="topleft"
    left="9"
    name="save_to_email_btn"
@@ -149,6 +149,6 @@
    width="200"
    type="string"
    word_wrap="true">
-    Fee is based on your subscription level. Higher levels are charged lower fees.
+    요금은 가입 수준에 따라 결정됩니다. 수준이 높을수록 낮은 수수료가 부과됩니다.
   </text>
 </panel>

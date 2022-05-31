@@ -7,7 +7,7 @@
  name="menu_search_visibility"
  visible="false">
   <menu_item_check
-   label="Search Trash"
+   label="쓰레기 찾기"
    layout="topleft"
    name="search_trash">
     <on_click
@@ -18,7 +18,7 @@
      parameter="toggle_search_trash" />
   </menu_item_check>
   <menu_item_check
-   label="Search Library"
+   label="도서관 찾기"
    layout="topleft"
    name="search_library">
     <on_click
@@ -31,7 +31,7 @@
   <menu_item_separator
    layout="topleft" />
   <menu_item_check
-   label="Include links"
+   label="링크 포함"
    layout="topleft"
    name="include_links">
     <on_click

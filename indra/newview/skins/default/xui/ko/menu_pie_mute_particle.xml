@@ -3,7 +3,7 @@
  name="Mute Particle Pie">
   <pie_slice
      enabled="false"
-     label="Mute Part. Own."
+     label="부품 음소거. 소유."
      name="Mute Particle">
     <pie_slice.on_click
      function="Particle.Mute" />

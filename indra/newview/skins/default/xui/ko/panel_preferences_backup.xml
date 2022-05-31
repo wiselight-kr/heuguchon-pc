@@ -7,7 +7,7 @@
  left="1"
  top="1"
  width="540"
- label="Backup"
+ label="백업"
  name="backup">
 
     <text
@@ -72,7 +72,7 @@ Backup Path:
      top="0"
      word_wrap="true"
      height="50">
-You are currently logged out. Be aware that your account specific settings can only be backed up and restored when you are logged in. However, settings that apply to all user accounts can be backed up without being logged in.
+현재 로그아웃 상태입니다. 계정별 설정은 로그인한 경우에만 백업 및 복원할 수 있습니다. 하지만, 로그인하지 않고도 모든 사용자 계정에 적용되는 설정을 백업할 수 있습니다.
     </text>
 
     </layout_panel>
@@ -96,7 +96,7 @@ You are currently logged out. Be aware that your account specific settings can o
      top="0"
      word_wrap="false"
      height="18">
-Settings groups to be restored (backup will always save all):
+복원할 설정 그룹(백업은 항상 모든 걸 저장):
     </text>
 
     <layout_stack
@@ -129,46 +129,46 @@ Settings groups to be restored (backup will always save all):
      draw_heading="true"
      multi_select="false">
         <column label="" name="restore_global_files_check" width="16" />
-        <column label="Global Files:" name="restore_global_files_label" />
-        <column label="Value" name="value" width="-1" />
+        <column label="글로벌 파일:" name="restore_global_files_label" />
+        <column label="값" name="value" width="-1" />
         <row name="restore_global_row_login">
             <column type="checkbox" name="restore_global_files_check" value="true" />
-            <column name="restore_global_files_label">Login Credentials</column>
+            <column name="restore_global_files_label">로그인 자격증명</column>
             <column name="value">bin_conf.dat</column>
         </row>
         <row name="restore_global_row_colors">
             <column type="checkbox" name="restore_global_files_check" value="true" />
-            <column name="restore_global_files_label">Colors</column>
+            <column name="restore_global_files_label">색깔</column>
             <column name="value">colors.xml</column>
         </row>
         <row name="restore_global_row_dialogs">
             <column type="checkbox" name="restore_global_files_check" value="true" />
-            <column name="restore_global_files_label">Ignorable Dialogs</column>
+            <column name="restore_global_files_label">무시가능한 대화</column>
             <column name="value">ignorable_dialogs.xml</column>
         </row>
         <row name="restore_global_row_grids">
             <column type="checkbox" name="restore_global_files_check" value="true" />
-            <column name="restore_global_files_label">User-Defined Grids</column>
+            <column name="restore_global_files_label">사용자 정의 그리드</column>
             <column name="value">grids.user.xml</column>
         </row>
         <row name="restore_global_row_autoreplace">
             <column type="checkbox" name="restore_global_files_check" value="true" />
-            <column name="restore_global_files_label">Autoreplace</column>
+            <column name="restore_global_files_label">자동대치</column>
             <column name="value">autoreplace.xml</column>
         </row>
         <row name="restore_global_row_quickprefs">
             <column type="checkbox" name="restore_global_files_check" value="true" />
-            <column name="restore_global_files_label">Quick Preferences</column>
+            <column name="restore_global_files_label">빠른 환경설정</column>
             <column name="value">quick_preferences.xml</column>
         </row>
         <row name="restore_global_row_favorites">
             <column type="checkbox" name="restore_global_files_check" value="true" />
-            <column name="restore_global_files_label">Favorites</column>
+            <column name="restore_global_files_label">즐겨찾기</column>
             <column name="value">stored_favorites.xml</column>
         </row>
         <row name="restore_global_row_controls">
             <column type="checkbox" name="restore_global_files_check" value="true" />
-            <column name="restore_global_files_label">Controls</column>
+            <column name="restore_global_files_label">조작</column>
             <column name="value">key_bindings.xml</column>
         </row>
     </scroll_list>
@@ -196,56 +196,56 @@ Settings groups to be restored (backup will always save all):
      draw_heading="true"
      multi_select="false">
         <column label="" name="restore_per_account_files_check" width="16" />
-        <column label="Per Account Files:" name="restore_per_account_files_label" />
-        <column label="Value" name="value" width="-1" />
+        <column label="계정 파일 당:" name="restore_per_account_files_label" />
+        <column label="값" name="value" width="-1" />
         <row name="restore_per_account_row_blacklist">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Asset Blacklist</column>
+            <column name="restore_per_account_files_label">자산 블랙리스트</column>
             <column name="value">asset_blacklist.xml</column>
         </row>
         <row name="restore_per_account_row_contactsets">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Contact Sets</column>
+            <column name="restore_per_account_files_label">주소록 집합</column>
             <column name="value">settings_friends_groups.xml</column>
         </row>
         <row name="restore_per_account_row_invfilters">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Inventory Filters</column>
+            <column name="restore_per_account_files_label">인벤토리 필터</column>
             <column name="value">filters.xml</column>
         </row>
         <row name="restore_per_account_row_medialists">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Media Black/Whitelist</column>
+            <column name="restore_per_account_files_label">미디어 블랙/화이트 리스트</column>
             <column name="value">medialist.xml</column>
         </row>
         <row name="restore_per_account_row_toolbars">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Toolbars</column>
+            <column name="restore_per_account_files_label">도구 모음</column>
             <column name="value">toolbars.xml</column>
         </row>
         <row name="restore_per_account_row_volumes">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Voice Chat Volumes</column>
+            <column name="restore_per_account_files_label">음성 대화 볼륨</column>
             <column name="value">volume_settings.xml</column>
         </row>
         <row name="restore_per_account_row_tphistory">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Teleport History</column>
+            <column name="restore_per_account_files_label">순간이동 기록</column>
             <column name="value">teleport_history.txt</column>
         </row>
         <row name="restore_per_account_row_regiontracker">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Region Tracker</column>
+            <column name="restore_per_account_files_label">영역 추적기</column>
             <column name="value">tracked_regions.json</column>
         </row>
         <row name="restore_per_account_row_groupmutes" value="groupmutes">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Disabled Group Chats</column>
+            <column name="restore_per_account_files_label">그룹 채팅 사용 안함</column>
             <column name="value">muted_groups.xml</column>
         </row>
         <row name="restore_per_account_row_avatar_render_settings" value="avatar_render_settings">
             <column type="checkbox" name="restore_per_account_files_check" value="true" />
-            <column name="restore_per_account_files_label">Avatar Render Settings</column>
+            <column name="restore_per_account_files_label">아바타 렌딩 설정</column>
             <column name="value">avatar_render_settings.xml</column>
         </row>
     </scroll_list>
@@ -286,49 +286,49 @@ Settings groups to be restored (backup will always save all):
      draw_heading="true"
      multi_select="false">
         <column label="" name="restore_global_folders_check" width="16" />
-        <column label="Folders:" name="restore_global_folders_label" />
-        <column label="Value" name="value" width="-1" />
+        <column label="폴더:" name="restore_global_folders_label" />
+        <column label="값" name="value" width="-1" />
         <row name="restore_folders_row_beams">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
-            <column name="restore_global_folders_label">Selection Beams</column>
+            <column name="restore_global_folders_label">선정 빔</column>
             <column name="value">beams</column>
         </row>
         <row name="restore_folders_row_beamcolors">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
-            <column name="restore_global_folders_label">Selection Beam Colors</column>
+            <column name="restore_global_folders_label">선정 빔 색깔</column>
             <column name="value">beamsColors</column>
         </row>
         <row name="restore_folders_row_spellcheck">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
-            <column name="restore_global_folders_label">Custom Spell Check</column>
+            <column name="restore_global_folders_label">사용자 지정 맞춤법 검사</column>
             <column name="value">dictionaries</column>
         </row>
         <!-- We must have this entry before the other windlight entries to have the
              windlight/ base folder created. Since we can't hide rows make it so the
              user can't deselect it at least -->
-        <row enabled="false" name="restore_folders_row_windlight" value="windlight">
+        <row enabled="false" name="restore_folders_row_windlight">
             <column type="checkbox" name="restore_global_folders_check" value="true" enabled="false" />
-            <column name="restore_global_folders_label">Windlight (Mandatory)</column>
+            <column name="restore_global_folders_label">윈드라이트 (의무)</column>
             <column name="value">windlight</column>
         </row>
-        <row name="restore_folders_row_daycycles" value="windlight_daycycles">
+        <row name="restore_folders_row_daycycles">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
-            <column name="restore_global_folders_label">Windlight Day Cycles</column>
+            <column name="restore_global_folders_label">윈드라이트 주간 주기 </column>
             <column name="value">windlight/days</column>
         </row>
-        <row name="restore_folders_row_skies" value="windlight_skies">
+        <row name="restore_folders_row_skies">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
-            <column name="restore_global_folders_label">Windlight Skies</column>
+            <column name="restore_global_folders_label">윈드라이트 스키</column>
             <column name="value">windlight/skies</column>
         </row>
-        <row name="restore_folders_row_waters" value="windlight_water">
+        <row name="restore_folders_row_waters">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
-            <column name="restore_global_folders_label">Windlight Waters</column>
+            <column name="restore_global_folders_label">윈드라이트 물</column>
             <column name="value">windlight/water</column>
         </row>
         <row name="restore_folders_row_presets" value="presets">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
-            <column name="restore_global_folders_label">Presets</column>
+            <column name="restore_global_folders_label">사전설정</column>
             <column name="value">presets</column>
         </row>
     </scroll_list>
@@ -341,7 +341,7 @@ Settings groups to be restored (backup will always save all):
      top_pad="5"
      follows="left|top"
      height="20"
-     label="Select all"
+     label="모두 선택"
      left="30"
      name="select_all_button"
      width="120" >
@@ -355,7 +355,7 @@ Settings groups to be restored (backup will always save all):
      top_delta="0"
      follows="right|top"
      height="20"
-     label="Deselect All"
+     label="모두 선택해제"
      name="deselect_all_button"
      width="120" >
         <button.commit_callback
@@ -363,7 +363,7 @@ Settings groups to be restored (backup will always save all):
     </button>
 
     <check_box
-     label="Restore global settings"
+     label="전역 설정 복원"
      layout="topleft"
      follows="top|left"
      top_pad="5"
@@ -374,7 +374,7 @@ Settings groups to be restored (backup will always save all):
      control_name="RestoreGlobalSettings" />
 
     <check_box
-     label="Restore per account settings"
+     label="계정별 복원 설정"
      layout="topleft"
      follows="top|left"
      left="30"
@@ -390,7 +390,7 @@ Settings groups to be restored (backup will always save all):
      top_pad="5"
      follows="left|top"
      height="20"
-     label="Backup Settings"
+     label="백업 설정"
      left="50"
      name="backup_settings"
      width="120" >
@@ -405,7 +405,7 @@ Settings groups to be restored (backup will always save all):
      top_delta="0"
      follows="right|top"
      height="20"
-     label="Restore Settings"
+     label="복원 설정"
      name="restore_settings"
      width="120" >
         <button.commit_callback

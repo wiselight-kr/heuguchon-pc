@@ -31,7 +31,7 @@
        control_name="TranslateChat"
        enabled="true"
        height="16"
-       label="Translate chat"
+       label="번역 대화"
        layout="topleft"
        left="5"
        name="translate_chat_checkbox"

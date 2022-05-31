@@ -7,7 +7,7 @@
  name="menu_gear_default"
  visible="false">
     <menu_item_call
-     label="New Inventory Window"
+     label="새 인벤토리 창"
      layout="topleft"
      shortcut="control|shift|I"
      name="new_window">
@@ -16,7 +16,7 @@
          parameter="new_window" />
     </menu_item_call>
     <menu_item_check
-     label="Protected Folders"
+     label="보호된 폴더"
      name="Protected Folders">
         <menu_item_check.on_check
          function="Floater.Visible"
@@ -28,7 +28,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_check
-     label="Sort by Name"
+     label="이름으로 정렬"
      layout="topleft"
      name="sort_by_name">
         <on_click
@@ -39,7 +39,7 @@
          parameter="sort_by_name" />
     </menu_item_check>
     <menu_item_check
-     label="Sort by Most Recent"
+     label="최근 순으로 정렬"
      layout="topleft"
      name="sort_by_recent">
         <on_click
@@ -50,7 +50,7 @@
          parameter="sort_by_recent" />         
     </menu_item_check>
     <menu_item_check
-     label="Sort Folders Always by Name"
+     label="항상 이름으로 정렬"
      layout="topleft"
      name="sort_folders_by_name">
         <on_click
@@ -61,7 +61,7 @@
          parameter="sort_folders_by_name" />
     </menu_item_check>
     <menu_item_check
-     label="Sort System Folders to Top"
+     label="시스템 폴더를 맨 위로 정렬"
      layout="topleft"
      name="sort_system_folders_to_top">
         <on_click
@@ -76,12 +76,12 @@
 
 	<!-- <FS:Zi> Extended Inventory Search -->
 	<context_menu
-		label="Search By..."
+		label="로 검색..."
 		name="inventory_search_menu"
 		top="0">
 		<menu_item_check
 			name="inventory_search_by_name"
-			label="Name">
+			label="이름">
 			<on_click
 				function="Inventory.SearchType.Set"
 				parameter="search_by_name" />
@@ -91,7 +91,7 @@
 		</menu_item_check>
 		<menu_item_check
 			name="inventory_search_by_creator"
-			label="Creator">
+			label="생성자">
 			<on_click
 				function="Inventory.SearchType.Set"
 				parameter="search_by_creator" />
@@ -101,7 +101,7 @@
 		</menu_item_check>
 		<menu_item_check
 			name="inventory_search_by_description"
-			label="Description">
+			label="묘사">
 			<on_click
 				function="Inventory.SearchType.Set"
 				parameter="search_by_description" />
@@ -122,7 +122,7 @@
 		<menu_item_separator />
 		<menu_item_check
 			name="inventory_search_by_all"
-			label="All">
+			label="모두">
 			<on_click
 				function="Inventory.SearchType.Set"
 				parameter="search_by_all" />
@@ -136,7 +136,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_check
-     label="Add objects on double click"
+     label="두 번 클릭하면 개체 추가"
      layout="topleft"
      name="add_inv_toggle">
        <on_click
@@ -147,7 +147,7 @@
          parameter="add_objects_on_double_click" />
     </menu_item_check>
     <menu_item_check
-     label="Add clothes on double click"
+     label="더블클릭으로 옷 추가"
      layout="topleft"
      name="add_invclothing_toggle">
        <on_click
@@ -160,7 +160,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Show Filters..."
+     label="필터 표시..."
      layout="topleft"
      name="show_filters">
         <on_click
@@ -168,7 +168,7 @@
          parameter="show_filters" />
     </menu_item_call>
     <menu_item_call
-     label="Reset Filters"
+     label="필터 리셋"
      layout="topleft"
      name="reset_filters">
         <on_click
@@ -176,7 +176,7 @@
          parameter="reset_filters" />
     </menu_item_call>
     <menu_item_call
-     label="Close All Folders"
+     label="모든 폴더 닫기"
      layout="topleft"
      name="close_folders">
         <on_click
@@ -186,7 +186,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Empty Lost and Found"
+     label="분실물 센터 비우기"
      layout="topleft"
      name="empty_lostnfound">
         <on_click
@@ -199,7 +199,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call 
-         label="Save Texture As"
+         label="텍스쳐 다른이름으로 저장"
          layout="topleft"
          name="Save Texture As">
             <on_click
@@ -210,7 +210,7 @@
 			 parameter="save_texture" />
         </menu_item_call>
     <menu_item_call
-     label="Share"
+     label="공유"
      layout="topleft"
      name="Share"
      visible="true">
@@ -221,7 +221,7 @@
          parameter="share" />
     </menu_item_call>
     <menu_item_call 
-         label="Find Original"
+         label="원본 찾기"
          layout="topleft"
          name="Find Original">
             <on_click
@@ -232,7 +232,7 @@
 			 parameter="find_original" />
         </menu_item_call>
     <menu_item_call 
-         label="Find All Links"
+         label="모든 링크 찾기"
          layout="topleft"
          name="Find All Links">
             <on_click
@@ -243,7 +243,7 @@
 			 parameter="find_links" />
         </menu_item_call>
     <menu_item_call 
-         label="Replace Links"
+         label="링크 대체"
          layout="topleft"
          name="Replace Links">
             <on_click
@@ -256,7 +256,7 @@
 	<!-- ## Zi: Filter Links Menu -->
 	<menu_item_check
 		name="inventory_filter_show_links"
-		label="Show Links">
+		label="링크 표시">
 		<on_click
 			function="Inventory.FilterLinks.Set"
 			parameter="show_links" />
@@ -266,7 +266,7 @@
 	</menu_item_check>
 	<menu_item_check
 		name="inventory_filter_only_links"
-		label="Show Only Links">
+		label="링크만 표시">
 		<on_click
 			function="Inventory.FilterLinks.Set"
 			parameter="only_links" />
@@ -276,7 +276,7 @@
 	</menu_item_check>
 	<menu_item_check
 		name="inventory_filter_hide_links"
-		label="Hide Links">
+		label="링크 숨기기">
 		<on_click
 			function="Inventory.FilterLinks.Set"
 			parameter="hide_links" />
@@ -290,7 +290,7 @@
 	<!-- <FS:Zi> FIRE-1175 - Filter Permissions Menu -->
 	<menu_item_check
 		name="inventory_filter_only_modify"
-		label="Only Modifiable">
+		label="수정만 가능">
 		<on_click
 			function="Inventory.FilterPermissions.Set"
 			parameter="only_modify" />
@@ -300,7 +300,7 @@
 	</menu_item_check>
 	<menu_item_check
 		name="inventory_filter_only_copy"
-		label="Only Copyable">
+		label="복사만 가능">
 		<on_click
 			function="Inventory.FilterPermissions.Set"
 			parameter="only_copy" />
@@ -310,7 +310,7 @@
 	</menu_item_check>
 	<menu_item_check
 		name="inventory_filter_only_transfer"
-		label="Show Transferable">
+		label="전송 가능 표시">
 		<on_click
 			function="Inventory.FilterPermissions.Set"
 			parameter="only_transfer" />
@@ -322,7 +322,7 @@
 	<!-- </FS:Zi> -->
 
 	<menu_item_call
-     label="Empty Trash"
+     label="쓰레기 비우기"
      layout="topleft"
      name="empty_trash">
         <on_click

@@ -3,7 +3,7 @@
 <panel
  follows="all"
  height="449"
- label="People"
+ label="사람"
  layout="topleft"
  left="0"
  min_height="350"
@@ -12,35 +12,35 @@
  width="333">
     <string
      name="no_recent_people"
-     value="No recent people." />
+     value="최근 사용자 없음." />
     <string
      name="no_filtered_recent_people"
-     value="Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search]." />
+     value="찾고 있는 것을 찾지 못했습니까? [second life:///app/search/people/[SEARCH_TERM] 검색]을 시도하십시오." />
     <string
      name="no_one_near"
-     value="No one nearby. Looking for people to hang out with? Try [secondlife:///app/search/people Search] or the [secondlife:///app/worldmap World Map]." />
+     value="근처에 아무도 없어요. 같이 놀 사람을 찾고 있나요? [second life:///app/search/people Search] 또는 [second life:///app/worldmap 세계지도]를 사용해 보십시오." />
     <string
      name="no_one_filtered_near"
-     value="Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search]." />
+     value="찾고 있는 것을 찾지 못했습니까? [second life:///app/search/people/[SEARCH_TERM] 검색]을 시도하십시오." />
     <string
      name="no_friends_online"
-     value="No friends online" />
+     value="온라인에 친구 없음" />
     <string
      name="no_friends"
-     value="No friends" />
+     value="친구 없음" />
     <string
      name="no_friends_msg">
-      To add someone as a friend, right-click on their avatar or their name.
+      다른 사람을 친구로 추가하려면 해당 사용자의 아바타 또는 이름을 마우스 우클릭합니다.
 
-Looking for places with more people?
+더 많은 사람이 있는 곳을 찾고 있습니까?
 
-[secondlife:///app/floater/destinations Destination Guide] has locations chosen by the grid operator staff.
+[secondlife:///app/floater/destinations 목적지 가이드] 그리드 운영자 직원이 선택한 위치.
 
-[secondlife:///app/search/ Search] lets you search all the grid for certain keywords.
+[secondlife:///app/search/ Search] 모든 그리드에서 특정 키워드를 검색할 수 있습니다.
     </string>
     <string
      name="no_filtered_friends_msg">
-         Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search].
+         찾고 있는 것을 찾지 못했습니까? [second life:///app/search/people/[SEARCH_TERM] 검색]을 시도하세요.
     </string>
      <!--
      *WORKAROUND: for group_list.no_items_msg & group_list.no_filtered_items_msg attributes.
@@ -48,45 +48,45 @@ Looking for places with more people?
      -->
     <string
      name="no_filtered_groups_msg"
-     value="Didn't find what you're looking for? Try [secondlife:///app/search/groups/[SEARCH_TERM] Search]." />
+     value="찾고 있는 것을 찾지 못했습니까? [secondlife:///app/search/groups/[SEARCH_TERM] 검색]을 시도하십시오." />
     <string
      name="no_groups_msg">
-You are not a member of any groups.
+그룹의 구성원이 아닙니다.
 
-Learn about [https://community.secondlife.com/knowledgebase/joining-and-participating-in-groups-r51/ groups].
+[https://community.secondlife.com/knowledgebase/joining-and-participating-in-groups-r51/ 그룹]에 대해 알아보기.
   </string>
 	<string
 	 name="MiniMapToolTipMsg"
-	 value="[REGION] (Double-click to open Map, shift-drag to pan)"/>
+	 value="[지역] (두 번 클릭하여 지도를 열고 이동-이동으로 드래그)"/>
 	<string
 	 name="AltMiniMapToolTipMsg"
-	 value="[REGION] (Double-click to teleport, shift-drag to pan)"/>
+	 value="[지역] (텔레포트하려면 두 번 클릭하고 팬으로 이동-끌기)"/>
 	<string
 	 name="GroupCountWithInfo"
-	 value="You belong to [COUNT] groups, and can join [REMAINING] more.  [secondlife:/// Raise your limit]"/>
+	 value="[COUNT] 그룹에 속하며 [REMING]에 더 많이 가입할 수 있습니다. [secondlife:/// Raise your limit]"/>
     <panel.string
      name="empty_list">
-    This contact set is empty.
+    이 연락처 집합이 비어 있습니다.
     </panel.string>
     <panel.string
      name="no_sets">
-    No sets
+    집합 없음
     </panel.string>
     <panel.string
      name="all_sets">
-    All sets
+    모든 집합
     </panel.string>
     <panel.string
      name="pseudonyms">
-    Aliases
+    별칭
     </panel.string>
     <panel.string
      name="AllFriendsTitle">
-    All ([ALL])
+    모두 ([모두])
     </panel.string>
     <panel.string
      name="OnlineFriendsTitle">
-    Online ([ONLINE])
+    온라인 ([온라인])
     </panel.string>
 
     <tab_container
@@ -109,7 +109,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
          background_visible="false"
          bottom="-1"
          follows="all"
-         label="Nearby"
+         label="근처"
          layout="topleft"
          left="0"
          help_topic="people_nearby_tab"
@@ -270,7 +270,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
        background_visible="false"
          bottom="-1"
          follows="all"
-         label="Friends"
+         label="친구"
          layout="topleft"
          left="0"
          help_topic="people_friends_tab"
@@ -280,7 +280,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
             <panel
              follows="left|top|right"
              height="27"
-             label="bottom_panel"
+             label="아래_패널"
              layout="topleft"
              left="0"
              name="friends_buttons_panel"
@@ -291,7 +291,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  height="23"
                  layout="topleft"
                  left="6"
-                 label="Filter People"
+                 label="사람 필터"
                  max_length_chars="300"
                  name="friends_filter_input"
                  top="4"
@@ -307,7 +307,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  layout="topleft"
                  left_pad="8"
                  name="gear_btn"
-                 tool_tip="Actions on selected person"
+                 tool_tip="선택된 사용자에 대한 작업"
                  top="3"
                  width="31" />
                 <menu_button
@@ -322,7 +322,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  menu_filename="menu_people_friends_view.xml"
                  menu_position="bottomleft"
                  name="friends_view_btn"
-                 tool_tip="View/sort options"
+                 tool_tip="보기/정렬 옵션"
                  top_delta="0"
                  width="31" />
                 <button
@@ -335,7 +335,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  layout="topleft"
                  left_pad="2"
                  name="friends_add_btn"
-                 tool_tip="Offer friendship to a resident"
+                 tool_tip="거주자에게 친구 신청"
                  top_delta="0"
                  width="31">
                     <commit_callback
@@ -353,7 +353,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  layout="topleft"
                  left_pad="2"
                  name="GlobalOnlineStatusToggle"
-                 tool_tip="Toggle global online status visibility"
+                 tool_tip="글로벌 온라인 상태 표시 전환"
                  width="31" />
                 <dnd_button
                  follows="right"
@@ -365,7 +365,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  left_pad="2"
                  layout="topleft"
                  name="friends_del_btn"
-                 tool_tip="Remove selected person as a friend"
+                 tool_tip="선택한 사용자를 친구로 제거"
                  top_delta="0"
                  width="31">
                     <commit_callback
@@ -440,7 +440,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
        background_visible="false"
          bottom="-1"
          follows="all"
-         label="Groups"
+         label="그룹"
          layout="topleft"
          left="0"
          help_topic="people_groups_tab"
@@ -454,7 +454,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
             <panel
              follows="left|top|right"
              height="27"
-             label="bottom_panel"
+             label="아래_패널"
              layout="topleft"
              left="0"
              name="groups_buttons_panel"
@@ -465,7 +465,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  height="23"
                  layout="topleft"
                  left="6"
-                 label="Filter Groups"
+                 label="그룹 필터"
                  max_length_chars="300"
                  name="groups_filter_input"
                  top="4"
@@ -480,7 +480,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  layout="topleft"
                  left_pad="8"
                  name="groups_gear_btn"
-                 tool_tip="Actions on selected group"
+                 tool_tip="선택한 그룹에 대한 작업"
                  top="3"
                  width="31" />
                 <menu_button
@@ -495,7 +495,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  menu_filename="menu_people_groups_view.xml"
                  menu_position="bottomleft"
                  name="groups_view_btn"
-                 tool_tip="View/sort options"
+                 tool_tip="보기/정렬 옵션"
                  top_delta="0"
                  width="31" />
                 <menu_button
@@ -510,7 +510,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  menu_filename="menu_group_plus.xml"
                  menu_position="bottomleft"
                  name="plus_btn"
-                 tool_tip="Join group/Create new group"
+                 tool_tip="그룹 가입/새 그룹 만들기"
                  top_delta="0"
                  width="31">
                     <validate_callback
@@ -526,7 +526,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  left_pad="2"
                  layout="topleft"
                  name="minus_btn"
-                 tool_tip="Leave selected group"
+                 tool_tip="선택한 그룹 탈퇴"
                  top_delta="0"
                  width="31">
                     <commit_callback
@@ -545,7 +545,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                 use_ellipses="true"
                 skip_link_underline="true"
                 name="groupcount">
-              You belong to [COUNT] groups ([REMAINING] remaining).
+              [COUNT] 그룹에 속합니다([남음]).
             </text>
             <group_list
              allow_select="true" 
@@ -566,7 +566,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
        background_visible="false"
          follows="all"
          height="383"
-         label="Recent"
+         label="최근"
          layout="topleft"
          left="0"
          help_topic="people_recent_tab"
@@ -576,7 +576,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
             <panel
              follows="left|top|right"
              height="27"
-             label="bottom_panel"
+             label="아래_패널"
              layout="topleft"
              left="0"
              name="recent_buttons_panel"
@@ -587,7 +587,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  height="23"
                  layout="topleft"
                  left="6"
-                 label="Filter People"
+                 label="사람 필터"
                  max_length_chars="300"
                  name="recent_filter_input"
                  top="4"
@@ -603,7 +603,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  layout="topleft"
                  left_pad="8"
                  name="gear_btn"
-                 tool_tip="Actions on selected person"
+                 tool_tip="선택한 사용자에 대한 작업"
                  top="3"
                  width="31" />
                 <menu_button
@@ -618,7 +618,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  menu_filename="menu_people_recent_view.xml"
                  menu_position="bottomleft"
                  name="recent_view_btn"
-                 tool_tip="View/sort options"
+                 tool_tip="보기/정렬 옵션"
                  top_delta="0"
                  width="31" />
                 <button
@@ -631,7 +631,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  layout="topleft"
                  left_pad="2"
                  name="add_friend_btn"
-                 tool_tip="Offer friendship to a resident"
+                 tool_tip="거주자에게 친구 신청"
                  top_delta="0"
                  width="31">
                     <commit_callback
@@ -648,7 +648,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
                  left_pad="2"
                  layout="topleft"
                  name="recent_del_btn"
-                 tool_tip="Remove selected person as a friend"
+                 tool_tip="선택한 사용자 친구 제거"
                  top_delta="0"
                  width="31">
                     <commit_callback
@@ -676,7 +676,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
          background_visible="false"
          follows="all"
          height="383"
-         label="Blocked"
+         label="차단"
          layout="topleft"
          left="0"
          help_topic="people_blocked_tab"
@@ -689,7 +689,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
            name="panel_block_list_sidetray"
            filename="panel_fs_block_list_sidetray.xml"
            follows="all"
-           label="Blocked Residents &amp; Objects"
+           label="차단된 거주자 &amp; 개체"
            layout="topleft"
            left="0"
            font="SansSerifBold"
@@ -704,7 +704,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
          background_visible="false"
          follows="all"
          height="383"
-         label="Contact Sets"
+         label="주소록 집합"
          layout="topleft"
          left="0"
          help_topic="people_contact_sets_tab"
@@ -716,7 +716,7 @@ Learn about [https://community.secondlife.com/knowledgebase/joining-and-particip
              name="panel_people_contacts_sidetray"
              filename="panel_people_contact_sets.xml"
              follows="all"
-             label="Contact Sets"
+             label="주소록 집합"
              layout="topleft"
              left="0"
              font="SansSerifBold"

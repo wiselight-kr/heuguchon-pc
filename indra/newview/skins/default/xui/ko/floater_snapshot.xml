@@ -17,55 +17,55 @@
  min_height="455">
     <floater.string
      name="unknown">
-        unknown
+        알 수 없음
     </floater.string>
     <string
      name="postcard_progress_str">
-        Sending Email
+        이메일 전송
     </string>
     <string
         name="profile_progress_str">
-        Posting
+        발송
     </string>
     <string
      name="inventory_progress_str">
-        Saving to Inventory
+        인벤토리에 저장
     </string>
     <string
      name="local_progress_str">
-        Saving to Computer
+        컴퓨터에 저장
     </string>
  	<string
         name="profile_succeeded_str">
- 	    Image uploaded
+ 	    이미지 업로드
  	</string>
  	<string
  	 name="postcard_succeeded_str">
- 	    Email Sent!
+ 	    이메일이 발송됐습니다!
  	</string>
  	<string
  	 name="inventory_succeeded_str">
- 	    Saved to Inventory!
+ 	    인벤토리에 저장됐습니다!
  	</string>
  	<string
  	 name="local_succeeded_str">
- 	    Saved to Computer!
+ 	    컴퓨터에 저장됐습니다!
  	</string>
  	<string
      name="profile_failed_str">
- 	    Failed to upload image to your Profile Feed.
+ 	    프로필 피드에 이미지를 업로드하지 못했습니다.
  	</string>
  	<string
  	 name="postcard_failed_str">
- 	    Failed to send email.
+ 	    전자 메일을 보내지 못했습니다.
  	</string>
  	<string
  	 name="inventory_failed_str">
- 	    Failed to save to inventory.
+ 	    인벤토리에 저장하지 못했습니다.
  	</string>
  	<string
  	 name="local_failed_str">
- 	    Failed to save to computer.
+ 	    컴퓨터에 저장하지 못했습니다.
  	</string>
 	<view
 	 name="controls_container"
@@ -151,7 +151,7 @@
          name="layer_type_label"
          top_pad="5"
          width="100">
-            Capture:
+            캡쳐:
         </text>
         <combo_box
          follows="left|top|right"
@@ -226,7 +226,7 @@
          name="filter_list_label"
          top_pad="7"
          width="50">
-            Filter:
+            필터:
         </text>
         <combo_box
             follows="left|right|top"
@@ -331,7 +331,7 @@
            text_color="0.2 0.85 0.2 1"
            top="4"
            type="string">
-              Succeeded
+              성공
           </text>
       </panel>
       <panel
@@ -361,7 +361,7 @@
            text_color="0.95 0.4 0.4 1"
            top="4"
            type="string">
-              Failed
+              실패
           </text>
       </panel>
       <loading_indicator
@@ -386,7 +386,7 @@
        type="string"
        visible="false"
        width="167">
-          Working
+          일하는 중
       </text>
       <text
        follows="left|top"
@@ -402,7 +402,7 @@
        type="string"
        visible="false"
        width="130">
-          Refresh to save.
+          저장을 위해 새로고침.
       </text>
 	</view>
   <ui_ctrl 
@@ -418,8 +418,8 @@
    height="21"
    layout="topleft"
    name="img_info_border"
-   top_pad="5"
-   right="-130"
+   top_pad="0"
+   right="-10"
    follows="left|top|right"
    left_delta="0"/>
    <text
@@ -430,18 +430,19 @@
     height="14"
     layout="topleft"
     left="220"
+	right="-20"
     halign="left"
     name="image_res_text"
     top_delta="5"
-    width="250">
-       [WIDTH]px (width) x [HEIGHT]px (height)
+    width="200">
+       [WIDTH]px (폭) x [HEIGHT]px (높이)
    </text>
    <text
     follows="right|top"
     font="SansSerifSmall"
     height="14"
     layout="topleft"
-    left="-185"
+    left="-65"
     length="1"
     halign="right"
     name="file_size_label"
@@ -450,15 +451,4 @@
     width="50">
        [SIZE] KB
    </text>
-    <button
-     follows="right|top"
-     height="23"
-     image_selected="Toolbar_Middle_Selected"
-     image_unselected="Toolbar_Middle_Off"
-     label="Take 360° snapshot"
-     layout="topleft"
-     left="-125"
-     name="360_label"
-     top_delta="-5"
-     width="120"/>
 </floater>

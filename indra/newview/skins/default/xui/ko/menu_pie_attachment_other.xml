@@ -4,7 +4,7 @@
 <pie_menu
     name="Avatar Pie">
     <pie_slice
-        label="Profile..."
+        label="프로필..."
         name="Profile...">
         <pie_slice.on_click
             function="ShowAgentProfile"
@@ -14,10 +14,10 @@
     </pie_slice>
     <pie_menu
         name="mute_menu"
-        label="Mute &gt;">
+        label="음소거 &gt;">
         <pie_slice
             enabled="true"
-            label="Mute"
+            label="음소거"
             name="Avatar Mute">
             <pie_slice.on_click
                 function="Avatar.Mute" />
@@ -26,7 +26,7 @@
         </pie_slice>
         <pie_slice
             enabled="false"
-            label="Part. Owner"
+            label="부분. 소유자"
             name="Mute Particle">
             <pie_slice.on_click
                 function="Particle.Mute" />
@@ -36,19 +36,19 @@
     </pie_menu>
     <pie_slice
         enabled="true"
-        label="Go to"
+        label="로 가기"
         name="Go to">
         <pie_slice.on_click
             function="GoToObject" />
     </pie_slice>
     <pie_slice
-        label="Report..."
+        label="신고..."
         name="abuse">
         <pie_slice.on_click
             function="Avatar.ReportAbuse" />
     </pie_slice>
     <pie_menu
-        label="Add &gt;"
+        label="추가 &gt;"
         name="add_avatar">
         <pie_separator/>
         <pie_separator/>
@@ -56,7 +56,7 @@
         <pie_separator/>
         <pie_slice
             enabled="false"
-            label="As Friend..."
+            label="친구 추가..."
             name="Add Friend">
             <pie_slice.on_click
                 function="Avatar.AddFriend" />
@@ -64,7 +64,7 @@
                 function="Avatar.EnableAddFriend" />
         </pie_slice>
         <pie_slice
-            label="To Set..."
+            label="세트 추가..."
             name="Add to set">
             <pie_slice.on_click
                 function="Avatar.AddToContactSet" />
@@ -74,7 +74,7 @@
     </pie_menu>
     <pie_slice
         enabled="false"
-        label="Pay..."
+        label="결제..."
         name="Pay...">
         <pie_slice.on_click
             function="PayObject" />
@@ -83,10 +83,10 @@
     </pie_slice>
     <pie_menu
         name="Avatar Pie More 1"
-        label="More &gt;">
+        label="더 &gt;">
 
         <pie_slice
-            label="Freeze"
+            label="멈춤"
             name="Freeze..."
             check_enable_once="true">
             <pie_slice.on_click
@@ -95,7 +95,7 @@
                 function="Avatar.EnableFreezeEject"/>
         </pie_slice>
         <pie_slice
-            label="Give Card"
+            label="카드 주기"
             name="Give Calling Card">
             <pie_slice.on_click
                 function="Avatar.GiveCard" />
@@ -103,7 +103,7 @@
                 function="RLV.CanShowName" />
         </pie_slice>
         <pie_slice
-            label="Invite to Group"
+            label="그룹으로 초대"
             name="Group Invite...">
             <pie_slice.on_click
                 function="Avatar.InviteToGroup" />
@@ -112,7 +112,7 @@
         </pie_slice>
         <pie_separator/>
         <pie_slice
-            label="Eject..."
+            label="거절..."
             name="Eject..."
             check_enable_once="true">
             <pie_slice.on_click
@@ -123,18 +123,18 @@
 
         <pie_menu
             name="Avatar Pie More 2"
-            label="More &gt;">
+            label="더 &gt;">
 
             <!-- ## Zi: Is this the right thing to use for avatar textures? -->
             <pie_slice
-                label="Textures"
+                label="텍스쳐"
                 name="Debug...">
                 <pie_slice.on_click
                     function="Avatar.Debug" />
             </pie_slice>
             <pie_slice
 	            enabled="true"
-	            label="Script Info"
+	            label="스크립트 정보"
 	            name="ScriptInfo">
 	            <pie_slice.on_click
 	                function="Tools.ScriptInfo" />
@@ -142,7 +142,7 @@
                     function="Object.EnableScriptInfo" />
 	        </pie_slice>
             <pie_slice
-                label="Call"
+                label="전화하기"
                 name="Call">
                 <pie_slice.on_click
                     function="Avatar.Call" />
@@ -150,7 +150,7 @@
                     function="Avatar.EnableCall" />
             </pie_slice>
             <pie_slice
-                label="Zoom In"
+                label="확대"
                 name="Zoom In">
                 <pie_slice.on_click
                     function="Tools.LookAtSelection"
@@ -158,28 +158,28 @@
             </pie_slice>
             <pie_slice
                 enabled="true"
-                label="Tex Refresh"
+                label="텍스처 새로고침"
                 name="Texture Refresh">
                 <pie_slice.on_click
                     function="Object.TexRefresh" />
             </pie_slice>
 			<pie_menu
 				name="ResetMenu"
-				label="Reset &gt;">
+				label="초기화 &gt;">
 				<pie_slice
-					label="Skel. &amp; Anim."
+					label="스켈레톤. &amp; 애니메이션."
 					name="Reset Skeleton And Animations">
 					<pie_slice.on_click
 						function="Avatar.ResetSkeletonAndAnimations" />
 				</pie_slice>
 				<pie_slice
-					label="Skeleton"
+					label="스켈레톤"
 					name="Reset Skeleton">
 					<pie_slice.on_click
 						function="Avatar.ResetSkeleton" />
 				</pie_slice>
 				<pie_slice
-					label="Mesh LOD"
+					label="메쉬 LOD"
 					name="Reset Mesh LOD">
 					<pie_slice.on_click
 						function="Avatar.ResetMeshLOD" />
@@ -187,10 +187,10 @@
 			</pie_menu>
 			<pie_menu
 				name="ExportMenu"
-				label="Save as &gt;">
+				label="로 저장 &gt;">
 				<pie_slice
 					enabled="false"
-					label="Backup"
+					label="백업"
 					name="Backup">
 					<pie_slice.on_click
                     function="Object.Export" />
@@ -199,7 +199,7 @@
 				</pie_slice>
 				<pie_slice
 					enabled="false"
-					label="Collada"
+					label="콜라다"
 					name="Collada">
 					<pie_slice.on_click
                     function="Object.ExportCollada" />
@@ -211,7 +211,7 @@
 				<pie_separator/>
 				<pie_separator/>
 				<pie_slice
-					label="Dump XML"
+					label="XML 버리기"
 					name="Dump XML">
 					<pie_slice.on_click
 						function="Advanced.AppearanceToXML" />
@@ -221,27 +221,24 @@
 			</pie_menu>
 			<pie_menu
 				name="RenderMenu"
-				label="Display &gt;">
+				label="렌더 &gt;">
 				<pie_slice
 					name="RenderNormally"
-					label="Normally">
+					label="일반적인">
 					<pie_slice.on_click
 						function="Avatar.SetImpostorMode"
 						parameter="0" />
-					<pie_slice.on_visible
-						function="Avatar.CheckImpostorMode"
-						parameter="4" />
 				</pie_slice>
 				<pie_slice
 					name="DoNotRender"
-					label="Never">
+					label="절대">
 					<pie_slice.on_click
 						function="Avatar.SetImpostorMode"
 						parameter="1" />
 				</pie_slice>
 				<pie_slice
 					name="AlwaysRenderFully"
-					label="Fully">
+					label="꽉 참">
 					<pie_slice.on_click
 						function="Avatar.SetImpostorMode"
 						parameter="2" />
@@ -250,7 +247,7 @@
         </pie_menu>
 
         <pie_slice
-            label="Inspect"
+            label="조사"
             name="Avatar Inspect">
             <pie_slice.on_click
                 function="Floater.Show"
@@ -261,7 +258,7 @@
 		
         <pie_menu
             name="DerenderMenu"
-            label="Derender &gt;">
+            label="데렌더 &gt;">
 			<pie_separator />
 			<pie_separator />
 			<pie_separator />
@@ -270,14 +267,14 @@
 			<pie_separator />
 			<pie_slice
 				enabled="true"
-				label="Blacklist"
+				label="블랙리스트"
 				name="DerenderPermanent">
 				<pie_slice.on_click
 					function="Object.DerenderPermanent" />
 			</pie_slice>
 			<pie_slice
 				enabled="true"
-				label="Temporary"
+				label="일반적인"
 				name="Derender">
 				<pie_slice.on_click
 					function="Object.Derender" />

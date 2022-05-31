@@ -20,6 +20,6 @@
       class="sidepanel_appearance"
       name="main_panel"
       filename="sidepanel_appearance.xml"
-      label="Edit Appearance"
+      label="외모 수정"
       font="SansSerifBold"/>
 </floater>

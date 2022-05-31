@@ -5,13 +5,13 @@
  name="Main Menu">
     <menu
      create_jump_keys="true"
-     label="Avatar"
+     label="아바타"
      name="Me"
      tear_off="true"
      visible="true">
         
         <menu_item_call
-             label="Account"
+             label="계정"
              name="Manage Account">
                 <menu_item_call.on_click
                  function="PromptShowURL"
@@ -22,7 +22,7 @@
                  parameter="secondlife"/>
         </menu_item_call>
         <menu_item_call
-            label="Marketplace listings..."
+            label="마켓 나열..."
             name="MarketplaceListings">
             <menu_item_call.on_click
             function="Floater.ToggleOrBringToFront"
@@ -30,14 +30,14 @@
         </menu_item_call>
 
         <menu_item_call
-         label="Buy L$"
+         label="L$ 구매"
          name="Buy and Sell L$">
             <menu_item_call.on_click
              function="BuyCurrency" />
         </menu_item_call>
 
       <menu_item_call
-           label="[Membership]"
+           label="[멤버십]"
            name="Membership">
             <menu_item_call.on_click
              function="Advanced.ShowURL"
@@ -49,7 +49,7 @@
         <menu_item_separator/>
 
         <menu_item_check
-         label="Inventory"
+         label="인벤토리"
          name="Inventory"
          shortcut="control|I"
          visible="true">
@@ -61,7 +61,7 @@
            parameter="inventory" />
         </menu_item_check>
         <menu_item_call
-         label="New Inventory Window"
+         label="새 인벤토리 창"
          name="NewInventoryWindow"
          shortcut="control|shift|I"
          visible="false">
@@ -70,7 +70,7 @@
            parameter="" />
         </menu_item_call>
         <menu_item_check
-         label="Protected Folders"
+         label="보호되는 폴더"
          name="Protected Folders">
             <menu_item_check.on_check
              function="Floater.Visible"
@@ -80,7 +80,7 @@
              parameter="fs_protectedfolders" />
         </menu_item_check>
         <menu_item_check
-            label="Favorite Wearables"
+            label="가장 좋아하는 옷"
             name="WearableFavorites">
             <menu_item_check.on_click
              function="Floater.Toggle"
@@ -91,7 +91,7 @@
         </menu_item_check>
 
       <menu_item_call
-       label="Picks"
+       label="선택"
        name="Picks">
         <menu_item_call.on_click
          function="Floater.Show"
@@ -99,7 +99,7 @@
         </menu_item_call>
 
       <menu_item_call
-        label="Experiences"
+        label="경험"
         name="Experiences">
         <menu_item_call.on_click
           function="Floater.ToggleOrBringToFront"
@@ -109,7 +109,7 @@
         <menu_item_separator/>
 
         <menu_item_call
-         label="Profile"
+         label="프로필"
          name="Profile">
             <menu_item_call.on_click
              function="ShowAgentProfile"
@@ -117,7 +117,7 @@
         </menu_item_call>
 
        <menu_item_call
-         label="Now wearing..."
+         label="입는중..."
          name="NowWearing">
             <menu_item_call.on_click
              function="NowWearing" />
@@ -125,7 +125,7 @@
              function="Edit.EnableCustomizeAvatar" />
        </menu_item_call>
         <menu_item_check
-         label="Outfits"
+         label="착장"
          shortcut="control|O"
          name="ChangeOutfit">
             <menu_item_check.on_click
@@ -138,16 +138,16 @@
         </menu_item_check>
 
       <menu
-        label="Take off"
+        label="벗기"
         layout="topleft"
         name="Take Off &gt;">
         <menu
-         label="Clothes"
+         label="옷"
          layout="topleft"
          name="Clothes &gt;">
           <menu_item_call
            enabled="false"
-           label="Shirt"
+           label="셔츠"
            layout="topleft"
            name="Shirt">
             <menu_item_call.on_click
@@ -159,7 +159,7 @@
           </menu_item_call>
           <menu_item_call
            enabled="false"
-           label="Pants"
+           label="바지"
            layout="topleft"
            name="Pants">
             <menu_item_call.on_click
@@ -171,7 +171,7 @@
           </menu_item_call>
           <menu_item_call
            enabled="false"
-           label="Skirt"
+           label="치마"
            layout="topleft"
            name="Skirt">
             <menu_item_call.on_click
@@ -183,7 +183,7 @@
           </menu_item_call>
           <menu_item_call
            enabled="false"
-           label="Shoes"
+           label="신발"
            layout="topleft"
            name="Shoes">
             <menu_item_call.on_click
@@ -195,7 +195,7 @@
           </menu_item_call>
           <menu_item_call
            enabled="false"
-           label="Socks"
+           label="양말"
            layout="topleft"
            name="Socks">
             <menu_item_call.on_click
@@ -207,7 +207,7 @@
           </menu_item_call>
           <menu_item_call
            enabled="false"
-           label="Jacket"
+           label="자켓"
            layout="topleft"
            name="Jacket">
             <menu_item_call.on_click
@@ -219,7 +219,7 @@
           </menu_item_call>
           <menu_item_call
            enabled="false"
-           label="Gloves"
+           label="장갑"
            layout="topleft"
            name="Gloves">
             <menu_item_call.on_click
@@ -231,7 +231,7 @@
           </menu_item_call>
           <menu_item_call
                 enabled="false"
-                label="Undershirt"
+                label="속 셔츠"
                 layout="topleft"
                 name="Self Undershirt">
             <menu_item_call.on_click
@@ -243,7 +243,7 @@
           </menu_item_call>
           <menu_item_call
             enabled="false"
-            label="Underpants"
+            label="팬티"
             layout="topleft"
             name="Self Underpants">
             <menu_item_call.on_click
@@ -255,7 +255,7 @@
           </menu_item_call>
           <menu_item_call
             enabled="false"
-            label="Tattoo"
+            label="타투"
             layout="topleft"
             name="Self Tattoo">
             <menu_item_call.on_click
@@ -267,7 +267,7 @@
           </menu_item_call>
           <menu_item_call
             enabled="false"
-            label="Physics"
+            label="몸매"
             layout="topleft"
             name="Self Physics">
             <menu_item_call.on_click
@@ -279,7 +279,7 @@
           </menu_item_call>
           <menu_item_call
             enabled="false"
-            label="Alpha"
+            label="알파"
             layout="topleft"
             name="Self Alpha">
             <menu_item_call.on_click
@@ -292,7 +292,7 @@
           <menu_item_separator
            layout="topleft" />
           <menu_item_call
-           label="All Clothes"
+           label="모든 옷"
            layout="topleft"
            name="All Clothes">
             <menu_item_call.on_click
@@ -305,11 +305,11 @@
          layout="topleft"
          name="Avatar Detach HUD" />
         <menu
-         label="Detach"
+         label="벗기"
          layout="topleft"
          name="Avatar Detach" />
         <menu_item_call
-         label="Detach All"
+         label="전부 벗기"
          layout="topleft"
          name="Detach All">
           <menu_item_call.on_click
@@ -321,7 +321,7 @@
       </menu>
 
       <menu_item_call
-       label="Choose an avatar"
+       label="아바타를 선택하시오"
        name="Avatar Picker">
         <menu_item_call.on_click
          function="Floater.Toggle"
@@ -334,7 +334,7 @@
         <menu_item_separator/>
 
       <menu_item_call
-       label="Hover Height"
+       label="떠있는 높이"
        name="HoverHeight"
        use_mac_ctrl="true"
        visible="false">
@@ -347,12 +347,12 @@
 
 		<menu
 		 create_jump_keys="true"
-		 label="Movement"
+		 label="이동"
 		 name="Movement"
 		 tear_off="true">
 
           <menu_item_call
-             label="Sit Down"
+             label="앉기"
              layout="topleft"
              shortcut="alt|shift|S"
              name="Sit Down Here">
@@ -364,7 +364,7 @@
                  function="Self.EnableSitDown" />
         </menu_item_call>
         <menu_item_call
-         label="Stand Up"
+         label="일어서기"
          layout="topleft"
          shortcut="alt|shift|S"
          name="Stand up">
@@ -376,7 +376,7 @@
            function="Self.EnableStandUp" />
            </menu_item_call>
            <menu_item_check
-             label="Fly"
+             label="비행"
              name="Fly"
              shortcut="HOME">
                 <menu_item_check.on_check
@@ -387,7 +387,7 @@
                  function="Agent.enableFlying" />
             </menu_item_check>
         <menu_item_call
-         label="Stop flying"
+         label="그만 비행"
          name="Stop flying"
          shortcut="HOME">
           <menu_item_call.on_click
@@ -396,7 +396,7 @@
            function="Agent.getFlying" />
         </menu_item_call>	
             <menu_item_check
-             label="Always Run"
+             label="항상 뛰기"
              name="Always Run"
              shortcut="control|R">
                 <menu_item_check.on_check
@@ -405,7 +405,7 @@
                  function="World.AlwaysRun" />
             </menu_item_check>
           <menu_item_check
-             label="Force Ground Sit"
+             label="강제 접지 위치"
              shortcut="control|alt|S"
              name="Force Toggle Sitting">
                 <menu_item_check.on_check
@@ -416,7 +416,7 @@
                  function="Self.EnableForceSit" />
            </menu_item_check>
 		   <menu_item_check
-			 label="Movelock"
+			 label="이동 자물쇠"
              shortcut="control|alt|P"
 			 name="Move Lock">
                 <menu_item_check.on_check
@@ -427,7 +427,7 @@
                    function="Self.EnableMoveLock" />
 			</menu_item_check>
 			<menu_item_check
-			 label="Quickjump"
+			 label="퀵 점프"
              name="Avatar Ignore Prejump">
                 <menu_item_check.on_check
                    function="Self.getIgnorePreJump" />
@@ -437,7 +437,7 @@
 		</menu>
 
 		<menu_item_check
-		 label="Move Controls"
+		 label="이동 조작"
 		 name="Movement Controls">
 			<menu_item_check.on_check
 			 function="Floater.Visible"
@@ -448,7 +448,7 @@
 		</menu_item_check>   
 
 		<menu_item_check
-		 label="Camera Controls"
+		 label="카메라 조작"
 		 name="Camera Controls"
 		 shortcut="control|K">
 			<menu_item_check.on_check
@@ -461,11 +461,11 @@
 
         <menu
          create_jump_keys="true"
-         label="Avatar Health"
+         label="아바타 체력"
          name="avhealth"
          tear_off="true">
             <menu_item_call
-             label="Stop Avatar Animations"
+             label="아바타 애니메이팅 정지"
              name="Stop Animating My Avatar"
              allow_key_repeat="true"
              shortcut="alt|shift|A">
@@ -474,27 +474,27 @@
                  parameter="stop"/>
             </menu_item_call>
             <menu_item_call
-             label="Stop Avatar Animations &amp; Revoke Permissions"
+             label="아바타 애니메이팅 정지 &amp; 사용 권한 취소"
              name="Stop Animating My Avatar With Revoke">
                 <menu_item_call.on_click
                  function="Tools.StopAllAnimations"
                  parameter="stoprevoke"/>
             </menu_item_call>
             <menu_item_call
-                label="Undeform Avatar"
+                label="아바타 변형 취소"
                 name="undeform_avatar">
 	            <menu_item_call.on_click
                 function="Tools.Undeform" />
 	        </menu_item_call>
 	        <menu_item_call
-	         label="Force Appearance Update (Rebake)"
+	         label="모양 업데이트 적용 (리베이크)"
 	         name="Rebake Texture"
 		 shortcut="control|alt|R">
 	            <menu_item_call.on_click
 	             function="Advanced.RebakeTextures" />
 	        </menu_item_call>
             <menu_item_call
-             label="Refresh Attachments"
+             label="첨부파일 새로고침"
              name="Refresh Attachments"
              shortcut="alt|shift|R">
                 <menu_item_call.on_click
@@ -502,20 +502,20 @@
             </menu_item_call>
             <menu_item_separator/>
 		<menu_item_call
-                    label="Reset Default Male Avatar (Character Test)"
+                    label="기본 남성 아바타 초기화 (캐릭터 테스트)"
                     name="ResetDefaultAvM">
                     <menu_item_call.on_click
                      function="Advanced.TestMale" />
 		</menu_item_call>
           <menu_item_call
-                          label="Reset Default Female Avatar (Character Test)"
+                          label="기본 여성 아바타 초기화 (캐릭터 테스트)"
                           name="ResetDefaultAvF">
             <menu_item_call.on_click
              function="Advanced.TestFemale" />
           </menu_item_call>
             <menu_item_separator/>
 	        <menu_item_check
-	         label="Show Avatar Complexity Information"
+	         label="아바타 복잡도 정보 표시"
 	         name="Avatar Draw Info">
 	            <menu_item_check.on_check
 	             function="Advanced.CheckInfoDisplay"
@@ -525,21 +525,21 @@
 	             parameter="avatardrawinfo" />
 	        </menu_item_check>
       <menu_item_call
-        label="Scripts"
+        label="스크립트"
         name="MyScripts">
         <menu_item_call.on_click
           function="Floater.Toggle"
           parameter="my_scripts"/>
       </menu_item_call>
 	        <menu_item_call
-             label="Lag Meter"
+             label="지연 미터"
              name="Lag Meter">
                 <menu_item_call.on_click
                  function="Floater.Show"
                  parameter="lagmeter" />
             </menu_item_call>
           <menu_item_call
-             label="Recreate LSL Bridge"
+             label="LSL 다리 재생성"
              name="Recreate LSL Bridge">
             <menu_item_call.on_click
              function="RecreateLSLBridge"/>
@@ -547,23 +547,16 @@
         </menu>
 
         <menu_item_call
-         label="Snapshot"
+         label="스냅샷"
          name="Take Snapshot"
          shortcut="control|shift|S">
             <menu_item_call.on_click
              function="Floater.Show"
              parameter="snapshot" />
         </menu_item_call>
-        <menu_item_call
-         label="360° Snapshot"
-         name="Capture 360">
-            <menu_item_call.on_click
-             function="Floater.Show"
-             parameter="360capture" />
-        </menu_item_call>
 
       <menu_item_call
-        label="Money Tracker"
+        label="금전 사냥꾼"
         name="money_tracker">
         <menu_item_call.on_click
           function="Floater.Toggle"
@@ -571,7 +564,7 @@
       </menu_item_call>
 		
 		<menu_item_call
-			label="Pose Stand..."
+			label="자세잡고 서있기..."
 			name="pose_stand">
             <menu_item_call.on_click
 			function="Floater.Show"
@@ -584,7 +577,7 @@
         <menu_item_separator/>
 
         <menu_item_call
-         label="Preferences"
+         label="속성"
          name="Preferences"
          shortcut="control|P">
             <menu_item_call.on_click
@@ -593,7 +586,7 @@
         </menu_item_call>
         
         <menu_item_call
-         label="Toolbar Buttons"
+         label="툴바 버튼"
          name="Toolbar Buttons">
             <menu_item_call.on_click
              function="Floater.Show"
@@ -601,7 +594,7 @@
         </menu_item_call>
 
          <menu_item_check
-         label="Show HUD Attachments"
+         label="HUD 첨부파일 표시"
          name="Show HUD Attachments"
          shortcut="alt|shift|H">
            <menu_item_check.on_check
@@ -613,7 +606,7 @@
          </menu_item_check>
 
          <menu_item_check
-         label="Show User Interface"
+         label="유저 인터페이스 표시"
          name="Show User Interface"
          shortcut="alt|shift|U">
            <menu_item_check.on_check
@@ -625,7 +618,7 @@
         <menu_item_separator/>
 
         <menu_item_call
-         label="Request Admin Status"
+         label="관리자 상태 요청"
          name="Request Admin Options"
          shortcut="control|alt|G"
 		 visible="false">
@@ -634,7 +627,7 @@
         </menu_item_call>
         
         <menu_item_call
-         label="Leave Admin Status"
+         label="관리자 상태 허가"
          name="Leave Admin Options"
          shortcut="control|alt|shift|G"
 		 visible="false">
@@ -643,7 +636,7 @@
         </menu_item_call>
 
         <menu_item_call
-         label="Exit [APP_NAME]"
+         label="나가기 [APP_NAME]"
          name="Quit"
          shortcut="control|Q">
             <menu_item_call.on_click
@@ -656,19 +649,19 @@
     
     <menu
      create_jump_keys="true"
-     label="Comm"
+     label="대화"
      name="Communicate"
      tear_off="true"
      visible="true">
      
         <menu
          create_jump_keys="true"
-         label="Online Status"
+         label="온라인 상태"
          name="Status"
          tear_off="true">
         <menu_item_check
          name="Away"
-         label="Away">
+         label="어웨이">
           <menu_item_check.on_check
            function="View.Status.CheckAway" />
           <menu_item_check.on_click
@@ -676,14 +669,14 @@
         </menu_item_check>
         <menu_item_check
          name="Do Not Disturb"
-         label="Unavailable">
+         label="이용 불가능">
           <menu_item_check.on_check
            function="View.Status.CheckDoNotDisturb" />
           <menu_item_check.on_click
            function="World.SetDoNotDisturb"/>
         </menu_item_check>
 			    <menu_item_check
-             label="Autorespond"
+             label="자동응답"
              name="Set Autorespond">
                 <menu_item_check.on_check
                  function="World.GetAutorespond"/>
@@ -691,7 +684,7 @@
                  function="World.SetAutorespond"/>
             </menu_item_check>
 			    <menu_item_check
-             label="Autorespond to non-friends"
+             label="친구가 아니면 자동응답"
              name="Set Autorespond to non-friends">
                 <menu_item_check.on_check
                  function="World.GetAutorespondNonFriends"/>
@@ -701,7 +694,7 @@
         
             <menu_item_separator/>
                 <menu_item_check
-             label="Reject teleport offers and requests"
+             label="순간이동 요청 거절"
              name="Automatically reject teleport offers">
                 <menu_item_check.on_check
                  function="World.GetRejectTeleportOffers"/>
@@ -709,7 +702,7 @@
                  function="World.SetRejectTeleportOffers"/>
             </menu_item_check>
                 <menu_item_check
-             label="Reject all group invites"
+             label="모든 그룹의 초대 거절"
              name="Reject all group invites">
                 <menu_item_check.on_check
                  function="World.GetRejectAllGroupInvites"/>
@@ -717,7 +710,7 @@
                  function="World.SetRejectAllGroupInvites"/>
             </menu_item_check>
                 <menu_item_check
-             label="Reject all friendship requests"
+             label="모든 친구요청 거절"
              name="Reject all friendship requests">
                 <menu_item_check.on_check
                  function="World.GetRejectFriendshipRequests"/>
@@ -730,7 +723,7 @@
         <menu_item_separator/>
              
         <menu_item_call
-         label="Friends"
+         label="친구"
          name="My Friends"
          shortcut="control|shift|F">
             <menu_item_call.on_click
@@ -738,7 +731,7 @@
              parameter="friends_panel" />
             </menu_item_call>
         <menu_item_check
-         label="Contacts"
+         label="주소록"
          name="Contacts"
          shortcut="control|alt|shift|F">
             <menu_item_check.on_check
@@ -749,7 +742,7 @@
              parameter="imcontacts" />
             </menu_item_check>
         <menu_item_call
-         label="Contact Sets"
+         label="주소록 집합"
          name="Contact Sets"
          shortcut="control|alt|shift|C">
             <menu_item_call.on_click
@@ -757,7 +750,7 @@
              parameter="contact_sets_panel" />
         </menu_item_call>
         <menu_item_call
-         label="Groups"
+         label="그룹"
          name="My Groups"
          shortcut="control|shift|G">
             <menu_item_call.on_click
@@ -765,7 +758,7 @@
              parameter="groups_panel" />
         </menu_item_call>
         <menu_item_check
-         label="Chat..."
+         label="대화..."
          name="Nearby Chat"
          shortcut="control|H"
          use_mac_ctrl="true">
@@ -777,7 +770,7 @@
              parameter="fs_nearby_chat" />
         </menu_item_check>
         <menu_item_check
-         label="People"
+         label="사람들"
          name="People">
             <menu_item_check.on_check
              function="Floater.Visible"
@@ -787,7 +780,7 @@
              parameter="people" />
             </menu_item_check>
         <menu_item_check
-         label="Conversations"
+         label="대화"
          name="Conversations"
          shortcut="control|T"
          use_mac_ctrl="true">
@@ -802,7 +795,7 @@
         <menu_item_separator/>
 
         <menu_item_check
-         label="Gestures"
+         label="제스쳐"
          name="Gestures"
          shortcut="control|G">
             <menu_item_check.on_check
@@ -814,14 +807,14 @@
         </menu_item_check>
         <menu_item_separator/>
       <menu_item_call
-        label="Flickr..."
+        label="플리커..."
         name="Flickr">
         <menu_item_call.on_click
           function="Floater.Toggle"
           parameter="flickr"/>
       </menu_item_call>
       <menu_item_call
-        label="Discord..."
+        label="디스코드..."
         name="Discord">
         <menu_item_call.on_click
           function="Floater.Toggle"
@@ -829,11 +822,11 @@
       </menu_item_call>
         <menu_item_separator/>
         <menu
-         label="Voice morphing"
+         label="음성 변조"
          name="VoiceMorphing"
          visibility_control="VoiceMorphingEnabled">
             <menu_item_check
-             label="No voice morphing"
+             label="음성 변조 없음"
              name="NoVoiceMorphing">
                 <menu_item_check.on_check
                  function="Communicate.VoiceMorphing.NoVoiceMorphing.Check" />
@@ -842,7 +835,7 @@
             </menu_item_check>
             <menu_item_separator/>
             <menu_item_check
-             label="Preview..."
+             label="프리뷰..."
              name="Preview">
                 <menu_item_check.on_check
                  function="Floater.Visible"
@@ -852,13 +845,13 @@
                  parameter="voice_effect" />
             </menu_item_check>
             <menu_item_call
-             label="Subscribe..."
+             label="구독..."
              name="Subscribe">
                 <menu_item_call.on_click
                  function="Communicate.VoiceMorphing.Subscribe" />
             </menu_item_call>
             <menu_item_call
-             label="Premium perk..."
+             label="프리미엄 특전..."
              name="PremiumPerk">
                 <menu_item_call.on_click
                  function="Communicate.VoiceMorphing.PremiumPerk" />
@@ -866,7 +859,7 @@
         </menu>
         <menu_item_check
          name="Conversation Log..."
-         label="Conversation Log...">
+         label="대화 로그...">
             <menu_item_check.on_check
              function="Floater.Visible"
              parameter="conversation" />
@@ -913,7 +906,7 @@
         </menu_item_check>
         -->
         <menu_item_check
-         label="Nearby Voice"
+         label="주변 음성"
          name="Nearby Voice">
             <menu_item_check.on_check
              function="Floater.Visible"
@@ -923,7 +916,7 @@
              parameter="fs_voice_controls" />
         </menu_item_check>
         <menu_item_call
-         label="Block List"
+         label="차단 명단"
          name="Block List">
             <menu_item_call.on_click
               function="SideTray.PanelPeopleTab"
@@ -935,12 +928,12 @@
     
     <menu
      create_jump_keys="true"
-     label="World"
+     label="월드"
      name="World"
      tear_off="true"
      visible="true">
         <menu_item_call
-         label="Resync Animations"
+         label="애니메이션 재동기화"
          name="Resync Animations"
          shortcut="control|S">
             <menu_item_call.on_click
@@ -950,7 +943,7 @@
         <menu_item_separator/>
      
         <menu_item_call
-            label="Nearby Avatars"
+            label="근처 아바타"
             name="Active Speakers"
             shortcut="control|shift|A">
             <menu_item_call.on_click
@@ -959,7 +952,7 @@
         </menu_item_call>
 
         <menu_item_check
-         label="Radar"
+         label="레이더"
          name="Radar">
             <menu_item_check.on_check
              function="Floater.Visible"
@@ -970,7 +963,7 @@
         </menu_item_check>
 
         <menu_item_call
-         label="Teleport History"
+         label="순간이동 기록"
          name="Teleport History"
          shortcut="alt|H">
             <menu_item_call.on_click
@@ -978,7 +971,7 @@
             </menu_item_call>
 
         <menu_item_check
-         label="Places"
+         label="장소"
          name="Places">
             <menu_item_check.on_check
              function="Floater.Visible"
@@ -988,7 +981,7 @@
              parameter="places" />
             </menu_item_check>
         <menu_item_call
-         label="Destinations"
+         label="목적지"
          name="Destinations">
             <menu_item_call.on_click
              function="Floater.Toggle"
@@ -998,7 +991,7 @@
              parameter="destination_guide"/>
         </menu_item_call>
         <menu_item_call
-             label="Events"
+             label="이벤트"
              name="Events"
              shortcut="control|E">
             <menu_item_call.on_click
@@ -1009,7 +1002,7 @@
              parameter="secondlife"/>
         </menu_item_call>
         <menu_item_check
-             label="Mini-Map"
+             label="미니맵"
              name="Mini-Map"
              shortcut="control|shift|M">
             <menu_item_check.on_check
@@ -1020,7 +1013,7 @@
              parameter="mini_map" />
         </menu_item_check>
          <menu_item_check
-             label="World Map"
+             label="월드맵"
              name="World Map"
              shortcut="control|M"
              use_mac_ctrl="true">
@@ -1033,7 +1026,7 @@
         </menu_item_check>
         
          <menu_item_check
-             label="Region Tracker"
+             label="지역 추적기"
              name="Region Tracker">
             <menu_item_check.on_check
              function="Floater.Visible"
@@ -1045,7 +1038,7 @@
         <menu_item_separator/>
         
         <menu_item_call
-         label="Landmark this Place"
+         label="이 장소를 랜드마크 지정"
          name="Create Landmark Here">
             <menu_item_call.on_click
              function="World.CreateLandmark" />
@@ -1054,7 +1047,7 @@
         </menu_item_call>
 
         <menu_item_call
-         label="Location Profile"
+         label="위치 프로필"
          layout="topleft"
          name="Place Profile">
             <menu_item_call.on_click
@@ -1064,7 +1057,7 @@
         </menu_item_call>
         
         <menu_item_call
-         label="Parcel Details"
+         label="구획 세부정보"
          name="About Land">
             <menu_item_call.on_click
              function="Floater.Show"
@@ -1075,7 +1068,7 @@
         </menu_item_call>
         
         <menu_item_call
-         label="Region Details"
+         label="지역 세부정보"
          name="RegionEstate"
          shortcut="alt|R"
          use_mac_ctrl="true">
@@ -1087,7 +1080,7 @@
              parameter="region_info" />
         </menu_item_call>
         <menu_item_call
-             label="Set Home to Here"
+             label="이곳을 홈으로 지정"
              name="Set Home to Here">
                 <menu_item_call.on_click
                  function="World.SetHomeLocation" />
@@ -1098,7 +1091,7 @@
         <menu_item_separator/>
 
         <menu_item_call
-             label="Buy this Land"
+             label="땅 구매"
              name="Buy Land">
                 <menu_item_call.on_click
                  function="Land.Buy" />
@@ -1107,7 +1100,7 @@
             </menu_item_call>
         
         <menu_item_call
-             label="Show Owned Land"
+             label="소유한 땅 표시"
              name="My Land">
                 <menu_item_call.on_click
                  function="Floater.Show"
@@ -1115,7 +1108,7 @@
         </menu_item_call>
 
         <menu_item_call
-         label="My Linden Home..."
+         label="린덴 홈 표시..."
          name="Linden Home">
             <menu_item_call.on_visible
              function="GridCheck"
@@ -1126,12 +1119,12 @@
         
         <menu
            create_jump_keys="true"
-           label="Show More"
+           label="더 표시"
            name="LandShow"
            tear_off="true">
           
            <menu_item_check
-                 label="Ban Lines"
+                 label="금지선"
                  name="Ban Lines">
                 <menu_item_check.on_check
                    control="ShowBanLines" />
@@ -1141,7 +1134,7 @@
            </menu_item_check>
            
            <menu_item_check
-                 label="Beacons"
+                 label="비콘"
                  name="beacons"
                  shortcut="control|alt|shift|N">
                     <menu_item_check.on_check
@@ -1153,7 +1146,7 @@
           </menu_item_check>
           
           <menu_item_check
-             label="Property Lines"
+             label="속성선"
              name="Property Lines"
              shortcut="control|alt|shift|P">
             <menu_item_check.on_check
@@ -1164,7 +1157,7 @@
           </menu_item_check>
           
           <menu_item_check
-             label="Land Owners"
+             label="소유주"
              name="Land Owners"
              shortcut="control|alt|O">
             <menu_item_check.on_check
@@ -1175,7 +1168,7 @@
           </menu_item_check>
           
           <menu_item_check
-             label="Coordinates"
+             label="좌표"
              name="Coordinates">
             <menu_item_check.on_click
                function="ToggleControl"
@@ -1185,7 +1178,7 @@
           </menu_item_check>
           
           <menu_item_check
-             label="Parcel Permissions"
+             label="구획 사용권한"
              name="Parcel Properties">
             <menu_item_check.on_click
                function="ToggleControl"
@@ -1195,7 +1188,7 @@
           </menu_item_check>
           <menu_item_separator />
           <menu_item_check
-             label="Advanced Menu"
+             label="고급 메뉴"
              name="Show Advanced Menu">
             <on_check
                function="CheckControl"
@@ -1205,20 +1198,11 @@
                parameter="UseDebugMenus" />
           </menu_item_check>
         </menu>
-        <menu_item_check
-          label="Improve graphics speed..."
-          name="Performance">
-          <menu_item_check.on_click
-           function="Floater.Toggle"
-           parameter="performance" />
-          <menu_item_check.on_check
-           function="Floater.Visible"
-           parameter="performance" />
-        </menu_item_check>
+
         <menu_item_separator/>
 
 	    <menu_item_call
-	     label="Teleport Home"
+	     label="집으로 순간이동"
 	     name="Teleport Home"
 	     shortcut="control|shift|H">
          <menu_item_call.on_click
@@ -1251,11 +1235,11 @@
 
       <menu
          create_jump_keys="true"
-         label="Environment"
+         label="환경"
          name="Environment"
          tear_off="true">
             <menu_item_check
-             label="Sunrise"
+             label="일출"
              name="Sunrise"
              shortcut="control|shift|U">
                 <menu_item_check.on_click
@@ -1269,7 +1253,7 @@
                  parameter="setenv" />
             </menu_item_check>
             <menu_item_check
-             label="Midday"
+             label="한낮"
              name="Noon"
              shortcut="control|shift|Y">
                 <menu_item_check.on_click
@@ -1283,7 +1267,7 @@
                  parameter="setenv" />
             </menu_item_check>
             <menu_item_check
-             label="Sunset"
+             label="일몰"
              name="Sunset"
              shortcut="control|shift|N">
                 <menu_item_check.on_click
@@ -1297,7 +1281,7 @@
                  parameter="setenv" />
             </menu_item_check>
             <menu_item_check
-             label="Midnight"
+             label="자정"
              name="Midnight"
 			 shortcut="control|shift|X">
                 <menu_item_check.on_click
@@ -1311,7 +1295,7 @@
                  parameter="setenv" />
             </menu_item_check>
             <menu_item_check
-             label="Use Shared Environment"
+             label="공유 환경 사용"
              name="Use Shared Environment">
                 <menu_item_check.on_click
                  function="World.EnvSettings"
@@ -1325,7 +1309,7 @@
             </menu_item_check>
             <menu_item_separator/>
             <menu_item_call
-             label="My Environments..."
+             label="내 환경..."
              name="my_environs">
                 <menu_item_call.on_click
                  function="World.EnvSettings"
@@ -1335,7 +1319,7 @@
                  parameter="setenv" />
             </menu_item_call>
             <menu_item_call
-             label="Personal Lighting..."
+             label="개인 조명..."
              name="adjustment_tool">
                 <menu_item_call.on_click
                  function="World.EnvSettings"
@@ -1346,7 +1330,7 @@
             </menu_item_call>
             <menu_item_separator/>
             <menu_item_check
-             label="Pause Clouds"
+             label="구름 일시중지"
              name="pause_clouds">
                 <menu_item_check.on_click
                  function="World.EnvSettings"
@@ -1360,10 +1344,10 @@
             </menu_item_check>
             <menu_item_separator/>
             <menu
-             label="Bulk Import"
+             label="대량 가져오기"
              name="WL Bulk Import">
                 <menu_item_call
-                 label="Days..."
+                 label="일..."
                  name="WL Bulk Import Days">
                     <menu_item_call.on_click
                      function="File.ImportWindlightBulk"
@@ -1372,7 +1356,7 @@
                      function="File.EnableImportWindlightBulk"/>
                 </menu_item_call>
                 <menu_item_call
-                 label="Skies..."
+                 label="스키..."
                  name="WL Bulk Import Skies">
                     <menu_item_call.on_click
                      function="File.ImportWindlightBulk"
@@ -1381,7 +1365,7 @@
                      function="File.EnableImportWindlightBulk"/>
                 </menu_item_call>
                 <menu_item_call
-                 label="Water..."
+                 label="물..."
                  name="WL Bulk Import Water">
                     <menu_item_call.on_click
                      function="File.ImportWindlightBulk"
@@ -1491,10 +1475,10 @@
 		<menu
 			 create_jump_keys="true"
 			 name="photo_and_video"
-			 label="Photo and Video"
+			 label="사진과 동영상"
 			 tear_off="true">
 				<menu_item_call
-				label="Phototools"
+				label="사진 도구"
 				name="phototools_item_call"
 				shortcut="alt|P">
 					<menu_item_call.on_click
@@ -1502,7 +1486,7 @@
 					parameter="phototools" />
 				</menu_item_call>
 				<menu_item_call
-				label="Cameratools"
+				label="카메라 도구"
 				name="cameratools_item_call"
 				shortcut="control|shift|C">
 					<menu_item_call.on_click
@@ -1510,7 +1494,7 @@
 					parameter="phototools_camera" />
             </menu_item_call>
             <menu_item_check
-               label="Depth of Field Focus lock"
+               label="필드 포커스 잠금 깊이"
                layout="topleft"
                shortcut="alt|shift|X"
                name="lock_focus_point">
@@ -1523,28 +1507,28 @@
             </menu_item_check>
 		</menu>
       <menu_item_call
-        label="Area Search"
+        label="지역 검색"
         name="area_search">
         <menu_item_call.on_click
           function="Floater.Toggle"
           parameter="area_search" />
       </menu_item_call>
       <menu_item_call
-        label="Sound Explorer"
+        label="음성 탐험"
         name="Sound Explorer">
         <menu_item_call.on_click
           function="Floater.Toggle"
           parameter="sound_explorer" />
       </menu_item_call>
       <menu_item_call
-        label="Animation Explorer"
+        label="애니메이션 탐험"
         name="Animation Explorer">
         <menu_item_call.on_click
           function="Floater.Toggle"
           parameter="animation_explorer" />
       </menu_item_call>
       <menu_item_call
-        label="Asset Blacklist"
+        label="자산 블랙리스트"
         name="asset_blacklist">
         <menu_item_call.on_click
           function="Floater.Toggle"
@@ -1552,14 +1536,14 @@
       </menu_item_call>
       <menu_item_separator/>
       <menu_item_call
-        label="Avatar Render Settings"
+        label="아바타 렌더 세팅"
         name="Avatar Render Settings">
         <menu_item_call.on_click
           function="Floater.Toggle"
           parameter="fs_avatar_render_settings" />
       </menu_item_call>
       <menu_item_check
-        label="Always show Friends fully"
+        label="항상 친구 전체 표시"
         name="Always show Friends normally">
         <menu_item_check.on_click
           function="ToggleControl"
@@ -1569,7 +1553,7 @@
           parameter="AlwaysRenderFriends"/>
       </menu_item_check>
       <menu_item_check
-        label="Show Friends only"
+        label="친구만 표시"
         name="Render Friends Only">
         <menu_item_check.on_click
           function="TogglePerAccountControl"
@@ -1581,12 +1565,12 @@
     </menu>
     <menu
      create_jump_keys="true"
-     label="Build"
+     label="건설"
      name="BuildTools"
      tear_off="true"
      visible="true">
        <menu_item_check
-         label="Build"
+         label="건설"
          name="Show Build Tools"
          shortcut="control|B">
             <menu_item_check.on_check
@@ -1598,11 +1582,11 @@
        </menu_item_check>
        <menu
           create_jump_keys="true"
-          label="Select Build Tool"
+          label="건설 도구 표시"
           name="Select Tool"
           tear_off="true">
          <menu_item_call
-			label="Focus Tool"
+			label="포커스 도구"
 			name="Focus"
 			shortcut="control|1">
            <menu_item_call.on_click
@@ -1610,7 +1594,7 @@
               parameter="focus" />
          </menu_item_call>
          <menu_item_call
-			label="Move Tool"
+			label="이동 도구"
 			name="Move"
 			shortcut="control|2">
            <menu_item_call.on_click
@@ -1618,7 +1602,7 @@
               parameter="move" />
          </menu_item_call>
          <menu_item_call
-			label="Edit Tool"
+			label="수정 도구"
 			name="Edit"
 			shortcut="control|3">
            <menu_item_call.on_click
@@ -1626,7 +1610,7 @@
               parameter="edit" />
          </menu_item_call>
          <menu_item_call
-			label="Create Tool"
+			label="생성 도구"
 			name="Create"
 			shortcut="control|4">
            <menu_item_call.on_click
@@ -1634,7 +1618,7 @@
               parameter="create" />
          </menu_item_call>
          <menu_item_call
-			label="Land Tool"
+			label="땅 도구"
 			name="Land"
 			shortcut="control|5">
            <menu_item_call.on_click
@@ -1643,7 +1627,7 @@
          </menu_item_call>
 	   </menu>
         <menu_item_call
-           label="Link"
+           label="링크"
            name="Link"
            shortcut="control|L">
           <menu_item_call.on_click
@@ -1652,7 +1636,7 @@
              function="Tools.EnableLink" />
         </menu_item_call>
         <menu_item_call
-           label="Unlink"
+           label="언링크"
            name="Unlink"
            shortcut="control|shift|L">
           <menu_item_call.on_click
@@ -1661,7 +1645,7 @@
              function="Tools.EnableUnlink" />
         </menu_item_call>
         <menu_item_check
-             label="Edit Linked Parts"
+             label="연결된 부분 편집"
              name="Edit Linked Parts"
              shortcut="control|shift|E">
                 <menu_item_check.on_check
@@ -1674,11 +1658,11 @@
             </menu_item_check>
         <menu
          create_jump_keys="true"
-         label="Select Elements"
+         label="요소 선택"
          name="Select Elements"
          tear_off="true">
             <menu_item_call
-             label="Select Next Part or Face"
+             label="다음 부품 또는 페이스 선택"
              name="Select Next Part or Face"
 	     shortcut="control|.">
                 <menu_item_call.on_click
@@ -1688,7 +1672,7 @@
                  function="Tools.EnableSelectNextPart" />
             </menu_item_call>
             <menu_item_call
-             label="Select Previous Part or Face"
+             label="이전 부품 또는 페이스 선택"
              name="Select Previous Part or Face"
 	     shortcut="control|,">
                 <menu_item_call.on_click
@@ -1698,7 +1682,7 @@
                  function="Tools.EnableSelectNextPart" />
             </menu_item_call>
             <menu_item_call
-             label="Include Next Part or Face"
+             label="다음 부품 또는 페이스 포함"
              name="Include Next Part or Face"
 	     shortcut="control|shift|.">
                 <menu_item_call.on_click
@@ -1708,7 +1692,7 @@
                  function="Tools.EnableSelectNextPart" />
             </menu_item_call>
             <menu_item_call
-             label="Include Previous Part or Face"
+             label="이전 부품 또는 페이스 포함"
              name="Include Previous Part or Face"
 	     shortcut="control|shift|,">
                 <menu_item_call.on_click
@@ -1721,7 +1705,7 @@
         <menu_item_separator/>
 
         <menu_item_call
-           label="Focus on Selection"
+           label="선택 포커스"
            name="Focus on Selection"
            shortcut="H">
           <menu_item_call.on_click
@@ -1731,7 +1715,7 @@
              function="SomethingSelectedNoHUD" />
         </menu_item_call>
         <menu_item_call
-           label="Zoom to Selection"
+           label="선택영역으로 확대/축소"
            name="Zoom to Selection"
            shortcut="shift|H">
           <menu_item_call.on_click
@@ -1745,11 +1729,11 @@
 
         <menu
          create_jump_keys="true"
-         label="Object"
+         label="오브젝트"
          name="Object"
          tear_off="true">
           <menu_item_call
-             label="Buy"
+             label="구매"
              name="Menu Object Buy">
             <menu_item_call.on_click
                function="Tools.BuyOrTake"/>
@@ -1759,7 +1743,7 @@
                function="Tools.EnableBuyOrTake"/>
           </menu_item_call>
           <menu_item_call
-             label="Take"
+             label="테이크"
              name="Menu Object Take">
             <menu_item_call.on_click
                function="Tools.BuyOrTake"/>
@@ -1769,7 +1753,7 @@
                function="Tools.EnableBuyOrTake"/>
           </menu_item_call>
           <menu_item_call
-			 label="Take Copy"
+			 label="복사본 테이크"
 			 name="Take Copy">
 			<menu_item_call.on_click
                function="Tools.TakeCopy" />
@@ -1777,7 +1761,7 @@
                function="Tools.EnableTakeCopy" />
           </menu_item_call>
           <menu_item_call
-             label="Duplicate"
+             label="복사"
              name="Duplicate"
              shortcut="control|D">
             <menu_item_call.on_click
@@ -1785,7 +1769,7 @@
           </menu_item_call>
 
           <menu_item_call
-             label="Edit Particles"
+             label="입자 편집"
              name="Menu Object Edit Particles">
             <menu_item_call.on_click
                function="Object.EditParticles" />
@@ -1794,7 +1778,7 @@
           </menu_item_call>
 
           <menu_item_call
-			 label="Save Back to Object Contents"
+			 label="객체 내용에 다시 저장"
 			 name="Save Object Back to Object Contents">
 			<menu_item_call.on_click
                function="Tools.SaveToObjectInventory" />
@@ -1802,7 +1786,7 @@
                function="Tools.EnableSaveToObjectInventory" />
           </menu_item_call>
           <menu_item_call
-			 label="Return Object"
+			 label="객체 반환"
 			 name="Return Object back to Owner">
 			<menu_item_call.on_click
                function="Object.Return" />
@@ -1811,11 +1795,11 @@
           </menu_item_call>
           <menu
             create_jump_keys="true"
-            label="Save as"
+            label="다른이름으로 저장"
             name="Export Menu"
             tear_off="true">
             <menu_item_call
-              label="Backup"
+              label="백업"
               name="Backup">
               <menu_item_call.on_click
               function="Object.Export" />
@@ -1823,7 +1807,7 @@
               function="Object.EnableExport" />
             </menu_item_call>
             <menu_item_call
-              label="Collada"
+              label="콜라다"
               name="Collada">
               <menu_item_call.on_click
               function="Object.ExportCollada" />
@@ -1834,17 +1818,17 @@
 		</menu>
         <menu
            create_jump_keys="true"
-           label="Scripts"
+           label="스크립트"
            name="Scripts"
            tear_off="true">
           <menu_item_call
-             label="Show Script Warnings/Errors"
+             label="경고/에러 스크립트 표시"
              name="Script Debug">
             <menu_item_call.on_click
                function="ShowScriptDebug" />
           </menu_item_call>
           <menu_item_call
-             label="Script Info (Counter)"
+             label="스크립트 정보 (카운터)"
              name="Script Info">
             <menu_item_call.on_click
                function="Tools.ScriptInfo" />
@@ -1852,7 +1836,7 @@
                function="Object.EnableScriptInfo" />
           </menu_item_call>
           <menu_item_call
-             label="Recompile Scripts (Mono)"
+             label="스크립트 다시 컴파일 (모노)"
              name="Mono">
             <menu_item_call.on_click
                function="Tools.SelectedScriptAction"
@@ -1861,7 +1845,7 @@
                function="EditableSelectedMono" />
           </menu_item_call>
           <menu_item_call
-             label="Recompile Scripts (LSL)"
+             label="스크립트 다시 컴파일 (LSL)"
              name="LSL">
             <menu_item_call.on_click
                function="Tools.SelectedScriptAction"
@@ -1870,7 +1854,7 @@
                function="EditableSelected" />
           </menu_item_call>
           <menu_item_call
-             label="Reset Scripts"
+             label="스크립트 초기화"
              name="Reset Scripts">
             <menu_item_call.on_click
                function="Tools.SelectedScriptAction"
@@ -1879,7 +1863,7 @@
                function="EditableSelected" />
           </menu_item_call>
           <menu_item_call
-             label="Set Scripts to Running"
+             label="스크립트를 실행으로 설정"
              name="Set Scripts to Running">
             <menu_item_call.on_click
                function="Tools.SelectedScriptAction"
@@ -1888,7 +1872,7 @@
                function="EditableSelected" />
           </menu_item_call>
           <menu_item_call
-             label="Set Scripts to Not Running"
+             label="스크립트를 실행하지 않는 것으로 설정"
              name="Set Scripts to Not Running">
             <menu_item_call.on_click
                function="Tools.SelectedScriptAction"
@@ -1897,7 +1881,7 @@
                function="EditableSelected" />
           </menu_item_call>
           <menu_item_call
-             label="Remove Scripts From Selection"
+             label="선택에서 스크립트 제거"
              name="Remove Scripts From Selection">
             <menu_item_call.on_click
                function="Tools.SelectedScriptAction"
@@ -1909,11 +1893,11 @@
 
       <menu
          create_jump_keys="true"
-         label="Pathfinding"
+         label="패스 파인딩"
          name="Pathfinding"
          tear_off="true">
         <menu_item_call
-            label="Region Objects"
+            label="지역 객체"
             name="pathfinding_linksets_menu_item">
           <menu_item_call.on_click
               function="Floater.ToggleOrBringToFront"
@@ -1922,7 +1906,7 @@
               function="Tools.EnablePathfinding" />
         </menu_item_call>
         <menu_item_call
-            label="Characters..."
+            label="캐릭터..."
             name="pathfinding_characters_menu_item">
           <menu_item_call.on_click
               function="Floater.ToggleOrBringToFront"
@@ -1931,7 +1915,7 @@
               function="Tools.EnablePathfinding" />
         </menu_item_call>
         <menu_item_call
-            label="View / test..."
+            label="표시 / 테스트..."
             name="pathfinding_console_menu_item">
           <menu_item_call.on_click
               function="Floater.ToggleOrBringToFront"
@@ -1940,7 +1924,7 @@
               function="Tools.EnablePathfindingView" />
         </menu_item_call>
         <menu_item_call
-            label="Rebake region"
+            label="리베이크 지역"
             name="pathfinding_rebake_navmesh_item">
           <menu_item_call.on_click
               function="Tools.DoPathfindingRebakeRegion"/>
@@ -1953,11 +1937,11 @@
 
         <menu
          create_jump_keys="true"
-         label="Options"
+         label="옵션"
          name="Options"
          tear_off="true">
 	   <menu_item_check
-	       label="Show Advanced Permissions"
+	       label="고급 권한 표시"
 	       name="DebugPermissions">
 			  <menu_item_check.on_check
 				 function="CheckControl"
@@ -1970,7 +1954,7 @@
             <menu_item_separator/>
 
             <menu_item_check
-                 label="Select Only My Objects"
+                 label="내 객체만 선택"
                  name="Select Only My Objects">
                     <menu_item_check.on_check
                      control="SelectOwnedOnly" />
@@ -1979,7 +1963,7 @@
                      parameter="agents" />
                 </menu_item_check>
                 <menu_item_check
-                 label="Select Only Movable Objects"
+                 label="이동가능한 객체만 선택"
                  name="Select Only Movable Objects">
                     <menu_item_check.on_check
                      control="SelectMovableOnly" />
@@ -1988,7 +1972,7 @@
                      parameter="movable" />
                 </menu_item_check>
                 <menu_item_check
-                 label="Select Only Locked Objects"
+                 label="잠긴 객체만 선택"
                  name="Select Only Locked Objects">
                     <menu_item_check.on_check
                      control="FSSelectLockedOnly" />
@@ -1997,7 +1981,7 @@
                      parameter="FSSelectLockedOnly" />
                 </menu_item_check>
                 <menu_item_check
-                 label="Select Only Copyable Objects"
+                 label="복사 가능한 객체만 선택"
                  name="Select Only Copyable Objects">
                     <menu_item_check.on_check
                      control="FSSelectCopyableOnly" />
@@ -2006,7 +1990,7 @@
                      parameter="FSSelectCopyableOnly" />
                 </menu_item_check>
                 <menu_item_check
-                 label="Select By Surrounding"
+                 label="주변기준 선택"
                  name="Select By Surrounding">
                     <menu_item_check.on_check
                      control="RectangleSelectInclusive" />
@@ -2014,7 +1998,7 @@
                      function="Tools.SelectBySurrounding" />
                 </menu_item_check>
                 <menu_item_check
-                 label="Include Group-Owned Objects"
+                 label="그룹소유 객체 포함"
                  name="Include Group-Owned Objects">
                     <menu_item_check.on_check
                      control="FSSelectIncludeGroupOwned" />
@@ -2026,7 +2010,7 @@
           <menu_item_separator/>
 
                 <menu_item_check
-                  label="Show Physics Shape When Editing"
+                  label="수정중 몸매 표시"
                   name="Show Physics Shape">
                   <menu_item_check.on_check
                     function="CheckControl"
@@ -2036,7 +2020,7 @@
                     parameter="ShowPhysicsShapeInEdit" />
                 </menu_item_check>
           <menu_item_check
-                 label="Show Selection Outlines"
+                 label="선택 개요 표시"
 				 shortcut="control|alt|H"
                  name="Show Selection Outlines">
                     <menu_item_check.on_check
@@ -2047,7 +2031,7 @@
                      parameter="RenderHighlightSelections" />
                 </menu_item_check>
                 <menu_item_check
-                 label="Show Hidden Selection"
+                 label="숨겨진 개요 표시"
                  name="Show Hidden Selection">
                     <menu_item_check.on_check
                      control="RenderHiddenSelections" />
@@ -2055,7 +2039,7 @@
                      function="Tools.ShowHiddenSelection" />
                 </menu_item_check>
                 <menu_item_check
-                 label="Show Light Radius for Selection"
+                 label="선택할 빛 반지름 표시"
                  name="Show Light Radius for Selection">
                     <menu_item_check.on_check
                      control="RenderLightRadius" />
@@ -2063,7 +2047,7 @@
                      function="Tools.ShowSelectionLightRadius" />
                 </menu_item_check>
                 <menu_item_check
-                 label="Show Selection Beam"
+                 label="선택 빔 표시"
                  name="Show Selection Beam">
                     <menu_item_check.on_check
                      control="ShowSelectionBeam" />
@@ -2075,7 +2059,7 @@
         <menu_item_separator/>
 
                 <menu_item_check
-                 label="Snap to Grid"
+                 label="격자에 스냅"
                  name="Snap to Grid"
                  shortcut="G">
                     <menu_item_check.on_check
@@ -2087,7 +2071,7 @@
                      function="Tools.EnableToolNotPie" />
                 </menu_item_check>
                 <menu_item_call
-                 label="Snap Object XY to Grid"
+                 label="격자에 XY 객체 스냅"
                  name="Snap Object XY to Grid"
                  shortcut="shift|X">
                     <menu_item_call.on_click
@@ -2096,7 +2080,7 @@
                      function="Tools.EnableToolNotPie" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Use Selection for Grid"
+                 label="그리드에 선택 사용"
                  name="Use Selection for Grid"
                  shortcut="shift|G">
                     <menu_item_call.on_click
@@ -2106,7 +2090,7 @@
                 </menu_item_call>
                 <menu_item_separator/>
                 <menu_item_call
-                 label="Grid Options..."
+                 label="그리드 옵션..."
                  name="Grid Options"
                  shortcut="control|shift|B">
                     <menu_item_call.on_click
@@ -2116,7 +2100,7 @@
                      function="Tools.EnableToolNotPie" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Set Default Permissions..."
+                 label="기본 권한 설정..."
                  name="Set default permissions">
                     <menu_item_call.on_click
                      function="Floater.ToggleOrBringToFront"
@@ -2125,12 +2109,12 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Upload"
+         label="업로드"
          layout="topleft"
          name="Upload"
          tear_off="true">
             <menu_item_call
-             label="Image (L$[COST])..."
+             label="이미지 (L$[COST])..."
              layout="topleft"
              name="Upload Image"
              shortcut="control|U">
@@ -2144,7 +2128,7 @@
                  parameter="Upload Image,texture" />
             </menu_item_call>
             <menu_item_call
-             label="Sound (L$[COST])..."
+             label="음성 (L$[COST])..."
              layout="topleft"
              name="Upload Sound">
                 <menu_item_call.on_click
@@ -2157,7 +2141,7 @@
                  parameter="Upload Sound,sound" />
             </menu_item_call>
             <menu_item_call
-             label="Animation (L$[COST])..."
+             label="애니메이션 (L$[COST])..."
              layout="topleft"
              name="Upload Animation">
                 <menu_item_call.on_click
@@ -2170,7 +2154,7 @@
                  parameter="Upload Animation,animation" />
             </menu_item_call>
             <menu_item_call
-             label="Mesh Model..."
+             label="메쉬 모델..."
              layout="topleft"
              name="Upload Model">
             <menu_item_call.on_click
@@ -2182,7 +2166,7 @@
             function="File.VisibleUploadModel"/>
             </menu_item_call>
 	   <menu_item_call
-             label="Bulk..."
+             label="벌크..."
              layout="topleft"
              name="Bulk Upload">
                 <menu_item_call.on_visible
@@ -2196,7 +2180,7 @@
                  parameter="Bulk Upload" />
             </menu_item_call>
 	    <menu_item_call
-             label="Import Linkset..."
+             label="링크세트 가져오기..."
              visibility_control="FSEnableObjectExports"
              name="import linkset">
                 <menu_item_call.on_click
@@ -2207,7 +2191,7 @@
         <menu_item_separator/>
         <menu_item_call
          enabled="false"
-         label="Undo"
+         label="되돌리기"
          name="Undo"
          allow_key_repeat="true"
          shortcut="control|Z">
@@ -2219,7 +2203,7 @@
         </menu_item_call>
         <menu_item_call
          enabled="false"
-         label="Redo"
+         label="다시 실행"
          name="Redo"
          allow_key_repeat="true"
          shortcut="control|Y">
@@ -2235,7 +2219,7 @@
     
     <menu
     	create_jump_keys="true"
-    	label="Content"
+    	label="내용"
     	name="Content"
     	tear_off="true"
         visible="true">
@@ -2249,7 +2233,7 @@
        </menu_item_call>
 -->
         <menu_item_check
-        label="Search"
+        label="검색"
         name="Search"
         shortcut="control|F">
             <menu_item_check.on_check
@@ -2261,7 +2245,7 @@
             </menu_item_check>
 
     	<menu_item_call
-             label="SL Marketplace"
+             label="SL 시장"
              name="SL Marketplace">
             <menu_item_call.on_click
              function="PromptShowURL"
@@ -2272,7 +2256,7 @@
              parameter="secondlife"/>
        </menu_item_call>
        <menu_item_call
-             label="L$ Market Data"
+             label="L$ 시장 데이터"
              name="LindenXchange">
             <menu_item_call.on_click
              function="PromptShowURL"
@@ -2283,7 +2267,7 @@
              parameter="secondlife"/>
        </menu_item_call>
     	<menu_item_call
-             label="Script Library"
+             label="스크립트 라이브러리"
              name="Script Library">
              <menu_item_call.on_click
              function="PromptShowURL"
@@ -2292,7 +2276,7 @@
        </menu_item_call>
        <menu_item_separator/>
     	<menu_item_call
-             label="Firestorm Blog"
+             label="Firestorm 블로그"
              name="Firestorm Blog">
              <menu_item_call.on_click
              function="PromptShowURL"
@@ -2300,7 +2284,7 @@
              parameter="WebLaunchExternalTarget,https://www.firestormviewer.org/" />
        </menu_item_call>
     	<menu_item_call
-             label="Firestorm Flickr"
+             label="Firestorm 플리커"
              name="Firestorm Flickr">
              <menu_item_call.on_click
              function="PromptShowURL"
@@ -2308,7 +2292,7 @@
              parameter="WebLaunchExternalTarget,http://www.flickr.com/groups/firestormviewer/pool/" />
        </menu_item_call>
     	<menu_item_call
-             label="Firestorm YouTube"
+             label="Firestorm 유튜브"
              name="Firestorm YouTube">
              <menu_item_call.on_click
              function="PromptShowURL"
@@ -2316,7 +2300,7 @@
              parameter="WebLaunchExternalTarget,http://www.youtube.com/user/PhoenixViewerSL" />
        </menu_item_call>
     	<menu_item_call
-             label="Firestorm Twitter"
+             label="Firestorm 트위터"
              name="Firestorm Twitter">
              <menu_item_call.on_click
              function="PromptShowURL"
@@ -2324,7 +2308,7 @@
              parameter="WebLaunchExternalTarget,https://twitter.com/phoenixviewersl" />
        </menu_item_call>
     	<menu_item_call
-             label="Firestorm Plurk"
+             label="Firestorm 플럭"
              name="Firestorm Plurk">
              <menu_item_call.on_click
              function="PromptShowURL"
@@ -2333,7 +2317,7 @@
        </menu_item_call>
        <menu_item_separator/>
        <menu_item_call
-             label="Message of the day"
+             label="오늘의 메세지"
              name="Firestorm MoTD">
              <menu_item_call.on_click
              function="Advanced.ToggleHUDInfo"
@@ -2346,12 +2330,12 @@
     
     <menu
      create_jump_keys="true"
-     label="Help"
+     label="도움말"
      name="Help"
      tear_off="true"
      visible="true">
         <menu_item_check
-         label="Enable Viewer UI Hints"
+         label="뷰어 UI 힌트 사용"
          name="Enable Hints">
           <on_check
             control="EnableUIHints"/>
@@ -2360,7 +2344,7 @@
         </menu_item_check>
         
         <menu_item_call
-         label="Firestorm Wiki"
+         label="Firestorm 위키"
          name="Firestorm Wiki"
 	     shortcut="F1">
              <menu_item_call.on_click
@@ -2370,7 +2354,7 @@
         </menu_item_call>
         
         <menu_item_call
-         label="Troubleshooting"
+         label="트러블슈팅"
          name="Troubleshooting">
             <menu_item_call.on_click
              function="PromptShowURL"
@@ -2379,7 +2363,7 @@
         </menu_item_call>
 	   
         <menu_item_call
-         label="Join Firestorm Support Group"
+         label="Firestorm 지원그룹 에 가입"
          name="firestorm_support_group">
             <menu_item_call.on_click
              function="Advanced.WebBrowserTest"
@@ -2390,7 +2374,7 @@
         </menu_item_call>
 
         <menu_item_call
-         label="Firestorm Classes Schedule"
+         label="Firestorm 수업 일정"
          name="Firestorm Classes Schedule">
              <menu_item_call.on_click
              function="PromptShowURL"
@@ -2399,24 +2383,13 @@
         </menu_item_call>
 
         <menu_item_call
-         label="Firestorm Events Calendar"
+         label="Firestorm 이벤트 달력"
          name="Firestorm Events Calendar">
              <menu_item_call.on_click
              function="PromptShowURL"
              name="events_calendar_url"
              parameter="WebLaunchExternalTarget,https://teamup.com/ksxdajnbw9mvw7cbwz" />
         </menu_item_call>
-
-        <menu_item_check
-         label="Guidebook"
-         name="How To">
-            <menu_item_check.on_click
-             function="Help.ToggleHowTo"
-             parameter="" />
-            <menu_item_check.on_check
-             function="Floater.Visible"
-             parameter="guidebook" />
-        </menu_item_check>
 
 <!--       <menu_item_call
          label="Second Life Help"
@@ -2428,14 +2401,14 @@
         </menu_item_call>-->
         <menu_item_separator name="grid_help_seperator"/>
         <menu_item_call
-         label="[CURRENT_GRID] Help"
+         label="[CURRENT_GRID] 도움말"
          name="current_grid_help">
             <menu_item_call.on_click
              function="ShowHelp"
              parameter="grid_help" />
         </menu_item_call>
         <menu_item_call
-         label="About [CURRENT_GRID]"
+         label="[CURRENT_GRID]에 대하여"
          name="current_grid_about">
             <menu_item_call.on_click
              function="ShowHelp"
@@ -2494,7 +2467,7 @@
         </menu_item_call>-->
         <menu_item_separator/>
         <menu_item_check
-             label="Check Grid status"
+             label="격자 상태 확인"
              name="Grid Status">
             <menu_item_check.on_click
              function="OpenGridStatus"/>
@@ -2506,13 +2479,13 @@
              parameter="secondlife"/>
         </menu_item_check>
         <menu_item_call
-             label="Report Abuse"
+             label="오용 신고"
              name="Report Abuse">
                 <menu_item_call.on_click
                  function="ReportAbuse" />
             </menu_item_call>
         <menu_item_call
-             label="Report Bug"
+             label="버그 신고"
              name="Report Bug">
                 <menu_item_call.on_click
                  function="Advanced.ReportBug"/>
@@ -2520,7 +2493,7 @@
 
         <menu_item_separator/>
         <menu_item_call
-             label="Bumps, Pushes &amp; Hits"
+             label="범프, 밀기 &amp; 강타"
              name="Bumps, Pushes &amp;amp; Hits">
                 <menu_item_call.on_click
                  function="Floater.Show"
@@ -2530,7 +2503,7 @@
         <menu_item_separator/>
 
         <menu_item_check
-            label="Enable Sysinfo Button"
+            label="Sysinfo 버튼 사용"
             name="Enable Sysinfo Button">
             <menu_item_check.on_check
                 function="CheckControl"
@@ -2543,7 +2516,7 @@
         <menu_item_separator/>
 
         <menu_item_call
-         label="About [APP_NAME]"
+         label=" [APP_NAME]에 대하여"
          name="About Second Life">
             <menu_item_call.on_click
              function="Floater.Show"
@@ -2558,11 +2531,11 @@
      tear_off="true"
      visible="true">
       <menu
-       label="Debug"
+       label="디버그"
        name="Debug"
        tear_off="true">
         <menu_item_check
-         label="Show Top-level RLVa Menu"
+         label="최고 레벨의 RLVa 메뉴 표시"
          name="Show Top-level RLVa Menu">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2573,7 +2546,7 @@
         </menu_item_check>
       	<menu_item_separator/>
       	<menu_item_check
-      	 label="Show Debug Messages"
+      	 label="디버그 메세지 표시"
       	 name="Show Debug Messages">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2583,7 +2556,7 @@
            parameter="RestrainedLoveDebug" />
       	</menu_item_check>
       	<menu_item_check
-      	 label="Hide Unset or Duplicate Messages"
+      	 label="설정되지 않았거나 중복된 메세지 숨기기"
       	 name="Hide Unset or Duplicate Messages">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2593,7 +2566,7 @@
            parameter="RLVaDebugHideUnsetDuplicate" />
       	</menu_item_check>
       	<menu_item_check
-      	 label="Show Assertion Failures"
+      	 label="어설션 실패 표시"
       	 name="Show Assertion Failures">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2604,7 +2577,7 @@
       	</menu_item_check>
       	<menu_item_separator/>
         <menu_item_check
-         label="Hide Locked Layers"
+         label="잠긴 레이어 표시"
          name="Hide Locked Layers">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2614,7 +2587,7 @@
            parameter="RLVaHideLockedLayers" />
         </menu_item_check>
         <menu_item_check
-         label="Hide Locked Attachments"
+         label="잠긴 첨부파일 숨기기"
          name="Hide Locked Attachments">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2625,7 +2598,7 @@
         </menu_item_check>
         <menu_item_separator/>
       	<menu_item_check
-      	 label="Enable Legacy Naming"
+      	 label="레거시 네이밍 가능"
       	 name="Enable Legacy Naming">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2635,7 +2608,7 @@
            parameter="RLVaEnableLegacyNaming" />
       	</menu_item_check>
         <menu_item_check
-      	 label="Enable Shared Wear"
+      	 label="공유 의류 사용 가능"
       	 name="Enable Shared Wear">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2645,7 +2618,7 @@
            parameter="RLVaEnableSharedWear" />
         </menu_item_check>
         <menu_item_check
-      	 label="Rename Shared Items on Wear"
+      	 label="의류에 관한 공유 아이템 이름 재설정"
       	 name="Rename Shared Items on Wear">
           <menu_item_check.on_check
            function="CheckControl"
@@ -2656,7 +2629,7 @@
       	</menu_item_check>
       	<menu_item_separator/>
       	<menu_item_check
-      	 label="Locks..."
+      	 label="잠금..."
       	 name="Locks">
           <menu_item_check.on_check
            function="Floater.Visible"
@@ -2668,7 +2641,7 @@
       </menu>
       <menu_item_separator/>
       <menu_item_check
-       label="Allow OOC Chat"
+       label="OOC 대화 허가"
        name="Allow OOC Chat">
       	<menu_item_check.on_check
       	 function="CheckControl"
@@ -2678,7 +2651,7 @@
       	 parameter="RestrainedLoveCanOOC" />
       </menu_item_check>
       <menu_item_check
-       label="Show Filtered Chat"
+       label="필터링 된 대화 표시"
        name="Show Filtered Chat">
       	<menu_item_check.on_check
       	 function="CheckControl"
@@ -2688,7 +2661,7 @@
       	 parameter="RestrainedLoveShowEllipsis" />
       </menu_item_check>
       <menu_item_check
-       label="Show Redirected Chat Typing"
+       label="리디렉션 대화입력 표시"
        name="Show Redirected Chat Typing">
         <menu_item_check.on_check
       	 function="CheckControl"
@@ -2698,7 +2671,7 @@
       	 parameter="RLVaShowRedirectChatTyping" />
       </menu_item_check>
       <menu_item_check
-       label="Split Long Redirected Chat"
+       label="리디렉션 된 긴 대화 분할"
        name="Split Long Redirected Chat">
         <menu_item_check.on_check
       	 function="CheckControl"
@@ -2709,7 +2682,7 @@
       </menu_item_check>
       <menu_item_separator />
       <menu_item_check
-       label="Allow Temporary Attachments"
+       label="임시 첨부파일 허가"
        name="Allow Temporary Attachments">
       	<menu_item_check.on_check
       	 function="CheckControl"
@@ -2719,7 +2692,7 @@
       	 parameter="RLVaEnableTemporaryAttachments" />
       </menu_item_check>
       <menu_item_check
-       label="Forbid Give to #RLV"
+       label="#RLV에 주는 것 금지"
        name="Forbid Give to #RLV">
       	<menu_item_check.on_check
       	 function="CheckControl"
@@ -2729,7 +2702,7 @@
       	 parameter="RestrainedLoveForbidGiveToRLV" />
       </menu_item_check>
       <menu_item_check
-       label="Wear Replaces Unlocked"
+       label="잠금 해제된 의류 대체"
        name="Wear Replaces Unlocked">
       	<menu_item_check.on_check
       	 function="CheckControl"
@@ -2740,7 +2713,7 @@
       </menu_item_check>
       <menu_item_separator />
        <menu_item_check
-       label="Console..."
+       label="콘솔..."
        name="Console">
         <menu_item_check.on_check
       	 function="Floater.Visible"
@@ -2750,7 +2723,7 @@
       	 parameter="rlv_console" />
       </menu_item_check>
       <menu_item_check
-       label="Restrictions..."
+       label="제한사항..."
        name="Restrictions">
       	<menu_item_check.on_check
       	 function="Floater.Visible"
@@ -2760,7 +2733,7 @@
       	 parameter="rlv_behaviours" />
       </menu_item_check>
       <menu_item_check
-       label="Strings..."
+       label="스트링..."
        name="Strings">
         <menu_item_check.on_check
          function="Floater.Visible"
@@ -2774,31 +2747,31 @@
     <!-- Advanced Menu -->
     <menu
      create_jump_keys="true"
-     label="Advanced"
+     label="고급"
      name="Advanced"
      tear_off="true"
      visible="false">
         <menu_item_call
-         label="Rebake Textures"
+         label="텍스쳐 리베이크"
          name="Rebake Texture">
             <menu_item_call.on_click
              function="Advanced.RebakeTextures" />
         </menu_item_call>
         <menu_item_call
-         label="Refresh Attachments"
+         label="첨부파일 새로고침"
          name="Refresh Attachments">
             <menu_item_call.on_click
              function="Advanced.RefreshAttachments" />
         </menu_item_call>
         <menu_item_call
-           label="Set UI Size to Default"
+           label="UI 크기 기본으로 설정"
            name="Set UI Size to Default"
            shortcut="control|alt|shift|R">
           <menu_item_call.on_click
              function="View.DefaultUISize" />
         </menu_item_call>
         <menu_item_call
-         label="Set Window Size..."
+         label="창 크기 설정..."
          name="Set Window Size...">
           <menu_item_call.on_click
            function="Floater.Show"
@@ -2808,7 +2781,7 @@
         <menu_item_separator/>
 
         <menu_item_check
-         label="Limit Select Distance"
+         label="선택 거리 제한"
          name="Limit Select Distance">
             <menu_item_check.on_check
              function="CheckControl"
@@ -2818,7 +2791,7 @@
              parameter="LimitSelectDistance" />
         </menu_item_check>
         <menu_item_check
-         label="Disable Camera Constraints"
+         label="카메라 제약조건 사용 안함"
          name="Disable Camera Distance">
             <menu_item_check.on_check
              function="CheckControl"
@@ -2831,7 +2804,7 @@
         <menu_item_separator/>
 
         <menu_item_check
-         label="High-res Snapshot"
+         label="고해상도 스냅샷"
          name="HighResSnapshot">
             <menu_item_check.on_check
              function="CheckControl"
@@ -2841,7 +2814,7 @@
              parameter="HighResSnapshot" />
         </menu_item_check>
         <menu_item_check
-         label="Quiet Snapshots"
+         label="조용햔 스냅샷"
          name="QuietSnapshotsToDisk">
             <menu_item_check.on_check
              function="CheckControl"
@@ -2855,18 +2828,18 @@
 
         <menu
          create_jump_keys="true"
-         label="Performance Tools"
+         label="퍼포먼스 도구"
          name="Performance Tools"
          tear_off="true">
             <menu_item_call
-             label="Lag Meter"
+             label="지연 미터"
              name="Lag Meter">
                 <menu_item_call.on_click
                  function="Floater.Show"
                  parameter="lagmeter" />
             </menu_item_call>
             <menu_item_check
-             label="Statistics Bar"
+             label="통계 바"
              name="Statistics Bar"
              shortcut="control|shift|1">
                 <menu_item_check.on_check
@@ -2877,7 +2850,7 @@
                  parameter="stats" />
             </menu_item_check>
             <menu_item_check
-             label="Scene Load Statistics"
+             label="장면 부하 통계"
              name="Scene Load Statistics"
              shortcut="control|shift|2">
                 <menu_item_check.on_check
@@ -2887,19 +2860,8 @@
                  function="Floater.Toggle"
                  parameter="scene_load_stats" />
             </menu_item_check>
-            <menu_item_check
-            label="Improve graphics speed..."
-            name="Performance">
-            <menu_item_check.on_click
-             function="Floater.Toggle"
-             parameter="performance" />
-            <menu_item_check.on_check
-             function="Floater.Visible"
-             parameter="performance" />
-            </menu_item_check>
-  
       <menu_item_check
-        label="Show avatar complexity information"
+        label="아바타 복잡도 정보 표시"
         name="Avatar Draw Info">
            <menu_item_check.on_check
             function="Advanced.CheckInfoDisplay"
@@ -2911,11 +2873,11 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Highlighting and Visibility"
+         label="강조표시와 가시성"
          name="Highlighting and Visibility"
          tear_off="true">
          <menu_item_check
-                 label="Cheesy Beacon"
+                 label="싸구려 비콘"
                  name="Cheesy Beacon">
                     <menu_item_check.on_check
                      function="CheckControl"
@@ -2925,7 +2887,7 @@
                      parameter="CheesyBeacon" />
                 </menu_item_check>
             <menu_item_check
-             label="Hide Particles"
+             label="입자 숨기기"
              name="Hide Particles"
              shortcut="control|alt|shift|=">
                 <menu_item_check.on_check
@@ -2936,7 +2898,7 @@
                  parameter="hideparticles" />
             </menu_item_check>
             <menu_item_check
-             label="Hide Selected"
+             label="선택항목 숨기기"
              name="Hide Selected">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -2946,7 +2908,7 @@
                  parameter="HideSelectedObjects" />
             </menu_item_check>
             <menu_item_check
-             label="Highlight Transparent"
+             label="투명 강조표시"
              name="Highlight Transparent"
              shortcut="control|alt|T"
              use_mac_ctrl="true">
@@ -2956,7 +2918,7 @@
                  function="View.HighlightTransparent" />
             </menu_item_check>
             <menu_item_check
-             label="Show Mouselook Crosshairs"
+             label="마우스모양 십자 표시"
              name="ShowCrosshairs">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -2967,11 +2929,11 @@
             </menu_item_check>
         <menu
          create_jump_keys="true"
-         label="Hover Tips"
+         label="호버 팁"
          name="Hover Tips"
          tear_off="true">
             <menu_item_check
-             label="Show Tips"
+             label="팁 표시"
              name="Show Tips"
              shortcut="control|shift|T">
                 <menu_item_check.on_check
@@ -2983,7 +2945,7 @@
             <menu_item_separator/>
 
             <menu_item_check
-             label="Show Land Tooltips"
+             label="랜드 도구 팁 표시"
              name="Land Tips">
                 <menu_item_check.on_check
                  control="ShowLandHoverTip" />
@@ -2994,7 +2956,7 @@
                  function="View.CheckShowHoverTips" />
             </menu_item_check>
            <menu_item_check
-             label="Show Tips On All Objects"
+             label="모든 객체에 대한 팁 표시"
              name="Tips On All Objects">
                 <menu_item_check.on_check
                  control="ShowAllObjectHoverTip" />
@@ -3010,11 +2972,11 @@
 
         <menu
          create_jump_keys="true"
-         label="Rendering Types"
+         label="타입 렌더링"
          name="Rendering Types"
          tear_off="true">
             <menu_item_check
-             label="Simple"
+             label="단순함"
              name="Rendering Type Simple"
              shortcut="control|alt|shift|1">
                 <menu_item_check.on_check
@@ -3025,7 +2987,7 @@
                  parameter="simple" />
             </menu_item_check>
             <menu_item_check
-             label="Alpha"
+             label="알파"
              name="Rendering Type Alpha"
              shortcut="control|alt|shift|2">
                 <menu_item_check.on_check
@@ -3036,7 +2998,7 @@
                  parameter="alpha" />
             </menu_item_check>
             <menu_item_check
-             label="Tree"
+             label="트리"
              name="Rendering Type Tree"
              shortcut="control|alt|shift|3">
                 <menu_item_check.on_check
@@ -3047,7 +3009,7 @@
                  parameter="tree" />
             </menu_item_check>
             <menu_item_check
-             label="Avatars"
+             label="아바타"
              name="Rendering Type Character"
              shortcut="control|alt|shift|4">
                 <menu_item_check.on_check
@@ -3058,7 +3020,7 @@
                  parameter="character" />
             </menu_item_check>
             <menu_item_check
-             label="Animeshes"
+             label="애니메쉬"
              name="Rendering Type Control Avatar">
                 <menu_item_check.on_check
                  function="Advanced.CheckRenderType"
@@ -3068,7 +3030,7 @@
                  parameter="controlAV" />
             </menu_item_check>
             <menu_item_check
-             label="Surface Patch"
+             label="표면 패치"
              name="Rendering Type Surface Patch"
              shortcut="control|alt|shift|5">
                 <menu_item_check.on_check
@@ -3079,7 +3041,7 @@
                  parameter="surfacePatch" />
             </menu_item_check>
             <menu_item_check
-             label="Sky"
+             label="하늘"
              name="Rendering Type Sky"
              shortcut="control|alt|shift|6">
                 <menu_item_check.on_check
@@ -3090,7 +3052,7 @@
                  parameter="sky" />
             </menu_item_check>
             <menu_item_check
-             label="Water"
+             label="물"
              name="Rendering Type Water"
              shortcut="control|alt|shift|7">
                 <menu_item_check.on_check
@@ -3101,7 +3063,7 @@
                  parameter="water" />
             </menu_item_check>
             <menu_item_check
-             label="Ground"
+             label="땅"
              name="Rendering Type Ground"
              shortcut="control|alt|shift|8">
                 <menu_item_check.on_check
@@ -3112,7 +3074,7 @@
                  parameter="ground" />
             </menu_item_check>
             <menu_item_check
-             label="Volume"
+             label="볼륨"
              name="Rendering Type Volume"
              shortcut="control|alt|shift|9">
                 <menu_item_check.on_check
@@ -3123,7 +3085,7 @@
                  parameter="volume" />
             </menu_item_check>
             <menu_item_check
-             label="Grass"
+             label="풀"
              name="Rendering Type Grass"
              shortcut="control|alt|shift|0">
                 <menu_item_check.on_check
@@ -3134,7 +3096,7 @@
                  parameter="grass" />
             </menu_item_check>
             <menu_item_check
-             label="Clouds"
+             label="구름"
              name="Rendering Type Clouds"
              shortcut="control|alt|shift|-">
                 <menu_item_check.on_check
@@ -3145,7 +3107,7 @@
                  parameter="clouds" />
             </menu_item_check>
             <menu_item_check
-             label="Particles"
+             label="입자"
              name="Rendering Type Particles"
              shortcut="control|alt|shift|=">
                 <menu_item_check.on_check
@@ -3156,7 +3118,7 @@
                  parameter="particles" />
             </menu_item_check>
             <menu_item_check
-             label="Bump"
+             label="범프"
              name="Rendering Type Bump"
              shortcut="control|alt|shift|\">
                 <menu_item_check.on_check
@@ -3169,7 +3131,7 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Rendering Features"
+         label="특징 렌더링"
          name="Rendering Features"
          tear_off="true">
             <menu_item_check
@@ -3185,7 +3147,7 @@
                  parameter="ui" />
             </menu_item_check>
             <menu_item_check
-             label="Selected"
+             label="선택된"
              name="Selected"
              shortcut="control|alt|F2"
              shortcut_linux="control|shift|F2">
@@ -3197,7 +3159,7 @@
                  parameter="selected" />
             </menu_item_check>
             <menu_item_check
-             label="Highlighted"
+             label="강조 표시된"
              name="Highlighted"
              shortcut="control|alt|F3"
              shortcut_linux="control|shift|F3">
@@ -3209,7 +3171,7 @@
                  parameter="highlighted" />
             </menu_item_check>
             <menu_item_check
-             label="Dynamic Textures"
+             label="동적 텍스쳐"
              name="Dynamic Textures"
              shortcut="control|alt|F4"
              shortcut_linux="control|shift|F4">
@@ -3221,7 +3183,7 @@
                  parameter="dynamic textures" />
             </menu_item_check>
             <menu_item_check
-             label="Foot Shadows"
+             label="발 그림자"
              name="Foot Shadows"
              shortcut="control|alt|F5"
              shortcut_linux="control|shift|F5">
@@ -3233,7 +3195,7 @@
                  parameter="foot shadows" />
             </menu_item_check>
             <menu_item_check
-             label="Fog"
+             label="안개"
              name="Fog"
              shortcut="control|alt|F6"
              shortcut_linux="control|shift|F6">
@@ -3245,7 +3207,7 @@
                  parameter="fog" />
             </menu_item_check>
             <menu_item_check
-             label="Test FRInfo"
+             label="FR정보 테스트"
              name="Test FRInfo"
              shortcut="control|alt|F8"
              shortcut_linux="control|shift|F8">
@@ -3257,7 +3219,7 @@
                  parameter="fr info" />
             </menu_item_check>
             <menu_item_check
-             label="Flexible Objects"
+             label="유연한 객체"
              name="Flexible Objects"
              shortcut="control|alt|F9"
              shortcut_linux="control|shift|F9">
@@ -3275,24 +3237,24 @@
          tear_off="true"
          visible="true" />
 		<menu
-			label="Media Streams Backup"
+			label="미디어 스트림 백업"
 			name="media_stream_import_export"
 			tear_off="true">
 			<menu_item_call
-				label="Import Stream List XML..."
+				label="스트림 XML 목록 불러오기..."
 				name="media_stream_import">
                 <menu_item_call.on_click
 				function="Streamlist.xml_import" />
             </menu_item_call>
 			<menu_item_call
-				label="Export Stream List XML..."
+				label="스트림 XML 목록 수출하기..."
 				name="media_stream_export">
                 <menu_item_call.on_click
 				function="Streamlist.xml_export" />
             </menu_item_call>
 		</menu>
         <menu_item_check
-         label="Use Plugin Read Thread"
+         label="플러그인 읽기 쓰레드 사용"
          name="Use Plugin Read Thread">
             <menu_item_check.on_check
              function="CheckControl"
@@ -3302,14 +3264,14 @@
              parameter="PluginUseReadThread" />
         </menu_item_check>
         <menu_item_call
-         label="Clear Group Cache"
+         label="그룹 캐시 정리"
          name="ClearGroupCache">
             <menu_item_call.on_click
              function="Advanced.ClearGroupCache"
              parameter="ClearGroupCache" />
         </menu_item_call>
         <menu_item_check
-         label="Mouse Smoothing"
+         label="마우스 스무딩"
          name="Mouse Smoothing">
             <menu_item_check.on_check
              function="CheckControl"
@@ -3320,7 +3282,7 @@
         </menu_item_check>
             <menu_item_call
              enabled="false"
-             label="Release Keys"
+             label="릴리즈 키"
              name="Release Keys">
                 <menu_item_call.on_click
                  function="Tools.ReleaseKeys"
@@ -3333,12 +3295,12 @@
 
         <menu
          create_jump_keys="true"
-         label="Shortcuts"
+         label="바로가기"
          name="Shortcuts"
          tear_off="true"
          visible="false">
             <menu_item_check
-               label="Search"
+               label="검색"
                name="Search"
                shortcut="control|F">
             <menu_item_check.on_check
@@ -3351,7 +3313,7 @@
 
           <!--   	//[FIX FIRE-1927 - enable DoubleClickTeleport shortcut : SJ] -->
           <menu_item_check
-           label="DoubleClick Teleport"
+           label="더블클릭 순간이동"
            name="DoubleClick Teleport"
            shortcut="control|shift|D">
             <on_check
@@ -3365,7 +3327,7 @@
           <menu_item_separator/>
 
             <menu_item_check
-             label="Always Run"
+             label="항상 뛰기"
              name="Always Run"
              shortcut="control|R">
                 <menu_item_check.on_check
@@ -3374,7 +3336,7 @@
                  function="World.AlwaysRun" />
             </menu_item_check>
             <menu_item_check
-             label="Fly"
+             label="비행"
              name="Fly"
              shortcut="Home">
                 <menu_item_check.on_check
@@ -3388,7 +3350,7 @@
             <menu_item_separator/>
 
             <menu_item_call
-             label="Close Window"
+             label="창 닫기"
              name="Close Window"
              shortcut="control|W">
                 <menu_item_call.on_click
@@ -3397,16 +3359,7 @@
                  function="File.EnableCloseWindow" />
             </menu_item_call>
             <menu_item_call
-             label="Close Window Group"
-             name="Close Window Group"
-             shortcut="control|alt|W">
-                <menu_item_call.on_click
-                 function="File.CloseWindowGroup" />
-                <menu_item_call.on_enable
-                 function="File.EnableCloseWindowGroup" />
-            </menu_item_call>
-            <menu_item_call
-             label="Close All Windows"
+             label="창 모두 닫기"
              name="Close All Windows"
              shortcut="control|shift|W">
                 <menu_item_call.on_click
@@ -3418,7 +3371,7 @@
             <menu_item_separator/>
 
             <menu_item_call
-             label="Snapshot to Disk"
+             label="디스크로 스냅샷"
              name="Snapshot to Disk"
              shortcut="control|`"
              use_mac_ctrl="true">
@@ -3429,7 +3382,7 @@
             <menu_item_separator/>
 
             <menu_item_call
-             label="Mouselook"
+             label="마우스룩"
              name="Mouselook"
              shortcut="M">
                 <menu_item_call.on_click
@@ -3438,7 +3391,7 @@
                  function="View.EnableMouselook" />
             </menu_item_call>
             <menu_item_check
-             label="Joystick Flycam"
+             label="조이스틱 플라이캠"
              name="Joystick Flycam"
              shortcut="alt|shift|F">
                 <menu_item_check.on_check
@@ -3449,21 +3402,21 @@
                  function="View.EnableJoystickFlycam" />
             </menu_item_check>
             <menu_item_call
-             label="Reset View"
+             label="표시 재설정"
              name="Reset View"
              shortcut="Esc">
                 <menu_item_call.on_click
                  function="View.ResetView" />
             </menu_item_call>
             <menu_item_call
-             label="Reset Camera Angles"
+             label="카메라 앵글 재설정"
              name="Reset Camera Angles"
              shortcut="shift|Esc">
                 <menu_item_call.on_click
                  function="View.ResetCameraAngles" />
             </menu_item_call>
             <menu_item_call
-             label="Look at Last Chatter"
+             label="마지막 대화 표시"
              name="Look at Last Chatter"
              shortcut="control|\">
                 <menu_item_call.on_click
@@ -3475,21 +3428,21 @@
             <menu_item_separator/>
 
             <menu_item_call
-             label="Zoom In"
+             label="확대"
              name="Zoom In"
              shortcut="control|0">
                 <menu_item_call.on_click
                  function="View.ZoomIn" />
             </menu_item_call>
             <menu_item_call
-             label="Zoom Default"
+             label="줌 기본"
              name="Zoom Default"
              shortcut="control|9">
                 <menu_item_call.on_click
                  function="View.ZoomDefault" />
             </menu_item_call>
             <menu_item_call
-             label="Zoom Out"
+             label="축소"
              name="Zoom Out"
              shortcut="control|8">
                 <menu_item_call.on_click
@@ -3500,7 +3453,7 @@
         <menu_item_separator/>
 
         <menu_item_check
-         label="Fly Override"
+         label="비행 오버라이드"
          name="Fly Override"
 	 shortcut="control|alt|V">
             <menu_item_check.on_check
@@ -3512,7 +3465,7 @@
         </menu_item_check>
 
         <menu_item_check
-           label="RestrainedLove API"
+           label="RLV API"
            name="RLV API">
               <menu_item_check.on_check
                function="CheckControl"
@@ -3525,7 +3478,7 @@
         </menu_item_check>
 
         <menu_item_call
-         label="Show Debug Settings"
+         label="디버그 설정 표시"
          shortcut="control|alt|shift|S"
          name="Debug Settings">
             <menu_item_call.on_click
@@ -3534,7 +3487,7 @@
         </menu_item_call>
      <!-- <FS:TS> FIRE-17589: Use control-alt-Q on OS X too -->
      <menu_item_check
-         label="Show Developer Menu"
+         label="개발자 메뉴 표시"
          name="Debug Mode"
          shortcut="control|alt|Q"
          use_mac_ctrl="true">
@@ -3550,17 +3503,17 @@
 
     <menu
      create_jump_keys="true"
-     label="Developer"
+     label="개발자"
      name="Develop"
      tear_off="true"
      visible="false">
         <menu
          create_jump_keys="true"
-         label="Consoles"
+         label="콘솔"
          name="Consoles"
          tear_off="true">
             <menu_item_check
-             label="Texture Console"
+             label="텍스쳐 콘솔"
              name="Texture Console"
              shortcut="control|shift|3"
              use_mac_ctrl="true">
@@ -3572,7 +3525,7 @@
                  parameter="texture" />
             </menu_item_check>            
             <menu_item_check
-             label="Debug Console"
+             label="디버그 콘솔"
              name="Debug Console"
              shortcut="control|shift|4"
              use_mac_ctrl="true">
@@ -3584,7 +3537,7 @@
                  parameter="debug" />
             </menu_item_check>
             <menu_item_call
-             label="Notifications Console"
+             label="알림 콘솔"
              name="Notifications"
              shortcut="control|shift|5">
               <menu_item_call.on_click
@@ -3592,7 +3545,7 @@
                parameter="notifications_console" />
             </menu_item_call>
             <menu_item_check
-             label="Fast Timers"
+             label="빠른 타이머"
              name="Fast Timers"
              shortcut="control|shift|9"
              use_mac_ctrl="true">
@@ -3604,7 +3557,7 @@
                  parameter="fast timers" />
             </menu_item_check>
             <menu_item_check
-             label="Memory"
+             label="메모리"
              name="Memory"
              shortcut="control|shift|0"
              use_mac_ctrl="true">
@@ -3616,7 +3569,7 @@
                  parameter="memory view" />
             </menu_item_check>
             <menu_item_check
-               label="Scene Statistics"
+               label="장면 통계"
                name="Scene Statistics">
               <menu_item_check.on_check
                function="Advanced.CheckConsole"
@@ -3626,7 +3579,7 @@
                parameter="scene view" />
             </menu_item_check>
             <menu_item_check
-                 label="Scene Loading Monitor"
+                 label="장면 로딩 모니터"
                  name="Scene Loading Monitor">
               <menu_item_check.on_check
                function="Advanced.CheckConsole"
@@ -3638,7 +3591,7 @@
             <menu_item_call
               enabled="false"
               visible="false"
-              label="Texture Fetch Debug Console"
+              label="텍스쳐 가져오기 디버그 콘솔"
               name="Texture Fetch Debug Console">
               <menu_item_call.on_click
                 function="Floater.Show"
@@ -3652,7 +3605,7 @@
             <menu_item_separator/>
 
             <menu_item_check
-             label="Region Debug Console"
+             label="지역 디버그 콘솔"
              name="Region Debug Console"
              shortcut="control|shift|`"
              use_mac_ctrl="true">
@@ -3667,21 +3620,21 @@
             <menu_item_separator/>
 
             <menu_item_call
-             label="Region Info to Debug Console"
+             label="디버그 콘솔에 대한 지역 정보"
              name="Region Info to Debug Console">
                 <menu_item_call.on_click
                  function="Advanced.DumpInfoToConsole"
                  parameter="region" />
             </menu_item_call>
             <menu_item_call
-             label="Group Info to Debug Console"
+             label="디버그 콘솔에 대한 그룹 정보"
              name="Group Info to Debug Console">
                 <menu_item_call.on_click
                  function="Advanced.DumpInfoToConsole"
                  parameter="group" />
             </menu_item_call>
             <menu_item_call
-             label="Capabilities Info to Debug Console"
+             label="디버그 콘솔에 대한 기능 정보"
              name="Capabilities Info to Debug Console">
                 <menu_item_call.on_click
                  function="Advanced.DumpInfoToConsole"
@@ -3691,7 +3644,7 @@
             <menu_item_separator/>
 
             <menu_item_check
-             label="Camera"
+             label="카메라"
              name="Camera">
                 <menu_item_check.on_check
                  function="Advanced.CheckHUDInfo"
@@ -3701,7 +3654,7 @@
                  parameter="camera" />
             </menu_item_check>
             <menu_item_check
-             label="Wind"
+             label="바람"
              name="Wind">
                 <menu_item_check.on_check
                  function="Advanced.CheckHUDInfo"
@@ -3721,7 +3674,7 @@
                  parameter="fov" />
             </menu_item_check>
             <menu_item_check
-             label="Badge"
+             label="뱃지"
              name="Badge"
              shortcut="alt|control|shift|h">
                 <menu_item_check.on_click
@@ -3729,7 +3682,7 @@
                  parameter="badge" />
             </menu_item_check>
             <menu_item_check
-             label="Cookies"
+             label="쿠키"
              name="Cookies"
              visible="false"
              shortcut="alt|shift|c">
@@ -3740,11 +3693,11 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Show Info"
+         label="정보 표시"
          name="Display Info"
          tear_off="true">
             <menu_item_check
-             label="Show Time"
+             label="시간 표시"
              name="Show Time">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -3754,7 +3707,7 @@
                  parameter="DebugShowTime" />
             </menu_item_check>
           <menu_item_check
-             label="Show Upload Transaction"
+             label="업로드 트랜잭션 표시"
              name="Show Upload Transaction">
               <menu_item_check.on_check
              function="CheckControl"
@@ -3764,7 +3717,7 @@
                  parameter="FSShowUploadPaymentToast" />
             </menu_item_check>
             <menu_item_check
-             label="Show Texture Info"
+             label="텍스쳐 정보 표시"
              name="Show Texture Info">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -3774,14 +3727,14 @@
                  parameter="DebugShowTextureInfo" />
             </menu_item_check>
             <menu_item_call
-              label="VRAM usage per object"
+              label="객체당 VRAM 사용량"
               name="VRAM usage per object">
               <menu_item_call.on_click
                 function="Floater.Show"
                 parameter="vram_usage" />
             </menu_item_call>
             <menu_item_check
-             label="Show Avatar Render Info"
+             label="아바타 렌더 정보 표시"
              name="Show Avatar Render Info">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -3791,7 +3744,7 @@
                  parameter="DebugShowAvatarRenderInfo" />
             </menu_item_check>
             <menu_item_check
-             label="Show Render Info"
+             label="렌더 정보 표시"
              name="Show Render Info">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -3801,7 +3754,7 @@
                  parameter="DebugShowRenderInfo" />
             </menu_item_check>
             <menu_item_check
-             label="Show Matrices"
+             label="매트릭스 표시"
              name="Show Matrices">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -3811,7 +3764,7 @@
                  parameter="DebugShowRenderMatrices" />
             </menu_item_check>
             <menu_item_check
-             label="Show Color Under Cursor"
+             label="커서 아래 색깔 표시"
              name="Show Color Under Cursor">
                 <menu_item_check.on_check
                  function="Advanced.CheckShowColor" />
@@ -3819,7 +3772,7 @@
                  function="Advanced.ToggleShowColor" />
             </menu_item_check>
             <menu_item_check
-               label="Show Memory"
+               label="메모리 표시"
                name="Show Memory">
               <menu_item_check.on_check
                function="CheckControl"
@@ -3832,7 +3785,7 @@
             <menu_item_separator/>
 
             <menu_item_check
-             label="Show Updates to Objects"
+             label="객체에 대한 업데이트 표시"
              name="Show Updates"
              shortcut="control|alt|shift|U">
                 <menu_item_check.on_check
@@ -3844,11 +3797,11 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Profiling/Telemetry"
+         label="프로파일링/텔레메트리"
          name="Enable / Disable telemetry capture"
          tear_off="true">
             <menu_item_check
-             label="Profiling"
+             label="프로파일링"
              name="Profiling">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -3858,7 +3811,7 @@
                  parameter="FSTelemetryActive" />
             </menu_item_check>
             <menu_item_check
-             label="Start when connected"
+             label="연결되면 시작"
              name="Start when telemetry client connects">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -3873,66 +3826,54 @@
 
         <menu
          create_jump_keys="true"
-         label="Force an Error"
+         label="오류 강제 실행"
          name="Force Errors"
          tear_off="true">
             <menu_item_call
-             label="Force Breakpoint"
+             label="중단점 강제적용"
              name="Force Breakpoint"
              shortcut="control|alt|shift|B">
                 <menu_item_call.on_click
                  function="Advanced.ForceErrorBreakpoint" />
             </menu_item_call>
             <menu_item_call
-             label="Force LLError And Crash"
+             label="LLError 강제 적용 및 충돌"
              name="Force LLError And Crash">
                 <menu_item_call.on_click
                  function="Advanced.ForceErrorLlerror" />
             </menu_item_call>
             <menu_item_call
-             label="Force Bad Memory Access"
+             label="잘못된 메모리 접근 강제실행"
              name="Force Bad Memory Access">
                 <menu_item_call.on_click
                  function="Advanced.ForceErrorBadMemoryAccess" />
             </menu_item_call>
             <menu_item_call
-             label="Force Infinite Loop"
+             label="무한 루프 강제실행"
              name="Force Infinite Loop">
                 <menu_item_call.on_click
                  function="Advanced.ForceErrorInfiniteLoop" />
             </menu_item_call>
             <menu_item_call
-             label="Force Driver Crash"
+             label="운전자 충돌 강제실행"
              name="Force Driver Carsh">
                 <menu_item_call.on_click
                  function="Advanced.ForceErrorDriverCrash" />
             </menu_item_call>
             <menu_item_call
-             label="Force Software Exception"
+             label="소프트웨어 예외 강제실행"
              name="Force Software Exception">
                 <menu_item_call.on_click
                  function="Advanced.ForceErrorSoftwareException" />
             </menu_item_call>
             <menu_item_call
-             label="Force a Crash in a Coroutine"
-             name="Force a Crash in a Coroutine">
-                <menu_item_call.on_click
-                 function="Advanced.ForceErrorCoroutineCrash" />
-            </menu_item_call>
-            <menu_item_call
-             label="Force a Crash in a Thread"
-             name="Force a Crash in a Thread">
-                <menu_item_call.on_click
-                 function="Advanced.ForceErrorThreadCrash" />
-            </menu_item_call>
-            <menu_item_call
-             label="Force Disconnect Viewer"
+             label="뷰어 강제 연결 끊기"
              name="Force Disconnect Viewer">
                 <menu_item_call.on_click
                  function="Advanced.ForceErrorDisconnectViewer" />
             </menu_item_call>
             <menu_item_call
-             label="Simulate a Memory Leak"
+             label="메모리 누수 시뮬레이션"
              name="Memory Leaking Simulation">
                <menu_item_call.on_click
                 function="Floater.Show"
@@ -3941,11 +3882,11 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Render Tests"
+         label="렌더 테스트"
          name="Render Tests"
          tear_off="true">
             <menu_item_check
-             label="Camera Offset"
+             label="카메라 오프셋"
              name="Camera Offset">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -3955,7 +3896,7 @@
                  parameter="CameraOffset" />
             </menu_item_check>
             <menu_item_check
-             label="Randomize Framerate"
+             label="프레임율 랜덤화"
              name="Randomize Framerate">
                 <menu_item_check.on_check
                  function="Advanced.CheckRandomizeFramerate"
@@ -3964,7 +3905,7 @@
                  function="Advanced.ToggleRandomizeFramerate" />
             </menu_item_check>
             <menu_item_check
-             label="Periodic Slow Frame"
+             label="주기적 저속 프레임"
              name="Periodic Slow Frame">
                 <menu_item_check.on_check
                  function="Advanced.CheckPeriodicSlowFrame"
@@ -3974,7 +3915,7 @@
                  parameter="points" />
             </menu_item_check>
             <menu_item_check
-             label="Frame Test"
+             label="프레임 테스트"
              name="Frame Test">
                 <menu_item_check.on_check
                  function="Advanced.CheckFrameTest"
@@ -3983,13 +3924,13 @@
                  function="Advanced.ToggleFrameTest" />
             </menu_item_check>
           <menu_item_call
-             label="Frame Profile"
+             label="프레임 프로필"
              name="Frame Profile">
             <menu_item_call.on_click
              function="Advanced.ClickRenderProfile" />
           </menu_item_call>
             <menu_item_call
-             label="Benchmark"
+             label="벤치마크"
              name="Benchmark">
               <menu_item_call.on_click
                function="Advanced.ClickRenderBenchmark" />
@@ -3997,11 +3938,11 @@
         </menu>
       <menu
         create_jump_keys="true"
-        label="Render Metadata"
+        label="메타데이터 렌더"
         name="Render Metadata"
         tear_off="true">
         <menu_item_check
-         label="Bounding Boxes"
+         label="경계 상자"
          name="Bounding Boxes">
         <menu_item_check.on_check
          function="Advanced.CheckInfoDisplay"
@@ -4012,7 +3953,7 @@
         </menu_item_check>
         <!-- <FS:Zi> Add avatar hitbox debug -->
         <menu_item_check
-         label="Avatar Hitboxes"
+         label="아바타 히트박스"
          name="Avatar Hitboxes">
         <menu_item_check.on_check
          function="CheckControl"
@@ -4023,7 +3964,7 @@
         </menu_item_check>
         <!-- </FS:Zi> Add avatar hitbox debug -->
         <menu_item_check
-         label="Normals"
+         label="일반"
          name="Normals">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4033,7 +3974,7 @@
            parameter="normals" />
         </menu_item_check>
         <menu_item_check
-         label="Octree"
+         label="옥트리"
          name="Octree">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4043,7 +3984,7 @@
            parameter="octree" />
         </menu_item_check>
         <menu_item_check
-         label="Shadow Frusta"
+         label="쉐도우 프러스타"
          name="Shadow Frusta">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4053,7 +3994,7 @@
            parameter="shadow frusta" />
         </menu_item_check>
         <menu_item_check
-         label="Physics Shapes"
+         label="물리 형상"
          name="Physics Shapes">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4063,7 +4004,7 @@
            parameter="physics shapes" />
         </menu_item_check>
         <menu_item_check
-         label="Occlusion"
+         label="교합"
          name="Occlusion">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4073,7 +4014,7 @@
            parameter="occlusion" />
         </menu_item_check>
         <menu_item_check
-         label="Render Batches"
+         label="배치 렌더"
          name="Render Batches">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4083,7 +4024,7 @@
            parameter="render batches" />
         </menu_item_check>
         <menu_item_check
-         label="Update Type"
+         label="타입 업데이트"
          name="Update Type">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4093,7 +4034,7 @@
            parameter="update type" />
         </menu_item_check>
         <menu_item_check
-         label="Texture Anim"
+         label="텍스쳐 애니"
          name="Texture Anim">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4103,7 +4044,7 @@
            parameter="texture anim" />
         </menu_item_check>
         <menu_item_check
-         label="Texture Priority"
+         label="텍스쳐 우선순위"
          name="Texture Priority">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4113,7 +4054,7 @@
            parameter="texture priority" />
         </menu_item_check>
         <menu_item_check
-         label="Texture Area"
+         label="텍스쳐 지역"
          name="Texture Area">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4123,7 +4064,7 @@
            parameter="texture area" />
         </menu_item_check>
         <menu_item_check
-         label="Face Area"
+         label="얼굴 면적"
          name="Face Area">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4133,7 +4074,7 @@
            parameter="face area" />
         </menu_item_check>
         <menu_item_check
-         label="LOD Info"
+         label="LOD 정보"
          name="LOD Info">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4143,7 +4084,7 @@
            parameter="lod info" />
         </menu_item_check>
         <menu_item_check
-         label="Triangle Count"
+         label="삼각수"
          name="Triangle Count">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4153,7 +4094,7 @@
            parameter="triangle count" />
         </menu_item_check>
         <menu_item_check
-         label="Build Queue"
+         label="큐 빌드"
          name="Build Queue">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4163,7 +4104,7 @@
            parameter="build queue" />
         </menu_item_check>
         <menu_item_check
-         label="Lights"
+         label="빛"
          name="Lights">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4173,7 +4114,7 @@
            parameter="lights" />
         </menu_item_check>
         <menu_item_check
-         label="Particles"
+         label="입자"
          name="Particles">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4183,7 +4124,7 @@
            parameter="particles" />
         </menu_item_check>
         <menu_item_check
-         label="Collision Skeleton"
+         label="충돌 스켈레톤"
          name="Collision Skeleton">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4193,7 +4134,7 @@
            parameter="collision skeleton" />
         </menu_item_check>
         <menu_item_check
-         label="Joints"
+         label="관절"
          name="Joints">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4203,7 +4144,7 @@
            parameter="joints" />
         </menu_item_check>
         <menu_item_check
-         label="Raycast"
+         label="레이캐스트"
          name="Raycast">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4213,7 +4154,7 @@
            parameter="raycast" />
         </menu_item_check>
 		<menu_item_check
-         label="Wind Vectors"
+         label="바람 벡터"
          name="Wind Vectors">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4223,7 +4164,7 @@
            parameter="wind vectors" />
         </menu_item_check>
 		<menu_item_check
-         label="Sculpt"
+         label="조각"
          name="Sculpt">
           <menu_item_check.on_check
            function="Advanced.CheckInfoDisplay"
@@ -4233,7 +4174,7 @@
            parameter="sculpt" />
 		</menu_item_check>
     <menu_item_check
-          label="Texture Size"
+          label="텍스쳐 크기"
           name="Texture Size">
       <menu_item_check.on_check
         function="Advanced.CheckInfoDisplay"
@@ -4244,11 +4185,11 @@
     </menu_item_check>
        <menu
          create_jump_keys="true"
-         label="Texture Density"
+         label="텍스쳐 밀도"
          name="Texture Density"
          tear_off="true">
           <menu_item_check
-           label="None"
+           label="없음"
            name="None">
             <menu_item_check.on_check
              function="Advanced.CheckDisplayTextureDensity"
@@ -4258,7 +4199,7 @@
              parameter="none" />
           </menu_item_check>
           <menu_item_check
-           label="Current"
+           label="현재"
            name="Current">
             <menu_item_check.on_check
              function="Advanced.CheckDisplayTextureDensity"
@@ -4268,7 +4209,7 @@
              parameter="current" />
           </menu_item_check>
           <menu_item_check
-           label="Desired"
+           label="열망하는"
            name="Desired">
             <menu_item_check.on_check
              function="Advanced.CheckDisplayTextureDensity"
@@ -4278,7 +4219,7 @@
              parameter="desired" />
           </menu_item_check>
           <menu_item_check
-           label="Full"
+           label="꽉찬"
            name="Full">
             <menu_item_check.on_check
              function="Advanced.CheckDisplayTextureDensity"
@@ -4291,11 +4232,11 @@
       </menu>
         <menu
          create_jump_keys="true"
-         label="Rendering"
+         label="렌더링"
          name="Rendering"
          tear_off="true">
             <menu_item_check
-             label="Axes"
+             label="축"
              name="Axes">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4305,7 +4246,7 @@
                  parameter="ShowAxes" />
             </menu_item_check>
             <menu_item_check
-             label="Tangent Basis"
+             label="접선 기준"
              name="Tangent Basis">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4315,21 +4256,21 @@
                  parameter="ShowTangentBasis" />
             </menu_item_check>
             <menu_item_call
-             label="Selected Texture Info Basis"
+             label="선택된 텍스쳐 정보 기준"
              name="Selected Texture Info Basis"
              shortcut="control|alt|shift|T">
                 <menu_item_call.on_click
                  function="Advanced.SelectedTextureInfo" />
             </menu_item_call>
             <menu_item_call
-             label="Selected Material Info"
+             label="선택된 물질 정보"
              name="Selected Material Info"
              shortcut="control|alt|shift|M">
                 <menu_item_call.on_click
                  function="Advanced.SelectedMaterialInfo" />
             </menu_item_call>
             <menu_item_check
-             label="Wireframe"
+             label="와이어프레임"
              name="Wireframe"
              shortcut="control|shift|R">
                 <menu_item_check.on_check
@@ -4339,7 +4280,7 @@
                  function="Advanced.ToggleWireframe" />
             </menu_item_check>
             <menu_item_check
-             label="Object-Object Occlusion"
+             label="오브젝트-오브젝트 교합"
              name="Object-Object Occlusion"
              shortcut="control|shift|O">
                 <menu_item_check.on_check
@@ -4354,7 +4295,7 @@
           <menu_item_separator />
 
           <menu_item_check
-                       label="Advanced Lighting Model"
+                       label="고급 라이트닝 모델"
                        name="Advanced Lighting Model">
             <menu_item_check.on_check
              function="CheckControl"
@@ -4366,7 +4307,7 @@
                  function="Advanced.EnableRenderDeferred" />
           </menu_item_check>
           <menu_item_check
-                       label="   Shadows from Sun/Moon/Projectors"
+                       label="   해/달/프로젝터 그림자"
                        name="Shadows from Sun/Moon/Projectors">
             <menu_item_check.on_check
              function="Advanced.CheckRenderShadowOption"
@@ -4378,7 +4319,7 @@
                  function="Advanced.EnableRenderDeferredOptions" />
           </menu_item_check>
           <menu_item_check
-                   label="   SSAO and Shadow Smoothing"
+                   label="   SSAO 와 그림자 스무딩"
                    name="SSAO and Shadow Smoothing">
             <menu_item_check.on_check
              function="CheckControl"
@@ -4392,7 +4333,7 @@
           <menu_item_separator />
 
           <menu_item_check
-             label="Debug GL"
+             label="GL 디버그"
              name="Debug GL">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4402,7 +4343,7 @@
                  parameter="RenderDebugGL" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Pipeline"
+             label="파이프라인 디버그"
              name="Debug Pipeline">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4412,7 +4353,7 @@
                  parameter="RenderDebugPipeline" />
             </menu_item_check>
             <menu_item_check
-             label="Automatic Alpha Masks (deferred)"
+             label="자동 알파 마스크 (연기)"
              name="Automatic Alpha Masks (deferred)">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4422,7 +4363,7 @@
                  parameter="RenderAutoMaskAlphaDeferred" />
             </menu_item_check>
             <menu_item_check
-             label="Automatic Alpha Masks (non-deferred)"
+             label="자동 알파 마스크 (비연기)"
              name="Automatic Alpha Masks (non-deferred)">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4432,7 +4373,7 @@
                  parameter="RenderAutoMaskAlphaNonDeferred" />
             </menu_item_check>
             <menu_item_check
-             label="Animation Textures"
+             label="애니메이션 텍스쳐"
              name="Animation Textures">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4442,7 +4383,7 @@
                  parameter="AnimateTextures" />
             </menu_item_check>
             <menu_item_check
-             label="Disable Textures"
+             label="텍스쳐 사용 안함"
              name="Disable Textures">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4452,13 +4393,13 @@
                  parameter="TextureDisable" />
             </menu_item_check>
             <menu_item_call
-              label="Derender all animesh"
+              label="모든 애니메쉬 디렌더"
               name="Derender Animesh">
               <menu_item_call.on_click
                 function="Tools.DerenderAnimatedObjects" />
             </menu_item_call>
           <menu_item_check
-             label="Disable Ambient"
+             label="앰비언트 사용 안함"
              name="Disable Ambient">
             <menu_item_check.on_check
              function="CheckControl"
@@ -4468,7 +4409,7 @@
              parameter="AmbientDisable" />
           </menu_item_check>
           <menu_item_check
-             label="Disable Sunlight"
+             label="햇빛 사용 안함"
              name="Disable Sunlight">
             <menu_item_check.on_check
              function="CheckControl"
@@ -4478,7 +4419,7 @@
              parameter="SunlightDisable" />
           </menu_item_check>
           <menu_item_check
-             label="Disable Local Lights"
+             label="로컬 빛 사용안함"
              name="Disable Local Lights">
             <menu_item_check.on_check
              function="CheckControl"
@@ -4488,7 +4429,7 @@
              parameter="LocalLightDisable" />
           </menu_item_check>
           <menu_item_check
-              label="Full Res Textures (dangerous)"
+              label="전체 해상도 텍스쳐 (위험)"
              name="Full Res Textures">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4498,7 +4439,7 @@
                  parameter="TextureLoadFullRes" />
             </menu_item_check>
             <menu_item_check
-             label="Render Attached Lights"
+             label="부착된 빛 렌더"
              name="Render Attached Lights">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4508,7 +4449,7 @@
                  parameter="RenderAttachedLights" />
             </menu_item_check>
             <menu_item_check
-             label="Render Attached Particles"
+             label="부착된 입자 렌더"
              name="Render Attached Particles">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4518,7 +4459,7 @@
                  parameter="RenderAttachedParticles" />
             </menu_item_check>
             <menu_item_check
-             label="Hover Glow Objects"
+             label="호버 예열 객체"
              name="Hover Glow Objects">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4532,11 +4473,11 @@
 
         <menu
          create_jump_keys="true"
-         label="Network"
+         label="네트워크"
          name="Network"
          tear_off="true">
             <menu_item_check
-             label="Pause Agent"
+             label="에이전트 일시정지"
              name="AgentPause">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4549,13 +4490,13 @@
             <menu_item_separator/>
 
             <menu_item_call
-             label="Enable Message Log"
+             label="메세지 로그 사용"
              name="Enable Message Log">
                 <menu_item_call.on_click
                  function="Advanced.EnableMessageLog" />
             </menu_item_call>
             <menu_item_call
-             label="Disable Message Log"
+             label="메세지 로그 사용 안함"
              name="Disable Message Log">
                 <menu_item_call.on_click
                  function="Advanced.DisableMessageLog" />
@@ -4564,7 +4505,7 @@
             <menu_item_separator/>
 
             <menu_item_check
-             label="Velocity Interpolate Objects"
+             label="속도 보강 객체"
              name="Velocity Interpolate Objects">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4574,7 +4515,7 @@
                  parameter="VelocityInterpolate" />
             </menu_item_check>
             <menu_item_check
-             label="Ping Interpolate Object Positions"
+             label="핑 보강 객체 위치"
              name="Ping Interpolate Object Positions">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4587,7 +4528,7 @@
             <menu_item_separator/>
 
             <menu_item_call
-             label="Drop a Packet"
+             label="패킷 드랍"
              name="Drop a Packet"
              shortcut="control|alt|L">
                 <menu_item_call.on_click
@@ -4595,18 +4536,18 @@
             </menu_item_call>
         </menu>
         <menu_item_call
-         label="Dump Scripted Camera"
+         label="스크립트로 작성된 카메라 덤프"
          name="Dump Scripted Camera">
             <menu_item_call.on_click
              function="Advanced.DumpScriptedCamera" />
         </menu_item_call>      
         <menu
          create_jump_keys="true"
-         label="Recorder"
+         label="레코더"
          name="Recorder"
          tear_off="true">
             <menu_item_call visible="false"
-             label="Start event recording"
+             label="시작 이벤트 기록"
              name="Start event recording">
 	      <menu_item_call.on_visible
 		 function="displayViewerEventRecorderMenuItems" />
@@ -4615,7 +4556,7 @@
                  parameter="start recording" />
             </menu_item_call>
             <menu_item_call visible="false"
-             label="Stop event recording"
+             label="중지 이벤트 기록"
              name="Stop event recording">
 	      <menu_item_call.on_visible
 		 function="displayViewerEventRecorderMenuItems" />
@@ -4624,7 +4565,7 @@
                  parameter="stop recording" />
             </menu_item_call>
             <menu_item_call visible="false"
-             label="Playback event recording"
+             label="재생 이벤트 기록"
              name="Playback event recording">
 	      <menu_item_call.on_visible
 		 function="displayViewerEventRecorderMenuItems" />
@@ -4634,21 +4575,21 @@
             </menu_item_call>
 
             <menu_item_call
-             label="Start Playback"
+             label="재생 시작"
              name="Start Playback">
                 <menu_item_call.on_click
                  function="Advanced.AgentPilot"
                  parameter="start playback" />
             </menu_item_call>
             <menu_item_call
-             label="Stop Playback"
+             label="재생 중지"
              name="Stop Playback">
                 <menu_item_call.on_click
                  function="Advanced.AgentPilot"
                  parameter="stop playback" />
             </menu_item_call>
             <menu_item_check
-             label="Loop Playback"
+             label="재생 반복"
              name="Loop Playback">
                 <menu_item_check.on_check
                  function="Advanced.CheckAgentPilotLoop"
@@ -4657,14 +4598,14 @@
                  function="Advanced.ToggleAgentPilotLoop" />
             </menu_item_check>
             <menu_item_call
-             label="Start Record"
+             label="녹화 시작"
              name="Start Record">
                 <menu_item_call.on_click
                  function="Advanced.AgentPilot"
                  parameter="start record" />
             </menu_item_call>
             <menu_item_call
-             label="Stop Record"
+             label="녹화 중지"
              name="Stop Record">
                 <menu_item_call.on_click
                  function="Advanced.AgentPilot"
@@ -4674,11 +4615,11 @@
 
         <menu
          create_jump_keys="true"
-         label="World"
+         label="월드"
          name="DevelopWorld"
          tear_off="true">
             <menu_item_check
-             label="Sim Sun Override"
+             label="심 선 오버라이드"
              name="Sim Sun Override">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4688,7 +4629,7 @@
                  parameter="SkyOverrideSimSunPosition" />
             </menu_item_check>
             <menu_item_check
-             label="Fixed Weather"
+             label="수정된 날씨"
              name="Fixed Weather">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4698,21 +4639,13 @@
                  parameter="FixedWeather" />
             </menu_item_check>
             <menu_item_call
-             label="Dump Region Object Cache"
+             label="덤프 지역 객체 캐시"
              name="Dump Region Object Cache">
                 <menu_item_call.on_click
                  function="Advanced.DumpRegionObjectCache" />
             </menu_item_call>
-        
             <menu_item_call
-             label="Interest List: Full Update"
-             name="Interest List: Full Update"
-             shortcut="alt|shift|I">
-                <menu_item_call.on_click
-                 function="Advanced.InterestListFullUpdate" />
-            </menu_item_call>
-            <menu_item_call
-             label="Dump Simulator Features to Nearby Chat"
+             label="시뮬레이터 기능을 인근 채팅에 덤프"
              name="DumpSimFeaturesToChat">
                 <menu_item_call.on_click
                  function="Develop.DumpSimFeaturesToChat" />
@@ -4724,14 +4657,14 @@
          name="UI"
          tear_off="true">
             <menu_item_call
-             label="Media Browser Test"
+             label="미디어 브라우저 테스트"
              name="Web Browser Test">
                 <menu_item_call.on_click
                  function="Advanced.WebBrowserTest"
                  parameter="http://secondlife.com/app/search/slurls.html"/>
             </menu_item_call>
           <menu_item_check
-           label="Region Restart Test..."
+           label="지역 재시작 테스트..."
            name="Region Restart Test">
               <menu_item_check.on_check
                function="Floater.Visible"
@@ -4741,7 +4674,7 @@
                parameter="region_restarting" />
           </menu_item_check>
           <menu_item_call
-           label="Web Content Browser"
+           label="웹 콘텐츠 브라우저"
            name="Web Content Browser"
            shortcut="control|shift|Z">
             <menu_item_call.on_click
@@ -4749,52 +4682,52 @@
              parameter="HOME_PAGE"/>
           </menu_item_call>
           <menu_item_call
-           label="FB Connect Test"
+           label="FB 연결 테스트"
            name="FB Connect Test">
             <menu_item_call.on_click
              function="Advanced.WebContentTest"
              parameter="https://cryptic-ridge-1632.herokuapp.com/"/>
           </menu_item_call>
           <menu_item_call
-             label="Dump SelectMgr"
+             label="SelectMgr 덤프"
              name="Dump SelectMgr">
                 <menu_item_call.on_click
                  function="Advanced.DumpSelectMgr" />
             </menu_item_call>
             <menu_item_call
-             label="Dump Inventory"
+             label="인벤토리 덤프"
              name="Dump Inventory">
                 <menu_item_call.on_click
                  function="Advanced.DumpInventory" />
             </menu_item_call>
             <menu_item_call
-             label="Dump Timers"
+             label="타이머 덤프"
              name="Dump Timers">
                 <menu_item_call.on_click
                  function="Advanced.DumpTimers" />
             </menu_item_call>
             <menu_item_call
-             label="Dump Focus Holder"
+             label="포커스 홀더 덤프"
              name="Dump Focus Holder">
                 <menu_item_call.on_click
                  function="Advanced.DumpFocusHolder" />
             </menu_item_call>
             <menu_item_call
-             label="Print Selected Object Info"
+             label="선택한 객체 정보 출력"
              name="Print Selected Object Info"
              shortcut="control|shift|P">
                 <menu_item_call.on_click
                  function="Advanced.PrintSelectedObjectInfo" />
             </menu_item_call>
             <menu_item_call
-             label="Print Agent Info"
+             label="에이전트 정보 출력"
              name="Print Agent Info"
              shortcut="shift|P">
                 <menu_item_call.on_click
                  function="Advanced.PrintAgentInfo" />
             </menu_item_call>
             <menu_item_check
-             label="Double-Click Auto-Pilot"
+             label="오토-파일럿 더블클릭"
              name="Double-ClickAuto-Pilot">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4804,7 +4737,7 @@
                  parameter="DoubleClickAutoPilot" />
             </menu_item_check>
             <menu_item_check
-             label="Double-Click Teleport"
+             label="순간이동 더블클릭"
              name="DoubleClick Teleport">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4816,7 +4749,7 @@
             <menu_item_separator />
 
             <menu_item_check
-             label="Debug SelectMgr"
+             label="SelectMgr 디버그"
              name="Debug SelectMgr">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4826,7 +4759,7 @@
                  parameter="DebugSelectMgr" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Clicks"
+             label="클릭 디버그"
              name="Debug Clicks">
                 <menu_item_check.on_check
                  function="Advanced.CheckDebugClicks"
@@ -4836,7 +4769,7 @@
                  parameter="DebugClicks" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Views"
+             label="보기 디버그"
              name="Debug Views">
                 <menu_item_check.on_check
                  function="Advanced.CheckDebugViews" />
@@ -4844,7 +4777,7 @@
                  function="Advanced.ToggleDebugViews" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Name Tooltips"
+             label="이름 도구 팁 디버그"
              name="Debug Name Tooltips">
                 <menu_item_check.on_check
                  function="Advanced.CheckXUINameTooltips"
@@ -4853,7 +4786,7 @@
                  function="Advanced.ToggleXUINameTooltips" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Mouse Events"
+             label="마우스 이벤트 디버그"
              name="Debug Mouse Events">
                 <menu_item_check.on_check
                  function="Advanced.CheckDebugMouseEvents"
@@ -4862,7 +4795,7 @@
                  function="Advanced.ToggleDebugMouseEvents" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Keys"
+             label="키 디버그"
              name="Debug Keys">
                 <menu_item_check.on_check
                  function="Advanced.CheckDebugKeys"
@@ -4871,7 +4804,7 @@
                  function="Advanced.ToggleDebugKeys" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Window Process"
+             label="창 절차 디버그"
              name="Debug WindowProc">
                 <menu_item_check.on_check
                  function="Advanced.CheckDebugWindowProc"
@@ -4893,26 +4826,26 @@
                function="Advanced.ReloadColorSettings" />
             </menu_item_call>
             <menu_item_call
-             label="Show Font Test"
+             label="폰트테스트 표시"
              name="Show Font Test">
                 <menu_item_call.on_click
                  function="Floater.Show"
                  parameter="font_test" />
             </menu_item_call>
             <menu_item_call
-             label="Load from XML"
+             label="XML에서 로드"
              name="Load from XML">
                 <menu_item_call.on_click
                  function="Advanced.LoadUIFromXML" />
             </menu_item_call>
             <menu_item_call
-             label="Save to XML"
+             label="XML로 저장"
              name="Save to XML">
                 <menu_item_call.on_click
                  function="Advanced.SaveUIToXML" />
             </menu_item_call>
             <menu_item_check
-             label="Show XUI Names"
+             label="XUI 이름 표시"
              name="Show XUI Names">
                 <menu_item_check.on_check
                  function="Advanced.CheckXUINames"
@@ -4921,7 +4854,7 @@
                  function="Advanced.ToggleXUINames" />
             </menu_item_check>
             <menu_item_check
-             label="Show debugging info for views"
+             label="뷰에 대한 디버깅 정보 표시"
              name="DebugViews">
                 <menu_item_check.on_check
                  function="CheckControl"
@@ -4931,20 +4864,20 @@
                  parameter="DebugViews" />
             </menu_item_check>
             <menu_item_call
-             label="XUI Preview Tool"
+             label="XUI 미리보기 도구"
              name="UI Preview Tool">
                 <menu_item_call.on_click
                  function="Floater.Toggle"
                  parameter="ui_preview" />
             </menu_item_call>
           <menu_item_call
-           label="Send Test IMs"
+           label="테스트 IMs 보내기"
            name="Send Test IMs">
             <menu_item_call.on_click
              function="Advanced.SendTestIMs" />
           </menu_item_call>
           <menu_item_call
-           label="Flush Names Caches"
+           label="이름 캐시 플러쉬"
            name="Flush Names Caches">
             <menu_item_call.on_click
              function="Advanced.FlushNameCaches" />
@@ -4952,16 +4885,16 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Avatar"
+         label="아바타"
          name="Character"
          tear_off="true">
             <menu
              create_jump_keys="true"
-             label="Grab Baked Texture"
+             label="베이크드 텍스쳐 잡기"
              name="Grab Baked Texture"
              tear_off="true">
                 <menu_item_call
-                 label="Iris"
+                 label="홍채"
                  name="Grab Iris">
                     <menu_item_call.on_click
                      function="Advanced.GrabBakedTexture"
@@ -4971,7 +4904,7 @@
 					 parameter="iris" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Head"
+                 label="머리"
                  name="Grab Head">
                     <menu_item_call.on_click
                      function="Advanced.GrabBakedTexture"
@@ -4981,7 +4914,7 @@
 					 parameter="head" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Upper Body"
+                 label="상체"
                  name="Grab Upper Body">
                     <menu_item_call.on_click
                      function="Advanced.GrabBakedTexture"
@@ -4991,7 +4924,7 @@
 					 parameter="upper" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Lower Body"
+                 label="하체"
                  name="Grab Lower Body">
                     <menu_item_call.on_click
                      function="Advanced.GrabBakedTexture"
@@ -5001,7 +4934,7 @@
 					 parameter="lower" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Skirt"
+                 label="치마"
                  name="Grab Skirt">
                     <menu_item_call.on_click
                      function="Advanced.GrabBakedTexture"
@@ -5013,17 +4946,17 @@
             </menu>
             <menu
              create_jump_keys="true"
-             label="Character Tests"
+             label="캐릭터 테스트"
              name="Character Tests"
              tear_off="true">
                 <menu_item_call
-                 label="Appearance To XML"
+                 label="XML에서 외관"
                  name="Appearance To XML">
                     <menu_item_call.on_click
                      function="Advanced.AppearanceToXML" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Toggle Character Geometry"
+                 label="캐릭터 기하학 전환"
                  name="Toggle Character Geometry">
                     <menu_item_call.on_click
                      function="Advanced.ToggleCharacterGeometry" />
@@ -5031,19 +4964,19 @@
                      function="IsGodCustomerService" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Test Male"
+                 label="남성 테스트"
                  name="Test Male">
                     <menu_item_call.on_click
                      function="Advanced.TestMale" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Test Female"
+                 label="여성 테스트"
                  name="Test Female">
                     <menu_item_call.on_click
                      function="Advanced.TestFemale" />
                 </menu_item_call>
                 <menu_item_check
-                 label="Allow Select Avatar"
+                 label="아바타 선택 허용"
                  name="Allow Select Avatar">
                     <menu_item_check.on_check
                      function="CheckControl"
@@ -5055,29 +4988,29 @@
             </menu>
             <menu
              create_jump_keys="true"
-             label="Animation Speed"
+             label="애니메이션 속도"
              name="Animation Speed"
              tear_off="true">
                 <menu_item_call
-                 label="All Animations 10% Faster"
+                 label="모든 애니메이션이 10% 빠름"
                  name="All Animations 10 Faster">
                     <menu_item_call.on_click
                      function="Advanced.AnimTenFaster" />
                 </menu_item_call>
                 <menu_item_call
-                 label="All Animations 10% Slower"
+                 label="모든 애니메이션이 10% 느림"
                  name="All Animations 10 Slower">
                     <menu_item_call.on_click
                      function="Advanced.AnimTenSlower" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Reset All Animation Speed"
+                 label="모든 애니메이션 속도 초기화"
                  name="Reset All Animation Speed">
                     <menu_item_call.on_click
                      function="Advanced.AnimResetAll" />
                 </menu_item_call>
 				<menu_item_check
-				 label="Slow Motion Animations"
+				 label="애니메이션 슬로우 모션"
 				 name="Slow Motion Animations">
 					<menu_item_check.on_check
 					 function="CheckControl"
@@ -5088,13 +5021,13 @@
 				</menu_item_check>
             </menu>
             <menu_item_call
-             label="Force Params to Default"
+             label="매개변수를 기본값으로 강제 적용"
              name="Force Params to Default">
                 <menu_item_call.on_click
                  function="Advanced.ForceParamsToDefault" />
             </menu_item_call>
             <menu_item_check
-             label="Animation Info"
+             label="애니메이션 정보"
              name="Animation Info">
                 <menu_item_check.on_check
                  function="Advanced.CheckAnimationInfo"
@@ -5104,7 +5037,7 @@
                  parameter="" />
             </menu_item_check>
             <menu_item_check
-             label="Show Look At"
+             label="보기 표시"
              name="Show Look At">
                 <menu_item_check.on_check
                  function="Advanced.CheckShowLookAt"
@@ -5113,7 +5046,7 @@
                  function="Advanced.ToggleShowLookAt" />
             </menu_item_check>
             <menu_item_check
-             label="Show Point At"
+             label="가리키는 지점 표시"
              name="Show Point At">
                 <menu_item_check.on_check
                  function="Advanced.CheckShowPointAt"
@@ -5122,7 +5055,7 @@
                  function="Advanced.ToggleShowPointAt" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Joint Updates"
+             label="관절 업데이트 디버그"
              name="Debug Joint Updates">
                 <menu_item_check.on_check
                  function="Advanced.CheckDebugJointUpdates"
@@ -5131,7 +5064,7 @@
                  function="Advanced.ToggleDebugJointUpdates" />
             </menu_item_check>
             <menu_item_check
-             label="Disable LOD"
+             label="LOD 사용안함"
              name="Disable LOD">
                 <menu_item_check.on_check
                  function="Advanced.CheckDisableLOD"
@@ -5140,7 +5073,7 @@
                  function="Advanced.ToggleDisableLOD" />
             </menu_item_check>
             <menu_item_check
-             label="Debug Character Vis"
+             label="캐릭터 Vis 디버그"
              name="Debug Character Vis">
                 <menu_item_check.on_check
                  function="Advanced.CheckDebugCharacterVis"
@@ -5149,7 +5082,7 @@
                  function="Advanced.ToggleDebugCharacterVis" />
             </menu_item_check>
             <menu_item_check
-             label="Show Collision Skeleton"
+             label="충돌 스켈레톤 표시"
              name="Show Collision Skeleton">
                 <menu_item_check.on_check
                  function="Advanced.CheckInfoDisplay"
@@ -5159,7 +5092,7 @@
                  parameter="collision skeleton" />
             </menu_item_check>
             <menu_item_check
-             label="Show Bones"
+             label="뼈 표시"
              name="Show Bones">
                 <menu_item_check.on_check
                  function="Advanced.CheckInfoDisplay"
@@ -5169,7 +5102,7 @@
                  parameter="joints" />
             </menu_item_check>
             <menu_item_check
-             label="Display Agent Target"
+             label="에이전트 타겟 전시"
              name="Display Agent Target">
                 <menu_item_check.on_check
                  function="Advanced.CheckInfoDisplay"
@@ -5179,7 +5112,7 @@
                  parameter="agent target" />
             </menu_item_check>
             <menu_item_check
-             label="Show Impostor Extents"
+             label="임포스터 규모 표시"
              name="Show Impostor Extents">
                 <menu_item_check.on_check
                  function="Advanced.CheckInfoDisplay"
@@ -5200,27 +5133,27 @@
                  parameter="DebugAvatarRotation" />
             </menu_item_check> -->
             <menu_item_call
-             label="Dump Attachments"
+             label="첨부파일 덤프"
              name="Dump Attachments">
                 <menu_item_call.on_click
                  function="Advanced.DumpAttachments" />
             </menu_item_call>
             <menu_item_call
-             label="Debug Avatar Textures"
+             label="아바타 텍스쳐 디버그"
              name="Debug Avatar Textures"
              shortcut="control|alt|shift|K">
                 <menu_item_call.on_click
                  function="Advanced.DebugAvatarTextures" />
             </menu_item_call>
             <menu_item_call
-             label="Dump Local Textures"
+             label="로컬 텍스쳐 덤프"
              name="Dump Local Textures"
              shortcut="alt|shift|M">
                 <menu_item_call.on_click
                  function="Advanced.DumpAvatarLocalTextures" />
             </menu_item_call>
 			<menu_item_call
-			 label="Reload Avatar Cloud Particle"
+			 label="아바타 클라우드 입자 재로드"
 			 name="Reload Avatar Cloud Particle">
 				<menu_item_call.on_click
 				 function="Advanced.ReloadAvatarCloudParticle" />
@@ -5229,7 +5162,7 @@
         <menu_item_separator/>
 
         <menu_item_check
-         label="HTTP Textures"
+         label="HTTP 텍스쳐"
          name="HTTP Textures">
             <menu_item_check.on_check
              function="CheckControl"
@@ -5239,7 +5172,7 @@
              parameter="ImagePipelineUseHTTP" />
         </menu_item_check>
         <menu_item_check
-         label="HTTP Inventory"
+         label="HTTP 인벤토리"
          name="HTTP Inventory">
             <menu_item_check.on_check
              function="CheckControl"
@@ -5249,21 +5182,21 @@
              parameter="UseHTTPInventory" />
         </menu_item_check>
         <menu_item_call
-         label="Compress Images"
+         label="이미지 압축"
          name="Compress Images">
             <menu_item_call.on_click
              function="Advanced.CompressImage" />
         </menu_item_call>
 
       <menu_item_call
-         label="Enable Visual Leak Detector"
+         label="시각적 누출 감지기 활성화"
          name="Enable Visual Leak Detector">
         <menu_item_call.on_click
            function="Advanced.ToggleVisualLeakDetector" />
         </menu_item_call>
       
         <menu_item_check
-         label="Output Debug Minidump"
+         label="디버그 미니덤프 출력"
          name="Output Debug Minidump">
             <menu_item_check.on_check
              function="CheckControl"
@@ -5273,7 +5206,7 @@
              parameter="SaveMinidump" />
         </menu_item_check>
         <menu_item_check
-         label="Console Window on next Run"
+         label="다음 실행 시 콘솔 창"
          name="Console Window">
             <menu_item_check.on_check
              function="CheckControl"
@@ -5284,12 +5217,12 @@
         </menu_item_check>
         <menu
          create_jump_keys="true"
-         label="Set Logging Level"
+         label="로깅 레벨 설정"
          name="Set Logging Level"
          tear_off="true">
           <menu_item_check
             name="Debug"
-            label="Debug">
+            label="디버그">
             <menu_item_check.on_check
               function="Develop.CheckLoggingLevel"
               parameter="0" />
@@ -5299,7 +5232,7 @@
           </menu_item_check>
           <menu_item_check
             name="Info"
-            label="Info">
+            label="정보">
             <menu_item_check.on_check
               function="Develop.CheckLoggingLevel"
               parameter="1" />
@@ -5309,7 +5242,7 @@
           </menu_item_check>
           <menu_item_check
             name="Warning"
-            label="Warning">
+            label="위험">
             <menu_item_check.on_check
               function="Develop.CheckLoggingLevel"
               parameter="2" />
@@ -5319,7 +5252,7 @@
           </menu_item_check>
           <menu_item_check
             name="Error"
-            label="Error">
+            label="에러">
             <menu_item_check.on_check
               function="Develop.CheckLoggingLevel"
               parameter="3" />
@@ -5329,7 +5262,7 @@
           </menu_item_check>
           <menu_item_check
             name="None"
-            label="None">
+            label="없음">
             <menu_item_check.on_check
               function="Develop.CheckLoggingLevel"
               parameter="4" />
@@ -5342,21 +5275,21 @@
         <menu_item_separator/>
 
         <menu_item_call
-         label="Request Admin Status"
+         label="관리자 상태 요청"
          name="Request Admin Options"
          shortcut="control|alt|G">
             <menu_item_call.on_click
              function="Advanced.RequestAdminStatus" />
         </menu_item_call>
         <menu_item_call
-         label="Leave Admin Status"
+         label="관리자 상태 허가"
          name="Leave Admin Options"
          shortcut="control|alt|shift|G">
             <menu_item_call.on_click
              function="Advanced.LeaveAdminStatus" />
         </menu_item_call>
 		<menu_item_check
-         label="Show Admin Menu"
+         label="관리자 메뉴 표시"
          name="View Admin Options">
             <menu_item_check.on_enable
              function="Advanced.EnableViewAdminOptions" />
@@ -5369,17 +5302,17 @@
     </menu>
     <menu
      create_jump_keys="true"
-     label="Admin"
+     label="관리자"
      name="Admin"
      tear_off="true"
      visible="false">
         <menu
          create_jump_keys="true"
-         label="Object"
+         label="객체"
          name="AdminObject"
          tear_off="true">
             <menu_item_call
-             label="Take Copy"
+             label="복사하기"
              name="Admin Take Copy"
              shortcut="control|alt|shift|O">
                 <menu_item_call.on_click
@@ -5388,7 +5321,7 @@
                  function="IsGodCustomerService" />
             </menu_item_call>
             <menu_item_call
-             label="Force Owner To Me"
+             label="나에게 소유자 강요"
              name="Force Owner To Me">
                 <menu_item_call.on_click
                  function="Admin.HandleObjectOwnerSelf" />
@@ -5396,7 +5329,7 @@
                  function="IsGodCustomerService" />
             </menu_item_call>
             <menu_item_call
-             label="Force Owner Permissive"
+             label="강제 소유자 허용"
              name="Force Owner Permissive">
                 <menu_item_call.on_click
                  function="Admin.HandleObjectOwnerPermissive" />
@@ -5404,7 +5337,7 @@
                  function="IsGodCustomerService" />
             </menu_item_call>
             <menu_item_call
-             label="Delete"
+             label="삭제"
              name="Delete"
              shortcut="control|alt|shift|Del">
                 <menu_item_call.on_click
@@ -5413,7 +5346,7 @@
                  function="IsGodCustomerService" />
             </menu_item_call>
             <menu_item_call
-             label="Lock"
+             label="잠금"
              name="Lock"
              shortcut="control|alt|shift|L">
                 <menu_item_call.on_click
@@ -5422,7 +5355,7 @@
                  function="IsGodCustomerService" />
             </menu_item_call>
             <menu_item_call
-             label="Get Assets IDs"
+             label="재산 IDs 가져오기"
              name="Get Assets IDs"
              shortcut="control|alt|shift|I">
                 <menu_item_call.on_click
@@ -5433,11 +5366,11 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Parcel"
+         label="구획"
          name="Parcel"
          tear_off="true">
             <menu_item_call
-             label="Force Owner To Me"
+             label="나에게 소유자 강요"
              name="Owner To Me">
                 <menu_item_call.on_click
                  function="Admin.HandleForceParcelOwnerToMe" />
@@ -5445,7 +5378,7 @@
                  function="IsGodCustomerService" />
             </menu_item_call>
             <menu_item_call
-             label="Set to Linden Content"
+             label="린덴 내용으로 설정"
              name="Set to Linden Content"
              shortcut="control|alt|shift|C">
                 <menu_item_call.on_click
@@ -5454,7 +5387,7 @@
                  function="IsGodCustomerService" />
             </menu_item_call>
             <menu_item_call
-             label="Claim Public Land"
+             label="공동 지역으로 요청"
              name="Claim Public Land">
                 <menu_item_call.on_click
                  function="Admin.HandleClaimPublicLand" />
@@ -5464,11 +5397,11 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Region"
+         label="지역"
          name="Region"
          tear_off="true">
             <menu_item_call
-             label="Dump Temp Asset Data"
+             label="임지 자산 데이터 덤프"
              name="Dump Temp Asset Data">
                 <menu_item_call.on_click
                  function="Admin.HandleRegionDumpTempAssetData" />
@@ -5476,7 +5409,7 @@
                  function="IsGodCustomerService" />
             </menu_item_call>
             <menu_item_call
-             label="Save Region State"
+             label="지역 상태 저장"
              name="Save Region State">
                 <menu_item_call.on_click
                  function="Admin.OnSaveState" />
@@ -5485,7 +5418,7 @@
             </menu_item_call>
         </menu>
         <menu_item_call
-         label="God Tools"
+         label="God 도구"
          name="God Tools">
             <menu_item_call.on_click
              function="Floater.Show"
@@ -5500,30 +5433,30 @@
     
     <menu
      create_jump_keys="true"
-     label="Admin"
+     label="관리자"
      name="Deprecated"
      tear_off="true"
      visible="false">
         <menu
          create_jump_keys="true"
-         label="Attach Object"
+         label="객체 붙이기"
          mouse_opaque="false"
          name="Attach Object"
          tear_off="true" />
         <menu
          create_jump_keys="true"
-         label="Detach Object"
+         label="객체 분리"
          mouse_opaque="false"
          name="Detach Object"
          tear_off="true" />
         <menu
          create_jump_keys="true"
-         label="Take Off Clothing"
+         label="옷 벗기"
          mouse_opaque="false"
          name="Take Off Clothing"
          tear_off="true">
             <menu_item_call
-             label="Shirt"
+             label="셔츠"
              name="Shirt">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5533,7 +5466,7 @@
                  parameter="shirt" />
             </menu_item_call>
             <menu_item_call
-             label="Pants"
+             label="바지"
              name="Pants">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5543,7 +5476,7 @@
                  parameter="pants" />
             </menu_item_call>
             <menu_item_call
-             label="Shoes"
+             label="신발"
              name="Shoes">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5553,7 +5486,7 @@
                  parameter="shoes" />
             </menu_item_call>
             <menu_item_call
-             label="Socks"
+             label="양말"
              name="Socks">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5563,7 +5496,7 @@
                  parameter="socks" />
             </menu_item_call>
             <menu_item_call
-             label="Jacket"
+             label="자켓"
              name="Jacket">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5573,7 +5506,7 @@
                  parameter="jacket" />
             </menu_item_call>
             <menu_item_call
-             label="Gloves"
+             label="장갑"
              name="Gloves">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5583,7 +5516,7 @@
                  parameter="gloves" />
             </menu_item_call>
             <menu_item_call
-             label="Undershirt"
+             label="속 셔츠"
              name="Menu Undershirt">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5593,7 +5526,7 @@
                  parameter="undershirt" />
             </menu_item_call>
             <menu_item_call
-             label="Underpants"
+             label="팬티"
              name="Menu Underpants">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5603,7 +5536,7 @@
                  parameter="underpants" />
             </menu_item_call>
             <menu_item_call
-             label="Skirt"
+             label="치마"
              name="Skirt">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5613,7 +5546,7 @@
                  parameter="skirt" />
             </menu_item_call>
             <menu_item_call
-             label="Alpha"
+             label="알파"
              name="Alpha">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5623,7 +5556,7 @@
                  parameter="alpha" />
             </menu_item_call>
             <menu_item_call
-             label="Tattoo"
+             label="타투"
              name="Tattoo">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5633,7 +5566,7 @@
                  parameter="tattoo" />
             </menu_item_call>
             <menu_item_call
-             label="Universal"
+             label="유니버설"
              name="Universal">
               <menu_item_call.on_click
                function="Edit.TakeOff"
@@ -5643,7 +5576,7 @@
                parameter="universal" />
             </menu_item_call>
             <menu_item_call
-             label="Physics"
+             label="몸매"
              name="Physics">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5653,7 +5586,7 @@
                  parameter="physics" />
             </menu_item_call>
             <menu_item_call
-             label="All Clothes"
+             label="모든 의류"
              name="All Clothes">
                 <menu_item_call.on_click
                  function="Edit.TakeOff"
@@ -5662,11 +5595,11 @@
         </menu>
         <menu
          create_jump_keys="true"
-         label="Help"
+         label="도움말"
          name="DeprecatedHelp"
          tear_off="true">
             <menu_item_call
-             label="Official Linden Blog"
+             label="공식 린덴 블로그"
              name="Official Linden Blog">
                 <menu_item_call.on_click
                  function="PromptShowURL"
@@ -5674,7 +5607,7 @@
                  parameter="WebLaunchSupportWiki,http://blog.secondlife.com/" />
             </menu_item_call>
             <menu_item_call
-             label="Scripting Portal"
+             label="스크립팅 포탈"
              name="Scripting Portal">
                 <menu_item_call.on_click
                  function="PromptShowURL"
@@ -5683,11 +5616,11 @@
             </menu_item_call>
             <menu
              create_jump_keys="true"
-             label="Bug Reporting"
+             label="버그 신고"
              name="Bug Reporting"
              tear_off="true">
                 <menu_item_call
-                 label="Public Issue Tracker"
+                 label="공개 이슈 추적기"
                  name="Public Issue Tracker">
                     <menu_item_call.on_click
                      function="PromptShowURL"
@@ -5695,7 +5628,7 @@
                      parameter="WebLaunchPublicIssue,http://jira.secondlife.com" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Public Issue Tracker Help"
+                 label="공개 이슈 추적기 도움말"
                  name="Publc Issue Tracker Help">
                     <menu_item_call.on_click
                      function="PromptShowURL"
@@ -5706,7 +5639,7 @@
                 <menu_item_separator/>
 
                 <menu_item_call
-                 label="Bug Reporting 101"
+                 label="버그 리포트 101"
                  name="Bug Reporing 101">
                     <menu_item_call.on_click
                      function="PromptShowURL"
@@ -5714,7 +5647,7 @@
                      parameter="WebLaunchBugReport101,http://wiki.secondlife.com/wiki/Bug_Reporting_101" />
                 </menu_item_call>
                 <menu_item_call
-                 label="Security Issues"
+                 label="보안 이슈"
                  name="Security Issues">
                     <menu_item_call.on_click
                      function="PromptShowURL"

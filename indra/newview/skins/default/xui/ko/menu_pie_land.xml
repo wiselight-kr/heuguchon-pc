@@ -2,7 +2,7 @@
 <pie_menu
     name="Land Pie">
     <pie_slice
-        label="About Land..."
+        label="랜드에 관하여..."
         name="Place Information...">
         <pie_slice.on_click
             function="Floater.Show"
@@ -10,7 +10,7 @@
     </pie_slice>
     <pie_slice
         enabled="false"
-        label="Create"
+        label="생성"
         name="Create">
         <pie_slice.on_click
             function="Land.Build" />
@@ -18,20 +18,20 @@
             function="EnableEdit" />
     </pie_slice>
     <pie_slice
-        label="Go Here"
+        label="여기로 가기"
         name="Go Here">
         <pie_slice.on_click
             function="GoToObject" />
     </pie_slice>
     <pie_slice
-        label="Sit Here"
+        label="여기 앉기"
         name="Sit Here">
         <pie_slice.on_click
             function="Land.Sit" />
     </pie_slice>
     <pie_slice
         enabled="false"
-        label="Mute Part. Own."
+        label="부품 음소거. 소유."
         name="Mute Particle">
         <pie_slice.on_click
             function="Particle.Mute" />
@@ -40,7 +40,7 @@
     </pie_slice>
     <pie_slice
         enabled="false"
-        label="Buy Pass"
+        label="패스 구매"
         name="Land Buy Pass Pie">
         <pie_slice.on_click
             function="Land.BuyPass" />
@@ -49,7 +49,7 @@
     </pie_slice>
     <pie_slice
         enabled="false"
-        label="Edit Terrain"
+        label="지역 수정"
         name="Edit Terrain">
         <pie_slice.on_click
             function="Land.Edit" />
@@ -58,7 +58,7 @@
     </pie_slice>
     <pie_slice
         enabled="false"
-        label="Buy This Land"
+        label="이 땅 구매"
         name="Land Buy Pie">
         <pie_slice.on_click
             function="Land.Buy" />
