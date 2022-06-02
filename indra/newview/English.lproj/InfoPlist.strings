@@ -1,6 +1,6 @@
 /* Localized versions of Info.plist keys */
 
-CFBundleName = "Firestorm";
+CFBundleName = "Heuguchon";
 
-CFBundleShortVersionString = "Firestorm version %%VERSION%%";
-CFBundleGetInfoString = "Firestorm version %%VERSION%%, Copyright 2010-2022 The Phoenix Firestorm Project, Inc.";
+CFBundleShortVersionString = "Heuguchon version %%VERSION%%";
+CFBundleGetInfoString = "Heuguchon version %%VERSION%%, Copyright 2022 wiselight.";
