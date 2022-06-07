@@ -13,17 +13,17 @@
  save_rect="true"
  save_visibility="true"
  single_instance="true"
- title="Contacts"
+ title="주소록"
  width="396">
  	<string
 	 name="no_friends"
-	 value="No friends" />
+	 value="친구 없음" />
     <string
      name="no_filtered_groups_msg"
-     value="No groups containing &quot;[SEARCH_TERM]&quot; found." />
+     value="&quot;[SEARCH_TERM]&quot;을(를) 포함하는 그룹을 찾을 수 없습니다." />
 	<string
      name="no_groups_msg"
-     value="Looking for Groups to join? Try [secondlife:///app/search/groups Search]." />
+     value="가입할 그룹을 찾고 계십니까? [second life:///app/search/groups Search]를 시도하십시오." />
     <tab_container
      follows="all"
      height="390"

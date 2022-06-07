@@ -1311,7 +1311,7 @@ even though the user gets a free copy.
                name="Anyone can:"
                width="250"
                left="10">
-                 Anyone:
+                 누구나:
             </text>
             <check_box
              height="19"
@@ -1490,7 +1490,7 @@ even though the user gets a free copy.
          border="false"
          follows="all"
          height="567"
-         label="갸채"
+         label="개체"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -3286,7 +3286,7 @@ even though the user gets a free copy.
          name="label_parcel_modify"
          top="152"
          width="240">
-            Modify Parcel
+            구획 수정
         </text>
         <button
          follows="left|top"

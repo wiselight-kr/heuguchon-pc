@@ -3089,7 +3089,7 @@ WAV 파일의 청크 크기가 잘못되었습니다:
 
   <notification
    icon="alertmodal.tga"
-   label="Add Friend"
+   label="친구추가"
    name="AddFriendWithMessage"
    type="alertmodal">
     <tag>친구</tag>

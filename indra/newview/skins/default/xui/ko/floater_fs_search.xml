@@ -242,7 +242,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Add Friend"
+		label="친구추가"
 		name="people_friend_btn"
 		width="120"
 		left_pad="1" />

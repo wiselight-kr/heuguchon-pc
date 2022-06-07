@@ -10,19 +10,19 @@
  width="350">
     <floater.string
      name="nothing_to_modify_text">
-        Selection contains no editable contents.
+        선택 항목에 편집 가능한 내용이 없습니다.
     </floater.string>
     <floater.string
      name="status_text">
-        Setting permissions on [NAME]
-    </floater.string>
+        [NAME]에 대한 권한 설정
+            </floater.string>
     <floater.string
      name="start_text">
-        Starting permission change requests...
+        권한 변경 요청을 시작하는 중...
     </floater.string>
     <floater.string
      name="done_text">
-        Finished permission change requests.
+        완료된 권한 변경 요청.
     </floater.string>
 
     <check_box
@@ -174,7 +174,7 @@
       height="23"
     layout="topleft"
    name="check_all"
-     label="√ All"
+     label="√ 전부"
      left="230"
      top="26"
      width="115">
@@ -184,7 +184,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Clear"
+     label="청소"
      label_selected="None"
      layout="topleft"
      top_pad="8"
@@ -205,7 +205,7 @@
      name="newperms"
      top="90"
      width="275">
-        Adjust Content Permissions To
+        내용 사용 권한 조정 대상
     </text>
       <text
        type="string"
@@ -217,12 +217,12 @@
       name="GroupLabel"
       width="92"
       word_wrap="true">
-       Group:
+       그룹:
     </text>
     <check_box
      control_name="BulkChangeShareWithGroup"
      height="16"
-     label="Share"
+     label="공유"
      layout="topleft"
      top_pad="0"
      name="share_with_group"
@@ -239,12 +239,12 @@
      top="110"
      width="92"
      word_wrap="true">
-        Anyone:
+        아무나:
     </text>
     <check_box
      control_name="BulkChangeEveryoneCopy"
      height="16"
-     label="Copy"
+     label="복사"
      layout="topleft"
      top_pad="0"
      name="everyone_copy"
@@ -261,12 +261,12 @@
      left="189"
      width="92"
      word_wrap="true">
-        Next owner:
+        다음 소유자:
     </text>
     <check_box
      control_name="BulkChangeNextOwnerModify"
      height="16"
-     label="Modify"
+     label="수정"
      layout="topleft"
      name="next_owner_modify"
      tool_tip="Next owner can edit properties like item name or scale of this object."
@@ -275,7 +275,7 @@
     <check_box
      control_name="BulkChangeNextOwnerCopy"
      height="16"
-     label="Copy"
+     label="복사"
      layout="topleft"
      top_pad="0"
      name="next_owner_copy"
@@ -290,7 +290,7 @@
      height="16"
      top_pad="0"
      initial_value="true"
-     label="Transfer"
+     label="환승"
      layout="topleft"
      name="next_owner_transfer"
      tool_tip="Next owner can give away or resell this object."
@@ -319,7 +319,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Apply"
+     label="적용"
      layout="topleft"
      left_pad="5"
      name="apply"
@@ -330,7 +330,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="5"
      name="close"

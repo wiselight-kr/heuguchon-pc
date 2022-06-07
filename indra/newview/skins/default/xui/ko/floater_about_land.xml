@@ -842,11 +842,11 @@
          name="land_objects_panel">
             <panel.string
              name="objects_available_text">
-                [COUNT] out of [MAX] ([AVAILABLE] available)
+                [COUNT] [MAX] 중 ([사용 가능])
             </panel.string>
             <panel.string
              name="objects_deleted_text">
-                [COUNT] out of [MAX] ([DELETED] will be deleted)
+               [COUNT] [MAX] 중 ([DELETED]가 삭제됩니다)
             </panel.string>
             <text
              type="string"
@@ -883,7 +883,7 @@
              name="objects_available"
              top_delta="0"
              width="260">
-                [COUNT] out of [MAX] ([AVAILABLE] available)
+                [COUNT] [MAX] 중 ([사용 가능])
             </text>
             <text
              type="string"

@@ -491,7 +491,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
                  layout="topleft"
                  follows="left|top|right"
                  name="add_friend"
-                 label="Add Friend"
+                 label="친구추가"
                  label_selected="Add Friend"
                  tool_tip="Offer friendship to the Resident" />
 

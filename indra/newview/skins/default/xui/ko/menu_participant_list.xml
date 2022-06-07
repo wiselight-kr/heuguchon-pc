@@ -13,7 +13,7 @@
          parameter="can_view_profile" />
     </menu_item_call>
     <menu_item_call
-     label="Add Friend"
+     label="친구추가"
      layout="topleft"
      name="Add Friend">
         <on_click

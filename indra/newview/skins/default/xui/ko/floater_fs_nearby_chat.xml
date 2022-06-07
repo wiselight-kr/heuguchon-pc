@@ -7,7 +7,7 @@
   layout="topleft"
   left="0"
   name="nearby_chat"
-  title="Nearby Chat"
+  title="근처 채팅"
   top="0"
   can_dock="false"
   can_close="true"
@@ -22,7 +22,7 @@
   can_resize="true"
   min_width="250"
   min_height="150">
-  <floater.string name="chatbox_label">근처 채팅에게</floater.string>
+  <floater.string name="chatbox_label">근처 채팅</floater.string>
   <layout_stack
     border_size="0"
     animate="false"

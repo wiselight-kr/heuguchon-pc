@@ -88,7 +88,7 @@
 		name="More Options"
 		label="More Options...">
 		<menu_item_call
-			label="Add Friend"
+			label="친구추가"
 			name="Add Friend">
 			<menu_item_call.on_click
 				function="Minimap.AddFriend"/>

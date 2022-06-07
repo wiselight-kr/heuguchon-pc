@@ -135,7 +135,7 @@
     <button
      follows="top|left"
      height="20"
-     label="Add Friend"
+     label="친구추가"
      left="8"
      top="135"
      name="add_friend_btn"

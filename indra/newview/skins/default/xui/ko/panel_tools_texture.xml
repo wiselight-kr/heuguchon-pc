@@ -3,7 +3,7 @@
          border="false"
          follows="all"
          height="420"
-         label="Texture"
+         label="텍스쳐"
          layout="topleft"
          left="0"
          mouse_opaque="false"
@@ -22,7 +22,7 @@
              text_readonly_color="LabelDisabledColor"
              top="6"
              width="64">
-                Color
+                색깔
             </text>
             <!-- label is blank because control places it below the box -->
             <color_swatch
@@ -48,7 +48,7 @@
              text_readonly_color="LabelDisabledColor"
              top="6"
              width="110">
-                Transparency %
+                투명도 %
             </text>
             <spinner
              decimal_digits="0"
@@ -73,7 +73,7 @@
              text_readonly_color="LabelDisabledColor"
              top="6"
              width="80">
-                Glow
+                빛
             </text>
             <spinner
              decimal_digits="2"
@@ -87,7 +87,7 @@
              width="80" />
             <check_box
              height="19"
-             label="Full Bright"
+             label="최대 밝기"
              layout="topleft"
              left="7"
              name="checkbox fullbright"
@@ -101,11 +101,11 @@
              top_pad="5"
              width="100">
                 <combo_box.item
-                 label="Materials"
+                 label="물질"
                  name="Materials"
                  value="Materials" />
                 <combo_box.item
-                 label="Media"
+                 label="미디어"
                  name="Media"
                  value="Media" />
             </combo_box>
@@ -118,21 +118,21 @@
             visible = "false"
             name="radio_material_type">
                 <radio_item
-                label="Texture (diffuse)"
+                label="텍스쳐 (확산)"
                 name="Texture (diffuse)"
                 top="0" 
                 layout="topleft"
                 height="16" 
                 value="0"/>
                 <radio_item
-                label="Bumpiness (normal)"
+                label="울퉁불퉁함 (일반)"
                 layout="topleft"
                 top_pad="1" 
                 height="16" 
                 name="Bumpiness (normal)"
                 value="1"/>
                 <radio_item
-                label="Shininess (specular)"
+                label="빛남 (반사)"
                 name="Shininess (specular)"
                 height="16"
                 layout="topleft"
@@ -159,7 +159,7 @@
              fallback_image="materials_ui_x_24.png"
              follows="left|top"
              height="80"
-             label="Texture"
+             label="텍스쳐"
              layout="topleft"
              left="10"
              name="texture control"
@@ -177,7 +177,7 @@
              text_readonly_color="LabelDisabledColor"
              top_delta="0"
              width="90">
-                Alpha mode
+                알파 모드
             </text>
             <combo_box
              height="23"
@@ -187,19 +187,19 @@
              top_pad="4"
              width="120">
                 <combo_box.item
-                 label="None"
+                 label="없음"
                  name="None"
                  value="None" />
                 <combo_box.item
-                 label="Alpha blending"
+                 label="알파 혼합"
                  name="Alpha blending"
                  value="Alpha blending" />
                 <combo_box.item
-                 label="Alpha masking"
+                 label="알파 마스킹"
                  name="Alpha masking"
                  value="Alpha masking" />
                 <combo_box.item
-                 label="Emissive mask"
+                 label="방사능 마스크"
                  name="Emissive mask"
                  value="Emissive mask" />
             </combo_box>
@@ -214,7 +214,7 @@
              text_readonly_color="LabelDisabledColor"
              top_pad="4"
              width="150">
-                Mask cutoff
+                마스크 절단
             </text>
             <spinner
              decimal_digits="0"
@@ -236,7 +236,7 @@
              fallback_image="materials_ui_x_24.png"
              follows="left|top"
              height="80"
-             label="Texture"
+             label="텍스쳐"
              layout="topleft"
              left="10"
              name="bumpytexture control"
@@ -254,7 +254,7 @@
              text_readonly_color="LabelDisabledColor"
              top_delta="0"
              width="90">
-                Bumpiness
+                울퉁불퉁함
             </text>
             <combo_box
              height="23"
@@ -264,75 +264,75 @@
              top_pad="4"
              width="150">
                 <combo_box.item
-                 label="None"
+                 label="없음"
                  name="None"
                  value="None" />
                 <combo_box.item
-                 label="Brightness"
+                 label="빛"
                  name="Brightness"
                  value="Brightness" />
                 <combo_box.item
-                 label="Darkness"
+                 label="어둠"
                  name="Darkness"
                  value="Darkness" />
                 <combo_box.item
-                 label="woodgrain"
+                 label="나뭇결"
                  name="woodgrain"
                  value="woodgrain" />
                 <combo_box.item
-                 label="bark"
+                 label="나무껍질"
                  name="bark"
                  value="bark" />
                 <combo_box.item
-                 label="bricks"
+                 label="벽돌"
                  name="bricks"
                  value="bricks" />
                 <combo_box.item
-                 label="checker"
+                 label="흑백"
                  name="checker"
                  value="checker" />
                 <combo_box.item
-                 label="concrete"
+                 label="콘크리트"
                  name="concrete"
                  value="concrete" />
                 <combo_box.item
-                 label="crustytile"
+                 label="딱딱한 타일"
                  name="crustytile"
                  value="crustytile" />
                 <combo_box.item
-                 label="cutstone"
+                 label="석재"
                  name="cutstone"
                  value="cutstone" />
                 <combo_box.item
-                 label="discs"
+                 label="원판"
                  name="discs"
                  value="discs" />
                 <combo_box.item
-                 label="gravel"
+                 label="자갈"
                  name="gravel"
                  value="gravel" />
                 <combo_box.item
-                 label="petridish"
+                 label="페트리 접시"
                  name="petridish"
                  value="petridish" />
                 <combo_box.item
-                 label="siding"
+                 label="측선"
                  name="siding"
                  value="siding" />
                 <combo_box.item
-                 label="stonetile"
+                 label="돌 타일"
                  name="stonetile"
                  value="stonetile" />
                 <combo_box.item
-                 label="stucco"
+                 label="치장 벽토"
                  name="stucco"
                  value="stucco" />
                 <combo_box.item
-                 label="suction"
+                 label="흡입"
                  name="suction"
                  value="suction" />
                 <combo_box.item
-                 label="weave"
+                 label="직물 무늬"
                  name="weave"
                  value="weave" />
               <!--
@@ -350,7 +350,7 @@
              fallback_image="materials_ui_x_24.png"
              follows="left|top"
              height="80"
-             label="Texture"
+             label="텍스쳐"
              layout="topleft"
              left="10"
              name="shinytexture control"
@@ -368,7 +368,7 @@
              text_readonly_color="LabelDisabledColor"
              top_delta="6"
              width="90">
-                Shininess
+                빛남
             </text>
             <combo_box
              height="23"
@@ -378,19 +378,19 @@
              top_delta="-6"
              width="90">
                 <combo_box.item
-                 label="None"
+                 label="없음"
                  name="None"
                  value="None" />
                 <combo_box.item
-                 label="Low"
+                 label="낮은"
                  name="Low"
                  value="Low" />
                 <combo_box.item
-                 label="Medium"
+                 label="중간"
                  name="Medium"
                  value="Medium" />
                 <combo_box.item
-                 label="High"
+                 label="높은"
                  name="High"
                  value="High" />
               <!--
@@ -412,7 +412,7 @@
              text_readonly_color="LabelDisabledColor"
              top_pad="8"
              width="116">
-                Glossiness
+                반들반들함
             </text>
             <spinner
              decimal_digits="0"
@@ -438,7 +438,7 @@
              text_readonly_color="LabelDisabledColor"
              top_pad="8"
              width="116">
-                Environment
+                환경
             </text>
             <spinner
              decimal_digits="0"
@@ -464,7 +464,7 @@
              text_readonly_color="LabelDisabledColor"
              top_pad="8"
              width="116">
-                Color
+                색깔
             </text>
             <!-- label is blank because control places it below the box -->
             <color_swatch
@@ -488,7 +488,7 @@
 			 read_only="true"
 			 name="media_info"
 			 width="280">
-			 URL of chosen media, if any, goes here
+			 선택한 미디어의 URL(있는 경우)이 여기로 이동
 			 </text>
 			<button
 			 follows="top|left"
@@ -498,7 +498,7 @@
 			 name="add_media"
 			 top_pad="4"
 			 tool_tip="Add Media"
-			 label="Choose..."
+			 label="선택..."
 			 width="85">
 				<button.commit_callback
 				function="BuildTool.AddMedia"/>
@@ -511,7 +511,7 @@
 			 name="delete_media"
 			 tool_tip="Delete this media texture"
 			 top_delta="0"
-			 label="Remove"
+			 label="제거"
 			 width="85">
 				<button.commit_callback
 				function="BuildTool.DeleteMedia"/>
@@ -519,7 +519,7 @@
             <button
 			 follows="left|top"
 			 height="18"
-			 label="Align"
+			 label="조정"
 			 label_selected="Align Media"
 			 layout="topleft"
 			 left_pad="5"
@@ -538,7 +538,7 @@
              text_readonly_color="LabelDisabledColor"
              top_pad="49"
              width="140">
-                Mapping
+                매핑
             </text>
             <combo_box
              height="23"
@@ -548,11 +548,11 @@
              top_pad="-13"
              width="125">
                 <combo_box.item
-                 label="Default"
+                 label="기본값"
                  name="Default"
                  value="Default" />
                 <combo_box.item
-                 label="Planar"
+                 label="평면"
                  name="Planar"
                  value="Planar" />
             </combo_box>
@@ -560,7 +560,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Horizontal scale"
+             label="수평 척도"
              label_width="195"
              layout="topleft"
              left="10"
@@ -588,7 +588,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Vertical scale"
+             label="수직 척도"
              label_width="195"
              layout="topleft"
              left="10"
@@ -616,7 +616,7 @@
              follows="left|top"
              height="19"
              initial_value=""
-			 label="Repeats per meter"
+			 label="미터당 반복 횟수"
              layout="topleft"
 			 label_width="195"
              left="10"
@@ -630,7 +630,7 @@
              height="19"
              increment="1"
              initial_value="0"
-			 label="Rotation degrees"
+			 label="회전 각도"
              layout="topleft"
 			 label_width="195"
              left="10"
@@ -642,7 +642,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Horizontal offset"
+             label="수평 오프셋"
              label_width="195"
              layout="topleft"
              left="10"
@@ -655,7 +655,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Vertical offset"
+             label="수직 오프셋"
              label_width="195"
              layout="topleft"
              left="10"
@@ -668,7 +668,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Horizontal scale"
+             label="수평 척도"
              label_width="195"
              layout="topleft"
              left="10"
@@ -682,7 +682,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Vertical scale"
+             label="수직 척도"
              label_width="195"
              layout="topleft"
              left="10"
@@ -698,7 +698,7 @@
              top_pad="27"
              increment="1"
              initial_value="0"
-			 label="Rotation degrees"
+			 label="회전 각도"
              layout="topleft"
 			 label_width="195"
              left="10"
@@ -710,7 +710,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Horizontal offset"
+             label="수평 오프셋"
              label_width="195"
              layout="topleft"
              left="10"
@@ -723,7 +723,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Vertical offset"
+             label="수직 오프셋"
              label_width="195"
              layout="topleft"
              left="10"
@@ -736,7 +736,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Horizontal scale"
+             label="수평 척도"
              label_width="195"
              layout="topleft"
              left="10"
@@ -750,7 +750,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Vertical scale"
+             label="수직 척도"
              label_width="195"
              layout="topleft"
              left="10"
@@ -766,7 +766,7 @@
              top_pad="27"
              increment="1"
              initial_value="0"
-			 label="Rotation degrees"
+			 label="회전 각도"
              layout="topleft"
 			 label_width="195"
              left="10"
@@ -778,7 +778,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Horizontal offset"
+             label="수평 오프셋"
              label_width="195"
              layout="topleft"
              left="10"
@@ -791,7 +791,7 @@
              follows="left|top"
              height="19"
              initial_value="0"
-             label="Vertical offset"
+             label="수직 오프셋"
              label_width="195"
              layout="topleft"
              left="10"
@@ -804,7 +804,7 @@
              follows="top|left"
              height="16"
              initial_value="false"
-             label="Align planar faces"
+             label="평면 면 조정"
              layout="topleft"
              left="7"
              name="checkbox planar align"
@@ -816,7 +816,7 @@
              control_name="SyncMaterialSettings"
              follows="top|left"
              height="16"
-             label="Synchronize materials"
+             label="재료 동기화"
              layout="topleft"
              left="7"
              top_pad="0"
@@ -829,7 +829,7 @@
              height="14"
              left_pad="0"
              top_delta="-15"
-             label="Align"
+             label="조정"
              name="button align textures"
              tool_tip="Align current texture layers"
              width="84" />
@@ -837,7 +837,7 @@
              layout="topleft"
              follows="right|top"
              top_pad="0"
-             label="Copy"
+             label="복사"
              name="copytextures"
              height="14"
              width="40" />
@@ -847,7 +847,7 @@
              height="14"
              left_pad="4"
              top_delta="0"
-             label="Paste"
+             label="붙여넣기"
              name="pastetextures"
              width="40" />
             <web_browser

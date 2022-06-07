@@ -4,7 +4,7 @@
 	name="Multi-Selected People Context Menu">
 	<menu_item_call
 		enabled="false"
-		label="Add Friends"
+		label="친구추가"
 		layout="topleft"
 		name="Add Friends">
 		<on_click

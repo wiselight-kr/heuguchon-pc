@@ -345,7 +345,7 @@
           name="AnyoneLabel"
           top_pad="8"
           width="100">
-          Anyone:
+          누구나:
         </text>
         <check_box
           height="18"

@@ -13,7 +13,7 @@
      follows="left|top"
      height="23"
      initial_value="1"
-     label="Units (meters)"
+     label="유닛 (미터)"
      label_width="172"
      layout="topleft"
      left="10"
@@ -29,7 +29,7 @@
      height="23"
      increment="0.5"
      initial_value="5"
-     label="Extents (meters)"
+     label="규모 (미터)"
      label_width="172"
      layout="topleft"
      left_delta="0"
@@ -45,7 +45,7 @@
      height="23"
      increment="1"
      initial_value="5"
-     label="Decimal Precision"
+     label="십진법 정확성"
      label_width="172"
      layout="topleft"
      left_delta="0"
@@ -60,7 +60,7 @@
      follows="left|top"
      height="23"
      increment="0.01"
-     label="Angle (degrees)"
+     label="각도 (degrees)"
      label_width="172"
      layout="topleft"
      left_delta="0"
@@ -73,7 +73,7 @@
     <check_box
      control_name="GridSubUnit"
      height="16"
-     label="Snap to sub-units"
+     label="하위 장치에 스냅"
      layout="topleft"
      name="GridSubUnit"
      top_pad="0"
@@ -81,7 +81,7 @@
     <check_box
      control_name="GridCrossSections"
      height="16"
-     label="View cross-sections"
+     label="횡단면 보기"
      layout="topleft"
      name="GridCrossSection"
      top_pad="5"
@@ -97,7 +97,7 @@
          name="grid_opacity_label"
          top_pad="5"
          width="128">
-            Opacity:
+            투명도:
    </text>
     <slider
      control_name="GridOpacity"

@@ -25,18 +25,18 @@
     width="150"
     min_width="135">
   <floater.string name="rotate_tooltip">
-        Rotate Camera Around Focus
+        포커스를 중심으로 카메라 회전
   </floater.string>
   <floater.string name="zoom_tooltip">
-        Zoom Camera Towards Focus
+        초점 방향으로 카메라 줌
   </floater.string>
   <floater.string name="move_tooltip">
-        Move Camera Up and Down, Left and Right
+        카메라 상하좌우 이동
   </floater.string>
   <floater.string name="free_mode_title">
-        View Object
+        개체 보기
   </floater.string>
-  <string name="inactive_combo_text">Use preset</string>
+  <string name="inactive_combo_text">프리셋 사용</string>
   <panel
       follows="top|left"
       height="25"
@@ -47,7 +47,7 @@
       top_pad="-5">
     <panel_camera_item
         name="front_view"
-        tool_tip="Front View"
+        tool_tip="정면"
         width="18"
         left="2">
       <panel_camera_item.mousedown_callback
@@ -58,7 +58,7 @@
     </panel_camera_item>
     <panel_camera_item
         name="group_view"
-        tool_tip="Side View"
+        tool_tip="옆면"
         width="18"
         left_pad="2">
       <panel_camera_item.mousedown_callback
@@ -69,7 +69,7 @@
     </panel_camera_item>
     <panel_camera_item
         name="rear_view"
-        tool_tip="Rear View"
+        tool_tip="후면"
         width="18"
         left_pad="2">
       <panel_camera_item.mousedown_callback
@@ -80,7 +80,7 @@
     </panel_camera_item>
     <panel_camera_item
         name="object_view"
-        tool_tip="Object View"
+        tool_tip="개체 관점"
         width="18"
         left_pad="2">
       <panel_camera_item.mousedown_callback
@@ -91,7 +91,7 @@
     </panel_camera_item>
     <panel_camera_item
         name="mouselook_view"
-        tool_tip="Mouselook View"
+        tool_tip="마우스룩 보기"
         width="18"
         left_pad="2">
       <panel_camera_item.mousedown_callback
@@ -102,7 +102,7 @@
     </panel_camera_item>
     <panel_camera_item
         name="reset_view"
-        tool_tip="Reset view"
+        tool_tip="보기 재설정"
         width="18"
         left_pad="2">
       <panel_camera_item.mousedown_callback
@@ -152,7 +152,7 @@
             scale_image="true"
             sound_flags="3"
             visible="true"
-            tool_tip="Orbit camera around focus"
+            tool_tip="포커스를 중심으로 카메라 회전"
             held_down_delay.seconds="0.0"
             top="0" />
       </layout_panel>
@@ -184,7 +184,7 @@
             name="zoom_slider"
             orientation="vertical"
             follows="top|left|bottom"
-            tool_tip="Zoom camera toward focus"
+            tool_tip="포커스를 향해 카메라 줌"
             top_delta="13"
             left_delta="1"
             min_val="0"
@@ -227,7 +227,7 @@
             quadrant="left"
             scale_image="true"
             sound_flags="3"
-            tool_tip="Move camera up and down, left and right"
+            tool_tip="카메라를 상하좌우로 이동"
             top="0" />
       </layout_panel>
     </layout_stack>
@@ -259,7 +259,7 @@
         layout="topleft"
         left_pad="3"
         name="save_preset_btn"
-        tool_tip="Save as Preset"
+        tool_tip="프리셋으로 저장"
         image_overlay="Command_Destinations_Icon"
         top_delta="0"
         width="22">
@@ -286,7 +286,7 @@
       layout="topleft"
       mouse_opaque="true"
       name="gear_btn"
-      tool_tip="Camera Presets"
+      tool_tip="카메라 프리셋"
       left_pad="3"
       image_overlay="Icon_Gear"
       is_toggle="true">

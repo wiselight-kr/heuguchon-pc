@@ -24,15 +24,15 @@
  min_width="155">
     <floater.string
      name="rotate_tooltip">
-        Rotate Camera Around Focus
+        포커스를 중심으로 카메라 회전
     </floater.string>
     <floater.string
      name="zoom_tooltip">
-        Zoom Camera Towards Focus
+        포커스 방향으로 카메라 줌
     </floater.string>
     <floater.string
      name="move_tooltip">
-        Move Camera Up and Down, Left and Right
+        카메라 상하좌우 이동
     </floater.string>
     <floater.string
      name="camera_modes_title">
@@ -129,7 +129,7 @@ free_mode_title
          name="zoom_slider"
          orientation="vertical"
          follows="top|left|bottom"
-         tool_tip="Zoom camera toward focus"
+         tool_tip="포커스를 향해 카메라 줌"
          top_delta="13"
          left_delta="1"
          min_val="0"
@@ -174,7 +174,7 @@ free_mode_title
      quadrant="left"
      scale_image="true"
      sound_flags="3"
-     tool_tip="Move camera up and down, left and right"
+     tool_tip="카메라를 상하좌우로 이동"
      top="0"/>
     </layout_panel>
     </layout_stack>
@@ -192,7 +192,7 @@ free_mode_title
      width="56">
         <panel_camera_item
           name="front_view"
-          tool_tip="Front view"
+          tool_tip="전면"
           width="18"
           height="18"
           layout="topleft"
@@ -226,7 +226,7 @@ free_mode_title
         </panel_camera_item>
         <panel_camera_item
           name="group_view"
-          tool_tip="Side view"
+          tool_tip="측면"
           width="18"
           height="18"
           layout="topleft"
@@ -261,7 +261,7 @@ free_mode_title
         </panel_camera_item>
         <panel_camera_item
           name="rear_view"
-          tool_tip="Rear view"
+          tool_tip="후면"
           width="18"
           height="18"
           layout="topleft"
@@ -307,7 +307,7 @@ free_mode_title
      width="58">
         <panel_camera_item
           name="object_view"
-          tool_tip="Object view"
+          tool_tip="개체 보기"
           width="18"
           height="18"
           layout="topleft"
@@ -342,7 +342,7 @@ free_mode_title
         </panel_camera_item>
         <panel_camera_item
           name="mouselook_view"
-          tool_tip="Mouselook view"
+          tool_tip="마우스룩 보기"
           width="18"
           height="18"
           layout="topleft"
@@ -377,7 +377,7 @@ free_mode_title
         </panel_camera_item>
         <panel_camera_item
           name="reset_view"
-          tool_tip="Reset view"
+          tool_tip="보기 재설정"
           width="18"
           height="18"
           layout="topleft"

@@ -11,7 +11,7 @@
   <panel
    follows="left|top|right|bottom"
    height="200"
-   label="Default Permissions"
+   label="기본 허가"
    layout="topleft"
    left="10"
    name="default permissions"
@@ -34,7 +34,7 @@
        left="0"
        top="10"
        width="115">
-         Next owner:
+         다음 소유자:
       </text>
       <text
        name="label_2"
@@ -47,7 +47,7 @@
        left_pad="5"
        top="10"
        width="100">
-          Copy
+          복사
       </text>
       <text
        name="label_3"
@@ -60,7 +60,7 @@
        left_pad="5"
        top="10"
        width="100">
-          Modify
+          수정
       </text>
       <text
        name="label_4"
@@ -73,7 +73,7 @@
        left_pad="5"
        top="10"
        width="100">
-          Transfer
+          환승
       </text>    
       <text
        name="label_5"
@@ -87,7 +87,7 @@
        top="10"
        word_wrap="true"
        width="100">
-          Share with group
+          그룹과 공유
       </text>
       <text
        name="label_6"
@@ -101,7 +101,7 @@
        top="10"
        word_wrap="true"
        width="120">
-          Allow anyone to copy
+          모든 사용자 복사 허용
       </text>
       <text
        name="label_7"
@@ -114,7 +114,7 @@
        top_pad="10"
        tool_tip="Set default permissions for when Objects are created"
        width="100">
-          Objects
+          개체
       </text>
       <icon
        follows="left|top"
@@ -178,7 +178,7 @@
        left="0"
        tool_tip="Set default permissions for uploaded items"
        width="100">
-          Uploads
+          업로드
       </text>
       <icon
        follows="left|top"
@@ -242,7 +242,7 @@
        left="0"
        tool_tip="Set default permissions for when Scripts are created"
        width="100">
-          Scripts
+          스크립트
       </text>
       <icon
        follows="left|top"
@@ -306,7 +306,7 @@
        left="0"
        tool_tip="Set default permissions for when Notecards are created"
        width="100">
-        Notecards
+        노트카드
       </text>
       <icon
        follows="left|top"
@@ -370,7 +370,7 @@
        left="0"
        tool_tip="Set default permissions for when Gestures are created"
        width="100">
-          Gestures
+          제스쳐
       </text>
       <icon
        follows="left|top"
@@ -434,7 +434,7 @@
        left="0"
        tool_tip="Set default permissions for when Clothing or Body Parts are created"
        width="100">
-          Wearables
+          의상
       </text>
       <icon
        follows="left|top"
@@ -498,7 +498,7 @@
        left="0"
        tool_tip="Set default permissions for when Environment settings are created"
        width="100">
-          Settings
+          설정
       </text>
       <icon
        follows="left|top"
@@ -563,7 +563,7 @@
   </button>
   <button
    height="20"
-   label="Cancel"
+   label="취소"
    label_selected="Cancel"
    layout="topleft"
    left_pad="5"

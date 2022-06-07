@@ -149,9 +149,9 @@
          name="--selectone--"
          value="select" />
         <combo_box.item
-         label="Anyone"
+         label="누구나"
          name="Anyone"
-         value="anyone" />
+         value="누구나" />
         <combo_box.item
          label="Specific person:"
          name="Specificuser:"
