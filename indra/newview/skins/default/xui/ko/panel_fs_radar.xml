@@ -32,7 +32,7 @@
 		<panel
 		 follows="left|top|right"
 		 height="27"
-		 label="bottom_panel"
+		 label="아래 패널"
 		 layout="topleft"
 		 left="0"
 		 name="nearby_buttons_panel"
@@ -43,7 +43,7 @@
 			 height="23"
 			 layout="topleft"
 			 left="3"
-			 label="Filter People"
+			 label="tkfkaemf vlfxj"
 			 max_length_chars="300"
 			 name="nearby_filter_input"
 			 top="1"
@@ -177,7 +177,7 @@
 						 primary_sort_only="true"
 						 width="321">
 							<radar_list.columns
-							 label="Name"
+							 label="이름"
 							 name="name"
 							 tool_tip="[TOTAL] avatars, [IN_REGION] in the same region, [IN_CHAT_RANGE] in chat range"
 							 dynamic_width="true"/>
@@ -216,12 +216,12 @@
 							 name="age"
 							 width="50"/>
 							<radar_list.columns
-							 label="Seen"
+							 label="보이는"
 							 name="seen"
 							 sort_column="seen_sort"
 							 width="50"/>
 							<radar_list.columns
-							 label="Range"
+							 label="거리"
 							 name="range"
 							 width="61"/>
 							<radar_list.columns
@@ -268,7 +268,7 @@
 				 height="16"
 				 increment="2"
 				 initial_value="96"
-				 label="Range (m):"
+				 label="거리 (m):"
 				 label_width="70"
 				 layout="topleft"
 				 max_val="4096"

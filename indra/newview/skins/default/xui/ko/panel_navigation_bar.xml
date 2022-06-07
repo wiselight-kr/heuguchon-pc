@@ -112,7 +112,7 @@
 	     layout="topleft"
 	     left_pad="7"
 	     name="About_Land"
-	     label="Land" 
+	     label="랜드" 
 	     tool_tip="Opens Land Information window"
 	     top_delta="0"
 	     width="43">
@@ -130,7 +130,7 @@
 	     layout="topleft"
 	     left_pad="7"
 	     name="PersonalLighting"
-	     label="Lighting"
+	     label="라이팅"
 	     tool_tip="Opens the Personal Lighting window"
 	     top_delta="0"
 	     width="60" />
@@ -152,7 +152,7 @@
 	     follows="all"
 	     halign="right"
 	     height="23"
-	     label="Location"
+	     label="위치"
 	     layout="topleft"
 	     left="7"
 	     max_chars="254"
@@ -182,7 +182,7 @@
 	     left="10"
 	     halign="right"
 	     height="23"
-	     label="Search"
+	     label="검색"
 	     layout="topleft"
 	     mouse_opaque="true"
 	     name="search_combo_box"
@@ -190,7 +190,7 @@
 	     top="0"
 	     width="234">
          <combo_editor
-          label="Search Metaverse"
+          label="메타버스 검색"
           name="search_combo_editor"/>
          <combo_list
           draw_border="true"
@@ -228,7 +228,7 @@
      left="0"
      name="favorite"
      image_drag_indication="Accordion_ArrowOpened_Off"
-     tool_tip="Drag Landmarks here for quick access to your favorite places!"
+     tool_tip="Drag Landmarks here for quick access to your favorite places in Second Life!"
      width="1024">
         <label
          follows="left|top"
@@ -238,7 +238,7 @@
          left="10"
          name="favorites_bar_label"
          text_color="LtGray"
-         tool_tip="Drag Landmarks here for quick access to your favorite places!"
+         tool_tip="Drag Landmarks here for quick access to your favorite places in Second Life!"
 	     valign="bottom"
          width="102">
           Favorites Bar

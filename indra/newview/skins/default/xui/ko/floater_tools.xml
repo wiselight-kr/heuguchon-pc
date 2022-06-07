@@ -16,71 +16,71 @@
  width="295">
   <floater.string
      name="grid_screen_text">
-    Screen
+    화면
   </floater.string>
   <floater.string
    name="grid_local_text">
-    Local
+    지역
   </floater.string>
   <floater.string
    name="grid_world_text">
-    World
+    월드
   </floater.string>
   <floater.string
    name="grid_reference_text">
-    Reference
+    레퍼런스
   </floater.string>
   <floater.string
    name="grid_attachment_text">
-    Attachment
+    첨부파일
   </floater.string>
   <floater.string
      name="status_rotate">
-        Drag colored bands to rotate object
+        색상 밴드를 끌어 개체를 회전시킵니다
     </floater.string>
     <floater.string
      name="status_scale">
-        Click and drag to stretch selected side
+        선택한 측면을 늘이려면 클릭하고 끕니다
     </floater.string>
     <floater.string
      name="status_move">
-        Drag to move, shift-drag to copy
+        이동하려면 끌기, 복사하려면 이동-끌기
     </floater.string>
     <floater.string
      name="status_modifyland">
-        Click and hold to modify land
+        랜드 수정하려면 클릭한 채로 유지
     </floater.string>
     <floater.string
      name="status_camera">
-        Click and drag to move camera
+        카메라를 이동하려면 클릭하고 끕니다
     </floater.string>
     <floater.string
      name="status_grab">
-        Drag to move, Ctrl to lift, Ctrl+Shift to rotate
-    </floater.string>
+        이동하려면 끌기, 들어올리려면 Ctrl, 회전하려면 Ctrl+Shift
+            </floater.string>
     <floater.string
      name="status_place">
-        Click inworld to build
+        구축하려면 월드를 클릭하십시오
     </floater.string>
     <floater.string
      name="status_selectland">
-        Click and drag to select land
+        클릭해서 끌어서 랜드 선택
     </floater.string>
     <floater.string
      name="status_selectcount">
-        [OBJ_COUNT] objects selected, land impact [LAND_IMPACT]
-    </floater.string>
+        [OBJ_COUNT] 객체 선택, 랜드 임팩트 [LAND_IMPT]
+            </floater.string>
     <floater.string
      name="status_remaining_capacity">
-        Remaining capacity [LAND_CAPACITY].
-    </floater.string>
+        남은 용량 [LAND_CAPAITY]입니다.
+        </floater.string>
 	<floater.string
 	  name="link_number">
-		Link number:
+		링크 번호:
 	</floater.string>
 	<floater.string
 	  name="selected_faces">
-		Faces:
+		얼굴:
 	</floater.string>
     <button
      follows="left|top"
@@ -170,8 +170,8 @@
      name="text status"
      top_pad="3"
      width="285">
-        Drag to move, shift-drag to copy
-    </text>
+        이동하려면 끌기, 복사하려면 이동-끌기
+            </text>
    <radio_group
      layout="topleft"
      left="10"
@@ -180,17 +180,17 @@
      name="focus_radio_group">
         <radio_item
          top_pad="6"
-         label="Zoom"
+         label="확대"
          layout="topleft"
          name="radio zoom" />
         <radio_item
          top_pad="6"
-         label="Orbit (Ctrl)"
+         label="궤도 (Ctrl)"
          layout="topleft"
          name="radio orbit" />
         <radio_item
          top_pad="6"
-         label="Pan (Ctrl+Shift)"
+         label="팬 (Ctrl+Shift)"
          layout="topleft"
          name="radio pan" />
 		 <radio_group.commit_callback
@@ -218,17 +218,17 @@
      name="move_radio_group">
         <radio_item
          top_pad="6"
-         label="Move"
+         label="이동"
          layout="topleft"
          name="radio move" />
         <radio_item
 		 top_pad="6"
-         label="Lift (Ctrl)"
+         label="들기 (Ctrl)"
          layout="topleft"
          name="radio lift" />
         <radio_item
          top_pad="6"
-         label="Spin (Ctrl+Shift)"
+         label="회전 (Ctrl+Shift)"
          layout="topleft"
          name="radio spin" />
 		 <radio_group.commit_callback
@@ -242,27 +242,27 @@
      layout="topleft"
 	 name="edit_radio_group">
         <radio_item
-		 label="Move"
+		 label="이동"
 		 layout="topleft"
 		 name="radio position" />
         <radio_item
 		 top_pad="5"
-         label="Rotate (Ctrl)"
+         label="돌기 (Ctrl)"
          layout="topleft"
          name="radio rotate" />
         <radio_item
 		 top_pad="5"
-         label="Stretch (Ctrl+Shift)"
+         label="늘이기 (Ctrl+Shift)"
          layout="topleft"
          name="radio stretch" />
         <radio_item
 		 top_pad="5"
-         label="Select Face"
+         label="얼굴 선택"
          layout="topleft"
          name="radio select face" />
         <radio_item
 		 top_pad="5"
-         label="Align"
+         label="정렬"
          layout="topleft"
          name="radio align" />
 			<radio_group.commit_callback
@@ -273,7 +273,7 @@
      follows="left|top"
      height="19"
 	 control_name="EditLinkedParts"
-     label="Edit linked"
+     label="연결 수정"
      layout="topleft"     
      name="checkbox edit linked parts"
      top_pad="0">
@@ -310,7 +310,7 @@
    <button
      follows="left|top"
      height="20"
-     label="Link"
+     label="링크"
      left_pad="2"
      layout="topleft"
      name="link_btn"
@@ -321,7 +321,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Unlink"
+     label="링크해제"
      layout="topleft"
      left_pad="2"
      name="unlink_btn"
@@ -339,15 +339,15 @@
      top_delta="0"
      width="108">
       <combo_box.item
-       label="World grid"
+       label="월드 그리드"
        name="World"
        value="World" />
       <combo_box.item
-       label="Local grid"
+       label="로컬 그리드"
        name="Local"
        value="Local" />
       <combo_box.item
-       label="Reference grid"
+       label="그리드 레퍼런스"
        name="Reference"
        value="Reference" />
        <combo_box.commit_callback
@@ -356,7 +356,7 @@
     <check_box
      control_name="ScaleUniform"
      height="19"
-     label="Stretch Both Sides"
+     label="양쪽 늘이기"
      layout="topleft"
      left="143"
      name="checkbox uniform"
@@ -368,7 +368,7 @@
      control_name="ScaleStretchTextures"
      height="19"
      initial_value="true"
-     label="Stretch Textures"
+     label="텍스쳐 늘이기"
      layout="topleft"
      left="143"
      name="checkbox stretch textures"
@@ -379,7 +379,7 @@
      control_name="SnapEnabled"
      height="18"
      initial_value="true"
-     label="Snap"
+     label="스냅"
      layout="topleft"
      top_pad="-2"
      name="checkbox snap to grid"
@@ -388,7 +388,7 @@
      control_name="FSBuildPrefs_ActualRoot"
      height="18"
      initial_value="false"
-     label="Edit axis at root"
+     label="루트에서 축 편집"
      layout="topleft"
      top_pad="-2"
      name="checkbox actual root"
@@ -396,7 +396,7 @@
   <check_box
      height="18"
      initial_value="true"
-     label="Show Highlight"
+     label="하이라이트 보기"
      layout="topleft"
      top_pad="-2"
      name="checkbox show highlight"
@@ -619,7 +619,7 @@
     <check_box
      control_name="CreateToolKeepSelected"
      height="19"
-     label="Keep Tool selected"
+     label="도구 선택 유지"
      layout="topleft"
      left="155"
      name="checkbox sticky"
@@ -628,7 +628,7 @@
     <check_box
      control_name="CreateToolCopySelection"
      height="19"
-     label="Copy selection"
+     label="선택 복사"
      layout="topleft"
      left_delta="0"
      name="checkbox copy selection"
@@ -638,7 +638,7 @@
      control_name="CreateToolCopyCenters"
      height="19"
      initial_value="true"
-     label="Center Copy"
+     label="중앙 복사"
      layout="topleft"
      left_delta="18"
      name="checkbox copy centers"
@@ -647,7 +647,7 @@
     <check_box
      control_name="CreateToolCopyRotates"
      height="19"
-     label="Rotate Copy"
+     label="회전 복사"
      layout="topleft"
      left_delta="0"
      name="checkbox copy rotates"
@@ -673,7 +673,7 @@
      width="114">
         <radio_item
          height="19"
-         label="Select Land"
+         label="랜드 선택"
          layout="topleft"
          left="0"
          name="radio select land"
@@ -681,7 +681,7 @@
          width="134" />
         <radio_item
          height="19"
-         label="Flatten"
+         label="평평한"
          layout="topleft"
          left_delta="0"
          name="radio flatten"
@@ -689,7 +689,7 @@
          width="114" />
         <radio_item
          height="19"
-         label="Raise"
+         label="들어올리기"
          layout="topleft"
          left_delta="0"
          name="radio raise"
@@ -697,7 +697,7 @@
          width="114" />
         <radio_item
          height="19"
-         label="Lower"
+         label="낮은"
          layout="topleft"
          left_delta="0"
          name="radio lower"
@@ -705,7 +705,7 @@
          width="114" />
         <radio_item
          height="19"
-         label="Smooth"
+         label="부드러운"
          layout="topleft"
          left_delta="0"
          name="radio smooth"
@@ -713,7 +713,7 @@
          width="114" />
         <radio_item
          height="19"
-         label="Roughen"
+         label="거칠어지다"
          layout="topleft"
          left_delta="0"
          name="radio noise"
@@ -721,7 +721,7 @@
          width="114" />
         <radio_item
          height="19"
-         label="Revert"
+         label="되돌아가다"
          layout="topleft"
          left_delta="0"
          name="radio revert"
@@ -740,7 +740,7 @@
      name="Bulldozer:"
      top="57"
      width="100">
-        Bulldozer:
+        불도저:
     </text>
     <text
      type="string"
@@ -752,7 +752,7 @@
      left="135"
      top_pad="5"
      width="50">
-        Size
+        크기
     </text>
     <slider_bar
 	 control_name ="LandBrushSize"
@@ -776,7 +776,7 @@
      left="135"
      top_pad="5"
      width="50">
-        Strength
+        힘
     </text>
     <slider_bar
      follows="left|top"
@@ -795,7 +795,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Apply"
+     label="적용"
      label_selected="Apply"
      top_pad="5"
      layout="topleft"
@@ -830,7 +830,7 @@
 	  name="selection_empty"
 	  top_pad="2"
 	  width="100">
-		Nothing selected.
+		선택된것 없음.
 	</text>
 	<text
 	  type="string"
@@ -885,7 +885,7 @@
 <panel
 	 border="false"
 	 follows="all"
-	 label="General"
+	 label="일반"
 	 layout="topleft"
 	 mouse_opaque="false"
 	 help_topic="toolbox_general_tab"
@@ -894,63 +894,63 @@
 	 width="295">
 <panel.string
 	  name="text deed continued">
-		Deed
+		증서
 	 </panel.string>
 	<panel.string
 	 name="text deed">
-		Deed
+		증서
 	</panel.string>
             <panel.string
              name="text modify info 1">
-                You can modify this object
+                이 개체를 수정할 수 있습니다.
             </panel.string>
             <panel.string
              name="text modify info 2">
-                You can modify these objects
+                이러한 개체를 수정할 수 있습니다.
             </panel.string>
             <panel.string
              name="text modify info 3">
-                You can't modify this object
+                이 개체를 수정할 수 없습니다.
             </panel.string>
             <panel.string
              name="text modify info 4">
-                You can't modify these objects
+                이 개체는 수정할 수 없습니다.
             </panel.string>
             <panel.string
              name="text modify info 5">
-                You can't modify this object across a region boundary
+                영역 경계에서 이 개체를 수정할 수 없습니다.
             </panel.string>
             <panel.string
              name="text modify info 6">
-                You can't modify these objects across a region boundary
+                영역 경계에서 이러한 개체를 수정할 수 없습니다.
             </panel.string>
             <panel.string
              name="text modify warning">
-                You must select entire object to set permissions
+                사용 권한을 설정하려면 전체 개체를 선택해야 합니다.
             </panel.string>
             <panel.string
              name="Cost Default">
-                Price: L$
+                가격: L$
             </panel.string>
             <panel.string
              name="Cost Total">
-                Total Price: L$
+                전체 가격: L$
             </panel.string>
             <panel.string
              name="Cost Per Unit">
-                Price Per: L$
+                당 가격: L$
             </panel.string>
             <panel.string
              name="Cost Mixed">
-                Mixed Price
+                혼합 가격
             </panel.string>
             <panel.string
              name="Sale Mixed">
-                Mixed Sale
+                혼합 판매
             </panel.string>
             <panel.string
              name="multiple selection">
-                Multiple selection
+                복수 선택
             </panel.string>
             <text
              follows="left|top"
@@ -959,7 +959,7 @@
              name="Name:"
              top="5"
              width="90">
-                Name:
+                이름:
             </text>
             <line_editor
              follows="left|top|right"
@@ -978,7 +978,7 @@
              name="Description:"
              top_pad="3"
              width="90">
-                Description:
+                묘사:
             </text>
             <line_editor
              follows="left|top|right"
@@ -999,7 +999,7 @@
              layout="topleft"
              name="Creator:"
              width="75">
-                Creator:
+                생성자:
             </text>
             <!-- *NOTE: Intentionally wide for long names -->
             <text
@@ -1027,7 +1027,7 @@
              name="Owner:"
              top_pad="7"
              width="75">
-                Owner:
+                주인:
             </text>
             <!-- *NOTE: Intentionally wide for long names -->
             <text
@@ -1055,7 +1055,7 @@
              name="Last Owner:"
              top_pad="7"
              width="75">
-                Last Owner:
+                마지막 소유주:
             </text>
             <!-- *NOTE: Intentionally wide for long names -->
             <text
@@ -1081,7 +1081,7 @@
              name="Group:"
              top_pad="-2"
              width="75">
-                Group:
+                그룹:
             </text>
             <!--<name_box
              follows="left|top"
@@ -1119,7 +1119,7 @@
             <check_box
              height="19"
              follows="left|top"
-             label="Share"
+             label="공유"
              layout="topleft"
              name="checkbox share with group"
              tool_tip="Allow all members of the set group to share your modify permissions for this object. You must Deed to enable role restrictions."
@@ -1129,7 +1129,7 @@
             <button
              follows="top|right"
              height="19"
-             label="Deed"
+             label="증서"
              label_selected="Deed"
              layout="topleft"
              name="button deed"
@@ -1147,7 +1147,7 @@
              left="10"
              name="label click action"
              width="82">
-                Click to:
+                선택:
             </text>
             <combo_box
              follows="left|top"
@@ -1159,31 +1159,31 @@
              left_pad="10"
              tool_tip="A click action enables you to interact with an object with a single left click. Each click action has a special cursor indicating what it does. Some click actions have requirements to function. For example Touch and Pay require scripts" >
                 <combo_box.item
-                 label="Touch  (default)"
+                 label="터치  (기본값)"
                  name="Touch/grab(default)"
                  value="Touch" />
                 <combo_box.item
-                 label="Sit on object"
+                 label="개체에 앉기"
                  name="Sitonobject"
                  value="Sit" />
                 <combo_box.item
-                 label="Buy object"
+                 label="개체 구매"
                  name="Buyobject"
                  value="Buy" />
                 <combo_box.item
-                 label="Pay object"
+                 label="개체 지불"
                  name="Payobject"
                  value="Pay" />
                 <combo_box.item
-                 label="Open"
+                 label="열기"
                  name="Open"
                  value="Open" />
 				 <combo_box.item
-                 label="Zoom"
+                 label="확대"
                  name="Zoom"
                  value="Zoom" />
                 <combo_box.item
-                 label="None"
+                 label="없음"
                  name="None"
                  value="None" />
             </combo_box>
@@ -1199,7 +1199,7 @@
             <check_box
 			 top_delta="3"
              height="23"
-             label="For Sale:"
+             label="비매품:"
              layout="topleft"
              name="checkbox for sale"
              left="7"
@@ -1221,15 +1221,15 @@
             tool_tip="Select whether purchaser will receive a copy, copy of the content or item itself." >
         <combo_box.item
            name="Copy"
-           label="Copy"
+           label="복사"
            value="2" />
         <combo_box.item
            name="Contents"
-           label="Contents"
+           label="내용"
            value="3" />
         <combo_box.item
            name="Original"
-           label="Original"
+           label="원본"
            value="1" />
       </combo_box>
   <!-- NEW PRICE SPINNER
@@ -1243,7 +1243,7 @@ even though the user gets a free copy.
       top_pad="5"
       left="10"
       name="Edit Cost"
-      label="Price: L$"
+      label="가격: L$"
       label_width="65"
       valign="center"
       width="165"
@@ -1256,7 +1256,7 @@ even though the user gets a free copy.
 	 enabled="false"
 	 follows="top|right"
 	 height="20"
-	 label="Apply"
+	 label="적용"
 	 name="button mark for sale"
 	 tool_tip="Mark/Update object(s) for sale."
 	 width="100"/>
@@ -1265,7 +1265,7 @@ even though the user gets a free copy.
 	 left="10"
 	 follows="top|right"
 	 height="20"
-	 label="Copy Keys"
+	 label="키 복사"
 	 name="btnCopyKeys"
      tool_tip="Copies the selected object's root key to the clipboard. Shift-click copies all of the selected objects' keys" width="80">
 		<button.commit_callback
@@ -1274,7 +1274,7 @@ even though the user gets a free copy.
       <check_box
 	   height="15"
 	   width="110"
-	   label="Show in search"
+	   label="검색으로 표시"
        layout="topleft"
 	   left_pad="15"
        name="search_check"
@@ -1303,7 +1303,7 @@ even though the user gets a free copy.
              layout="topleft"
              name="perm_modify"
              width="214">
-                You can modify this object
+                이 개체를 수정할 수 있습니다.
             </text>
             <text
                type="string"
@@ -1315,7 +1315,7 @@ even though the user gets a free copy.
             </text>
             <check_box
              height="19"
-             label="Move"
+             label="이동"
              layout="topleft"
              name="checkbox allow everyone move"
              tool_tip="Anyone can move the object."
@@ -1323,7 +1323,7 @@ even though the user gets a free copy.
              width="85" />
             <check_box
              height="19"
-             label="Copy"
+             label="복사"
              layout="topleft"
              left_pad="0"
              name="checkbox allow everyone copy"
@@ -1331,7 +1331,7 @@ even though the user gets a free copy.
              width="80" />
             <check_box
              height="19"
-             label="Export"
+             label="내보내기"
              layout="topleft"
              left_pad="0"
              name="checkbox allow export"
@@ -1344,11 +1344,11 @@ even though the user gets a free copy.
                name="Next owner can:"
                width="250"
                left="10">
-                  Next owner:
+                  다음 소유주:
             </text>
             <check_box
              follows="left|top|right"
-             label="Modify"
+             label="수정"
              layout="topleft"
              left="10"
              height="10"
@@ -1358,7 +1358,7 @@ even though the user gets a free copy.
             <check_box
              follows="left|top|right"
              height="19"
-             label="Copy"
+             label="복사"
              layout="topleft"
              left_pad="0"
              name="checkbox next owner can copy"
@@ -1367,7 +1367,7 @@ even though the user gets a free copy.
             <check_box
              follows="left|top|right"
              height="19"
-             label="Transfer"
+             label="환승"
              layout="topleft"
              name="checkbox next owner can transfer"
              left_pad="0"
@@ -1472,7 +1472,7 @@ even though the user gets a free copy.
          top_pad="4"
          width="150"
          left="10">
-        Pathfinding attributes:
+        경로찾기 특성:
       </text>
       <text
          type="string"
@@ -1490,7 +1490,7 @@ even though the user gets a free copy.
          border="false"
          follows="all"
          height="567"
-         label="Object"
+         label="갸채"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -1499,20 +1499,20 @@ even though the user gets a free copy.
          top="16"
          width="295">
             <panel.string name="Paste Position">
-                Paste Position
+                위치 붙여넣기
 [VALUE]
             </panel.string>
             <panel.string name="Paste Size">
-                Paste Size
+                크기 붙여넣기
 [VALUE]
             </panel.string>
             <panel.string name="Paste Rotation">
-                Paste Rotation
+                회전 붙여넣기
 [VALUE]
             </panel.string>
             <check_box
              height="19"
-             label="Locked"
+             label="잠김"
              layout="topleft"
              name="checkbox locked"
              tool_tip="Prevents object from being moved or deleted. Frequently useful during building to avoid unintended edits."
@@ -1521,7 +1521,7 @@ even though the user gets a free copy.
              width="123" />
             <check_box
              height="19"
-             label="Physical"
+             label="물리"
              layout="topleft"
              name="Physical Checkbox Ctrl"
              tool_tip="Allows object to be pushed and affected by gravity"
@@ -1529,7 +1529,7 @@ even though the user gets a free copy.
              width="123" />
             <check_box
              height="19"
-             label="Temporary"
+             label="임시적"
              layout="topleft"
              name="Temporary Checkbox Ctrl"
              tool_tip="Causes object to be deleted 1 minute after creation"
@@ -1537,7 +1537,7 @@ even though the user gets a free copy.
              width="123" />
             <check_box
              height="19"
-             label="Phantom"
+             label="팬텀"
              layout="topleft"
              name="Phantom Checkbox Ctrl"
              tool_tip="Causes object to not collide with other objects or avatars"
@@ -1552,7 +1552,7 @@ even though the user gets a free copy.
              name="label position"
              top_pad="10"
              width="121">
-                Position (meters)
+                위치 (미터)
             </text> 
             <spinner
              decimal_digits="4"
@@ -1646,7 +1646,7 @@ even though the user gets a free copy.
              name="label size"
              top_pad="6"
              width="121">
-                Size (meters)
+                크기 (미터)
             </text>
             <spinner
              decimal_digits="4"
@@ -1740,7 +1740,7 @@ even though the user gets a free copy.
              name="label rotation"
              top_pad="10"
              width="121">
-                Rotation (degrees)
+                회전 (도)
             </text>
             <spinner
              decimal_digits="3"
@@ -1848,12 +1848,12 @@ even though the user gets a free copy.
 			 name="edit_object"
 			 top_pad="8"
 			 width="121">
-			  Object Parameters:
+			  개체 매개변수:
 			</text>
 			<button
 			 follows="top|right"
 			 height="16"
-			 label="Copy"
+			 label="복사"
 			 layout="topleft"
 			 left="5"
 			 name="copyparams"
@@ -1863,7 +1863,7 @@ even though the user gets a free copy.
 			<button
 			 follows="top|right"
 			 height="16"
-			 label="Paste"
+			 label="붙여넣기"
 			 layout="topleft"
 			 left_pad="10"
 			 name="pasteparams"
@@ -1878,94 +1878,94 @@ even though the user gets a free copy.
              left="125"
              width="150">
                 <combo_box.item
-                 label="Box"
+                 label="상자"
                  name="Box"
                  value="Box" />
                 <combo_box.item
-                 label="Cylinder"
+                 label="실린더"
                  name="Cylinder"
                  value="Cylinder" />
                 <combo_box.item
-                 label="Prism"
+                 label="프리즘"
                  name="Prism"
                  value="Prism" />
                 <combo_box.item
-                 label="Sphere"
+                 label="구"
                  name="Sphere"
                  value="Sphere" />
                 <combo_box.item
-                 label="Torus"
+                 label="원환체"
                  name="Torus"
                  value="Torus" />
                 <combo_box.item
-                 label="Tube"
+                 label="튜브"
                  name="Tube"
                  value="Tube" />
                 <combo_box.item
-                 label="Ring"
+                 label="고리"
                  name="Ring"
                  value="Ring" />
                 <combo_box.item
-                 label="Sculpted"
+                 label="조각된"
                  name="Sculpted"
                  value="Sculpted" />
 				<combo_item
 				 name="PathLineProfileHalfCircle"
 				 value="PathLineProfileHalfCircle"
-				 label="Line->Half-Circle" />
+				 label="선->반원" />
 				<combo_item
 				 name="PathCircleProfileHalfCircle"
 				 value="PathCircleProfileHalfCircle"
-				 label="Circle->Half-Circle" />
+				 label="원->반원" />
 				<combo_item
 				 name="PathCircle2ProfileSquare"
 				 value="PathCircle2ProfileSquare"
-				 label="Circle2->Square" />
+				 label="원2->사각형" />
 				<combo_item
 				 name="PathCircle2ProfileTriangle"
 				 value="PathCircle2ProfileTriangle"
-				 label="Circle2->Triangle" />
+				 label="원2->삼각형" />
 				<combo_item
 				 name="PathCircle2ProfileCircle"
 				 value="PathCircle2ProfileCircle"
-				 label="Circle2->Circle" />
+				 label="원2->원" />
 				<combo_item
 				 name="PathCircle2ProfileHalfCircle"
 				 value="PathCircle2ProfileHalfCircle"
-				 label="Circle2->Half-Circle" />
+				 label="원2->반원" />
 				<combo_item
 				 name="PathTestProfileSquare"
 				 value="PathTestProfileSquare"
-				 label="Test->Square" />
+				 label="시험->사각형" />
 				<combo_item
 				 name="PathTestProfileTriangle"
 				 value="PathTestProfileTriangle"
-				 label="Test->Triangle" />
+				 label="시험->삼각형" />
 				<combo_item
 				 name="PathTestProfileCircle"
 				 value="PathTestProfileCircle"
-				 label="Test->Circle" />
+				 label="시험->원" />
 				<combo_item
 				 name="PathTestProfileHalfCircle"
 				 value="PathTestProfileHalfCircle"
-				 label="Test->Half-Circle" />
+				 label="시험->반원" />
 				<!-- Working33 by Gregory Maurer -->
 				<combo_item
 				 name="Path33Profile0"
 				 value="Path33Profile0"
-				 label="33->Circle" />
+				 label="33->원" />
 				<combo_item
 				 name="Path33Profile1"
 				 value="Path33Profile1"
-				 label="33->Square" />
+				 label="33->사각형" />
 				<combo_item
 				 name="Path33Profile2"
 				 value="Path33Profile2"
-				 label="33->Triangle" />
+				 label="33->삼각형" />
 				<combo_item
 				 name="Path33Profile5"
 				 value="Path33Profile5"
-				 label="33->HalfCircle" />
+				 label="33->반원" />
 <!-- End Working33 by Gregory Maurer -->
             </combo_box>
             <text
@@ -1978,7 +1978,7 @@ even though the user gets a free copy.
              name="text cut"
              top_pad="5"
              width="150">
-                Path Cut (begin/end)
+                경로 자르기 (시작/끝)
             </text>
             <spinner
              follows="left|top"
@@ -2016,7 +2016,7 @@ even though the user gets a free copy.
              name="text hollow"
              top_pad="6"
              width="68">
-                Hollow
+                빈
             </text>
             <text
              type="string"
@@ -2027,7 +2027,7 @@ even though the user gets a free copy.
              left_pad="10"
              name="text skew"
              width="63">
-                Skew
+                기울이기
             </text>
             <spinner
              decimal_digits="1"
@@ -2064,7 +2064,7 @@ even though the user gets a free copy.
              name="Hollow Shape"
              top_pad="4"
              width="150">
-                Hollow Shape
+                속이 빈 모양
             </text>
             <combo_box
              height="23"
@@ -2074,19 +2074,19 @@ even though the user gets a free copy.
              top_pad="-2"
              width="150">
                 <combo_box.item
-                 label="Default"
+                 label="기본값"
                  name="Default"
                  value="Default" />
                 <combo_box.item
-                 label="Circle"
+                 label="원"
                  name="Circle"
                  value="Circle" />
                 <combo_box.item
-                 label="Square"
+                 label="사각형"
                  name="Square"
                  value="Square" />
                 <combo_box.item
-                 label="Triangle"
+                 label="삼각형"
                  name="Triangle"
                  value="Triangle" />
             </combo_box>
@@ -2100,7 +2100,7 @@ even though the user gets a free copy.
              name="text twist"
              top_pad="5"
              width="150">
-                Twist (begin/end)
+                꼬기 (시작/끝)
             </text>
             <spinner
              decimal_digits="0"
@@ -2142,7 +2142,7 @@ even though the user gets a free copy.
              name="scale_taper"
              top_pad="3"
              width="150">
-                Taper
+                가늘어지는
             </text>
             <text
 			 visible="false"
@@ -2155,7 +2155,7 @@ even though the user gets a free copy.
              name="scale_hole"
              top_delta="0"
              width="150">
-                Hole Size
+                구멍 크기
             </text>
             <spinner
              decimal_digits="3"
@@ -2195,7 +2195,7 @@ even though the user gets a free copy.
              name="text topshear"
              top_pad="3"
              width="141">
-                Top Shear
+                상단 자르기
             </text>
             <spinner
              decimal_digits="3"
@@ -2238,7 +2238,7 @@ even though the user gets a free copy.
              name="advanced_cut"
              top_pad="3"
              width="150">
-                Profile Cut (begin/end)
+                프로필 자르기 (시작/끝)
             </text>
             <text
 			 visible="false"
@@ -2251,7 +2251,7 @@ even though the user gets a free copy.
              name="advanced_dimple"
              top_delta="0"
              width="150">
-                Dimple (begin/end)
+                보조개 (시작/끝)
             </text>
             <text
              type="string"
@@ -2263,7 +2263,7 @@ even though the user gets a free copy.
              name="advanced_slice"
              top_delta="0"
              width="150">
-                Slice (begin/end)
+                조각내기 (시작/끝)
             </text>
             <spinner
              follows="left|top"
@@ -2303,7 +2303,7 @@ even though the user gets a free copy.
              top_pad="3"
 			 tool_tip="Does not work on all prim types."
              width="150">
-                Taper Profile
+                테이퍼 프로필
             </text>
             <spinner
 			 visible="false"
@@ -2346,7 +2346,7 @@ even though the user gets a free copy.
              name="text radius delta"
              top_pad="2"
              width="78">
-                Radius
+                반지름
             </text>
             <text
 			 visible="false"
@@ -2358,7 +2358,7 @@ even though the user gets a free copy.
              left_delta="78"
              name="text revolutions"
              width="68">
-                Revolutions
+                혁명
             </text>
             <spinner
 			 visible="false"
@@ -2390,7 +2390,7 @@ even though the user gets a free copy.
              default_image_name="Default"
              follows="left|top"
              height="141"
-             label="Sculpt Texture"
+             label="조각 텍스쳐"
              layout="topleft"
              left="125"
              name="sculpt texture control"
@@ -2400,7 +2400,7 @@ even though the user gets a free copy.
              width="145" />
             <check_box
              height="19"
-             label="Mirror"
+             label="거울"
              layout="topleft"
              left_delta="0"
              name="sculpt mirror control"
@@ -2410,7 +2410,7 @@ even though the user gets a free copy.
              width="130" />
             <check_box
              height="19"
-             label="Inside-out"
+             label="안-밖"
              layout="topleft"
              left_delta="0"
              name="sculpt invert control"
@@ -2441,19 +2441,19 @@ even though the user gets a free copy.
 			 tool_tip="The &quot;none&quot; option has been removed because it is identical with &quot;Plane&quot;."
              width="150">
                 <combo_box.item
-                 label="Sphere"
+                 label="구"
                  name="Sphere"
                  value="1" />
                 <combo_box.item
-                 label="Torus"
+                 label="원환체"
                  name="Torus"
                  value="2" />
                 <combo_box.item
-                 label="Plane / None"
+                 label="플레인 / 없음"
                  name="Plane"
                  value="3" />
                 <combo_box.item
-                 label="Cylinder"
+                 label="실린더"
                  name="Cylinder"
                  value="4" />
               </combo_box>
@@ -2469,7 +2469,7 @@ even though the user gets a free copy.
           top="6"
           width="100"
           visible="false">
-                   Mesh Information:
+                   그물망 정보:
         </text>
         <text
           follows="left|top"
@@ -2503,10 +2503,10 @@ even though the user gets a free copy.
           top_pad="3"
           visible="false"
           width="60" >
-High:
-Medium:
-Low:
-Lowest:
+높음:
+중간:
+낮음:
+가장낮음:
         </text>
         <string name="mesh_lod_num_tris_values">
 [HIGHTRIS]
@@ -2534,23 +2534,23 @@ Lowest:
              width="150"
              visible="false">
           <combo_box.item
-               label="Default"
+               label="기본값"
                name="Default"
                value="-1" />
           <combo_box.item
-               label="High"
+               label="높음"
                name="High"
                value="3" />
           <combo_box.item
-               label="Medium"
+               label="중간"
                name="Medium"
                value="2" />
           <combo_box.item
-               label="Low"
+               label="낮음"
                name="Low"
                value="1" />
           <combo_box.item
-               label="Lowest"
+               label="가장 낮음"
                name="Lowest/Imposter"
                value="0" />
         </combo_box>
@@ -2682,9 +2682,9 @@ Lowest:
           top_pad="3"
           visible="false"
           width="65" >
-High ↔ Med
-Med ↔ Low
-Low ↔ Lwst         
+높음 ↔ 중간
+중간 ↔ 낮음
+낮음 ↔ 가장 낮음         
         </text>
         <string
           name="LODSwapFormatString"
@@ -2735,7 +2735,7 @@ Low ↔ Lwst
           top_pad="15"
           tool_tip="Best practice: Creators should ensure good LOD behaviour for Default settings across all viewers."
           height="100">
-          This table shows the LOD change boundaries in metres from the camera.
+          이 표에는 LOD 변경 경계가 카메라에서 미터 단위로 표시되어 있습니다.
         </text>
         <!-- /FS:Beq end of Mesh info section-->
         </panel>
@@ -2743,7 +2743,7 @@ Low ↔ Lwst
          border="false"
          follows="all"
          height="367"
-         label="Features"
+         label="특징"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -2751,9 +2751,9 @@ Low ↔ Lwst
          name="Features"
          top_delta="0"
          width="295">
-	<panel.string name="None">None</panel.string>
-	<panel.string name="Prim">Prim</panel.string>
-	<panel.string name="Convex Hull">Convex Hull</panel.string>
+	<panel.string name="None">없음</panel.string>
+	<panel.string name="Prim">프림</panel.string>
+	<panel.string name="Convex Hull">볼록 선체</panel.string>
             <text
              type="string"
              length="1"
@@ -2764,7 +2764,7 @@ Low ↔ Lwst
              name="select_single"
              top="5"
              width="270">
-                Select only one primitive to edit features.
+                피쳐를 편집할 프리미티브를 하나만 선택하십시오.
             </text>
             <text
              type="string"
@@ -2776,11 +2776,11 @@ Low ↔ Lwst
              name="edit_object"
              top="5"
              width="252">
-                Edit object features:
+                객체 피쳐 편집:
             </text>
             <check_box
              height="15"
-             label="Animated Mesh"
+             label="애니메이션화된 그물"
              layout="topleft"
              left="10"
              name="Animated Mesh Checkbox Ctrl"
@@ -2789,7 +2789,7 @@ Low ↔ Lwst
              width="121" />
             <check_box
              height="10"
-             label="Flexible Path"
+             label="유연한 경로"
              follows="left|top"
              layout="topleft"
              left="10"
@@ -2802,7 +2802,7 @@ Low ↔ Lwst
              height="19"
              increment="1"
              initial_value="2"
-             label="Softness"
+             label="부드러움"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -2815,7 +2815,7 @@ Low ↔ Lwst
              height="19"
              increment="0.5"
              initial_value="0.3"
-             label="Gravity"
+             label="중력"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -2829,7 +2829,7 @@ Low ↔ Lwst
              height="19"
              increment="0.5"
              initial_value="2"
-             label="Drag"
+             label="끌기"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -2842,7 +2842,7 @@ Low ↔ Lwst
              height="19"
              increment="0.5"
              initial_value="0"
-             label="Wind"
+             label="바람"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -2855,7 +2855,7 @@ Low ↔ Lwst
              height="19"
              increment="0.5"
              initial_value="1"
-             label="Tension"
+             label="장력"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -2868,7 +2868,7 @@ Low ↔ Lwst
              height="19"
              increment="0.01"
              initial_value="0"
-             label="Force X"
+             label="힘 X"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -2882,7 +2882,7 @@ Low ↔ Lwst
              height="19"
              increment="0.01"
              initial_value="0"
-             label="Force Y"
+             label="힘 Y"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -2896,7 +2896,7 @@ Low ↔ Lwst
              height="19"
              increment="0.01"
              initial_value="0"
-             label="Force Z"
+             label="힘 Z"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -2908,7 +2908,7 @@ Low ↔ Lwst
 
             <check_box
              height="16"
-             label="Light"
+             label="빛"
              layout="topleft"
              left="10"
              name="Light Checkbox Ctrl"
@@ -2944,7 +2944,7 @@ Low ↔ Lwst
              follows="left|top"
              height="19"
              initial_value="0.5"
-             label="Intensity"
+             label="강렬함"
              label_width="70"
              layout="topleft"
              left="10"
@@ -2968,7 +2968,7 @@ Low ↔ Lwst
           <spinner follows="left|top"
                    height="19"
                    initial_value="5"
-                   label="Radius"
+                   label="반지름"
                    label_width="70"
                    layout="topleft"
                    left="10"
@@ -2982,7 +2982,7 @@ Low ↔ Lwst
                    height="16"
                    increment="0.5"
                    initial_value="0.5"
-                   label="Focus"
+                   label="집중"
                    label_width="55"
                    left="144"
                    max_val="20"
@@ -2994,7 +2994,7 @@ Low ↔ Lwst
                    height="19"
                    increment="0.25"
                    initial_value="1"
-                   label="Falloff"
+                   label="떨어짐"
                    label_width="70"
                    layout="topleft"
                    left="10"
@@ -3008,7 +3008,7 @@ Low ↔ Lwst
                    height="16"
                    increment="0.05"
                    initial_value="1"
-                   label="Ambiance"
+                   label="은은함"
                    label_width="55"
                    left="144"
                    max_val="1"
@@ -3025,7 +3025,7 @@ Low ↔ Lwst
              name="label physicsshapetype"
              top="38"
              width="130">
-                Physics Shape Type:
+                물리 모양 타입:
           </text>
 				  <combo_box
 				     height="19"
@@ -3056,31 +3056,31 @@ Low ↔ Lwst
              width="150"
              left="144">
                 <combo_box.item
-                 label="Stone"
+                 label="돌"
                  name="Stone"
                  value="Stone" />
                 <combo_box.item
-                 label="Metal"
+                 label="메탈"
                  name="Metal"
                  value="Metal" />
                 <combo_box.item
-                 label="Glass"
+                 label="유리"
                  name="Glass"
                  value="Glass" />
                 <combo_box.item
-                 label="Wood"
+                 label="나무"
                  name="Wood"
                  value="Wood" />
                 <combo_box.item
-                 label="Flesh"
+                 label="플레쉬"
                  name="Flesh"
                  value="Flesh" />
                 <combo_box.item
-                 label="Plastic"
+                 label="플라스틱"
                  name="Plastic"
                  value="Plastic" />
                 <combo_box.item
-                 label="Rubber"
+                 label="고무"
                  name="Rubber"
                  value="Rubber" />
             </combo_box>
@@ -3090,7 +3090,7 @@ Low ↔ Lwst
              height="19"
              increment="1"
              initial_value="1"
-             label="Gravity"
+             label="중력"
              label_width="70"
              layout="topleft"
              min_val="-1"
@@ -3104,7 +3104,7 @@ Low ↔ Lwst
              height="19"
              increment="0.1"
              initial_value="0"
-             label="Friction"
+             label="마찰"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -3119,7 +3119,7 @@ Low ↔ Lwst
              height="19"
              increment="0.1"
              initial_value="0"
-             label="Density in 100 kg/m^3"
+             label="밀도(단위: 100kg/m^3)"
              label_width="70"
              label_wrap="true"
              layout="topleft"
@@ -3135,7 +3135,7 @@ Low ↔ Lwst
              height="19"
              increment="0.01"
              initial_value="0"
-             label="Bounciness"
+             label="탄력감"
              label_width="70"
              layout="topleft"
              left_delta="0"
@@ -3146,7 +3146,7 @@ Low ↔ Lwst
              width="132" />
         </panel>
         <panel
-         label="Texture"
+         label="텍스쳐"
          help_topic="toolbox_texture_tab"
          name="Texture"
          filename="panel_tools_texture.xml">
@@ -3154,7 +3154,7 @@ Low ↔ Lwst
        <panel
          border="false"
          follows="all"
-         label="Content"
+         label="내용"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -3165,7 +3165,7 @@ Low ↔ Lwst
             <button
              follows="left|top"
              height="35"
-             label="New Script"
+             label="새 스크립트"
              label_selected="New Script"
              layout="topleft"
              left="10"
@@ -3175,7 +3175,7 @@ Low ↔ Lwst
             <button
              follows="left|top"
              height="35"
-             label="Permissions"
+             label="허가"
              layout="topleft"
              left_pad="5"
              name="button permissions"
@@ -3184,7 +3184,7 @@ Low ↔ Lwst
              top="8"
              follows="left|top"
              height="20"
-             label="Refresh"
+             label="새로고침"
              layout="topleft"
              left_pad="5"
              name="button refresh"
@@ -3192,7 +3192,7 @@ Low ↔ Lwst
             <button
              follows="left|top"
              height="16"
-             label="Reset Scripts"
+             label="스크립트 재설정"
              layout="topleft"
              top_pad="1"
              name="btn_reset_scripts"
@@ -3229,7 +3229,7 @@ Low ↔ Lwst
          name="label_parcel_info"
          top="24"
          width="240">
-            Parcel Information
+            구획 정보
         </text>
         <text
          type="string"
@@ -3241,7 +3241,7 @@ Low ↔ Lwst
          name="label_area_price"
          top="48"
          width="150">
-            Price: L$[PRICE] for [AREA] m²
+            가격: L$[PRICE] for [AREA] m²
         </text>
         <text
          type="string"
@@ -3253,12 +3253,12 @@ Low ↔ Lwst
          name="label_area"
          top_delta="0"
          width="150">
-            Area: [AREA] m²
+            지역: [AREA] m²
         </text>
         <button
          follows="left|top"
          height="23"
-         label="About Land"
+         label="랜드에 대하여"
          label_selected="About Land"
          layout="topleft"
          left_delta="0"
@@ -3268,7 +3268,7 @@ Low ↔ Lwst
         <check_box
          control_name="ShowParcelOwners"
          height="19"
-         label="Show owners"
+         label="소유주 표시"
          layout="topleft"
          left_delta="0"
          name="checkbox show owners"
@@ -3291,7 +3291,7 @@ Low ↔ Lwst
         <button
          follows="left|top"
          height="23"
-         label="Subdivide"
+         label="세분화"
          label_selected="Subdivide"
          layout="topleft"
          left="30"
@@ -3301,7 +3301,7 @@ Low ↔ Lwst
         <button
          follows="left|top"
          height="23"
-         label="Join"
+         label="참가"
          label_selected="Join"
          layout="topleft"
          left_delta="0"
@@ -3319,12 +3319,12 @@ Low ↔ Lwst
          name="label_parcel_trans"
          top="256"
          width="240">
-            Land Transactions
+            랜드 거래
         </text>
         <button
          follows="left|top"
          height="23"
-         label="Buy Land"
+         label="랜드 구매"
          label_selected="Buy Land"
          layout="topleft"
          left="30"
@@ -3334,7 +3334,7 @@ Low ↔ Lwst
         <button
          follows="left|top"
          height="23"
-         label="Abandon Land"
+         label="랜드 버리기"
          label_selected="Abandon Land"
          layout="topleft"
          left_delta="0"

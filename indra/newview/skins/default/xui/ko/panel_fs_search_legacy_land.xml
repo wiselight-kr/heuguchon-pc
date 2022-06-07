@@ -6,7 +6,7 @@
 	layout="topleft"
 	left="1"
 	width="780"
-	label="Land Sales"
+	label="랜드 판매"
 	name="panel_ls_land">
 	<panel
 		border="false"
@@ -92,7 +92,7 @@
 			top="12"
 			height="16"
 			width="256">
-			Enter search terms:
+			검색어를 입력하시오:
 		</text>
 		<combo_box
 			control_name="FindLandType"
@@ -104,10 +104,10 @@
 			left="6"
 			name="land_category"
 			width="122">
-                <combo_box.item label="All Categories" name="All" value="All"/>
-                <combo_box.item label="Auction" name="Auction" value="Auction"/>
-                <combo_box.item label="Mainland Sales" name="Mainland" value="Mainland"/>
-                <combo_box.item label="Estate Sales" name="Estate" value="Estate"/>
+                <combo_box.item label="모든 카테고리" name="All" value="All"/>
+                <combo_box.item label="경매" name="Auction" value="Auction"/>
+                <combo_box.item label="본토 판매" name="Mainland" value="Mainland"/>
+                <combo_box.item label="부동산 판매" name="Estate" value="Estate"/>
                 <combo_box.commit_callback
                  function="CommitSearch" />
 		</combo_box>
@@ -115,7 +115,7 @@
 		 control_name="FindLandPrice"
 		 follows="left|top"
 		 height="16"
-		 label="Price &lt;"
+		 label="가격 &lt;"
 		 layout="topleft"
 		 left_pad="3"
 		 name="price_check"
@@ -143,7 +143,7 @@
 		 control_name="FindLandArea"
 		 follows="left|top"
 		 height="16"
-		 label="Area &gt;"
+		 label="지역 &gt;"
 		 layout="topleft"
 		 left_pad="3"
 		 name="area_check"
@@ -177,12 +177,12 @@
          top="12"
          height="16"
          width="98">
-         Sort results by:
+         결과 기준 정렬:
 		</text>
 		<check_box
          follows="left|top"
          height="16"
-         label="Ascending"
+         label="오름차순"
          layout="topleft"
          left_pad="3"
          name="ascending_check"
@@ -199,17 +199,17 @@
          top_pad="1"
          name="land_sort_combo"
          width="118">
-			<combo_box.item label="Name" name="Name_item" value="Name"/>
-			<combo_box.item label="Price" name="Price_item" value="Price"/>
-			<combo_box.item label="Price per meter" name="PPM_item" value="PPM"/>
-			<combo_box.item label="Area" name="Area_item" value="Area"/>
+			<combo_box.item label="이름" name="Name_item" value="Name"/>
+			<combo_box.item label="가격" name="Price_item" value="Price"/>
+			<combo_box.item label="미터 당 가격" name="PPM_item" value="PPM"/>
+			<combo_box.item label="지역" name="Area_item" value="Area"/>
             <combo_box.commit_callback
              function="CommitSearch" />
 		</combo_box>
 		<button
 		 follows="top|right"
 		 height="23"
-		 label="Search"
+		 label="검색"
 		 layout="topleft"
 		 left="678"
 		 top_delta="0"
@@ -240,15 +240,15 @@
 			 name="icon"
 			 width="20" />
 			 <columns
-			 label="Name"
+			 label="이름"
 			 name="land_name"
 			 relwidth="0.45" />
 			<columns
-			 label="Price"
+			 label="가격"
 			 name="price"
 			 relwidth="0.1" />
             <columns
-			 label="Area"
+			 label="지역"
 			 name="area"
 			 relwidth="0.1" />
             <columns
@@ -256,7 +256,7 @@
 			 name="ppm"
 			 relwidth="0.1" />
 			<columns
-			 label="Type"
+			 label="타입"
 			 name="land_type"
 			 relwidth="0.2" />
 		</scroll_list>
@@ -264,7 +264,7 @@
 		 layout="topleft"
 		 follows="left|bottom"
 		 height="23"
-		 label="Back"
+		 label="뒤"
 		 name="land_back"
 		 top_pad="2"
 		 left="3"
@@ -273,7 +273,7 @@
 		 layout="topleft"
 		 follows="left|bottom"
 		 height="23"
-		 label="Next"
+		 label="다음"
 		 name="land_next"
 		 width="100"
 		 left_pad="1" />

@@ -21,11 +21,11 @@
 >
     <string
      name="title_im_well_window">
-        Conversations
+        대화
     </string>
     <string
      name="title_notification_well_window">
-        Notifications
+        알림
     </string>
 
     <flat_list_view

@@ -6,7 +6,7 @@
 	layout="topleft"
 	left="1"
 	width="780"
-	label="Groups"
+	label="그룹"
 	name="panel_ls_groups">
 	<panel
 		border="false"
@@ -27,7 +27,7 @@
 			top="12"
 			height="16"
 			width="156">
-			Enter search terms:
+			검색어를 입력하시오:
 		</text>
 		<search_combo_box
 		layout="topleft"
@@ -126,15 +126,15 @@
 			name="icon"
 			width="20" />
 			<columns
-			label="Group Name"
+			label="그룹 이름"
 			name="group_name"
 			relwidth="0.72" />
 			<columns
-			label="Members"
+			label="멤버들"
 			name="members"
 			relwidth="0.25" />
 			<columns
-			label="Score"
+			label="점수"
 			name="score"
 			width="0" />
 		</scroll_list>
@@ -142,7 +142,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Back"
+		label="뒤"
 		name="groups_back"
 		top_pad="2"
 		left="3"
@@ -151,7 +151,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Next"
+		label="다음"
 		name="groups_next"
 		width="100"
 		left_pad="1" />

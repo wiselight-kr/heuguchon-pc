@@ -50,7 +50,7 @@
 	  <panel
 	   bottom="0"
 	   filename="panel_fs_contacts_friends.xml"
-	   label="Friends"
+	   label="친구"
 	   left="0"
 	   right="-1"
 	   name="friends_panel" />
@@ -58,7 +58,7 @@
       <panel
        bottom="0"
 	   filename="panel_fs_contacts_groups.xml"
-       label="Groups"
+       label="그룹"
        left="0"
 	   right="-1"
        name="groups_panel"/>
@@ -67,7 +67,7 @@
 	   bottom="0"
 	   filename="panel_fs_contacts_sets.xml"
 	   class="contact_sets_panel"
-	   label="Contact Sets"
+	   label="주소록 집합"
 	   left="0"
 	   right="-1"
 	   name="contact_sets_panel" />

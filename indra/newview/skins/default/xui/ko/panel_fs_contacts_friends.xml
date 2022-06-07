@@ -33,7 +33,7 @@
 			 height="23"
 			 layout="topleft"
 			 left="1"
-			 label="Filter Friends"
+			 label="친구 필터"
 			 max_length_chars="300"
 			 name="friend_filter_input"
 			 top="3"
@@ -68,17 +68,17 @@
 				 width="20" />
 				<fs_scroll_list.column
 				 dynamicwidth="true"
-				 label="Username"
+				 label="유저 이름"
 				 name="user_name"
 				 tool_tip="This contact's username."/>
 				<fs_scroll_list.column
 				 dynamicwidth="true"
-				 label="Display name"
+				 label="이름 표시"
 				 name="display_name"
 				 tool_tip="This contact's display name."/>
 				<fs_scroll_list.column
 				 dynamicwidth="true"
-				 label="Name"
+				 label="이름"
 				 name="full_name"
 				 tool_tip="This contact's chosen name." />
 				<fs_scroll_list.column
@@ -117,7 +117,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="IM/Call"
+	 label="IM/전화"
 	 left_delta="270"
 	 name="im_btn"
 	 tool_tip="Open Instant Message session"
@@ -127,7 +127,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Profile"
+	 label="프로필"
 	 name="profile_btn"
 	 tool_tip="Show picture, groups, and other information"
 	 width="80" />
@@ -136,7 +136,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Teleport..."
+	 label="순간이동..."
 	 name="offer_teleport_btn"
 	 tool_tip="Offer this friend a teleport to your current location"
 	 width="80" />
@@ -145,7 +145,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Map..."
+	 label="지도..."
 	 name="map_btn"
 	 tool_tip="Show current location of friend on the map"
 	 width="80" />
@@ -154,7 +154,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Pay..."
+	 label="결제..."
 	 name="pay_btn"
 	 tool_tip="Give Linden dollars (L$) to this friend"
 	 width="80" />
@@ -163,7 +163,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Remove..."
+	 label="제거..."
 	 name="remove_btn"
 	 tool_tip="Remove this person from your friends list"
 	 width="80" />
@@ -172,7 +172,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Add..."
+	 label="추가..."
 	 name="add_btn"
 	 tool_tip="Offer friendship to a resident"
 	 width="80" />

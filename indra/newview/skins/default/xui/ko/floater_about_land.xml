@@ -23,31 +23,31 @@
     </floater.string>
     <floater.string
      name="Hours">
-        [HOURS] hrs.
+        [HOURS] 시간.
     </floater.string>
     <floater.string
      name="Hour">
-        hr.
+        시간.
     </floater.string>
     <floater.string
      name="Minutes">
-        [MINUTES] min.
+        [MINUTES] 분.
     </floater.string>
     <floater.string
      name="Minute">
-        min.
+        분.
     </floater.string>
     <floater.string
      name="Seconds">
-        [SECONDS] sec.
+        [SECONDS] 초.
     </floater.string>
     <floater.string
      name="Remaining">
-        remaining
+        남은
     </floater.string>
     <floater.string
      name="Always">
-        Always
+        항상
     </floater.string>
     <tab_container
      follows="all"
@@ -56,13 +56,14 @@
      left="0"
      name="landtab"
      tab_position="top"
+     tab_height="25"
      tab_min_width="50"
      top="10"
      width="489">
         <panel
          border="false"
          follows="all"
-         label="General"
+         label="일반"
          layout="topleft"
          left="0"
          help_topic="land_general_tab"
@@ -70,15 +71,15 @@
          top="0">
             <panel.string
              name="new users only">
-                New Residents only
+                새 거주자만
             </panel.string>
             <panel.string
              name="anyone">
-                Anyone
+                누구나
             </panel.string>
             <panel.string
              name="area_text">
-                Area
+                지역
             </panel.string>
             <panel.string
              name="area_size_text">
@@ -86,45 +87,45 @@
             </panel.string>
             <panel.string
              name="auction_id_text">
-                Auction ID: [ID]
+                경매 아이디: [ID]
             </panel.string>
             <panel.string
              name="need_tier_to_modify">
-                You must approve your purchase to modify this land.
+                이 땅을 수정하려면 구매를 승인해야 합니다.
             </panel.string>
             <panel.string
              name="group_owned_text">
-                (Group Owned)
+                (그룹 소유)
             </panel.string>
             <panel.string
              name="profile_text">
-                Profile
+                프로필
             </panel.string>
             <panel.string
              name="info_text">
-                Info
+                정보
             </panel.string>
             <panel.string
              name="public_text">
-                (public)
+                (공공의)
             </panel.string>
             <panel.string
              name="none_text">
-                (none)
+                (없음)
             </panel.string>
             <panel.string
              name="sale_pending_text">
-                (Sale Pending)
+                (판매 보류 중)
             </panel.string>
             <panel.string
              name="no_selection_text">
-                No parcel selected.
+                선택된 구획이 없습니다.
             </panel.string>
             <panel.string name="time_stamp_template">
               [wkday,datetime,slt] [mth,datetime,slt] [day,datetime,slt] [hour,datetime,slt]:[min,datetime,slt]:[second,datetime,slt] [year,datetime,slt]
             </panel.string>
 			<panel.string name="error_resolving_uuid">
-				The parcel ID could not be resolved.
+				구획 ID를 확인할 수 없습니다.
 			</panel.string>
             <text
              type="string"
@@ -136,7 +137,7 @@
              name="Name:"
              top="6"
              width="100">
-                Name:
+                이름:
             </text>
             <line_editor
              follows="left|top"
@@ -156,7 +157,7 @@
              left="10"
              name="UUID:"
              width="100">
-                Parcel ID:
+                구획 아이디:
             </text>
             <line_editor
              follows="left|top"
@@ -176,7 +177,7 @@
              left="10"
              name="Description:"
              width="100">
-                Description:
+                묘사:
             </text>
             <text_editor
              follows="left|top|right"
@@ -198,7 +199,7 @@
              name="LandType"
              top_pad="5"
              width="100">
-                Type:
+                타입:
             </text>
             <text
              type="string"
@@ -210,7 +211,7 @@
              name="LandTypeText"
              top_delta="0"
              width="250">
-                Mainland / Homestead
+                본토 / 주택
             </text>
             <text
              type="string"
@@ -221,7 +222,7 @@
              left="10"
              name="ContentRating"
              width="100">
-                Rating:
+                별점:
             </text>
             <text
              type="string"
@@ -234,7 +235,7 @@
              name="ContentRatingText"
              top_delta="-2"
              width="250">
-                Adult
+                성인
             </text>
             <text
              type="string"
@@ -246,7 +247,7 @@
              name="Owner:"
              top_pad="3"
              width="100">
-                Owner:
+                소유주:
             </text>
             <text
              type="string"
@@ -259,7 +260,7 @@
              translate="false"
              use_ellipses="true" 
              width="360">
-                Loading...
+                로딩중...
             </text>
              <button
      follows="right"
@@ -288,7 +289,7 @@
              name="Group:"
              top_pad="7"
              width="100">
-                Group:
+                그룹:
             </text>
 
             <text
@@ -299,7 +300,7 @@
              name="GroupText"
              translate="false"
              width="240">
-Loading...  
+로딩중...  
 	    </text>
             <button
      follows="right"
@@ -313,7 +314,7 @@ Loading...
             <button
              follows="left|top"
              height="23"
-             label="Set"
+             label="설정"
              layout="topleft"
              left_pad="4"
              right="-10"
@@ -323,7 +324,7 @@ Loading...
             <check_box
              enabled="false"
              height="14"
-             label="Allow Deed to Group"
+             label="그룹에 문서 허용"
              layout="topleft"
              left="108"
              name="check deed"
@@ -334,7 +335,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Deed"
+             label="증서"
              layout="topleft"
              left_pad="2"
              right="-10"
@@ -345,7 +346,7 @@ Loading...
             <check_box
              enabled="false"
              height="14"
-             label="Owner Makes Contribution With Deed"
+             label="소유자가 증서를 통해 기부함"
              layout="topleft"
              left="108"
              name="check contrib"
@@ -361,7 +362,7 @@ Loading...
              left="10"
              name="For Sale:"
              width="100">
-                For Sale:
+                판매중:
             </text>
             <text
              type="string"
@@ -372,7 +373,7 @@ Loading...
              left_pad="2"
              name="Not for sale."
              width="186">
-                Not for sale
+                비매품
             </text>
             <text
              type="string"
@@ -383,7 +384,7 @@ Loading...
              left_delta="0"
              name="For Sale: Price L$[PRICE]."
              width="226">
-                Price: L$[PRICE] (L$[PRICE_PER_SQM]/m²)
+                가격: L$[PRICE] (L$[PRICE_PER_SQM]/m²)
             </text>
             <text
              enabled="false"
@@ -397,7 +398,7 @@ Loading...
             <button
              follows="left|top"
              height="23"
-             label="Sell Land"
+             label="랜드 판매"
              layout="topleft"
              left_pad="5"
              right="-10"
@@ -415,7 +416,7 @@ Loading...
              top_delta="22"
              use_ellipses="true" 
              width="340">
-                For sale to: [BUYER]
+                ~에 판매: [BUYER]
             </text>
             <text
              type="string"
@@ -427,7 +428,7 @@ Loading...
              name="Sell with landowners objects in parcel."
              top_pad="0"
              width="250">
-                Objects included in sale
+                판매에 포함된 개체
             </text>
             <text
              type="string"
@@ -439,12 +440,12 @@ Loading...
              name="Selling with no objects in parcel."
              top_delta="5"
              width="250">
-                Objects not included in sale
+                판매에 포함되지 않은 개체
             </text>
             <button
              follows="left|top"
              height="23"
-             label="Cancel Land Sale"
+             label="랜드 판매 취소"
              label_selected="Cancel Land Sale"
              layout="topleft"
              right="-10"
@@ -462,7 +463,7 @@ Loading...
              name="Claimed:"
              top="283"
              width="100">
-                Claimed:
+                요청:
             </text>
             <text
              type="string"
@@ -474,7 +475,7 @@ Loading...
              name="DateClaimText"
              top_delta="0"
              width="186">
-                Tue Aug 15 13:47:25 2006
+                8월 15일 화요일 13:47:25 2006
             </text>
             <text
              type="string"
@@ -486,7 +487,7 @@ Loading...
              name="PriceLabel"
              top_pad="2"
              width="100">
-                Area:
+                지역:
             </text>
             <text
              type="string"
@@ -510,7 +511,7 @@ Loading...
              name="Traffic:"
              top="315"
              width="100">
-                Traffic:
+                교통량:
             </text>
             <text
              type="string"
@@ -522,14 +523,14 @@ Loading...
              name="DwellText"
              top_delta="0"
              width="186">
-                Loading...
+                로딩중...
             </text>
 
             <button
              enabled="false"
              follows="left|top"
              height="23"
-             label="Buy Land"
+             label="지역 구매"
              layout="topleft"
              left_delta="52"
 			 top_pad="5"
@@ -539,7 +540,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Linden Sale"
+             label="린든 세일"
              layout="topleft"
              left="10"
              name="Linden Sale..."
@@ -550,7 +551,7 @@ Loading...
              enabled="true"
              follows="left|top"
              height="23"
-             label="Script Info"
+             label="스크립트 정보"
              layout="topleft"
              left="10"
              name="Scripts..."
@@ -560,7 +561,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Buy For Group"
+             label="그룹을 위해 구매"
              layout="topleft"
              right="-10"
              name="Buy For Group..."
@@ -570,7 +571,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Buy Pass"
+             label="패스 구매"
              layout="topleft"
              left_delta="-135"
              name="Buy Pass..."
@@ -580,7 +581,7 @@ Loading...
             <button
              follows="left|top"
              height="23"
-             label="Abandon Land"
+             label="땅 버리기"
              layout="topleft"
              right="-10"
              name="Abandon Land..."
@@ -589,7 +590,7 @@ Loading...
             <button
              follows="left|top"
              height="23"
-             label="Reclaim Land"
+             label="랜드 회수"
              layout="topleft"
              left_delta="0"
              name="Reclaim Land..."
@@ -599,7 +600,7 @@ Loading...
         <panel
          border="true"
          follows="all"
-         label="Covenant"
+         label="규약"
          layout="topleft"
          left="0"
          top="0"
@@ -608,22 +609,22 @@ Loading...
             <panel.string
              name="can_resell"
              word_wrap="true">
-                Purchased land in this region may be resold.
+                이 지역의 매입된 토지는 재판매될 수 있습니다.
             </panel.string>
             <panel.string
              name="can_not_resell"
              word_wrap="true">
-                Purchased land in this region may not be resold.
+                이 지역에서 구입한 토지는 재판매할 수 없습니다.
             </panel.string>
             <panel.string
              name="can_change"
              word_wrap="true">
-                Purchased land in this region may be joined or subdivided.
+                이 지역에서 구입한 토지는 결합되거나 분할될 수 있습니다.
             </panel.string>
             <panel.string
              name="can_not_change"
              word_wrap="true">
-                Purchased land in this region may not be joined or subdivided.
+                이 지역에서 구입한 토지는 결합되거나 분할될 수 없습니다.
             </panel.string>
             <text
              type="string"
@@ -636,7 +637,7 @@ Loading...
              name="estate_section_lbl"
              top="10"
              width="100">
-                Estate:
+                부동산:
             </text>
             <text
              type="string"
@@ -649,7 +650,7 @@ Loading...
              name="estate_name_text"
              top_delta="0"
              width="260">
-                mainland
+                본토
             </text>
             <text
              type="string"
@@ -661,7 +662,7 @@ Loading...
              mouse_opaque="false"
              name="estate_owner_lbl"
              width="100">
-                Owner:
+                소유주:
             </text>
             <text
              type="string"
@@ -673,7 +674,7 @@ Loading...
              mouse_opaque="false"
              name="estate_owner_text"
              width="300">
-                (none)
+                (없음)
             </text>
             <text_editor
              type="string"
@@ -688,7 +689,7 @@ Loading...
              bg_visible="false"
              width="470"
              word_wrap="true">
-                There is no Covenant provided for this Estate.
+                이 부동산에 대해 제공된 계약이 없습니다.
             </text_editor>
             <text
              type="string"
@@ -702,8 +703,8 @@ Loading...
              mouse_opaque="false"
              name="covenant_timestamp_text"
              width="460">
-                Last Modified Wed Dec 31 16:00:00 1969
-            </text>
+               1969년 12월 31일 수요일 16:00:00 마지막 수정
+                            </text>
             <text
              type="string"
              length="1"
@@ -714,7 +715,7 @@ Loading...
              mouse_opaque="false"
              name="region_section_lbl"
              width="100">
-                Region:
+                지역:
             </text>
             <text
              type="string"
@@ -726,7 +727,7 @@ Loading...
              mouse_opaque="false"
              name="region_name_text"
              width="150">
-                Loading...
+                로딩중...
             </text>
             <text
              type="string"
@@ -738,7 +739,7 @@ Loading...
              mouse_opaque="false"
              name="region_landtype_lbl"
              width="100">
-                Type:
+                타입:
             </text>
             <text
              type="string"
@@ -750,7 +751,7 @@ Loading...
              mouse_opaque="false"
              name="region_landtype_text"
              width="200">
-                Mainland / Homestead
+                본토 / 주택
             </text>
             <text
              type="string"
@@ -762,7 +763,7 @@ Loading...
              mouse_opaque="false"
              name="region_maturity_lbl"
              width="100">
-                Rating:
+                별점:
             </text>
             <text
              type="string"
@@ -776,7 +777,7 @@ Loading...
              name="region_maturity_text"
              valign="center" 
              width="150">
-                Adult
+                성인
             </text>
             <text
              type="string"
@@ -789,7 +790,7 @@ Loading...
              name="resellable_lbl"
              top_pad="9" 
              width="100">
-                Resale:
+                재판매:
             </text>
             <text
              type="string"
@@ -802,7 +803,7 @@ Loading...
              name="resellable_clause"
              word_wrap="true"
              width="360">
-                Land in this region may not be resold.
+                이 지역의 토지는 재판매할 수 없습니다.
             </text>
             <text
              type="string"
@@ -814,7 +815,7 @@ Loading...
              mouse_opaque="false"
              name="changeable_lbl"
              width="100">
-                Subdivide:
+                세분:
             </text>
             <text
              type="string"
@@ -827,13 +828,13 @@ Loading...
              name="changeable_clause"
              word_wrap="true"
              width="330">
-                Land in this region may not be joined/subdivided.
+                이 지역의 토지는 결합/분할할 수 없습니다.
             </text>
         </panel>
         <panel
          border="true"
          follows="all"
-         label="Objects"
+         label="개체"
          layout="topleft"
          left="0"
          top="0"
@@ -858,7 +859,7 @@ Loading...
              top="4"
              visible="false"
              width="364">
-                Region Object Bonus Factor: [BONUS]
+                영역 개체 보너스 계수: [BONUS]
             </text>
             <text
              type="string"
@@ -870,7 +871,7 @@ Loading...
              name="Simulator primitive usage:"
              top_pad="4"
              width="364">
-               Region capacity:
+               지역 용량:
             </text>
             <text
              type="string"
@@ -894,7 +895,7 @@ Loading...
              name="Primitives parcel supports:"
              top="44"
              width="172">
-                Parcel land capacity:
+                구획 랜드 용량:
             </text>
             <text
              type="string"
@@ -918,7 +919,7 @@ Loading...
              name="Primitives on parcel:"
              top="64"
              width="152">
-                Parcel land impact:
+                구획 랜드 충격:
             </text>
             <text
              type="string"
@@ -942,7 +943,7 @@ Loading...
              name="Owned by parcel owner:"
              top="84"
              width="176">
-                Owned by parcel owner:
+                구획 소유주에 의해 소유됨:
             </text>
             <text
              type="string"
@@ -961,7 +962,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Show"
+             label="표시"
              label_selected="Show"
              layout="topleft"
              name="ShowOwner"
@@ -973,7 +974,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Return"
+             label="반납"
              layout="topleft"
              name="ReturnOwner..."
              right="-10"
@@ -990,7 +991,7 @@ Loading...
              name="Set to group:"
              top_pad="5"
              width="176">
-                Set to group:
+                그룹에 설정:
             </text>
             <text
              type="string"
@@ -1008,7 +1009,7 @@ Loading...
              bottom="120"
              enabled="false"
              follows="left|top"
-             label="Show"
+             label="표시"
              height="23"
              label_selected="Show"
              layout="topleft"
@@ -1021,7 +1022,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Return"
+             label="반납"
              layout="topleft"
              name="ReturnGroup..."
              right="-10"
@@ -1038,7 +1039,7 @@ Loading...
              name="Owned by others:"
              top_pad="5"
              width="176">
-                Owned by others:
+                타인 소유:
             </text>
             <text
              type="string"
@@ -1057,7 +1058,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Show"
+             label="표시"
              label_selected="Show"
              layout="topleft"
              name="ShowOther"
@@ -1069,7 +1070,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Return"
+             label="반납"
              layout="topleft"
              name="ReturnOther..."
              right="-10"
@@ -1086,7 +1087,7 @@ Loading...
              name="Selected / sat upon:"
              top_pad="5"
              width="230">
-                Selected / sat upon:
+                선택 / 의 위에 앉기:
             </text>
             <text
              type="string"
@@ -1111,8 +1112,8 @@ Loading...
              top_pad="0"
              width="412"
              word_wrap="true">
-                Auto return other Residents&apos; objects (minutes, 0 for off):
-            </text>
+                다른 거주자&apos; 개체 자동 반환(분, 꺼짐의 경우 0):
+                                </text>
             <line_editor
              border_style="line"
              border_thickness="1"
@@ -1135,7 +1136,7 @@ Loading...
              name="Object Owners:"
              top_pad="10"
              width="104">
-                Object Owners:
+                개체 소유주:
             </text>
              <button
      follows="top|right"
@@ -1152,7 +1153,7 @@ Loading...
              enabled="false"
              follows="left|top"
              height="23"
-             label="Return Objects"
+             label="개체 반납"
              layout="topleft"
              left_pad="6"
              name="Return objects..."
@@ -1170,7 +1171,7 @@ Loading...
              name_column="name"
              width="470">
                 <name_list.columns
-                 label="Type"
+                 label="타입"
                  name="type"
                  sort_column="online_status"
                  width="50" />
@@ -1179,14 +1180,14 @@ Loading...
                  width="-1" />
                 <name_list.columns
                  dynamic_width="true"
-                 label="Name"
+                 label="이름"
                  name="name" />
                 <name_list.columns
-                 label="Count"
+                 label="개수"
                  name="count"
                  width="67" />
                 <name_list.columns
-                 label="Most Recent"
+                 label="가장 최근"
                  name="mostrecent"
                  width="163" />
             </name_list>
@@ -1194,7 +1195,7 @@ Loading...
         <panel
          border="true"
          follows="all"
-         label="Options"
+         label="옵션"
          layout="topleft"
          help_topic="land_options_tab"
          name="land_options_panel"
@@ -1202,53 +1203,53 @@ Loading...
          top="0">
             <panel.string
              name="search_enabled_tooltip">
-                Let people see this parcel in search results
+                검색 결과에서 이 구획을 볼 수 있도록 허용
             </panel.string>
             <panel.string
              name="search_disabled_small_tooltip">
-                This option is disabled because this parcel&apos;s area is 128 m² or smaller.
-Only large parcels can be listed in search.
+                이 구획의 면적이 128m² 이하이기 때문에 이 옵션을 사용할 수 없습니다.
+큰 구획만 검색에 나열할 수 있습니다.
             </panel.string>
             <panel.string
              name="search_disabled_permissions_tooltip">
-                This option is disabled because you cannot modify this parcel&apos;s options.
-            </panel.string>
+                이 구획의 옵션을 수정할 수 없으므로 이 옵션을 사용할 수 없습니다.
+                            </panel.string>
             <panel.string
              name="mature_check_mature">
-                Moderate Content
+                중간 내용
             </panel.string>
             <panel.string
              name="mature_check_adult">
-                Adult Content
+                성인 내용
             </panel.string>
             <panel.string
              name="mature_check_mature_tooltip">
-                Your parcel information or content is considered moderate.
+                소포 정보 또는 내용물이 보통으로 간주됩니다.
             </panel.string>
             <panel.string
              name="mature_check_adult_tooltip">
-                Your parcel information or content is considered adult.
-            </panel.string>
+                소포 정보 또는 내용물은 성인인 것으로 간주됩니다.
+                            </panel.string>
             <panel.string
              name="landing_point_none">
-                (none)
+                (없음)
             </panel.string>
             <panel.string
              name="push_restrict_text">
-                No Pushing
+                푸시 없음
             </panel.string>
             <panel.string
              name="push_restrict_region_text">
-                No Pushing (Region Override)
-            </panel.string>
+                푸시 없음(지역 재정의)
+                            </panel.string>
             <panel.string
              name="DirectoryFree">
-                Show Place in Search
+                검색에 장소 표시
             </panel.string>
             <panel.string
              name="DirectoryFee">
-                Show Place in Search (L$[DIRECTORY_FEE]/week)
-            </panel.string>
+                검색에 장소 표시(L$[DIRECTORY_FEE]/주)
+                            </panel.string>
             <text
              type="string"
              length="1"
@@ -1260,7 +1261,7 @@ Only large parcels can be listed in search.
              name="allow_label"
              top="10"
              width="278">
-                Allow other Residents to:
+                다른 거주자에게 허용:
             </text>
 	<!-- <FS:WF> FIRE-6604 : Reinstate the "Allow Other Residents to Edit Terrain" option in About Land -->
           <text
@@ -1272,12 +1273,12 @@ Only large parcels can be listed in search.
            left="20"
            name="allow_label1"
            width="150">
-            Edit Terrain:
+            지역 수정:
           </text>
 
           <check_box
              height="16"
-             label="Everyone"
+             label="모두"
              layout="topleft"
              name="edit land check"
              tool_tip="If checked, anyone can terraform your land. It is best to leave this unchecked, as you can always edit your own land."
@@ -1295,7 +1296,7 @@ Only large parcels can be listed in search.
           left_pad="-55"
           name="caution_text"
           width="200">
-           (Use with caution!)
+           (주의하여 사용!)
          </text>
 		 
 	<!-- <FS:WF> FIRE-6604 END -->
@@ -1313,7 +1314,7 @@ Only large parcels can be listed in search.
 
           <check_box
              height="16"
-             label="Everyone"
+             label="모두"
              layout="topleft"
              name="check fly"
              tool_tip="If checked, Residents can fly on your land. If unchecked, they can only fly into and over your land."
@@ -1328,11 +1329,11 @@ Only large parcels can be listed in search.
              left="20"
              name="allow_label2"
              width="150">
-                Build:
+                빌드:
             </text>
             <check_box
              height="16"
-             label="Everyone"
+             label="모두"
              layout="topleft"
              left_pad="2"
              name="edit objects check"
@@ -1340,7 +1341,7 @@ Only large parcels can be listed in search.
              width="130" />
             <check_box
              height="16"
-             label="Group"
+             label="그룹"
              layout="topleft"
              left_pad="2"
              name="edit group objects check"
@@ -1355,11 +1356,11 @@ Only large parcels can be listed in search.
              left="20"
              name="allow_label3"
              width="150">
-                Object Entry:
+                개체 항목:
             </text>
             <check_box
              height="16"
-             label="Everyone"
+             label="모두"
              layout="topleft"
              left_pad="2"
              name="all object entry check"
@@ -1368,7 +1369,7 @@ Only large parcels can be listed in search.
              width="130" />
             <check_box
              height="16"
-             label="Group"
+             label="그룹"
              layout="topleft"
              left_pad="2"
              name="group object entry check"
@@ -1384,11 +1385,11 @@ Only large parcels can be listed in search.
              left="20"
              name="allow_label4"
              width="150">
-                Run Scripts:
+                스크립트 실행:
             </text>
             <check_box
              height="16"
-             label="Everyone"
+             label="모두"
              layout="topleft"
              left_pad="2"
              name="check other scripts"
@@ -1397,7 +1398,7 @@ Only large parcels can be listed in search.
              width="130" />
             <check_box
              height="16"
-             label="Group"
+             label="그룹"
              layout="topleft"
              left_pad="2"
              name="check group scripts"
@@ -1414,7 +1415,7 @@ Only large parcels can be listed in search.
             right="-20"/>
           <check_box
              height="16"
-             label="Safe (no damage)"
+             label="안전한 (데미지 없음)"
              layout="topleft"
              left="18"
              name="check safe"
@@ -1423,7 +1424,7 @@ Only large parcels can be listed in search.
              width="200" />
             <check_box
              height="16"
-             label="No Pushing"
+             label="푸시 없음"
              layout="topleft"
              left_pad="5"
              name="PushRestrictCheck"
@@ -1432,7 +1433,7 @@ Only large parcels can be listed in search.
              width="119" />
             <check_box
              height="16"
-             label="Show Place in Search (L$30/week)"
+             label="검색에 장소 표시 (L$30/주)"
              layout="topleft"
              left="18"
              name="ShowDirectoryCheck"
@@ -1449,61 +1450,61 @@ Only large parcels can be listed in search.
              visible="true"
              width="140">
                 <combo_box.item
-                 label="Any Category"
+                 label="아무 카테고리"
                  name="item0"
                  value="none" />
                 <combo_box.item
-                 label="Linden Location"
+                 label="린든 위치"
                  name="item1"
                  value="linden" />
                 <combo_box.item
-                 label="Arts &amp; Culture"
+                 label="예술 &amp; 문화"
                  name="item3"
                  value="arts" />
                 <combo_box.item
-                 label="Business"
+                 label="비즈니스"
                  name="item4"
                  value="store" />
                 <combo_box.item
-                 label="Educational"
+                 label="교육"
                  name="item5"
                  value="educational" />
                 <combo_box.item
-                 label="Gaming"
+                 label="게임"
                  name="item6"
                  value="game" />
                 <combo_box.item
-                 label="Hangout"
+                 label="놀기"
                  name="item7"
                  value="gather" />
                 <combo_box.item
-                 label="Newcomer Friendly"
+                 label="신참 친구"
                  name="item8"
                  value="newcomer" />
                 <combo_box.item
-                 label="Parks &amp; Nature"
+                 label="공원 &amp; 자연"
                  name="item9"
                  value="park" />
                 <combo_box.item
-                 label="Residential"
+                 label="주택지"
                  name="item10"
                  value="home" />
                 <combo_box.item
-                 label="Shopping"
+                 label="쇼핑"
                  name="item11"
                  value="shopping" />
                 <combo_box.item
-                 label="Rental"
+                 label="대여"
                  name="item13"
                  value="rental" />
                 <combo_box.item
-                 label="Other"
+                 label="다른"
                  name="item12"
                  value="other" />
             </combo_box>
             <check_box
              height="16"
-             label="Moderate Content"
+             label="중간 내용"
              layout="topleft"
              left="18"
              name="MatureCheck"
@@ -1523,7 +1524,7 @@ Only large parcels can be listed in search.
              text_color="White"
              top="235"
              width="200">
-                Snapshot:
+                스냅샷:
             </text>
             <texture_picker
              follows="left|top"
@@ -1548,7 +1549,7 @@ Only large parcels can be listed in search.
              name="allow_see_label"
              width="205"
              word_wrap="true">
-              Avatars on other parcels can see and chat with avatars on this parcel
+              다른 구획의 아바타는 이 구획의 아바타를 보고 대화할 수 있습니다
             </text>
             <check_box
              height="16"
@@ -1571,13 +1572,13 @@ Only large parcels can be listed in search.
              name="landing_point"
              word_wrap="true"
              width="200">
-                Landing Point: [LANDING]
+                착륙 지점: [LANDING]
             </text>
             <button
              follows="right|top"
              top_pad="0"
              height="23"
-             label="Set"
+             label="집합"
              label_selected="Set"
              layout="topleft"
              name="Set"
@@ -1587,7 +1588,7 @@ Only large parcels can be listed in search.
             <button
              follows="right|top"
              height="23"
-             label="Clear"
+             label="청소"
              label_selected="Clear"
              layout="topleft"
              left_pad="5"
@@ -1597,7 +1598,7 @@ Only large parcels can be listed in search.
             <button
              follows="right|top"
              height="23"
-             label="Teleport"
+             label="순간이동"
              label_selected="Teleport"
              layout="topleft"
              left_pad="5"
@@ -1615,7 +1616,7 @@ Only large parcels can be listed in search.
              top_pad="10"
              name="Teleport Routing: "
              width="200">
-                Teleport Routing:
+                순간이동 라우팅:
             </text>
             <combo_box
              height="23"
@@ -1626,17 +1627,17 @@ Only large parcels can be listed in search.
              width="120">
                 <combo_box.item
                  enabled="true"
-                 label="Blocked"
+                 label="차단"
                  name="Blocked"
                  value="Blocked" />
                 <combo_box.item
                  enabled="true"
-                 label="Landing Point"
+                 label="착륙 지점"
                  name="LandingPoint"
                  value="Landing Point" />
                 <combo_box.item
                  enabled="true"
-                 label="Anywhere"
+                 label="아무데나"
                  name="Anywhere"
                  value="Anywhere" />
             </combo_box>
@@ -1644,7 +1645,7 @@ Only large parcels can be listed in search.
         <panel
          border="true"
          follows="all"
-         label="Media"
+         label="미디어"
          layout="topleft"
          left="0"
          top="0"
@@ -1660,7 +1661,7 @@ Only large parcels can be listed in search.
              name="with media:"
              top="10"
              width="100">
-                Type:
+                타입:
             </text>
             <combo_box
              height="23"
@@ -1687,7 +1688,7 @@ Only large parcels can be listed in search.
              name="at URL:"
              width="100"
              top_pad="10">
-                Home Page:
+                홈페이지:
             </text>
             <line_editor
              follows="left|top"
@@ -1702,7 +1703,7 @@ Only large parcels can be listed in search.
             <button
              follows="right|top"
              height="23"
-             label="Set"
+             label="집합"
              layout="topleft"
              left_pad="5"
              name="set_media_url"
@@ -1718,7 +1719,7 @@ Only large parcels can be listed in search.
              name="Description:"
              width="364"
              top_pad="10">
-                Description:
+                묘사:
             </text>
             <line_editor
              follows="left|top"
@@ -1742,7 +1743,7 @@ Only large parcels can be listed in search.
              top_pad="10"
              width="364"
              word_wrap="true">
-                Replace Texture:
+                텍스쳐 대체:
             </text>
             <texture_picker
              allow_no_texture="true"
@@ -1766,11 +1767,11 @@ Only large parcels can be listed in search.
              width="300"
              word_wrap="true"
              top_delta="0">
-             Objects using this texture will show the movie or web page after you click the play arrow.  Select the thumbnail to choose a different texture.
+             이 질감을 사용하는 개체는 재생 화살표를 클릭한 후 동영상 또는 웹 페이지를 표시합니다. 다른 질감을 선택하려면 축소판 그림을 선택하십시오.
             </text>
             <check_box
              height="16"
-             label="Auto scale"
+             label="자동 스케일"
              layout="topleft"
              left="107"
              name="media_auto_scale"
@@ -1788,7 +1789,7 @@ Only large parcels can be listed in search.
              tool_tip="Size to render Web media, leave 0 for default."
              width="100"
              top_pad="10">
-                Size:
+                크기:
             </text>
             <spinner
              decimal_digits="0"
@@ -1830,7 +1831,7 @@ Only large parcels can be listed in search.
              left_pad="5"
              name="pixels"
              right="-10">
-                pixels
+                픽셀
             </text>
             <text
              type="string"
@@ -1842,11 +1843,11 @@ Only large parcels can be listed in search.
              name="Options:"
              top_pad="10"
              width="100">
-                Options:
+                옵션:
             </text>
             <check_box
              height="16"
-             label="Loop"
+             label="루프"
              layout="topleft"
              left_pad="-3"
              name="media_loop"
@@ -1857,7 +1858,7 @@ Only large parcels can be listed in search.
         <panel
          border="true"
          follows="all"
-         label="Sound"
+         label="소리"
          layout="topleft"
          left="0"
          top="0"
@@ -1873,7 +1874,7 @@ Only large parcels can be listed in search.
              top="10"
              name="MusicURL:"
              width="364">
-                Music URL:
+                음악 URL:
             </text>
             <combo_box
              follows="left|top"
@@ -1927,11 +1928,11 @@ Only large parcels can be listed in search.
              name="Sound:"
              top_pad="10"
              width="100">
-                Sound:
+                소리:
             </text>
             <check_box
              height="16"
-             label="Restrict gesture and object sounds to this parcel"
+             label="이 구획으로 제스처 및 개체 소리 제한"
              layout="topleft"
              name="check sound local"
              left_pad="0"
@@ -1946,11 +1947,11 @@ Only large parcels can be listed in search.
              name="Avatar Sounds:"
              top_pad="10"
              width="100">
-               Avatar Sounds:
+               아바타 소리:
           </text>
           <check_box
              height="16"
-             label="Everyone"
+             label="모두"
              layout="topleft"
              left_pad="0"
              name="all av sound check"
@@ -1958,7 +1959,7 @@ Only large parcels can be listed in search.
              width="130" />
           <check_box
              height="16"
-             label="Group"
+             label="그룹"
              layout="topleft"
              left_pad="0"
              name="group av sound check"
@@ -1975,11 +1976,11 @@ Only large parcels can be listed in search.
              name="Voice settings:"
              top_pad="10"
              width="100">
-                Voice:
+                음성:
             </text>
             <check_box
              height="16"
-             label="Enable Voice"
+             label="음성 사용"
              layout="topleft"
              left_pad="0"
              name="parcel_enable_voice_channel"
@@ -1987,7 +1988,7 @@ Only large parcels can be listed in search.
             <check_box
              enabled="false"
              height="16"
-             label="Enable Voice (established by the Estate)"
+             label="음성 사용(에스테이트에서 설정)"
              layout="topleft"
              left="110"
              name="parcel_enable_voice_channel_is_estate_disabled"
@@ -1995,7 +1996,7 @@ Only large parcels can be listed in search.
              width="300" />
             <check_box
              height="16"
-             label="Restrict Voice to this parcel"
+             label="이 소포에 음성 제한"
              layout="topleft"
              left="110"
              name="parcel_enable_voice_channel_local"
@@ -2004,7 +2005,7 @@ Only large parcels can be listed in search.
         <panel
          border="true"
          follows="all"
-         label="Access"
+         label="접근"
          layout="topleft"
          left="0"
          top="0"
@@ -2012,11 +2013,11 @@ Only large parcels can be listed in search.
          name="land_access_panel">
 			<panel.string
 			 name="access_estate_defined">
-				(Defined by the Estate)
+				(에스테이트에 의해 정의됨)
 			</panel.string>
       <panel.string
              name="estate_override">
-                One or more of these options is set at the estate level
+                이러한 옵션 중 하나 이상이 자산 수준에서 설정되었습니다.
             </panel.string>
             <check_box
              follows="top|left"
@@ -2025,13 +2026,13 @@ Only large parcels can be listed in search.
              left="8"
              name="public_access"
              tool_tip=""
-             label="Anyone can visit (Unchecking this will create ban lines)"
+             label="누구나 방문 가능(이 옵션을 선택 취소하면 금지선이 작성됨)"
              top_pad="10" 
              width="278" />
             <check_box
              follows="top|left"
              height="16"
-             label="Must be 18+ [ESTATE_AGE_LIMIT]"
+             label="18+ [ESTATE_AGE_LIMIT]"
              layout="topleft"
              left_delta="20"
              name="limit_age_verified"
@@ -2041,7 +2042,7 @@ Only large parcels can be listed in search.
             <check_box
              follows="top|left"
              height="16"
-             label="Must have payment info on file [ESTATE_PAYMENT_LIMIT]"
+             label="파일에 결제 정보가 있어야 합니다 [ESTATE_PAYMENT_LIMIT]"
              layout="topleft"
              left_delta="0"
              name="limit_payment"
@@ -2050,7 +2051,7 @@ Only large parcels can be listed in search.
              width="278" />
             <check_box
              height="16"
-             label="Allow group [GROUP] with no restrictions"
+             label="제한 없이 그룹 [GROUP] 허용"
              layout="topleft"
              left="8"
              name="GroupCheck"
@@ -2060,7 +2061,7 @@ Only large parcels can be listed in search.
             <check_box
              enabled="false"
              height="16"
-             label="Sell passes to:"
+             label="패스를 판매합니다:"
              layout="topleft"
              left_delta="0"
              name="PassCheck"
@@ -2075,11 +2076,11 @@ Only large parcels can be listed in search.
              top_delta="0"
              width="100">
                 <combo_box.item
-                 label="Anyone"
+                 label="아무나"
                  name="Anyone"
                  value="anyone" />
                 <combo_box.item
-                 label="Group"
+                 label="그룹"
                  name="Group"
                  value="group" />
             </combo_box>
@@ -2089,7 +2090,7 @@ Only large parcels can be listed in search.
              height="23"
              increment="1"
              initial_value="10"
-             label="Price in L$:"
+             label="가격은 L$:"
              label_width="120"
              layout="topleft"
              left="28"
@@ -2104,7 +2105,7 @@ Only large parcels can be listed in search.
              height="23"
              increment="0.25"
              initial_value="1"
-             label="Hours of access:"
+             label="접근 시간:"
              label_width="120"
              layout="topleft"
              left_delta="0"
@@ -2123,7 +2124,7 @@ Only large parcels can be listed in search.
              name="OwnerLimited"
              top_pad="5"
              width="400">
-                (The estate owner may have limited these choices)
+                (부동산 소유자가 이러한 선택을 제한했을 수 있습니다)
             </text>            
             <panel
             name="Allowed_layout_panel"
@@ -2137,13 +2138,13 @@ Only large parcels can be listed in search.
              length="1"
              follows="left|right|top"
              height="16"
-             label="Always Allow"
+             label="항상 허락"
              layout="topleft"
              left="0"
              name="AllowedText"
              top="0"
              width="230">
-                Always allowed ([COUNT]/[MAX])
+                항상 허락 ([COUNT]/[MAX])
             </text>
             <name_list
              column_padding="0"
@@ -2159,7 +2160,7 @@ Only large parcels can be listed in search.
             <button
              follows="bottom"
              height="23"
-             label="Add"
+             label="추가"
              layout="topleft"
              left="0"
              name="add_allowed"
@@ -2167,7 +2168,7 @@ Only large parcels can be listed in search.
             <button
              follows="bottom"
              height="23"
-             label="Remove"
+             label="제거"
              label_selected="Remove"
              layout="topleft"
              left_pad="10"
@@ -2186,13 +2187,13 @@ Only large parcels can be listed in search.
              length="1"
              follows="left|right|top"
              height="16"
-             label="Ban"
+             label="금지"
              layout="topleft"
              left="0"
              name="BanCheck"
              top="0"
              width="200">
-                Banned ([COUNT]/[MAX])
+                금지된 ([COUNT]/[MAX])
             </text>
             <name_list
              column_padding="0"
@@ -2207,18 +2208,18 @@ Only large parcels can be listed in search.
              tool_tip="([LISTED] listed, [MAX] max)"
              width="230">
              <columns
-              label="Name"
+              label="이름"
               name="name"
               width="155" />
              <columns
-              label="Duration"
+              label="기간"
               name="duration"
               width="75" />
             </name_list>
             <button
              follows="bottom"
              height="23"
-             label="Add"
+             label="추가"
              layout="topleft"
              left="0"
              name="add_banned"
@@ -2227,7 +2228,7 @@ Only large parcels can be listed in search.
              enabled="false"
              follows="bottom"
              height="23"
-             label="Remove"
+             label="제거"
              label_selected="Remove"
              layout="topleft"
              left_pad="10"
@@ -2239,7 +2240,7 @@ Only large parcels can be listed in search.
        <panel
           border="true"
           follows="all"
-          label="Experiences"
+          label="경험"
           layout="topleft"
           left="0"
           top="0"
@@ -2250,7 +2251,7 @@ Only large parcels can be listed in search.
        <panel
           border="true"
           follows="all"
-          label="Environment"
+          label="환경"
           layout="topleft"
           left="0"
           top="0"

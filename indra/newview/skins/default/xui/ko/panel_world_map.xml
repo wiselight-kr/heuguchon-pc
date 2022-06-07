@@ -7,11 +7,11 @@
  width="400">
     <panel.string
      name="Loading">
-        Loading...
+        로딩중...
     </panel.string>
     <panel.string
      name="InvalidLocation">
-        Invalid Location
+        유효하지 않은 위치
     </panel.string>
     <panel.string
      name="world_map_north">

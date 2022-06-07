@@ -22,7 +22,7 @@
     http://secondlife.com/account/request.php
   </panel.string>
   <string name="ServerComboTooltip">
-    An existing grid or a grid URI
+기존 그리드 또는 그리드 URI
   </string>
   <web_browser
       tab_stop="false"
@@ -64,8 +64,8 @@
           top="8"
           left="15"
           width="150">
-        LOG IN
-      </text>
+        로그인
+     </text>
       <text
           follows="left|bottom"
           font="SansSerifSmall"
@@ -74,7 +74,7 @@
           top="35"
           left="15"
           width="150">
-        Username:
+        유저 이름:
       </text>
       <button
          follows="left|bottom"
@@ -117,7 +117,7 @@
           top="35"
           left="217"
           width="128">
-        Password:
+        비밀번호:
       </text>
       <!-- The max length might be changed in FSPanelLogin.cpp for Opensim! -->
       <line_editor
@@ -147,7 +147,7 @@
           name="start_location_text"
           top="35"
           width="130">
-        Start at:
+        시작지점:
       </text>
       <combo_box
           allow_text_entry="true"
@@ -187,7 +187,7 @@
         top="35"
         left="10"
         width="128">
-        Log into Grid:
+        그리드에 로그인:
       </text>
       <combo_box
         allow_text_entry="true"
@@ -220,7 +220,7 @@
           name="create_new_account_text"
           top="10"
           width="280">
-        Create an account
+        계정 생성
       </text>
       <text
           follows="left|bottom"
@@ -230,7 +230,7 @@
           name="forgot_password_text"
           top="26"
           width="280">
-        Forgot your username or password?
+        사용자 이름 또는 암호를 잊었습니까?
       </text>
       <button
           follows="left|bottom"
@@ -280,7 +280,7 @@
           top="8"
           right="-15"
           width="200">
-        SELECT MODE
+        모드 선택
       </text>
       <combo_box
           follows="right|bottom"

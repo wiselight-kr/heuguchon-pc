@@ -209,7 +209,7 @@
 
   <button name="local_chat_button"
           tool_tip="Shows/hides nearby chat window (CTRL+H)"
-          label="Nearby Chat"
+          label="근처 대화"
           chrome="true"
           follows="left|top"
           layout="topleft"

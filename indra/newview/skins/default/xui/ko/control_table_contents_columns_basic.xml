@@ -2,18 +2,18 @@
 <contents>
     <columns
      relative_width="0.34"
-     label="Action"
+     label="행동"
      name="lst_action" />
     <columns
      relative_width="0.22"
-     label="Primary Control"
+     label="기본 제어"
      name="lst_ctrl1" />
     <columns
      relative_width="0.22"
-     label="Alternate 1"
+     label="대안 1"
      name="lst_ctrl2" />
     <columns
      relative_width="0.22"
-     label="Alternate 2"
+     label="대안 2"
      name="lst_ctrl3" />
 </contents>

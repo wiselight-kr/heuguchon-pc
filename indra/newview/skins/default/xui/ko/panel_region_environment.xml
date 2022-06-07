@@ -9,16 +9,16 @@
         help_topic="panel_region_environment_tab"
         name="panel_env_info"
         width="530"> 
-    <string name="str_label_use_default">Use Default Settings</string>
-    <string name="str_label_use_region">Use Region Settings</string>
-    <string name="str_altitude_desription">Sky [INDEX]([ALTITUDE]m)</string>
-    <string name="str_no_parcel">No parcel is selected. Environmental settings are disabled.</string>
-    <string name="str_cross_region">Environmental settings are not available across region boundaries.</string>
-    <string name="str_legacy">Environmental settings are not available on this region.</string>
-    <string name="str_disallowed">The estate manager does not allow changing parcel environments in this region.</string>
-    <string name="str_too_small">The parcel must be at least 128 square meters to support an environment.</string>
-    <string name="str_empty">(empty)</string>
-    <string name="str_region_env">(region environment)</string>
+    <string name="str_label_use_default">기본 설정 사용</string>
+    <string name="str_label_use_region">지역 설정 사용</string>
+    <string name="str_altitude_desription">하늘 [INDEX]([ALTITUDE]m)</string>
+    <string name="str_no_parcel">구획이 선택되지 않음. 환경 설정을 사용할 수 없습니다.</string>
+    <string name="str_cross_region">여러 지역 경계에서 환경 설정을 사용할 수 없습니다..</string>
+    <string name="str_legacy">이 지역에서는 환경 설정을 사용할 수 없습니다.</string>
+    <string name="str_disallowed">자산 관리자가 이 지역의 구획 환경을 변경할 수 없습니다.</string>
+    <string name="str_too_small">환경을 지원하려면 구획이 128제곱미터 이상이어야 합니다.</string>
+    <string name="str_empty">(비어있음)</string>
+    <string name="str_region_env">(지역 환경)</string>
 
     <layout_stack 
             name="ls_main"

@@ -11,7 +11,7 @@
 	 height="23"
 	 layout="topleft"
 	 left="6"
-	 label="Filter Groups"
+	 label="그룹 필터"
 	 max_length_bytes="35"
 	 name="group_filter_input"
 	 top="3"
@@ -50,7 +50,7 @@
 	 top="2"
 	 follows="top|right"
 	 height="22"
-	 label="IM/Call"
+	 label="IM/전화"
 	 layout="topleft"
 	 right="-1"
 	 name="chat_btn"
@@ -60,7 +60,7 @@
 	 top_delta="25"
 	 follows="top|right"
 	 height="22"
-	 label="Profile"
+	 label="프로필"
 	 layout="topleft"
 	 name="info_btn"
 	 width="80" />
@@ -68,7 +68,7 @@
 	 top_delta="25"
 	 follows="top|right"
 	 height="22"
-	 label="Group Titles"
+	 label="그룹 제목"
 	 layout="topleft"
 	 name="titles_btn"
 	 width="80" />
@@ -76,7 +76,7 @@
 	 top_delta="25"
 	 follows="top|right"
 	 height="22"
-	 label="Activate"
+	 label="활성화"
 	 layout="topleft"
 	 name="activate_btn"
 	 width="80" />
@@ -84,7 +84,7 @@
 	 top_delta="25"
 	 follows="top|right"
 	 height="22"
-	 label="Leave"
+	 label="떠나기"
 	 layout="topleft"
 	 name="leave_btn"
 	 width="80" />
@@ -92,7 +92,7 @@
 	 top_delta="35"
 	 follows="top|right"
 	 height="22"
-	 label="Create..."
+	 label="생성..."
 	 layout="topleft"
 	 name="create_btn"
 	 width="80" />
@@ -100,7 +100,7 @@
 	 top_delta="25"
 	 follows="top|right"
 	 height="22"
-	 label="Search..."
+	 label="검색..."
 	 layout="topleft"
 	 name="search_btn"
 	 width="80" />
@@ -108,7 +108,7 @@
 	 top_delta="25"
 	 follows="top|right"
 	 height="22"
-	 label="Invite..."
+	 label="초대..."
 	 layout="topleft"
 	 name="invite_btn"
 	 width="80" />

@@ -27,7 +27,7 @@
 		 top="12"
 		 height="16"
 		 width="156">
-		 Enter search terms:
+		 검색어를 입력하시오:
 		</text>
 		<radio_group
 		 left_pad="20"
@@ -37,7 +37,7 @@
 		 name="events_search_mode">
 			<radio_item
 			 height="16"
-			 label="Ongoing and Upcoming"
+			 label="진행 중 및 곧 출시"
 			 layout="topleft"
 			 name="current"
 			 value="current"
@@ -45,7 +45,7 @@
 			 width="120" />
 			<radio_item
 			 height="16"
-			 label="By Date"
+			 label="날짜별"
 			 layout="topleft"
 			 name="date"
 			 value="date"
@@ -83,20 +83,20 @@
 		 left_pad="2"
 		 name="events_category"
 		 width="122">
-			<combo_box.item label="Any Category" name="any" value="0" />
+			<combo_box.item label="아무 카테고리" name="any" value="0" />
 			<combo_box.item label="" value="filter_separator" enabled="false" />
-			<combo_box.item label="Discussion" name="discussion" value="18" />
-			<combo_box.item label="Sports" name="sports" value="19" />
-			<combo_box.item label="Live Music" name="music" value="20" />
+			<combo_box.item label="논의" name="discussion" value="18" />
+			<combo_box.item label="스포츠" name="sports" value="19" />
+			<combo_box.item label="라이브 음악" name="music" value="20" />
 			<!-- <combo_box.item label="???" name="mystery_category" value="21" /> -->
-			<combo_box.item label="Commercial" name="commercial" value="22" />
-			<combo_box.item label="Nightlife/Entertainment" name="nightlife" value="23" />
-			<combo_box.item label="Games/Contests" name="games" value="24" />
-			<combo_box.item label="Pageants" name="pageants" value="25" />
-			<combo_box.item label="Education" name="education" value="26" />
-			<combo_box.item label="Arts and Culture" name="arts" value="27" />
-			<combo_box.item label="Charity/Support Groups" name="charity" value="28" />
-			<combo_box.item label="Miscellaneous" name="misc" value="29" />
+			<combo_box.item label="광고" name="commercial" value="22" />
+			<combo_box.item label="나이트라이프/엔터테인먼트" name="nightlife" value="23" />
+			<combo_box.item label="게임/컨테스트" name="games" value="24" />
+			<combo_box.item label="대회" name="pageants" value="25" />
+			<combo_box.item label="교육" name="education" value="26" />
+			<combo_box.item label="예술과 문화" name="arts" value="27" />
+			<combo_box.item label="자선/지원 그룹" name="charity" value="28" />
+			<combo_box.item label="여러 종류의" name="misc" value="29" />
 			<combo_box.commit_callback
 			 function="CommitSearch" />
 		</combo_box>
@@ -193,16 +193,16 @@
 			 name="icon"
 			 width="20" />
 			<columns
-			 label="Event Name"
+			 label="이벤트 이름"
 			 name="name"
 			 relwidth="0.72" />
 			<columns
-			 label="Date/Time"
+			 label="날짜/시간"
 			 name="date"
 			 sort_column="time"
 			 relwidth="0.28" />
 			<columns
-			 label="Time"
+			 label="시간"
 			 name="time"
 			 width="0"/>
 		</scroll_list>
@@ -210,7 +210,7 @@
 		 layout="topleft"
 		 follows="left|bottom"
 		 height="23"
-		 label="Yesterday"
+		 label="어제"
 		 name="events_yesterday"
 		 top_pad="2"
 		 left="3"
@@ -219,7 +219,7 @@
 		 layout="topleft"
 		 follows="left|bottom"
 		 height="23"
-		 label="Today"
+		 label="오늘"
 		 name="events_today"
 		 width="100"
 		 left_pad="1" />
@@ -227,7 +227,7 @@
 		 layout="topleft"
 		 follows="left|bottom"
 		 height="23"
-		 label="Tomorrow"
+		 label="내일"
 		 name="events_tomorrow"
 		 width="100"
 		 left_pad="1" />
@@ -238,7 +238,7 @@
 		 image_bottom_pad="2"
 		 image_overlay="Arrow_Left_Off"
 		 image_overlay_alignment="left"
-		 label="Back"
+		 label="뒤"
 		 name="events_back"
 		 width="25"
 		 left_pad="1" />
@@ -249,7 +249,7 @@
 		 image_bottom_pad="2"
 		 image_overlay="Arrow_Right_Off"
 		 image_overlay_alignment="left"
-		 label="Next"
+		 label="다음"
 		 name="events_next"
 		 width="25"
 		 left_pad="1" />

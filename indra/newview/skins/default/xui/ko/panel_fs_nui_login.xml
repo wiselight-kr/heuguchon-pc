@@ -14,8 +14,8 @@
     http://secondlife.com/account/request.php
   </panel.string>
   <string name="ServerComboTooltip">
-    An existing grid or a grid URI
-  </string>
+    기존 그리드 또는 그리드 URI
+      </string>
   <web_browser
     tab_stop="false"
     trusted_content="true"
@@ -100,7 +100,7 @@
     allow_text_entry="true"
     follows="left|top|right"
     height="32"
-    label="Username"
+    label="아이디"
     combo_editor.font="SansSerifLarge"
     max_chars="128"
     force_disable_fulltext_search="true"
@@ -122,7 +122,7 @@
       left="2"
       top_pad="10"
       height="18"
-      label="Remember username"
+      label="아이디 기억"
       name="remember_username_check"
       width="204" />
     </layout_panel> <!-- login -->
@@ -164,7 +164,7 @@
     text_pad_left="8"
     text_pad_right="8"
     name="password_edit"
-    label="Password"
+    label="비밀번호"
     bg_image_always_focused="true"
     font="SansSerifLarge"
     is_password="true" 
@@ -180,7 +180,7 @@
       font="SansSerifLarge"
       left="2"
       height="18"
-      label="Remember password"
+      label="비밀번호 기억"
       top_pad="10"
       name="remember_check"
       width="204" />
@@ -196,7 +196,7 @@
     allow_text_entry="true"
     control_name="NextLoginLocation"
     follows="left|top|right"
-    label="Start location"
+    label="시작 위치"
     height="32"
     max_chars="128"
     combo_editor.font="SansSerifLarge"
@@ -210,15 +210,15 @@
       text_pad_left="8"
       text_pad_right="8"/>
     <combo_box.item
-      label="Last location"
+      label="마지막 위치"
       name="MyLastLocation"
       value="last" />
     <combo_box.item
-      label="Home"
+      label="집"
       name="MyHome"
       value="home" />
     <combo_box.item
-      label="&lt;Type region name&gt;"
+      label="&lt;지역 이름을 타이핑하시오&gt;"
       name="Typeregionname" value="" />
     </combo_box>
     </layout_panel> <!-- start_location_panel -->
@@ -261,7 +261,7 @@
       top_pad="5"
       left="5"
       width="35">
-        Grid:
+        그리드:
     </text>
     <combo_box
       allow_text_entry="true"
@@ -298,7 +298,7 @@
       top_pad="5"
       right="-130"
       width="75">
-        Mode:
+        모드:
     </text>
     <combo_box
       follows="right|bottom"
@@ -348,7 +348,7 @@
     image_unselected="PushButton_Login"
     image_pressed="PushButton_Login_Pressed"
     image_hover_unselected="PushButton_Login_Over"
-    label="Log In"
+    label="로그인"
     label_color="White"
     font="SansSerifLarge"
     name="connect_btn"
@@ -365,7 +365,7 @@
       name="create_new_account_text"
       top_pad="14"
       width="140">
-        Create an account
+        계정 생성
     </text>
     <text
       follows="left|top|right"
@@ -376,7 +376,7 @@
       name="forgot_password_text"
       top_pad="5"
       width="140">
-        Forgot password?
+        비밀번호를 잊어버렸습니까?
     </text>
   </layout_panel>
   <layout_panel

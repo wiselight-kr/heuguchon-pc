@@ -18,23 +18,23 @@
  width="282">
     <string
      name="title_nearby">
-        Nearby Voice
+        근처 음성
     </string>
     <string
      name="title_group">
-        Group Call with [GROUP]
+         [GROUP]과 그룹 통화
     </string>
     <string
      name="title_adhoc">
-        Conference Call
+        회의 전화
     </string>
     <string
      name="title_peer_2_peer">
-        Call with [NAME]
+         [NAME]와 전화
     </string>
     <string
      name="no_one_near">
-        No one near has voice enabled
+        근처에 음성을 사용하도록 설정한 사람이 없습니다.
     </string>
       <layout_stack
          clip="false"
@@ -119,7 +119,7 @@
              follows="right|top"
              height="23"
 			 top="4"
-             label="Leave Call"
+             label="전화 끊기"
              name="leave_call_btn"
              width="100" />
           </layout_panel>

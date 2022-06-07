@@ -20,16 +20,16 @@
 
 	<floater.string
 		name="ao_no_sets_loaded">
-No Sets Loaded
+불러온 세트가 없습니다
 	</floater.string>
 
 	<floater.string
 		name="ao_no_animations_loaded">
-No Animations Loaded
+불러온 애니메이션이 없습니다
 	</floater.string>
 	<floater.string
 		name="ao_dnd_only_on_full_interface">
-You can only drag and drop an animation notecard on the full interface window. Click on the wrench icon to open it.
+전체 인터페이스 창에서만 애니메이션 노트 카드를 드래그 앤 드롭할 수 있습니다. 렌치 아이콘을 클릭하여 엽니다.
 	</floater.string>
 
 	<panel

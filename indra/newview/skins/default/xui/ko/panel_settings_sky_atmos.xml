@@ -2,7 +2,7 @@
 <panel
         border="true"
         follows="all"
-        label="Atmosphere &amp; Lighting"
+        label="분위기 &amp; 빛"
         layout="topleft"
         left="0"
         name="panel_settings_sky_atmos"
@@ -33,7 +33,7 @@
                     left_pad="15"
                     top_pad="15"
                     width="100">
-                Ambient Color:
+                은은한 색깔:
             </text>
             <color_swatch
                     can_apply_immediately="true"
@@ -53,7 +53,7 @@
                     left_delta="110"
                     top_delta="-15"
                     width="100">
-                Blue Horizon:
+                파란 지평선:
             </text>
             <color_swatch
                     can_apply_immediately="true"
@@ -73,7 +73,7 @@
                     left_delta="110"
                     top_delta="-15"
                     width="100">
-                Blue Density:
+                파란 밀도:
             </text>
             <color_swatch
                     can_apply_immediately="true"
@@ -116,7 +116,7 @@
                             left="5"
                             top_pad="10"
                             width="100">
-                        Haze Horizon:
+                        안개 지평선:
                     </text>
                     <slider
                             decimal_digits="2"
@@ -140,7 +140,7 @@
                             left="5"
                             top_pad="15"
                             width="100">
-                        Haze Density:
+                        안개 밀도:
                     </text>
                     <slider
                             decimal_digits="2"
@@ -164,7 +164,7 @@
                             left="5"
                             top_pad="15"
                             width="100">
-                        Moisture Level:
+                        수분 레벨:
                     </text>
                      <slider
                             decimal_digits="3"
@@ -188,7 +188,7 @@
                             left="5"
                             top_pad="15"
                             width="100">
-                        Droplet Radius:
+                        물방울 반지름:
                     </text>
                     <slider
                             decimal_digits="2"
@@ -212,7 +212,7 @@
                             left="5"
                             top_pad="15"
                             width="100">
-                        Ice Level:
+                        얼음 레벨:
                     </text>
                     <slider
                             decimal_digits="3"
@@ -245,7 +245,7 @@
                             left="5"
                             top_pad="10"
                             width="100">
-                        Density Multiplier:
+                        밀도 승수:
                     </text>
                     <slider
                             decimal_digits="4"
@@ -269,7 +269,7 @@
                             left="5"
                             top_pad="15"
                             width="100">
-                        Distance Multiplier:
+                        거리 승수:
                     </text>
                     <slider
                             decimal_digits="2"
@@ -293,7 +293,7 @@
                             left="5"
                             top_pad="15"
                             width="100">
-                        Maximum Altitude:
+                        최대 고도:
                     </text>
                     <slider
                             decimal_digits="1"
@@ -317,7 +317,7 @@
                             left="5"
                             top_pad="15"
                             width="100">
-                        Scene Gamma:
+                        신 감마:
                     </text>
                     <slider
                             decimal_digits="2"

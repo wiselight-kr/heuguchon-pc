@@ -9,8 +9,18 @@
  help_topic="preferences"
  save_rect="true"
  single_instance="true"
- title="Preferences"
+ title="환경설정"
  width="662">
+    <floater.string
+     name="email_unverified_tooltip">
+        방문해서 IM to Email을 활성화하려면 이메일을 확인하십시오
+https://accounts.secondlife.com/change_email/
+    </floater.string>
+	
+	<floater.string name="LoginToChange">
+		변경 로그인
+	</floater.string>
+ 
     <button
      follows="right|bottom"
      height="23"
@@ -28,7 +38,7 @@
     <button
      follows="right|bottom"
      height="23"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_pad="5"
@@ -52,7 +62,7 @@
          clear_button_visible="true"
          follows="left|top|right"
          height="18"
-         label="Search Settings"
+         label="검색 설정"
          layout="topleft"
          left="0"
          max_length_bytes="255"
@@ -102,98 +112,98 @@
         <panel
          class="panel_preference"
          filename="panel_preferences_general.xml"
-         label="General"
+         label="일반"
          layout="topleft"
          help_topic="preferences_general_tab"
          name="general" />
         <panel
          class="panel_preference"
          filename="panel_preferences_chat.xml"
-         label="Chat"
+         label="채팅"
          layout="topleft"
          help_topic="preferences_chat_tab"
          name="chat" />
         <panel
          class="panel_preference"
          filename="panel_preferences_colors.xml"
-         label="Colors"
+         label="색깔"
          layout="topleft"
          help_topic="preferences_colors_tab"
          name="colors" />
         <panel
           class="panel_preference_graphics"
          filename="panel_preferences_graphics1.xml"
-         label="Graphics"
+         label="그래픽"
          layout="topleft"
          help_topic="preferences_display_tab"
          name="display" />
         <panel
          class="panel_preference_sounds"
          filename="panel_preferences_sound.xml"
-         label="Sound &amp; Media"
+         label="음성 &amp; 미디어"
          layout="topleft"
          help_topic="preferences_audio_tab"
          name="audio" />
         <panel
          class="panel_preference"
          filename="panel_preferences_setup.xml"
-         label="Network &amp; Files"
+         label="네트워크 &amp; 파일"
          layout="topleft"
          help_topic="preferences_input_tab"
          name="input" />
         <panel
 		 class="panel_preference"
          filename="panel_preferences_move.xml"
-         label="Move &amp; View"
+         label="이동 &amp; 뷰"
          layout="topleft"
          help_topic="preferences_move_tab"
          name="move" />
         <panel
          class="panel_preference_controls"
          filename="panel_preferences_controls.xml"
-         label="Controls"
+         label="조작"
          layout="topleft"
          help_topic="preferences_controls_tab"
          name="controls" />
         <panel
          class="panel_preference"
          filename="panel_preferences_alerts.xml"
-         label="Notifications"
+         label="알림"
          layout="topleft"
          help_topic="preferences_msgs_tab"
          name="msgs" />
         <panel
          class="panel_preference_privacy"
          filename="panel_preferences_privacy.xml"
-         label="Privacy"
+         label="개인정보"
          layout="topleft"
          help_topic="preferences_privacy_tab"
          name="im" />
         <panel
          class="panel_preference"
          filename="panel_preferences_advanced.xml"
-         label="Advanced"
+         label="고급"
          layout="topleft"
          help_topic="preferences_advanced1_tab"
          name="advanced1" />
         <panel
          class="panel_preference"
          filename="panel_preferences_UI.xml"
-         label="User Interface"
+         label="유저 인터페이스"
          layout="topleft"
          help_topic="preferences_ui_extras_tab"
          name="ui" />
         <panel
          class="panel_preference_skins"
          filename="panel_preferences_skins.xml"
-         label="Skins"
+         label="피부"
          layout="topleft"
          help_topic="preferences_skins_tab"
          name="skins" />
         <panel
          class="panel_preference_crashreports"
          filename="panel_preferences_crashreports.xml"
-         label="Crash Reports"
+         label="충돌 신고"
          layout="topleft"
          help_topic="preferences_crashreports_tab"
          name="crashreports" />
@@ -214,7 +224,7 @@
         <panel
          class="panel_preference_backup"
          filename="panel_preferences_backup.xml"
-         label="Backup &amp; Restore"
+         label="백업 &amp; 회복"
          layout="topleft"
          help_topic="preferences_backup_tab"
          name="backup" />

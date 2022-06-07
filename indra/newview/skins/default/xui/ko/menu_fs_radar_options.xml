@@ -176,7 +176,7 @@
 	 label="Report To"
 	 name="report_to_menu">
 		<menu_item_check
-		 label="Nearby Chat"
+		 label="근처 대화"
 		 name="radar_nearby_chat">
 			<menu_item_check.on_check
 			 function="Radar.ReportToCheck"

@@ -21,8 +21,8 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         tool_tip="Walk to location mouse cursor points to"
-         value="Walk to" />
+         tool_tip="마우스 커서가 가리키는 위치로 이동"
+         value="이동" />
     </rows>
     <rows
      name="teleport_to"
@@ -32,8 +32,8 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         tool_tip="Teleport to location mouse cursor points to, but not all locations allow direct teleportation so you might be teleported closer to destination instead"
-         value="Teleport to" />
+         tool_tip="마우스 커서가 가리키는 위치로 텔레포트하지만 모든 위치에서 직접 텔레포트를 사용할 수 있는 것은 아니므로 목적지 근처로 텔레포트할 수 있습니다"
+         value="순간이동" />
     </rows>
     <rows
      name="push_forward"
@@ -43,7 +43,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Move Forward" />
+         value="앞으로 이동" />
     </rows>
     <rows
      name="push_backward"
@@ -53,7 +53,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Move Backward" />
+         value="뒤로 이동" />
     </rows>
     <rows
      name="turn_left"
@@ -63,7 +63,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Left" />
+         value="왼쪽" />
     </rows>
     <rows
      name="turn_right"
@@ -73,7 +73,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Right" />
+         value="오른쪽" />
     </rows>
     <rows
      name="slide_left"
@@ -83,7 +83,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Strafe left" />
+         value="왼쪽으로 스트라프" />
     </rows>
     <rows
      name="slide_right"
@@ -93,7 +93,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Strafe right" />
+         value="오른쪽으로 스트라프" />
     </rows>
     <rows
      name="jump"
@@ -103,7 +103,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Jump/Up" />
+         value="점프/위로" />
     </rows>
     <rows
      name="push_down"
@@ -113,7 +113,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Down" />
+         value="아래" />
     </rows>
     <rows
      name="run_forward"
@@ -123,7 +123,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Run Forward" />
+         value="앞으로 달리기" />
     </rows>
     <rows
      name="run_backward"
@@ -133,7 +133,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Run Backward" />
+         value="뒤로 달리기" />
     </rows>
     <rows
      name="run_left"
@@ -143,7 +143,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Run Left" />
+         value="왼쪽으로 달리기" />
     </rows>
     <rows
      name="run_right"
@@ -153,7 +153,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Run Right" />
+         value="오른쪽으로 달리기" />
     </rows>
     <rows
      name="toggle_run"
@@ -163,7 +163,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Toggle Run" />
+         value="실행 전환" />
     </rows>
     <rows
      name="toggle_fly"
@@ -173,7 +173,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Fly/Stop flying" />
+         value="비행/비행 멈춤" />
     </rows>
     <rows
      name="toggle_sit"
@@ -183,7 +183,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Sit/Stand" />
+         value="앉기/일어서기" />
     </rows>
     <rows
      name="stop_moving"
@@ -193,6 +193,6 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Stop Moving" />
+         value="이동 정지" />
     </rows>
 </contents>

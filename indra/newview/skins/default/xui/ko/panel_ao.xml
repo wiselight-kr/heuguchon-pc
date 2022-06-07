@@ -53,7 +53,7 @@
 
 		<check_box
 			name="ao_default"
-			label="Default"
+			label="기본값"
 			tool_tip="Make this animation set the default set that plays when you log in."
 			left="0"
 			top_pad="8"
@@ -85,7 +85,7 @@
 
 		<check_box
 			name="ao_sit_override"
-			label="Override Sits"
+			label="자리 재정의"
 			tool_tip="Check this if you want sit animation overrides."
 			left="0"
 			top_pad="4"
@@ -96,7 +96,7 @@
 
 		<check_box
 			name="ao_smart"
-			label="Be smart"
+			label="현명해지십시오"
 			tool_tip="Smart mode tries to determine if the sit override would clash with the object's own animation and disables the overrider temporarily."
 			left_pad="4"
 			right="-1"
@@ -106,7 +106,7 @@
 
 		<check_box
 			name="ao_disable_stands_in_mouselook"
-			label="Disable Stands in Mouselook"
+			label="마우스룩에서 스탠드 사용 안 함"
 			tool_tip="If you need to preserve your custom stand animation in mouselook, check this box."
 			left="0"
 			top_pad="4"
@@ -185,7 +185,7 @@
 
 		<check_box
 			name="ao_cycle"
-			label="Cycle"
+			label="주기"
 			tool_tip="Play a different animation from the list every time the animation state is called."
 			left="0"
 			top_pad="4"
@@ -196,7 +196,7 @@
 
 		<check_box
 			name="ao_randomize"
-			label="Randomize order"
+			label="랜덤한 순서"
 			tool_tip="Randomize order of animations in cycle mode."
 			left_pad="4"
 			width="100"
@@ -230,7 +230,7 @@
 
 		<button
 			name="ao_reload"
-			label="Reload"
+			label="재로드"
 			tool_tip="Reload animation overrider configuration."
 			left="0"
 			top_pad="8"
@@ -346,7 +346,7 @@
 				halign="center"
 				valign="center"
 				follows="all">
-				Reloading Config
+				구성을 재로드중
 			</text>
 			<text
 				name="wait_label"
@@ -355,7 +355,7 @@
 				halign="center"
 				valign="center"
 				follows="all">
-				Please Wait
+				대기바랍니다
 			</text>
 
 			<layout_stack
@@ -454,7 +454,7 @@
 
 	<check_box
 		name="ao_sit_override_small"
-		label="Sits"
+		label="앉기"
 		tool_tip="Check this if you want sit animation overrides."
 		left_pad="4"
 		width="45"

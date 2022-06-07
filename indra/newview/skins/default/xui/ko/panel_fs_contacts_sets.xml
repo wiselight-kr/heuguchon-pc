@@ -7,23 +7,23 @@
  width="355">
     <panel.string
      name="empty_list">
-    This contact set is empty.
+    주소록 집합이 비어있습니다.
     </panel.string>
     <panel.string
      name="no_sets">
-    No sets
+    집합 없음
     </panel.string>
     <panel.string
      name="all_sets">
-    All sets
+    모든 집합
     </panel.string>
     <panel.string
      name="pseudonyms">
-    Aliases
+    별칭
     </panel.string>
     <panel.string
      name="non_friends">
-    Non-Friends
+    친구 없음
     </panel.string>
     <combo_box
      follows="left|top|right"
@@ -94,7 +94,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Add..."
+	 label="추가..."
 	 left="269"
 	 name="add_btn"
 	 tool_tip="Add an avatar to the current contact set"
@@ -104,7 +104,7 @@
      follows="top|right"
      layout="topleft"
      height="22"
-     label="Remove..."
+     label="제거..."
      name="remove_btn"
      tool_tip="Remove this avatar from the current contact set"
      width="80" />
@@ -113,7 +113,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Profile..."
+	 label="프로필..."
 	 name="profile_btn"
 	 tool_tip="Open this avatar's profile"
 	 width="80" />
@@ -131,7 +131,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Teleport..."
+	 label="순간이동..."
 	 name="offer_teleport_btn"
 	 tool_tip="Offer a teleport to your current location"
 	 width="80" />
@@ -140,7 +140,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Set Alias..."
+	 label="별칭 설정..."
 	 name="set_pseudonym_btn"
 	 tool_tip="Give this avatar a pseudonym"
 	 width="80" />
@@ -149,7 +149,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Rem Alias..."
+	 label="별칭 제거..."
 	 name="remove_pseudonym_btn"
 	 tool_tip="Remove an avatar's pseudonym"
 	 width="80" />
@@ -158,7 +158,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Rem DN..."
+	 label="전시 이름 제거..."
 	 name="remove_displayname_btn"
 	 tool_tip="Remove an avatar's display name"
 	 width="80" />
@@ -169,7 +169,7 @@
      layout="topleft"
      height="14"
      name="member_count"
-     width="255">
-    Members: [COUNT]
+     width="80">
+    멤버들: [COUNT]
     </text>
 </panel>

@@ -23,7 +23,7 @@
     font.style="BOLD"
     name="Camera Presets"
     width="200">
-      Camera Presets
+      카메라 프리셋
   </text>
   <scroll_list
     follows="left|top"

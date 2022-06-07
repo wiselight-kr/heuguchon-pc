@@ -244,7 +244,7 @@
         follows="bottom|left|right"
         height="22"
         bottom_delta="23"
-        label="Position..."
+        label="위치..."
         layout="topleft"
         left_delta="5"
         name="camera_position_btn"
@@ -275,7 +275,7 @@
         width="113">
       <combo_list mouse_wheel_opaque="true" />
       <combo_box.item
-          label="Use preset"
+          label="프리셋 사용"
           name="Use preset"
           value="default" />
     </combo_box>

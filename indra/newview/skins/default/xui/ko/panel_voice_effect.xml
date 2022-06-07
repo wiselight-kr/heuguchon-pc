@@ -6,13 +6,13 @@
  name="panel_voice_effect"
  width="200">
   <string name="no_voice_effect">
-    Voice Morphing Off
+    음성 모핑 끄기
   </string>
   <string name="preview_voice_effects">
-    Preview Voice Morphing  ▶
+    음성 모핑 미리 보기  ▶
   </string>
   <string name="get_voice_effects">
-    Get Voice Morphing  ▶
+    음성 모핑 가져오기  ▶
   </string>
   <combo_box
    enabled="false"
@@ -23,7 +23,7 @@
    top_pad="0"
    width="200">
     <combo_box.item
-     label="Voice Morphing Off"
+     label="음성 모핑 끄기"
      name="no_voice_effect"
 	 top_pad="0"
      value="0" />

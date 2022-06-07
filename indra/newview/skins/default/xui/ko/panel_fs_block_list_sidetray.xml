@@ -99,7 +99,7 @@
           left="4"
           use_ellipses="true"
           name="block_limit">
-          Blocked entries: [COUNT] ([LIMIT] max.)
+          차단 명단: [COUNT] ([LIMIT] max.)
       </text>
 	<fs_scroll_list
 	 draw_heading="true"

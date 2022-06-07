@@ -6,7 +6,7 @@
  layout="topleft"
  left="1"
  width="780"
- label="Places"
+ label="장소"
  name="panel_ls_places">
 	<panel
 	 border="false"
@@ -27,7 +27,7 @@
 		 top="12"
 		 height="16"
 		 width="156">
-		Enter search terms:
+		검색어를 입력하시오:
 		</text>
 		<search_combo_box
 		 layout="topleft"
@@ -140,11 +140,11 @@
 			 name="icon"
 			 width="20" />
 			<columns
-			 label="Name"
+			 label="이름"
 			 name="place_name"
 			 relwidth="0.81" />
 			<columns
-			 label="Traffic"
+			 label="교통량"
 			 name="dwell"
 			 relwidth="0.16" />
 		</scroll_list>
@@ -152,7 +152,7 @@
 		 layout="topleft"
 		 follows="left|bottom"
 		 height="23"
-		 label="Back"
+		 label="뒤"
 		 name="places_back"
 		 top_pad="2"
 		 left="3"
@@ -161,7 +161,7 @@
 		 layout="topleft"
 		 follows="left|bottom"
 		 height="23"
-		 label="Next"
+		 label="다음"
 		 name="places_next"
 		 width="100"
 		 left_pad="1" />
