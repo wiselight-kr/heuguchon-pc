@@ -12,10 +12,10 @@ function install_desktop_entry()
 
     local desktop_entry="\
 [Desktop Entry]\n\
-Name=Firestorm Viewer\n\
+Name=Heuguchon\n\
 Comment=Client for accessing 3D virtual worlds\n\
-Exec=${installation_prefix}/firestorm\n\
-Icon=${installation_prefix}/firestorm_icon.png\n\
+Exec=${installation_prefix}/heuguchon\n\
+Icon=${installation_prefix}/heuguchon_icon.png\n\
 Terminal=false\n\
 Type=Application\n\
 Categories=Application;Internet;Network;\n\
@@ -25,7 +25,7 @@ StartupWMClass=do-not-directly-run-heuguchon-bin"
 
     echo " - Installing menu entries in ${desktop_entries_dir}"
     mkdir -vp "${desktop_entries_dir}"
-    echo -e $desktop_entry > "${desktop_entries_dir}/firestorm-viewer.desktop" || "Failed to install application menu!"
+    echo -e $desktop_entry > "${desktop_entries_dir}/heuguchon.desktop" || "Failed to install application menu!"
 }
 
 if [ "$UID" == "0" ]; then

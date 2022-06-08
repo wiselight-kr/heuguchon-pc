@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=Firestorm
-Exec=firestorm
+Name=Heuguchon
+Exec=heuguchon
 Comment=Client for virtual worlds
-Icon=firestorm_icon
+Icon=heuguchon_icon
 Categories=Development;
 Terminal=true
