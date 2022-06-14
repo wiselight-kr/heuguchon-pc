@@ -3,21 +3,21 @@
  layout="topleft"
  name="Namelist Popup">
     <menu_item_call
-     label="Send IM..."
+     label="IM 전송..."
      layout="topleft"
      name="send_im">
         <menu_item_call.on_click
          function="Namelist.SendIM"/>
     </menu_item_call>
     <menu_item_call
-     label="Add to Set..."
+     label="집합에 추가..."
      layout="topleft"
      name="Add to Set">
         <menu_item_call.on_click
          function="Namelist.AddToContactSet"/>
     </menu_item_call>
     <menu_item_call
-     label="Offer Teleport"
+     label="순간이동 제공"
      layout="topleft"
      name="offer_teleport">
         <menu_item_call.on_click
@@ -27,7 +27,7 @@
          parameter="offer_teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Remove Friends..."
+     label="친구 삭제..."
      layout="topleft"
      name="remove_friend">
         <menu_item_call.on_click

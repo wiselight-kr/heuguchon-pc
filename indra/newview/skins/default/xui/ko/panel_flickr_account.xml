@@ -5,10 +5,10 @@
    name="panel_flickr_account">
   <string
       name="flickr_connected"
-      value="You are connected to Flickr as:" />
+      value="~로 Flickr 에 연결되어 있습니다.:" />
   <string
       name="flickr_disconnected"
-      value="Not connected to Flickr" />
+      value="Flickr에 연결되지 않음" />
   <text
    layout="topleft"
    length="1"
@@ -19,7 +19,7 @@
    name="account_caption_label"
    top="5"
    type="string">
-    Not connected to Flickr.
+    Flickr에 연결되지 않음.
   </text>
   <text
    layout="topleft"
@@ -45,7 +45,7 @@
 	 left="10"
 	 right="-10"
      height="23"
-     label="Connect..."
+     label="연결..."
      name="connect_btn"
      width="210">
       <commit_callback function="SocialSharing.Connect"/>
@@ -58,7 +58,7 @@
 	 left="10"
 	 right="-10"
      height="23"
-     label="Disconnect"
+     label="연결끊김"
      name="disconnect_btn"
      width="210"
      visible="false">
@@ -73,7 +73,7 @@
       name="account_learn_more_label"
       top_pad="5"
       type="string">
-      [http://community.secondlife.com/t5/English-Knowledge-Base/Second-Life-Share-Flickr/ta-p/2435609 Learn about posting to Flickr]
+      [http://community.secondlife.com/t5/English-Knowledge-Base/Second-Life-Share-Flickr/ta-p/2435609 Flickr에 게시하는 방법에 대해 알아보기]
     </text>
   </panel>
 </panel>

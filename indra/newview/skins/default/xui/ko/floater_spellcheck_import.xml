@@ -9,7 +9,7 @@
  height="140"
  width="400"
  name="spellcheck_import"
- title="Import Dictionary">
+ title="사전 불러오기">
   <text
    name="import_dict"
    follows="top|left"
@@ -19,7 +19,7 @@
    top="15"
    type="string"
    width="65">
-   Dictionary:
+   사전:
   </text>
   <line_editor
    enabled="false"
@@ -34,7 +34,7 @@
   <button
    follows="left|top"
    height="23"
-   label="Browse"
+   label="탐색"
    label_selected="Browse"
    layout="topleft"
    left_pad="5"
@@ -50,7 +50,7 @@
    top_pad="8"
    type="string"
    width="65">
-   Name:
+   이름:
   </text>
   <line_editor
    enabled="false"
@@ -71,7 +71,7 @@
    top_pad="8"
    type="string"
    width="65">
-   Language:
+   언어:
   </text>
   <line_editor
    follows="left|top"
@@ -103,7 +103,7 @@
    halign="center"
    scale_image="true"
    name="ok_btn"
-   label="Import" />
+   label="불러오기" />
   <button
    top_delta="0"
    right="380"
@@ -115,5 +115,5 @@
    halign="center"
    scale_image="true"
    name="cancel_btn"
-   label="Cancel" />
+   label="취소" />
 </floater>

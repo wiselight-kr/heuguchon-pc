@@ -41,7 +41,7 @@
 		    image_unselected="PushButton_Off"
         chrome="true"
 		    hover_glow_amount="0.15"
-        tool_tip="Navigate back"
+        tool_tip="뒤로 이동"
         follows="left|top"
         height="22"
         layout="topleft"
@@ -59,7 +59,7 @@
 		    image_selected="PushButton_Selected"
 		    image_unselected="PushButton_Off"
         chrome="true"
-        tool_tip="Navigate forward"
+        tool_tip="앞으로 이동"
         follows="left|top"
         height="22"
         layout="topleft"
@@ -77,7 +77,7 @@
 		    image_selected="PushButton_Selected"
 		    image_unselected="PushButton_Off"
         chrome="true"
-        tool_tip="Stop navigation"
+        tool_tip="네비게이션 중지"
         enabled="true"
         follows="left|top"
         height="22"
@@ -96,7 +96,7 @@
 		    image_selected="PushButton_Selected"
 		    image_unselected="PushButton_Off"
         chrome="true"
-        tool_tip="Reload page"
+        tool_tip="페이지 재로드"
         follows="left|top"
         height="22"
         layout="topleft"
@@ -117,7 +117,7 @@
         max_chars="1024"
         name="address"
         combo_editor.select_on_focus="true"
-        tool_tip="Enter URL here"
+        tool_tip="여기 URL 입력"
         top_delta="0"
         width="672">
         <combo_box.commit_callback
@@ -132,7 +132,7 @@
         left_delta="2"
         top_delta="2"
         visible="false" 
-        tool_tip="Secured Browsing"
+        tool_tip="보안 검색"
         width="16" />
       <button
         image_overlay="ExternalBrowser_Off"
@@ -141,7 +141,7 @@
 		    image_selected="PushButton_Selected"
 		    image_unselected="PushButton_Off"
         chrome="true"
-        tool_tip="Open current URL in your desktop browser"
+        tool_tip="현재 URL이 당신의 데스크 톱 브라우저에서 열립니다."
         follows="right|top"
         enabled="true" 
         height="22"
@@ -169,7 +169,7 @@
             image_selected="PushButton_Selected"
             image_unselected="PushButton_Off"
         chrome="true"
-        tool_tip="Web tests home page"
+        tool_tip="웹 테스트 홈 페이지"
         enabled="true"
         follows="left|top"
         height="22"
@@ -199,16 +199,16 @@
         top="60"
         right="-60"
         bottom="-60">
-The web browser plugin seems to be taking a while to open.
-If the plugin never loads, please visit:
+웹 테스트 홈 페이지웹 브라우저 플러그인을 여는 데 시간이 좀 걸릴 것 같습니다.
+플러그인이 로드되지 않는 경우 다음을 방문하십시오.
 
 https://wiki.firestormviewer.org/fs_search_issues
 
-and
+그리고
 
 https://wiki.firestormviewer.org/fs_media
 
-for possible steps to resolve this issue.
+이 문제를 해결하기 위한 가능한 단계를 참조하십시오.
       </text>
       <web_browser
         bottom="-2"

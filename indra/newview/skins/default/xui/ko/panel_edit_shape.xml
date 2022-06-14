@@ -8,11 +8,11 @@
 	 name="edit_shape_panel"
 	 top_pad="10"
 	 width="333" >
-     <string name="meters">Meters</string>
-     <string name="feet">Feet</string>
-     <string name="height">Height:</string>
-     <string name="heigth_label_color" translate="false">White_50</string>
-     <string name="heigth_value_label_color" translate="false">White</string>
+     <string name="meters">미터</string>
+     <string name="feet">피트</string>
+     <string name="height">높이:</string>
+     <string name="heigth_label_color" translate="false">흰색_50</string>
+     <string name="heigth_value_label_color" translate="false">흰색</string>
      <text
          follows="top|left|right"
          font="SansSerifSmallBold"
@@ -32,7 +32,7 @@
          background_opaque="true"
          follows="all"
          height="388"
-         label="Shirt"
+         label="셔츠"
          layout="topleft"
 		 left="10"
          name="accordion_panel"
@@ -53,7 +53,7 @@
 			min_height="150"
 			name="shape_body_tab"
             fit_panel="false"
-			title="Body">
+			title="신체">
 			<scrolling_panel_list
                 layout="topleft" 
 				follows="all"
@@ -68,7 +68,7 @@
 			min_height="150"
             fit_panel="false"
 			name="shape_head_tab"
-			title="Head">
+			title="머리">
            <scrolling_panel_list
                 layout="topleft"
 				follows="all"
@@ -82,7 +82,7 @@
 			min_height="150"
             fit_panel="false"
 			name="shape_eyes_tab"
-			title="Eyes">
+			title="눈">
            <scrolling_panel_list
                 layout="topleft"
 				follows="all"
@@ -96,7 +96,7 @@
 			min_height="150"
             fit_panel="false"
 			name="shape_ears_tab"
-			title="Ears">
+			title="귀">
            <scrolling_panel_list
                 layout="topleft"
 				follows="all"
@@ -110,7 +110,7 @@
 			min_height="150"
 			name="shape_nose_tab"
             fit_panel="false"
-			title="Nose">
+			title="코">
            <scrolling_panel_list
                 layout="topleft"
 				follows="all"
@@ -124,7 +124,7 @@
 			min_height="150"
 			name="shape_mouth_tab"
             fit_panel="false"
-			title="Mouth">
+			title="입">
            <scrolling_panel_list
                 layout="topleft"
 				follows="all"
@@ -138,7 +138,7 @@
 			min_height="150"
 			name="shape_chin_tab"
             fit_panel="false"
-			title="Chin">
+			title="턱">
            <scrolling_panel_list
                 layout="topleft"
 				follows="all"
@@ -152,7 +152,7 @@
 			min_height="150"
 			name="shape_torso_tab"
             fit_panel="false"
-			title="Torso">
+			title="몸통">
            <scrolling_panel_list
                 layout="topleft"
 				follows="all"
@@ -166,7 +166,7 @@
 			min_height="150"
 			name="shape_legs_tab"
             fit_panel="false"
-			title="Legs">
+			title="다리">
            <scrolling_panel_list
                 layout="topleft"
 				follows="all"

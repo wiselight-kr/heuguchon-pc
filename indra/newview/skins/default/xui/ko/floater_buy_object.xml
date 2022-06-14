@@ -10,31 +10,31 @@
  help_topic="contents"
  save_rect="true"
  single_instance="true"
- title="Buy Copy of Object"
+ title="개체의 복사본 구매"
  width="280">
     <floater.string
      name="title_buy_text">
-        Buy
+        구매
     </floater.string>
     <floater.string
      name="title_buy_copy_text">
-        Buy a copy of
+        복사본 구매
     </floater.string>
     <floater.string
      name="no_copy_text">
-        (no copy)
+        (복사 없음)
     </floater.string>
     <floater.string
      name="no_modify_text">
-        (no modify)
+        (수정 없음)
     </floater.string>
     <floater.string
      name="no_transfer_text">
-        (no transfer)
+        (이전 없음)
     </floater.string>
     <floater.string
       name="multiple_selected">
-        Multiple selection
+        복수 선택
     </floater.string>
     <scroll_list
      background_visible="true"
@@ -65,7 +65,7 @@
      top_pad="5"
      use_ellipses="true"
      width="260">
-     Contains:
+     포함:
     </text>
     <scroll_list
      background_visible="true"
@@ -99,7 +99,7 @@
      use_ellipses="true"
      width="260"
 	 word_wrap="true">
-Buy for L$[AMOUNT] from:
+L$[AMUT]에 구매:
     </text>
   <text
      icon_positioning="left"

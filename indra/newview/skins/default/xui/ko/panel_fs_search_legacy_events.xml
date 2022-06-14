@@ -6,7 +6,7 @@
  layout="topleft"
  left="1"
  width="780"
- label="Events"
+ label="이벤트"
  name="panel_ls_events">
 	<panel
 	 border="false"
@@ -40,7 +40,7 @@
 			 label="진행 중 및 곧 출시"
 			 layout="topleft"
 			 name="current"
-			 value="current"
+			 value="현재"
 			 top_pad="0"
 			 width="120" />
 			<radio_item
@@ -48,7 +48,7 @@
 			 label="날짜별"
 			 layout="topleft"
 			 name="date"
-			 value="date"
+			 value="일자"
 			 left_pad="70"
 			 width="120" />
 			<radio_group.commit_callback

@@ -8,7 +8,7 @@
  name="object_weights"
  save_rect="true"
  single_instance="true"
- title="Advanced"
+ title="고급"
  width="200">
     <floater.string
      name="nothing_selected"
@@ -41,7 +41,7 @@
      left_pad="10"
      name="objects_label"
      top_delta="0"
-     value="Objects"
+     value="개체"
      width="130" />
     <text
      follows="left|top"
@@ -60,7 +60,7 @@
      left_pad="10"
      name="prims_label"
      top_delta="0"
-     value="Prims"
+     value="프림"
      width="130" />
     <view_border
      bevel_style="none"
@@ -81,7 +81,7 @@
      name="weights_of_selected_text"
      text_color="EmphasisColor"
      top_pad="10"
-     value="WEIGHTS OF SELECTED"
+     value="선택한 무게"
      width="180" />
     <text
      follows="left|top"
@@ -108,7 +108,7 @@
      left_pad="10"
      name="download_label"
      top_delta="0"
-     value="Download"
+     value="다운로드"
      width="130" />
     <text
      follows="left|top"
@@ -135,7 +135,7 @@
      left_pad="10"
      name="physics_label"
      top_delta="0"
-     value="Physics"
+     value="물리"
      width="130" />
     <text
      follows="left|top"
@@ -162,7 +162,7 @@
      left_pad="10"
      name="server_label"
      top_delta="0"
-     value="Server"
+     value="서버"
      width="130" />
     <text
      follows="left|top"
@@ -189,7 +189,7 @@
      left_pad="10"
      name="display_label"
      top_delta="0"
-     value="Display"
+     value="표시"
      width="130" />
     <view_border
      bevel_style="none"
@@ -210,7 +210,7 @@
      name="land_impacts_text"
      text_color="EmphasisColor"
      top_pad="10"
-     value="LAND IMPACTS"
+     value="랜드 충격"
      width="180" />
     <text
      follows="left|top"
@@ -237,7 +237,7 @@
      left_pad="10"
      name="selected_label"
      top_delta="0"
-     value="Selected"
+     value="선택된"
      width="130" />
     <text
      follows="left|top"
@@ -264,7 +264,7 @@
      left_pad="10"
      name="rezzed_on_land_label"
      top_delta="0"
-     value="Rezzed on land"
+     value="뭍에서 재채기"
      width="130" />
     <text
      follows="left|top"
@@ -318,7 +318,7 @@
      left_pad="10"
      name="total_capacity_label"
      top_delta="0"
-     value="Total capacity"
+     value="종합 용량"
      width="130" />
     <view_border
      bevel_style="none"

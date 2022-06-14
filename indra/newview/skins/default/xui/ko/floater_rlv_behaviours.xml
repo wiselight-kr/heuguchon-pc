@@ -11,7 +11,7 @@
   save_rect="true"
   save_visibility="false"
   single_instance="true"
-  title="Active RLV Restrictions"
+  title="RLV 제한 활성화"
   width="450">
   <tab_container
     follows="all"
@@ -26,7 +26,7 @@
     top="0" >
     <panel
       follows="all"  height="265"
-      label="Restrictions"
+      label="제한"
       layout="topleft"
       name="behaviour_panel"
       top="0">
@@ -40,15 +40,15 @@
 	     multi_select="false"
 	     name="behaviour_list"
 		 sort_column="0"
-	     tool_tip="List of current RLVa restrictions."
+	     tool_tip="현재 RLVa 제한 목록"
 	     top_pad="0" >
-        <scroll_list.columns label="Restriction" name="behaviour" width="80" />
-        <scroll_list.columns label="Object Name" name="issuer" />
+        <scroll_list.columns label="제한" name="behaviour" width="80" />
+        <scroll_list.columns label="개체 이름" name="issuer" />
       </scroll_list>
     </panel>
     <panel
       follows="all"  height="265"
-      label="Exceptions"
+      label="예외"
       layout="topleft"
       name="exception_panel"
       top="0"> 
@@ -62,16 +62,16 @@
 	     multi_select="false"
 	     name="exception_list"
 		 sort_column="0"
-	     tool_tip="List of current RLVa exceptions."
+	     tool_tip="현재 RLVa 예외 목록"
 	     top_pad="0" >
-        <scroll_list.columns label="Exception" name="behaviour" width="80" />
-        <scroll_list.columns label="Source" name="option" width="105" />
-        <scroll_list.columns label="Object Name" name="issuer" />
+        <scroll_list.columns label="예외" name="behaviour" width="80" />
+        <scroll_list.columns label="소스" name="option" width="105" />
+        <scroll_list.columns label="개체 이름" name="issuer" />
       </scroll_list>
     </panel>
     <panel
       follows="all"  height="265"
-      label="Modifiers"
+      label="수정자"
       layout="topleft"
       name="modifier_panel"
       top="0">
@@ -85,11 +85,11 @@
        multi_select="false"
        name="modifier_list"
        sort_column="0"
-       tool_tip="List of current RLVa modifiers."
+       tool_tip="현재 RLVa 한정자 목록."
        top_pad="0" >
-        <scroll_list.columns label="Modifier" name="modifier" width="105" />
-        <scroll_list.columns label="Value" name="value" width="105" />
-        <scroll_list.columns label="Primary Object" name="primary" />
+        <scroll_list.columns label="수정자" name="modifier" width="105" />
+        <scroll_list.columns label="값" name="value" width="105" />
+        <scroll_list.columns label="주된 개체" name="primary" />
       </scroll_list>
     </panel>
   </tab_container>
@@ -107,7 +107,7 @@
      image_overlay_alignment="left"
      image_selected="Toolbar_Left_Selected"
      image_unselected="Toolbar_Left_Off"
-     label="Copy to Clipboard"
+     label="클립보드에 복사"
      left="0"
      name="copy_btn"
      top="1"

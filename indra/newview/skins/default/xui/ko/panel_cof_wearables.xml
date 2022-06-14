@@ -25,7 +25,7 @@
         <panel
          layout="topleft"
          name="tab_clothing"
-         title="Clothing">
+         title="의류">
             <flat_list_view
              allow_select="true"
              follows="all"
@@ -43,7 +43,7 @@
         <panel
          layout="topleft"
          name="tab_attachments"
-         title="Attachments">
+         title="첨부파일">
             <flat_list_view
              allow_select="true"
              follows="all"
@@ -60,7 +60,7 @@
         <panel
          layout="topleft"
          name="tab_body_parts"
-         title="Body Parts">
+         title="신체 부위">
             <flat_list_view
              allow_select="true"
              follows="all"

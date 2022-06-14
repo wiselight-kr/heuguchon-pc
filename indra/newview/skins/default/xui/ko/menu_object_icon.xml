@@ -9,7 +9,7 @@
  visible="false"
  width="128">
     <menu_item_call
-     label="Object Profile..."
+     label="개체 프로필..."
      layout="topleft"
      name="Object Profile">
         <menu_item_call.on_click
@@ -17,7 +17,7 @@
          parameter="profile" />
     </menu_item_call>
     <menu_item_call
-     label="Block..."
+     label="차단..."
      layout="topleft"
      name="Block">
         <menu_item_call.on_click
@@ -28,7 +28,7 @@
          parameter="not_blocked" />
     </menu_item_call>
     <menu_item_call
-     label="Unblock"
+     label="차단 해제"
      layout="topleft"
      name="Unblock">
         <menu_item_call.on_click
@@ -41,7 +41,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Show on Map"
+     label="지도에 표시"
      layout="topleft"
      name="show_on_map">
         <menu_item_call.on_click
@@ -49,7 +49,7 @@
          parameter="map" />
     </menu_item_call>
     <menu_item_call
-     label="Teleport to Object Location"
+     label="객체 위치로 순간이동"
      layout="topleft"
      name="teleport_to_object">
         <menu_item_call.on_click

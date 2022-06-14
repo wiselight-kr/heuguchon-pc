@@ -11,7 +11,7 @@
  min_width="400"
  name="animation_explorer"
  save_rect="true"
- title="Animation Explorer"
+ title="애니메이션 탐색기"
  width="574">
 
 	<scroll_list
@@ -24,25 +24,25 @@
 	 top="4"
 	 width="306">
 		<scroll_list.column
-		 label="Played by"
+		 label="재생자"
 		 name="played_by" />
 		<scroll_list.column
-		 label="Played"
+		 label="재생된"
 		 name="played" />
 		<scroll_list.column
-		 label="Priority"
+		 label="우선순위"
 		 name="priority"
 		 width="60"/>
 		<scroll_list.column
-		 label="Timestamp"
+		 label="타임스탬프"
 		 name="timestamp"
 		 width="-1" />
 		<scroll_list.column
-		 label="Animation ID"
+		 label="애니메이션 ID"
 		 name="animation_id"
 		 width="-1" />
 		<scroll_list.column
-		 label="Object ID"
+		 label="개체 ID"
 		 name="object_id"
 		 width="-1" />
 	</scroll_list>
@@ -67,7 +67,7 @@
 	<button
 	 follows="top|right"
 	 height="22"
-	 label="Stop"
+	 label="정지"
 	 layout="topleft"
 	 left="0"
 	 name="stop_btn"
@@ -77,7 +77,7 @@
 	<button
 	 follows="top|right"
 	 height="22"
-	 label="Stop and Revoke"
+	 label="중지 및 해지"
 	 layout="topleft"
 	 left_pad="4"
 	 name="stop_and_revoke_btn"
@@ -86,7 +86,7 @@
 	<button
 	 follows="top|right"
 	 height="22"
-	 label="Revoke"
+	 label="해지"
 	 layout="topleft"
 	 left="0"
 	 name="revoke_btn"
@@ -96,10 +96,10 @@
 	<check_box
 	 follows="top|right"
 	 height="22"
-	 label="No Owned Animations"
+	 label="소유된 애니메이션 없음"
 	 left_pad="4"
 	 name="no_owned_animations_check"
-	 tool_tip="When checked this will filter out all animations that are owned by your avatar, like AO animations or system default animations."
+	 tool_tip="이 옵션을 선택하면 AO 애니메이션 또는 시스템 기본 애니메이션과 같이 아바타가 소유한 모든 애니메이션이 필터링됩니다."
 	 top_delta="-4"
 	 width="154" />
 

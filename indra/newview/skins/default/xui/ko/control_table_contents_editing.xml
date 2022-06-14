@@ -9,7 +9,7 @@
          column="lst_action"
          font="SansSerif"
          halign="left"
-         label="Editing"
+         label="수정중"
          name="lst_action"
          value="Tool_Dozer" />
     </rows>
@@ -21,8 +21,8 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         tool_tip="Camera spin around avatar counterclockwise"
-         value="Counterclockwise" />
+         tool_tip="카메라가 아바타를 반시계 방향으로 회전."
+         value="반시계방향" />
     </rows>
     <rows
      name="edit_avatar_spin_cw"
@@ -32,8 +32,8 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         tool_tip="Camera spin around avatar clockwise"
-         value="Clockwise" />
+         tool_tip="카메라가 아바타를 시계 방향으로 회전"
+         value="시계방향" />
     </rows>
     <rows
      name="edit_avatar_spin_over"
@@ -43,8 +43,8 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         tool_tip="Camera spin over avatar"
-         value="Camera Spin Over" />
+         tool_tip="아바타 위로 카메라 회전"
+         value="카메라 위로 회전" />
     </rows>
     <rows
      name="edit_avatar_spin_under"
@@ -54,8 +54,8 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         tool_tip="Camera spin under avatar"
-         value="Camera Spin Under" />
+         tool_tip="아바타 아래로 카메라 회전"
+         value="카메라 아래로 회전" />
     </rows>
     <rows
      name="edit_avatar_move_forward"
@@ -65,7 +65,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Camera Forward" />
+         value="카메라 앞으로" />
     </rows>
     <rows
      name="edit_avatar_move_backward"
@@ -75,6 +75,6 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Camera Backward" />
+         value="카메라 뒤로" />
     </rows>
 </contents>

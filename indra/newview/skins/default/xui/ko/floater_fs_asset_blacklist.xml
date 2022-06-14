@@ -2,7 +2,7 @@
 <floater
  name="fs_asset_blacklist"
  help_topic="fs_asset_blacklist"
- title="Asset Blacklist"
+ title="재산 블랙리스트"
  min_width="650"
  min_height="320"
  width="750"
@@ -13,25 +13,25 @@
  can_close="true"
  can_drag_on_left="false">
 	<floater.string name="asset_object">
-		Object
+		개체
 	</floater.string>
 	<floater.string name="asset_texture">
-		Texture
+		텍스쳐
 	</floater.string>
 	<floater.string name="asset_sound">
-		Sound
+		소리
 	</floater.string>
 	<floater.string name="asset_resident">
-		Resident
+		거주자
 	</floater.string>
 	<floater.string name="asset_unknown">
-		Unknown
+		알 수 없음
 	</floater.string>
 	<floater.string name="unknown_object">
-		Unknown object
+		알 수 없는 개체
 	</floater.string>
 	<floater.string name="unknown_region">
-		Unknown region
+		알 수 없는 지역
 	</floater.string>
 	<floater.string name="asset_permanent">
 		&#x2714;
@@ -44,7 +44,7 @@
 	 height="23"
 	 layout="topleft"
 	 left="4"
-	 label="Filter Asset Blacklist"
+	 label="재산 블랙리스트 필터"
 	 max_length_chars="300"
 	 name="filter_input"
 	 top="4"
@@ -66,28 +66,28 @@
 	 sort_column="0">
 		<columns
 		 name="name"
-		 label="Name"
+		 label="이름"
 		 dynamicwidth="true"
 		 />
 		<columns
 		 name="region"
-		 label="Region"
+		 label="지역"
 		 width="100"
 		 />
 		<columns
 		 name="type"
-		 label="Type"
+		 label="타입"
 		 width="60"
 		 />
 		<columns
 		 name="date"
-		 label="Date"
+		 label="일자"
 		 sort_column="date_sort"
 		 width="120"
 		 />
 		<columns
 		 name="permanent"
-		 label="Permanent"
+		 label="영구적"
 		 width="80"
 		 />
 		<columns
@@ -99,16 +99,16 @@
 		 width="-1"
 		 />
 		<row>
-			<column column="name">[UNKNOWN] Template item</column>
-			<column column="region">[UNKNOWN] Template item</column>
-			<column column="type">Unknown</column>
+			<column column="name">[UNKNOWN] 템플릿 아이템</column>
+			<column column="region">[UNKNOWN] 템플릿 아이템</column>
+			<column column="type">알 수 없음</column>
 			<column column="date">2012-12-11 13:37:00</column>
 			<column column="permanent">&#x2714;</column>
 		</row>
 	</fs_scroll_list>
 	<button
 	 name="remove_btn"
-	 label="Remove selected"
+	 label="선택한 항목 제거"
 	 font="SansSerif"
 	 height="24"
 	 width="150"
@@ -117,7 +117,7 @@
 	 follows="left|bottom"/>
 	<button
 	 name="remove_temp_btn"
-	 label="Clear temporary"
+	 label="임시적으로 지우기"
 	 font="SansSerif"
 	 height="24"
 	 width="150"
@@ -126,8 +126,8 @@
 	 follows="left|bottom"/>
 	<button
 	 name="play_btn"
-	 label="Play Sound"
-	 tool_tip="Play the selected sound; only a single sound entry can be selected at a time for playback."
+	 label="소리 재생"
+	 tool_tip="선택한 소리를 재생합니다. 한 번에 하나의 소리 항목만 선택하여 재생할 수 있습니다."
 	 font="SansSerif"
 	 height="24"
 	 width="90"
@@ -136,8 +136,8 @@
 	 follows="left|bottom"/>
 	<button
 	 name="stop_btn"
-	 label="Stop Sound"
-	 tool_tip="Stop playing the current sound."
+	 label="소리 정지"
+	 tool_tip="지금 재생중인 소리 정지."
 	 font="SansSerif"
 	 height="24"
 	 width="90"
@@ -146,7 +146,7 @@
 	 follows="left|bottom"/>
 	<button
 	 name="close_btn"
-	 label="Close"
+	 label="닫기"
 	 font="SansSerif"
 	 height="24"
 	 width="100"

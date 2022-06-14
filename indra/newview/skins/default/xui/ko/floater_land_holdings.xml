@@ -6,7 +6,7 @@
  layout="topleft"
  name="land holdings floater"
  help_topic="land_holdings_floater"
- title="Owned Land"
+ title="소유 토지"
  width="600">
     <floater.string
      name="area_string">
@@ -21,19 +21,19 @@
      top="28"
      width="580">
         <scroll_list.columns
-         label="Parcel"
+         label="구획"
          name="name"
          width="167" />
         <scroll_list.columns
-         label="Region"
+         label="지역"
          name="location"
          width="180" />
         <scroll_list.columns
-         label="Type"
+         label="종류"
          name="type"
          width="145" />
         <scroll_list.columns
-         label="Area"
+         label="구역"
          name="area"
          width="88" />
         <scroll_list.columns
@@ -43,23 +43,23 @@
     </scroll_list>
     <button
      height="23"
-     label="Teleport"
+     label="순간이동"
      label_selected="Teleport"
      layout="topleft"
      top="208"
      left="10"
      name="Teleport"
-     tool_tip="Teleport to the center of this land."
+     tool_tip="이 땅의 중앙으로 순간이동합니다."
      width="80" />
     <button
      height="23"
-     label="Map"
+     label="지도"
      label_selected="Map"
      layout="topleft"
      top="208"
      left="95"
      name="Show on Map"
-     tool_tip="Show this land on the world map"
+     tool_tip="이 땅을 세계 지도에 표시하세요."
      width="80" />
     <text
      type="string"
@@ -71,7 +71,7 @@
      name="contrib_label"
      height="16"
      width="580">
-        Contributions to your groups:
+        그룹에 대한 기여:
     </text>
     <scroll_list
      draw_heading="true"
@@ -82,12 +82,12 @@
      left="10"
      width="580">
         <scroll_list.columns
-         label="Group"
+         label="그룹"
          name="group"
          width="290"
 	 left_pad="10" />
         <scroll_list.columns
-         label="Area"
+         label="구역"
          name="area"
          width="290" />
     </scroll_list>
@@ -101,7 +101,7 @@
      top="366"
      left="10"
      width="365">
-        Allowed land holdings at current payment plan:
+        현행 지급계획상 허용된 토지보유액:
     </text>
     <text
      type="string"
@@ -125,7 +125,7 @@
      left="10"
      name="current_label"
      width="365">
-        Current land holdings:
+        유동토지보유액:
     </text>
     <text
      type="string"
@@ -150,7 +150,7 @@
      left="10"
      name="available_label"
      width="365">
-        Available for land purchases:
+        토지 구매에 사용 가능:
     </text>
     <text
      type="string"

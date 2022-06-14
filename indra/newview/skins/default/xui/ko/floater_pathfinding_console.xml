@@ -9,35 +9,35 @@
     reuse_instance="true"
     save_rect="true"
     single_instance="true"
-    title="Pathfinding view / test"
+    title="경로 찾기 보기/테스트"
     width="240">
-  <floater.string name="no_havok">navmesh for pathfinding</floater.string>
+  <floater.string name="no_havok">경로 찾기를 위한 나브메쉬</floater.string>
 	
   <floater.string name="navmesh_viewer_status_unknown"></floater.string>
-  <floater.string name="navmesh_viewer_status_library_not_implemented">Cannot find pathing library implementation.</floater.string>
-  <floater.string name="navmesh_viewer_status_region_not_enabled">This region is not enabled for pathfinding.</floater.string>
-  <floater.string name="navmesh_viewer_status_region_loading">Waiting for the region to finish loading.</floater.string>
-  <floater.string name="navmesh_viewer_status_checking_version">Checking the status of the navmesh.</floater.string>
-  <floater.string name="navmesh_viewer_status_downloading">Downloading the navmesh.</floater.string>
-  <floater.string name="navmesh_viewer_status_updating">The navmesh has changed on the server. Downloading the latest navmesh.</floater.string>
-  <floater.string name="navmesh_viewer_status_has_navmesh">Latest navmesh has been downloaded.</floater.string>
-  <floater.string name="navmesh_viewer_status_error">Unable to download navmesh successfully.</floater.string>
+  <floater.string name="navmesh_viewer_status_library_not_implemented">경로 지정 라이브러리 구현을 찾을 수 없습니다.</floater.string>
+  <floater.string name="navmesh_viewer_status_region_not_enabled">이 영역은 경로 찾기에 사용할 수 없습니다.</floater.string>
+  <floater.string name="navmesh_viewer_status_region_loading">영역 로드 완료 대기 중.</floater.string>
+  <floater.string name="navmesh_viewer_status_checking_version">나브메쉬의 상태 확인.</floater.string>
+  <floater.string name="navmesh_viewer_status_downloading">나브메쉬 다운로드 중.</floater.string>
+  <floater.string name="navmesh_viewer_status_updating">서버에서 나브메쉬가 변경되었습니다. 최신 나브메쉬 다운로드.</floater.string>
+  <floater.string name="navmesh_viewer_status_has_navmesh">최신 나브메쉬가 다운로드되었습니다..</floater.string>
+  <floater.string name="navmesh_viewer_status_error">나브메쉬를 성공적으로 다운로드할 수 없음.</floater.string>
   <floater.string name="navmesh_simulator_status_unknown"></floater.string>
-  <floater.string name="navmesh_simulator_status_pending">Navmesh has pending changes.</floater.string>
-  <floater.string name="navmesh_simulator_status_building">Navmesh is building.</floater.string>
-  <floater.string name="navmesh_simulator_status_some_pending">Some navmesh regions have pending changes.</floater.string>
-  <floater.string name="navmesh_simulator_status_some_building">Some navmesh regions are building.</floater.string>
-  <floater.string name="navmesh_simulator_status_pending_and_building">Some navmesh regions have pending changes and others are building.</floater.string>
-  <floater.string name="navmesh_simulator_status_complete">Navmesh is up-to-date.</floater.string>
+  <floater.string name="navmesh_simulator_status_pending">나브메쉬에 보류 중인 변경 사항이 있음.</floater.string>
+  <floater.string name="navmesh_simulator_status_building">나브메쉬의 건물.</floater.string>
+  <floater.string name="navmesh_simulator_status_some_pending">일부 나브메쉬 영역에 보류 중인 변경 사항이 있습니다.</floater.string>
+  <floater.string name="navmesh_simulator_status_some_building">일부 나브메쉬 지역이 건설 중입니다.</floater.string>
+  <floater.string name="navmesh_simulator_status_pending_and_building">일부 나브메쉬 지역은 보류 중인 변경 사항이 있으며 다른 지역은 구축 중입니다.</floater.string>
+  <floater.string name="navmesh_simulator_status_complete">나브메쉬는 최신 버전입니다.</floater.string>
   <floater.string name="pathing_unknown"></floater.string>
-  <floater.string name="pathing_library_not_implemented">Cannot find pathing library implementation.</floater.string>
-  <floater.string name="pathing_region_not_enabled">This region is not enabled for pathfinding.</floater.string>
-  <floater.string name="pathing_choose_start_and_end_points">Please choose start and end points.</floater.string>
-  <floater.string name="pathing_choose_start_point">Please choose start point.</floater.string>
-  <floater.string name="pathing_choose_end_point">Please choose end point.</floater.string>
-  <floater.string name="pathing_path_valid">Path is shown in orange.</floater.string>
-  <floater.string name="pathing_path_invalid">A path between the chosen points cannot be found.</floater.string>
-  <floater.string name="pathing_error">An error occurred during path generation.</floater.string>
+  <floater.string name="pathing_library_not_implemented">경로 지정 라이브러리 구현을 찾을 수 없습니다.</floater.string>
+  <floater.string name="pathing_region_not_enabled">이 영역은 경로 찾기에 사용할 수 없습니다.</floater.string>
+  <floater.string name="pathing_choose_start_and_end_points">시작점과 끝점을 선택하십시오.</floater.string>
+  <floater.string name="pathing_choose_start_point">시작 지점을 선택하십시오.</floater.string>
+  <floater.string name="pathing_choose_end_point">끝점을 선택하십시오.</floater.string>
+  <floater.string name="pathing_path_valid">경로는 주황색으로 표시됩니다.</floater.string>
+  <floater.string name="pathing_path_invalid">선택한 점 사이의 경로를 찾을 수 없습니다.</floater.string>
+  <floater.string name="pathing_error">경로 생성 중 오류가 발생했습니다.</floater.string>
   <panel
       name="pathfinding_console_main"
       border="false"
@@ -60,7 +60,7 @@
         left="0"
         top_pad="0"
         width="214">
-      Viewer status
+      뷰어 상태
     </text>
     <text
         height="40"
@@ -98,7 +98,7 @@
         left="0"
         top_pad="5"
         width="214">
-      Simulator status
+      시뮬레이터 상태
     </text>
     <text
         height="40"
@@ -140,7 +140,7 @@
         follows="left|top"
         layout="topleft"
         name="view_panel"
-        label="View">
+        label="보기">
       <text
           height="13"
           word_wrap="true"
@@ -155,7 +155,7 @@
           top_pad="20"
           left="12"
           width="200">
-        Show:
+        표시:
       </text>
       <check_box
           height="19"
@@ -166,7 +166,7 @@
           width="90" />
       <check_box
           height="19"
-          label="Movables only"
+          label="이동만 가능"
           layout="topleft"
           left="32"
           name="show_world_movables_only"
@@ -174,7 +174,7 @@
           width="90" />
       <check_box
           height="19"
-          label="Navmesh"
+          label="나브메쉬"
           left="12"
           layout="topleft"
           name="show_navmesh"
@@ -193,7 +193,7 @@
           layout="topleft"
           left="32"
           width="180">
-        Show walkability map:
+        보행성 지도 표시:
       </text>
       <combo_box
           height="19"
@@ -203,29 +203,29 @@
           top_pad="8"
           width="156">
         <combo_box.item
-            label="Do not show"
+            label="표시하지 않음"
             name="show_heatmap_mode_none"
             value="0" />
         <combo_box.item
-            label="Character type A"
+            label="문자 유형 A"
             name="show_heatmap_mode_a"
             value="1" />
         <combo_box.item
-            label="Character type B"
+            label="문자 유형 B"
             name="show_heatmap_mode_b"
             value="2" />
         <combo_box.item
-            label="Character type C"
+            label="문자 유형 C"
             name="show_heatmap_mode_c"
             value="3" />
         <combo_box.item
-            label="Character type D"
+            label="문자 유형 D"
             name="show_heatmap_mode_d"
             value="4" />
       </combo_box>
       <check_box
           height="19"
-          label="Walkables"
+          label="걸어서 갈 수 있는"
           layout="topleft"
           left="12"
           name="show_walkables"
@@ -233,35 +233,35 @@
           width="90" />
       <check_box
           height="19"
-          label="Material volumes"
+          label="재료량"
           layout="topleft"
           name="show_material_volumes"
           top_pad="4"
           width="90" />
       <check_box
           height="19"
-          label="Static obstacles"
+          label="정적 장애물"
           layout="topleft"
           name="show_static_obstacles"
           top_pad="4"
           width="90" />
       <check_box
           height="19"
-          label="Exclusion volumes"
+          label="제외 볼륨"
           layout="topleft"
           name="show_exclusion_volumes"
           top_pad="4"
           width="90" />
       <check_box
           height="19"
-          label="Water plane"
+          label="수상기"
           layout="topleft"
           name="show_water_plane"
           top_pad="4"
           width="90" />
       <check_box
           height="19"
-          label="With X-ray vision"
+          label="X선 비전 포함"
           layout="topleft"
           name="show_xray"
           top_pad="4"
@@ -273,7 +273,7 @@
         follows="left|top"
         layout="topleft"
         name="test_panel"
-        label="Test path">
+        label="시험경로">
       <text
           height="14"
           word_wrap="true"
@@ -288,7 +288,7 @@
           layout="topleft"
           top_pad="20"
           width="202">
-        Ctrl-click to select start point.
+        Ctrl 키를 누른 상태에서 클릭하여 시작 지점 선택.
       </text>
       <text
           height="14"
@@ -303,7 +303,7 @@
           layout="topleft"
           top_pad="5"
           width="202">
-        Shift-click to select end point.
+        Shift 클릭으로 끝점 선택.
       </text>
       <view_border
           bevel_style="none"
@@ -326,7 +326,7 @@
           layout="topleft"
           top_pad="14"
           width="202">
-        Character width
+        문자 너비
       </text>
       <slider
           decimal_digits="1"
@@ -370,7 +370,7 @@
           left_pad="-165"
           top_pad="13"
           width="202">
-        Character type
+        문자 유형
       </text>
       <combo_box
           follows="top|left"
@@ -380,7 +380,7 @@
           top_pad="5"
           name="path_character_type">
         <combo_box.item
-            label="None"
+            label="없음"
             name="path_character_type_none"
             value="0" />
         <combo_box.item
@@ -416,7 +416,7 @@
       <button
           follows="left|top"
           height="22"
-          label="Clear path"
+          label="경로 지우기"
           layout="topleft"
           name="clear_path"
           top_pad="27"

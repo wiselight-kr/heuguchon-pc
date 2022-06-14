@@ -6,7 +6,7 @@
  layout="topleft"
  name="MemLeak"
  help_topic="memleak"
- title="Simulate a Memory Leak"
+ title="메모리 누수 시뮬레이션"
  width="350">
     <spinner
      decimal_digits="0"
@@ -14,7 +14,7 @@
      height="20"
      increment="256"
      initial_value="512"
-     label="Leaking Speed (bytes per frame):"
+     label="누수 속도 (프레임 당 바이트):"
      label_width="220"
      layout="topleft"
      left="10"
@@ -31,7 +31,7 @@
      height="20"
      increment="4"
      initial_value="512"
-     label="Max Leaked Memory (MB):"
+     label="최대 누수 메모리 (MB):"
      label_width="220"
      layout="topleft"
      left_delta="0"
@@ -52,7 +52,7 @@
      name="total_leaked_label"
      top_delta="20"
      width="300">
-        Current leaked memory: [SIZE] KB
+        현재 누수 메모리: [SIZE] KB
     </text>
     <text
      type="string"
@@ -81,7 +81,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Start"
+     label="시작"
      layout="topleft"
      left_delta="0"
      name="start_btn"
@@ -93,7 +93,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Stop"
+     label="정지"
      layout="topleft"
      left_pad="7"
      name="stop_btn"
@@ -105,7 +105,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Release"
+     label="릴리즈"
      layout="topleft"
      left_pad="7"
      name="release_btn"
@@ -117,7 +117,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Close"
+     label="닫기"
      layout="topleft"
      left_pad="36"
      name="close_btn"

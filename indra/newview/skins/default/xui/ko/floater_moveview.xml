@@ -24,67 +24,67 @@
  width="86">
     <string
      name="walk_forward_tooltip">
-        Walk Forward (press Up Arrow or W)
+앞으로 걷기(위쪽 화살표 또는 W 누름)
     </string>
     <string
      name="walk_back_tooltip">
-        Walk Backwards (press Down Arrow or S)
+뒤로 걷기(아래 화살표 또는 S 누름)
     </string>
     <string
      name="walk_left_tooltip">
-        Walk left (press Shift + Left Arrow or A)
+왼쪽으로 걷기(Shift + 왼쪽 화살표 또는 A를 누름)
     </string>
     <string
      name="walk_right_tooltip">
-        Walk right (press Shift + Right Arrow or D)
+우측 걷기(Shift + 오른쪽 화살표 또는 D 누름)
     </string>
     <string
      name="run_forward_tooltip">
-        Run Forward (press Up Arrow or W)
+앞으로 달리기(위로 화살표 또는 W 누름)
     </string>
     <string
      name="run_back_tooltip">
-        Run Backwards (press Down Arrow or S)
+뒤로 달리기(아래 화살표 또는 S 누름)
     </string>
     <string
      name="run_left_tooltip">
-        Run left (press Shift + Left Arrow or A)
+왼쪽으로 달리기(Shift + 왼쪽 화살표 또는 A를 누름)
     </string>
     <string
      name="run_right_tooltip">
-        Run right (press Shift + Right Arrow or D)
+오른쪽 달리기(Shift + 오른쪽 화살표 또는 D 누름)
     </string>
     <string
      name="fly_forward_tooltip">
-        Fly Forward (press Up Arrow or W)
+앞으로 날기(위로 화살표 또는 W 누름)
     </string>
     <string
      name="fly_back_tooltip">
-        Fly Backwards (press Down Arrow or S)
+뒤로 날기(아래 화살표 또는 S 누름)
     </string>
     <string
      name="fly_left_tooltip">
-        Fly left (press Shift + Left Arrow or A)
+왼쪽으로 날기(Shift + 왼쪽 화살표 또는 A를 누름)
     </string>
     <string
      name="fly_right_tooltip">
-        Fly right (press Shift + Right Arrow or D)
+오른쪽으로 날기(Shift + 오른쪽 화살표 또는 D를 누름)
     </string>
     <string
      name="fly_up_tooltip">
-        Fly up (press E)
+위로 날기(E 누름)
     </string>
     <string
      name="fly_down_tooltip">
-        Fly down (press C)
+아래로 날기(C 누름)
     </string>
     <string
      name="jump_tooltip">
-        Jump (press E)
+        점프(E 누름)
     </string>
     <string
      name="crouch_tooltip">
-        Crouch (press C)
+        쭈그리기(C 누름)
     </string>
     <string
      name="walk_title">
@@ -150,7 +150,7 @@
                          name="turn left btn"
                          width="20"
                          scale_image="true"
-                         tool_tip="Turn left (press Left Arrow or A)"
+                         tool_tip="좌회전(왼쪽 화살표 또는 A 누름)"
                          top="0"/>
                     </layout_panel>
 
@@ -172,7 +172,7 @@
                          quadrant="up"
                          width="20"
                          scale_image="true"
-                         tool_tip="Walk forward (press up arrow or W)"
+                         tool_tip="앞으로 걷기(위쪽 화살표 또는 W 누름)"
                          top="0"/>
                     </layout_panel>
 
@@ -193,7 +193,7 @@
                          width="20"
                          name="turn right btn"
                          scale_image="true"
-                         tool_tip="Turn right (press Right Arrow or D)"
+                         tool_tip="우회전(오른쪽 화살표 또는 D 누름)"
                          top="0"/>
                     </layout_panel>
 
@@ -213,7 +213,7 @@
                          left="0"
                          name="move up btn"
                          scale_image="true"
-                         tool_tip="Fly up (press E)"
+                         tool_tip="위로 날기(E 누름)"
                          top="0"
                          width="20"/>
                     </layout_panel>
@@ -255,7 +255,7 @@
                          quadrant="left"
                          width="20"
                          scale_image="true"
-                         tool_tip="Walk left (press Shift + Left Arrow or A)"
+                         tool_tip="왼쪽으로 걷기(Shift + 왼쪽 화살표 또는 A를 누름)"
                          top="0"/>
                     </layout_panel>
 
@@ -277,7 +277,7 @@
                          quadrant="down"
                          width="20"
                          scale_image="true"
-                         tool_tip="Walk backward (press down arrow or S)"
+                         tool_tip="뒤로 걷기(아래 화살표 또는 S 누름)"
                          top="0"/>
                     </layout_panel>
 
@@ -299,7 +299,7 @@
                          quadrant="right"
                          width="20"
                          scale_image="true"
-                         tool_tip="Walk right (press Shift + Right Arrow or D)"
+                         tool_tip="우측 보행(Shift + 오른쪽 화살표 또는 D 누름)"
                          top="0"/>
                     </layout_panel>
 
@@ -319,7 +319,7 @@
                          left="0"
                          name="move down btn"
                          scale_image="true"
-                         tool_tip="Fly down (press C)"
+                         tool_tip="아래로 날기(C 누름)"
                          top="0"
                          width="20"/>
                     </layout_panel>
@@ -376,7 +376,7 @@
                              name="mode_walk_btn"
                              left="0"
                              pad_right="0"
-                             tool_tip="Walking mode"
+                             tool_tip="보행 모드"
                              top="0"
                              width="26" />
                             <button

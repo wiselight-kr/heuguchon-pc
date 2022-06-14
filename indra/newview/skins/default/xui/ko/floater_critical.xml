@@ -10,7 +10,7 @@
  width="600">
     <button
      height="20"
-     label="Continue"
+     label="계속"
      label_selected="Continue"
      layout="topleft"
      left="484"
@@ -28,7 +28,7 @@
      name="tos_heading"
      top="20"
      width="552">
-        Please read the following message carefully.
+        다음 메시지를 주의 깊게 읽어 주십시오.
     </text>
     <text_editor
      type="string"

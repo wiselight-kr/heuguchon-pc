@@ -37,7 +37,7 @@
 			fit_panel="false"
 			min_height="50"
 			name="physics_breasts_updown_tab"
-			title="Breasts Bounce">
+			title="가슴 바운스">
 			<scrolling_panel_list
 				follows="all"
 				layout="topleft"
@@ -51,7 +51,7 @@
 			fit_panel="false"
 			min_height="50"
 			name="physics_breasts_inout_tab"
-			title="Breasts Cleavage">
+			title="가슴골">
 			<scrolling_panel_list
 				follows="all"
 				layout="topleft"
@@ -65,7 +65,7 @@
 			fit_panel="false"
 			min_height="50"
 			name="physics_breasts_leftright_tab"
-			title="Breasts Sway">
+			title="가슴 흔들림">
 			<scrolling_panel_list
 				follows="all"
 				layout="topleft"
@@ -79,7 +79,7 @@
 			fit_panel="false"
 			min_height="50"
 			name="physics_belly_tab"
-			title="Belly Bounce">
+			title="뱃살 바운스">
 			<scrolling_panel_list
 				follows="all"
 				layout="topleft"
@@ -94,7 +94,7 @@
 			fit_panel="false"
 			min_height="50"
 			name="physics_butt_tab"
-			title="Butt Bounce">
+			title="엉덩이 바운스">
 			<scrolling_panel_list
 				follows="all"
 				layout="topleft"
@@ -109,7 +109,7 @@
 			fit_panel="false"
 			min_height="50"
 			name="physics_butt_leftright_tab"
-			title="Butt Sway">
+			title="엉덩이 흔들림">
 			<scrolling_panel_list
 				follows="all"
 				layout="topleft"
@@ -123,7 +123,7 @@
 			fit_panel="false"
 			min_height="50"
 			name="physics_advanced_tab"
-			title="Advanced Parameters">
+			title="고급 매개 변수">
 			<scrolling_panel_list
 				follows="all"
 				layout="topleft"

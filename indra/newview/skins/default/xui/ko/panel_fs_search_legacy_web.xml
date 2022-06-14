@@ -6,7 +6,7 @@ height="566"
 layout="topleft"
 left="1"
 width="780"
-label="Websearch"
+label="웹 검색"
 name="panel_ls_web">
 	<web_browser
 	 top="5"

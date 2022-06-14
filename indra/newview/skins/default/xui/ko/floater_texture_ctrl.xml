@@ -9,17 +9,17 @@
  min_width="410"
  name="texture picker"
  help_topic="texture_picker"
- title="Pick: Texture"
+ title="선택: 텍스쳐"
  width="410">
  
 <!--  top static -->
  <floater.string
      name="choose_picture">
-        Click to choose a picture
+        사진을 선택하려면 클릭하십시오
     </floater.string>
     <floater.string
      name="pick title">
-        Pick:
+        선택:
     </floater.string>
 
     <view
@@ -44,7 +44,7 @@
      name="Multiple"
      top="96"
      width="163">
-        Multiple textures
+        다중 텍스쳐
     </text>
 	
 	<!-- mode selector -->
@@ -56,7 +56,7 @@
      name="mode_selection"
      follows="left|top">
         <radio_item
-         label="Inventory"
+         label="인벤토리"
          name="inventory"
          top_delta="20" 
          layout="topleft"
@@ -65,7 +65,7 @@
          value="0"
          width="70" />
         <radio_item
-         label="Local"
+         label="로컬"
          left_pad="0"
          layout="topleft"
          top_delta="0" 
@@ -74,7 +74,7 @@
          value="1"
          width="50" />
        <radio_item
-         label="Bake"
+         label="굽기"
          left_pad="0"
          layout="topleft"
          top_delta="0"
@@ -94,7 +94,7 @@
      left="8"
      name="size_lbl"
      top_pad="1">
-        Size:
+        크기:
 [DIMENSIONS]
     </text>
     
@@ -104,7 +104,7 @@
      enabled="false"
      follows="left|top"
      height="18"
-     label="Default"
+     label="기본값"
      label_selected="Default"
      layout="topleft"
      name="Default"
@@ -114,7 +114,7 @@
     <button
      follows="left|top"
      height="18"
-     label="Blank"
+     label="빈칸"
      label_selected="Blank"
      layout="topleft"
      left_delta="0"
@@ -124,19 +124,19 @@
     <button
      follows="left|top"
      height="18"
-     label="Transparent"
+     label="토명도"
      label_selected="Transparent"
      layout="topleft"
      left_delta="0"
      name="Transparent"
-     tool_tip="Note: If transparent texture is selected, or another texture with partial transperancy, light will not project."
+     tool_tip="참고: 투명 텍스처를 선택하거나 부분적인 투명성을 가진 다른 텍스처를 선택하면 빛이 투사되지 않습니다."
      top_pad="0"
      width="73" />
      <button
      enabled="false"
      follows="left|top"
      height="18"
-     label="None"
+     label="없음"
      label_selected="None"
      layout="topleft"
      left_delta="0"
@@ -167,7 +167,7 @@
     <filter_editor
      follows="left|top|right"
      height="23"
-     label="Filter Textures"
+     label="텍스쳐 필터"
      layout="topleft"
      left="175"
      name="inventory search editor"
@@ -189,7 +189,7 @@
      <check_box
      height="14"
      initial_value="false"
-     label="Show folders"
+     label="폴더 표시"
      layout="topleft"
      name="show_folders_check"
      top_pad="5"
@@ -200,7 +200,7 @@
     <button
      follows="left|top"
      height="18"
-     label="Add"
+     label="추가"
      label_selected="Add"
      layout="topleft"
      left="94"
@@ -212,7 +212,7 @@
      enabled="false"
      follows="left|top"
      height="20"
-     label="Remove"
+     label="제거"
      label_selected="Remove"
      layout="topleft"
      left_delta="0"
@@ -224,7 +224,7 @@
      enabled="false"
      follows="left|top"
      height="20"
-     label="Upload"
+     label="업로드"
      label_selected="Upload"
      layout="topleft"
      left_delta="0"
@@ -244,7 +244,7 @@
      multi_select="true"
      search_column="1"
      visible="false">
-        <column name="unit_name" label="Name" dynamicwidth="true" />
+        <column name="unit_name" label="이름" dynamicwidth="true" />
         <column name="unit_id_HIDDEN" label="ID" width="0" />
     </scroll_list>
 
@@ -261,7 +261,7 @@
 			   width="118"
          visible="false">
         <combo_box.item
-         label="None"
+         label="없음"
          name="None"
          value="-1" />
         <combo_box.item
@@ -313,7 +313,7 @@
      follows="left|top"
      height="20"
      initial_value="false"
-     label="Hide Base Mesh Region"
+     label="기본 메쉬 영역 숨기기"
      layout="topleft"
      name="hide_base_mesh_region"
      left_delta="0"
@@ -331,17 +331,17 @@
         name="TextureKey"
         layout="topleft"
         label="00000000-0000-0000-0000-000000000000"
-        tool_tip="Texture Key"
+        tool_tip="텍스쳐 키"
         width="290"/>
     <button
         follows="bottom"
         name="TextureKeyApply"
         height="20"
-        label="Apply UUID"
+        label="UUID 적용"
         layout="topleft"
         left_pad="5"
         width="100"
-        tool_tip="Apply this UUID"/>
+        tool_tip="이 UUID 적용"/>
     <button
      follows="bottom"
      height="20"
@@ -355,7 +355,7 @@
     <button
      follows="bottom"
      height="20"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_delta="120"
@@ -366,7 +366,7 @@
      follows="left|bottom"
      height="20"
      initial_value="true"
-     label="Apply now"
+     label="지금 적용"
      layout="topleft"
      left="5"
      name="apply_immediate_check"

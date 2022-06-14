@@ -9,47 +9,47 @@
  width="960"
  min_width="960"
  name="Model Preview"
- title="Upload Model"
+ title="모델 업로드"
  help_topic="upload_model">
-  <string name="no_havok">mesh upload with physics</string>
+  <string name="no_havok">물리로 메쉬 업로드</string>
 
   <string name="status_idle"></string>
-  <string name="status_parse_error">Error: Dae parsing issue - see log for details.</string>
-  <string name="status_bind_shape_orientation">Warning: bind shape matrix is not in standard X-forward orientation.</string>
-  <string name="status_material_mismatch">Error: Material of model is not a subset of reference model.</string>
-  <string name="status_lod_model_mismatch">Error: LOD Model has no parent.</string>
-  <string name="status_reading_file">Loading...</string>
-  <string name="status_generating_meshes">Generating Meshes...</string>
-  <string name="status_vertex_number_overflow">Error: Vertex number is more than 65535, aborted!</string>
-  <string name="bad_element">Error: element is invalid</string>
-  <string name="high">High</string>
-  <string name="medium">Medium</string>
-  <string name="low">Low</string>
-  <string name="lowest">Lowest</string>
-  <string name="mesh_status_good">Ship it!</string>
+  <string name="status_parse_error">오류: 대 구문 분석 문제 - 자세한 내용은 로그를 참조하십시오.</string>
+  <string name="status_bind_shape_orientation">경고: 바인딩 형상 행렬이 표준 X-전방 방향에 있지 않습니다.</string>
+  <string name="status_material_mismatch">오류: 모델의 재료가 참조 모델의 부분 집합이 아닙니다.</string>
+  <string name="status_lod_model_mismatch">오류: LOD 모델에 상위 항목이 없습니다.</string>
+  <string name="status_reading_file">로딩중...</string>
+  <string name="status_generating_meshes">메쉬 생성...</string>
+  <string name="status_vertex_number_overflow">오류: 정점 번호가 65535보다 크며 중단됨!</string>
+  <string name="bad_element">오류: 요소가 잘못되었습니다.</string>
+  <string name="high">높음</string>
+  <string name="medium">중간</string>
+  <string name="low">낮음</string>
+  <string name="lowest">가장 낮음</string>
+  <string name="mesh_status_good">발송해주십시오!</string>
   <string name="mesh_status_na">N/A</string>
-  <string name="mesh_status_none">None</string>
-  <string name="mesh_status_submesh_mismatch">Levels of detail have a different number of textureable faces.</string>
-  <string name="mesh_status_mesh_mismatch">Levels of detail have a different number of mesh instances.</string>
-  <string name="mesh_status_too_many_vertices">Level of detail has too many vertices.</string>
-  <string name="mesh_status_missing_lod">Missing required level of detail.</string>
-  <string name="mesh_status_invalid_material_list">LOD materials are not a subset of reference model.</string>
-  <string name="phys_status_vertex_limit_exceeded">Some physical hulls exceed the vertex limit (256); try an alternative 'Analyze Method'.</string>
-  <string name="phys_status_hull_limit_exceeded">Some models exceed the hull limit (256); try 'simplify'.</string>
-  <string name="phys_status_degenerate_triangles">Physics mesh too dense; remove the small, thin triangles (see preview).</string>
-  <string name="phys_status_no_havok">This version contains no Havok support and is not recommended for physics upload in Second Life. Results may be unpredictable.</string>
-  <string name="phys_status_unknown_error">An unrecognized error was detected.</string>
-  <string name="layer_all">All</string> <!-- Text to display in physics layer combo box for "all layers" -->
-  <string name="decomposing">Analyzing...</string>
-  <string name="simplifying">Simplifying...</string>
+  <string name="mesh_status_none">없음</string>
+  <string name="mesh_status_submesh_mismatch">세부 수준에는 텍스처 가능한 면의 수가 다릅니다.</string>
+  <string name="mesh_status_mesh_mismatch">세부 수준에는 서로 다른 수의 메시 인스턴스가 있습니다.</string>
+  <string name="mesh_status_too_many_vertices">상세 수준에 정점이 너무 많습니다.</string>
+  <string name="mesh_status_missing_lod">필요한 세부 정보 수준 누락.</string>
+  <string name="mesh_status_invalid_material_list">LOD 재료가 참조 모델의 하위 집합이 아닙니다.</string>
+  <string name="phys_status_vertex_limit_exceeded">일부 물리적 선체가 정점 제한(256개)를 초과합니다. 다른 '분석 방법'을 시도해 보십시오.</string>
+  <string name="phys_status_hull_limit_exceeded">일부 모델이 선체 제한(256개)을 초과합니다. '간소화'를 시도하십시오.</string>
+  <string name="phys_status_degenerate_triangles">물리 메쉬가 너무 촘촘합니다. 작고 얇은 삼각형을 제거합니다(미리보기 참조).</string>
+  <string name="phys_status_no_havok">이 버전에는 Havok이 지원되지 않으므로 Second Life의 물리적 업로드에는 권장되지 않습니다. 결과를 예측할 수 없습니다.</string>
+  <string name="phys_status_unknown_error">인식할 수 없는 오류가 감지되었습니다.</string>
+  <string name="layer_all">모든</string> <!-- Text to display in physics layer combo box for "all layers" -->
+  <string name="decomposing">분석중...</string>
+  <string name="simplifying">간소화중...</string>
   <string name="tbd">TBD</string>
   
   <!-- Warnings and info from model loader-->
-  <string name="TooManyJoint">Skinning disabled due to too many joints: [JOINTS], maximum: [MAX]</string>
-  <string name="UnrecognizedJoint">Rigged to unrecognized joint name [NAME]</string>
-  <string name="UnknownJoints">Skinning disabled due to [COUNT] unknown joints</string>
-  <string name="ModelLoaded">Model [MODEL_NAME] loaded</string>
-  <string name="IncompleteTC">Texture coordinates data is not complete.</string>
+  <string name="TooManyJoint">너무 많은 조인트로 인해 스키닝이 비활성화됨: [JOINTS], 최대: [MAX]</string>
+  <string name="UnrecognizedJoint">인식할 수 없는 공동 이름[NAME]에 수정됨 </string>
+  <string name="UnknownJoints">[COUNT] 알 수 없는 조인트로 인해 스키닝이 비활성화됨</string>
+  <string name="ModelLoaded">[MODEL_NAME] 모델 로드됨</string>
+  <string name="IncompleteTC">텍스처 좌표 데이터가 완전하지 않음.</string>
 
   <panel
     follows="top|left"
@@ -75,7 +75,7 @@
           text_color="White"
           top="0"
           width="290">
-          Model name:
+          모델명:
         </text>
         <line_editor
           follows="top|left"
@@ -102,10 +102,10 @@
       <!-- LOD PANEL -->
         <panel
          help_topic="upload_model_lod"
-         label="Level of Detail"
+         label="상세 수준"
          layout="topleft"
          name="lod_panel"
-         title="Level of Detail">
+         title="상세 수준">
             <view_border
              bevel_style="none"
              follows="top|left"
@@ -125,7 +125,7 @@
            text_color="ModelUploaderLabels"
            top="15"
            valign="center"
-           value="Source"
+           value="원천"
            width="335"/>
             <text
              follows="left|top"
@@ -138,7 +138,7 @@
              text_color="ModelUploaderLabels"
              top_delta="0"
              valign="center"
-             value="Triangles"
+             value="삼각형"
              width="65" />
             <text
              follows="left|top"
@@ -150,7 +150,7 @@
              name="vertices"
              text_color="ModelUploaderLabels"
              valign="center"
-             value="Vertices"
+             value="정점"
              width="65" />
             <text
              follows="left|top"
@@ -162,7 +162,7 @@
              text_color="ModelUploaderLabels"
              top_pad="10"
              valign="top"
-             value="High"
+             value="높은"
              width="75" />
             <combo_box
              follows="top|left"
@@ -174,12 +174,12 @@
              width="135">
                 <item
                  name="Load from file"
-                 label="Load from file"
-                 value="Load from file" />
+                 label="파일에서 로드"
+                 value="파일에서 로드" />
                 <item
                  name="Generate"
-                 label="Generate"
-                 value="Generate" />
+                 label="발생"
+                 value="발생" />
             </combo_box>
             <line_editor
              follows="left|top"
@@ -194,7 +194,7 @@
             <button
              follows="left|top"
              height="20"
-             label="Browse..."
+             label="탐색..."
              layout="topleft"
              left_pad="5"
              name="lod_browse_high"
@@ -211,12 +211,12 @@
              width="130">
                 <item
                  name="Triangle Limit"
-                 label="Triangle Limit"
-                 value="Triangle Limit" />
+                 label="삼각형 제한"
+                 value="삼각형 제한" />
                 <item
                  name="Error Threshold"
-                 label="Error Threshold"
-                 value="Error Threshold" />
+                 label="오류 임계값"
+                 value="오류 임계값" />
             </combo_box>
             <spinner
              decimal_digits="0"
@@ -291,7 +291,7 @@
              text_color="ModelUploaderLabels"
              top_pad="15"
              valign="top"
-             value="Medium"
+             value="중간"
              width="75" />
             <combo_box
              follows="top|left"
@@ -303,16 +303,16 @@
              width="135">
                 <item
                  name="Load from file"
-                 label="Load from file"
-                 value="Load from file" />
+                 label="파일에서 로드"
+                 value="파일에서 로드" />
                 <item
                  name="Generate"
-                 label="Generate"
-                 value="Generate" />
+                 label="발생"
+                 value="발생" />
                 <item
                  name="Use LoD above"
-                 label="Use LoD above"
-                 value="Use LoD above" />
+                 label="위의 LoD 사용"
+                 value="위의 LoD 사용" />
             </combo_box>
             <line_editor
              follows="left|top"
@@ -328,7 +328,7 @@
             <button
              follows="left|top"
              height="20"
-             label="Browse..."
+             label="탐색..."
              layout="topleft"
              left_pad="5"
              name="lod_browse_medium"
@@ -345,12 +345,12 @@
              width="130">
                 <item
                  name="Triangle Limit"
-                 label="Triangle Limit"
-                 value="Triangle Limit" />
+                 label="삼각형 제한"
+                 value="삼각형 제한" />
                 <item
                  name="Error Threshold"
-                 label="Error Threshold"
-                 value="Error Threshold" />
+                 label="오류 임계점"
+                 value="오류 임계점" />
             </combo_box>
             <spinner
              decimal_digits="0"
@@ -424,7 +424,7 @@
              text_color="ModelUploaderLabels"
              top_pad="15"
              valign="top"
-             value="Low"
+             value="낮음"
              width="75" />
             <combo_box
              follows="top|left"
@@ -436,16 +436,16 @@
              width="135">
                 <item
                  name="Load from file"
-                 label="Load from file"
-                 value="Load from file" />
+                 label="파일에서 로드"
+                 value="파일에서 로드" />
                 <item
                  name="Generate"
-                 label="Generate"
-                 value="Generate" />
+                 label="발생"
+                 value="발생" />
                 <item
                  name="Use LoD above"
-                 label="Use LoD above"
-                 value="Use LoD above" />
+                 label="위의 LoD 사용"
+                 value="위의 LoD 사용" />
             </combo_box>
             <line_editor
              follows="left|top"
@@ -461,7 +461,7 @@
             <button
              follows="left|top"
              height="20"
-             label="Browse..."
+             label="탐색..."
              layout="topleft"
              left_pad="5"
              name="lod_browse_low"
@@ -478,12 +478,12 @@
              width="130">
                 <item
                  name="Triangle Limit"
-                 label="Triangle Limit"
-                 value="Triangle Limit" />
+                 label="삼각형 제한"
+                 value="삼각형 제한" />
                 <item
                  name="Error Threshold"
-                 label="Error Threshold"
-                 value="Error Threshold" />
+                 label="오류 임계점"
+                 value="오류 임계점" />
             </combo_box>
             <spinner
              decimal_digits="0"
@@ -557,7 +557,7 @@
              text_color="ModelUploaderLabels"
              top_pad="15"
              valign="top"
-             value="Lowest"
+             value="가장 낮음"
              width="75" />
             <combo_box
              follows="top|left"
@@ -569,16 +569,16 @@
              width="135">
                 <item
                  name="Load from file"
-                 label="Load from file"
-                 value="Load from file" />
+                 label="파일에서 로드"
+                 value="파일에서 로드" />
                 <item
                  name="Generate"
-                 label="Generate"
-                 value="Generate" />
+                 label="발생"
+                 value="발생" />
                 <item
                  name="Use LoD above"
-                 label="Use LoD above"
-                 value="Use LoD above" />
+                 label="위의 LoD 사용"
+                 value="위의 LoD 사용" />
             </combo_box>
             <line_editor
              follows="left|top"
@@ -594,7 +594,7 @@
             <button
              follows="left|top"
              height="20"
-             label="Browse..."
+             label="탐색..."
              layout="topleft"
              left_pad="5"
              name="lod_browse_lowest"
@@ -611,12 +611,12 @@
              width="130">
                 <item
                  name="Triangle Limit"
-                 label="Triangle Limit"
-                 value="Triangle Limit" />
+                 label="삼각형 제한"
+                 value="삼각형 제한" />
                 <item
                  name="Error Threshold"
-                 label="Error Threshold"
-                 value="Error Threshold" />
+                 label="오류 임계점"
+                 value="오류 임계점" />
             </combo_box>
             <spinner
              decimal_digits="0"
@@ -709,7 +709,7 @@
             <check_box
              follows="top|left"
              height="15"
-             label="Generate Normals"
+             label="정규 분포 생성"
              layout="topleft"
              left="10"
              name="gen_normals"
@@ -723,7 +723,7 @@
              left="200"
              name="crease_label"
              top_delta="0"
-             value="Crease Angle:"
+             value="주름 각도:"
              width="100" />
             <spinner
              enabled="false"
@@ -740,7 +740,7 @@
       <!-- PHYSYCS PANEL -->
         <panel
           help_topic="upload_model_physics"
-          label="Physics"
+          label="물리"
           name="physics_panel">
             
             <!-- ==== STEP 1: Level of Detail ==== -->
@@ -774,7 +774,7 @@
                       top_pad="0"
                       width="210"
                       valign="center">
-                      Step 1: Pick a physics model
+                      단계 1: 물리 모델 선택
                     </text>
                     <combo_box
                       follows="left|top"
@@ -782,16 +782,16 @@
                       left_pad="10"
                       name="physics_lod_combo"
                       width="130"
-                      tool_tip="LOD to use for physics shape">
-                        <combo_item name="choose_one">     Choose one...   </combo_item>
-                        <combo_item name="physics_high">   High   </combo_item>
-                        <combo_item name="physics_medium"> Medium </combo_item>
-                        <combo_item name="physics_low">    Low    </combo_item>
-                        <combo_item name="physics_lowest"> Lowest </combo_item>
-                        <combo_item name="physics_cube"> Cube </combo_item>
-                        <combo_item name="physics_hex"> Hexagon </combo_item>
-                        <combo_item name="physics_ud"> User Defined </combo_item>
-                        <combo_item name="load_from_file"> From file   </combo_item>
+                      tool_tip="물리적 형상에 사용할 LOD">
+                        <combo_item name="choose_one">     하나를 선택하시오...   </combo_item>
+                        <combo_item name="physics_high">   높음   </combo_item>
+                        <combo_item name="physics_medium"> 중간 </combo_item>
+                        <combo_item name="physics_low">    낮음    </combo_item>
+                        <combo_item name="physics_lowest"> 가장 낮음 </combo_item>
+                        <combo_item name="physics_cube"> 정육면체 </combo_item>
+                        <combo_item name="physics_hex"> 육각형 </combo_item>
+                        <combo_item name="physics_ud"> 사용자 정의 </combo_item>
+                        <combo_item name="load_from_file"> 파일에서   </combo_item>
                     </combo_box>
                     <line_editor
                       follows="left|top"
@@ -805,7 +805,7 @@
                       height="20"
                       left_pad="4"
                       name="physics_browse"
-                      label="Browse..."
+                      label="탐색..."
                       width="70"/>
                     <!-- <check_box name="physics_optimize" follows="left|top" width="130" left="10" top_pad="5" height="20" label="Optimize"/>
                     <check_box name="physics_use_hull" follows="left|top" width="130" left_pad="5" height="20" label="Use Convex Hull"/> -->
@@ -840,7 +840,7 @@
                       name="method_label"
                       text_color="White"
                       top_pad="0">
-                      Step 2: Convert to hulls (optional)
+                      단계 2: 선체로 변환 (선택적)
                     </text>
                     <text
                       follows="top|left"
@@ -849,7 +849,7 @@
                       name="analysis_method_label"
                       top_pad="10"
                       width="100">
-                      Method:
+                      방법:
                     </text>
                     <text
                       follows="top|left"
@@ -858,7 +858,7 @@
                       layout="topleft"
                       left_pad="15"
                       width="100">
-                      Quality:
+                      질:
                     </text>
                     <text
                       follows="top|left"
@@ -867,7 +867,7 @@
                       layout="topleft"
                       left_pad="15"
                       width="100">
-                      Smooth:
+                      부드러움:
                     </text>
                     <combo_box
                       follows="top|left"
@@ -893,7 +893,7 @@
                       width="100"/>
                     <check_box
                       follows="top|left"
-                      label="Close Holes"
+                      label="구멍 닫기"
                       layout="topleft"
                       left_pad="10"
                       name="Close Holes (Slow)"
@@ -902,7 +902,7 @@
                       bottom="1"
                       follows="top|right"
                       height="20"
-                      label="Analyze"
+                      label="분석"
                       layout="bottomleft"
                       name="Decompose"
                       right="-1"
@@ -910,7 +910,7 @@
                     <button
                       follows="top|left"
                       height="20"
-                      label="Cancel"
+                      label="취소"
                       layout="topleft"
                       left_delta="0"
                       name="decompose_cancel"
@@ -945,7 +945,7 @@
                       name="second_step_label"
                       top_pad="0"
                       font="SansSerif">
-                      Step 3: Simplify
+                      단계 3: 간소화
                     </text>
                     <text
                       name="simp_method_header"
@@ -953,7 +953,7 @@
                       height="15"
                       width="100"
                       follows="top|left">
-                      Method:
+                      방법:
                     </text>
                     <text
                       follows="top|left"
@@ -961,7 +961,7 @@
                       name="pass_method_header"
                       height="15"
                       width="79">
-                      Passes:
+                      패스:
                     </text>
                     <text
                       follows="top|left"
@@ -969,7 +969,7 @@
                       name="Detail Scale label"
                       height="15"
                       width="100">
-                      Detail scale:
+                      상세 척도:
                     </text>
                     <text
                       follows="top|left"
@@ -978,7 +978,7 @@
                       height="15"
                       width="80"
                       visible="false">
-                      Retain:
+                      유지:
                     </text>
                     <combo_box
                       follows="top|left"
@@ -1012,14 +1012,14 @@
                     <button
                       follows="top|left"
                       height="20"
-                      label="Simplify"
+                      label="간소화"
                       left_pad="40"
                       name="Simplify"
                       width="90"/>
                     <button
                       follows="top|left"
                       height="20"
-                      label="Cancel"
+                      label="취소"
                       layout="topleft"
                       left_delta="0"
                       name="simplify_cancel"
@@ -1055,7 +1055,7 @@
                       top_pad="3"
                       name="results_text"
                       width="50">
-                      Results:
+                      결과:
                     </text>
                     <text
                       follows="top|left"
@@ -1066,7 +1066,7 @@
                       top_delta="0"
                       name="physics_triangles"
                       width="90">
-                      Triangles: [TRIANGLES],
+                      삼각형: [TRIANGLES],
                     </text>
                     <text
                       follows="top|left"
@@ -1077,7 +1077,7 @@
                       top_delta="0"
                       text_color="White"
                       width="85">
-                      Vertices: [POINTS],
+                      정점: [POINTS],
                     </text>
                     <text
                       follows="top|left"
@@ -1087,7 +1087,7 @@
                       name="physics_hulls"
                       top_delta="0"
                       text_color="White">
-                      Hulls: [HULLS]
+                      선체: [HULLS]
                     </text>
                 </panel>
                 <panel
@@ -1120,7 +1120,7 @@
         </panel>
       <!-- MODIFIERS PANEL -->
      <panel
-       label="Upload options"
+       label="옵션 업로드"
        name="modifiers_panel"
        help_topic="upload_model_modifiers">
          <view_border
@@ -1140,7 +1140,7 @@
              text_color="White"
              top="15"
              width="140">
-             Scale (1=no scaling):
+             규모 (1=스케일링 없음):
            </text>
            <spinner
              height="20"
@@ -1159,7 +1159,7 @@
              name="dimensions_label"
              text_color="White"
              width="90">
-             Dimensions:
+             차원:
            </text>
            <text
              follows="top|left"
@@ -1174,15 +1174,15 @@
              height="15"
              follows="top|left"
              name="upload_textures"
-             label="Include textures"
+             label="텍스쳐 포함"
              left="20"
              top_pad="20"/>
      </panel>
       <panel
-       label="Overrides"
+       label="덮어쓰기"
        layout="topleft"
        name="rigging_panel"
-       title="Rigging"
+       title="조작"
        help_topic="upload_model_rigging">
         <view_border
          bevel_style="none"
@@ -1196,7 +1196,7 @@
         <check_box
           follows="top|left"
           height="15"
-          label="Include skin weight"
+          label="피부 무게 포함"
           label_text.text_color="White"
           name="upload_skin"
           top="8"
@@ -1204,7 +1204,7 @@
         <check_box
           follows="top|left"
           height="15"
-          label="Include joint positions"
+          label="관절 위치 포함"
           label_text.text_color="White"
           name="upload_joints"
           left_delta="0"
@@ -1212,7 +1212,7 @@
         <check_box
           follows="top|left"
           height="15"
-          label="Lock scale if joint position defined"
+          label="조인트 위치가 정의된 경우 잠금 스케일"
           label_text.text_color="White"
           label_text.wrap="true"
           label_text.width="180"
@@ -1227,7 +1227,7 @@
           text_color="White"
           top="8"
           width="200">
-          Z offset (raise or lower avatar):
+          Z 오프셋 (아바타를 높이거나 낮추다):
         </text>
         <spinner
           follows="top|left"
@@ -1247,7 +1247,7 @@
           top="7"
           width="195"
           word_wrap="true">
-          Too many skinned joints
+          너무 많은 피부 관절
         </text>
         <text
           follows="top|left"
@@ -1258,7 +1258,7 @@
           top="8"
           width="195"
           word_wrap="true">
-          Model has an unknown joint(s)
+          모델에 알 수 없는 관절이 있습니다.
         </text>
         <text
           layout="topleft"
@@ -1268,7 +1268,7 @@
           name="joints_descr"
           top="73"
           width="150">
-          Joints:
+          관절:
         </text>
         <scroll_list
          layout="topleft"
@@ -1291,7 +1291,7 @@
           name="conflicts_description"
           top_pad="2"
           width="205">
-          [CONFLICTS] conflicts in [JOINTS_COUNT] joints
+          [CONFLICTS] [JOINTS_COUNT] 조인트의 충돌
         </text>
         <text
           layout="topleft"
@@ -1301,7 +1301,7 @@
           name="pos_overrides_descr"
           top="73"
           width="300">
-          Position overrides for joint '[JOINT]':
+          조인트 '[JOINT]'에 대한 위치 재정의:
         </text>
         <scroll_list
          layout="topleft"
@@ -1316,7 +1316,7 @@
          top_pad="0"
          width="385">
          <scroll_list.columns
-         label="Model"
+         label="모델"
            name="model_name"
            relative_width="0.49" />
           <scroll_list.columns
@@ -1334,7 +1334,7 @@
         </scroll_list>
       </panel>
       <panel
-       label="Log"
+       label="로그"
        layout="topleft"
        name="logs_panel"
        help_topic="upload_model_log">
@@ -1356,7 +1356,7 @@
          top_delta="12"
          left="4"
          width="70"
-         label="Show detailed logging"
+         label="상세 로깅 표시"
          name="verbose_logging"/>
          <!-- FS:Beq/ -->
          <text_editor
@@ -1380,7 +1380,7 @@
         </text_editor>
       </panel>
       <panel
-       label="Preview Settings"
+       label="미리보기 설정"
        layout="topleft"
        name="mesh_preview_settings_panel"
        help_topic="upload_model_settings">
@@ -1403,7 +1403,7 @@
          name="mesh_upload_behaviour_label"
          top="8"
          width="300">
-         Model Upload Behaviour Settings:
+         모델 업로드 동작 설정:
        </text>
          <check_box
          height="15"
@@ -1412,16 +1412,16 @@
          top_pad="8"
          left="24"
          width="300"
-         label="Auto-enable weights"
-         tool_tip="Automatically set weights enabled for meshes with rigging info"
+         label="가중치 자동 활성화"
+         tool_tip="연결 정보가 있는 메시에 대해 활성화된 가중치 자동 설정"
          name="mesh_preview_auto_weights"/>
          <check_box
          control_name="FSMeshUploadAutoShowWeightsWhenEnabled"
          follows="top|left"
          left_pad="5"
          width="300"
-         label="Auto-preview weights"
-         tool_tip="Automatically show weights in preview for meshes with rigging info"
+         label="가중치 자동 미리 보기"
+         tool_tip="연결 정보가 있는 메시에 대한 미리보기에서 자동으로 가중치 표시"
          name="mesh_preview_auto_show_weights"/>
          <text
           follows="left|top"
@@ -1431,7 +1431,7 @@
           name="mesh_preview_ud_preset_label"
           top_pad="10"
           width="200">
-          Physics User Defined Preset:
+          물리 사용자 정의 사전 설정:
         </text>
          <line_editor
          control_name="FSPhysicsPresetUser1"
@@ -1445,7 +1445,7 @@
          left_pad="5"
          max_length_chars="4096"
          name="ud_physics"
-         tool_tip="Full system path to a simple Collada mesh definition to be used for physics."
+         tool_tip="물리에 사용할 간단한 콜라다 메쉬 정의에 대한 전체 시스템 경로."
          width="270" />
         <text
          follows="left|top"
@@ -1455,7 +1455,7 @@
          name="mesh_preview_colors_label"
          top_pad="10"
          width="300">
-         Model Upload Preview Colors:
+         모델 업로드 미리보기 색상:
        </text>
        <text
         type="string"
@@ -1469,7 +1469,7 @@
         name="user_label"
         top_pad="20"
         width="100">
-        General:
+        일반:
        </text>
          <color_swatch
          control_name="MeshPreviewCanvasColor"
@@ -1479,8 +1479,8 @@
          width="120"
          top_delta="-12"
          can_apply_immediately="true"
-         label="Background"
-         tool_tip="Canvas color for the Mesh uploader"
+         label="배경"
+         tool_tip="메쉬 업로더의 캔버스 색상"
          name="mesh_preview_canvas_color"/>
          <color_swatch
          control_name="MeshPreviewEdgeColor"
@@ -1489,8 +1489,8 @@
          height="64"
          width="120"
          can_apply_immediately="true"
-         label="Model Edge"
-         tool_tip="Edge color for the model in preview window on the Mesh uploader"
+         label="모델 모서리"
+         tool_tip="메시 업로더의 미리 보기 창에 있는 모델의 가장자리 색상"
          name="mesh_preview_edge_color"/>
          <color_swatch
          control_name="PreviewAmbientColor"
@@ -1499,8 +1499,8 @@
          height="64"
          width="120"
          can_apply_immediately="true"
-         label="Ambient Light"
-         tool_tip="Ambient light level in preview window (also affects animation preview etc)"
+         label="주변 조도"
+         tool_tip="미리 보기 창의 주변 조도 수준(애니메이션 미리 보기 등에도 영향을 줍니다)"
          name="preview_ambient_color"/>
          <text
          type="string"
@@ -1514,7 +1514,7 @@
          name="physics_settings_label"
          top_pad="20"
          width="100">
-         Physics:
+         물리:
         </text>
         <color_swatch
         control_name="MeshPreviewPhysicsEdgeColor"
@@ -1524,8 +1524,8 @@
         can_apply_immediately="true"
         width="120"
         top_delta="-12"
-        label="Physics Edge"
-        tool_tip="Edge color for physics triangles in preview window on the Mesh uploader"
+        label="물리 모서리"
+        tool_tip="메시 업로더의 미리 보기 창에 있는 물리적 삼각형의 가장자리 색상"
         name="mesh_preview_physics_edge_color"/>
         <color_swatch
         control_name="MeshPreviewPhysicsFillColor"
@@ -1534,8 +1534,8 @@
         height="64"
         width="120"
         can_apply_immediately="true"
-        label="Physics Fill"
-        tool_tip="Fill color for physics model in preview window on the Mesh uploader"
+        label="물리 채우기"
+        tool_tip="메시 업로더의 미리 보기 창에서 물리 모델 색 채우기"
         name="mesh_preview_physics_fill_color"/>
         <text
         type="string"
@@ -1549,7 +1549,7 @@
         name="physics_issues_setting_label"
         top_pad="24"
         width="100">
-        Physics Issues:
+        물리 문제:
       </text>
        <color_swatch
         control_name="MeshPreviewDegenerateEdgeColor"
@@ -1559,8 +1559,8 @@
         width="120"
         top_delta="-12"
         can_apply_immediately="true"
-        label="Bad Triangle Edge"
-        tool_tip="Edge color for degenerate (thin) triangles in preview window on the Mesh uploader"
+        label="잘못된 삼각형 모서리"
+        tool_tip="메시 업로더의 미리 보기 창에 있는 축퇴(얇은) 삼각형의 가장자리 색상"
         name="mesh_preview_degenerate_edge_color"/>
         <color_swatch
         control_name="MeshPreviewDegenerateFillColor"
@@ -1569,8 +1569,8 @@
         height="64"
         width="120"
         can_apply_immediately="true"
-        label="Bad Triangle Fill"
-        tool_tip="Fill color for degenerate (thin) triangles in preview window on the Mesh uploader"
+        label="잘못된 삼각형 채우기"
+        tool_tip="메시 업로더의 미리 보기 창에서 축퇴(얇은) 삼각형의 색 채우기"
         name="mesh_degenerate_fill_color"/>
       </panel>
     </tab_container>
@@ -1585,7 +1585,7 @@
      width="619">
        <button
          follows="top|left"
-         label="Calculate weights &amp; fee"
+         label="무게 &amp; 수수료 계산"
          label_color="White"
          layout="topleft"
          left="3"
@@ -1593,10 +1593,10 @@
          top="3"
          height="20"
          width="165"
-         tool_tip="Calculate weights &amp;fee"/>
+         tool_tip="무게 &amp; 수수료 계산"/>
        <button
          follows="top|left"
-         label="Cancel"
+         label="취소"
          label_color="White"
          layout="topleft"
          left_pad="6"
@@ -1606,7 +1606,7 @@
          width="80"/>
        <button
          follows="top|left"
-         label="Upload"
+         label="업로드"
          layout="topleft"
          label_color="White"
          left="35"
@@ -1615,10 +1615,10 @@
          height="20"
          visible="false"
          width="80"
-         tool_tip="Upload to simulator"/>
+         tool_tip="시뮬레이터에 업로드"/>
        <button
          follows="top|right"
-         label="Clear settings &amp; reset form"
+         label="설정 지우기 &amp; 양식 재설정"
          label_color="White"
          layout="topleft"
          name="reset_btn"
@@ -1636,7 +1636,7 @@
          top_pad="10"
          width="130"
          word_wrap="true">
-         Upload fee: L$ [FEE]
+         업로드 비용: L$ [FEE]
        </text>
        <text
          height="15"
@@ -1646,7 +1646,7 @@
          top_delta="0"
          width="130"
          word_wrap="true">
-         Land impact: [EQ]
+         랜드 충격: [EQ]
        </text>
        <text
          height="15"
@@ -1656,7 +1656,7 @@
          top_delta="0"
          width="130"
          word_wrap="true">
-         Download: [ST]
+         다운로드: [ST]
        </text>
        <text
          height="15"
@@ -1666,7 +1666,7 @@
          name="physics_weight"
          width="130"
          word_wrap="true">
-         Physics: [PH]
+         물리: [PH]
        </text>
        <text
          height="15"
@@ -1676,7 +1676,7 @@
          name="server_weight"
          width="130"
          word_wrap="true">
-         Server: [SIM]
+         서버: [SIM]
        </text>
        <!-- =========== Cost breakdown ======== -->
       <panel
@@ -1691,7 +1691,7 @@
           layout="topleft"
           left="3"
           name="price_breakdown_title">
-          Price Breakdown
+          가격 분석
         </text>
         <view_border
           bevel_style="none"
@@ -1710,11 +1710,11 @@
           name="price_breakdown_labels"
           width="70"
           word_wrap="false">
-Download:
-Physics:
-Instances:
-Textures:
-Model:
+다운로드:
+물리:
+인스턴스:
+텍스처:
+모델:
         </text>
         <text
           height="80"
@@ -1774,7 +1774,7 @@ Lowest:
           layout="topleft"
           name="physics_breakdown_title"
           left="3">
-          Physics Costs
+          물리 비용
         </text>
         <view_border
           bevel_style="none"
@@ -1792,9 +1792,9 @@ Lowest:
          left="5"
          name="physics_breakdown_labels"
          width="65">
-Base Hull:
-Mesh:
-Analysed:
+기본 선체:
+메쉬:
+분석됨:
         </text>
         <text
          height="80"
@@ -1829,7 +1829,7 @@ Analysed:
             name="preview_controls_title"
             left="3"
             width="150">
-            Preview controls
+            미리보기 조작
           </text>
           <combo_box
               can_resize="false"
@@ -1840,11 +1840,11 @@ Analysed:
               layout="topleft"
               name="preview_lod_combo"
               width="80"
-              tool_tip="LOD to view in preview render">
-              <combo_item name="high">   High   </combo_item>
-              <combo_item name="medium"> Medium </combo_item>
-              <combo_item name="low">    Low    </combo_item>
-              <combo_item name="lowest"> Lowest </combo_item>
+              tool_tip="미리 보기 렌더에서 볼 LOD">
+              <combo_item name="high">   높음   </combo_item>
+              <combo_item name="medium"> 중간 </combo_item>
+              <combo_item name="low">    낮음    </combo_item>
+              <combo_item name="lowest"> 가장 낮음 </combo_item>
             </combo_box>
         </panel>
     <view_border
@@ -1859,7 +1859,7 @@ Analysed:
       width="250"/>
       <check_box
         follows="top|left"
-        label="Edges"
+        label="모서리"
         layout="topleft"
         name="show_edges"
         width="70"
@@ -1867,13 +1867,13 @@ Analysed:
         top_pad="10"/>
       <check_box
         follows="top|left"
-        label="Textures"
+        label="텍스쳐"
         layout="topleft"
         name="show_textures"
         left_pad="0"/>
       <check_box
         follows="top|left"
-        label="UV guide"
+        label="UV 안내"
         layout="topleft"
         name="show_uv_guide"
         left_pad="0"/>
@@ -1882,7 +1882,7 @@ Analysed:
         top_pad="10"
         left="0"
         width="70"
-        label="Physics"
+        label="물리"
         name="show_physics"/>
       <text
         layout="topleft"
@@ -1891,7 +1891,7 @@ Analysed:
         height="16"
         width="80"
         name="exploder_label">
-            Explode hulls
+            선체 폭발
       </text>
       <slider
         name="physics_explode"
@@ -1906,14 +1906,14 @@ Analysed:
       <check_box
         follows="top|left"
         top_pad="15"
-        label="Weights"
+        label="가중치"
         layout="topleft"
         width="70"
         name="show_skin_weight"
         left="0"/>
       <check_box
         follows="top|left"
-        label="Joint Positions"
+        label="관절 위치"
         height="0"
         layout="topleft"
         name="show_joint_positions"
@@ -1922,7 +1922,7 @@ Analysed:
         width="70"/>
         <check_box
         follows="top|left"
-        label="Joint Pos. Overrides"
+        label="관절 위치 덮어쓰기"
         word_wrap="down"
         layout="topleft"
         name="show_joint_overrides"
@@ -1940,7 +1940,7 @@ Analysed:
       text_color="DrYellow"
       visible="true"
       width="40">
-      NOTE:
+      메모:
     </text>
     <text
       text_color="White"
@@ -1953,7 +1953,7 @@ Analysed:
       wrap="true"
       width="530"
       visible="true">
-      You don't have rights to upload mesh models. [[VURL] Find out how] to get certified.
+      메쉬 모델을 업로드할 수 있는 권한이 없습니다. [[VURL] 인증 받는 방법 알아보기.
     </text>
     <text
       text_color="Yellow"
@@ -1975,7 +1975,7 @@ text_color="White"
 top="4"
 height="15"
 width="290">
-Preview:
+미리보기:
 </text>
 <panel
    border="true"

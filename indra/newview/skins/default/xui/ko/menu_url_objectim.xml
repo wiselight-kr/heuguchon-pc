@@ -3,21 +3,21 @@
  layout="topleft"
  name="Url Popup">
     <menu_item_call
-     label="Object Profile..."
+     label="개체 프로필..."
      layout="topleft"
      name="show_object">
         <menu_item_call.on_click
          function="Url.Execute" />
     </menu_item_call>
     <menu_item_call
-     label="Block..."
+     label="차단..."
      layout="topleft"
      name="block_object">
         <menu_item_call.on_click
          function="Url.Block" />
     </menu_item_call>
     <menu_item_call
-     label="Unblock"
+     label="차단 해제"
      layout="topleft"
      name="unblock_object">
         <menu_item_call.on_click
@@ -26,14 +26,14 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Show on Map"
+     label="지도에 표시"
      layout="topleft"
      name="show_on_map">
         <menu_item_call.on_click
          function="Url.ShowOnMap" />
     </menu_item_call>
     <menu_item_call
-     label="Teleport to Object Location"
+     label="개체 위치로 순간이동"
      layout="topleft"
      name="teleport_to_object">
         <menu_item_call.on_click
@@ -42,14 +42,14 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Copy Object Name to clipboard"
+     label="클립보드에 개체 이름 복사"
      layout="topleft"
      name="url_copy_label">
         <menu_item_call.on_click
          function="Url.CopyLabel" />
     </menu_item_call>
     <menu_item_call
-     label="Copy SLurl to clipboard"
+     label="SLurl을 클립보드에 복사"
      layout="topleft"
      name="url_copy">
         <menu_item_call.on_click

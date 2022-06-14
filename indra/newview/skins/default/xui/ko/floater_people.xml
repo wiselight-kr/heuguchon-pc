@@ -14,7 +14,7 @@
   save_visibility="true"
   single_instance="true"
   reuse_instance="true"
-  title="People"
+  title="사람들"
   width="400">
     <panel_container
       default_panel_name="panel_people"

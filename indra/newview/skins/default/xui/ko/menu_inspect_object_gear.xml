@@ -6,7 +6,7 @@
    visible="false"
    name="Gear Menu">
   <menu_item_call
-   label="Touch"
+   label="터치"
    layout="topleft"
    enabled="true"
    name="touch">    
@@ -16,7 +16,7 @@
      function="Object.EnableTouch" />
   </menu_item_call>
   <menu_item_call
-  label="Sit"
+  label="앉기"
   layout="topleft"
   name="sit">
     <menu_item_call.on_click
@@ -25,7 +25,7 @@
      function="Object.EnableSit"/>
   </menu_item_call>
   <menu_item_call
-   label="Pay"
+   label="결제"
    layout="topleft"
    name="pay">
     <menu_item_call.on_click
@@ -34,7 +34,7 @@
      function="EnablePayObject" />
   </menu_item_call>
   <menu_item_call
-   label="Buy"
+   label="구매"
    layout="topleft"
    enabled="true" 
    name="buy">
@@ -44,7 +44,7 @@
      function="Object.VisibleBuy" />
   </menu_item_call>
   <menu_item_call
-   label="Take"
+   label="가지고 가기"
    layout="topleft"
    name="take">
     <menu_item_call.on_click
@@ -53,7 +53,7 @@
      function="Object.VisibleTake"/>
   </menu_item_call>
   <menu_item_call
-   label="Take Copy"
+   label="복사하기"
    layout="topleft"
    name="take_copy">
     <menu_item_call.on_click
@@ -62,7 +62,7 @@
       function="Tools.EnableTakeCopy"/>
   </menu_item_call>
   <menu_item_call
-   label="Open"
+   label="열기"
    layout="topleft"
    name="open">
     <menu_item_call.on_click
@@ -71,7 +71,7 @@
      function="Object.EnableOpen" />
   </menu_item_call>
   <menu_item_call
-   label="Edit"
+   label="편집"
    layout="topleft"
    name="edit">
         <menu_item_call.on_click
@@ -80,7 +80,7 @@
          function="EnableEdit"/>
   </menu_item_call>  
   <menu_item_call
-   label="Wear"
+   label="입기"
    layout="topleft"
    name="wear">
     <menu_item_call.on_click
@@ -89,7 +89,7 @@
      function="Object.EnableWear" />
   </menu_item_call>  
   <menu_item_call
-   label="Add"
+   label="추가"
    layout="topleft"
    name="add">
     <menu_item_call.on_click
@@ -98,14 +98,14 @@
      function="Object.EnableWear" />
   </menu_item_call>
   <menu_item_call
-   label="Report"
+   label="신고"
    layout="topleft"
    name="report">
     <menu_item_call.on_click
      function="Object.ReportAbuse" />
   </menu_item_call>
   <menu_item_call
-   label="Block"
+   label="차단"
    layout="topleft"
    name="block">
     <menu_item_call.on_click
@@ -114,7 +114,7 @@
      function="Object.EnableMute" />
   </menu_item_call>
   <menu_item_call
-   label="Unblock"
+   label="차단 해제"
    layout="topleft"
    name="unblock">
     <menu_item_call.on_click
@@ -123,14 +123,14 @@
      function="Object.EnableUnmute" />
   </menu_item_call>
   <menu_item_call
-    label="Zoom In"
+    label="확대"
     layout="topleft"
    name="zoom_in">
     <menu_item_call.on_click
      function="InspectObject.ZoomIn" />
   </menu_item_call>    
   <menu_item_call
-   label="Remove"
+   label="삭제"
    layout="topleft"
    name="remove">
       <menu_item_call.on_click
@@ -139,7 +139,7 @@
        function="Object.EnableDelete" />
   </menu_item_call>
   <menu_item_call
-   label="More Info"
+   label="추가 정보"
    layout="topleft"
    name="more_info">
     <menu_item_call.on_click

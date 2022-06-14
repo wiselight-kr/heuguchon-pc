@@ -3,7 +3,7 @@
  layout="topleft"
  name="Outfit">
     <menu_item_call
-     label="Wear - Replace Current Outfit"
+     label="마모 - 현재 장비 교체"
      layout="topleft"
      name="wear_replace">
         <on_click
@@ -16,7 +16,7 @@
          parameter="wear_replace" />
     </menu_item_call>
     <menu_item_call
-     label="Wear - Add to Current Outfit"
+     label="착용 - 현재 의상에 추가"
      layout="topleft"
      name="wear_add">
         <on_click
@@ -29,7 +29,7 @@
          parameter="wear_add" />
     </menu_item_call>
     <menu_item_call
-     label="Take Off - Remove from Current Outfit"
+     label="이륙 - 현재 장비에서 제거"
      layout="topleft"
      name="take_off">
         <on_click
@@ -42,7 +42,7 @@
          parameter="take_off" />
     </menu_item_call>
     <menu_item_call
-     label="Edit Outfit"
+     label="의상 편집"
      layout="topleft"
      name="edit">
         <on_click
@@ -53,7 +53,7 @@
     </menu_item_call>
     <menu_item_separator />
     <menu_item_call
-     label="Rename Outfit"
+     label="의상 개명"
      layout="topleft"
      name="rename">
         <on_click
@@ -63,7 +63,7 @@
          parameter="rename" />
     </menu_item_call>
     <menu_item_call
-     label="Delete Outfit"
+     label="의상 삭제"
      layout="topleft"
      name="delete">
         <on_click

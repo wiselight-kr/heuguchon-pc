@@ -4,14 +4,14 @@
      left="0" bottom="0" visible="false"
      mouse_opaque="false">
   <menu_item_call
-   label="Add Set..."
+   label="집합 추가..."
    name="add_set">
       <menu_item_call.on_click
 	   function="ContactSet.Action"
 	   parameter="add_set"/>
   </menu_item_call>
   <menu_item_call
-   label="Add Contact..."
+   label="연락처 추가..."
    name="add_contact">
       <menu_item_call.on_click
        function="ContactSet.Action"

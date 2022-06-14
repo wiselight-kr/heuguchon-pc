@@ -14,11 +14,11 @@
  width="333">
  <panel.string
   name="type_mature">
-    Moderate
+    적당한
  </panel.string>
  <panel.string
   name="type_pg">
-    General Content
+    일반 콘텐츠(내용)
  </panel.string>
  <panel.string
   name="l$_price">
@@ -26,7 +26,7 @@
  </panel.string>
  <panel.string
   name="click_through_text_fmt">
-    [TELEPORT] teleport, [MAP] map, [PROFILE] profile
+    [TELEPORT] 순간이동, [MAP] 지도, [PROFILE] 프로필
  </panel.string>
  <panel.string
   name="date_fmt">
@@ -34,11 +34,11 @@
  </panel.string>
  <panel.string
   name="auto_renew_on">
-    Enabled
+    가능
  </panel.string>
  <panel.string
   name="auto_renew_off">
-    Disabled
+    불가능
  </panel.string>
     <button
      follows="top|left"
@@ -62,7 +62,7 @@
      name="title"
      text_color="LtGray"
      top="0"
-     value="Classified Info"
+     value="기밀 정보"
      use_ellipses="true"
      width="275" />
     <scroll_container
@@ -122,7 +122,7 @@
          read_only="true"
          text_color="white"
          v_pad="0"
-         value="[name]"
+         value="[이름]"
          use_ellipses="true" />
         <text
          follows="left|top"
@@ -133,7 +133,7 @@
          name="classified_location_label"
          text_color="white"
          top_pad="5"
-         value="Location:"
+         value="위치:"
          width="250" />
         <text_editor
          allow_scroll="false"
@@ -149,7 +149,7 @@
          width="290"
          word_wrap="true"
          v_pad="0"
-         value="[loading...]" />
+         value="[로딩중...]" />
         <text
          follows="left|top"
          font.style="BOLD"
@@ -192,7 +192,7 @@
          width="130"
          top_delta="1"
          v_pad="0"
-         value="[content type]" />
+         value="[콘텐츠 유형]" />
         <text
          follows="left|top"
          font.style="BOLD"
@@ -202,7 +202,7 @@
          name="category_label"
          text_color="white"
          top_pad="0"
-         value="Category:"
+         value="카테고리:"
          width="140" />
         <text_editor
          parse_urls="true"
@@ -218,7 +218,7 @@
          width="150"
          top_pad="-10"
          v_pad="0"
-         value="[category]" />
+         value="[카테고리]" />
         <text
          follows="left|top"
          font.style="BOLD"
@@ -228,7 +228,7 @@
          name="creation_date_label"
          text_color="white"
          top_pad="0"
-         value="Creation date:"
+         value="생성 일자:"
          width="140" />
         <text_editor
          allow_scroll="false"
@@ -242,7 +242,7 @@
          name="creation_date"
          read_only="true"
          top_pad="-10"
-         tool_tip="Creation date"
+         tool_tip="생성 일자"
          v_pad="0"
          value="[date]"
          width="150" />
@@ -255,7 +255,7 @@
          name="price_for_listing_label"
          text_color="white"
          top_pad="5"
-         value="Price for listing:"
+         value="목록 가격:"
          width="140" />
         <text_editor
          allow_scroll="false"
@@ -269,9 +269,9 @@
          name="price_for_listing"
          read_only="true"
          top_pad="-10"
-         tool_tip="Price for listing."
+         tool_tip="목록 가격."
          v_pad="0"
-         value="[price]"
+         value="[가격]"
          width="105" />
         <layout_stack
          animate="false"
@@ -301,7 +301,7 @@
          name="click_through_label"
          text_color="white"
          top_pad="0"
-         value="Clicks:"
+         value="클릭:"
          width="140" />
         <text_editor
          allow_scroll="false"
@@ -315,9 +315,9 @@
          name="click_through_text"
          read_only="true"
          top_pad="-10"
-         tool_tip="Click through data"
+         tool_tip="데이터 클릭"
          v_pad="0"
-         value="[clicks]"
+         value="[클릭]"
          width="150" />
          </layout_panel>
          <layout_panel
@@ -338,7 +338,7 @@
          name="auto_renew_label"
          text_color="white"
          top="0"
-         value="Auto renew:"
+         value="자동 갱신:"
          width="140" />
          <text
          height="16"
@@ -347,7 +347,7 @@
          left_pad="0"
          name="auto_renew"
          top_pad="-10"
-         value="Enabled" 
+         value="가능" 
          width="150" />
          </layout_panel>
          <layout_panel
@@ -367,7 +367,7 @@
          name="classified_desc_label"
          text_color="white"
          top="0"
-         value="Description:"
+         value="묘사:"
          width="250" />
         <text_editor
          parse_urls="true"
@@ -385,7 +385,7 @@
          top_pad="7"
          width="280"
          v_pad="0"
-         value="[description]"
+         value="[묘사]"
          word_wrap="true" />
          </layout_panel>
         </layout_stack>
@@ -420,7 +420,7 @@
 			  <button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Teleport"
+		         label="순간이동"
 		         layout="topleft"
 		         left="0"
 		         name="teleport_btn"
@@ -439,7 +439,7 @@
 			  <button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Map"
+		         label="지도"
 		         layout="topleft"
 		         name="show_on_map_btn"
 		         top="0"
@@ -457,7 +457,7 @@
 			  <button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Edit"
+		         label="편집"
 		         layout="topleft"
 		         name="edit_btn"
 		         top="0"

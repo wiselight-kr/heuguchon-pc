@@ -11,7 +11,7 @@
      layout="topleft"
      name="Landmark Separator" />
     <menu_item_call
-     label="About URL"
+     label="URL 에 대하여"
      layout="topleft"
      name="about_url">
         <menu_item_call.on_click
@@ -19,7 +19,7 @@
          parameter="about" />
     </menu_item_call>
     <menu_item_call
-     label="Teleport to URL"
+     label="URL 로 순간이동"
      layout="topleft"
      name="teleport_to_url">
         <menu_item_call.on_click
@@ -27,7 +27,7 @@
          parameter="about" />
     </menu_item_call>
     <menu_item_call
-     label="Map"
+     label="지도"
      layout="topleft"
      name="show_on_map">
         <menu_item_call.on_click

@@ -16,7 +16,7 @@
      image_selected="Toolbar_Middle_Selected"
      image_unselected="Toolbar_Middle_Off"
      is_toggle="true"
-     label="Add +"
+     label="추가 +"
      layout="topleft"
      left="5"
      name="add_btn"

@@ -12,7 +12,7 @@
  save_rect="true"
  save_visibility="true"
  single_instance="true"
- title="World Map"
+ title="세계지도"
  width="650">
  <floater.string name="UnnamedParcel">(이름 없는 구획)</floater.string>
  <layout_stack
@@ -509,7 +509,7 @@
         <combo_box.item
          label="내 친구 온라인"
          name="item1"
-         value="None" />
+         value="없음" />
 		<combo_box.commit_callback
 		function="WMap.AvatarCombo"/>
     </combo_box>
@@ -539,7 +539,7 @@
         <combo_box.item
          label="내 랜드마크"
          name="item1"
-         value="None" />
+         value="없음" />
 		<combo_box.commit_callback
 		function="WMap.Landmark"/>
     </combo_box>

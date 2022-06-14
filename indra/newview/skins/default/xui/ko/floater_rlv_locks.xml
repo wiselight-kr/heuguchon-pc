@@ -12,7 +12,7 @@
   single_instance="true"
   positioning="cascading"
   reuse_instance="true"
-  title="Active RLV Locks"
+  title="RLV 잠금 활성화"
   width="500">
   <panel
     class="panel_rlvLocks"

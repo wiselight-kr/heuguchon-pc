@@ -7,10 +7,10 @@
  height="305"
  layout="topleft"
  name="create_landmark"
- title="Create Landmark"
+ title="랜드마크 생성"
  width="330">
   <string name="favorites_bar">
-    Favorites bar
+    즐겨찾기 모음
   </string>
     <text
      follows="left|top"
@@ -20,7 +20,7 @@
      name="title_label"
      top="5"
      font="SansSerifLargeBold"
-     value="Landmark Details"
+     value="랜드마크 세부사항"
      width="290" />
     <text
      follows="left|top"
@@ -29,7 +29,7 @@
      left="20"
      name="name_label"
      top_pad="10"
-     value="Name:"
+     value="이름:"
      width="290" />
     <line_editor
      follows="left|top"
@@ -47,7 +47,7 @@
      layout="topleft"
      name="folder_label"
      top_pad="10"
-     value="Save this landmark in:"
+     value="랜드마크 위치:"
      width="290" />
     <combo_box
      follows="bottom|left"
@@ -74,7 +74,7 @@
      layout="topleft"
      name="notes_label"
      top_pad="10"
-     value="My notes:"
+     value="내 노트:"
      width="290" />
     <text_editor
      bg_readonly_color="DkGray0"
@@ -102,7 +102,7 @@
     <button
      follows="bottom|left|right"
      height="23"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="12"
      mouse_opaque="false"

@@ -12,7 +12,7 @@
   positioning="centered"
   save_rect="true"
   single_instance="true"
-  title="Toolbar Buttons"
+  title="툴바 버튼"
   width="975">
   <text
     follows="left|top"
@@ -27,7 +27,7 @@
     right="-20"
     top="35"
     type="string">
-      Add or remove buttons by dragging them to or from the toolbars.
+      도구 모음으로 또는 도구 모음에서 끌어 단추 추가 또는 제거.
   </text>
   <text
     follows="left|top"
@@ -42,7 +42,7 @@
     right="-20"
     top="55"
     type="string">
-      Buttons will appear as shown or as icon-only depending on each toolbar's settings.
+      버튼은 각 도구 모음의 설정에 따라 표시된 대로 또는 아이콘 전용으로 표시됩니다.
   </text>
   <toolbar
     bottom="350"
@@ -89,7 +89,7 @@
   <button
     follows="left|bottom|right"
     height="23"
-    label="Clear all toolbars"
+    label="모든 툴바 지우기"
     label_selected="Clear all toolbars"
     disabled_control="LockToolbars"
     layout="topleft"
@@ -102,7 +102,7 @@
   <button
     follows="left|bottom|right"
     height="23"
-    label="Restore defaults"
+    label="기본값 복원"
     label_selected="Restore defaults"
     disabled_control="LockToolbars"
     layout="topleft"
@@ -115,12 +115,12 @@
   <check_box
     follows="left|bottom|right"
     height="23"
-    label="Locked"
+    label="잠금"
     layout="topleft"
     left_pad="16"
     name="check_toolbars_locked"
     control_name="LockToolbars"
-    tool_tip="Check this box to lock the toolbars, so the buttons can't be dragged or removed by accident."
+    tool_tip="실수로 단추를 끌거나 제거할 수 없도록 도구 모음을 잠그려면 이 상자를 선택합니다."
     width="130">
   </check_box>
 </floater>

@@ -2,7 +2,7 @@
 <toggleable_menu
  name="menu_group_plus">
 	<menu_item_check
-	 label="Show Minimap above Radar"
+	 label="레이더 위에 최소 지도 표시"
 	 name="ShowRadarMinimap">
 		<menu_item_check.on_check
 		 control="ShowRadarMinimap"/>
@@ -14,7 +14,7 @@
 		 parameter="showminimap"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Limit Results to specific Radius"
+	 label="결과를 특정 반지름으로 제한"
 	 name="LimitRadarByRange">
 		<menu_item_check.on_check
 		 control="LimitRadarByRange"/>
@@ -23,7 +23,7 @@
 		 parameter="LimitRadarByRange"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Show muted and blacklisted Avatars"
+	 label="음소거 및 블랙리스트에 있는 아바타 표시"
 	 name="FSRadarShowMutedAndDerendered">
 		<menu_item_check.on_check
 		 control="FSRadarShowMutedAndDerendered"/>
@@ -32,10 +32,10 @@
 		 parameter="FSRadarShowMutedAndDerendered"/>
 	</menu_item_check>
 	<context_menu
-	 label="Radar Name Format"
+	 label="레이더 이름 형식"
 	 name="radarNameFormat">
 		<menu_item_check
-		 label="Display Name"
+		 label="이름 표시"
 		 name="radarFmtDN"
 		 enabled_control="UseDisplayNames">
 			<menu_item_check.on_check
@@ -46,7 +46,7 @@
 			 parameter="DN"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Username"
+		 label="사용자 이름"
 		 name="radarFmtUN">
 			<menu_item_check.on_check
 			 function="Radar.NameFmtCheck"
@@ -56,7 +56,7 @@
 			 parameter="UN"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Display Name (Username)"
+		 label="이름 표시(사용자 이름)"
 		 name="radarFmtDNUN"
 		 enabled_control="UseDisplayNames">
 			<menu_item_check.on_check
@@ -67,7 +67,7 @@
 			 parameter="DNUN"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Username (Display Name)"
+		 label="사용자 이름(이름 표시)"
 		 name="radarFmtUNDN"
 		 enabled_control="UseDisplayNames">
 			<menu_item_check.on_check
@@ -79,10 +79,10 @@
 		</menu_item_check>
 	</context_menu>
 	<context_menu
-	 label="Displayed Columns"
+	 label="표시된 열"
 	 name="visible_columns">
 		<menu_item_check
-		 label="Voice"
+		 label="음성"
 		 name="voice_level">
 			<menu_item_check.on_check
 			 function="Radar.EnableColumn"
@@ -92,7 +92,7 @@
 			 parameter="voice_level"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Same Region"
+		 label="같은 지역"
 		 name="in_region">
 			<menu_item_check.on_check
 			 function="Radar.EnableColumn"
@@ -102,7 +102,7 @@
 			 parameter="in_region"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Typing Status"
+		 label="타이핑 상태"
 		 name="typing_status">
 			<menu_item_check.on_check
 			 function="Radar.EnableColumn"
@@ -112,7 +112,7 @@
 			 parameter="typing_status"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Sitting Status"
+		 label="앉기 상태"
 		 name="sitting_status">
 			<menu_item_check.on_check
 			 function="Radar.EnableColumn"
@@ -122,7 +122,7 @@
 			 parameter="sitting_status"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Flags"
+		 label="깃발"
 		 name="flags">
 			<menu_item_check.on_check
 			 function="Radar.EnableColumn"
@@ -132,7 +132,7 @@
 			 parameter="flags"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Notes"
+		 label="메모"
 		 name="has_notes">
 			<menu_item_check.on_check
 			 function="Radar.EnableColumn"
@@ -142,7 +142,7 @@
 			 parameter="has_notes"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Age"
+		 label="나이"
 		 name="age">
 			<menu_item_check.on_check
 			 function="Radar.EnableColumn"
@@ -152,7 +152,7 @@
 			 parameter="age"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Seen"
+		 label="보이는"
 		 name="seen">
 			<menu_item_check.on_check
 			 function="Radar.EnableColumn"
@@ -163,7 +163,7 @@
 		</menu_item_check>
 	</context_menu>
 	<menu_item_check
-	 label="Color names based on distance"
+	 label="거리를 기준으로 한 색상 이름"
 	 name="radarColorNamesBasedOnDistance">
 		<menu_item_check.on_check
 		 control="FSRadarColorNamesByDistance"/>
@@ -173,7 +173,7 @@
 	</menu_item_check>
 	<menu_item_separator layout="topleft"/>
 	<context_menu
-	 label="Report To"
+	 label="신고"
 	 name="report_to_menu">
 		<menu_item_check
 		 label="근처 대화"
@@ -186,7 +186,7 @@
 			 parameter="radar_nearby_chat"/>
 		</menu_item_check>
 		<menu_item_check
-		 label="Notification Toasts"
+		 label="알림 토스트"
 		 name="radar_nearby_chat">
 			<menu_item_check.on_check
 			 function="Radar.ReportToCheck"
@@ -197,7 +197,7 @@
 		</menu_item_check>
 	</context_menu>
 	<menu_item_check
-	 label="Nearby chat distance ring in Minimap"
+	 label="미니맵의 주변 채팅 거리 링"
 	 name="MiniMapChatRing">
 		<menu_item_check.on_check
 		 control="MiniMapChatRing"/>
@@ -209,7 +209,7 @@
 		 parameter="ShowRadarMinimap"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Entering Draw Range"
+	 label="보고서 그리기 범위 입력"
 	 name="RadarReportDrawRangeEnter">
 		<menu_item_check.on_check
 		 control="RadarReportDrawRangeEnter"/>
@@ -218,7 +218,7 @@
 		 parameter="RadarReportDrawRangeEnter"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Leaving Draw Range"
+	 label="보고서 그리기 범위 이탈"
 	 name="RadarReportDrawRangeLeave">
 		<menu_item_check.on_check
 		 control="RadarReportDrawRangeLeave"/>
@@ -227,7 +227,7 @@
 		 parameter="RadarReportDrawRangeLeave"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Entering Chat Range"
+	 label="채팅 범위로 들어가는 보고서"
 	 name="RadarReportChatRangeEnter">
 		<menu_item_check.on_check
 		 control="RadarReportChatRangeEnter"/>
@@ -236,7 +236,7 @@
 		 parameter="RadarReportChatRangeEnter"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Leaving Chat Range"
+	 label="채팅 범위 밖으로 나가는 보고서"
 	 name="RadarReportChatRangeLeave">
 		<menu_item_check.on_check
 		 control="RadarReportChatRangeLeave"/>
@@ -245,7 +245,7 @@
 		 parameter="RadarReportChatRangeLeave"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Entering your Region"
+	 label="지역 입력 보고서"
 	 name="RadarReportSimRangeEnter">
 		<menu_item_check.on_check
 		 control="RadarReportSimRangeEnter"/>
@@ -254,7 +254,7 @@
 		 parameter="RadarReportSimRangeEnter"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Leaving your Region"
+	 label="해당 지역을 떠나는 보고서"
 	 name="RadarReportSimRangeLeave">
 		<menu_item_check.on_check
 		 control="RadarReportSimRangeLeave"/>
@@ -263,7 +263,7 @@
 		 parameter="RadarReportSimRangeLeave"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Avatar Age Alert"
+	 label="보고서 아바타 연령 알림"
 	 name="RadarReportAgeAlert">
 		<menu_item_check.on_check
 		 control="RadarAvatarAgeAlert"/>
@@ -272,7 +272,7 @@
 		 parameter="RadarAvatarAgeAlert"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Enter Alerts to Scripts"
+	 label="보고서 스크립트에 경고 입력"
 	 name="RadarEnterChannelAlert">
 		<menu_item_check.on_check
 		 control="RadarEnterChannelAlert"/>
@@ -281,7 +281,7 @@
 		 parameter="RadarEnterChannelAlert"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Report Exit Alerts to Scripts"
+	 label="스크립트에 종료 알림 보고"
 	 name="RadarLeaveChannelAlert">
 		<menu_item_check.on_check
 		 control="RadarLeaveChannelAlert"/>
@@ -293,7 +293,7 @@
 		 parameter="showminimap"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Enhance Radar with LSL-Client Bridge"
+	 label="LSL-Client Bridge를 통한 레이더 향상"
 	 name="FSRadarEnhanceByBridge"
 	 enabled_control="UseLSLBridge">
 		<menu_item_check.on_check
@@ -305,7 +305,7 @@
 	<menu_item_separator layout="topleft"/>
 	<menu_item_call
 	 name="show_blocked_list"
-	 label="Open Blocked Residents &amp; Objects">
+	 label="차단된 거주자 &amp;및 개체 열기">
 		<menu_item_call.on_click
 		 function="Radar.Option.Action"
 		 userdata="panel_block_list_sidetray"/>

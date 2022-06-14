@@ -2,7 +2,7 @@
 <floater
  name="money_tracker"
  help_topic="fs_tip_tracker"
- title="Money Tracker"
+ title="돈 추적기"
  width="200"
  height="220"
  min_width="175"
@@ -29,15 +29,15 @@
 	 right="-1">
 		<name_list.columns
 		 name="time"
-		 label="Time"
+		 label="시간"
 		 sort_column="time_sort_column"
 		 width="50"/>
 		<name_list.columns
 		 name="name"
-		 label="Name"/>
+		 label="이름"/>
 		<name_list.columns
 		 name="amount"
-		 label="Amount"
+		 label="양"
 		 width="63"/>
 		<name_list.columns
 		 name="time_sort_column"
@@ -52,22 +52,22 @@
 		right="-4"
 		use_ellipses="true"
 		wrap="false">
-		Paid: L$ [PAID] - Received: L$ [RECEIVED]
+		결제: L$ [PAID] - 받음: L$ [RECEIVED]
 	</text>
 	<check_box
 	 control_name="FSAlwaysTrackPayments"
 	 follows="left|right|bottom"
 	 height="16"
-	 label="Track when closed"
+	 label="닫혔을 때 추적"
 	 layout="topleft"
 	 name="FSAlwaysTrackPayments"
-	 tool_tip="Always track payments, even if the money tracker is closed."
+	 tool_tip="돈 추적기가 닫혀 있더라도 항상 결제 추적."
 	 left="4"
 	 right="-4"/>
 	<button
 	 top_pad="1"
 	 name="Clear"
-	 label="Clear"
+	 label="지우기"
 	 font="SansSerif"
 	 mouse_opaque="true"
 	 height="20"

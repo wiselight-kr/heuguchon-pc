@@ -13,7 +13,7 @@
  help_topic="destinations"
  save_rect="true"
  save_visibility="true"
- title="Destinations"
+ title="목적지"
  width="550">
     <web_browser
       top="0"

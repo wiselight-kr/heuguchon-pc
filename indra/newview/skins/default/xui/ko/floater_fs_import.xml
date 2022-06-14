@@ -2,7 +2,7 @@
 <floater
   name="fs_import"
   help_topic="fs_import"
-  title="Object Import"
+  title="개체 불러오기"
   width="210"
   height="206"
   save_rect="true"
@@ -11,56 +11,56 @@
   can_close="true">
 	<floater.string
 	 name="floater_title">
-		Import [FILENAME]
+		불러오기 [FILENAME]
 	</floater.string>
     <floater.string
      name="file_status">
-        [LINKSETS] linksets. [PRIMS] prims. [TEXTURES] textures.
-        [SOUNDS] sounds. [ANIMATIONS] animations.
+        [LINKSETS] 링크셋. [PRIMS] 프림. [TEXTURES] 텍스쳐.
+        [SOUNDS] 소리. [ANIMATIONS] 애니메이션.
     </floater.string>
     <floater.string
      name="file_status_error">
-        Error reading file. Select another file.
+        파일을 읽는 중 오류가 발생했습니다. 다른 파일을 선택하십시오.
     </floater.string>
     <floater.string
      name="file_version_error">
-        Error parsing file, wrong format or version.
+        파일 구문 분석 오류, 잘못된 형식 또는 버전입니다.
     </floater.string>
     <floater.string
      name="file_status_running">
-        Linkset [LINKSET] of [LINKSETS], prim [PRIM] of [PRIMS]
+        [LINKSETS]의 [LINKSET], [PRIMS]의 [PRIM] 링크 세트
     </floater.string>
     <floater.string
      name="file_status_done">
-        Finished importing.
+        불러오기 마침.
     </floater.string>
      <floater.string
      name="texture_uploading">
-        Uploading texture [TEXTURE] of [TEXTURETOTAL].
+        [TEXTURETOTAL] 의  [TEXTURE]텍스쳐 업로드.
     </floater.string>
     <floater.string
      name="sound_uploading">
-        Uploading sound [SOUND] of [SOUNDTOTAL].
+         [SOUNDTOTAL] 의  [SOUND] 소리 업로드
     </floater.string>
     <floater.string
      name="animation_uploading">
-        Uploading animation [ANIMATION] of [ANIMATIONTOTAL].
+         [ANIMATIONTOTAL] 의 [ANIMATION] 애니메이션 업로드
     </floater.string>
     <floater.string
      name="asset_uploading">
-        Uploading asset [ASSET] of [ASSETTOTAL].
+       [ASSETTOTAL] 의 [ASSET] of Uploading asset 
     </floater.string>
     <floater.string
      name="upload_cost">
-        Total cost of uploads: L$ [COST].
+        업로드 총 비용: L$ [COST].
     </floater.string>
 	<floater.string
 		name="object">
-        object
+        개체
     </floater.string>
 	<floater.string
 		name="objects">
-        objects
+        개체
     </floater.string>
     <text
 	 type="string"
@@ -82,7 +82,7 @@
 	 left="5"
 	 name="creation_date_text"
 	 width="200">
-		Created on [DATE_STRING]
+		작성일 [DATE_STRING]
     </text>
 	<text
 	 type="string"
@@ -94,7 +94,7 @@
 	 name="author_text"
 	 use_ellipses="true"
 	 width="200">
-		by [AUTHOR] [GRID]
+		 [AUTHOR] [GRID] 에 의해
     </text>
 	<text
 	 type="string"
@@ -106,7 +106,7 @@
 	 name="client_text"
 	 use_ellipses="true"
 	 width="200">
-		Client: [CLIENT] v.[VERSION]
+		고객: [CLIENT] v.[VERSION]
     </text>
     <text
      type="string"
@@ -117,7 +117,7 @@
      left="5"
      name="file_status_text"
      width="200">
-        Select a file.
+        파일 선택.
     </text>
     <check_box
       follows="top|left"
@@ -125,7 +125,7 @@
       layout="topleft"
       enabled="false"
       name="do_not_attach"
-      label="Do not attach object"
+      label="개체를 부착하지 마십시오"
       top_pad="5"/>
     <check_box
       follows="top|left"
@@ -133,7 +133,7 @@
       layout="topleft"
       enabled="false"
       name="region_position"
-      label="Restore Region Position"
+      label="지역 위치 복원"
       top_pad="1"/>
     <check_box
       follows="top|left"
@@ -142,7 +142,7 @@
       width="90"
       enabled="false"
       name="upload_asset"
-      label="Upload Content"
+      label="컨텐츠(내용) 업로드"
       top_pad="1" >
 	<check_box.commit_callback
 	    function="Import.UploadAsset" />
@@ -155,13 +155,13 @@
 	  left_delta="15"
       enabled="false"
       name="temp_asset"
-      label="Temp" >
+      label="임시" >
       <check_box.commit_callback
 	    function="Import.TempAsset" />
     </check_box>
 	<button
 	 name="import_btn"
-	 label="Import"
+	 label="불러오기"
 	 height="20"
 	 width="97"
  	 left="109"

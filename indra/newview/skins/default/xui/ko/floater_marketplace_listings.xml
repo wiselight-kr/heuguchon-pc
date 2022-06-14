@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <floater
-  title="Marketplace Listings"
+  title="마켓플레이스 목록"
   name="floater_marketplace_listings"
   help_topic="floater_marketplace_listings"
   positioning="cascading"
@@ -50,7 +50,7 @@
           wrap="true"
           halign="center"
           font="SansSerifBold">
-            Loading...
+            로딩중...
         </text>
         <text
           name="marketplace_listings_inventory_placeholder_text"

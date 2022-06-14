@@ -14,17 +14,17 @@
  single_instance="true" 
  min_width="400"
  width="700">
-  <string name="pause" >Pause</string>
-  <string name="run">Run</string>
+  <string name="pause" >일시정지</string>
+  <string name="run">달리기</string>
   <combo_box name="time_scale_combo"
              follows="left|top"
              left="10"
              top="5"
              width="150"
              height="20">
-    <item name="2x Average" label="2x Average"/>
+    <item name="2x Average" label="2x 평균"/>
     <item name="Max" label="Max"/>
-    <item name="Recent Max" label="Recent Max"/>
+    <item name="Recent Max" label="최근 최대"/>
     <item name="100ms" label="100ms"/>
   </combo_box>
   <combo_box name="metric_combo"
@@ -33,8 +33,8 @@
              top="5"
              width="150"
              height="20">
-    <item name="Time" label="Time"/>
-    <item name="Number of Calls" label="Number of Calls"/>
+    <item name="Time" label="시간"/>
+    <item name="Number of Calls" label="전화 수"/>
     <item name="Hz" label="Hz"/>
   </combo_box>
   <button follows="top|right" 
@@ -43,7 +43,7 @@
           top="5"
           width="180"
           height="40"
-          label="Pause"
+          label="일시정지"
           font="SansSerifHuge"/>
   <layout_stack name="legend_stack"
                 orientation="horizontal"

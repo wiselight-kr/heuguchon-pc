@@ -3,7 +3,7 @@
  layout="topleft"
  name="Participant List Context Menu">
     <menu_item_call
-     label="View Profile"
+     label="프로필 보기"
      layout="topleft"
      name="View Profile">
         <on_click
@@ -13,7 +13,7 @@
          parameter="can_view_profile" />
     </menu_item_call>
     <menu_item_call
-     label="친구추가"
+     label="친구 추가"
      layout="topleft"
      name="Add Friend">
         <on_click
@@ -23,7 +23,7 @@
          parameter="can_add" />
     </menu_item_call>
 	<menu_item_call
-	 label="Add to Set"
+	 label="집합에 추가"
 	 layout="topleft"
 	 name="Add to Set">
 		<menu_item_call.on_click
@@ -40,7 +40,7 @@
          parameter="can_im" />
     </menu_item_call>
     <menu_item_call
-     label="Call"
+     label="전화"
      layout="topleft"
      name="Call">
         <on_click
@@ -50,7 +50,7 @@
          parameter="can_call" />
     </menu_item_call>
     <menu_item_call
-     label="Share"
+     label="공유"
      layout="topleft"
      name="Share">
         <on_click
@@ -60,7 +60,7 @@
          parameter="can_share" />
     </menu_item_call>
     <menu_item_call
-     label="Pay"
+     label="결제"
      layout="topleft"
      name="Pay">
         <on_click
@@ -70,7 +70,7 @@
          parameter="can_pay" />
     </menu_item_call>
     <menu_item_call
-     label="Zoom In"
+     label="확대"
      layout="topleft"
      name="zoom_in">
       <menu_item_call.on_click
@@ -83,7 +83,7 @@
      layout="topleft"
      name="Sort Separator" />
     <menu_item_check
-     label="Sort by Name"
+     label="이름으로 정렬"
      layout="topleft"
      name="SortByName">
         <on_check
@@ -94,7 +94,7 @@
          parameter="sort_by_name" />
     </menu_item_check>
     <menu_item_check
-     label="Sort by Recent Speakers"
+     label="최근 스피커별로 정렬"
      layout="topleft"
      name="SortByRecentSpeakers">
         <on_check
@@ -108,7 +108,7 @@
      layout="topleft"
      name="View Icons Separator" />
     <menu_item_check
-     label="View People Icons"
+     label="사람 아이콘 보기"
      layout="topleft"
      name="View Icons">
         <on_check
@@ -121,7 +121,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_check
-     label="Block Voice"
+     label="음성 차단"
      layout="topleft"
      name="Block/Unblock">
         <on_check
@@ -134,7 +134,7 @@
          parameter="can_block" />
     </menu_item_check>
     <menu_item_check
-     label="Block Text"
+     label="텍스트 차단"
      layout="topleft"
      name="MuteText">
         <on_check
@@ -150,11 +150,11 @@
      layout="topleft" 
      name="Moderator Options Separator"/>
     <context_menu
-     label="Moderator Options"
+     label="중재자 옵션"
      layout="topleft"
      name="Moderator Options">
         <menu_item_call
-         label="Eject from Group"
+         label="그룹에서 탈출"
          layout="topleft"
          name="EjectSelected">
             <on_click
@@ -167,7 +167,7 @@
          layout="topleft"
          name="moderate_voice_separator" />
         <menu_item_call
-         label="Allow text chat"
+         label="텍스트 채팅 허가"
          layout="topleft"
          name="AllowTextChat">
             <on_click
@@ -178,7 +178,7 @@
              parameter="can_allow_text_chat" />
         </menu_item_call>
         <menu_item_call
-         label="Forbid text chat"
+         label="텍스트 채팅 금지"
          layout="topleft"
          name="ForbidTextChat">
             <on_click
@@ -189,7 +189,7 @@
              parameter="can_allow_text_chat" />
         </menu_item_call>
         <menu_item_call
-         label="Mute this participant"
+         label="이 참가자 음소거"
          layout="topleft"
          name="ModerateVoiceMuteSelected">
             <on_click
@@ -200,7 +200,7 @@
              parameter="can_moderate_voice" />
         </menu_item_call>
         <menu_item_call
-         label="Unmute this participant"
+         label="이 참가자 음소거 해제"
          layout="topleft"
          name="ModerateVoiceUnMuteSelected">
             <on_click
@@ -211,7 +211,7 @@
              parameter="can_moderate_voice" />
         </menu_item_call>
         <menu_item_call
-         label="Mute everyone"
+         label="모두 음소거"
          layout="topleft"
          name="ModerateVoiceMute">
             <on_click
@@ -222,7 +222,7 @@
              parameter="can_moderate_voice" />
         </menu_item_call>
         <menu_item_call
-         label="Unmute everyone"
+         label="모두 음소거 해제"
          layout="topleft"
          name="ModerateVoiceUnmute">
             <on_click
@@ -235,7 +235,7 @@
     </context_menu>
 	<menu_item_separator layout="topleft" name="Group Ban Separator"/>
 	<menu_item_call
-		 label="Ban member"
+		 label="멤버 금지"
 		 layout="topleft"
 		 name="BanMember">
 			<on_click function="Avatar.BanMember" parameter="ban_member" />

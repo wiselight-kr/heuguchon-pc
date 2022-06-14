@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <menu create_jump_keys="true"
-      label="Edit"
+      label="편집"
       name="Edit"
       visible="false">
   <menu_item_call
-   label="Undo"
+   label="실행 취소"
    name="Undo"
    allow_key_repeat="true"
    shortcut="control|Z">
@@ -14,7 +14,7 @@
      function="Edit.EnableUndo" />
   </menu_item_call>
   <menu_item_call
-   label="Redo"
+   label="다시 실행"
    name="Redo"
    allow_key_repeat="true"
    shortcut="control|Y">
@@ -25,7 +25,7 @@
   </menu_item_call>
   <menu_item_separator/>
   <menu_item_call
-   label="Cut"
+   label="자르기"
    name="Cut"
    shortcut="control|X">
     <menu_item_call.on_click
@@ -34,7 +34,7 @@
      function="Edit.EnableCut" />
   </menu_item_call>
   <menu_item_call
-   label="Copy"
+   label="복사"
    name="Copy"
    shortcut="control|C">
     <menu_item_call.on_click
@@ -43,7 +43,7 @@
      function="Edit.EnableCopy" />
   </menu_item_call>
   <menu_item_call
-   label="Paste"
+   label="붙여넣기"
    name="Paste"
    allow_key_repeat="true"
    shortcut="control|V">
@@ -53,7 +53,7 @@
      function="Edit.EnablePaste" />
   </menu_item_call>
   <menu_item_call
-   label="Delete"
+   label="삭제"
    name="Delete"
    allow_key_repeat="true" 
    shortcut="Del">
@@ -64,7 +64,7 @@
   </menu_item_call>
   <menu_item_separator/>
   <menu_item_call
-   label="Select All"
+   label="모두 선택"
    name="Select All"
    shortcut="control|A">
     <menu_item_call.on_click
@@ -73,7 +73,7 @@
      function="Edit.EnableSelectAll" />
   </menu_item_call>
   <menu_item_call
-   label="Deselect"
+   label="선택 해제"
    name="Deselect"
    shortcut="control|E">
     <menu_item_call.on_click

@@ -64,47 +64,47 @@
 				<fs_scroll_list.column
 				 name="icon_online_status"
 				 image="icon_avatar_online_h"
-				 tool_tip="Online status"
+				 tool_tip="온라인 상태"
 				 width="20" />
 				<fs_scroll_list.column
 				 dynamicwidth="true"
 				 label="유저 이름"
 				 name="user_name"
-				 tool_tip="This contact's username."/>
+				 tool_tip="대화 상대의 사용자 이름."/>
 				<fs_scroll_list.column
 				 dynamicwidth="true"
 				 label="이름 표시"
 				 name="display_name"
-				 tool_tip="This contact's display name."/>
+				 tool_tip="대화 상대의 표시 이름."/>
 				<fs_scroll_list.column
 				 dynamicwidth="true"
 				 label="이름"
 				 name="full_name"
-				 tool_tip="This contact's chosen name." />
+				 tool_tip="대화 상대가 선택한 이름." />
 				<fs_scroll_list.column
 				 name="icon_visible_online"
 				 image="Permission_Visible_Online_h"
-				 tool_tip="Friend can see when you&apos;re online"
+				 tool_tip="온라인 상태 확인 가능"
 				 width="16" />
 				<fs_scroll_list.column
 				 name="icon_visible_map"
 				 image="Permission_Visible_Map_h"
-				 tool_tip="Friend can locate you on the map"
+				 tool_tip="친구가 지도에서 당신을 찾을 수 있음."
 				 width="16" />
 				<fs_scroll_list.column
 				 name="icon_edit_mine"
 				 image="Permission_Edit_Objects_Mine_h"
-				 tool_tip="Friend can edit, delete or take objects"
+				 tool_tip="친구가 개체를 편집, 삭제 또는 개체를 가져올 수 있음"
 				 width="16" />
 				<fs_scroll_list.column
 				 name="icon_visible_map_theirs"
 				 image="Permission_Visible_Map_h"
-				 tool_tip="You can locate them on the map"
+				 tool_tip="지도에서 찾을 수 있습니다."
 				 width="16" />
 				<fs_scroll_list.column
 				 name="icon_edit_theirs"
 				 image="Permission_Edit_Objects_Theirs_h"
-				 tool_tip="You can edit this friend&apos;s objects"
+				 tool_tip="이 친구의 개체를 편집할 수 있습니다."
 				 width="16" />
 				<fs_scroll_list.column
 				 name="friend_last_update_generation"
@@ -120,7 +120,7 @@
 	 label="IM/전화"
 	 left_delta="270"
 	 name="im_btn"
-	 tool_tip="Open Instant Message session"
+	 tool_tip="인스턴트 메시지 세션 열기"
 	 width="80" />
 	<button
 	 top_pad="3"
@@ -129,7 +129,7 @@
 	 height="22"
 	 label="프로필"
 	 name="profile_btn"
-	 tool_tip="Show picture, groups, and other information"
+	 tool_tip="사진, 그룹 및 기타 정보 표시"
 	 width="80" />
 	<button
 	 top_pad="3"
@@ -138,7 +138,7 @@
 	 height="22"
 	 label="순간이동..."
 	 name="offer_teleport_btn"
-	 tool_tip="Offer this friend a teleport to your current location"
+	 tool_tip="이 친구에게 현재 위치로 텔레포트 제공"
 	 width="80" />
 	<button
 	 top_pad="3"
@@ -147,7 +147,7 @@
 	 height="22"
 	 label="지도..."
 	 name="map_btn"
-	 tool_tip="Show current location of friend on the map"
+	 tool_tip="친구의 현재 위치를 지도에 표시"
 	 width="80" />
 	<button
 	 top_pad="3"
@@ -156,7 +156,7 @@
 	 height="22"
 	 label="결제..."
 	 name="pay_btn"
-	 tool_tip="Give Linden dollars (L$) to this friend"
+	 tool_tip="이 친구에게 린덴 달러(L$)를 주세요."
 	 width="80" />
 	<button
 	 top_pad="3"
@@ -165,7 +165,7 @@
 	 height="22"
 	 label="제거..."
 	 name="remove_btn"
-	 tool_tip="Remove this person from your friends list"
+	 tool_tip="친구 목록에서 이 사람 제거"
 	 width="80" />
 	<button
 	 top_pad="3"
@@ -174,7 +174,7 @@
 	 height="22"
 	 label="추가..."
 	 name="add_btn"
-	 tool_tip="Offer friendship to a resident"
+	 tool_tip="레지던트에게 우정을 바치다"
 	 width="80" />
 	<text
 	 top_pad="10"
@@ -184,6 +184,6 @@
 	 height="20"
 	 name="friend_count"
 	 width="80">
-	 Friends: [COUNT]
+	 친구: [COUNT]
 	</text>
 </panel>

@@ -6,12 +6,12 @@
  layout="topleft"
  name="search replace"
  help_topic="search_replace"
- title="Search / Replace"
+ title="검색 / 대체"
  width="300">
     <check_box
      control_name="LSLFindCaseInsensitivity"
      height="16"
-     label="Case Insensitive"
+     label="대소문자를 구분하지 않음"
      layout="topleft"
      left="55"
      name="case_text"
@@ -20,7 +20,7 @@
     <check_box
      control_name="LSLFindDirection"
      height="16"
-     label="Search Up"
+     label="위로 검색"
      layout="topleft"
      left_pad="0"
      name="find_previous"
@@ -28,7 +28,7 @@
      width="120" />
     <button
      height="24"
-     label="Search"
+     label="검색"
      label_selected="Search"
      layout="topleft"
      left="10"
@@ -37,7 +37,7 @@
      width="90" />
     <button
      height="24"
-     label="Replace"
+     label="대체"
      label_selected="Replace"
      layout="topleft"
      left_pad="5"
@@ -46,7 +46,7 @@
      width="90" />
     <button
      height="24"
-     label="Replace All"
+     label="모두 대체"
      label_selected="Replace All"
      layout="topleft"
      left_pad="5"
@@ -63,7 +63,7 @@
      name="txt"
      top="21"
      width="45">
-        Search
+        검색
     </text>
     <text
      type="string"
@@ -75,7 +75,7 @@
      name="txt2"
      top_pad="5"
      width="45">
-        Replace
+        대체
     </text>
     <line_editor
      border_style="line"

@@ -3,7 +3,7 @@
  layout="topleft"
  name="Nearby People Context Menu">
     <menu_item_call
-     label="View Profile"
+     label="프로필 보기"
      layout="topleft"
      name="view_profile">
         <menu_item_call.on_click
@@ -20,7 +20,7 @@
          parameter="can_im"/> 
     </menu_item_call>
     <menu_item_call
-    label="Offer Teleport"
+    label="순간이동 제안"
     name="offer_teleport">
       <menu_item_call.on_click
        function="Avatar.OfferTeleport"/>
@@ -29,7 +29,7 @@
       parameter="can_offer_teleport"/>
     </menu_item_call>
     <menu_item_call
-    label="Request Teleport"
+    label="순간이동 요청"
     name="request_teleport">
       <menu_item_call.on_click
        function="Avatar.TeleportRequest"/>
@@ -38,7 +38,7 @@
       parameter="can_request_teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Voice call"
+     label="음성 전화"
      layout="topleft"
      name="voice_call">
         <menu_item_call.on_click
@@ -49,7 +49,7 @@
     </menu_item_call>
     <menu_item_separator />
     <menu_item_call
-     label="View chat transcripts..."
+     label="대화 내용 보기..."
      layout="topleft"
      name="chat_history">
         <menu_item_call.on_click
@@ -60,7 +60,7 @@
     </menu_item_call>
     <menu_item_separator name="separator_chat_history"/>
     <menu_item_call
-     label="친구추가"
+     label="친구 추가"
      layout="topleft"
      name="add_friend">
         <menu_item_call.on_click
@@ -70,14 +70,14 @@
          parameter="can_add" />
     </menu_item_call>
 	<menu_item_call
-	 label="Add to Set..."
+	 label="집합에 추가..."
 	 layout="topleft"
 	 name="Add to Set">
 		<menu_item_call.on_click
 		 function="Avatar.AddToContactSet" />
 	</menu_item_call>
     <menu_item_call
-     label="Remove Friend"
+     label="친구 삭제"
      layout="topleft"
      name="remove_friend">
         <menu_item_call.on_click
@@ -87,7 +87,7 @@
          parameter="can_delete" />
     </menu_item_call>
     <menu_item_call
-     label="Invite to group..."
+     label="그룹에 초대..."
      layout="topleft"
      name="invite_to_group">
         <menu_item_call.on_click
@@ -98,7 +98,7 @@
     </menu_item_call>
     <menu_item_separator name="separator_invite_to_group"/>
     <menu_item_call
-     label="Zoom In"
+     label="확대"
      layout="topleft"
      name="zoom_in">
       <menu_item_call.on_click
@@ -108,7 +108,7 @@
        parameter="can_zoom_in"/>
     </menu_item_call>
     <menu_item_call
-     label="Map"
+     label="지도"
      layout="topleft"
      name="map">
         <menu_item_call.on_click
@@ -118,7 +118,7 @@
          parameter="can_show_on_map" />
     </menu_item_call>
     <menu_item_call
-     label="Share"
+     label="공유"
      layout="topleft"
      name="share">
         <menu_item_call.on_click
@@ -128,7 +128,7 @@
          parameter="can_share"/>
     </menu_item_call>
     <menu_item_call
-     label="Pay"
+     label="결제"
      layout="topleft"
      name="pay">
         <menu_item_call.on_click
@@ -138,7 +138,7 @@
          parameter="can_pay"/> 
     </menu_item_call>
     <menu_item_check
-     label="Block/Unblock"
+     label="차단/차단 해제"
      layout="topleft"
      name="block_unblock">
         <menu_item_check.on_click
@@ -151,7 +151,7 @@
          parameter="can_block" />
     </menu_item_check>
     <menu_item_call
-         label="Freeze"
+         label="얼리기"
          name="freeze">
         <menu_item_call.on_click
          function="Avatar.Freeze" />
@@ -159,7 +159,7 @@
          function="Avatar.EnableFreezeEject"/>
     </menu_item_call>
     <menu_item_call
-         label="Eject"
+         label="방출"
          name="eject">
         <menu_item_call.on_click
          function="Avatar.Eject" />

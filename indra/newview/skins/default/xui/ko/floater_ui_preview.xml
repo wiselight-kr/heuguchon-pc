@@ -9,13 +9,13 @@
  name="gui_preview_tool"
  help_topic="gui_preview_tool"
  single_instance="true"
- title="XUI Preview Tool"
+ title="XUI 미리보기 도구"
  translate="false"
  width="750">
     <string name="ExternalEditorNotSet">
-Select an editor by setting the environment variable LL_XUI_EDITOR
-or the ExternalEditor setting
-or specifying its path in the "Editor Path" field.</string>
+환경변수 LL_X를 설정하여 편집자 선택UI_EDitor
+또는 외부 편집기 설정
+또는 "편집기 경로" 필드에서 경로 지정.</string>
     <panel
      bottom="640"
      follows="left|top|right|bottom"
@@ -37,7 +37,7 @@ or specifying its path in the "Editor Path" field.</string>
          name="select_language_label"
          top="25"
          width="130">
-            Primary Language:
+            주 언어:
         </text>
         <combo_box
          follows="top|left"
@@ -55,57 +55,57 @@ or specifying its path in the "Editor Path" field.</string>
         <button
          follows="left|top"
          height="25"
-         label="Show"
+         label="표시"
          label_selected="Show"
          layout="topleft"
          left_pad="5"
          name="display_floater"
-         tool_tip="Display the XUI floater defined by the selected XML file"
+         tool_tip="선택한 XML 파일에 정의된 XUI 플로터 표시"
          top_delta="-2"
          width="95" />
         <button
          enabled="false"
          follows="left|top"
          height="25"
-         label="Hide"
+         label="숨기기"
          label_selected="Hide"
          layout="topleft"
          left_pad="3"
          name="close_displayed_floater"
-         tool_tip="Closes the currently-displayed floater, if one exists"
+         tool_tip="현재 표시된 플로터가 있는 경우 닫습니다."
          top_delta="0"
          width="85" />
         <button
          follows="left|top"
          height="25"
-         label="Edit..."
+         label="수정..."
          label_selected="Edit..."
          layout="topleft"
          left_pad="3"
          name="edit_floater"
-         tool_tip="Edit the XUI floater defined by the selected XML file (opens external editor).  Opens en version if no localized version exists."
+         tool_tip="선택한 XML 파일에 의해 정의된 XUI 플로터를 편집합니다(외부 편집기 열기). 현지화된 버전이 없는 경우 en 버전 열기."
          top_delta="0"
          width="95" />
         <button
          follows="left|top"
          height="25"
-         label="Save"
+         label="저장"
          label_selected="Save"
          layout="topleft"
          left_pad="3"
          name="save_floater"
-         tool_tip="Save the XUI floater defined by the selected XML file"
+         tool_tip="선택한 XML 파일에 정의된 XUI 플로터 저장"
          top_delta="0"
          width="85" />
         <button
          follows="left|top"
          height="25"
-         label="Save All"
+         label="모두 저장"
          label_selected="Save All"
          layout="topleft"
          left_pad="3"
          name="save_all_floaters"
-         tool_tip="Save all XUI floaters defined by the selected language"
+         tool_tip="선택한 언어로 정의된 모든 XUI 플로터 저장"
          top_delta="0"
          width="85" />
         <button
@@ -117,7 +117,7 @@ or specifying its path in the "Editor Path" field.</string>
          layout="topleft"
          left_pad="48"
          name="toggle_overlap_panel"
-         tool_tip="Toggle highlighting and display panel for overlapping elements; right-click an element to select it for this feature.  The selected element is marked by a red rectangle."
+         tool_tip="겹치는 요소에 대한 강조 표시 및 표시 패널을 전환하고 요소를 마우스 오른쪽 버튼으로 클릭하여 이 기능에 대해 선택합니다. 선택한 요소는 빨간색 직사각형으로 표시됩니다."
          top_delta="0"
          width="30" />
         <text
@@ -132,7 +132,7 @@ or specifying its path in the "Editor Path" field.</string>
          right="-50"
          top="53"
          width="105">
-            Secondary Language:
+            부 언어:
         </text>
         <combo_box
          follows="top|left"
@@ -150,28 +150,28 @@ or specifying its path in the "Editor Path" field.</string>
         <button
          follows="left|top"
          height="25"
-         label="Show"
+         label="표시"
          layout="topleft"
          left_pad="5"
          name="display_floater_2"
-         tool_tip="Display the XUI floater defined by the selected XML file"
+         tool_tip="선택한 XML 파일에 정의된 XUI 플로터 표시"
          top_delta="-2"
          width="95" />
         <button
          enabled="false"
          follows="left|top"
          height="25"
-         label="Hide"
+         label="숨기기"
          layout="topleft"
          left_pad="3"
          name="close_displayed_floater_2"
-         tool_tip="Closes the currently-displayed floater, if one exists"
+         tool_tip="현재 표시된 플로터가 있는 경우 닫습니다."
          top_delta="0"
          width="85" />
         <button
          follows="left|top"
          height="25"
-         label="Export Schema"
+         label="스키마 내보내기"
          layout="topleft"
          left_pad="3"
          name="export_schema"
@@ -180,7 +180,7 @@ or specifying its path in the "Editor Path" field.</string>
 		<button
 		 follows="left|top"
 		 height="25"
-		 label="Refresh"
+		 label="새로고침"
 		 layout="topleft"
 		 left_pad="3"
 		 name="refresh_btn"
@@ -188,7 +188,7 @@ or specifying its path in the "Editor Path" field.</string>
 		 width="95" />
         <check_box
           follows="left|top"
-          label="Show Rectangles"
+          label="직사각형 표시"
           name="show_rectangles"
           left_pad="10"
           top_delta="0"
@@ -201,7 +201,7 @@ or specifying its path in the "Editor Path" field.</string>
          draw_heading="true"
          draw_stripes="false"
          follows="left|top|bottom|right"
-         label="Name"
+         label="이름"
          layout="topleft"
          left="10"
          name="name_list"
@@ -211,15 +211,15 @@ or specifying its path in the "Editor Path" field.</string>
          sort_column="1"
          top="80">
             <scroll_list.columns
-             label="Title"
+             label="제목"
              name="title_column"
              width="150" />
             <scroll_list.columns
-             label="File"
+             label="파일"
              name="file_column"
              dynamic_width="true" />
             <scroll_list.columns
-             label="Top-Level Node"
+             label="상위 레벨 노드"
              name="top_level_node_column"
              width="250" />
         </scroll_list>
@@ -247,7 +247,7 @@ or specifying its path in the "Editor Path" field.</string>
              name="editor_path_label"
              top="10"
              width="100">
-                Editor Path:
+                편집기 경로:
             </text>
             <line_editor
              border_style="line"
@@ -260,18 +260,18 @@ or specifying its path in the "Editor Path" field.</string>
              max_length_bytes="300"
              name="executable_path_field"
              select_on_focus="true"
-             tool_tip="The full path to an editor (executable) to edit floater XML files (quotes not necessary)"
+             tool_tip="플로터 XML 파일을 편집하기 위한 편집기(실행 가능)의 전체 경로(따옴표는 필요하지 않음)"
              top_delta="-2"
              width="315" />
             <button
              follows="left|bottom"
              height="25"
-             label="Browse..."
+             label="탐색..."
              label_selected="Browse..."
              layout="topleft"
              left_pad="5"
              name="browse_for_executable"
-             tool_tip="Browse for an editor (executable) to edit floater XML files"
+             tool_tip="플로터 XML 파일을 편집할 편집기(실행 파일) 찾아보기"
              top_delta="-2"
              width="75" />
             <text
@@ -286,7 +286,7 @@ or specifying its path in the "Editor Path" field.</string>
              name="executable_args_label"
              top="36"
              width="100">
-                Editor Arguments:
+                편집기 인자:
             </text>
             <line_editor
              border_style="line"
@@ -299,7 +299,7 @@ or specifying its path in the "Editor Path" field.</string>
              max_length_bytes="300"
              name="executable_args_field"
              select_on_focus="true"
-             tool_tip="Command-line arguments to the editor; use &apos;%FILE%&apos; to refer to the target file; &apos;YourProgram.exe FileName.xml&apos; will be run if this field is empty"
+             tool_tip="편집기에 대한 명령줄 인수. &apos;% 사용FILE%&apos; 대상 파일을 참조합니다; &apos;YourProgram.exe FileName.xml&apos; 가 이 필드가 비어 있으면 실행됩니다"
              top_delta="-2"
              width="315" />
         </panel>
@@ -327,7 +327,7 @@ or specifying its path in the "Editor Path" field.</string>
              name="diff_file_label"
              top="10"
              width="200">
-                Delta File:
+                델타 파일:
             </text>
             <line_editor
              border_style="line"
@@ -340,30 +340,30 @@ or specifying its path in the "Editor Path" field.</string>
              max_length_bytes="300"
              name="vlt_diff_path_field"
              select_on_focus="true"
-             tool_tip="The full path to an XML D0 or D1 localization difference file generated by the Viewer Localization Toolkit"
+             tool_tip="Viewer Localization Toolkit에서 생성된 XML D0 또는 D1 현지화 차이 파일의 전체 경로"
              top_delta="-2"
              width="235" />
             <button
              follows="left|bottom"
              height="25"
-             label="Browse..."
+             label="탐색..."
              label_selected="Browse..."
              layout="topleft"
              left_pad="5"
              name="browse_for_vlt_diffs"
-             tool_tip="Browse for a VLT-generated D0 or D1 difference file to highlight changed files and elements"
+             tool_tip="VLT에서 생성된 D0 또는 D1 차이 파일을 찾아 변경된 파일 및 요소를 강조 표시합니다."
              top_delta="-2"
              width="75" />
             <button
              follows="left|bottom"
              height="25"
              is_toggle="true"
-             label="Highlight Diffs"
+             label="차이점 강조"
              label_selected="Unhighlight Diffs"
              layout="topleft"
              left_pad="5"
              name="toggle_vlt_diff_highlight"
-             tool_tip="Toggle highlighting of files and elements containing changed localization data"
+             tool_tip="Diffs 강조 변경된 현지화 데이터가 포함된 파일 및 요소의 강조 표시"
              top_delta="0"
              width="110" />
         </panel>
@@ -394,12 +394,12 @@ or specifying its path in the "Editor Path" field.</string>
          border="true"
          follows="top|right|bottom"
          height="600"
-         label="Overlap Panel"
+         label="패널 겹침"
          layout="topleft"
          left="0"
          min_width="300"
          name="overlap_panel"
-         tool_tip="This panel displays the currently-selected element and all of the elements that overlap it, separated by horizontal lines"
+         tool_tip="이 패널에는 현재 선택된 요소와 이 요소와 겹치는 모든 요소가 수평선으로 구분되어 표시됩니다"
          top="0"
          visible="false"
          width="300" />
@@ -414,7 +414,7 @@ or specifying its path in the "Editor Path" field.</string>
          name="overlap_panel_label"
          top="10"
          width="150">
-            Overlapping Elements:
+            요소 겹침:
         </text>
       </panel>
     </scroll_container>

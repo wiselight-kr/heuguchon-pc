@@ -10,7 +10,7 @@
  class="edit_profile_panel"
  follows="all"
  height="580"
- label="Profile Edit"
+ label="프로필 편집"
  layout="topleft"
  left="0"
  name="edit_profile_panel"
@@ -26,16 +26,16 @@
     sending the latter any more. ...TS -->
     <string
       name="FSDev"
-      value=" Developer" />
+      value=" 개발자" />
     <string
       name="FSSupp"
-      value=" Support" />
+      value=" 지원" />
     <string
       name="FSQualityAssurance"
-      value=" Bug Hunter" />
+      value=" 벌레 사냥꾼" />
     <string
      name="FSGW"
-     value=" Gateway" />
+     value=" 출입문" />
    <string
     name="RegisterDateFormat">
 	[REG_DATE] ([AGE])
@@ -50,31 +50,31 @@
    </string>
    <string
     name="AcctTypeResident"
-    value="Resident" />
+    value="거주자" />
    <string
     name="AcctTypeTrial"
-    value="Trial" />
+    value="재판" />
    <string
     name="AcctTypeCharterMember"
-    value="Charter Member" />
+    value="헌장 회원" />
    <string
     name="AcctTypeEmployee"
-    value="Linden Lab Employee" />
+    value="린덴 연구소 직원" />
    <string
     name="PaymentInfoUsed"
-    value="Payment Info Used" />
+    value="사용된 결제 정보" />
    <string
     name="PaymentInfoOnFile"
-    value="Payment Info On File" />
+    value="파일의 결제 정보" />
    <string
     name="NoPaymentInfoOnFile"
-    value="No Payment Info On File" />
+    value="파일에 결제 정보 없음" />
    <string
     name="AgeVerified"
-    value="Age-verified" />
+    value="연령 검증 완료" />
    <string
     name="NotAgeVerified"
-    value="Not Age-verified" />
+    value="연령이 확인되지 않음" />
    <string
     name="partner_edit_link_url">
        http://www.secondlife.com/account/partners.php?lang=en
@@ -85,7 +85,7 @@
    </string>
    <string
     name="no_partner_text"
-    value="None" />
+    value="없음" />
 
     <tab_container
      left="0"
@@ -102,7 +102,7 @@
      left="0"
      width="313"
      height="527"
-     title="Avatar"
+     title="아바타"
      follows="all"
      layout="topleft">
 
@@ -114,7 +114,7 @@
          left="4"
          name="display_name_label"
          text_color="LtGray"
-         value="Display Name:"
+         value="이름 표시:"
          right="-4" />
 
         <text
@@ -125,7 +125,7 @@
          layout="topleft"
          name="solo_username_label"
          text_color="LtGray"
-         value="Username:"
+         value="사용자 이름:"
          visible="false"
          right="-4" />
 
@@ -138,7 +138,7 @@
          left="4"
          height="23"
          width="23"
-         tool_tip="Set Display Name"/>
+         tool_tip="이름 표시 설정"/>
 
         <text
          left_pad="4"
@@ -148,7 +148,7 @@
          layout="topleft"
          name="user_name"
          text_color="White"
-         value="(loading...)"
+         value="(로딩중...)"
          use_ellipses="true"
          visible="true"
          right="-4" />
@@ -162,7 +162,7 @@
          layout="topleft"
          name="solo_user_name"
          text_color="White"
-         value="(loading...)"
+         value="(로딩중...)"
          use_ellipses="true"
          visible="false"
          right="-4" />
@@ -176,7 +176,7 @@
          name="user_name_small"
          text_color="White"
          top_delta="-4"
-         value="(loading...)"
+         value="(로딩중...)"
          use_ellipses="true"
          visible="false"
          wrap="true"
@@ -190,7 +190,7 @@
          name="user_label"
          text_color="LtGray"
          top_pad="10"
-         value="Username:"
+         value="사용자 이름:"
          width="70" />
 
         <text
@@ -203,7 +203,7 @@
          font="SansSerifBold"
          top_delta="-2"
          use_ellipses="true"
-         value="(loading...)"
+         value="(로딩중...)"
          wrap="true"
          right="-4"
          />
@@ -238,7 +238,7 @@
              layout="topleft"
              name="2nd_life_edit_icon"
              label=""
-             tool_tip="Click to select an image"
+             tool_tip="이미지를 선택하려면 클릭하십시오."
              width="275" />
 
         </panel>
@@ -260,7 +260,7 @@
         <check_box
          follows="bottom|left|right"
          font="SansSerifSmall"
-         label="Show me in Search results"
+         label="검색 결과에 표시"
          layout="topleft"
          left="4"
          name="show_in_search_checkbox"
@@ -277,7 +277,7 @@
          left="4"
          name="title_acc_status_text"
          top_pad="6"
-         value="Account:"
+         value="계좌:"
          right="-4" />
 
         <view_border
@@ -299,7 +299,7 @@
          name="acc_status_text"
          read_only="true"
          v_pad="0"
-         value="Resident. No payment info on file."
+         value="거주자. 파일에 결제 정보가 없습니다."
          right="-4"
          word_wrap="true" />
 
@@ -311,7 +311,7 @@
          layout="topleft"
          top_pad="2"
          name="my_account_link"
-         value="[[URL] Go to Dashboard]"
+         value="[[URL] 대시보드로 이동]"
          right="-4" />
 
         <text
@@ -321,7 +321,7 @@
          layout="topleft"
          name="title_partner_text"
          top_pad="10"
-         value="Partner:"
+         value="파트너:"
          right="-4" />
 
         <view_border
@@ -359,7 +359,7 @@
          height="15"
          layout="topleft"
          name="partner_edit_link"
-         value="[[URL] Edit]"
+         value="[[URL] 편집]"
          right="-4" />
 
     </panel>
@@ -370,7 +370,7 @@
      left="0"
      width="313"
      height="552"
-     title="More Info"
+     title="더 많은 정보"
      follows="all"
      layout="topleft">
 
@@ -383,7 +383,7 @@
          layout="topleft"
          name="rl_picture_caption"
          text_color="White"
-         value="Additional Picture"
+         value="추가 사진"
          use_ellipses="true"
          visible="true"
          right="-4" />
@@ -418,7 +418,7 @@
              image_name="spacer24.tga"
              name="real_world_edit_icon"
              label=""
-             tool_tip="Click to select an image"
+             tool_tip="이미지를 선택하려면 클릭하십시오."
              layout="topleft" />
 
       </panel>
@@ -447,7 +447,7 @@
        top_pad="10"
        right="-4"
        layout="topleft">
-      Web Page:
+      웹 페이지:
       </text>
 
       <line_editor
@@ -499,7 +499,7 @@
         <button
          follows="bottom|left|right"
          height="23"
-         label="Save Changes"
+         label="변화 저장"
          layout="topleft"
          left="1"
          name="save_btn"
@@ -521,7 +521,7 @@
         <button
          follows="bottom|left|right"
          height="23"
-         label="Cancel"
+         label="취소"
          layout="topleft"
          left="1"
          name="cancel_btn"

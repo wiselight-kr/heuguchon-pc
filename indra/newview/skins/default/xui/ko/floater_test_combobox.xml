@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+    <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <floater
  legacy_header_height="18"
  can_resize="true"
@@ -16,7 +16,7 @@
      left="10"
      top="24"
      width="200">
-        Real world usage (login location):
+        실제 사용 (로그인 위치):
     </text>
     <combo_box
      allow_text_entry="true"
@@ -30,15 +30,15 @@
      top_pad="2"
      width="155">
         <combo_box.item
-         label="My Last Location"
+         label="내 마지막 위치"
          name="MyLastLocation"
          value="last" />
         <combo_box.item
-         label="My Home"
+         label="우리집"
          name="MyHome"
          value="home" />
         <combo_box.item
-         label="&lt;Type region name&gt;"
+         label="&lt;지역 이름을 입력하시오&gt;"
          name="Typeregionname"
          value="" />
     </combo_box>
@@ -50,7 +50,7 @@
      left_delta="0"
      top_pad="24"
      width="200">
-        Minimal combobox:
+        최소 콤보박스:
     </text>
     <combo_box
      height="18"
@@ -60,11 +60,11 @@
      top_pad="2"
      width="150">
         <combo_box.item
-         label="First Item"
+         label="첫 아이템"
          name="item1"
          value="first" />
         <combo_box.item
-         label="Second Item"
+         label="두번쨰 아이템"
          name="item2"
          value="second" />
     </combo_box>
@@ -76,7 +76,7 @@
      left_delta="0"
      top_pad="24"
      width="200">
-        Allow text input:
+        항상 텍스트 입력:
     </text>
     <combo_box
      allow_text_entry="true"
@@ -87,11 +87,11 @@
      top_pad="2"
      width="150">
         <combo_box.item
-         label="First Item"
+         label="첫 아이템"
          name="item1"
          value="first" />
         <combo_box.item
-         label="Second Item"
+         label="두번째 아이템"
          name="item2"
          value="second" />
     </combo_box>
@@ -103,7 +103,7 @@
      left_delta="0"
      top_pad="24"
      width="200">
-        Allow text input, default to second item:
+        텍스트 입력 허용, 기본값은 두 번째 항목입니다:
     </text>
     <combo_box
      allow_text_entry="true"
@@ -115,11 +115,11 @@
      top_pad="2"
      width="150">
         <combo_box.item
-         label="First Item"
+         label="첫 아이템"
          name="item1"
          value="first" />
         <combo_box.item
-         label="Second Item"
+         label="두번째 아이템"
          name="item2"
          value="second" />
     </combo_box>
@@ -131,7 +131,7 @@
      left_delta="0"
      top_pad="24"
      width="200">
-        Two character max input:
+        문자 2개 최대 입력:
     </text>
     <combo_box
      allow_text_entry="true"

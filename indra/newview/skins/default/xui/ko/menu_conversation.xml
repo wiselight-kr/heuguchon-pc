@@ -7,33 +7,33 @@
  name="menu_conversation_participant"
  visible="false">
      <menu_item_call
-     label="Close conversation"
+     label="친밀한 대화"
      layout="topleft"
      name="close_conversation">
         <on_click function="Avatar.DoToSelected" parameter="close_conversation"/>
 	 </menu_item_call>	 
      <menu_item_call
-     label="Open voice conversation"
+     label="열린 음성 대화"
      layout="topleft"
      name="open_voice_conversation">
         <on_click function="Avatar.DoToSelected" parameter="open_voice_conversation"/>
         <on_enable function="Avatar.EnableItem" parameter="can_open_voice_conversation"/>
      </menu_item_call>	
      <menu_item_call
-     label="Disconnect from voice"
+     label="음성 연결 끊기"
      layout="topleft"
      name="disconnect_from_voice">
         <on_click function="Avatar.DoToSelected" parameter="disconnect_from_voice"/>
     </menu_item_call>	
 	<menu_item_separator layout="topleft" name="separator_disconnect_from_voice"/>	
 	<menu_item_call
-     label="Close Selected"
+     label="선택한 항목 닫기"
      layout="topleft"
      name="close_selected_conversations">
         <on_click function="Avatar.DoToSelected" parameter="close_selected_conversations"/>
 	 </menu_item_call>
     <menu_item_call
-     label="View Profile"
+     label="프로필 보기"
      layout="topleft"
      name="view_profile">
         <on_click function="Avatar.DoToSelected" parameter="view_profile"/>
@@ -47,28 +47,28 @@
         <on_enable function="Avatar.EnableItem" parameter="can_im"/>
     </menu_item_call>
     <menu_item_call
-     label="Offer teleport"
+     label="순간이동 제공"
      layout="topleft"
      name="offer_teleport">
         <on_click function="Avatar.DoToSelected" parameter="offer_teleport"/>
         <on_enable function="Avatar.EnableItem" parameter="can_offer_teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Request teleport"
+     label="순간이동 요청"
      layout="topleft"
      name="request_teleport">
         <on_click function="Avatar.DoToSelected" parameter="request_teleport"/>
         <on_enable function="Avatar.EnableItem" parameter="can_offer_teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Voice call"
+     label="음성 전화"
      layout="topleft"
      name="voice_call">
         <on_click function="Avatar.DoToSelected" parameter="voice_call"/>
         <on_enable function="Avatar.EnableItem" parameter="can_call" />
     </menu_item_call>
     <menu_item_call
-     label="Chat transcript..."
+     label="채팅 내용..."
      layout="topleft"
      name="chat_history">
         <on_click function="Avatar.DoToSelected" parameter="chat_history"/>
@@ -76,28 +76,28 @@
     </menu_item_call>	
     <menu_item_separator layout="topleft" name="separator_chat_history"/>	
     <menu_item_call
-     label="친구추가"
+     label="친구 추가"
      layout="topleft"
      name="add_friend">
         <on_click function="Avatar.DoToSelected" parameter="add_friend"/>
         <on_enable function="Avatar.EnableItem" parameter="can_add" />
     </menu_item_call>
     <menu_item_call
-     label="Remove friend"
+     label="친구 삭제"
      layout="topleft"
      name="remove_friend">
         <on_click function="Avatar.DoToSelected" parameter="remove_friend" />
         <on_enable function="Avatar.EnableItem" parameter="can_delete" />
     </menu_item_call>	
     <menu_item_call
-     label="Remove friends"
+     label="친구들 삭제"
      layout="topleft"
      name="remove_friends">
         <on_click function="Avatar.DoToSelected" parameter="remove_friend" />
         <on_enable function="Avatar.EnableItem" parameter="can_delete" />
     </menu_item_call>	
     <menu_item_call
-     label="Invite to group..."
+     label="그룹 초대..."
      layout="topleft"
      name="invite_to_group">
         <on_click function="Avatar.DoToSelected" parameter="invite_to_group" />
@@ -105,35 +105,35 @@
     </menu_item_call>
     <menu_item_separator layout="topleft" name="separator_invite_to_group"/>
     <menu_item_call
-     label="Zoom In"
+     label="확대"
      layout="topleft"
      name="zoom_in">
       <on_click function="Avatar.DoToSelected" parameter="zoom_in" />
       <on_enable function="Avatar.EnableItem" parameter="can_zoom_in" />
     </menu_item_call>
     <menu_item_call
-     label="Map"
+     label="지도"
      layout="topleft"
      name="map">
         <on_click function="Avatar.DoToSelected" parameter="map" />
         <on_enable function="Avatar.EnableItem" parameter="can_show_on_map" />
     </menu_item_call>
     <menu_item_call
-     label="Share"
+     label="공유"
      layout="topleft"
      name="share">
         <on_click function="Avatar.DoToSelected" parameter="share" />
         <on_enable function="Avatar.EnableItem" parameter="can_share" />
     </menu_item_call>
     <menu_item_call
-     label="Pay"
+     label="결제"
      layout="topleft"
      name="pay">
         <on_click function="Avatar.DoToSelected" parameter="pay" />
         <on_enable function="Avatar.EnableItem" parameter="can_pay" />
     </menu_item_call>
     <menu_item_check
-     label="Block Voice"
+     label="음성 차단"
      layout="topleft"
      name="block_unblock">
         <on_click function="Avatar.DoToSelected" parameter="block_unblock" />
@@ -141,7 +141,7 @@
 		<on_enable  function="Avatar.EnableItem" parameter="can_block" />
     </menu_item_check>
     <menu_item_check
-     label="Block Text"
+     label="텍스트 차단"
      layout="topleft"
      name="MuteText">
      <on_click function="Avatar.DoToSelected" parameter="mute_unmute" />
@@ -149,21 +149,21 @@
      <on_enable  function="Avatar.EnableItem" parameter="can_block" />
     </menu_item_check>
     <menu_item_call
-     label="Group Profile"
+     label="그룹 프로필"
      layout="topleft"
      name="group_profile">
         <on_click function="Group.DoToSelected" parameter="group_profile"/>
         <on_enable function="Avatar.EnableItem" parameter="can_group_profile" />
     </menu_item_call>	
     <menu_item_call
-     label="Activate Group"
+     label="그룹 활성화"
      layout="topleft"
      name="activate_group">
         <on_click function="Group.DoToSelected" parameter="activate_group"/>
         <on_enable function="Avatar.EnableItem" parameter="can_activate_group" />
     </menu_item_call>		
     <menu_item_call
-     label="Leave Group"
+     label="그룹 떠나기"
      layout="topleft"
      name="leave_group">
         <on_click function="Group.DoToSelected" parameter="leave_group"/>
@@ -171,11 +171,11 @@
     </menu_item_call>
 	<menu_item_separator layout="topleft" name="Moderator Options Separator"/>
 	<context_menu
-	 label="Moderator Options"
+	 label="중재자 옵션"
 	 layout="topleft"
 	 name="Moderator Options">
 		<menu_item_check
-		 label="Allow text chat"
+		 label="텍스트 채팅 허락"
 		 layout="topleft"
 		 name="AllowTextChat">
 			<on_check function="Avatar.CheckItem" parameter="is_allowed_text_chat" />
@@ -184,7 +184,7 @@
 		</menu_item_check>
 		<menu_item_separator layout="topleft" name="moderate_voice_separator" />
 		<menu_item_call
-		 label="Mute this participant"
+		 label="참가자 음소거"
 		 layout="topleft"
 		 name="ModerateVoiceMuteSelected">
 			<on_click function="Avatar.DoToSelected" parameter="selected" />
@@ -192,7 +192,7 @@
       <on_visible function="Avatar.VisibleItem" parameter="show_mute" />
     </menu_item_call>
     <menu_item_call
-		 label="Unmute this participant"
+		 label="참가자의 음소거 해제"
 		 layout="topleft"
 		 name="ModerateVoiceUnMuteSelected">
       <on_click function="Avatar.DoToSelected" parameter="selected" />
@@ -200,14 +200,14 @@
       <on_visible function="Avatar.VisibleItem" parameter="show_unmute" />
 		</menu_item_call>
 		<menu_item_call
-		 label="Mute everyone"
+		 label="모두 음소거"
 		 layout="topleft"
 		 name="ModerateVoiceMute">
 			<on_click function="Avatar.DoToSelected" parameter="mute_all" />
 			<on_enable function="Avatar.EnableItem" parameter="can_moderate_voice" />
 		</menu_item_call>
 		<menu_item_call
-		 label="Unmute everyone"
+		 label="모두 음소거 해제"
 		 layout="topleft"
 		 name="ModerateVoiceUnmute">
 			<on_click function="Avatar.DoToSelected" parameter="unmute_all" />
@@ -216,7 +216,7 @@
 	</context_menu>
 	<menu_item_separator layout="topleft" name="Group Ban Separator"/>
 	<menu_item_call
-		 label="Ban member"
+		 label="멤버 금지"
 		 layout="topleft"
 		 name="BanMember">
 			<on_click function="Avatar.DoToSelected" parameter="ban_member" />

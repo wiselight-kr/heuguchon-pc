@@ -11,19 +11,19 @@
  name="preview notecard"
  help_topic="preview_notecard"
  save_rect="true"
- title="Notecard:"
+ title="노트 카드:"
  width="400">
     <floater.string
      name="no_object">
-        Unable to find object containing this notecard.
+        이 노트 카드가 들어 있는 개체를 찾을 수 없습니다.
     </floater.string>
     <floater.string
      name="not_allowed">
-        You do not have permission to view this notecard.
+        이 노트 카드를 볼 수 있는 권한이 없습니다.
     </floater.string>
     <floater.string
      name="Title">
-        Notecard: [NAME]
+        노트 카드: [NAME]
     </floater.string>
     <icon
      follows="top|right"
@@ -46,7 +46,7 @@
      name="desc txt"
      top="22"
      width="90">
-        Description:
+        묘사:
     </text>
     <line_editor
      border_style="line"
@@ -77,7 +77,7 @@
      top="46"
      width="392"
      word_wrap="true">
-        Loading...
+        로딩중...
     </text_editor>
     <button
      follows="left|bottom"
@@ -86,13 +86,13 @@
      layout="topleft"
      left="3"
      name="Search"
-     tool_tip="Search &amp; Replace"
+     tool_tip="검색 &amp; 대체"
      top="332"
      width="30" />
     <button
      follows="left|bottom"
      height="22"
-     label="Edit..."
+     label="편집..."
      label_selected="Edit"
      layout="topleft"
      left="38"
@@ -102,7 +102,7 @@
     <button
      follows="right|bottom"
      height="22"
-     label="Save"
+     label="저장"
      label_selected="Save"
      layout="topleft"
      left="188"
@@ -112,7 +112,7 @@
     <button
      follows="right|bottom"
      height="22"
-     label="Delete"
+     label="삭제"
      label_selected="Delete"
      layout="topleft"
      left="292"

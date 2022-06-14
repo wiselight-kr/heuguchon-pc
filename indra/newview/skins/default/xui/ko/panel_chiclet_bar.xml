@@ -121,7 +121,7 @@ image_pressed_selected  "Lit" + "Selected" - there are new messages and the Well
                  label_color="Black"
                  left="0"
                  name="Unread IM messages"
-                 tool_tip="Conversations"
+                 tool_tip="대화"
                  width="34">
           <init_callback
                      function="Button.SetDockableFloaterToggle"
@@ -163,7 +163,7 @@ image_pressed_selected  "Lit" + "Selected" - there are new messages and the Well
                  label_color="Black"
                  left="0"
                  name="Unread"
-                 tool_tip="Notifications"
+                 tool_tip="알림"
                  width="34">
           <init_callback
                      function="Button.SetDockableFloaterToggle"

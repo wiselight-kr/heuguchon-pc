@@ -8,7 +8,7 @@
  min_width="154"
  name="contents"
  help_topic="contents"
- title="Font Fest"
+ title="글꼴 페스트"
  width="500">
     <text
      type="string"
@@ -40,7 +40,7 @@
      height="16"
      layout="topleft"
      left="16">
-        SansSerif, no size or style (should be same as medium)
+        SansSerif, 크기나 스타일 없음 (중간이어야 합니다)
     </text>
     <text
      type="string"
@@ -144,7 +144,7 @@
      height="16"
      layout="topleft"
      left="16">
-        SansSerif style=BOLD (should be same as SansSerifBold)
+        SansSerif style=BOLD (SansSerifBold 와 같아야 합니다)
     </text>
     <text
      type="string"

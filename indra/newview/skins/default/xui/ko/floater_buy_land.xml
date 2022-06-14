@@ -11,136 +11,136 @@
  width="740">
     <floater.string
      name="can_resell">
-        May be resold.
+        재판매 가능.
     </floater.string>
     <floater.string
      name="can_not_resell">
-        May not be resold.
+        재판매 불가능.
     </floater.string>
     <floater.string
      name="can_change">
-        May be joined or subdivided.
+        결합 또는 세분화 될 수 있습니다.
     </floater.string>
     <floater.string
      name="can_not_change">
-        May not be joined or subdivided.
+        결합 또는 세분화 될 수 없습니다.
     </floater.string>
     <floater.string
      name="cant_buy_for_group">
-        You do not have permission to buy land for your active group.
+        활성 그룹의 토지를 구입할 수 있는 권한이 없습니다.
     </floater.string>
     <floater.string
      name="no_land_selected">
-        No land selected.
+        선택된 토지가 없습니다.
     </floater.string>
     <floater.string
      name="multiple_parcels_selected">
-        Multiple different parcels selected. 
-Try selecting a smaller area.
+        여러 개의 서로 다른 구획이 선택되었습니다. 
+더 작은 영역을 선택하십시오.
     </floater.string>
     <floater.string
      name="no_permission">
-        You do not have permission to buy land for your active group.
+        활성 그룹의 토지를 구입할 수 있는 권한이 없습니다.
     </floater.string>
     <floater.string
      name="parcel_not_for_sale">
-        The selected parcel is not for sale.
+        선택한 소포는 비매품입니다.
     </floater.string>
     <floater.string
      name="group_already_owns">
-        The group already owns the parcel.
+        그룹이 이미 구획을 소유하고 있습니다.
     </floater.string>
     <floater.string
      name="you_already_own">
-        You already own the parcel.
+        이미 구획을 소유하고 있습니다.
     </floater.string>
     <floater.string
      name="set_to_sell_to_other">
-        The selected parcel is set to sell to another party.
+        선택한 구획이 다른 당사자에게 판매되도록 설정되었습니다.
     </floater.string>
     <floater.string
      name="no_public_land">
-        The selected area has no public land.
+        선택한 지역에 공용 토지가 없습니다.
     </floater.string>
     <floater.string
      name="not_owned_by_you">
-        Land owned by another Resident is selected. 
-Try selecting a smaller area.
+        다른 거주자가 소유한 토지가 선택됨. 
+더 작은 영역을 선택하십시오.
     </floater.string>
     <floater.string
      name="processing">
-        Processing your purchase...
+        구매 처리 중...
  
-(This may take a minute or two.)
+(1~2분 정도 소요됩니다.)
     </floater.string>
     <floater.string
      name="fetching_error">
-        There has been an error while fetching land buying information.
+        토지 구매 정보를 가져오는 동안 오류가 발생했습니다.
     </floater.string>
     <floater.string
      name="buying_will">
-        Buying this land will:
+        이 토지를 구매하는 것은:
     </floater.string>
     <floater.string
      name="buying_for_group">
-        Buying land for group will:
+        그룹으로 토지를 구매하는 것은:
     </floater.string>
     <floater.string
      name="cannot_buy_now">
-        Cannot buy now:
+        지금은 구매할 수 없습니다:
     </floater.string>
     <floater.string
      name="not_for_sale">
-        Not for sale:
+        비매품:
     </floater.string>
     <floater.string
      name="none_needed">
-        none needed
+        필요 없음
     </floater.string>
     <floater.string
      name="must_upgrade">
-        Your account must be upgraded to own land.
+        계정을 소유 토지로 업그레이드해야 합니다.
     </floater.string>
     <floater.string
      name="cant_own_land">
-        Your account can own land.
+        당신의 계좌는 땅을 소유할 수 있다.
     </floater.string>
     <floater.string
      name="land_holdings">
-        You hold [BUYER] m² of land.
+        당신은 [BUYER] m²의 땅을 소유하고 있다.
     </floater.string>
     <floater.string
      name="pay_to_for_land">
-        Pay L$ [AMOUNT] to [SELLER] for this land
+        이 토지에 대해 [SELLER]에게 L$[AMOUNT]을 지불합니다.
     </floater.string>
     <floater.string
      name="buy_for_US">
-        Buy L$ [AMOUNT] for approx. [LOCAL_AMOUNT],
+        대략 L$ [AMOUNT] 에 구매. [LOCAL_AMOUNT],
     </floater.string>
     <floater.string
      name="parcel_meters">
-        This parcel is [AMOUNT] m²
+        이 구획은 [AMOUNT] m²
     </floater.string>
     <floater.string
      name="premium_land">
-        This land is premium, and will charge as [AMOUNT] m².
+        이 땅은 프리미엄입니다, 그리고 [AMOUNT] m² 이 청구됩니다.
     </floater.string>
     <floater.string
      name="discounted_land">
-        This land is discounted, and will charge as [AMOUNT] m².
+        이 땅은 할인됐습니다, 그리고 [AMOUNT] m² 이 청구됩니다.
     </floater.string>
     <floater.string
      name="meters_supports_object">
-        [AMOUNT] m²
-supports [AMOUNT2] objects
+        [AMOUNT] m² 는
+ [AMOUNT2] 개체를 지원합니다
     </floater.string>
     <floater.string
      name="sold_with_objects">
-        sold with objects
+        개체와 함께 팔리는
     </floater.string>
     <floater.string
      name="sold_without_objects">
-        objects not included
+        개체 포함 안됨
     </floater.string>
     <floater.string
      name="info_price_string">
@@ -150,27 +150,27 @@ supports [AMOUNT2] objects
     </floater.string>
     <floater.string
      name="insufficient_land_credits">
-        The group [GROUP] will need sufficient contributed land use credits to cover this parcel before the purchase will complete.
+        그룹 [GROUP]은 구입이 완료되기 전에 이 구획을 충당하기에 충분한 토지 사용 공제가 필요합니다.
     </floater.string>
     <floater.string
      name="have_enough_lindens">
-        You have L$ [AMOUNT], which is enough to buy this land.
+        당신은 이 땅을 사기에 충분한 L$[AMOUNT]를 가지고 있습니다..
     </floater.string>
     <floater.string
      name="not_enough_lindens">
-        You have only L$ [AMOUNT], and need L$ [AMOUNT2] more.
+     L$ [AMOUNT] 만 있고,  L$ [AMOUNT2] 가 더 필요합니다.
     </floater.string>
     <floater.string
      name="balance_left">
-        After the purchase, you will have L$ [AMOUNT] left.
+        구매 후 L$ [AMOUNT]가 남습니다.
     </floater.string>
     <floater.string
      name="balance_needed">
-        You need to buy at least L$ [AMOUNT] to afford this land.
+        이 땅을 구입하려면 최소 L$[AMOUNT]를 구입해야 합니다..
     </floater.string>
     <floater.string
      name="no_parcel_selected">
-        (no parcel selected)
+        (선택된 구획 없음)
     </floater.string>
     <floater.string
      name="icon_PG"
@@ -196,7 +196,7 @@ supports [AMOUNT2] objects
      top="21"
      width="60"
      word_wrap="true">
-        Region:
+        지역:
     </text>
     <text
      type="string"
@@ -209,7 +209,7 @@ supports [AMOUNT2] objects
      top_delta="0"
      use_ellipses="true"
      width="150">
-        (unknown)
+        (알 수 없음)
     </text>
     <icon
      follows="left|top"
@@ -229,7 +229,7 @@ supports [AMOUNT2] objects
      right="550"
      width="60"
      word_wrap="true">
-        Type:
+        타입:
     </text>
     <text
      type="string"
@@ -242,7 +242,7 @@ supports [AMOUNT2] objects
      top_delta="0"
      use_ellipses="true"
      width="170">
-        (unknown)
+        (알 수 없음)
     </text>
     <text
      type="string"
@@ -255,7 +255,7 @@ supports [AMOUNT2] objects
      right="550"
      width="60"
      word_wrap="true">
-        Estate:
+        재산:
     </text>
     <text
      type="string"
@@ -268,7 +268,7 @@ supports [AMOUNT2] objects
      top_delta="0"
      use_ellipses="true"
      width="170">
-        (unknown)
+        (알 수 없음)
     </text>
     <text
      type="string"
@@ -281,7 +281,7 @@ supports [AMOUNT2] objects
      right="565"
      width="120"
      word_wrap="true">
-        Estate Owner:
+        재산 소유주:
     </text>
     <text
      type="string"
@@ -294,7 +294,7 @@ supports [AMOUNT2] objects
      top_delta="0"
      use_ellipses="true"
      width="170">
-        (unknown)
+        (알 수 없음)
     </text>
     <text
      type="string"
@@ -308,7 +308,7 @@ supports [AMOUNT2] objects
      right="725"
      width="260"
      word_wrap="true">
-        Purchased land in this region:
+        이 지역의 매입 토지:
     </text>
     <text
      type="string"
@@ -321,7 +321,7 @@ supports [AMOUNT2] objects
      right="725"
      width="260"
      word_wrap="true">
-        May or may not be resold.
+        재판매 가능 여부.
     </text>
     <text
      type="string"
@@ -334,7 +334,7 @@ supports [AMOUNT2] objects
      right="725"
      width="260"
      word_wrap="true">
-        May or may not be joined or subdivided.
+        결합 또는 세분될 수 있거나 없을 수 있습니다.
     </text>
     <text
      type="string"
@@ -345,7 +345,7 @@ supports [AMOUNT2] objects
      name="covenant_text"
      right="725"
      width="260">
-        You must agree to the Estate Covenant:
+        재산 계약에 동의해야 합니다.:
     </text>
     <text
      follows="left|top"
@@ -370,11 +370,11 @@ supports [AMOUNT2] objects
      top="192"
      width="271"
      word_wrap="true">
-        Loading...
+        로딩중...
     </text_editor>
     <check_box
      height="20"
-     label="I Agree to the Covenant Defined Above."
+     label="위에서 정의한 계약에 동의합니다."
      layout="topleft"
      left="440"
      name="agree_covenant"
@@ -401,7 +401,7 @@ supports [AMOUNT2] objects
      name="info_parcel_label"
      top="30"
      width="48">
-        Parcel:
+        구획:
     </text>
     <text
      type="string"
@@ -426,7 +426,7 @@ supports [AMOUNT2] objects
      name="info_size_label"
      top_pad="1"
      width="48">
-        Size:
+        크기:
     </text>
     <text
      type="string"
@@ -451,7 +451,7 @@ supports [AMOUNT2] objects
      name="info_price_label"
      top_pad="1"
      width="48">
-        Price:
+        가격:
     </text>
     <text
      type="string"
@@ -466,7 +466,7 @@ supports [AMOUNT2] objects
      width="180">
         L$ 1500
 (L$ 1.1/m²)
-sold with objects
+개체와 함께 팔리는
     </text>
     <text
      type="string"
@@ -479,7 +479,7 @@ sold with objects
      name="info_action"
      top="166"
      width="350">
-        Buying this land will:
+        이 땅을 사는 것은:
     </text>
     <locate
      height="6"
@@ -504,12 +504,12 @@ sold with objects
      top="208"
      width="215"
      word_wrap="true">
-        Something ain&apos;t right.
+        뭔가 잘못된 것 &apos; 같습니다.
     </text>
     <button
      follows="bottom|left"
      height="20"
-     label="Go to website"
+     label="웹사이트로 이동"
      layout="topleft"
      left_delta="0"
      name="error_web"
@@ -539,7 +539,7 @@ sold with objects
      top="200"
      width="218"
      wrap="true">
-        Upgrade you to premium membership.
+        프리미엄 멤버쉽으로 업그레이드.
     </text>
     <text
      type="string"
@@ -551,7 +551,7 @@ sold with objects
      name="account_reason"
      right="400"
      width="180">
-        Only premimum members may own land.
+        프리미엄 회원만 토지를 소유할 수 있습니다.
     </text>
     <combo_box
      follows="top|left"
@@ -561,13 +561,13 @@ sold with objects
      name="account_level"
      width="336">
         <combo_box.item
-         label="US$9.95/month, billed monthly"
+         label="US$9.95/월, 매월 결제"
          name="US$9.95/month,billedmonthly" />
         <combo_box.item
-         label="US$7.50/month, billed quarterly"
+         label="US$7.50/월, 매분기 결제"
          name="US$7.50/month,billedquarterly" />
         <combo_box.item
-         label="US$6.00/month, billed annually"
+         label="US$6.00/월, 매년 결제"
          name="US$6.00/month,billedannually" />
     </combo_box>
     <locate
@@ -595,7 +595,7 @@ sold with objects
      top="279"
      width="218"
      wrap="true">
-        Increase your monthly land use fees to US$ 40/month.
+        월 토지 사용료를 월 US$40로 인상하십시오.
     </text>
     <text
      type="string"
@@ -608,8 +608,8 @@ sold with objects
      right="435"
      width="215"
      word_wrap="true">
-        You hold 1309 m² of land.
-This parcel is 512 m² of land.
+        당신은 1309m²의 땅을 가지고 있습니다.
+이 소포는 512m²의 땅이다.
     </text>
     <locate
      height="5"
@@ -634,7 +634,7 @@ This parcel is 512 m² of land.
      name="purchase_action"
      right="438"
      wrap="true">
-        Pay Joe Resident L$ 4000 for the land
+        조 레지던트에게 땅값 L$4000을 지불
     </text>
     <text
      type="string"
@@ -645,7 +645,7 @@ This parcel is 512 m² of land.
      left="72"
      name="currency_reason"
      right="400">
-        You have L$ 2,100.
+         L$ 2,100를 가지고 있습니다.
     </text>
     <text
      type="string"
@@ -657,7 +657,7 @@ This parcel is 512 m² of land.
      name="currency_action"
      top_pad="9"
      width="95">
-        Buy additional L$
+        추가 L$ 구매
     </text>
     <locate
      height="0"
@@ -689,7 +689,7 @@ This parcel is 512 m² of land.
      name="currency_est"
      top="425"
      width="178">
-        for approx. [LOCAL_AMOUNT]
+        대략. [LOCAL_AMOUNT]
     </text>
     <text
      type="string"
@@ -700,12 +700,12 @@ This parcel is 512 m² of land.
      left="72"
      name="currency_balance"
      right="400">
-        You have L$ 2,100.
+        당신은 L$2,100를 가지고 있습니다.
     </text>
     <button
      follows="bottom|left"
      height="20"
-     label="Purchase"
+     label="구매"
      layout="topleft"
      left="440"
      name="buy_btn"
@@ -714,7 +714,7 @@ This parcel is 512 m² of land.
     <check_box
      follows="bottom|left"
      height="20"
-     label="Remove [AMOUNT] m² of contribution from group."
+     label="그룹에서 기여 [AMOUNT] m³를 제거합니다."
      layout="topleft"
      left_pad="3"
      name="remove_contribution"
@@ -723,7 +723,7 @@ This parcel is 512 m² of land.
     <button
      follows="bottom|right"
      height="20"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left="-90"
      name="cancel_btn"

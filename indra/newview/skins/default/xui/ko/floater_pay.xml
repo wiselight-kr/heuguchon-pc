@@ -11,11 +11,11 @@
  width="250">
    <string
     name="payee_group">
-        Pay Group
+        그룹 지불
    </string>
    <string
     name="payee_resident">
-        Pay Resident
+        거주자 지불
    </string>
 
     <text
@@ -31,7 +31,7 @@
      top="25" 
      use_ellipses="true"
      width="230">
-        Test Name That Is Extremely Long To Check Clipping
+        클리핑을 확인하는 데 매우 긴 테스트 이름
     </text>
     <button
      height="23"
@@ -77,7 +77,7 @@
      name="amount text"
      top_pad="8"
      width="180">
-        Or, choose amount:
+        또는 금액 선택:
     </text>
     <line_editor
      border_style="line"
@@ -97,7 +97,7 @@
 	 name="payment_message_label"
 	 top_pad="8"
 	 width="180">
-		Payment message (optional):
+		결제 메시지(선택 사항):
 	</text>
     <line_editor
      border_style="line"
@@ -112,7 +112,7 @@
     <button
      enabled="false"
      height="23"
-     label="Pay"
+     label="지불"
      label_selected="Pay"
      layout="topleft"
      left="20"
@@ -121,7 +121,7 @@
      width="100" />
     <button
      height="23"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_pad="10"

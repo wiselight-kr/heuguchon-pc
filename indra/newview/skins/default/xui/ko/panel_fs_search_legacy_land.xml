@@ -104,10 +104,10 @@
 			left="6"
 			name="land_category"
 			width="122">
-                <combo_box.item label="모든 카테고리" name="All" value="All"/>
-                <combo_box.item label="경매" name="Auction" value="Auction"/>
-                <combo_box.item label="본토 판매" name="Mainland" value="Mainland"/>
-                <combo_box.item label="부동산 판매" name="Estate" value="Estate"/>
+                <combo_box.item label="모든 카테고리" name="All" value="모든"/>
+                <combo_box.item label="경매" name="Auction" value="경매"/>
+                <combo_box.item label="본토 판매" name="Mainland" value="본토"/>
+                <combo_box.item label="재산 판매" name="Estate" value="재산"/>
                 <combo_box.commit_callback
                  function="CommitSearch" />
 		</combo_box>
@@ -199,10 +199,10 @@
          top_pad="1"
          name="land_sort_combo"
          width="118">
-			<combo_box.item label="이름" name="Name_item" value="Name"/>
-			<combo_box.item label="가격" name="Price_item" value="Price"/>
+			<combo_box.item label="이름" name="Name_item" value="이름"/>
+			<combo_box.item label="가격" name="Price_item" value="가격"/>
 			<combo_box.item label="미터 당 가격" name="PPM_item" value="PPM"/>
-			<combo_box.item label="지역" name="Area_item" value="Area"/>
+			<combo_box.item label="지역" name="Area_item" value="지역"/>
             <combo_box.commit_callback
              function="CommitSearch" />
 		</combo_box>

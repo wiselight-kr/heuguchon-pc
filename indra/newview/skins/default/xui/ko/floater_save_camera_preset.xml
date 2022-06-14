@@ -7,11 +7,11 @@
  name="save_camera_preset"
  positioning="centered"
  save_rect="true"
- title="Save Camera Preset"
+ title="카메라 사전설정 저장"
  width="240">
 
-    <string name="btn_label_save">Save</string>
-    <string name="btn_label_replace">Replace</string>
+    <string name="btn_label_save">저장</string>
+    <string name="btn_label_replace">대체</string>
     <radio_group
      height="85"
      layout="topleft"
@@ -20,14 +20,14 @@
      width="150"
      name="radio_save_preset">
      <radio_item
-      label="Save as a new preset"
+      label="새로운 사전설정으로 저장"
       name="new_preset"
       top="10" 
       layout="topleft"
       height="16" 
       value="0"/>
      <radio_item
-      label="Replace a preset"
+      label="사전설정 대체"
       name="replace_preset"
       layout="topleft"
       top="70" 
@@ -46,7 +46,7 @@
     <button
      follows="top|left"
      height="25"
-     label="Save"
+     label="저장"
      layout="topleft"
      top="145"
      left="10"
@@ -55,7 +55,7 @@
     <button
      follows="bottom|right"
      height="25"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="20"
      name="cancel"

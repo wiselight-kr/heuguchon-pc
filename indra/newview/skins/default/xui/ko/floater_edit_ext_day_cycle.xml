@@ -4,7 +4,7 @@
         name="env_edit_extdaycycle"
         help_topic="fs_day_cycle"
         save_rect="false"
-        title="Edit Day Cycle"
+        title="하루 주기 편집"
         width="705"
         height="620"
         min_width="705"
@@ -13,19 +13,19 @@
         can_resize="true">
 
     <!-- obsolete?, add as hint for 'save' button? -->
-    <string name="title_new">Create a New Day Cycle</string>
-    <string name="title_edit">Edit Day Cycle</string>
-    <string name="hint_new">Name your day cycle, adjust the controls to create it, and click "Save".</string>
-    <string name="hint_edit">To edit your day cycle, adjust the controls below and click "Save".</string>
+    <string name="title_new">새 하루 주기 생성</string>
+    <string name="title_edit">하루 주기 편집</string>
+    <string name="hint_new">하루 주기의 이름을 설정하십시오, 컨트롤을 조정하여 만든 다음 "저장"을 클릭합니다.</string>
+    <string name="hint_edit">일별 주기를 편집하려면 아래 컨트롤을 조정하고 "저장"을 클릭하십시오.</string>
 
     <!-- Substitutions -->
     <string name="time_label">([HH]:[MM])</string>
-    <string name="sky_track_label">Sky [ALT]</string>
-    <string name="sky_label">Sky</string>
-    <string name="water_label">Water</string>
+    <string name="sky_track_label">하늘 [ALT]</string>
+    <string name="sky_label">하늘</string>
+    <string name="water_label">물</string>
 
-    <string name="commit_parcel">Apply To Parcel</string>
-    <string name="commit_region">Apply To Region</string>
+    <string name="commit_parcel">구획에 적용</string>
+    <string name="commit_region">지역에 적용</string>
 
     <!-- Layout -->
     <layout_stack name="outer_stack"
@@ -52,7 +52,7 @@
                     left="15"
                     top="5"
                     width="105">
-                Day Cycle Name:
+                하루 주기 이름:
             </text>
             <line_editor
                     follows="top|left"
@@ -72,7 +72,7 @@
                     font="SansSerif"
                     top_delta="0"
                     name="btn_import"
-                    tool_tip="Import legacy settings from disk." 
+                    tool_tip="디스크에서 레거시 설정 가져오기." 
                     width="96" />
         </layout_panel>
         <layout_panel name="content"
@@ -105,7 +105,7 @@
                         <button
                                 follows="left|top"
                                 height="23"
-                                label="Sky 4"
+                                label="하늘 4"
                                 layout="topleft"
                                 top_pad="5"
                                 left="10"
@@ -118,7 +118,7 @@
                         <button
                                 follows="left|top"
                                 height="23"
-                                label="Sky 3"
+                                label="하늘 3"
                                 layout="topleft"
                                 top_pad="0"
                                 left="10"
@@ -131,7 +131,7 @@
                         <button
                                 follows="left|top"
                                 height="23"
-                                label="Sky 2"
+                                label="하늘 2"
                                 layout="topleft"
                                 top_pad="0"
                                 left="10"
@@ -144,7 +144,7 @@
                         <button
                                 follows="left|top"
                                 height="23"
-                                label="Ground Level"
+                                label="그라운드 레벨"
                                 layout="topleft"
                                 top_pad="0"
                                 left="10"
@@ -157,7 +157,7 @@
                         <button
                                 follows="left|top"
                                 height="23"
-                                label="Water"
+                                label="물"
                                 layout="topleft"
                                 top_pad="0"
                                 left="10"
@@ -291,7 +291,7 @@
                                         follows="top|left"
                                         height="23"
                                         width="110"
-                                        label="Clone Track From"
+                                        label="트랙 복제 시작"
                                         left="10"
                                         top_pad="10"
                                         name="copy_track" />
@@ -299,7 +299,7 @@
                                         follows="top|left"
                                         height="23"
                                         width="110"
-                                        label="Load Track From"
+                                        label="트랙 로드 시작"
                                         top_pad="0"
                                         left_delta="0"
                                         name="load_track" />
@@ -307,7 +307,7 @@
                                         follows="top|left"
                                         height="23"
                                         width="110"
-                                        label="Clear Track"
+                                        label="트랙 지우기"
                                         top_pad="0"
                                         left_delta="0"
                                         name="clear_track" />
@@ -345,7 +345,6 @@
                                             width="25">
                                         <button
                                                 name="skip_back_btn"
-                                                enabled="false"
                                                 follows="top"
                                                 image_overlay="SkipBackward_Off"
                                                 image_disabled="PushButton_Disabled"
@@ -377,7 +376,6 @@
                                             width="25">
                                         <button
                                                 name="play_btn"
-                                                enabled="false"
                                                 follows="top"
                                                 image_overlay="Play_Off"
                                                 image_disabled="PushButton_Disabled"
@@ -439,7 +437,6 @@
                                             width="25">
                                         <button
                                                 name="skip_forward_btn"
-                                                enabled="false"
                                                 follows="top"
                                                 image_overlay="SkipForward_Off"
                                                 image_disabled="PushButton_Disabled"
@@ -450,7 +447,7 @@
                                                 width="25"
                                                 height="25"
                                                 layout="topleft"
-                                                tool_tip="Step forward"
+                                                tool_tip="앞으로 전진"
                                                 top="0">
                                             <button.commit_callback
                                                     function="DayCycle.PlayActions"
@@ -476,13 +473,13 @@
                                         width="90"
                                         right="-10"
                                         top_pad="10"
-                                        label="Add [FRAME]"
+                                        label="추가 [FRAME]"
                                         name="add_frame" />
                                 <button
                                         follows="top|left"
                                         height="23"
                                         width="90"
-                                        label="Load [FRAME]"
+                                        label="로드 [FRAME]"
                                         top_pad="0"
                                         left_delta="0"
                                         name="btn_load_frame" />
@@ -490,7 +487,7 @@
                                         follows="left|top"
                                         height="23"
                                         width="90"
-                                        label="Delete [FRAME]"
+                                        label="삭제 [FRAME]"
                                         top_pad="0"
                                         left_delta="0"
                                         name="delete_frame" />
@@ -517,7 +514,7 @@
                             font="SansSerif"
                             text_color="Yellow"
                             width="600">
-                        Select a key frame from the timeline above to edit settings.
+                        위 타임라인에서 설정을 편집하려면 키 프레임을 선택하십시오.
                     </text>
                 </layout_panel>
                 <layout_panel name="frame_settings_water"
@@ -575,7 +572,7 @@
                                 height="420"
                                 class="panel_settings_atmos"
                                 filename="panel_settings_sky_atmos.xml"
-                                label="Atmosphere &amp; Lighting"
+                                label="분위기 &amp; 조명"
                                 layout="topleft"
                                 left_delta="0"
                                 top_pad="5"
@@ -584,7 +581,7 @@
                                 border="true"
                                 class="panel_settings_cloud"
                                 filename="panel_settings_sky_clouds.xml"
-                                label="Clouds"
+                                label="구름"
                                 layout="topleft"
                                 left_delta="0"
                                 top_pad="5"
@@ -593,7 +590,7 @@
                                 border="true"
                                 class="panel_settings_sunmoon"
                                 filename="panel_settings_sky_sunmoon.xml"
-                                label="Sun &amp; Moon"
+                                label="태양 &amp; 달"
                                 layout="topleft"
                                 left_delta="0"
                                 top_pad="5"
@@ -623,7 +620,7 @@
             <button
                     follows="top|left"
                     height="23"
-                    label="Save"
+                    label="저장"
                     left="200"
                     top_pad="0"
                     name="save_btn"
@@ -647,7 +644,7 @@
             <button
                     follows="top|left"
                     height="23"
-                    label="Cancel"
+                    label="취소"
                     layout="topleft"
                     left_pad="10"
                     name="cancel_btn"

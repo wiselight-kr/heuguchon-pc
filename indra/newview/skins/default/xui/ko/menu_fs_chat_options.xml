@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <toggleable_menu name="Chat Options Menu" opaque="true" visible="false">
 	<menu_item_check
-		label="Show Radar..."
+		label="레이더 표시..."
 		name="nearby_people">
 		<menu_item_check.on_click
 			function="Floater.Toggle"
@@ -11,7 +11,7 @@
 			parameter="fs_radar"/>
 	</menu_item_check>
 	<menu_item_check
-		label="Show Nearby Voice..."
+		label="주변 음성 표시..."
 		name="nearby_voice">
 		<menu_item_check.on_click
 			function="Floater.Toggle"
@@ -21,7 +21,7 @@
 			parameter="fs_voice_controls"/>
 	</menu_item_check>
 	<menu_item_check
-		label="Show Block List..."
+		label="차단 목록 표시..."
 		name="block_list">
 		<menu_item_check.on_click
 			function="ChatOptions.Action"
@@ -32,7 +32,7 @@
 	</menu_item_check>
 	<menu_item_separator/>
 	<menu_item_check
-		label="Use V1 style chat headers"
+		label="V1 스타일 채팅 헤더 사용"
 		name="plain_text_chat_history">
 		<menu_item_check.on_check
 			function="CheckControl"
@@ -42,7 +42,7 @@
 			parameter="PlainTextChatHistory"/>
 	</menu_item_check>
 	<menu_item_check
-		label="Show profile icons in chat headers"
+		label="대화 헤더에 프로필 아이콘 표시"
 		name="chat_header_icons">
 		<menu_item_check.on_check
 			function="CheckControl"
@@ -55,10 +55,10 @@
 			parameter="show_mini_icons"/>
 	</menu_item_check>
 	<context_menu
-		label="Font size..."
+		label="글꼴 크기..."
 		name="font_size">
 		<menu_item_check
-			label="Small"
+			label="작음"
 			name="font_size_small">
 			<menu_item_check.on_check
 				function="ChatOptions.Check"
@@ -68,7 +68,7 @@
 				parameter="font_size_small"/>
 		</menu_item_check>
 		<menu_item_check
-			label="Medium"
+			label="중간"
 			name="font_size_medium">
 			<menu_item_check.on_check
 				function="ChatOptions.Check"
@@ -78,7 +78,7 @@
 				parameter="font_size_medium"/>
 		</menu_item_check>
 		<menu_item_check
-			label="Large"
+			label="큼"
 			name="font_size_large">
 			<menu_item_check.on_check
 				function="ChatOptions.Check"
@@ -88,7 +88,7 @@
 				parameter="font_size_large"/>
 		</menu_item_check>
 		<menu_item_check
-			label="Huge"
+			label="거대"
 			name="font_size_huge">
 			<menu_item_check.on_check
 				function="ChatOptions.Check"
@@ -100,7 +100,7 @@
 	</context_menu>
 	<menu_item_separator/>
 	<menu_item_check
-		label="Additional chevron (&gt;) as typing indicator"
+		label="입력 표시기로 추가 쉐브론(&gt;)"
 		name="typing_chevron">
 		<menu_item_check.on_check
 			function="CheckControl"
@@ -116,7 +116,7 @@
 			parameter="typing_chevron"/>
 	</menu_item_check>
 	<menu_item_check
-		label="Show new message notification"
+		label="새 메시지 알림 표시"
 		name="new_message_notification">
 		<menu_item_check.on_check
 			function="ChatOptions.Check"
@@ -126,7 +126,7 @@
 			parameter="new_message_notification"/>
 	</menu_item_check>
 	<menu_item_check
-		label="Show chat bar"
+		label="채팅 표시줄 표시"
 		name="show_chat_bar">
 		<menu_item_check.on_check
 			function="CheckControl"
@@ -139,7 +139,7 @@
 			parameter="show_chat_bar"/>
 	</menu_item_check>
 	<menu_item_check
-		label="Show channel selection"
+		label="채널 선택 표시"
 		name="show_channel_selection">
 		<menu_item_check.on_check
 			function="CheckControl"
@@ -155,7 +155,7 @@
 			parameter="show_channel_selection"/>
 	</menu_item_check>
 	<menu_item_check
-		label="Show chat type / send button"
+		label="채팅 유형 표시/보내기 단추"
 		name="show_send_button">
 		<menu_item_check.on_check
 			function="CheckControl"
@@ -171,7 +171,7 @@
 			parameter="show_send_button"/>
 	</menu_item_check>
 	<menu_item_check
-		label="Show send button in IM sessions"
+		label="IM 세션에서 전송 버튼 표시"
 		name="show_im_send_button">
 		<menu_item_check.on_check
 			function="CheckControl"

@@ -8,7 +8,7 @@
         min_height="40"
         min_width="420"
         name="Test Floater"
-        title="LAYOUTSTACK TESTS"
+        title="레이아웃 스택 테스트"
         width="420">
     <layout_stack name="test_stack"
             left="0"
@@ -24,7 +24,7 @@
                 height="11"
                 min_height="0"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -34,7 +34,7 @@
                 min_height="0"
                 visible="false"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -44,7 +44,7 @@
                 min_height="0"
                 visible="true"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -53,7 +53,7 @@
                 height="11"
                 min_height="0"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
     </layout_stack>
     <layout_stack name="test_stack"
@@ -69,7 +69,7 @@
                 bg_alpha_color="blue"
                 height="100"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -78,7 +78,7 @@
                 bg_alpha_color="blue"
                 height="100"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="fixed"
                 auto_resize="false"
@@ -87,7 +87,7 @@
                 min_height="10"
                 bg_alpha_color="green"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="black">fixed</text>
+            <text follows="top|left|right" halign="center" text_color="black">수정된</text>
         </layout_panel>
         <layout_panel name="fixed"
                 auto_resize="false"
@@ -96,7 +96,7 @@
                 min_height="10"
                 bg_alpha_color="green"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="black">fixed</text>
+            <text follows="top|left|right" halign="center" text_color="black">수정된</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -104,7 +104,7 @@
                 bg_alpha_color="blue"
                 height="100"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -112,7 +112,7 @@
                 bg_alpha_color="blue"
                 height="100"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -120,7 +120,7 @@
                 bg_alpha_color="blue"
                 height="100"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -129,7 +129,7 @@
                 height="100"
                 visible="true"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
     </layout_stack>
     <layout_stack name="test_stack"
@@ -145,7 +145,7 @@
                 height="11"
                 bg_alpha_color="blue"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="fixed"
                 auto_resize="false"
@@ -153,7 +153,7 @@
                 height="50"
                 bg_alpha_color="green"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="black">fixed</text>
+            <text follows="top|left|right" halign="center" text_color="black">수정된</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -161,7 +161,7 @@
                 bg_alpha_color="blue"
                 height="11"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
     </layout_stack>
     <layout_stack name="test_stack"
@@ -177,7 +177,7 @@
                 height="50"
                 bg_alpha_color="green"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="black">fixed</text>
+            <text follows="top|left|right" halign="center" text_color="black">수정된</text>
         </layout_panel>
         <layout_panel name="fixed"
                 auto_resize="false"
@@ -185,7 +185,7 @@
                 height="50"
                 bg_alpha_color="green"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="black">fixed</text>
+            <text follows="top|left|right" halign="center" text_color="black">수정된</text>
         </layout_panel>
         <layout_panel name="fixed"
                 auto_resize="false"
@@ -193,7 +193,7 @@
                 height="50"
                 bg_alpha_color="green"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="black">fixed</text>
+            <text follows="top|left|right" halign="center" text_color="black">수정된</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -202,7 +202,7 @@
                 height="11"
                 min_height="0"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -211,7 +211,7 @@
                 height="11"
                 min_height="0"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
         <layout_panel name="flex"
                 auto_resize="true"
@@ -220,7 +220,7 @@
                 height="11"
                 min_height="0"
                 background_visible="true">
-            <text follows="top|left|right" halign="center" text_color="white">flex</text>
+            <text follows="top|left|right" halign="center" text_color="white">플렉스</text>
         </layout_panel>
     </layout_stack>
 </floater>

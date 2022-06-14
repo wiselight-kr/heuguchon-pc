@@ -3,29 +3,29 @@
  name="linkreplace"
  help_topic="fs_linkreplace"
  positioning="centered"
- title="Replace Inventory Links"
+ title="인벤토리 링크 바꾸기"
  width="333"
  height="150"
  save_rect="true"
  can_minimize="true"
  can_close="true">
 	<string name="Ready">
-		Ready...
+		준비...
 	</string>
 	<string name="TargetNotFound">
-		Target item not found.
+		대상 항목을 찾을 수 없습니다.
 	</string>
 	<string name="ItemsIdentical">
-		Source and target are identical.
+		소스와 대상이 동일합니다.
 	</string>
 	<string name="ItemsFound">
-		Found [NUM] inventory links.
+		[NUM] 인벤토리 링크 발견.
 	</string>
 	<string name="ItemsRemaining">
-		Links remaining: [NUM]
+		남은 링크: [NUM]
 	</string>
 	<string name="ReplaceFinished">
-		Finished replacing inventory links.
+		재고 링크 교체가 완료되었습니다..
 	</string>
 	<text
 	 type="string"
@@ -37,7 +37,7 @@
 	 width="35"
 	 name="source_label"
 	 top="10">
-		Old:
+		나이:
 	</text>
 	<inventory_link_replace_drop_target
 	 name="source_uuid_editor"
@@ -48,7 +48,7 @@
 	 max_length_bytes="255"
 	 top_delta="-3"
 	 right="-10"
-	 tool_tip="Drag and drop the current inventory item here that should be replaced."/>
+	 tool_tip="교체할 현재 재고 품목을 여기에 끌어다 놓으십시오."/>
 	<text
 	 type="string"
 	 follows="left|top"
@@ -59,7 +59,7 @@
 	 left="10"
 	 right="-10"
 	 name="delete_text">
-		Links to this item will be removed.
+		이 품목에 대한 링크가 제거됩니다.
 	</text>
 	<text
 	 type="string"
@@ -71,7 +71,7 @@
 	 width="35"
 	 name="target_label"
 	 top_delta="0">
-		New:
+		새로운:
 	</text>
 	<inventory_link_replace_drop_target
 	 name="target_uuid_editor"
@@ -82,11 +82,11 @@
 	 max_length_bytes="255"
 	 top_delta="-3"
 	 right="-10"
-	 tool_tip="Drag and drop new inventory item here."/>
+	 tool_tip="새 재고 항목을 여기에 끌어다 놓으십시오."/>
 	<check_box
 	 follows="top|left"
 	 height="20"
-	 label="Delete links only"
+	 label="링크만 삭제"
 	 left="10"
 	 right="-10"
 	 layout="topleft"
@@ -102,7 +102,7 @@
 	 right="-10"
 	 name="status_text"
 	 top_pad="10">
-		Ready...
+		준비...
 	</text>
 	<button
 	 top_pad="5"
@@ -113,7 +113,7 @@
 	 mouse_opaque="true"
 	 halign="center"
 	 name="btn_refresh"
-	 label="Refresh"/>
+	 label="새로고침"/>
 	<button
 	 top_delta="0"
 	 right="-10"
@@ -123,5 +123,5 @@
 	 mouse_opaque="true"
 	 halign="center"
 	 name="btn_start"
-	 label="Start"/>
+	 label="시작"/>
 </floater>

@@ -3,7 +3,7 @@
 <strings>
 
 	<!-- Locale Information -->
-	<string name="MicrosoftLocale">english</string>
+	<string name="MicrosoftLocale">영어</string>
 	<string name="MacLocale">C</string>
 	<string name="DarwinLocale">C</string>
 	<string name="LinuxLocale">C</string>

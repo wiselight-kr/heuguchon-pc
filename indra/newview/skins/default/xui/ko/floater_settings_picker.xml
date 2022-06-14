@@ -9,34 +9,34 @@
         min_width="225"
         name="settings picker"
         help_topic="settings_picker"
-        title="Select Settings"
+        title="선택 설정"
         width="225">
 
     <!--  top static -->
     <floater.string
             name="pick title">
-        Pick:
+        선택:
     </floater.string>
     <floater.string
             name="pick_track">
-        Select Track
+        트랙 선택
     </floater.string>
     <floater.string
             name="pick_settings">
-        Select Settings
+        설정 선택
     </floater.string>
 
     <floater.string
             name="track_water">
-        Water
+        물
     </floater.string>
     <floater.string
             name="track_ground">
-        Ground
+        땅
     </floater.string>
     <floater.string
             name="track_sky">
-        Sky[NUM]
+        하늘[NUM]
     </floater.string>
 
     <layout_stack name="test_stack"
@@ -58,7 +58,7 @@
             <filter_editor
                     follows="left|top|right"
                     height="23"
-                    label="Filter Settings"
+                    label="필터 설정"
                     layout="topleft"
                     left="4"
                     name="flt_inventory_search"
@@ -131,7 +131,7 @@
             <button
                     follows="top|left"
                     height="20"
-                    label="Cancel"
+                    label="취소"
                     label_selected="Cancel"
                     layout="topleft"
                     left_delta="110"

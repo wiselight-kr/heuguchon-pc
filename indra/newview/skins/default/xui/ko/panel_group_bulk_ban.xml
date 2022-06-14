@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <panel
  height="330"
- label="Ban Residents"
+ label="거주자 금지"
  layout="topleft"
  left="0"
  name="bulk_ban_panel"
@@ -9,41 +9,41 @@
  width="210">
   <panel.string
    name="loading">
-    (loading...)
+    (로딩중...)
   </panel.string>
   <panel.string
      name="ban_selection_too_large">
-    Group bans not sent: too many Residents selected. Group bans are limited to 100 per request.
+    그룹 금지가 전송되지 않았습니다. 너무 많은 거주자를 선택했습니다. 그룹 금지는 요청당 100개로 제한됩니다.
   </panel.string>
   <panel.string
      name="ban_not_permitted">
-    Group ban not sent: you do not have 'Manage ban list' ability.
+    그룹 금지가 전송되지 않음: '금지 목록 관리' 기능이 없습니다.
   </panel.string>
   <panel.string
      name="ban_limit_fail">
-    Group ban not sent: your group have reached limit of allowed ban records.
+    그룹 금지가 전송되지 않음: 그룹이 허용된 금지 레코드 제한에 도달했습니다.
   </panel.string>
   <panel.string
      name="partial_ban">
-    Some group bans were not sent:
+    일부 그룹 금지가 전송되지 않았습니다:
 [REASONS]
   </panel.string>
   <panel.string
      name="ban_failed">
-    Group bans were not sent:
+    그룹 금지가 전송되지 않았습니다:
 [REASONS]
   </panel.string>
   <panel.string
      name="residents_already_banned">
-    - The following resident(s) are already banned: [RESIDENTS].
+    - 다음 거주자가 이미 금지되었습니다: [RESIDENTS].
   </panel.string>
   <panel.string
      name="ban_limit_reached">
-    - Ban limit reached, following agents not banned: [RESIDENTS].
+    - 금지되지 않은 에이전트에 이어 금지 제한에 도달했습니다: [RESIDENTS].
   </panel.string>
   <panel.string
      name="cant_ban_yourself">
-    - You cannot ban yourself from a group.
+    - 그룹에서 자신을 금지할 수 없습니다.
   </panel.string>
   <text
    type="string"
@@ -55,11 +55,11 @@
    top="28"
    word_wrap="true"
    width="200">
-    You can select multiple Residents to ban from your group. Click &apos;Open Resident Chooser&apos; to start.
+    그룹에서 금지할 여러 거주자를 선택할 수 있습니다. 클릭 &apos; 시작하려면 거주자 선택 도구 열기.
   </text>
   <button
    height="20"
-   label="Open Resident Chooser"
+   label="거주자 선택 도구 열기"
    layout="topleft"
    left_delta="-2"
    name="add_button"
@@ -73,21 +73,21 @@
    left_delta="0"
    multi_select="true"
    name="banned_agent_list"
-   tool_tip="Hold the Ctrl key and click Resident names to multi-select"
+   tool_tip="Ctrl 키를 누른 상태에서 거주자 이름을 클릭하여 다중 선택"
    top_pad="4"
    width="200" />
   <button
    height="20"
-   label="Remove Selected from List"
+   label="목록에서 선택 항목 제거"
    layout="topleft"
    left_delta="0"
    name="remove_button"
-   tool_tip="Removes the Residents selected above from the ban list"
+   tool_tip="위에서 선택한 거주자를 금지 목록에서 제거합니다."
    top_pad="4"
    width="200" />
   <button
    height="20"
-   label="Ban Residents"
+   label="거주자 금지"
    layout="topleft"
    left="4"
    name="ban_button"
@@ -95,7 +95,7 @@
    width="135" />
   <button
    height="20"
-   label="Cancel"
+   label="취소"
    layout="topleft"
    left_pad="2"
    name="cancel_button"
@@ -103,6 +103,6 @@
    width="65" />
   <string
   name="GroupBulkBan">
-    Group Ban
+    그룹 금지
   </string>
 </panel>

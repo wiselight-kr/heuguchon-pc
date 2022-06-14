@@ -38,7 +38,7 @@
      height="18"
      width="18"
      tab_stop="false"
-     tool_tip="Remove from outfit" />
+     tool_tip="의상에서 제거" />
     <icon
      height="16"
      follows="top|left"
@@ -90,7 +90,7 @@
      height="23"
      width="23"
      tab_stop="false"
-     tool_tip="You don't have permission to edit">
+     tool_tip="편집할 권한이 없습니다.">
         <icon 
          name="btn_lock1"
          layout="topleft"
@@ -122,7 +122,7 @@
          height="23"
          width="23"
          tab_stop="false"
-         tool_tip="Edit this wearable"/>
+         tool_tip="이 의상 편집"/>
       </panel>
     <icon
      follows="left|right|top"

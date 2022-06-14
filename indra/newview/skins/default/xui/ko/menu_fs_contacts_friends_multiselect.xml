@@ -3,21 +3,21 @@
  layout="topleft"
  name="Friends Popup">  
     <menu_item_call
-     label="Send IM..."
+     label="IM 표시..."
      layout="topleft"
      name="send_im">
         <menu_item_call.on_click
          function="Contacts.Friends.SendIM"/>
     </menu_item_call>
     <menu_item_call
-     label="Add to Set..."
+     label="집합에 추가..."
      layout="topleft"
      name="Add to Set">
         <menu_item_call.on_click
          function="Contacts.Friends.AddToContactSet"/>
     </menu_item_call>
     <menu_item_call
-     label="Offer Teleport"
+     label="순간이동 제공"
      layout="topleft"
      name="offer_teleport">
         <menu_item_call.on_click
@@ -27,7 +27,7 @@
          parameter="offer_teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Remove Friends..."
+     label="친구 삭제..."
      layout="topleft"
      name="remove_friend">
         <menu_item_call.on_click
@@ -39,7 +39,7 @@
     <menu_item_separator/>
     <menu name="options" label="Options...">
         <menu_item_check
-         label="Show username column"
+         label="유저 이름 열 표시"
          name="show_username">
             <menu_item_check.on_click
              function="ToggleControl"
@@ -51,7 +51,7 @@
              parameter="FSFriendListColumnShowUserName"/>
         </menu_item_check>
         <menu_item_check
-         label="Show display name column"
+         label="표시 이름 열 표시"
          name="show_displayname">
             <menu_item_check.on_click
              function="ToggleControl"
@@ -63,7 +63,7 @@
              parameter="FSFriendListColumnShowDisplayName"/>
         </menu_item_check>
         <menu_item_check
-         label="Show full name column"
+         label="전체 이름 열 표시"
          name="show_fullname">
             <menu_item_check.on_click
              function="ToggleControl"
@@ -75,7 +75,7 @@
              parameter="FSFriendListColumnShowFullName"/>
         </menu_item_check>
         <menu_item_check
-         label="Show permission columns"
+         label="권한 열 표시"
          name="show_permissions">
             <menu_item_check.on_click
              function="ToggleControl"
@@ -85,7 +85,7 @@
         </menu_item_check>
         <menu_item_separator/>
         <menu_item_check
-         label="Sort by username"
+         label="사용자 이름별로 정렬"
          name="sort_by_username">
             <menu_item_check.on_click
              function="Contacts.Friends.SelectOption"
@@ -95,7 +95,7 @@
              parameter="sort_by_username"/>
         </menu_item_check>
         <menu_item_check
-         label="Sort by display name"
+         label="표시 이름별로 정렬"
          name="sort_by_displayname">
             <menu_item_check.on_click
              function="Contacts.Friends.SelectOption"
@@ -106,7 +106,7 @@
         </menu_item_check>
         <menu_item_separator/>
         <menu_item_check
-         label="Full name format Username (Display name)"
+         label="전체 이름 형식 사용자 이름(표시 이름)"
          name="format_username_displayname">
             <menu_item_check.on_click
              function="Contacts.Friends.SelectOption"
@@ -119,7 +119,7 @@
              parameter="FSFriendListFullNameFormat"/>
         </menu_item_check>
         <menu_item_check
-         label="Full name format Display name (Username)"
+         label="전체 이름 형식 표시 이름(사용자 이름)"
          name="format_displayname_username">
             <menu_item_check.on_click
              function="Contacts.Friends.SelectOption"
@@ -133,7 +133,7 @@
         </menu_item_check>
         <menu_item_separator/>
         <menu_item_check
-         label="Show search filter"
+         label="검색 필터 표시"
          name="friend_filter">
             <menu_item_check.on_click
              function="ToggleControl"
@@ -144,7 +144,7 @@
     </menu>
     <menu_item_separator/>
     <menu_item_check
-     label="Online status for friends visible"
+     label="친구의 온라인 상태 표시"
      name="GlobalOnlineStatusToggle">
         <menu_item_check.on_click
          function="TogglePerAccountControl"

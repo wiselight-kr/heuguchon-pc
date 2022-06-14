@@ -4,7 +4,7 @@
  layout="topleft"
  name="Avatar Pie">
     <menu_item_call
-     label="View Profile"
+     label="프로필 보기"
      name="Profile...">
         <menu_item_call.on_click
          function="ShowAgentProfile"
@@ -14,7 +14,7 @@
     </menu_item_call>
    <menu_item_call
      enabled="false"
-     label="친구추가"
+     label="친구 추가"
      name="Add Friend">
         <menu_item_call.on_click
          function="Avatar.AddFriend" />
@@ -22,7 +22,7 @@
          function="Avatar.EnableAddFriend" />
     </menu_item_call>
 	<menu_item_call
-	 label="Add to Set"
+	 label="집합에 추가"
 	 layout="topleft"
 	 name="Add to Set">
 		<menu_item_call.on_click
@@ -39,7 +39,7 @@
          function="RLV.CanShowName" />
     </menu_item_call>
     <menu_item_call
-     label="Give Calling Card"
+     label="전화 카드 주기"
      name="Give Calling Card">
         <menu_item_call.on_click
          function="Avatar.GiveCard" />
@@ -47,7 +47,7 @@
          function="RLV.CanShowName" />
     </menu_item_call>
     <menu_item_call
-     label="Call"
+     label="전화"
      name="Call">
         <menu_item_call.on_click
          function="Avatar.Call" />
@@ -55,7 +55,7 @@
          function="Avatar.EnableCall" />
     </menu_item_call>
       <menu_item_call
-         label="Invite to Group"
+         label="그룹에 초대"
          name="Invite...">
         <menu_item_call.on_click
          function="Avatar.InviteToGroup" />
@@ -64,21 +64,21 @@
       </menu_item_call>
    <menu_item_separator />
 
-     <menu_item_call label="Reset Skeleton"
+     <menu_item_call label="뼈대 초기화"
        layout="topleft"
        name="Reset Skeleton">
        <menu_item_call.on_click
         function="Avatar.ResetSkeleton" />
      </menu_item_call>
 
-     <menu_item_call label="Reset Skeleton And Animations"
+     <menu_item_call label="뼈대와 애니메이션 초기화"
        layout="topleft"
        name="Reset Skeleton And Animations">
        <menu_item_call.on_click
         function="Avatar.ResetSkeletonAndAnimations" />
      </menu_item_call>
 
-     <menu_item_call label="Reset Mesh LOD"
+     <menu_item_call label="메쉬 LOD 초기화"
        layout="topleft"
        name="Reset Mesh LOD">
        <menu_item_call.on_click
@@ -87,11 +87,11 @@
 
    <menu_item_separator />
   <context_menu
-         label="Annoyance"
+         label="귀찮음"
          name="Annoyance">
     <menu_item_call
      enabled="true"
-     label="Block"
+     label="차단"
      name="Avatar Mute">
         <menu_item_call.on_click
          function="Avatar.Mute" />
@@ -101,7 +101,7 @@
     <!-- <FS:Zi> Add unblock menu entry since renaming the context menu item doesn't seem to work -->
     <menu_item_call
      enabled="true"
-     label="Unblock"
+     label="차단 해제"
      name="Avatar Unmute">
         <menu_item_call.on_click
          function="Avatar.Mute" />
@@ -110,13 +110,13 @@
     </menu_item_call>
     <!-- </FS:Zi> -->
     <menu_item_call
-     label="Report"
+     label="신고"
      name="abuse">
         <menu_item_call.on_click
          function="Avatar.ReportAbuse" />
     </menu_item_call>
         <menu_item_call
-         label="Freeze"
+         label="얼리기"
          name="Freeze...">
             <menu_item_call.on_click
              function="Avatar.Freeze" />
@@ -124,7 +124,7 @@
              function="Avatar.EnableFreezeEject"/>
     </menu_item_call>
     <menu_item_call
-         label="Eject"
+         label="내쫓기"
          name="Eject...">
             <menu_item_call.on_click
              function="Avatar.Eject" />
@@ -133,7 +133,7 @@
     </menu_item_call>
    </context_menu>	
     <menu_item_call
-		 label="Dump XML"
+		 label="덤프 XML"
          name="Dump XML">
             <menu_item_call.on_click
              function="Advanced.AppearanceToXML" />
@@ -141,7 +141,7 @@
              function="Advanced.EnableAppearanceToXML"/>
     </menu_item_call>
 	    <menu_item_call
-         label="Zoom In"
+         label="확대"
           name="Zoom In">
         <menu_item_call.on_click
            function="Tools.LookAtSelection"
@@ -149,7 +149,7 @@
     </menu_item_call>
    <menu_item_call
      enabled="false"
-     label="Pay"
+     label="결제"
      name="Pay...">
         <menu_item_call.on_click
          function="PayObject" />
@@ -158,7 +158,7 @@
     </menu_item_call>
    <menu_item_separator />
    <menu_item_call
-       label="Object Profile"
+       label="개체 프로필"
        name="Object Inspect">
          <menu_item_call.on_click
           function="Object.Inspect" />
@@ -169,18 +169,18 @@
    <menu_item_separator />
     
       <menu_item_check
-        name="AlwaysRenderFully"
-        label="Always Display Full Detail">
+        name="RenderNormally"
+        label="정상적으로 렌더링">
         <menu_item_check.on_check
           function="Avatar.CheckImpostorMode"
-          parameter="2" />
+          parameter="0" />
 	    <menu_item_check.on_click
 	      function="Avatar.SetImpostorMode"
-	      parameter="2" />
+	      parameter="0" />
       </menu_item_check>
       <menu_item_check
         name="DoNotRender"
-        label="Never Display Full Detail">
+        label="렌더링 하지 않음">
         <menu_item_check.on_check
           function="Avatar.CheckImpostorMode"
           parameter="1" />
@@ -189,19 +189,19 @@
 	      parameter="1" />
       </menu_item_check>
       <menu_item_check
-        name="RenderNormally"
-        label="Remove From Display Exceptions">
-        <menu_item_check.on_visible
+        name="AlwaysRenderFully"
+        label="전체 렌더링">
+        <menu_item_check.on_check
           function="Avatar.CheckImpostorMode"
-          parameter="4" />
+          parameter="2" />
 	    <menu_item_check.on_click
 	      function="Avatar.SetImpostorMode"
-	      parameter="0" />
+	      parameter="2" />
       </menu_item_check>
 
   <menu_item_call
      enabled="false"
-     label="Block Particle Owner"
+     label="블록 입자 소유자"
      name="Mute Particle">
     <menu_item_call.on_click
      function="Particle.Mute" />
@@ -209,7 +209,7 @@
      function="EnableMuteParticle" />
   </menu_item_call>
    <menu_item_call
-         label="Inspect"
+         label="조사"
          name="Object_Inspect_Floater">
         <menu_item_call.on_click
          function="Floater.Show"
@@ -217,7 +217,7 @@
       </menu_item_call>
   <menu_item_call 
       enabled="true"
-      label="Script Info"
+      label="스크립트 정보"
       name="ScriptInfo">
       <menu_item_call.on_click
        function="Tools.ScriptInfo" />
@@ -226,36 +226,36 @@
   </menu_item_call>
     <menu_item_call 
     enabled="true"
-    label="Derender"
+    label="디렌더"
     name="Derender">
     <menu_item_call.on_click
        function="Object.Derender" />
     </menu_item_call>
    <menu_item_call
       enabled="true"
-      label="Derender + Blacklist"
+      label="디렌더 + 블랙리스트"
       name="DerenderPermanent">
     <menu_item_call.on_click
       function="Object.DerenderPermanent" />
    </menu_item_call>
     <menu_item_call
-         label="Show Textures"
+         label="텍스트 표시"
          name="Debug...">
             <menu_item_call.on_click
              function="Avatar.Debug" />
     </menu_item_call>
     <menu_item_call 
     enabled="true"
-    label="Texture Refresh"
+    label="텍스쳐 새로고침"
     name="Texture Refresh">
   <menu_item_call.on_click
        function="Object.TexRefresh" />
     </menu_item_call>
     <context_menu
-		label="Save as"
+		label="다른 이름으로 저장"
 		name="Export Menu">
 		<menu_item_call
-			label="Backup"
+			label="백업"
 			name="Backup">
 			<menu_item_call.on_click
 			function="Object.Export" />
@@ -263,7 +263,7 @@
 			function="Object.EnableExport" />
 		</menu_item_call>
 		<menu_item_call
-			label="Collada"
+			label="콜라다"
 			name="Collada">
 			<menu_item_call.on_click
 			function="Object.ExportCollada" />

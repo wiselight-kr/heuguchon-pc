@@ -37,31 +37,31 @@
      value="Conv_toolbar_arrow_sw"/>
     <floater.string
      name="participant_added"
-     value="[NAME] was invited to the conversation."/>
+     value="[NAME] 대화에 초대되었습니다."/>
     <floater.string
      name="multiple_participants_added"
-     value="[NAME] were invited to the conversation."/>
+     value="[NAME] 대화에 초대되었습니다."/>
     <floater.string
      name="tooltip_to_separate_window"
-     value="Move this conversation to a separate window"/>
+     value="이 대화를 다른 창으로 이동"/>
     <floater.string
      name="tooltip_to_main_window"
-     value="Move this conversation back to main window"/>
+     value="이 대화를 기본 창으로 다시 이동"/>
     <floater.string
      name="start_call_button_tooltip"
-     value="Open voice connection"/>
+     value="개방형 음성 연결"/>
     <floater.string
      name="end_call_button_tooltip"
-     value="Close voice connection"/>
+     value="음성 연결 닫기"/>
     <floater.string
      name="expcol_button_not_tearoff_tooltip"
-     value="Collapse this pane"/>
+     value="이 창 접기"/>
     <floater.string
      name="expcol_button_tearoff_and_expanded_tooltip"
-     value="Collapse participant list"/>
+     value="참가자 목록 축소"/>
     <floater.string
      name="expcol_button_tearoff_and_collapsed_tooltip"
-     value="Expand participant list"/>
+     value="참가자 목록 펼치기"/>
     <view
      follows="all"
      layout="topleft"
@@ -97,7 +97,7 @@
                  layout="topleft"
                  left="5"
                  name="view_options_btn"
-                 tool_tip="View/sort options"
+                 tool_tip="옵션 보기/정렬"
                  top="1"
                  width="31" />
                 <menu_button
@@ -113,7 +113,7 @@
                  left_pad="2"
                  name="gear_btn"
                  visible="false"
-                 tool_tip="Actions on selected person"
+                 tool_tip="선택한 사용자에 대한 작업"
                  width="31"/>
                 <button
                  enabled="false"
@@ -127,7 +127,7 @@
                  top="1"
                  left_pad="2"
                  name="add_btn"
-                 tool_tip="Add someone to this conversation"
+                 tool_tip="대화에 사용자 추가"
                  width="31"/>
                 <button
                  follows="top|left"
@@ -140,7 +140,7 @@
                  top="1"
                  left_pad="2"
                  name="voice_call_btn"
-                 tool_tip="Open voice connection"
+                 tool_tip="개방형 음성 연결"
                  width="31"/>                
                 <button
                  follows="right|top"
@@ -153,7 +153,7 @@
                  top="1"
                  right="-70"
                  name="close_btn"
-                 tool_tip="End this conversation"
+                 tool_tip="대화 종료"
                  width="31" />
                 <button
                  follows="right|top"
@@ -166,7 +166,7 @@
                  top="1"
                  left_pad="2"
                  name="expand_collapse_btn"
-                 tool_tip="Collapse/Expand this pane"
+                 tool_tip="이 창 붕괴/확장"
                  width="31" />
                 <button
                  follows="right|top"
@@ -229,7 +229,7 @@
                                  control_name="TranslateChat"
                                  enabled="true"
                                  height="16"
-                                 label="Translate chat"
+                                 label="대화 번역"
                                  left="5"
                                  name="translate_chat_checkbox"
                                  width="230" />
@@ -328,7 +328,7 @@
                          image_selected="Toolbar_Middle_Selected"
                          image_unselected="Toolbar_Middle_Off"
                          name="minz_btn"
-                         tool_tip="Shows/hides message panel"
+                         tool_tip="메시지 패널 표시/숨기기 "
                          width="28" />
                     </layout_panel>
                 </layout_stack>

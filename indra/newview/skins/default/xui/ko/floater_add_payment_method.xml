@@ -19,7 +19,7 @@
   </floater.string>
   <panel
    background_opaque="false"
-   bg_alpha_color="PanelGray"
+   bg_alpha_color="AddPaymentPanel"
    border_visible="false"
    background_visible="true"
    label="wrapper_panel"
@@ -44,7 +44,7 @@
      width="900"
      halign="center"
      name="title_txt">
-      Add a payment method to buy Linden dollars and enjoy more of Second Life.
+      지불 방법을 추가하여 Linden 달러를 구입하고 Second Life를 더 즐기십시오.
     </text>
     <button
      follows="top|left|right"
@@ -106,7 +106,7 @@
      word_wrap="true"
      left="30"
      name="image_left_desc">
-      Create an avatar you love. Choose from millions of items in stores and the Second Life Marketplace. Your style is here.
+      좋아하는 아바타를 만드세요. 상점과 Second Life Marketplace에 있는 수백만 개의 아이템 중에서 선택하세요. 당신의 스타일은 여기 있습니다.
     </text>
     <text
      type="string"
@@ -120,7 +120,7 @@
      word_wrap="true"
      left_pad="30"
      name="image_center_desc">
-      Donate to your favorite performers and hosts. Your support helps them create great experiences.
+      좋아하는 공연자와 호스트에게 기부하세요. 여러분의 지원은 그들이 훌륭한 경험을 만드는 것을 돕습니다.
     </text>
     <text
      type="string"
@@ -134,7 +134,7 @@
      word_wrap="true"
      left_pad="30"
      name="image_right_desc">
-      Make the home of your dreams. With millions of items available to purchase, you can make your retreat unique.
+      당신의 꿈의 집을 만드세요. 수백만 개의 아이템을 구매할 수 있어 독특한 휴양지를 만들 수 있습니다.
     </text>
   </panel>
 </floater>

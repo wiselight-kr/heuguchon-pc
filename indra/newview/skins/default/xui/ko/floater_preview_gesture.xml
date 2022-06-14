@@ -10,35 +10,35 @@
  width="280">
     <floater.string
      name="step_anim">
-        Animation to play:
+        재생할 애니메이션:
     </floater.string>
     <floater.string
      name="step_sound">
-        Sound to play:
+        재생할 소리:
     </floater.string>
     <floater.string
      name="step_chat">
-        Chat to say:
+        채팅으로 대화:
     </floater.string>
     <floater.string
      name="step_wait">
-        Wait:
+        대기:
     </floater.string>
     <floater.string
      name="stop_txt">
-        Stop
+        정지
     </floater.string>
     <floater.string
      name="preview_txt">
-        Preview
+        미리보기
     </floater.string>
     <floater.string
      name="none_text">
-        -- None --
+        -- 없음 --
     </floater.string>
     <floater.string
      name="Title">
-        Gesture: [NAME]
+        제스쳐: [NAME]
     </floater.string>
     <text
      type="string"
@@ -52,7 +52,7 @@
      top_pad="25"
      font.style="BOLD"
      width="105">
-        Description:
+        묘사:
     </text>
     <line_editor
      follows="left|top"
@@ -74,7 +74,7 @@
      name="trigger_label"
      top_pad="10"
      width="100">
-        Trigger:
+        방아쇠:
     </text>
     <line_editor
      follows="left|top"
@@ -95,10 +95,10 @@
      left="10"
      font.style="BOLD"
      name="replace_text"
-     tool_tip="Replace the trigger word(s) with these words. For example, trigger &apos;hello&apos; replace with &apos;howdy&apos; will turn the chat &apos;I wanted to say hello&apos; into &apos;I wanted to say howdy&apos; as well as playing the gesture!"
+     tool_tip="이렇게 말하고 방아쇠 단어를 교체합니다.예를 들어, 방아쇠 &apos; 안녕 &apos; 대체 &apos; 오랜만이네&apos; 채팅을 할거야 &apos;반갑다고 말하고싶어&apos;  &apos;어떻게 지내냐고 묻고싶어&apos; 제스처뿐만 아니라!"
      top_pad="10"
      width="215">
-        Replace with:
+        다음으로 대체:
     </text>
     <line_editor
      follows="left|top"
@@ -107,7 +107,7 @@
      left_delta="104"
      max_length_bytes="63"
      name="replace_editor"
-     tool_tip="Replace the trigger word(s) with these words. For example, trigger &apos;hello&apos; replace with &apos;howdy&apos; will turn the chat &apos;I wanted to say hello&apos; into &apos;I wanted to say howdy&apos; as well as playing the gesture"
+     tool_tip="이렇게 말하고 방아쇠 단어를 교체합니다.예를 들어, 방아쇠 &apos; 안녕 &apos; 대체 &apos; 오랜만이네&apos; 채팅을 할거야 &apos;반갑다고 말하고싶어&apos;  &apos;어떻게 지내냐고 묻고싶어&apos; 제스처뿐만 아니라!"
      top_delta="-4"
      width="160" />
     <text
@@ -122,11 +122,11 @@
      name="key_label"
      top_pad="10"
      width="130">
-        Shortcut Key:
+        바로가기 키:
     </text>
     <combo_box
      height="20"
-     label="None"
+     label="없음"
      layout="topleft"
      left_delta="135"
      name="modifier_combo"
@@ -134,7 +134,7 @@
      width="55" />
     <combo_box
      height="20"
-     label="None"
+     label="없음"
      layout="topleft"
      left_pad="4"
      name="key_combo"
@@ -152,7 +152,7 @@
      name="library_label"
      top_delta="25"
      width="100">
-        Library:
+        도서관:
     </text>
     <scroll_list
      follows="top|left"
@@ -178,7 +178,7 @@
     <button
      follows="top|left"
      height="20"
-     label="Add &gt;&gt;"
+     label="추가 &gt;&gt;"
      layout="topleft"
      left_pad="10"
      name="add_btn"
@@ -196,7 +196,7 @@
      name="steps_label"
      top_pad="50"
      width="100">
-        Steps:
+        단계:
     </text>
     <scroll_list
      follows="top|left"
@@ -209,7 +209,7 @@
     <button
      follows="top|left"
      height="20"
-     label="Up"
+     label="위"
      layout="topleft"
      left_pad="10"
      name="up_btn"
@@ -218,7 +218,7 @@
     <button
      follows="top|left"
      height="20"
-     label="Down"
+     label="아래"
      layout="topleft"
      left_delta="0"
      name="down_btn"
@@ -227,7 +227,7 @@
     <button
      follows="top|left"
      height="20"
-     label="Remove"
+     label="제거"
      layout="topleft"
      left_delta="0"
      name="delete_btn"
@@ -241,7 +241,7 @@
      name="options_text"
      top="315"
      width="205">
-	 (options)
+	 (옵션)
 	 </text>
     <combo_box
      follows="top|left"
@@ -278,7 +278,7 @@
      width="80">
         <radio_item
          height="16"
-         label="Start"
+         label="시작"
          layout="topleft"
          left="3"
          name="start"
@@ -286,7 +286,7 @@
          width="80" />
         <radio_item
          height="16"
-         label="Stop"
+         label="정지"
          layout="topleft"
          left_delta="0"
          name="stop"
@@ -296,7 +296,7 @@
     <check_box
      follows="top|left"
      height="20"
-     label="until animations are done"
+     label="애니메이션이 완성될 때까지"
      layout="topleft"
      left="28"
      name="wait_anim_check"
@@ -305,7 +305,7 @@
     <check_box
      follows="top|left"
      height="20"
-     label="time in seconds:"
+     label="초 단위의 시간:"
      layout="topleft"
      left_delta="0"
      name="wait_time_check"
@@ -332,22 +332,22 @@
      top_pad="20"
      word_wrap="true"
      width="265">
-        All steps happen simultaneously, unless you add wait steps.
+        대기 단계를 추가하지 않는 한 모든 단계가 동시에 발생합니다.
     </text>
     <check_box
      follows="top|left"
      height="20"
-     label="Active"
+     label="활동적인"
      layout="topleft"
      left="20"
      name="active_check"
-     tool_tip="Active gestures can be triggered by chatting their trigger phrases or pressing their hot keys.  Gestures usually become inactive when there is a key binding conflict."
+     tool_tip="활성 제스처는 트리거 구문을 채팅하거나 단축 키를 눌러 트리거할 수 있습니다. 일반적으로 키 바인딩 충돌이 있을 경우 제스처가 비활성화됩니다."
      top_pad="0"
      width="100" />
     <button
      follows="top|left"
      height="20"
-     label="Preview"
+     label="미리보기"
      layout="topleft"
      left_delta="75"
      name="preview_btn"
@@ -356,7 +356,7 @@
     <button
      follows="top|left"
      height="20"
-     label="Save"
+     label="저장"
      layout="topleft"
      left_pad="10"
      name="save_btn"

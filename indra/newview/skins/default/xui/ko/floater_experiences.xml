@@ -12,7 +12,7 @@
   name="floater_experiences"
   save_rect="true"
   single_instance="true"
-  title="Experiences">
+  title="경험">
   <tab_container
     top="3"
     left="3"

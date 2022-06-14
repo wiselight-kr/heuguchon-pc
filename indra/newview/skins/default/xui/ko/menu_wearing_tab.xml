@@ -3,28 +3,28 @@
  layout="topleft"
  name="Wearing">
     <menu_item_call
-     label="Touch"
+     label="터치"
      layout="topleft"
      name="touch_attach">
         <on_click
          function="Wearing.TouchAttach" />
     </menu_item_call>
     <menu_item_call
-     label="Edit"
+     label="편집"
      layout="topleft"
      name="edit_item">
         <on_click
          function="Wearing.EditItem" />
     </menu_item_call>
     <menu_item_call
-     label="Take Off"
+     label="벗기"
      layout="topleft"
      name="take_off">
         <on_click
          function="Wearing.TakeOff" />
     </menu_item_call>
     <menu_item_call
-     label="Detach"
+     label="탈착"
      layout="topleft"
      name="detach">
         <on_click
@@ -32,7 +32,7 @@
          parameter="detach"/>
     </menu_item_call>
     <menu_item_call
-     label="Take Off / Detach"
+     label="벗기 / 탈착"
      layout="topleft"
      name="take_off_or_detach">
         <on_click
@@ -42,17 +42,14 @@
      layout="topleft"
      name="edit_outfit_separator" />
     <menu_item_call
-     label="Show Original"
+     label="원본 표시"
      layout="topleft"
      name="show_original">
         <on_click
          function="Wearing.ShowOriginal" />
-        <on_enable
-         function="RLV.EnableIfNot"
-         parameter="showinv"/>
     </menu_item_call>
     <menu_item_call
-     label="Edit Outfit"
+     label="의상 편집"
      layout="topleft"
      name="edit_outfit">
         <on_click

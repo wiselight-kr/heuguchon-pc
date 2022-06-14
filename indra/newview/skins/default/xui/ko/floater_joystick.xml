@@ -5,11 +5,11 @@
  layout="topleft"
  name="Joystick"
  help_topic="joystick"
- title="Joystick Configuration"
+ title="조이스틱 구성"
  width="569">
     <floater.string
      name="JoystickDisabled">
-        None
+        없음
     </floater.string>
     <text
      type="string"
@@ -22,7 +22,7 @@
      width="50"
      mouse_opaque="false"
      name="joystick_lbl">
-      Joystick:
+      조이스틱:
     </text>
     <combo_box
      allow_text_entry="false"
@@ -38,7 +38,7 @@
      control_name="JoystickAxis1"
      decimal_digits="0"
      increment="1"
-     label="X Axis Mapping"
+     label="X 축 매핑"
      label_width="100"
      layout="topleft"
      left="20"
@@ -52,7 +52,7 @@
      control_name="JoystickAxis2"
      decimal_digits="0"
      increment="1"
-     label="Y Axis Mapping"
+     label="Y 축 매핑"
      label_width="100"
      layout="topleft"
      left="190"
@@ -66,7 +66,7 @@
      control_name="JoystickAxis0"
      decimal_digits="0"
      increment="1"
-     label="Z Axis Mapping"
+     label="Z 축 매핑"
      label_width="100"
      layout="topleft"
      left="360"
@@ -80,7 +80,7 @@
      control_name="JoystickAxis4"
      decimal_digits="0"
      increment="1"
-     label="Pitch Mapping"
+     label="피치 매핑"
      label_width="100"
      layout="topleft"
      left="20"
@@ -94,7 +94,7 @@
      control_name="JoystickAxis5"
      decimal_digits="0"
      increment="1"
-     label="Yaw Mapping"
+     label="좌우 운동 매핑"
      label_width="100"
      layout="topleft"
      left="190"
@@ -108,7 +108,7 @@
      control_name="JoystickAxis3"
      decimal_digits="0"
      increment="1"
-     label="Roll Mapping"
+     label="롤 매핑"
      label_width="100"
      layout="topleft"
      left="360"
@@ -122,7 +122,7 @@
      control_name="JoystickAxis6"
      decimal_digits="0"
      increment="1"
-     label="Zoom Mapping"
+     label="확대 매핑"
      label_width="100"
      layout="topleft"
      left="20"
@@ -134,7 +134,7 @@
      bottom_delta="18"
      height="10"
      control_name="ZoomDirect"
-     label="Direct Zoom"
+     label="직접 확대"
      layout="topleft"
      left="185"
      name="ZoomDirect"
@@ -143,7 +143,7 @@
      bottom_delta="0"
      height="10"     
      control_name="Cursor3D"
-     label="3D Cursor"
+     label="3D 커서"
      layout="topleft"
      left="310"
      name="Cursor3D"
@@ -152,7 +152,7 @@
      bottom_delta="0"
      height="10"     
      control_name="AutoLeveling"
-     label="Auto Level"
+     label="자동 레벨"
      layout="topleft"
      left="420"
      name="AutoLeveling"
@@ -169,14 +169,14 @@
      name="Control Modes:"
      top="118"
      width="102">
-        Control Modes:
+        조작 모드:
     </text>
     <check_box
      bottom="134"
      height="10"     
      control_name="JoystickAvatarEnabled"
      halign="center"
-     label="Avatar"
+     label="아바타"
      layout="topleft"
      left="150"
      name="JoystickAvatarEnabled"
@@ -186,7 +186,7 @@
      height="10"     
      control_name="JoystickBuildEnabled"
      halign="center"
-     label="Build"
+     label="건설"
      layout="topleft"
      left="219"
      name="JoystickBuildEnabled"
@@ -196,7 +196,7 @@
      height="10"     
      control_name="JoystickFlycamEnabled"
      halign="center"
-     label="Flycam"
+     label="플라이캠"
      layout="topleft"
      left="289"
      name="JoystickFlycamEnabled"
@@ -212,7 +212,7 @@
      name="joystick_monitor_label"
      top="116"
      width="210">
-      Joystick Monitor
+      조이스틱 모니터
     </text>
 
     <icon image_name="lag_status_good.tga" height="10" left_delta="10" name="button_light_0"  width="10" tool_tip="Joystick Button 0"  top_pad="2" />
@@ -256,7 +256,7 @@
        bar_max="2"
        bar_min="-2"
        show_bar="true"
-       label="Axis 0"
+       label="축 0"
        layout="topleft"
        left="0"
        name="axis0"
@@ -272,7 +272,7 @@
        bar_max="2"
        bar_min="-2"
        show_bar="true"
-       label="Axis 1"
+       label="축 1"
        layout="topleft"
        left="0"
        name="axis1"
@@ -288,7 +288,7 @@
        bar_max="2"
        bar_min="-2"
        show_bar="true"
-       label="Axis 2"
+       label="축 2"
        layout="topleft"
        left="0"
        name="axis2"
@@ -304,7 +304,7 @@
        bar_max="2"
        bar_min="-2"
        show_bar="true"
-       label="Axis 3"
+       label="축 3"
        layout="topleft"
        left="0"
        name="axis3"
@@ -320,7 +320,7 @@
        bar_max="2"
        bar_min="-2"
        show_bar="true"
-       label="Axis 4"
+       label="축 4"
        layout="topleft"
        left="0"
        name="axis4"
@@ -336,7 +336,7 @@
        bar_max="2"
        bar_min="-2"
        show_bar="true"
-       label="Axis 5"
+       label="축 5"
        layout="topleft"
        left="0"
        name="axis5"
@@ -352,7 +352,7 @@
        bar_max="2"
        bar_min="-2"
        show_bar="true"
-       label="Axis 6"
+       label="축 6"
        layout="topleft"
        left="0"
        name="axis6"
@@ -368,7 +368,7 @@
        bar_max="2"
        bar_min="-2"
        show_bar="true"
-       label="Axis 7"
+       label="축 7"
        layout="topleft"
        left="0"
        name="axis7"
@@ -390,7 +390,7 @@
      left="3"
      name="XScale"
      width="140">
-        X Scale
+        X 스케일
     </text>
     <spinner
      bottom_delta="0"
@@ -437,7 +437,7 @@
      left="3"
      name="YScale"
      width="140">
-        Y Scale
+        Y 스케일
     </text>
     <spinner
      bottom_delta="0"
@@ -484,7 +484,7 @@
      left="3"
      name="ZScale"
      width="140">
-        Z Scale
+        Z 스케일
     </text>
     <spinner
      bottom_delta="0"
@@ -531,7 +531,7 @@
      left="3"
      name="PitchScale"
      width="140">
-        Pitch Scale
+        피치 스케일
     </text>
     <spinner
      bottom_delta="0"
@@ -578,7 +578,7 @@
      left="3"
      name="YawScale"
      width="140">
-        Yaw Scale
+        좌우 운동 스케일
     </text>
     <spinner
      bottom_delta="0"
@@ -625,7 +625,7 @@
      left="3"
      name="RollScale"
      width="140">
-        Roll Scale
+        롤 스케일
     </text>
     <spinner
      bottom_delta="0"
@@ -660,7 +660,7 @@
      left="3"
      name="XDeadZone"
      width="140">
-        X Dead Zone
+        X 데드 존
     </text>
     <spinner
      bottom_delta="0"
@@ -704,7 +704,7 @@
      left="3"
      name="YDeadZone"
      width="140">
-        Y Dead Zone
+        Y 데드 존
     </text>
     <spinner
      bottom_delta="0"
@@ -748,7 +748,7 @@
      left="3"
      name="ZDeadZone"
      width="140">
-        Z Dead Zone
+        Z 데드 존
     </text>
     <spinner
      bottom_delta="0"
@@ -792,7 +792,7 @@
      left="2"
      name="PitchDeadZone"
      width="140">
-        Pitch Dead Zone
+        피치 데드 존
     </text>
     <spinner
      bottom_delta="0"
@@ -836,7 +836,7 @@
      left="3"
      name="YawDeadZone"
      width="140">
-        Yaw Dead Zone
+        좌우 운동 데드 존
     </text>
     <spinner
      bottom_delta="0"
@@ -880,7 +880,7 @@
      left="3"
      name="RollDeadZone"
      width="140">
-        Roll Dead Zone
+        롤 데드 존
     </text>
     <spinner
      bottom_delta="0"
@@ -913,7 +913,7 @@
      left="3"
      name="Feathering"
      width="140">
-        Feathering
+        깃털
     </text>
     <slider
      control_name="AvatarFeathering"
@@ -969,7 +969,7 @@
      left="3"
      name="ZoomScale2"
      width="140">
-        Zoom Scale
+        확대 스케일
     </text>
     <spinner
      bottom_delta="0"
@@ -992,7 +992,7 @@
      left="3"
      name="ZoomDeadZone"
      width="140">
-        Zoom Dead Zone
+        확대 데드 존
     </text>
     <spinner
      bottom_delta="0"
@@ -1008,7 +1008,7 @@
     <button
      follows="left|top"
      height="22"
-     label="SpaceNavigator Defaults"
+     label="공간 길안내기 기본값"
      layout="topleft"
      left="359"
      name="SpaceNavigatorDefaults"
@@ -1027,7 +1027,7 @@
     <button
      follows="right|bottom"
      height="20"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_pad="4"

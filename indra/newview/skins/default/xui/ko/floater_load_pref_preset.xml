@@ -6,11 +6,11 @@
  layout="topleft"
  name="load_pref_preset"
  save_rect="true"
- title="Load Pref Preset"
+ title="사전 설정 로드"
  width="300">
 
-    <string name="title_graphic">Load Graphic Preset</string>
-    <string name="title_camera">Load Camera Preset</string>
+    <string name="title_graphic">그래픽 사전 설정 로드</string>
+    <string name="title_camera">카메라 사전 설정 로드</string>
 
     <text
      follows="top|left|right"
@@ -20,7 +20,7 @@
      name="Preset"
      top="30"
      width="200">
-     Select a preset
+     사전 설정 선택
     </text>
     <combo_box
      follows="top|left"
@@ -41,7 +41,7 @@
     <button
      follows="top|left"
      height="23"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="20"
      name="cancel"

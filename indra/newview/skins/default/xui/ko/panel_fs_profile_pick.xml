@@ -11,7 +11,7 @@
  
     <panel.string
      name="location_notice">
-(will update after save)
+(저장 후 업데이트됨)
     </panel.string>
 
     <texture_picker
@@ -59,7 +59,7 @@
      name="pick_location"
      type="string"
      length="1">
-        Loading...
+        로딩중...
     </line_editor>
 
     <button
@@ -69,7 +69,7 @@
      bottom="-40"
      layout="topleft"
      follows="left|bottom"
-     label="Teleport"
+     label="순간이동"
      name="teleport_btn" />
 
     <button
@@ -79,7 +79,7 @@
      bottom_delta="0"
      layout="topleft"
      follows="left|bottom"
-     label="Show on Map"
+     label="지도에서 표시"
      name="show_on_map_btn" />
 
     <button
@@ -89,8 +89,8 @@
      bottom_delta="0"
      layout="topleft"
      follows="left|bottom"
-     label="Set Location"
-     tool_tip="Set to Current Location"
+     label="위치 표시"
+     tool_tip="현재 위치로 설정"
      name="set_to_curr_location_btn"
      visible="false" />
      
@@ -101,7 +101,7 @@
      bottom="-15"
      layout="topleft"
      follows="left|bottom"
-     label="Save Pick"
+     label="선택 저장"
      name="save_changes_btn"
      visible="false" />
 

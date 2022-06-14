@@ -78,7 +78,7 @@
 		parse_urls="false"
 		use_ellipses="true"
 		font="SansSerifBold">
-    TestString PleaseIgnore
+    테스트 문자열 무시하십시오.
   </text>
   <button
     top="10"

@@ -3,7 +3,7 @@
  layout="topleft"
  name="Url Popup">
     <menu_item_call
-     label="Show Group Information"
+     label="그룹 정보 표시"
      layout="topleft"
      name="show_group">
         <menu_item_call.on_click
@@ -16,7 +16,7 @@
     <!-- menu entry to call internal request for group data - this will make sure the
          rest of the functions can actually do something once the data is loaded -->
     <menu_item_call
-     label="Fetching Group Data, please try again!"
+     label="그룹 데이터를 가져오는 중입니다. 다시 시도하십시오!"
      layout="topleft"
      enabled="false"
      name="waiting_for_group_data">
@@ -24,7 +24,7 @@
          function="FS.WaitingForGroupData" />
     </menu_item_call>
     <menu_item_call
-     label="Activate Group"
+     label="그룹 활성화"
      layout="topleft"
      visible="false"
      name="activate_group">
@@ -36,7 +36,7 @@
          function="FS.EnableActivateGroup" />
     </menu_item_call>
     <menu_item_call
-     label="Join Group"
+     label="그룹 참가"
      layout="topleft"
      visible="false"
      name="join_group">
@@ -48,7 +48,7 @@
          function="FS.EnableJoinGroup" />
     </menu_item_call>
     <menu_item_call
-     label="Leave Group"
+     label="그룹 떠나기"
      layout="topleft"
      visible="false"
      name="leave_group">
@@ -64,14 +64,14 @@
     <!-- </FS:Zi> -->
 
     <menu_item_call
-     label="Copy Group to clipboard"
+     label="클립보드에 그룹 복사"
      layout="topleft"
      name="url_copy_label">
         <menu_item_call.on_click
          function="Url.CopyLabel" />
     </menu_item_call>
     <menu_item_call
-     label="Copy SLurl to clipboard"
+     label="SLurl을 클립보드에 복사"
      layout="topleft"
      name="url_copy">
         <menu_item_call.on_click

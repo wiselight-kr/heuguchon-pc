@@ -13,19 +13,19 @@
     reuse_instance="true"
     save_rect="false"
     single_instance="true"
-    title="Pathfinding Characters">
+    title="경로 찾기 문자">
   <floater.string name="messaging_initial"></floater.string>
-  <floater.string name="messaging_get_inprogress">Querying for pathfinding characters ...</floater.string>
-  <floater.string name="messaging_get_error">Error detected while querying for pathfinding characters.</floater.string>
+  <floater.string name="messaging_get_inprogress">경로 찾기 문자를 쿼리하는 중 ...</floater.string>
+  <floater.string name="messaging_get_error">경로 찾기 문자를 쿼리하는 동안 오류가 감지됨.</floater.string>
   <floater.string name="messaging_set_inprogress"></floater.string>
   <floater.string name="messaging_set_error"></floater.string>
-  <floater.string name="messaging_complete_none_found">No pathfinding characters.</floater.string>
-  <floater.string name="messaging_complete_available">[NUM_SELECTED] characters selected out of [NUM_TOTAL].</floater.string>
-  <floater.string name="messaging_not_enabled">This region is not enabled for pathfinding.</floater.string>
+  <floater.string name="messaging_complete_none_found">경로 찾기 문자 없음.</floater.string>
+  <floater.string name="messaging_complete_available">[NUM_SELECTED] [NUM_TOTAL] 중에서 선택한 문자.</floater.string>
+  <floater.string name="messaging_not_enabled">이 영역은 경로 찾기에 사용할 수 없습니다.</floater.string>
   <floater.string name="character_cpu_time">[CPU_TIME] µs</floater.string>
-  <floater.string name="character_owner_loading">[Loading]</floater.string>
-  <floater.string name="character_owner_unknown">[Unknown]</floater.string>
-  <floater.string name="character_owner_group">[group]</floater.string>
+  <floater.string name="character_owner_loading">[로딩중]</floater.string>
+  <floater.string name="character_owner_unknown">[알 수 없음]</floater.string>
+  <floater.string name="character_owner_group">[그룹]</floater.string>
   <panel
       name="pathfinding_chars_main"
       border="false"
@@ -47,15 +47,15 @@
         name="objects_scroll_list"
         width="600">
       <scroll_list.columns
-          label="Name"
+          label="이름"
           name="name"
           dynamic_width="true" />
       <scroll_list.columns
-          label="Description"
+          label="묘사"
           name="description"
           width="172" />
       <scroll_list.columns
-          label="Owner"
+          label="소유주"
           name="owner"
           width="141" />
       <scroll_list.columns
@@ -63,7 +63,7 @@
           name="cpu_time"
           width="60" />
       <scroll_list.columns
-          label="Altitude"
+          label="고도"
           name="altitude"
           width="64" />
     </scroll_list>
@@ -79,12 +79,12 @@
         name="messaging_status"
         top_pad="17"
         width="238">
-      Characters:
+      특징:
     </text>
     <button
         follows="right|bottom"
         height="21"
-        label="Refresh list"
+        label="목록 새로고침"
         layout="topleft"
         name="refresh_objects_list"
         top_pad="-29"
@@ -93,7 +93,7 @@
     <button
         follows="right|bottom"
         height="21"
-        label="Select all"
+        label="모두 선택"
         layout="topleft"
         name="select_all_objects"
         top_pad="-21"
@@ -102,7 +102,7 @@
     <button
         follows="right|bottom"
         height="21"
-        label="Select none"
+        label="선택 안함"
         layout="topleft"
         name="select_none_objects"
         top_pad="-21"
@@ -141,12 +141,12 @@
         left="18"
         top_pad="8"
         width="242">
-      Actions on selected characters:
+      선택한 캐릭터에 대한 작업:
     </text>
     <check_box
         height="19"
         follows="left|bottom"
-        label="Show beacon"
+        label="비콘 표시"
         layout="topleft"
         name="show_beacon"
         top_pad="-16"
@@ -155,7 +155,7 @@
     <check_box
         height="19"
         follows="left|bottom"
-        label="Show physics capsule"
+        label="물리 캡슐 표시"
         layout="topleft"
         name="show_physics_capsule"
         top_pad="-19"
@@ -164,7 +164,7 @@
     <button
         follows="left|bottom"
         height="22"
-        label="Take"
+        label="가져감"
         layout="topleft"
         name="take_objects"
         top_pad="9"
@@ -173,7 +173,7 @@
     <button
         follows="left|bottom"
         height="22"
-        label="Take copy"
+        label="복사하기"
         layout="topleft"
         name="take_copy_objects"
         top_pad="-22"
@@ -182,17 +182,17 @@
     <button
         follows="left|bottom"
         height="22"
-        label="Teleport me to it"
+        label="그곳으로 순간이동 시켜주십시오"
         layout="topleft"
         name="teleport_me_to_object"
-        tool_tip="Enabled only when one character is selected."
+        tool_tip="문자를 하나만 선택한 경우에만 사용 가능."
         top_pad="-22"
         left_pad="26"
         width="159"/>
     <button
         follows="right|bottom"
         height="22"
-        label="Return"
+        label="반납"
         layout="topleft"
         name="return_objects"
         top_pad="-22"
@@ -201,7 +201,7 @@
     <button
         follows="right|bottom"
         height="22"
-        label="Delete"
+        label="삭제"
         layout="topleft"
         name="delete_objects"
         top_pad="-22"

@@ -4,7 +4,7 @@
  name="Multi-Selected People Context Menu">
     <menu_item_call
      enabled="false"
-     label="친구추가"
+     label="친구 추가"
      layout="topleft"
      name="add_friends">
         <on_click
@@ -14,14 +14,14 @@
          parameter="can_add" />
     </menu_item_call>
 	<menu_item_call
-	 label="Add to Set..."
+	 label="집합에 추가..."
 	 layout="topleft"
 	 name="Add to Set">
 		<menu_item_call.on_click
 		 function="Avatar.AddToContactSet" />
 	</menu_item_call>
     <menu_item_call
-     label="Remove Friends"
+     label="친구 삭제"
      layout="topleft"
      name="remove_friends">
         <menu_item_call.on_click
@@ -39,7 +39,7 @@
     </menu_item_call>
     <menu_item_call
      enabled="false"
-     label="Call"
+     label="전화"
      layout="topleft"
      name="call">
         <on_click
@@ -50,7 +50,7 @@
     </menu_item_call>
     <menu_item_call
      enabled="false"
-     label="Share"
+     label="공유"
      layout="topleft"
      name="share">
         <on_click
@@ -58,14 +58,14 @@
     </menu_item_call>
     <menu_item_call
      enabled="false"
-     label="Pay"
+     label="결제"
      layout="topleft"
      name="pay">
         <on_click
          function="Avatar.Pay" />
     </menu_item_call>
     <menu_item_call
-    label="Offer Teleport"
+    label="순간이동 제안"
     name="offer_teleport">
       <menu_item_call.on_click
        function="Avatar.OfferTeleport"/>

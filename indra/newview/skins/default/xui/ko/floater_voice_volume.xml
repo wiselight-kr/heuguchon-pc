@@ -14,7 +14,7 @@
  name="floater_voice_volume"
  single_instance="true"
  sound_flags="0"
- title="Voice Volume"
+ title="음성 볼륨"
  visible="true"
  width="245">
     <text
@@ -28,7 +28,7 @@
      text_color="White"
      translate="false"
      use_ellipses="true"
-     value="TestString PleaseIgnore"
+     value="테스트 문자열 무시하십시오."
      width="225" />
     <slider
      follows="top|left"
@@ -39,7 +39,7 @@
      min_val="0.05"
      name="volume_slider"
      show_text="false"
-     tool_tip="Voice volume"
+     tool_tip="음성 볼륨"
      top_pad="0"
      value="0.5"
      width="200" />

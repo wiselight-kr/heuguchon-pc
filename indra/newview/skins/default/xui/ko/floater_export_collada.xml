@@ -9,12 +9,12 @@
  min_width="250"
  min_height="268"
  save_rect="true"
- title="Save as Collada...">
+ title="콜라다로 저장...">
   <floater.string name="texture_progress">
-	Save [OBJECT] Collada: Saving textures ([COUNT] remaining)
+	 [OBJECT] 콜라다 저장: 텍스쳐 저장 ([COUNT] 유지)
   </floater.string>
   <floater.string name="floater_title">
-	Save [OBJECT] as Collada...
+	[OBJECT]를 콜라다로 저장...
   </floater.string>
   <layout_stack
 	follows="all"
@@ -41,7 +41,7 @@
 	 name="ObjectInfoText"
 	 top="2"
 	 width="235">
-		Object Info
+		개체 정보
 	</text>
 	<text
 	 follows="left|top"
@@ -50,7 +50,7 @@
 	 name="NameText"
 	 top_pad="2"
 	 width="235">
-		Name: [NAME]
+		이름: [NAME]
 	</text>
 	<text
 	 follows="left|top"
@@ -59,7 +59,7 @@
 	 name="exportable_prims"
 	 top_pad="2"
 	 width="235">
-		Exportable prims: [COUNT]/[TOTAL]
+		내보내기 가능한 프림: [COUNT]/[TOTAL]
 	</text>
 	<text
 	 follows="left|top"
@@ -68,7 +68,7 @@
 	 name="exportable_textures"
 	 top_pad="2"
 	 width="235">
-		Exportable textures: [COUNT]/[TOTAL]
+		내보내기 가능한 텍스쳐: [COUNT]/[TOTAL]
 	</text>
 	<text
 	 follows="left|bottom"
@@ -78,13 +78,13 @@
 	 name="OptionsText"
 	 top_pad="42"
 	 width="235">
-		Options:
+		옵션:
 	</text>
 	<check_box
 	 control_name="DAEExportTextures"
 	 follows="left|bottom"
 	 height="16"
-	 label="Save textures"
+	 label="텍스쳐 저장"
 	 layout="topleft"
 	 left_delta="8"
 	 name="export_textures_check"
@@ -97,7 +97,7 @@
 	 control_name="DAEExportConsolidateMaterials"
 	 follows="left|bottom"
 	 height="16"
-	 label="Consolidate textures"
+	 label="텍스쳐 통합"
 	 layout="topleft"
 	 name="consolidate_check"
 	 top_pad="2"
@@ -106,7 +106,7 @@
 	 control_name="DAEExportSkipTransparent"
 	 follows="left|bottom"
 	 height="16"
-	 label="Skip transparent"
+	 label="투명함 건너뛰기"
 	 layout="topleft"
 	 name="skip_transparent_check"
 	 top_pad="2"
@@ -115,7 +115,7 @@
 	 control_name="DAEExportTextureParams"
 	 follows="left|bottom"
 	 height="16"
-	 label="Apply texture params"
+	 label="텍스처 파라미터 적용"
 	 layout="topleft"
 	 name="texture_params_check"
 	 top_pad="2"
@@ -124,7 +124,7 @@
 	 control_name="DAEExportSingleUVMap"
 	 follows="left|bottom"
 	 height="16"
-	 label="Single UV Map"
+	 label="단일 UV 지도"
 	 layout="topleft"
 	 name="single_uv_map_check"
 	 top_pad="2"
@@ -137,7 +137,7 @@
 	 name="TextureFormatText"
 	 top_pad="2"
 	 width="235">
-		Texture Format:
+		텍스쳐 형식:
 	</text>
 	<combo_box
 	 enabled_control="DAEExportTextures"
@@ -158,7 +158,7 @@
 	 layout="topleft"
 	 follows="left|bottom"
 	 height="23"
-	 label="Save as..."
+	 label="다른 이름으로 저장..."
 	 name="export_btn"
 	 top_delta="0"
 	 left_pad="2"

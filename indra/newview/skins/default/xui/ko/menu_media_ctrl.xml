@@ -2,7 +2,7 @@
 <context_menu
  name="media ctrl context menu">
   <menu_item_call
-   label="Cut"
+   label="자르기"
    layout="topleft"
    name="Cut">
     <menu_item_call.on_click
@@ -11,7 +11,7 @@
      function="Edit.EnableCut" />
   </menu_item_call>
   <menu_item_call
-   label="Copy"
+   label="복사"
    layout="topleft"
    name="Copy">
     <menu_item_call.on_click
@@ -20,7 +20,7 @@
      function="Edit.EnableCopy" />
   </menu_item_call>
   <menu_item_call
-   label="Paste"
+   label="붙여넣기"
    layout="topleft"
    name="Paste">
     <menu_item_call.on_click
@@ -33,7 +33,7 @@
    name="debug_separator"
    visible="false" />
   <menu_item_call
-   label="Open Web Inspector"
+   label="웹 검사기 열기"
    layout="topleft"
    name="open_webinspector"
    visible="false">

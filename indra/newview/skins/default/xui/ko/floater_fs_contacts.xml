@@ -13,7 +13,7 @@
  save_rect="true"
  save_visibility="true"
  single_instance="true"
- title="주소록"
+ title="연락처"
  width="396">
  	<string
 	 name="no_friends"
@@ -67,7 +67,7 @@
 	   bottom="0"
 	   filename="panel_fs_contacts_sets.xml"
 	   class="contact_sets_panel"
-	   label="주소록 집합"
+	   label="연락처 집합"
 	   left="0"
 	   right="-1"
 	   name="contact_sets_panel" />

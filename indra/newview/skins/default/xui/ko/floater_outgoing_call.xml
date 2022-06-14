@@ -9,7 +9,7 @@
  name="outgoing call"
  help_topic="outgoing_call"
  save_dock_state="true"
- title="Calling"
+ title="전화"
  width="410">
     <floater.string
      name="lifetime">
@@ -17,19 +17,19 @@
     </floater.string>
     <floater.string
      name="localchat">
-        Nearby Voice Chat
+        주변 음성 채팅
     </floater.string>
     <floater.string
      name="anonymous">
-        anonymous
+        익명
     </floater.string>
     <floater.string
      name="VoiceInviteP2P">
-        is calling.
+        수신중
     </floater.string>
     <floater.string
      name="VoiceInviteAdHoc">
-        has joined a Voice Chat call with a conference chat.
+        전화 회의 대화로 음성 채팅 통화에 참여했습니다.
     </floater.string>
     <avatar_icon
      enabled="false"
@@ -58,7 +58,7 @@
      width="315"
      word_wrap="true"
      parse_urls="false">
-Connecting to [CALLEE_NAME]
+[CALLEE_NAME]에 연결하는 중
     </text>
     <text
      font="SansSerifLarge"
@@ -70,7 +70,7 @@ Connecting to [CALLEE_NAME]
      width="315"
      word_wrap="true"
      parse_urls="false">
-Calling [CALLEE_NAME]
+ [CALLEE_NAME] 전화
     </text>
     <text
      font="SansSerifLarge"
@@ -81,7 +81,7 @@ Calling [CALLEE_NAME]
      top="27"
      width="315"
      word_wrap="true">
-No Answer.  Please try again later.
+무응답. 나중에 다시 시도해 주십시오.
     </text>
   <text
    font="SansSerifLarge"
@@ -93,8 +93,8 @@ No Answer.  Please try again later.
    width="315"
    word_wrap="true"
    parse_urls="false">
-    You have been disconnected from [VOICE_CHANNEL_NAME].  [RECONNECT_NEARBY]
-  </text>
+    [VOICE_CHANNEL_NAME]에서 연결이 끊어졌습니다. [RECONNECT_NEARBY]
+      </text>
   <text
    font="SansSerifLarge"
    height="40"
@@ -105,7 +105,7 @@ No Answer.  Please try again later.
    width="315"
    word_wrap="true"
    parse_urls="false">
-    Your call has ended.  [RECONNECT_NEARBY]
+    통화가 종료되었습니다.  [RECONNECT_NEARBY]
   </text>
   <text
    font="SansSerifLarge"
@@ -117,7 +117,7 @@ No Answer.  Please try again later.
    width="315"
    word_wrap="true"
    parse_urls="false">
-    You have ended the call.  [RECONNECT_NEARBY]
+    통화를 종료했습니다.  [RECONNECT_NEARBY]
   </text>
   <text
      font="SansSerif"
@@ -129,11 +129,11 @@ No Answer.  Please try again later.
      width="315"
      word_wrap="true"
      parse_urls="false">
-Leaving [CURRENT_CHAT].
+ [CURRENT_CHAT] 떠나기.
     </text>
   <button
      height="24"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      left="70"
      layout="topleft"

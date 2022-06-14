@@ -6,7 +6,7 @@
  name="build options floater"
  help_topic="build_options_floater"
  save_rect="true"
- title="Grid Options"
+ title="그리드 옵션"
  width="264">
     <spinner
      control_name="GridResolution"
@@ -69,7 +69,7 @@
      name="RotationStep"
      top_pad="0"
      width="242"
-	 tool_tip="All rotations via rotation tool are constrained to multiples of this unit [Default: 1.0]"/>
+	 tool_tip="회전 도구를 통한 모든 회전은 본 장치의 배수로 제한됩니다 [기본값: 1.0]"/>
     <check_box
      control_name="GridSubUnit"
      height="16"

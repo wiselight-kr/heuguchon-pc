@@ -8,15 +8,15 @@
     name="floatermedialists"
 	positioning="centered"
 	save_rect="true"
-	title="Media Lists"
+	title="미디어 목록"
     width="460"
     min_height="300"
     min_width="460">
 	<floater.string name="EnterUrlAllow">
-		Enter domain or URL to always allow:
+		항상 허용할 도메인 또는 URL 입력:
 	</floater.string>
 	<floater.string name="EnterUrlDeny">
-		Enter domain or URL to never allow:
+		허용하지 않을 도메인 또는 URL 입력:
 	</floater.string>
 
 	<layout_stack
@@ -47,7 +47,7 @@
 		font="SansSerifSmall"
 		mouse_opaque="true"
 		name="whitelist_text">
-		Allowed Domains:
+		허용된 도메인:
 	</text>
 
 	<scroll_list
@@ -93,7 +93,7 @@
 		follows="all"
 		font="SansSerifSmall"
 		halign="center"
-		label="Add..."
+		label="추가..."
 		label_selected="Add..."
 		mouse_opaque="true"
 		name="add_whitelist" />
@@ -116,7 +116,7 @@
 		follows="all"
 		font="SansSerifSmall"
 		halign="center"
-		label="Remove"
+		label="제거"
 		label_selected="Remove"
 		mouse_opaque="true"
 		name="remove_whitelist" />
@@ -144,7 +144,7 @@
 		font="SansSerifSmall"
 		mouse_opaque="true"
 		name="blacklist_text">
-		Blocked Domains:
+		차단된 도메인:
 	</text>
 
 	<scroll_list
@@ -160,7 +160,7 @@
 		mouse_opaque="true"
 	    multi_select="false"
 		name="blacklist">
-		<column label="Blacklist" name="list" width="195" />
+		<column label="블랙리스트" name="list" width="195" />
 	</scroll_list>
 
 	<layout_stack
@@ -190,7 +190,7 @@
 		follows="all"
 		font="SansSerifSmall"
 		halign="center"
-		label="Add..."
+		label="추가..."
 		label_selected="Add..."
 		mouse_opaque="true"
 		name="add_blacklist" />
@@ -213,7 +213,7 @@
 		follows="all"
 		font="SansSerifSmall"
 		halign="center"
-		label="Remove"
+		label="제거"
 		label_selected="Remove"
 		mouse_opaque="true"
 		name="remove_blacklist" />

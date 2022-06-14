@@ -5,7 +5,7 @@
  layout="topleft"
  name="Post-Process Floater"
  help_topic="post_process_floater"
- title="Post-process Settings"
+ title="후 처리 설정"
  width="400">
     <tab_container
      follows="left|top"
@@ -20,7 +20,7 @@
          border="true"
          follows="left|top|right|bottom"
          height="400"
-         label="Color Filter"
+         label="색상 필터"
          layout="topleft"
          left="1"
          mouse_opaque="false"
@@ -31,7 +31,7 @@
             <check_box
              control_name="wmiColorFilterToggle"
              height="16"
-             label="Enable"
+             label="활성화"
              layout="topleft"
              left="14"
              name="wmiColorFilterToggle"
@@ -48,7 +48,7 @@
              name="wmiColorFilterBrightnessText"
              top_pad="4"
              width="355">
-                Brightness
+                밝음
             </text>
             <slider
              control_name="wmiColorFilterBrightness"
@@ -74,7 +74,7 @@
              name="wmiColorFilterSaturationText"
              top_pad="4"
              width="355">
-                Saturation
+                포화
             </text>
             <slider
              control_name="wmiColorFilterSaturation"
@@ -101,7 +101,7 @@
              name="wmiColorFilterContrastText"
              top_pad="4"
              width="355">
-                Contrast
+                대비
             </text>
             <slider
              control_name="wmiColorFilterContrast"
@@ -127,7 +127,7 @@
              name="wmiColorFilterBaseText"
              top_pad="4"
              width="355">
-                Contrast Base Color
+                대비 기본 색상
             </text>
             <slider
              control_name="wmiColorFilterBaseR"
@@ -182,7 +182,7 @@
          border="true"
          follows="left|top|right|bottom"
          height="400"
-         label="Night Vision"
+         label="야간 시야"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -193,7 +193,7 @@
             <check_box
              control_name="wmiNightVisionToggle"
              height="16"
-             label="Enable"
+             label="활성화"
              layout="topleft"
              left="14"
              name="wmiNightVisionToggle"
@@ -210,7 +210,7 @@
              name="wmiNightVisionBrightMultText"
              top_pad="5"
              width="355">
-                Light Amplification Multiple
+                광증폭 다중
             </text>
             <slider
              control_name="wmiNightVisionBrightMult"
@@ -236,7 +236,7 @@
              name="wmiNightVisionNoiseSizeText"
              top_pad="4"
              width="355">
-                Noise Size
+                소음 크기
             </text>
             <slider
              control_name="wmiNightVisionNoiseSize"
@@ -261,7 +261,7 @@
              name="wmiNightVisionNoiseStrengthText"
              top_pad="4"
              width="355">
-                Noise Strength
+                소음 강도
             </text>
             <slider
              control_name="wmiNightVisionNoiseStrength"
@@ -279,7 +279,7 @@
          border="true"
          follows="left|top|right|bottom"
          height="400"
-         label="Bloom"
+         label="꽃"
          layout="topleft"
          left_delta="0"
          help_topic="post_process_bloom_tab"
@@ -289,7 +289,7 @@
             <check_box
              control_name="wmiBloomToggle"
              height="16"
-             label="Enable"
+             label="활성화"
              layout="topleft"
              left="14"
              name="wmiBloomToggle"
@@ -306,7 +306,7 @@
              name="wmiBloomExtractText"
              top_pad="5"
              width="355">
-                Luminosity Extraction
+                광도 추출
             </text>
             <slider
              control_name="wmiBloomExtract"
@@ -330,7 +330,7 @@
              name="wmiBloomSizeText"
              top_pad="4"
              width="355">
-                Bloom Size
+                꽃 크기
             </text>
             <slider
              control_name="wmiBloomSize"
@@ -355,7 +355,7 @@
              name="wmiBloomStrengthText"
              top_pad="4"
              width="355">
-                Bloom Strength
+                꽃 강도
             </text>
             <slider
              control_name="wmiBloomStrength"
@@ -374,7 +374,7 @@
          border="true"
          follows="left|top|right|bottom"
          height="400"
-         label="Extras"
+         label="추가의"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -384,7 +384,7 @@
          width="398">
             <button
              height="20"
-             label="LoadEffect"
+             label="로드 효과"
              label_selected="LoadEffect"
              layout="topleft"
              left="15"
@@ -393,7 +393,7 @@
              width="100" />
             <button
              height="20"
-             label="SaveEffect"
+             label="저장효과"
              label_selected="SaveEffect"
              layout="topleft"
              left_delta="0"
@@ -413,7 +413,7 @@
              follows="left|right|bottom"
              font="SansSerif"
              height="20"
-             label="Effect Name"
+             label="효과 이름"
              layout="topleft"
              left_delta="0"
              max_length="40"

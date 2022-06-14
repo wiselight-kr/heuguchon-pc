@@ -12,23 +12,23 @@
  save_visibility="true"
  single_instance="true"
  save_dock_state="true"
- title="Cameratools"
+ title="카메라 도구"
  border_thickness="0"
  name="phototools_camera_floater"
  help_topic="phototools_camera_floater">
 	<floater.string name="rotate_tooltip">
-		Rotate Camera Around Focus
+		포커스를 중심으로 카메라 회전
 	</floater.string>
 	<floater.string name="zoom_tooltip">
-		Zoom Camera Towards Focus
+		초점 방향으로 카메라 확대
 	</floater.string>
 	<floater.string name="move_tooltip">
-		Move Camera Up and Down, Left and Right
+		카메라 상하좌우 이동
 	</floater.string>
 	<floater.string name="free_mode_title">
-		View Object
+		개체 보기
 	</floater.string>
-	<string name="inactive_combo_text">Use preset</string>
+	<string name="inactive_combo_text">사전 설정 사용</string>
 	<tab_container
 	 follows="all"
 	 halign="center"
@@ -93,7 +93,7 @@
 							<panel_camera_item.text
 							 name="front_view_text"
 							 top="22">
-								Front View
+								정면 보기
 							</panel_camera_item.text>
 						</panel_camera_item>
 						<panel_camera_item
@@ -110,7 +110,7 @@
 							<panel_camera_item.text
 							 name="side_view_text"
 							 top="22">
-								Side View
+								측면 보기
 							</panel_camera_item.text>
 						</panel_camera_item>
 						<panel_camera_item
@@ -128,7 +128,7 @@
 							<panel_camera_item.text
 							 name="rear_view_text"
 							 top="22">
-								Rear View
+								후면 보기
 							</panel_camera_item.text>
 						</panel_camera_item>
 						<combo_box
@@ -143,7 +143,7 @@
 						 <combo_box.item
 							label="프리셋 사용"
 							name="Use preset"
-							value="default" />
+							value="기본값" />
 						</combo_box>
 						<button
 						 height="16"
@@ -191,7 +191,7 @@
 							 parameter="object_view"/>
 							<panel_camera_item.text
 							 name="object_view_text">
-								Object View
+								개체 보기
 							</panel_camera_item.text>
 							<panel_camera_item.picture
 							 image_name="Object_View_Off"/>
@@ -206,7 +206,7 @@
 							 parameter="mouselook_view"/>
 							<panel_camera_item.text
 							 name="mouselook_view_text">
-								Mouselook View
+								마우스 보기
 							</panel_camera_item.text>
 							<panel_camera_item.picture
 							 image_name="MouseLook_View_Off"/>
@@ -235,7 +235,7 @@
 						 quadrant="left"
 						 sound_flags="3"
 						 visible="true"
-						 tool_tip="Orbit camera around focus"
+						 tool_tip="포커스를 중심으로 카메라 회전"
 						 top="5"
 						 width="100"/>
 						<button
@@ -259,7 +259,7 @@
 						 layout="topleft"
 						 name="zoom_slider"
 						 orientation="vertical"
-						 tool_tip="This simply moves the camera in and out. NOTE: It does not make the camera ZOOM in RL terms! It has no effect on the FOV. Use the 'View angle' slider for real zooming."
+						 tool_tip="이것은 단순히 카메라를 안팎으로 움직인다. 참고: RL 단위로 카메라를 확대/축소하지 않습니다! 그것은 FOV에 영향을 미치지 않는다. '각도 보기' 슬라이더를 사용하여 실제 확대/축소."
 						 top_pad="0"
 						 min_val="0"
 						 max_val="1">
@@ -289,7 +289,7 @@
 						 quadrant="left"
 						 scale_image="false"
 						 sound_flags="3"
-						 tool_tip="Move camera up and down, left and right."
+						 tool_tip="카메라를 상하좌우로 이동."
 						 top="5"
 						 width="100"/>
 					</panel>
@@ -313,7 +313,7 @@
 					 image_selected="PushButton_Selected_Press"
 					 name="presets_btn"
 					 tab_stop="false"
-					 tool_tip="Preset Views"
+					 tool_tip="사전 설정 보기"
 					 top="5" 
 					 width="25"/>
 					<button
@@ -327,7 +327,7 @@
 					 image_selected="PushButton_Selected_Press"
 					 name="pan_btn"
 					 tab_stop="false"
-					 tool_tip="Orbit Zoom Pan"
+					 tool_tip="궤도 확대 팬"
 					 width="25"/>
 					<button
 					 height="23"
@@ -339,7 +339,7 @@
 					 image_selected="PushButton_Selected_Press"
 					 name="avatarview_btn"
 					 tab_stop="false"
-					 tool_tip="Camera modes"
+					 tool_tip="카메라 모드"
 					 width="25"/>
 					<button
 					 height="23"
@@ -351,7 +351,7 @@
 					 image_selected="PushButton_Selected_Press"
 					 name="store_camera_view_btn"
 					 tab_stop="false"
-					 tool_tip="Store current camera view"
+					 tool_tip="현재 카메라 보기 저장"
 					 width="25">
 						<button.commit_callback
 						 function="Camera.StoreView"/>
@@ -366,7 +366,7 @@
 					 image_selected="PushButton_Selected_Press"
 					 name="load_camera_view_btn"
 					 tab_stop="false"
-					 tool_tip="Load stored camera view"
+					 tool_tip="저장된 카메라 뷰 로드"
 					 width="25">
 						<button.commit_callback
 						 function="Camera.LoadView"/>
@@ -393,7 +393,7 @@
 				 left="10"
 				 font="SansSerif"
 				 width="230">
-					Camera Movement Settings
+					카메라 이동 설정
 				</text>
 			</panel>
 
@@ -413,9 +413,9 @@
 				 layout="topleft"
 				 left="10"
 				 top_pad="12"
-				 tool_tip="In real world terms this is a Zoom feature. This will change the field of view in your viewer window. It is the same as hitting Ctrl + 0 or Ctrl+8. NOTE: This will not function if you have flycam enabled (3D SpaceNavigator)."
+				 tool_tip="실제 조건에서 이 기능은 줌 기능입니다. 뷰어 창의 시야가 변경됩니다. Ctrl + 0 또는 Ctrl + 8을 누르는 것과 같습니다. 참고: 이 기능은 플라이캠(3D 공간 네비게이터)이 활성화된 경우 작동하지 않습니다."
 				 width="100">
-					View angle
+					각도 보기
 				</text>
 				<slider
 				 name="SL_Zoom"
@@ -453,7 +453,7 @@
 				 left="245"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 초기화.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraAngle"/>
@@ -464,9 +464,9 @@
 				 layout="topleft"
 				 left="10"
 				 top_pad="5"
-				 tool_tip="Controls how fast/slow the camera will zoom in and out. Higher values produce slower and smother zoom."
+				 tool_tip="카메라의 확대/축소 속도를 제어합니다. 값이 클수록 줌이 느려지고 부드러워집니다.."
 				 width="100">
-					Zoom Speed
+					확대 속도
 				</text>
 				<slider
 				 name="SL_Zoom_Speed"
@@ -490,7 +490,7 @@
 				 left="245"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 초기화.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="ZoomTime"/>
@@ -501,9 +501,9 @@
 				 layout="topleft"
 				 left="10"
 				 top_pad="5"
-				 tool_tip="Amount camera lags behind avatar motion (0 = none, 30 = avatar velocity)."
+				 tool_tip="양 카메라가 아바타 모션보다 뒤떨어짐(0 = 없음, 30 = 아바타 속도)."
 				 width="100">
-					Camera Lag
+					카메라 지연
 				</text>
 				<slider
 				 name="SL_Camera_Lag"
@@ -527,7 +527,7 @@
 				 left="245"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 초기화.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="DynamicCameraStrength"/>
@@ -538,9 +538,9 @@
 				 layout="topleft"
 				 left="10"
 				 top_pad="5"
-				 tool_tip="Controls how far the camera is offset/distance from the default point of view."
+				 tool_tip="카메라의 간격띄우기/기본 시점으로부터의 거리를 제어합니다."
 				 width="100">
-					Camera Offset
+					카메라 오프셋
 				</text>
 				<slider
 				 name="SL_Camera_Offset"
@@ -564,7 +564,7 @@
 				 left="245"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 초기화.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraOffsetScale"/>
@@ -575,9 +575,9 @@
 				 layout="topleft"
 				 left="10"
 				 top_pad="5"
-				 tool_tip="Controls how smoothly the camera starts and stops. Higher values produce smoother (and somewhat slower) movement."
+				 tool_tip="카메라의 시작 및 정지 속도를 제어합니다. 값이 클수록 움직임이 부드러워지고 다소 느려집니다."
 				 width="100">
-					Cam. Smoothing
+					캠. 스무딩
 				</text>
 				<slider
 				 name="SL_Camera_Smoothing"
@@ -601,7 +601,7 @@
 				 left="245"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraPositionSmoothing"/>
@@ -614,7 +614,7 @@
 		 follows="all"
 		 layout="topleft"
 		 top_pad="0"
-		 label="Cam Controls 2"
+		 label="캠 조작 2"
 		 height="350"
 		 left="0">
 			<panel
@@ -636,7 +636,7 @@
 				 left="10"
 				 font="SansSerif"
 				 width="230">
-					Mouse Movement Settings
+					마우스 이동 설정
 				</text>
 			</panel>
 
@@ -657,9 +657,9 @@
 				 layout="topleft"
 				 left="10"
 				 top_pad="15"
-				 tool_tip="Controls responsiveness of mouse when in mouselook mode."
+				 tool_tip="마우스 모양 모드일 때 마우스 응답성 제어."
 				 width="100">
-					Mouse Sensitivity
+					마우스 감도
 				</text>
 				<slider
 				 name="SL_Mouse_Sensitivity"
@@ -683,7 +683,7 @@
 				 left="245"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="MouseSensitivity"/>
@@ -695,7 +695,7 @@
 				 label="마우스 모양에 아바타 표시"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Display avatar and attachments below neck while in mouselook. Default is OFF."
+				 tool_tip="마우스 룩에서 목 아래에 아바타 및 첨부 파일을 표시합니다. 기본값은 OFF입니다."
 				 name="first_person_avatar_visible"
 				 top_pad="10"
 				 width="250"/>
@@ -706,7 +706,7 @@
 				 label="부드러운 마우스 모양 이동"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Smooths out motion of mouse when in mouselook mode."
+				 tool_tip="마우스 모양 모드일 때 마우스의 움직임을 부드럽게 합니다."
 				 name="MouseSmooth"
 				 top_pad="2"
 				 width="250"/>
@@ -731,7 +731,7 @@
 				 left="10"
 				 font="SansSerif"
 				 width="200">
-					Addtional Camera Options
+					추가 카메라 옵션
 				</text>
 			</panel>
 
@@ -756,7 +756,7 @@
 				 name="clickonavatarkeepscamera"
 				 width="250"
 				 control_name="ClickOnAvatarKeepsCamera"
-				 tool_tip="Normally, clicking on your avatar resets the camera position. This option removes this behavior."/>
+				 tool_tip="일반적으로 아바타를 클릭하면 카메라 위치가 재설정됩니다. 이 옵션은 이 동작을 제거합니다."/>
 				<check_box
 				 top_pad="2"
 				 follows="left|top"
@@ -767,7 +767,7 @@
 				 name="FSResetCameraOnTP"
 				 width="250"
 				 control_name="FSResetCameraOnTP"
-				 tool_tip="Normally, the camera position gets reset when teleporting (within a region). This option prevents this behavior."/>
+				 tool_tip="일반적으로 카메라 위치는 (영역 내에서) 텔레포트를 할 때 재설정됩니다. 이 옵션은 이 동작을 방지합니다."/>
 				<check_box
 				 top_pad="2"
 				 follows="left|top"
@@ -778,7 +778,7 @@
 				 name="disableminzoomdist"
 				 width="250"
 				 control_name="FSDisableMinZoomDist"
-				 tool_tip="Disable the constraint on the closest distance the camera is allowed to get to an object."/>
+				 tool_tip="카메라가 물체에 도달할 수 있는 가장 가까운 거리에 대한 구속조건을 비활성화합니다."/>
 				<check_box
 				 top_pad="2"
 				 follows="left|top"
@@ -789,7 +789,7 @@
 				 name="ignorecameraconstraints"
 				 width="250"
 				 control_name="FSIgnoreSimulatorCameraConstraints"
-				 tool_tip="Ignores the 'push' the simulator applies to your camera to keep it out of objects. REQUIRES RESTART!"/>
+				 tool_tip="시뮬레이터가 카메라에 적용하는 '밀어내기'를 무시하여 카메라에 물체가 들어가지 않도록 합니다. 재시작 필요!"/>
 				<check_box
 				 top_pad="2"
 				 follows="left|top"
@@ -800,7 +800,7 @@
 				 name="resetcameraonmovement"
 				 width="250"
 				 control_name="FSResetCameraOnMovement"
-				 tool_tip="Resets the camera to its default position when you move the avatar"/>
+				 tool_tip="아바타를 이동할 때 카메라를 기본 위치로 재설정합니다."/>
 			</panel>
 		</panel>
 
@@ -838,7 +838,7 @@
 				 min_val="0"
 				 name="FlycamAxisScale1b"
 				 top_pad="10"
-				 tool_tip="Adjusts the sensitivity of the Left/Right movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="왼쪽/오른쪽 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 width="255"/>
 				<slider
 				 can_edit_text="true"
@@ -854,7 +854,7 @@
 				 max_val="5"
 				 min_val="0"
 				 name="FlycamAxisScale2b"
-				 tool_tip="Adjusts the sensitivity of the Up/Down movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="위/아래 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 top_pad="2"
 				 width="255"/>
 				<slider
@@ -872,7 +872,7 @@
 				 min_val="0"
 				 name="FlycamAxisScale0b"
 				 top_pad="2"
-				 tool_tip="Adjusts the sensitivity of the In/Out movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="In/Out 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 width="255"/>
 				<slider
 				 can_edit_text="true"
@@ -888,7 +888,7 @@
 				 max_val=".5"
 				 min_val="0"
 				 name="FlycamAxisScale4"
-				 tool_tip="Adjusts the sensitivity of the Pitch movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="피치 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 top_pad="2"
 				 width="255"/>
 				<slider
@@ -906,7 +906,7 @@
 				 min_val="0"
 				 name="FlycamAxisScale5"
 				 top_pad="2"
-				 tool_tip="Adjusts the sensitivity of the Yaw movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="기울어짐 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 width="255"/>
 				<slider
 				 can_edit_text="true"
@@ -922,7 +922,7 @@
 				 max_val=".5"
 				 min_val="0"
 				 name="FlycamAxisScale3"
-				 tool_tip="Adjusts the sensitivity of the Roll movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="굴리기 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 top_pad="2"
 				 width="255"/>
 				<slider
@@ -939,7 +939,7 @@
 				 max_val="0.1"
 				 min_val="0.0001"
 				 name="FlycamAxisScale6"
-				 tool_tip="Adjusts the sensitivity of the Zoom speed. If you find it difficult to zoom with precision, use lower scale values."
+				 tool_tip="확대 속도의 감도를 조정합니다. 정밀하게 확대/축소하는 것이 어려운 경우 낮은 축척 값을 사용하십시오."
 				 top_pad="2"
 				 width="255"/>
 				<slider
@@ -957,7 +957,7 @@
 				 min_val="0"
 				 name="FlycamFeathering"
 				 top_pad="2"
-				 tool_tip="Setting the slider all the way to the right will make the camera very rigid, giving complete control to the joystick. Setting the slider all the way to the left will make the camera very fluid like the camera weighs a lot; good for fly-by shots, not good for framing."
+				 tool_tip="슬라이더를 오른쪽으로 끝까지 설정하면 카메라가 매우 단단해져 조이스틱을 완전히 제어할 수 있습니다. 슬라이더를 왼쪽으로 끝까지 설정하면 카메라 무게가 많이 나가는 것처럼 카메라가 매우 유동적입니다. 즉, 플라이 바이 샷에 적합하고 프레임에 적합하지 않습니다."
 				 width="255"/>
 			</panel>
 
@@ -984,7 +984,7 @@
 				 max_val="5"
 				 min_val="-1"
 				 name="JoystickAxis6"
-				 tool_tip="Controls which mouse axis the zooming function is mapped to (set to work with)."
+				 tool_tip="확대/축소 기능이 매핑되는 마우스 축을 제어합니다(작업으로 설정됨)."
 				 top_pad="2"
 				 width="255"/>
 				<check_box
@@ -994,7 +994,7 @@
 				 label="3D 마우스 사용"
 				 layout="topleft"
 				 left="6"
-				 tool_tip="This turns on the 3D Mouse."
+				 tool_tip="3D 마우스가 켜집니다."
 				 name="enable_joystick"
 				 width="60"/>
 				<check_box
@@ -1004,7 +1004,7 @@
 				 layout="topleft"
 				 left="6"
 				 top_pad="7"
-				 tool_tip="In order for the zooming control to work, you must set the 'Zoom Axis Mapping' above to '4'."
+				 tool_tip="확대/축소 컨트롤이 작동하려면 위의 '확대축 매핑'을 '4'로 설정해야 합니다."
 				 width="15"/>
 				<check_box
 				 name="CB_Auto_Leveling"
@@ -1026,7 +1026,7 @@
 				 name="CB_3D_Mouse_Build"
 				 control_name="JoystickBuildEnabled"
 				 label="3D 마우스를 사용하여 객체(건물) 이동"
-				 tool_tip="Uses the 3D mouse to move objects when building and editing."
+				 tool_tip="3D 마우스를 사용하여 빌드 및 편집 시 객체 이동."
 				 layout="topleft"
 				 left="6"
 				 top_pad="7"

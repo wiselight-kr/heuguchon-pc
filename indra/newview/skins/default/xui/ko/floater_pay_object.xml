@@ -11,11 +11,11 @@
  width="250">
     <string
      name="payee_group">
-        Pay Group
+      그룹 지불
     </string>
     <string
      name="payee_resident">
-        Pay Resident
+        거주자 지불
     </string>
     <text
      icon_positioning="left"
@@ -27,7 +27,7 @@
      name="payee_name"
      use_ellipses="true" 
      width="225">
-      Ericacita Moostopolison
+      에리카시타 무스토폴리온
     </text>
     <text
      type="string"
@@ -40,7 +40,7 @@
      name="object_name_label"
      top_pad="5"
      width="180">
-        Via object:
+        개체를 통하여:
     </text>
    <icon
      height="16"
@@ -64,7 +64,7 @@
      use_ellipses="true"
      word_wrap="false"
      width="188">
-        My awesome object with a really damn long name
+        정말 빌어먹을 긴 이름을 가진 내 멋진 물건
     </text>
    <button
      height="23"
@@ -110,7 +110,7 @@
      name="amount text"
      top_pad="8"
      width="180">
-        Or, choose amount:
+        또는 금액 선택:
     </text>
     <line_editor
      border_style="line"
@@ -125,7 +125,7 @@
     <button
      enabled="false"
      height="23"
-     label="Pay"
+     label="지불"
      label_selected="Pay"
      layout="topleft"
      left="10"
@@ -134,7 +134,7 @@
      width="100" />
     <button
      height="23"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_pad="5"

@@ -11,7 +11,7 @@
  layout="topleft"
  save_rect="true"
  single_instance="true"
- title="Phototools"
+ title="사진도구"
  name="phototools"
  help_topic="phototools_menu_floater">
 
@@ -34,7 +34,7 @@
 		 layout="topleft"
 		 width="285"
 		 top="0"
-		 label="Env"
+		 label="환경"
 		 left="0">
 
 			<panel
@@ -57,7 +57,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="200">
-					Environment Settings
+					환경 설정
 				</text>
 			</panel>
 
@@ -75,12 +75,12 @@
 				 control_name="WindLightUseAtmosShaders"
 				 height="16"
 				 initial_value="true"
-				 label="Enable Atmospheric Shaders"
+				 label="대기 셰이더 사용"
 				 layout="topleft"
 				 left="5"
 				 name="WindLightUseAtmosShaders"
 				 top_pad="8"
-				 tool_tip="This will enable full EEP functionality (atmospheric shaders)."
+				 tool_tip="그러면 전체 EEP 기능(대기 셰이더)이 활성화됩니다."
 				 width="240">
 				</check_box>
 			</panel>
@@ -103,11 +103,11 @@
 				 layout="topleft"
 				 left="5"
 				 name="WL Sky"
-				 tool_tip="Presets for your sky."
+				 tool_tip="하늘을 위한 사전 설정."
 				 mouse_opaque="false"
 				 top_pad="10"
 				 width="90">
-					Sky
+					하늘
 				</text>
 				<combo_box
 				 allow_text_entry="true"
@@ -147,11 +147,11 @@
 				 layout="topleft"
 				 left="5"
 				 name="WL Water"
-				 tool_tip="Presets for your water."
+				 tool_tip="물에 대한 사전 설정."
 				 mouse_opaque="false"
 				 top_pad="8"
 				 width="90">
-					Water
+					물
 				</text>
 				<combo_box
 				 allow_text_entry="true"
@@ -191,11 +191,11 @@
 				 layout="topleft"
 				 left="5"
 				 name="Day Cycle"
-				 tool_tip="Presets for your day cycle."
+				 tool_tip="주간 주기에 맞는 사전 설정."
 				 mouse_opaque="false"
 				 top_pad="8"
 				 width="90">
-					Day Cycle
+					주간 주기
 				</text>
 				<combo_box
 				 allow_text_entry="true"
@@ -235,7 +235,7 @@
 				 width="245"
 				 top_pad="5"
 				 left="5"
-				 label="Personal Lighting...">
+				 label="개인 조명...">
 					<button.commit_callback
 					 function="Floater.ToggleOrBringToFront"
 					 parameter="env_adjust_snapshot" />
@@ -243,7 +243,7 @@
 				<button
 				 name="ResetToRegionDefault"
 				 label=""
-				 tool_tip="Reset the environment options to shared environment."
+				 tool_tip="환경 옵션을 공유 환경으로 재설정."
 				 enabled="true"
 				 top_delta="0"
 				 left_pad="0"
@@ -259,7 +259,7 @@
 				<button
 				 follows="top|left|right"
 				 height="20"
-				 label="Pause Clouds"
+				 label="구름 일시정지"
 				 image_selected="PushButton_Selected_Press"
 				 image_disabled_selected="PushButton_Selected_Disabled"
 				 image_disabled="PushButton_Disabled"
@@ -267,7 +267,7 @@
 				 image_pressed_selected="PushButton_Selected_Press"
 				 layout="topleft"
 				 name="PauseClouds"
-				 tool_tip="Pauses cloud animations"
+				 tool_tip="구름 애니메이션 일시정지"
 				 top_pad="3"
 				 left="5"
 				 right="-5">
@@ -300,7 +300,7 @@
 				 height="20"
 				 word_wrap="true"
 				 width="155">
-					Quick Environments
+					빠른 환경
 				</text>
 				<view_border
 				 bevel_style="none"
@@ -315,7 +315,7 @@
 				 follows="left|top"
 				 name="Sunrise"
 				 height="20"
-				 label="Sunrise"
+				 label="일출"
 				 layout="topleft"
 				 left="10"
 				 top_pad="5"
@@ -328,7 +328,7 @@
 				 follows="left|top"
 				 name="Noon"
 				 height="20"
-				 label="Noon"
+				 label="낮"
 				 layout="topleft"
 				 left="10"
 				 top_pad="2"
@@ -341,7 +341,7 @@
 				 follows="left|top"
 				 name="Sunset"
 				 height="20"
-				 label="Sunset"
+				 label="일몰"
 				 layout="topleft"
 				 left="10"
 				 top_pad="2"
@@ -354,7 +354,7 @@
 				 follows="left|top"
 				 name="Midnight"
 				 height="20"
-				 label="Midnight"
+				 label="자정"
 				 layout="topleft"
 				 left="10"
 				 top_pad="2"
@@ -367,7 +367,7 @@
 				 follows="left|top"
 				 name="Revert to Region Default"
 				 height="20"
-				 label="Shared Environment"
+				 label="공유 환경"
 				 layout="topleft"
 				 left="10"
 				 top_pad="2"
@@ -397,9 +397,9 @@
 				 top_pad="5"
 				 height="20"
 				 word_wrap="true"
-				 tool_tip="Click an item below to create new preset or modify an existing one."
+				 tool_tip="새 사전 설정을 만들거나 기존 사전 설정을 수정하려면 아래 항목을 클릭하십시오."
 				 width="150">
-					Windlight Presets
+					윈드라이트 사전 설정
 				</text>
 				<view_border
 				 bevel_style="none"
@@ -414,7 +414,7 @@
 				 follows="left|top"
 				 name="new_sky_preset"
 				 height="20"
-				 label="New Sky Preset"
+				 label="새 하늘 사전 설정"
 				 layout="topleft"
 				 left="10"
 				 top_pad="5"
@@ -427,7 +427,7 @@
 				 follows="left|top"
 				 name="edit_sky_preset"
 				 height="20"
-				 label="Edit Sky Preset"
+				 label="하늘 사전 설정 수정"
 				 layout="topleft"
 				 left="10"
 				 top_pad="2"
@@ -450,7 +450,7 @@
 				 follows="left|top"
 				 name="new_water_preset"
 				 height="20"
-				 label="New Water Preset"
+				 label="새로운 물 사전 설정"
 				 layout="topleft"
 				 left="10"
 				 top_pad="10"
@@ -463,7 +463,7 @@
 				 follows="left|top"
 				 name="edit_water_preset"
 				 height="20"
-				 label="Edit Water Preset"
+				 label="물 사전 설정 수정"
 				 layout="topleft"
 				 left="10"
 				 top_pad="2"
@@ -494,7 +494,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="230">
-					Water Reflection Settings
+					물 반사 설정
 				</text>
 			</panel>
 
@@ -516,8 +516,8 @@
 				 top_pad="13"
 				 width="75"
 				 layout="topleft"
-				 tool_tip="Determines what will show up in water reflections.">
-					Type
+				 tool_tip="물 반사에 나타날 항목을 결정합니다.">
+					항목
 				</text>
 				<combo_box
 				 control_name="RenderReflectionDetail"
@@ -529,23 +529,23 @@
 				 width="165"
 				 follows="left|right">
 					<combo_box.item
-					 label="Minimal"
+					 label="최소"
 					 name="0"
 					 value="0"/>
 					<combo_box.item
-					 label="Terrain and trees"
+					 label="지형과 나무"
 					 name="1"
 					 value="1"/>
 					<combo_box.item
-					 label="All static objects"
+					 label="모든 정적 개체"
 					 name="2"
 					 value="2"/>
 					<combo_box.item
-					 label="All avatars and objects"
+					 label="모든 아바타와 개체"
 					 name="3"
 					 value="3"/>
 					<combo_box.item
-					 label="Everything"
+					 label="모든 것"
 					 name="4"
 					 value="4"/>
 				</combo_box>
@@ -569,8 +569,8 @@
 				 top_pad="13"
 				 width="80"
 				 layout="topleft"
-				 tool_tip="Determines the resolution/quality of water reflections. Whenever resolution settings are set to 'Very Good' or above, you must also enable 'Advanced Lighting Model' in tab 'Light'.">
-					Resolution
+				 tool_tip="물 반사의 해상도/품질을 결정합니다. 해상도 설정이 '매우 양호함' 이상으로 설정될 때마다 '조명' 탭에서 '고급 조명 모델'을 활성화해야 합니다.">
+					결의안
 				</text>
 				<combo_box
 				 control_name="RenderWaterRefResolution"
@@ -582,27 +582,27 @@
 				 name="ReflectionRescombo"
 				 width="115">
 					<combo_box.item
-					 label="Decent"
+					 label="괜찮음"
 					 name="0"
 					 value="256"/>
 					<combo_box.item
-					 label="Good"
+					 label="좋음"
 					 name="1"
 					 value="512"/>
 					<combo_box.item
-					 label="Very Good          - NOTE: You must also enable 'Advanced Lighting Model' (Light Tab)"
+					 label="아주 좋음          - 참고: '고급 조명 모델'(조명 탭)도 활성화해야 합니다."
 					 name="2"
 					 value="1024"/>
 					<combo_box.item
-					 label="Excellent            - NOTE: You must also enable 'Advanced Lighting Model' (Light Tab)"
+					 label="최고            - 참고: '고급 조명 모델'(조명 탭)도 활성화해야 합니다."
 					 name="3"
 					 value="1536"/>
 					<combo_box.item
-					 label="Outstanding      - NOTE: You must also enable 'Advanced Lighting Model' (Light Tab)"
+					 label="최우수      - 참고: '고급 조명 모델'(조명 탭)도 활성화해야 합니다."
 					 name="4"
 					 value="2048"/>
 					<combo_box.item
-					 label="Life-Like             - NOTE: You must also enable 'Advanced Lighting Model' (Light Tab)"
+					 label="인생이 그런거지             - 참고: '고급 조명 모델'(조명 탭)도 활성화해야 합니다."
 					 name="5"
 					 value="4096"/>
 					<combo_box.commit_callback
@@ -611,11 +611,11 @@
 				<check_box
 				 control_name="RenderTransparentWater"
 				 height="16"
-				 label="Transparent Water"
+				 label="투명한 물"
 				 layout="topleft"
 				 left="5"
 				 name="TransparentWater"
-				 tool_tip="Render water as transparent. Disabling renders water as opaque with a simple texture applied."
+				 tool_tip="물을 투명하게 합니다. 비활성화 시 단순 질감이 적용되어 물이 불투명하게 됩니다."
 				 top_pad="5"
 				 width="240">
 				</check_box>
@@ -628,7 +628,7 @@
 		 layout="topleft"
 		 width="285"
 		 top="0"
-		 label="Light"
+		 label="조명"
 		 left="0">
 			<panel
 			 name="PT_Light_Shadows"
@@ -650,7 +650,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="230">
-					Lights and Shadows Settings
+					조명과 그림자 설정
 				</text>
 			</panel>
 
@@ -668,22 +668,22 @@
 				 control_name="RenderDeferred"
 				 height="16"
 				 initial_value="true"
-				 label="Enable Advanced Lighting Model"
+				 label="고급 조명 모델 활성화"
 				 layout="topleft"
 				 left="5"
 				 name="RenderDeferred"
 				 top_pad="8"
-				 tool_tip="This will enable shadows from the Sun and Moon and in-world light sources. It will also allow you to turn on Depth of Field and other graphic features. Basically you need to turn this on to see most of the 'eye candy' in-world. If you cannot enable this feature or see its effect, first ensure Atmospheric Shaders is enabled in tab 'Env'."
+				 tool_tip="이것은 태양과 달과 세계 광원의 그림자를 가능하게 할 것이다. 또한 필드 깊이 및 기타 그래픽 기능을 설정할 수 있습니다. 기본적으로 '눈사탕'을 보려면 이 기능을 켜야 합니다. 이 기능을 활성화하거나 효과를 볼 수 없는 경우 먼저 'Env' 탭에서 대기 셰이더가 활성화되었는지 확인하십시오."
 				 width="240">
 				</check_box>
 				<check_box
 				 control_name="RenderLocalLights"
 				 height="16"
-				 label="Enable All Local Lights"
+				 label="모든 로컬 조명 활성화"
 				 layout="topleft"
 				 left="5"
 				 name="LocalLights"
-				 tool_tip="This will turn on all in-world lights. If you disable this feature, light from Sun and Moon will still appear. Useful when you wish to eliminate SIM lighting and use only the Sun and Moon light."
+				 tool_tip="그러면 세상의 모든 조명이 켜집니다. 이 기능을 비활성화하면 Sun 및 Moon의 빛이 계속 나타납니다. SIM 조명을 제거하고 Sun 및 Moon 조명만 사용하고자 할 때 유용합니다."
 				 top_pad="2"
 				 width="240"/>
 				<check_box
@@ -692,8 +692,8 @@
 				 left="5"
 				 top_pad="2"
 				 height="16"
-				 label="Enable Attached Lights (Face Lights)"
-				 tool_tip="This will enable any lights, such as face lights, avatars have attached to them. Useful for turning off facelights when necessary."
+				 label="부착 조명(얼굴 조명) 사용"
+				 tool_tip="이렇게 하면 얼굴 조명, 아바타가 부착한 조명 등 모든 조명을 사용할 수 있습니다. 필요한 경우 전면 조명을 끄는 데 유용합니다."
 				 name="Render Attached Lights">
 					<check_box.on_check
 					 function="CheckControl"
@@ -723,8 +723,8 @@
 				 width="50"
 				 word_wrap="true"
 				 layout="topleft"
-				 tool_tip="This setting only affects the shadows that are rendered from light sources, the lights will still function normally otherwise. Point light (lights that do not have the projection feature enabled) will always create a sense of shadows, yet they will not cast them upon any surface. It is important to note that regardless of the setting you choose here, textures projected from projection lights will still be enabled.">
-					Shadow Types
+				 tool_tip="이 설정은 광원에서 렌더링되는 그림자에만 영향을 미치며, 그렇지 않으면 조명은 정상적으로 작동합니다. 점등(투영 기능이 활성화되지 않은 조명)은 항상 그림자를 만들지만 어떤 표면에도 그림자를 드리우지 않습니다. 여기서 선택한 설정에 관계없이 투사 조명의 투사 텍스처가 계속 활성화됩니다.">
+					그림자 형태
 				</text>
 				<combo_box
 				 control_name="RenderShadowDetail"
@@ -737,15 +737,15 @@
 				 name="ShadowDetail"
 				 width="200">
 					<combo_box.item
-					 label="None"
+					 label="없음"
 					 name="0"
 					 value="0"/>
 					<combo_box.item
-					 label="Sun/Moon"
+					 label="태양/달"
 					 name="1"
 					 value="1"/>
 					<combo_box.item
-					 label="Sun/Moon + Projectors"
+					 label="태양/달 + 프로젝터"
 					 name="2"
 					 value="2"/>
 				</combo_box>
@@ -767,7 +767,7 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="10"
-				 tool_tip="Shadow Resolution: This is a VERY important setting. It determines the quality of the shadows. It also is VERY heavy on the computer. It is a good idea to leave this setting as LOW as possible when you are not shooting. When you are shooting, set it to 1.0 while preparing your shot. When you are ready to take your shot, slowly raise the slider bar to the right. You need to be careful of your framerate while you raise this setting. It is helpful to turn on the Statistics Bar (in tab 'Aids' under 'Interface aids') when you do this for the first few times so you can be familiar with the level of shadows that works best with your system. NOTE: Setting this too high or moving it too fast will cause viewer crashes."
+				 tool_tip="그림자 해상도: 이것은 매우 중요한 설정입니다. 그림자의 품질을 결정합니다. 그것은 또한 컴퓨터에 매우 무겁다. 촬영하지 않을 때는 이 설정을 최대한 낮게 유지하는 것이 좋습니다. 촬영할 때는 1.0으로 설정하고 촬영 준비하세요. 샷을 할 준비가 되었으면 오른쪽 슬라이더 막대를 천천히 올립니다. 이 설정을 올리는 동안 프레임률을 주의해야 합니다. 처음 몇 번 이 작업을 수행할 때는 통계 표시줄('인터페이스 보조 도구' 아래의 '보조 도구' 탭)을 켜면 시스템에서 가장 잘 작동하는 그림자의 수준에 익숙해질 수 있습니다. 참고: 이 값을 너무 높게 설정하거나 너무 빨리 이동하면 뷰어가 충돌합니다."
 				 width="80">
 					Shd. Res
 				</text>
@@ -804,7 +804,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderShadowResolutionScale"/>
@@ -817,7 +817,7 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="This is a VERY important setting. It essentially determines how clear the Sun/Moon shadows are drawn overall. This setting should be set first before adjusting the setting below. With the value of 'Shd. Res' above set to 1.0, slide the value for 'Shd. Clarity' until the sharpest possible result is achieved. Please note, the clarity of shadows is directly related to the position of the camera and Sun/Moon. Every time you move either the camera or the Sun/Moon, it is best to adjust this value again. In addition, in order to make adjusting this value easier, it is helpful to set 'Shd. Blur' to 0.0 first."
+				 tool_tip="이것은 매우 중요한 설정입니다. 이것은 기본적으로 태양/달 그림자가 전체적으로 얼마나 선명하게 그려지는지를 결정합니다. 아래 설정을 조정하기 전에 이 설정을 먼저 설정해야 합니다. 'Shd'의 값으로. 위의 Res'를 1.0으로 설정한 후 'Shd'의 값을 밉니다. 가능한 한 날카로운 결과가 나올 때까지 '명료함'을 표시합니다. 그림자의 선명도는 카메라와 선/문의 위치와 직결됩니다. 카메라 또는 태양/달을 이동할 때마다 이 값을 다시 조정하는 것이 가장 좋습니다. 또한 이 값을 더 쉽게 조정하려면 'Shd'를 설정하는 것이 도움이 됩니다. 0.0으로 먼저 흐려집니다."
 				 width="80">
 					Shd Clarity
 				</text>
@@ -852,7 +852,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value."/>
+				 tool_tip="기본값으로 재설정."/>
 
 				<text
 				 name="T_Blur_Size"
@@ -860,7 +860,7 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="The higher the number, the softer the shadow edges. Set to '0' for the sharpest shadows possible. This setting is directly related to the one below it as well. It allows you to set the overall possible amount of shadow blur. If set to 4.00, you can use Shadows Soften to adjust the shadow blur independent of the ambient occlusion. PLEASE NOTE: Ambient Occlusion must be enabled for this setting to work."
+				 tool_tip="숫자가 높을수록 그림자 가장자리가 부드러워집니다. 가장 선명한 그림자를 보려면 '0'으로 설정하십시오. 이 설정은 아래 설정과도 직결됩니다. 전체적으로 가능한 섀도 블러 양을 설정할 수 있습니다. 4.00으로 설정된 경우 그림자 연화를 사용하여 주변 폐색과는 독립적으로 섀도 블러를 조정할 수 있습니다. 참고: 이 설정이 작동하려면 주변 폐색이 활성화되어 있어야 합니다."
 				 width="80">
 					Shd. Blur
 				</text>
@@ -897,7 +897,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderShadowBlurSize"/>
@@ -910,7 +910,7 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls the softening effect of Sun/Moon shadows. One simple way to set this value for your specific needs is to first set the 'Shd. Blur' value above to around 3.0. Then the slider here to soften the AO to your liking. Please note, a value of 0.0 will effectively turn off all Sun/Moon shadows. In addition, this has no effect of shadows the caused by projector lights"
+				 tool_tip="태양/달 그림자의 연화 효과를 제어합니다. 특정 요구사항에 맞게 이 값을 설정하는 간단한 방법 중 하나는 먼저 'Shd'를 설정하는 것입니다. 'Blur' 값은 약 3.0입니다. 그런 다음 여기 슬라이더를 사용하여 AO를 원하는 대로 부드럽게 합니다. 0.0 값을 지정하면 모든 태양/달 그림자가 효과적으로 꺼집니다. 또한 프로젝터 조명으로 인한 그림자의 영향은 없습니다"
 				 width="80">
 					Shd. Soften
 				</text>
@@ -945,7 +945,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value."/>
+				 tool_tip="기본값으로 재설정."/>
 
 				<text
 				 name="T_Blur_Dist"
@@ -953,9 +953,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="This will determine the point at which the shadows will begin to blur relative to the camera. The lower the value the closer the point of shadow blur will begin. PLEASE NOTE: Ambient Oclussion must be enabled for this setting to work."
+				 tool_tip="이것은 카메라에 대해 그림자가 흐릿해지기 시작하는 지점을 결정합니다. 값이 낮을수록 그림자 흐림 지점이 더 가까워집니다. 참고: 이 설정이 작동하려면 주변 경계가 활성화되어 있어야 합니다."
 				 width="80">
-					Blur. Dist.
+					흐려짐. 거리.
 				</text>
 				<slider_bar
 				 name="SB_Blur_Dist"
@@ -990,7 +990,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderShadowBlurDistFactor"/>
@@ -1002,9 +1002,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="This determines the FOV cutoff at which the viewer will switch between ortho instead of perspective projection. If you are getting shadows that are 'jaggedy' try adjusting this setting for improvement. Also adjusting the XYZ values for the debug setting RenderShadowSplitExponent can be VERY helpful."
+				 tool_tip="이것은 뷰어가 투시 투영 대신 ortho 사이를 전환하는 FOV 컷오프를 결정합니다. '재깅'하는 그림자가 나타나는 경우 개선을 위해 이 설정을 조정해 보십시오. 또한 디버그 설정 RenderShadowSplitExponent의 XYZ 값을 조정하는 것이 매우 유용할 수 있습니다."
 				 width="80">
-					FOV Cutoff
+					FOV 컷오프
 				</text>
 				<slider_bar
 				 name="SB_FOV_Cutoff"
@@ -1039,7 +1039,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderShadowFOVCutoff"/>
@@ -1088,7 +1088,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderShadowBias"/>
@@ -1115,7 +1115,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="250">
-					Ambient Occlusion Settings
+					주변 은은함 설정
 				</text>
 			</panel>
 
@@ -1133,11 +1133,11 @@
 				 control_name="RenderDeferredSSAO"
 				 enabled_control="RenderDeferred"
 				 height="16"
-				 label="Enable Ambient Occlusion (Depth Perception)"
+				 label="주변 은은함 활성화(깊이 인식)"
 				 layout="topleft"
 				 left="5"
 				 name="UseSSAO"
-				 tool_tip="Ambient Occlusion adds shading to all objects. It is most effective when the Effect and AO Soften settings below are used. It can add a high level of realism to the image. This is especially true when images are made at resolutions of 2048 pixels or above."
+				 tool_tip="주변 은은함 기능은 모든 개체에 음영을 추가합니다.Clusion)은 모든 개체에 음영을 추가합니다. 아래의 효과 및 AO 연화 설정을 사용할 때 가장 효과적입니다. 이미지에 높은 수준의 사실감을 추가할 수 있습니다. 이것은 특히 이미지가 2048픽셀 이상의 해상도로 만들어질 때 해당된다."
 				 top_pad="12"
 				 width="230">
 				</check_box>
@@ -1159,9 +1159,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="10"
-				 tool_tip="Controls sampling region; larger regions are more accurate. It can be helpful to set these values high and then add a bit of shadow blur to soften their effect."
+				 tool_tip="샘플링 영역을 제어합니다. 더 큰 영역이 더 정확합니다. 이러한 값을 높게 설정한 다음 그림자 블러를 약간 추가하여 효과를 부드럽게 하는 것이 도움이 될 수 있습니다."
 				 width="80">
-					Scale
+					규모
 				</text>
 				<slider_bar
 				 name="SB_Scale"
@@ -1196,7 +1196,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderSSAOScale"/>
@@ -1208,9 +1208,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls maximum screen radius from which to sample from, to avoid graphics card cache misses and associated large performance penalty. It can be helpful to set these values high and then add a bit of shadow blur to soften their effect."
+				 tool_tip="그래픽 카드 캐시 누락 및 관련 성능 저하를 방지하기 위해 샘플링할 최대 화면 반경을 제어합니다. 이러한 값을 높게 설정한 다음 섀도 블러를 약간 추가하여 효과를 부드럽게 하는 것이 도움이 될 수 있습니다."
 				 width="80">
-					Max Scale
+					최대 규모
 				</text>
 				<slider_bar
 				 name="SB_Max_Scale"
@@ -1245,7 +1245,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderSSAOMaxScale"/>
@@ -1257,9 +1257,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Scaling factor for the effect (larger is darker). It can be helpful to set these values high and then add a bit of shadow blur to soften their effect."
+				 tool_tip="효과에 대한 척도 모수(크면 진할수록)입니다. 이러한 값을 높게 설정한 다음 섀도 블러를 약간 추가하여 효과를 부드럽게 하는 것이 도움이 될 수 있습니다."
 				 width="80">
-					Factor
+					요소
 				</text>
 				<slider_bar
 				 name="SB_Scaling_Factor"
@@ -1294,7 +1294,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderSSAOFactor"/>
@@ -1307,9 +1307,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls the overall darkening effect of Ambient Occlusion. The default value of 0.8 produces an almost imperceptible effect. Values of 0.0 and below provide a more realistic result. Please note that the Ambient Occlusion produces a noise like effect and this can be softened using the 'AO Soften' controls below. In addition, the standard mesh avatar can look less than appealing with high Effect values due to the low quality geometry of the avatar. Please Note: The lowest value you can set in the slider is 0, while in the spinner you can enter negative values of up to -10000."
+				 tool_tip="앰비언트 오클루전(Ambient Occlusion)의 전체적인 다크닝 효과를 제어합니다. 기본값 0.8은 거의 감지할 수 없는 효과를 생성합니다. 0.0 이하의 값은 보다 현실적인 결과를 제공합니다. 주변 은은함 시 노이즈와 유사한 효과가 발생하며, 이는 아래의 'AO 소프트' 컨트롤을 사용하여 부드럽게 할 수 있습니다. 또한, 표준 메뮈 아바타는 아바타의 낮은 품질 기하학으로 인해 높은 효과 값으로 어필하지 못할 수 있다. 참고 사항: 슬라이더에서 설정할 수 있는 최소값은 0인 반면 스피너에서는 최대 -10000의 음수 값을 입력할 수 있습니다."
 				 width="80">
-					Effect
+					효과
 				</text>
 				<slider_bar
 				 name="SB_Effect"
@@ -1342,7 +1342,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value."/>
+				 tool_tip="기본값으로 재설정."/>
 
 				<!-- RenderShadowGaussian Y component -->
 				<text
@@ -1351,9 +1351,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls the softening of the Ambient Occlusion effect. One simple way to set this value for your specific needs is to first set the 'Shd. Blur' value above to around 4.0. Then the slider here to soften the AO to your liking. Please note, a value of 0.0 will effectively turn off Ambient Occlusion rendering."
+				 tool_tip="주변 은은함 효과의 연화를 제어합니다. 특정 요구사항에 맞게 이 값을 설정하는 간단한 방법 중 하나는 먼저 'Shd'를 설정하는 것입니다. 'Blur' 값은 약 4.0입니다. 그런 다음 여기 슬라이더를 사용하여 AO를 원하는 대로 부드럽게 합니다. 0.0 값을 지정하면 주변 은은함 렌더링 효과적으로 꺼집니다."
 				 width="80">
-					AO Soften
+					AO 연화
 				</text>
 				<slider_bar
 				 name="SB_AO_Soften"
@@ -1386,7 +1386,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value."/>
+				 tool_tip="기본값으로 재설정."/>
 			</panel>
 		</panel>
 
@@ -1395,7 +1395,7 @@
 		 follows="top|left"
 		 layout="topleft"
 		 top_pad="0"
-		 label="DoF/Glow"
+		 label="DoF/광택"
 		 left="0">
 			<panel
 			 name="PT_DoF_Glow"
@@ -1417,7 +1417,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="230">
-					Depth of Field Settings
+					필드 깊이 설정
 				</text>
 			</panel>
 
@@ -1435,11 +1435,11 @@
 				 control_name="RenderDepthOfField"
 				 enabled_control="RenderDeferred"
 				 height="16"
-				 label="Enable Depth of Field (DoF)"
+				 label="필드 깊이 사용 (DoF)"
 				 layout="topleft"
 				 left="5"
 				 name="UseDepthofField"
-				 tool_tip="This will enable Depth of Field which will 'determine distance between the nearest and farthest objects in a scene that appear acceptably sharp in an image' (Wikipedia). If you are not using it turn it off and it will speed up your frame rate. If you cannot enable this feature or do not see its effect, please turn on 'Advanced Lighting Model' in tab 'Light'."
+				 tool_tip="이렇게 하면 '영역 깊이'가 활성화되어 '영상에서 가장 가까운 개체와 가장 먼 개체 사이의 거리를 결정할 수 있습니다(Wikipedia). 사용하지 않을 경우 꺼두면 프레임 속도가 빨라집니다. 이 기능을 사용할 수 없거나 효과가 나타나지 않으면 '조명' 탭에서 '고급 조명 모델'을 켜십시오."
 				 top_pad="10"
 				 width="230"/>
 				<check_box
@@ -1450,18 +1450,18 @@
 				 left="5"
 				 top_pad="3"
 				 height="16"
-				 label="Enable DoF when underwater"
-				 tool_tip="Normally, Depth of Field is disabled when underwater, even with the above box checked. This setting will remove that restriction. Note that you may have to manually refocus your camera on desired objects by alt-clicking on them when you're underwater."
+				 label="수중 시 DoF 활성화"
+				 tool_tip="일반적으로, 위의 상자를 선택한 상태에서도 수중에서는 필드 깊이가 비활성화됩니다. 이 설정을 사용하면 해당 제한이 제거됩니다. 수중에서는 원하는 물체에 카메라의 초점을 수동으로 다시 맞추어야 할 수 있습니다."
 				 name="UseDoFUnderwater">
 				</check_box>
 				<check_box
 				control_name="FSFocusPointFollowsPointer"
 				enabled_control="RenderDepthOfField"
 				height="16"
-				label="Depth of Field focus follows pointer"
+				label="포인터를 따르는 필드 포커스 깊이"
 				layout="topleft"
 				name="FSFocusPointFollowsPointer"
-				tool_tip="Depth of Field (DoF) focus will follow your mouse, this behaviour matches that seen when using flycam. Use in conjunction with DoF focus lock"
+				tool_tip="시야 깊이(DoF) 초점은 마우스를 따라갑니다. 이 동작은 플라이캠을 사용할 때 나타나는 동작과 일치합니다. DoF 포커스 잠금과 함께 사용"
 				top_pad="4"
 				width="256"/>	   
 				<check_box
@@ -1470,8 +1470,8 @@
 				 left="5"
 				 top_pad="3"
 				 height="16"
-				 label="Show the Current FOV of Viewer Screen"
-				 tool_tip="This will show you the vertical field of view for the camera. Within the viewer it is possible to change the lens length just like in real life. The smaller the FOV the longer the camera lens. A 50mm lens has a FOV of 27.0 degrees. To adjust the FOV use the zoom slider bar below. Please see: 'http://en.wikipedia.org/wiki/Angle_of_view' for a table showing the relationship between FOV and Lens Focal Length (mm). TURN IT OFF BEFORE YOU TAKE SNAPSHOTS OR IT WILL BE IN THE PICTURE!"
+				 label="뷰어 화면의 현재 FOV 표시"
+				 tool_tip="그러면 카메라의 수직 시야가 표시됩니다. 뷰어 내에서 실제와 마찬가지로 렌즈 길이를 변경할 수 있습니다. FOV가 작을수록 카메라 렌즈가 길어집니다. 50mm 렌즈의 FOV는 27.0도입니다. FOV를 조정하려면 아래의 확대/축소 슬라이더 막대를 사용하십시오. FOV와 렌즈 초점 길이(mm) 사이의 관계를 보여주는 표는 'http://en.wikipedia.org/wiki/Angle_of_view'를 참조하십시오. 스냅샷을 찍기 전에 전원을 끄십시오. 그렇지 않으면 사진에 나타날 것입니다!"
 				 name="MIC_Show_FOV">
 					<check_box.on_check
 					 function="Advanced.CheckHUDInfo"
@@ -1498,9 +1498,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="15"
-				 tool_tip="In real world terms this is a Zoom feature. This will change the field of view in your viewer window. It is the same as hitting Ctrl + 0 or Ctrl+8. NOTE: This will not function if you have flycam enabled (3D SpaceNavigator)."
+				 tool_tip="실제 조건에서 이 기능은 줌 기능입니다. 뷰어 창의 시야가 변경됩니다. Ctrl + 0 또는 Ctrl + 8을 누르는 것과 같습니다. 참고: 이 기능은 플라이캠(3D Space Navigator)이 활성화된 경우 작동하지 않습니다."
 				 width="80">
-					View angle
+					각도 보기
 				</text>
 				<slider_bar
 				 name="SB_Zoom"
@@ -1535,7 +1535,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraAngle"/>
@@ -1547,7 +1547,7 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Field of View: This tells the viewer what FOV you would like to simulate for the DOF effect. It is best to set this to the current FOV of the viewer."
+				 tool_tip="시야: 그러면 DOF 효과를 위해 시뮬레이션할 FOV가 뷰어에 표시됩니다. 뷰어의 현재 FOV로 설정하는 것이 가장 좋습니다."
 				 width="80">
 					FOV
 				</text>
@@ -1584,7 +1584,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraFieldOfView"/>
@@ -1596,9 +1596,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="In real world terms this is the aperture setting for the lens and the lower the value the shorter the depth of field will be. The same applies to SL."
+				 tool_tip="실제 조건에서 이것은 렌즈의 조리개 설정이며 값이 낮을수록 장의 깊이가 짧아집니다. SL에도 동일하게 적용됩니다."
 				 width="80">
-					f-number
+					f-숫자
 				</text>
 				<slider_bar
 				 name="SB_F_Number"
@@ -1633,7 +1633,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraFNumber"/>
@@ -1645,9 +1645,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Focal Length (mm): This tells the viewer what Focal Length/Lens Length to simulate for the DOF effect. Higher numbers produce a narrower depth of field."
+				 tool_tip="초점 거리(mm): 이것은 시청자에게 DOF 효과를 위해 시뮬레이션할 초점 길이/렌즈 길이를 알려준다. 숫자가 클수록 시야의 깊이가 좁아집니다."
 				 width="80">
-					Foc Length
+					Foc 길이
 				</text>
 				<slider_bar
 				 name="SB_Focal_Length"
@@ -1682,7 +1682,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraFocalLength"/>
@@ -1694,9 +1694,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Focus Transition Time: This sets the time in seconds it take to the viewer to change focus from one object."
+				 tool_tip="포커스 전환 시간: 뷰어가 하나의 개체에서 포커스를 변경하는 데 걸리는 시간(초)을 설정합니다."
 				 width="80">
-					Foc Time
+					Foc 시간
 				</text>
 				<slider_bar
 				 name="SB_Foc_Time"
@@ -1731,7 +1731,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraFocusTransitionTime"/>
@@ -1743,7 +1743,7 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Circle of Confusion: This is a VERY IMPORTANT SETTING. It determines the strength of the blur itself. It does not change the depth of field, it adjusts how much those objects outside of it will be blurry. Also you can access negative values for interesting effects in the spinner text box."
+				 tool_tip="혼란의 원: 이것은 매우 중요한 설정입니다. 흐림 자체의 강도를 결정합니다. 그것은 장의 깊이를 바꾸지 않고, 그 밖에 있는 물체의 흐릿함을 조절합니다. 또한 스피너 텍스트 상자에서 흥미로운 효과에 대한 음수 값에 액세스할 수 있습니다."
 				 width="80">
 					CoC
 				</text>
@@ -1780,7 +1780,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraMaxCoF"/>
@@ -1792,9 +1792,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Resolution: This determines the quality of the DOF Effect. For non-photography uses '.25' is good. For setting up shots '.50' or '.70' is very nice. For shooting quality images '1.00' is best. High values will slow down your FPS! Also you can access negative values for interesting effects in the spinner text box."
+				 tool_tip="해상도: 이것은 DOF 효과의 품질을 결정합니다. 비사진 사용의 경우 '.25'가 좋습니다. 샷 '.50' 또는 '.70'을 설정하는 것은 매우 좋습니다. 촬영 화질 이미지에는 '1.00'이 가장 좋습니다. 값이 높으면 FPS 속도가 느려집니다! 또한 스피너 텍스트 상자에서 흥미로운 효과에 대한 음수 값에 액세스할 수 있습니다."
 				 width="80">
-					Resolution
+					해상도
 				</text>
 				<slider_bar
 				 name="SB_Resolution"
@@ -1829,7 +1829,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="CameraDoFResScale"/>
@@ -1856,7 +1856,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="230">
-					Glow Settings
+					발광 설정
 				</text>
 			</panel>
 
@@ -1888,9 +1888,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="10"
-				 tool_tip="This will determine the quality of the glow effect, higher is better. There is little visual difference between 8 and 10."
+				 tool_tip="따라서 글로우 효과의 품질이 결정되며, 높을수록 좋습니다. 8과 10 사이에는 시각적인 차이가 거의 없다."
 				 width="80">
-					Quality
+					질
 				</text>
 				<!--slider_bar
 				 name="SB_Glow_Quality"
@@ -1926,7 +1926,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderGlowResolutionPow"/>
@@ -1949,9 +1949,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="10"
-				 tool_tip="Number of times to iterate/repeat the glow (higher = wider and smoother and a bit slower)."
+				 tool_tip="글로우 반복/반복 횟수(광택 = 더 넓고 부드러우며 약간 느림)."
 				 width="80">
-					Iterations
+					반복
 				</text>
 				<slider_bar
 				 name="SB_Glow_Iterations"
@@ -1986,7 +1986,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderGlowIterations"/>
@@ -1997,9 +1997,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Additive strength of glow. Very low values are needed to see this effect. Start low!"
+				 tool_tip="광채의 추가 강도. 이 효과를 보려면 매우 낮은 값이 필요합니다. 로우로 시작!"
 				 width="80">
-					Strength
+					힘
 				</text>
 				<slider_bar
 				 name="SB_Glow_Strength"
@@ -2034,7 +2034,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderGlowStrength"/>
@@ -2046,9 +2046,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Minimum luminance intensity necessary to consider an object bright enough to automatically glow."
+				 tool_tip="자동으로 빛을 발할 수 있을 정도로 밝은 물체를 고려하는 데 필요한 최소 밝기 강도."
 				 width="80">
-					Luminance
+					밝기
 				</text>
 				<slider_bar
 				 name="SB_Luminance"
@@ -2083,7 +2083,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderGlowMinLuminance"/>
@@ -2095,9 +2095,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Amount of warmth extraction to use (versus luminance extraction). 0 = lum, 1.0 = warmth. OFTEN HAS LITTLE OR NO EFFECT!"
+				 tool_tip="사용할 온기 추출량(휘도 추출 대비)입니다. 0 = 루름, 1.0 = 온기. 종종 거의 또는 전혀 영향을 미치지 않음!"
 				 width="80">
-					Warmth
+					온기
 				</text>
 				<slider_bar
 				 name="SB_Warmth"
@@ -2132,7 +2132,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderGlowWarmthAmount"/>
@@ -2143,10 +2143,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Glow sample size. Higher = wider and softer glow, but eventually it will become more pixelated."
+				 tool_tip="광택 샘플 크기. 더 높은 = 더 넓고 부드러운 광채이지만 결국 더 픽셀화됩니다."
 				 top_pad="5"
 				 width="80">
-					Width
+					넓이
 				</text>
 				<slider_bar
 				 name="SB_Glow_Width"
@@ -2181,7 +2181,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderGlowWidth"/>
@@ -2193,9 +2193,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Basically how bright the glow is allowed to get."
+				 tool_tip="기본적으로 빛이 얼마나 밝게 빛날 수 있는지."
 				 width="80">
-					Alpha
+					알파
 				</text>
 				<slider_bar
 				 name="SB_Alpha"
@@ -2230,7 +2230,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderGlowMaxExtractAlpha"/>
@@ -2243,7 +2243,7 @@
 		 follows="left|top"
 		 layout="topleft"
 		 top_pad="0"
-		 label="Gen"
+		 label="일반"
 		 left="0">
 			<panel
 			 name="PT_General"
@@ -2265,7 +2265,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="230">
-					General Render Settings
+					일반 렌더 설정
 				</text>
 			</panel>
 
@@ -2285,9 +2285,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="10"
-				 tool_tip="This sets the furthest distance the viewer will draw anything. High values will slow your FPS!"
+				 tool_tip="뷰어가 그릴 수 있는 가장 먼 거리를 설정합니다. 값이 높으면 FPS 속도가 느려집니다!"
 				 width="80">
-					Draw Dist.
+					거리 그리기.
 				</text>
 				<slider_bar
 				 name="SB_Draw_Distance"
@@ -2322,7 +2322,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderFarClip"/>
@@ -2334,9 +2334,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Maximum number of other avatars to render in a scene. Very helpful for situations where many avatars are slowing your FPS."
+				 tool_tip="씬(scene)에서 렌더링할 다른 최대 아바타 수입니다. 많은 아바타가 FPS를 느리게 하는 상황에 매우 유용합니다."
 				 width="80">
-					Avi Count
+					Avi 개수
 				</text>
 				<slider_bar
 				 name="SB_Avi_Count"
@@ -2371,7 +2371,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderAvatarMaxVisible"/>
@@ -2383,9 +2383,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Sets the render quality of the avatars. Higher is better!"
+				 tool_tip="아바타의 렌더 품질을 설정합니다. 높을수록 좋다!"
 				 width="80">
-					Avi Detail
+					Avi 세부사항
 				</text>
 				<slider_bar
 				 name="SB_Avi_Detail"
@@ -2420,7 +2420,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderAvatarLODFactor"/>
@@ -2432,9 +2432,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls level of detail of avatar physics (such as chest physics). Higher is better."
+				 tool_tip="아바타 물리학(예: 흉부 물리학)의 세부 수준을 제어합니다. 높을수록 좋다."
 				 width="80">
-					Avi Physics
+					Avi 물리학
 				</text>
 				<slider_bar
 				 name="SB_Avi_Physics"
@@ -2469,7 +2469,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderAvatarPhysicsLODFactor"/>
@@ -2483,7 +2483,7 @@
 				 top_pad="5"
 				 tool_tip="Sets the maximum number of particles to render."
 				 width="80">
-					Particle Cnt.
+					입자 Cnt.
 				</text>
 				<slider_bar
 				 name="SB_Particle_Cnt"
@@ -2518,7 +2518,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderMaxPartCount"/>
@@ -2530,9 +2530,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Sets the quality of the default ground (terrain) texture."
+				 tool_tip="기본 접지(지형) 질감의 품질을 설정합니다."
 				 width="80">
-					Terr. Scale
+					Terr. 규모
 				</text>
 				<slider_bar
 				 name="SB_Terrain_Scale"
@@ -2567,7 +2567,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderTerrainScale"/>
@@ -2579,9 +2579,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Sets the quality of terrain. High numbers mean more detailed terrain in the distance."
+				 tool_tip="지형 품질을 설정합니다. 숫자가 높을수록 먼 곳의 지형이 더 세밀해집니다."
 				 width="80">
-					Terrain Qal
+					지형 Qal
 				</text>
 				<slider_bar
 				 name="SB_Terrain_Quality"
@@ -2616,7 +2616,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderTerrainLODFactor"/>
@@ -2628,9 +2628,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls when lower-detail objects can be used to reduce rendering cost. Higher values cause lag, use with care."
+				 tool_tip="렌더링 비용을 줄이기 위해 하위 세부 개체를 사용할 수 있는 시기를 제어합니다. 값이 높을수록 지연이 발생하므로 주의하여 사용하십시오."
 				 width="80">
-					Obj. Detail
+					Obj. 세부사항
 				</text>
 				<slider_bar
 				 name="SB_Object_Detail"
@@ -2665,7 +2665,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderVolumeLODFactor"/>
@@ -2677,7 +2677,7 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls level of detail of flexible objects. Higher means more detail."
+				 tool_tip="유연한 개체의 세부 정보 수준을 제어합니다. 더 높으면 더 상세함."
 				 width="80">
 					Flexiprims
 				</text>
@@ -2714,7 +2714,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderFlexTimeFactor"/>
@@ -2726,9 +2726,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls level of detail of vegetation. Higher numbers produce greater detail."
+				 tool_tip="초목의 세부 수준을 제어합니다. 숫자가 클수록 세부 정보가 더 많아집니다."
 				 width="80">
-					Tree Detail
+					나무 세부사항
 				</text>
 				<slider_bar
 				 name="SB_Tree_Detail"
@@ -2763,7 +2763,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="RenderTreeLODFactor"/>
@@ -2775,9 +2775,9 @@
 				 layout="topleft"
 				 left="5"
 				 top_pad="5"
-				 tool_tip="Controls vertex detail on the WindLight sky. Lower numbers will give better performance and less than lovely skies."
+				 tool_tip="윈드라이트 하늘의 정점 세부 정보를 제어합니다. 수치가 낮을수록 성능이 우수하고 아름다운 하늘보다 낮습니다."
 				 width="80">
-					Sky Detail
+					하늘 세부사항
 				</text>
 				<slider_bar
 				 name="SB_Sky_Detail"
@@ -2812,7 +2812,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="WLSkyDetail"/>
@@ -2848,7 +2848,7 @@
 				 top_pad="10"
 				 tool_tip=""
 				 width="80">
-				 Vig. Amount
+				 Vig. 금액
 				</text>
 				<slider_bar
 				 name="VignetteSliderX"
@@ -2882,7 +2882,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value." />
+				 tool_tip="기본값으로 재설정." />
 				<text
 				 name="T_VignetteY"
 				 follows="left|top"
@@ -2891,7 +2891,7 @@
 				 top_pad="5"
 				 tool_tip=""
 				 width="80">
-				 Vig. Power
+				 Vig. 힘
 				</text>
 				<slider_bar
 				 name="VignetteSliderY"
@@ -2925,7 +2925,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value." />
+				 tool_tip="기본값으로 재설정." />
 				<text
 				 name="T_VignetteZ"
 				 follows="left|top"
@@ -2934,7 +2934,7 @@
 				 top_pad="5"
 				 tool_tip=""
 				 width="80">
-				 Vig. Multiply
+				 Vig. 다수
 				</text>
 				<slider_bar
 				 name="VignetteSliderZ"
@@ -2968,7 +2968,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value." />
+				 tool_tip="기본값으로 재설정." />
 			</panel>
 
 			<panel
@@ -2986,32 +2986,32 @@
 				 follows="left|top"
 				 control_name="RenderUseFarClip"
 				 height="16"
-				 label="Enable Draw Distance"
+				 label="그리기 거리 사용"
 				 layout="topleft"
 				 top_pad="10" 
 				 left="5"
 				 name="UseFarClip"
-				 tool_tip="Enable Draw Distance, if you disable this feature the Viewer will render past your set draw distance."
+				 tool_tip="그리기 거리 활성화. 이 기능을 비활성화하면 뷰어가 설정된 그리기 거리를 지나 렌더링합니다."
 				 width="240"/>
 				<check_box
 				 follows="left|top"
 				 control_name="RenderDynamicLOD"
 				 height="16"
-				 label="Dynamically adjust level of detail"
+				 label="세부 정보 수준을 동적으로 조정"
 				 layout="topleft"
 				 left="5"
 				 name="RednerLod1"
-				 tool_tip="This enables the feature that allows the viewer to dynamically adjust the level of detail in scene as you move further away from objects. It helps improve performance, it also can reduce the quality of the objects in the scene."
+				 tool_tip="이렇게 하면 뷰어가 객체에서 멀어질 때 씬(scene)의 세부 수준을 동적으로 조정할 수 있습니다. 성능 향상에 도움이 되고 장면의 객체의 품질도 저하됩니다."
 				 top_pad="2"
 				 width="240"/>
 				<check_box
 				 follows="left|top"
 				 control_name="UseOcclusion"
 				 height="16"
-				 label="Render only Objects visible to the Camera"
+				 label="카메라에 보이는 개체만 렌더링"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="This allows the viewer only to process/draw those objects that are within the camera field of view and not hidden behind anything else. Usually this is a performance booster. Sometimes it can actually reduce performance especially when the scene/sim has few objects. Toggle to see if it helps or not!"
+				 tool_tip="이렇게 하면 뷰어는 카메라 시야 안에 있는 물체만 처리/그릴 수 있고 다른 어떤 물체 뒤에 숨겨지지 않습니다. 보통 이것은 성능 향상제입니다. 특히 씬/sim에 객체가 거의 없는 경우 실제로 성능을 저하시킬 수 있습니다. 도움이 되는지 보기 위해 전환!"
 				 name="UssOcclusion1"
 				 top_pad="2"
 				 width="240"/>
@@ -3019,10 +3019,10 @@
 				 follows="left|top"
 				 control_name="RenderAnisotropic"
 				 height="16"
-				 label="Anisotropic Filtering (texture crispness)"
+				 label="이방성 필터링(텍스쳐 바삭함)"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="This enables higher texture crispness."
+				 tool_tip="이것은 더 높은 텍스쳐의 바삭함을 가능하게 합니다.."
 				 name="Anisotropic"
 				 top_pad="2"
 				 width="240"/>
@@ -3032,8 +3032,8 @@
 				 left="5"
 				 top_pad="2"
 				 height="16"
-				 label="Render Particles Attached to other Avatars"
-				 tool_tip="Enables the viewer to render any and all particles attached to/coming from other avatars."
+				 label="다른 아바타에 부착된 입자 렌더링"
+				 tool_tip="뷰어가 다른 아바타에 부착되거나 다른 아바타에서 들어오는 모든 입자를 렌더링할 수 있습니다."
 				 name="Render Attached Particle">
 					<check_box.on_check
 					 function="CheckControl"
@@ -3073,13 +3073,13 @@
 				 top_pad="12"
 				 width="80"
 				 layout="topleft"
-				 tool_tip="Determines how sharp and smooth the edges of objects will be. On top level graphics cards, higher values have virtually NO performance impact. On lower graphics cards, higher values can slow performance.">
-					Anti-aliasing
+				 tool_tip="개체의 가장자리가 얼마나 날카롭고 매끄러운지 결정합니다. 최상위 그래픽 카드에서는 값이 높을수록 성능에 거의 영향을 주지 않습니다. 낮은 그래픽 카드에서는 값이 클수록 성능이 저하될 수 있습니다.">
+					엘리어싱 제거
 				</text>
 				<combo_box
 				 control_name="RenderFSAASamples"
 				 height="22"						
-				 label="Antialiasing"
+				 label="엘리어싱 제거"
 				 layout="topleft"
 				 follows="left|top"
 				 left_pad="0"
@@ -3087,23 +3087,23 @@
 				 top_delta="-5"
 				 width="180">
 					<combo_box.item
-					 label="Disabled (Rougher Edges)"
+					 label="사용 안 함(더 거친 가장자리)"
 					 name="FSAADisabled"
 					 value="0"/>
 					<combo_box.item
-					 label="2x (Smooth Edges)"
+					 label="2x (부드러운 가장자리)"
 					 name="2x"
 					 value="2"/>
 					<combo_box.item
-					 label="4x (Smoother Edges)"
+					 label="4x (더 부드러운 가장자리)"
 					 name="4x"
 					 value="4"/>
 					<combo_box.item
-					 label="8x (Even Smoother)"
+					 label="8x (더 많이 부드러운)"
 					 name="8x"
 					 value="8"/>
 					<combo_box.item
-					 label="16x (Smoothest)"
+					 label="16x (가장 부드러운)"
 					 name="16x"
 					 value="16"/>
 				</combo_box>
@@ -3128,27 +3128,27 @@
 				 name="BumpStrengthSelection"
 				 width="150">
 					<combo_box.item
-					 label="Very fine (very weak)"
+					 label="매우 미세(매우 약함)"
 					 name="0"
 					 value="1024"/>
 					<combo_box.item
-					 label="Finer (weaker)"
+					 label="좀 더 미세(약함)"
 					 name="1"
 					 value="512"/>
 					<combo_box.item
-					 label="Fine (weak)"
+					 label="미세 (약함)"
 					 name="2"
 					 value="256"/>
 					<combo_box.item
-					 label="Normal"
+					 label="일반"
 					 name="3"
 					 value="64"/>
 					<combo_box.item
-					 label="Rough (stronger)"
+					 label="거침 (강함)"
 					 name="4"
 					 value="32"/>
 					<combo_box.item
-					 label="Rougher (very strong)"
+					 label="더 거침 (아주 강함)"
 					 name="5"
 					 value="16"/>
 					<combo_box.commit_callback
@@ -3162,7 +3162,7 @@
 		 follows="left|top"
 		 layout="topleft"
 		 top_pad="0"
-		 label="Aids"
+		 label="보조 도구"
 		 left="0">
 			<panel
 			 name="PT_Aids"
@@ -3184,7 +3184,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="230">
-					Interface Aids
+					인터페이스 보조 도구
 				</text>
 			</panel>
 			
@@ -3194,7 +3194,7 @@
 			 left="7"
 			 top_pad="5"
 			 height="16"
-			 label="Show Bounding Boxes for All Lights in Scene"
+			 label="씬(scene)의 모든 조명에 대한 경계 상자 표시"
 			 name="Lights">
 				<check_box.on_check
 				 function="Advanced.CheckInfoDisplay"
@@ -3209,7 +3209,7 @@
 			 left="7"
 			 top_pad="5"
 			 height="16"
-			 label="Show Light Radius for Selected Light(s)"
+			 label="선택한 조명에 대한 조도 반지름 표시"
 			 name="Show Light Radius for Selection">
 				<check_box.on_check
 				 function="CheckControl"
@@ -3222,7 +3222,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Show Bounding Boxes for Objects in Scene"
+			 label="장면에 객체의 경계 상자 표시"
 			 name="Bounding Boxes">
 				<check_box.on_check
 				 function="Advanced.CheckInfoDisplay"
@@ -3236,7 +3236,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Show the Statistics Bar"
+			 label="통계 표시줄 표시"
 			 name="Statistics Bar">
 				<check_box.on_check
 				 function="Floater.Visible"
@@ -3250,7 +3250,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Show Detailed Camera Position Data"
+			 label="세부 카메라 위치 데이터 표시"
 			 name="Camera">
 				<check_box.on_check
 				 function="Advanced.CheckHUDInfo"
@@ -3264,7 +3264,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Show Detailed Texture Loading Information"
+			 label="상세 텍스처 로드 정보 표시"
 			 name="Texture Console">
 				<check_box.on_check
 				 function="Advanced.CheckConsole"
@@ -3278,7 +3278,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Show RGB-I Color Values Under Cursor"
+			 label="커서 아래에 RGB-I 색상 값 표시"
 			 name="Show Color Under Cursor">
 				<check_box.on_check
 				 function="Advanced.CheckShowColor"/>
@@ -3290,7 +3290,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Highlight Transparent Objects in Red"
+			 label="빨간색으로 투명 개체 강조 표시"
 			 name="Highlight Transparent">
 				<check_box.on_check
 				 function="View.CheckHighlightTransparent"/>
@@ -3302,7 +3302,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Show the Scene as Wireframe"
+			 label="장면을 와이어프레임으로 표시"
 			 name="Wireframe">
 				<check_box.on_check
 				 function="Advanced.CheckWireframe"
@@ -3315,7 +3315,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Show the HUD attached to Your Avatar"
+			 label="아바타에 부착된 HUD 표시"
 			 name="Show HUD Attachments">
 				<check_box.on_check
 				 function="View.CheckHUDAttachments"/>
@@ -3327,7 +3327,7 @@
 			 layout="topleft"
 			 left="7"
 			 top_pad="10"
-			 label="Slow-mo Your Avatar (in your viewer only)"
+			 label="Slow-mo 사용자의 아바타(뷰어에만 해당)"
 			 name="Slow Motion Animations">
 				<check_box.on_check
 				 function="CheckControl"
@@ -3340,7 +3340,7 @@
 			 follows="left|top"
 			 name="Rebake Texture"
 			 height="22"
-			 label="Force Appearance Update (Rebake)"
+			 label="강제 모양 업데이트(다시 굽기)"
 			 layout="topleft"
 			 left="7"
 			 top_pad="4"
@@ -3352,7 +3352,7 @@
 			 follows="left|top"
 			 name="Set Window Size..."
 			 height="22"
-			 label="Set Window Viewer Size..."
+			 label="창 뷰어 크기 설정..."
 			 layout="topleft"
 			 left="7"
 			 top_pad="4"
@@ -3365,7 +3365,7 @@
 			 follows="left|top"
 			 name="Debug Settings"
 			 height="22"
-			 label="Show Debug Settings Menu"
+			 label="디버그 설정 메뉴 표시"
 			 layout="topleft"
 			 left="7"
 			 top_pad="4"
@@ -3403,9 +3403,9 @@
 				 layout="topleft"
 				 left="10"
 				 font="SansSerif"
-				 tool_tip="Here you can find some very useful stats for gauging system performance. Expand/Collapse the items below by clicking their labels."
+				 tool_tip="여기서 시스템 성능을 측정하는 데 매우 유용한 통계를 찾을 수 있습니다. 아래 항목의 레이블을 클릭하여 항목 확장/축소."
 				 width="230">
-					Quick Stats
+					빠른 통계
 				</text>
 			</panel>
 			
@@ -3438,7 +3438,7 @@
 					 top_pad="0">
 						<stat_bar
 						 name="fps"
-						 label="Frames Per Seccond"
+						 label="초당 프레임 수"
 						 unit_label="fps"
 						 stat="FPS"
 						 bar_min="0"
@@ -3447,12 +3447,12 @@
 						 decimal_digits="1"
 						 show_bar="true"
 						 show_history="true"
-						 tool_tip="FPS: The number of times per second your computer is redrawing (or refreshing) what's on the screen. Higher numbers are better. A framerate between 12 to 15 is common for animations, 24 is the standard for motion pictures, and 25 (PAL)/30 (NTSC) frames per second (FPS) is the rate for broadcast television."
+						 tool_tip="FPS: 초당 컴퓨터가 화면에 표시되는 내용을 다시 그리거나 새로 고치는 횟수입니다. 숫자가 클수록 좋습니다. 애니메이션의 경우 12에서 15 사이의 프레임률이 일반적이며, 24가 영화의 표준이며, 25(PAL)/30(NTSC) 초당 프레임 수는 방송 텔레비전의 비율이다."
 						 setting="DebugStatModePTFPS">
 						</stat_bar>
 						<stat_bar
 						 name="bandwidth"
-						 label="Bandwidth"
+						 label="대역폭"
 						 stat="activemessagedatareceived"
 						 bar_min="0"
 						 bar_max="5000"
@@ -3460,12 +3460,12 @@
 						 decimal_digits="1"
 						 show_bar="true"
 						 show_history="false"
-						 tool_tip="Bandwidth: How much data is being transferred between your computer and the Virtual World. This number varies wildly depending on what bandwidth settings you've used, where you are inworld, what's going on, and whether you're still loading some things (objects/textures/etc) that are in your field of view. If bandwidth is 0 Kbps, something may be wrong (you may be partially disconnected)."
+						 tool_tip="대역폭: 컴퓨터와 가상 세계 간에 전송되는 데이터 양입니다. 이 수는 사용한 대역폭 설정, 사용 중인 세계 위치, 작업 내용 및 시야에 있는 일부 항목(개체/질감/등)을 여전히 로드하고 있는지에 따라 크게 달라집니다. 대역폭이 0Kbps인 경우 잘못된 것일 수 있습니다(부분적으로 연결이 끊어질 수 있음)."
 						 setting="DebugStatModePTBandwidth">
 						</stat_bar>
 						<stat_bar
 						 name="ktrisframe"
-						 label="KTris Drawn per Frame"
+						 label="프레임당 KTris 그리기"
 						 unit_label="/fr"
 						 stat="trianglesdrawnperframestat"
 						 bar_min="0"
@@ -3473,12 +3473,12 @@
 						 tick_spacing="1000"
 						 decimal_digits="0"
 						 show_bar="false"
-						 tool_tip="KTris Drawn: (per frame) Computer-generated 3D objects are built out of triangles (the basic geometric shape). This is a count of the number of triangles, or 'tris', in each frame of the current scene."
+						 tool_tip="KTris Drawed: (프레임당) 컴퓨터 생성 3D 객체는 삼각형(기본 기하학적 모양)으로 구축됩니다. 현재 씬(scene)의 각 프레임에 있는 삼각형('트리')의 개수입니다."
 						 setting="DebugStatModePTKTrisDrawnFr">
 						</stat_bar>
 						<stat_bar
 						 name="ktrissec"
-						 label="KTris Drawn per Sec"
+						 label="초당 KTris 그리기"
 						 unit_label="/sec"
 						 stat="trianglesdrawnstat"
 						 bar_min="0"
@@ -3486,42 +3486,42 @@
 						 tick_spacing="25000"
 						 decimal_digits="0"
 						 show_bar="false"
-						 tool_tip="KTris Drawn: (per second) Computer-generated 3D objects are built out of triangles (the basic geometric shape). This is a count of the number of triangles ('tris') drawn every second."
+						 tool_tip="KTris Drawed: (초당) 컴퓨터 생성 3D 객체는 삼각형(기본 기하학적 모양)으로 구축됩니다. 초당 그려진 삼각형('트리')의 개수입니다."
 						 setting="DebugStatModePTKTrisDrawnSec">
 						</stat_bar>
 						<stat_bar
 						 name="objs"
-						 label="Total Objects"
+						 label="종합 개체"
 						 stat="numobjectsstat"
 						 bar_min="0"
 						 bar_max="50000"
 						 tick_spacing="5000"
 						 decimal_digits="0"
 						 show_bar="false"
-						 tool_tip="Total Objs: The number of objects currently in view, which includes: Prims, Avatars, Terrain patches, Trees, Particle groups, and Water patches."
+						 tool_tip="총 Objs: 현재 표시된 개체 수(프림, 아바타, 지형 패치, 트리, 입자 그룹 및 워터 패치 포함)."
 						 setting="DebugStatModePTTotalObjs">
 						</stat_bar>
 						<stat_bar
 						 name="newobjs"
-						 label="New Objects"
+						 label="새로운 개체"
 						 unit_label="/sec"
 						 stat="numnewobjectsstat"
 						 bar_min="0"
 						 bar_max="2000"
 						 tick_spacing="200"
 						 show_bar="false"
-						 tool_tip="New Objs: The number of objects being downloaded per second."
+						 tool_tip="새 오브젝트: 초당 다운로드되는 개체 수."
 						 setting="DebugStatModePTNewObjs">
 						</stat_bar>
 						<stat_bar
 						 name="numimagesstat"
-						 label="Texture Count"
+						 label="텍스쳐 개수"
 						 stat="numimagesstat" 
 						 bar_min="0.f"
 						 bar_max="8000.f" 
 						 tick_spacing="2000.f"
 						 show_bar="false"
-						 tool_tip="Count: The number of unique textures loaded by the viewer."
+						 tool_tip="개수: 뷰어가 초당 로드한 고유 텍스처 수입니다.."
 						 setting="DebugStatModePTTextureCount">
 						</stat_bar>
 					</stat_view>
@@ -3534,7 +3534,7 @@
 		 follows="left|top"
 		 layout="topleft"
 		 top_pad="0"
-		 label="Cam"
+		 label="캠"
 		 left="0">
 			<panel
 			 name="PT_Cam"
@@ -3556,7 +3556,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="230">
-					3D Mouse (Joystick) Settings
+					3D 마우스 (조이스틱) 설정
 				</text>
 			</panel>
 
@@ -3575,10 +3575,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Adjusts the sensitivity of the Left/Right movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="왼쪽/오른쪽 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 top_pad="10"
 				 width="80">
-					Left/Right
+					왼쪽/오른쪽
 				</text>
 				<slider_bar
 				 name="SB_LR_Axis"
@@ -3613,7 +3613,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="FlycamAxisScale1"/>
@@ -3624,10 +3624,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Adjusts the sensitivity of the Up/Down movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="위/아래 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 top_pad="5"
 				 width="80">
-					Up/Down
+					위/아래
 				</text>
 				<slider_bar
 				 name="SB_UD_Axis"
@@ -3662,7 +3662,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="FlycamAxisScale2"/>
@@ -3673,10 +3673,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Adjusts the sensitivity of the In/Out movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="인/아웃 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 top_pad="5"
 				 width="80">
-					In/Out
+					인/아웃
 				</text>
 				<slider_bar
 				 name="SB_IO_Axis"
@@ -3711,7 +3711,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="FlycamAxisScale0"/>
@@ -3722,10 +3722,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Adjusts the sensitivity of the Pitch movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="피치 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 top_pad="5"
 				 width="80">
-					Pitch
+					피치
 				</text>
 				<slider_bar
 				 name="SB_Tilt"
@@ -3760,7 +3760,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="FlycamAxisScale4"/>
@@ -3771,10 +3771,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Adjusts the sensitivity of the Yaw movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="좌우운동 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다."
 				 top_pad="5"
 				 width="80">
-					Yaw
+					좌우운동
 				</text>
 				<slider_bar
 				 name="SB_Spin"
@@ -3809,7 +3809,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="FlycamAxisScale5"/>
@@ -3820,10 +3820,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Adjusts the sensitivity of the Roll movement. If you find it difficult to move with precision, use lower scale values."
+				 tool_tip="구르기 이동의 감도를 조정합니다. 정밀하게 이동하기 어려운 경우 낮은 척도 값을 사용합니다.."
 				 top_pad="5"
 				 width="80">
-					Roll
+					구르기
 				</text>
 				<slider_bar
 				 name="SB_Roll"
@@ -3858,7 +3858,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="FlycamAxisScale3"/>
@@ -3869,10 +3869,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Adjusts the sensitivity of the Zoom speed. If you find it difficult to zoom with precision, use lower scale values."
+				 tool_tip="확대 속도의 감도를 조정합니다. 정밀하게 확대/축소하는 것이 어려운 경우 낮은 축척 값을 사용하십시오."
 				 top_pad="5"
 				 width="80">
-					Zoom Spd
+					확대 Spd
 				</text>
 				<slider_bar
 				 name="SB_Zoom_Speed"
@@ -3907,7 +3907,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="FlycamAxisScale6"/>
@@ -3918,10 +3918,10 @@
 				 follows="top|left"
 				 layout="topleft"
 				 left="5"
-				 tool_tip="Setting the slider all the way to the right will make the camera very rigid, giving complete control to the joystick. Setting the slider all the way to the left will make the camera very fluid like the camera weighs a lot; good for fly-by shots, not good for framing."
+				 tool_tip="슬라이더를 오른쪽으로 끝까지 설정하면 카메라가 매우 단단해져 조이스틱을 완전히 제어할 수 있습니다. 슬라이더를 왼쪽으로 끝까지 설정하면 카메라 무게가 많이 나가는 것처럼 카메라가 매우 유동적입니다. 즉, 플라이 바이 샷에 적합하고 프레임에 적합하지 않습니다."
 				 top_pad="5"
 				 width="80">
-					Feathering
+					깃털
 				</text>
 				<slider_bar
 				 name="SB_Feathering"
@@ -3956,7 +3956,7 @@
 				 left_pad="0"
 				 top_delta="0"
 				 width="20"
-				 tool_tip="Reset to the default value.">
+				 tool_tip="기본값으로 재설정.">
 					<button.commit_callback
 					 function="ResetControl"
 					 parameter="FlycamFeathering"/>
@@ -3978,21 +3978,21 @@
 				 control_name="JoystickAxis6"
 				 decimal_digits="0"
 				 increment="1"
-				 label="Zoom Axis Mapping"
+				 label="축 확대/축소 매핑"
 				 label_width="200"
 				 layout="topleft"
 				 left="10"
 				 max_val="5"
 				 min_val="-1"
 				 name="JoystickAxis6"
-				 tool_tip="Controls which mouse axis the zooming function is mapped to (set to work with)."
+				 tool_tip="확대/축소 기능이 매핑되는 마우스 축을 제어합니다(작업으로 설정됨)."
 				 top_pad="5"
 				 width="255"/>
 				<check_box
 				 top_pad="15"
 				 control_name="JoystickEnabled"
 				 halign="left"
-				 label="Enable 3D Mouse"
+				 label="3D 마우스 사용"
 				 layout="topleft"
 				 left="6"
 				 tool_tip="This turns on the 3D Mouse."
@@ -4001,35 +4001,35 @@
 				<check_box
 				 name="CB_ZoomDirect"
 				 control_name="ZoomDirect"
-				 label="Enable Zoom Control (See Tool Tip!)"
+				 label="확대/축소 제어 활성화(도구 팁 참조!)"
 				 layout="topleft"
 				 left="6"
 				 top_pad="7"
-				 tool_tip="In order for the zooming control to work, you must set the 'Zoom Axis Mapping' above to '4'."
+				 tool_tip="확대/축소 컨트롤이 작동하려면 위의 '확대축 매핑'을 '4'로 설정해야 합니다.."
 				 width="230"/>
 				<check_box
 				 name="CB_AutoLeveling"
 				 control_name="AutoLeveling"
-				 label="Enable Auto Leveling (Prevents Camera Roll)"
+				 label="자동 레벨링 활성화(카메라 롤 방지)"
 				 layout="topleft"
 				 left="6"
 				 top_pad="7"
-				 tool_tip="When enabled the camera will always remain level."
+				 tool_tip="활성화되면 카메라는 항상 수평을 유지합니다."
 				 width="230"/>
 				<check_box
 				 name="CB_Move_Avatar"
 				 control_name="JoystickAvatarEnabled"
-				 label="Use the 3D Mouse to move the avatar"
+				 label="3D 마우스를 사용하여 아바타 이동"
 				 layout="topleft"
 				 left="6"
 				 top_pad="7"
-				 tool_tip="When enabled the mouse will move your avatar."
+				 tool_tip="이 옵션을 활성화하면 마우스가 아바타를 이동합니다."
 				 width="230"/>
 				<check_box
 				 name="CB_Move_Objects"
 				 control_name="JoystickBuildEnabled"
-				 label="Use the 3D Mouse to move objects (building)"
-				 tool_tip="Uses the 3D mouse to move objects when building and editing."
+				 label="3D 마우스를 사용하여 객체(건물) 이동"
+				 tool_tip="3D 마우스를 사용하여 빌드 및 편집 시 객체 이동."
 				 layout="topleft"
 				 left="6"
 				 top_pad="7"
@@ -4039,8 +4039,8 @@
 				 layout="topleft"
 				 left="6"
 				 top_pad="7"
-				 label="Show the Current FOV of Viewer Screen"
-				 tool_tip="This will show you the vertical field of view for the camera. Within the viewer it is possible to change the lens length just like in real life. The smaller the FOV the longer the camera lens. A 50mm lens has a FOV of 27.0 degrees. To adjust the FOV use the zoom slider bar below. Please see: 'http://en.wikipedia.org/wiki/Angle_of_view' for a table showing the relationship between FOV and Lens Focal Length (mm). TURN IT OFF BEFORE YOU TAKE SNAPSHOTS OR IT WILL BE IN THE PICTURE!"
+				 label="뷰어 화면의 현재 FOV 표시"
+				 tool_tip="그러면 카메라의 수직 시야가 표시됩니다. 뷰어 내에서 실제와 마찬가지로 렌즈 길이를 변경할 수 있습니다. FOV가 작을수록 카메라 렌즈가 길어집니다. 50mm 렌즈의 FOV는 27.0도입니다. FOV를 조정하려면 아래의 확대/축소 슬라이더 막대를 사용하십시오. FOV와 렌즈 초점 길이(mm) 사이의 관계를 보여주는 표는 'http://en.wikipedia.org/wiki/Angle_of_view'를 참조하십시오. 스냅샷을 찍기 전에 전원을 끄십시오. 그렇지 않으면 사진에 나타날 것입니다!"
 				 name="CAM_Show_FOV">
 					<check_box.on_check
 					 function="Advanced.CheckHUDInfo"
@@ -4054,7 +4054,7 @@
 				 layout="topleft"
 				 left="6"
 				 top_pad="7"
-				 label="Show Detailed Camera Position Data"
+				 label="세부 카메라 위치 데이터 표시"
 				 name="Camera">
 					<check_box.on_check
 					 function="Advanced.CheckHUDInfo"
@@ -4085,7 +4085,7 @@
 				 font="SansSerif"
 				 height="17"
 				 width="230">
-					Viewer Camera Menu Settings
+					뷰어 카메라 메뉴 설정
 				</text>
 			</panel>
 
@@ -4118,7 +4118,7 @@
 					 layout="topleft"
 					 width="285"
 					 top="0"
-					 label="Camera Movement"
+					 label="카메라 움직임"
 					 left="0">
 						<panel
 						 name="P_Cam2"
@@ -4135,9 +4135,9 @@
 							 layout="topleft"
 							 left="10"
 							 top_pad="7"
-							 tool_tip="In real world terms this is a Zoom feature. This will change the field of view in your viewer window. It is the same as hitting Ctrl + 0 or Ctrl+8. NOTE: This will not function if you have flycam enabled (3D SpaceNavigator)."
+							 tool_tip="실제 조건에서 이 기능은 줌 기능입니다. 뷰어 창의 시야가 변경됩니다. Ctrl + 0 또는 Ctrl + 8을 누르는 것과 같습니다. 참고: 이 기능은 플라이캠(3D 공간 네비게이터)이 활성화된 경우 작동하지 않습니다."
 							 width="100">
-								View angle
+								앵글 보기
 							</text>
 							<slider
 							 name="SB_Zoom2"
@@ -4173,7 +4173,7 @@
 							 left="245"
 							 top_delta="0"
 							 width="20"
-							 tool_tip="Reset to the default value.">
+							 tool_tip="기본값으로 재설정.">
 								<button.commit_callback
 								 function="ResetControl"
 								 parameter="CameraAngle"/>
@@ -4184,9 +4184,9 @@
 							 layout="topleft"
 							 left="10"
 							 top_pad="5"
-							 tool_tip="Controls how fast/slow the camera will zoom in and out. Higher values produce slower and smoother zoom."
+							 tool_tip="카메라의 확대/축소 속도를 제어합니다. 값이 클수록 줌이 느리고 부드러워집니다."
 							 width="100">
-								Zoom Speed
+								확대 속도
 							</text>
 							<slider
 							 name="S_Zoom_Speed2"
@@ -4210,7 +4210,7 @@
 							 left="245"
 							 top_delta="0"
 							 width="20"
-							 tool_tip="Reset to the default value.">
+							 tool_tip="기본값으로 재설정.">
 								<button.commit_callback
 								 function="ResetControl"
 								 parameter="ZoomTime"/>
@@ -4221,9 +4221,9 @@
 							 layout="topleft"
 							 left="10"
 							 top_pad="5"
-							 tool_tip="Amount camera lags behind avatar motion (0 = none, 30 = avatar velocity)."
+							 tool_tip="양 카메라가 아바타 모션보다 뒤떨어짐(0 = 없음, 30 = 아바타 속도)."
 							 width="100">
-								Camera Lag
+								카메라 지연
 							</text>
 							<slider
 							 name="S_Camera_Lag"
@@ -4247,7 +4247,7 @@
 							 left="245"
 							 top_delta="0"
 							 width="20"
-							 tool_tip="Reset to the default value.">
+							 tool_tip="기본값으로 재설정.">
 								<button.commit_callback
 								 function="ResetControl"
 								 parameter="DynamicCameraStrength"/>
@@ -4258,9 +4258,9 @@
 							 layout="topleft"
 							 left="10"
 							 top_pad="5"
-							 tool_tip="Controls how far the camera is offset/distance from the default point of view."
+							 tool_tip="카메라의 간격띄우기/기본 시점으로부터의 거리를 제어합니다."
 							 width="100">
-								Camera Offset
+								카메라 오프셋
 							</text>
 							<slider
 							 name="S_Camera_Offset"
@@ -4284,7 +4284,7 @@
 							 left="245"
 							 top_delta="0"
 							 width="20"
-							 tool_tip="Reset to the default value.">
+							 tool_tip="기본값으로 재설정.">
 								<button.commit_callback
 								 function="ResetControl"
 								 parameter="CameraOffsetScale"/>
@@ -4295,9 +4295,9 @@
 							 layout="topleft"
 							 left="10"
 							 top_pad="5"
-							 tool_tip="Controls how smoothly the camera starts and stops. Higher values produce smoother (and somewhat slower) movement."
+							 tool_tip="카메라의 시작 및 정지 속도를 제어합니다. 값이 클수록 움직임이 부드러워지고 다소 느려집니다."
 							 width="100">
-								Cam. Smoothing
+								캠. 부드러움
 							</text>
 							<slider
 							 name="S_Cam_Smoothing"
@@ -4321,7 +4321,7 @@
 							 left="245"
 							 top_delta="0"
 							 width="20"
-							 tool_tip="Reset to the default value.">
+							 tool_tip="기본값으로 재설정.">
 								<button.commit_callback
 								 function="ResetControl"
 								 parameter="CameraPositionSmoothing"/>
@@ -4335,7 +4335,7 @@
 					 layout="topleft"
 					 width="285"
 					 top="0"
-					 label="Mouse"
+					 label="마우스"
 					 left="0">
 						<panel
 						 name="P_Mouse_Settings"
@@ -4353,9 +4353,9 @@
 							 layout="topleft"
 							 left="10"
 							 top_pad="15"
-							 tool_tip="Controls responsiveness of mouse when in mouselook mode."
+							 tool_tip="마우스 모양 모드일 때 마우스 응답성 제어."
 							 width="100">
-								Mouse Sensitivity
+								마우스 감도
 							</text>
 							<slider
 							 name="S_Mouse_Sens"
@@ -4379,7 +4379,7 @@
 							 left="245"
 							 top_delta="0"
 							 width="20"
-							 tool_tip="Reset to the default value.">
+							 tool_tip="기본값으로 재설정.">
 								<button.commit_callback
 								 function="ResetControl"
 								 parameter="MouseSensitivity"/>
@@ -4388,10 +4388,10 @@
 							 control_name="FirstPersonAvatarVisible"
 							 follows="left|top"
 							 height="16"
-							 label="Display avatar &amp; attachments in mouselook"
+							 label="마우스 모양에 아바타 &amp; 첨부 파일 표시"
 							 layout="topleft"
 							 left="5"
-							 tool_tip="Displays avatar and attachments below neck while in mouselook. Default is OFF."
+							 tool_tip="마우스 룩에서 목 아래에 아바타 및 첨부 파일을 표시합니다. 기본값은 OFF입니다."
 							 name="first_person_avatar_visible"
 							 top_pad="10"
 							 width="250"/>
@@ -4399,10 +4399,10 @@
 							 control_name="MouseSmooth"
 							 follows="left|top"
 							 height="16"
-							 label="Smooth Mouselook Movements"
+							 label="부드러운 마우스 모양 이동"
 							 layout="topleft"
 							 left="5"
-							 tool_tip="Smooths out motion of mouse when in mouselook mode."
+							 tool_tip="마우스 모양 모드일 때 마우스의 움직임을 부드럽게 합니다."
 							 name="MouseSmooth"
 							 top_pad="2"
 							 width="250"/>
@@ -4415,7 +4415,7 @@
 					 layout="topleft"
 					 width="285"
 					 top="0"
-					 label="Misc Settings"
+					 label="기타 설정"
 					 left="0">
 						<panel
 						 name="P_Misc_Settings"
@@ -4431,57 +4431,57 @@
 							 top_pad="7"
 							 follows="left|top"
 							 height="16"
-							 label="Clicking your avatar keeps camera position"
+							 label="아바타를 클릭하면 카메라 위치가 유지됩니다"
 							 layout="topleft"
 							 left="10"
 							 name="clickonavatarkeepscamera"
 							 width="250"
 							 control_name="ClickOnAvatarKeepsCamera"
-							 tool_tip="Normally, clicking on your avatar resets the camera position. This option removes this behavior."/>
+							 tool_tip="일반적으로 아바타를 클릭하면 카메라 위치가 재설정됩니다. 이 옵션은 이 동작을 제거합니다."/>
 							<check_box
 							 top_pad="2"
 							 follows="left|top"
 							 height="16"
-							 label="Reset camera position after teleport"
+							 label="순간이동 후 카메라 위치 재설정"
 							 layout="topleft"
 							 left="10"
 							 name="FSResetCameraOnTP"
 							 width="250"
 							 control_name="FSResetCameraOnTP"
-							 tool_tip="Normally, the camera position gets reset when teleporting (within a region). This option prevents this behavior."/>
+							 tool_tip="일반적으로 카메라 위치는 (영역 내에서) 텔레포트를 할 때 재설정됩니다. 이 옵션은 이 동작을 방지합니다."/>
 							<check_box
 							 top_pad="2"
 							 follows="left|top"
 							 height="16"
-							 label="Disable minimum camera zoom distance"
+							 label="최소 카메라 줌 거리 비활성화"
 							 layout="topleft"
 							 left="10"
 							 name="disableminzoomdist"
 							 width="250"
 							 control_name="FSDisableMinZoomDist"
-							 tool_tip="Disable the constraint on the closest distance the camera is allowed to get to an object."/>
+							 tool_tip="카메라가 물체에 도달할 수 있는 가장 가까운 거리에 대한 구속조건을 비활성화합니다."/>
 							<check_box
 							 top_pad="2"
 							 follows="left|top"
 							 height="16"
-							 label="Allow the camera to move w/o constraints"
+							 label="제한 없이 카메라 이동 허용"
 							 layout="topleft"
 							 left="10"
 							 name="ignorecameraconstraints"
 							 width="250"
 							 control_name="FSIgnoreSimulatorCameraConstraints"
-							 tool_tip="Ignores the 'push' the simulator applies to your camera to keep it out of objects. REQUIRES RESTART!"/>
+							 tool_tip="시뮬레이터가 카메라에 적용하는 '밀어내기'를 무시하여 카메라에 물체가 들어가지 않도록 합니다. 재시작 필요!"/>
 							<check_box
 							 top_pad="2"
 							 follows="left|top"
 							 height="16"
-							 label="Reset camera position on avatar movement"
+							 label="아바타 이동 시 카메라 위치 재설정"
 							 layout="topleft"
 							 left="10"
 							 name="resetcamerapositiononmovement"
 							 width="250"
 							 control_name="FSResetCameraOnMovement"
-							 tool_tip="Resets the camera to its default position when you move the avatar"/>
+							 tool_tip="아바타를 이동할 때 카메라를 기본 위치로 재설정합니다"/>
 						</panel>
 					</panel>
 				</tab_container>

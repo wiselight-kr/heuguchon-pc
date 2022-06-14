@@ -7,17 +7,17 @@
  name="whitelist_entry"
  single_instance="true"
  help_topic="whitelist_entry"
- title="Whitelist Entry"
+ title="화이트리스트 항목"
  width="390">
 
   <text type="string" length="1" bottom="20" follows="top|left" height="15" layout="topleft"
      left="10" name="media_label" top="20">
-        Enter a URL or URL pattern to add to the list of allowed domains
+        허용된 도메인 목록에 추가할 URL 또는 URL 패턴 입력
     </text>
 
   <line_editor bottom_delta="40" enabled="true" follows="left|top" font="SansSerif"
 	     height="20" left="10" name="whitelist_entry"
-	     tool_tip="Enter a URL or URL pattern to White List"
+	     tool_tip="화이트리스트에 URL 또는 URL 패턴 입력"
 	     width="350" />
 
   <button follows="top|left" height="20" label="OK"

@@ -2,7 +2,7 @@
 <floater
  name="avatarrendersettings"
  help_topic="fs_avatar_render_settings"
- title="Avatar Display Exceptions"
+ title="아바타 렌더 설정"
  min_width="350"
  min_height="320"
  width="450"
@@ -15,17 +15,17 @@
  can_close="true"
  can_drag_on_left="false">
 	<floater.string name="av_render_never">
-		Never
+		절대
 	</floater.string>
 	<floater.string name="av_render_always">
-		Always
+		꽉참
 	</floater.string>
 	<filter_editor
 	 follows="left|top|right"
 	 height="23"
 	 layout="topleft"
 	 left="4"
-	 label="Filter Avatars"
+	 label="아바타 필터"
 	 max_length_chars="300"
 	 name="filter_input"
 	 top="4"
@@ -42,7 +42,7 @@
 	 menu_filename="menu_avatar_rendering_settings_add.xml"
 	 menu_position="bottomleft"
 	 name="plus_btn"
-	 tool_tip="Add new person to the list"
+	 tool_tip="목록에 새로운 인원 추가"
 	 top="4"
 	 right="-4" />
 	<name_list
@@ -63,16 +63,16 @@
 	 sort_ascending="true">
 		<name_list.columns
 		 dynamic_width="true"
-		 label="Name"
+		 label="이름"
 		 name="name" />
 		<name_list.columns
-		 label="Full detail"
+		 label="렌더 설정"
 		 name="render_setting"
 		 width="100" />
 	</name_list>
 	<button
 	 name="close_btn"
-	 label="Close"
+	 label="닫기"
 	 font="SansSerif"
 	 height="23"
 	 width="80"

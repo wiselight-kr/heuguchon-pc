@@ -5,7 +5,7 @@
  height="200"
  layout="topleft"
  name="publish_classified"
- title="Publishing Classified"
+ title="분류 게시"
  help_topic="fs_profile_edit_classified"
  width="320">
     <text
@@ -18,9 +18,9 @@
      word_wrap="true"
      name="explanation_text">
      
-Your classified ad will run for one week from the date it is published.
-        
-Remember, Classified fees are non-refundable.
+당신의 분류된 광고는 그것이 게시된 날로부터 1주일 동안 진행될 것입니다.
+
+분류된 수수료는 환불되지 않습니다.
 
     </text>
     <spinner
@@ -40,12 +40,12 @@ Remember, Classified fees are non-refundable.
      max_val="999999"
      name="price_for_listing"
      top_pad="10"
-     tool_tip="Price for listing."
+     tool_tip="목록 가격."
      width="150" />
     <button
      follows="top|left"
      height="22"
-     label="Publish"
+     label="게시"
      layout="topleft"
      left="105"
      name="publish_btn"
@@ -54,7 +54,7 @@ Remember, Classified fees are non-refundable.
     <button
      follows="top|left"
      height="22"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="5"
      name="cancel_btn"

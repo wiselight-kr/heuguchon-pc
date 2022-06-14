@@ -26,7 +26,7 @@
   </menu_item_check>
   <menu_item_check
       name="teleport_history_tz_local"
-      label="Local">
+      label="로컬">
     <on_click
       function="TeleportHistory.TimeZone.Set"
       parameter="local" />

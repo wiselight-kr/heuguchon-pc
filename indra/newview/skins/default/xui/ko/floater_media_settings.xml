@@ -15,7 +15,7 @@
  mouse_opaque="true" 
  name="media_settings" 
  help_topic="media_settings"
- title="Media Settings">
+ title="미디어 설정">
 	<button 
 	 bottom="525" 
 	 enabled="true" 
@@ -37,7 +37,7 @@
 	 font="SansSerif"
 	 halign="center" 
 	 height="20" 
-	 label="Cancel" 
+	 label="취소" 
 	 label_selected="Cancel"
 	 left_delta="93" 
 	 mouse_opaque="true" 
@@ -51,7 +51,7 @@
 	 font="SansSerif"
 	 halign="center" 
 	 height="20" 
-	 label="Apply" 
+	 label="적용" 
 	 label_selected="Apply"
 	 left_delta="93" 
 	 mouse_opaque="true" 

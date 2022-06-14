@@ -2,7 +2,7 @@
 <context_menu
 	name="Bump List Context Menu">
 	<menu_item_call
-		label="View Profile"
+		label="프로필 보기"
 		name="show_agent">
 		<on_click
 			function="BumpList.Action"
@@ -12,7 +12,7 @@
 			parameter="can_show_profile"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Send IM..."
+		label="IM 전송..."
 		name="send_im">
 		<on_click
 			function="BumpList.Action"
@@ -22,7 +22,7 @@
 			parameter="can_sendim"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Zoom at Resident"
+		label="거주자에 확대"
 		name="zoom_agent">
 		<on_click
 			function="BumpList.Action"
@@ -32,7 +32,7 @@
 			parameter="can_zoom"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Teleport to Resident"
+		label="거주자에 순간이동"
 		name="teleportto_agent">
 		<on_click
 			function="BumpList.Action"
@@ -42,7 +42,7 @@
 			parameter="can_teleportto"/>
 	</menu_item_call>
 	<menu_item_check
-		label="Block"
+		label="차단"
 		name="Block">
 		<menu_item_check.on_click
 			function="BumpList.Action"
@@ -55,7 +55,7 @@
 			parameter="can_block"/>
 	</menu_item_check>
 	<menu_item_call
-		label="Report"
+		label="신고"
 		name="report">
 		<on_click
 			function="BumpList.Action"
@@ -67,7 +67,7 @@
 	<menu_item_separator/>
 	<menu_item_call
 		enabled="false"
-		label="Copy"
+		label="복사"
 		name="Copy">
 		<on_click
 			function="BumpList.Action"

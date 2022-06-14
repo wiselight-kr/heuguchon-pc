@@ -11,11 +11,11 @@
  help_topic="floater_help_browser"
  save_rect="true"
  single_instance="true"
- title="Help Browser"
+ title="브라우저 도움말"
  width="650">
     <floater.string
      name="loading_text">
-        Loading...
+        로딩중...
     </floater.string>
     <floater.string
      name="done_text">

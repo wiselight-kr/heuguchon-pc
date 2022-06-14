@@ -4,7 +4,7 @@
      left="0" bottom="0" visible="false"
      mouse_opaque="false">
   <menu_item_check
-   label="Sort by name"
+   label="이름으로 정렬"
    name="sort_by_name">
       <on_click
        function="CallLog.Action"
@@ -14,7 +14,7 @@
        parameter="sort_by_name"/>
   </menu_item_check>
   <menu_item_check
-   label="Sort by date"
+   label="날짜로 정렬"
    name="sort_by_date">
       <on_click
        function="CallLog.Action"
@@ -25,7 +25,7 @@
   </menu_item_check>
   <menu_item_separator />
   <menu_item_check
-   label="Sort friends on top"
+   label="맨 위에 친구 정렬"
    name="sort_by_friends">
       <on_click
        function="CallLog.Action"
@@ -36,7 +36,7 @@
   </menu_item_check>
   <menu_item_separator />
   <menu_item_call
-   label="View Nearby chat transcript..."
+   label="주변 대화 내용 보기..."
    name="view_nearby_chat_history">
       <on_click
        function="CallLog.Action"

@@ -7,7 +7,7 @@
  name="save_pref_preset"
  positioning="centered"
  save_rect="true"
- title="Save Graphic Preset"
+ title="그래픽 사전 설정 저장"
  width="245">
 
     <text
@@ -19,7 +19,7 @@
      name="Preset"
      top="30"
      width="220">
-     Type a name for the preset or choose an existing preset.
+     사전 설정의 이름을 입력하거나 기존 사전 설정 선택.
     </text>
     <combo_box
      follows="top|left"
@@ -32,7 +32,7 @@
     <button
      follows="top|left"
      height="23"
-     label="Save"
+     label="저장"
      layout="topleft"
      top_delta="40"
      left="10"
@@ -41,7 +41,7 @@
     <button
      follows="bottom|right"
      height="23"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="20"
      name="cancel"

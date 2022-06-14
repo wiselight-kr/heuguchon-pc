@@ -2,7 +2,7 @@
 <floater
  name="area_search"
  help_topic="fs_area_search"
- title="Area Search for Objects"
+ title="개체 영역 검색"
  min_width="430"
  min_height="395"
  width="610"
@@ -36,10 +36,10 @@
 		 height="435"
 		 width="610">
 			<panel.string name="ListedPendingTotalBlank">
-				Listed | Pending | Total
+				목록 | 보류 | 종합
 			</panel.string>
 			<panel.string name="ListedPendingTotalFilled">
-				[LISTED] Listed | [PENDING] Pending | [TOTAL] Total
+				[LISTED] 목록 | [PENDING] 보류 | [TOTAL] 종합
 			</panel.string>
 			<fs_scroll_list
 			 name="result_list"
@@ -56,52 +56,52 @@
 				 name="distance"
 				 label="Dist"
 				 width="40"
-				 tool_tip="Distance from your avatar to the object."/>
+				 tool_tip="아바타에서 개체까지의 거리."/>
 				<fs_scroll_list.columns
 				 name="name"
-				 label="Name"
+				 label="이름"
 				 width="180"/>
 				<fs_scroll_list.columns
 				 name="description"
-				 label="Description"
+				 label="묘사"
 				 width="180"/>
 				<fs_scroll_list.columns
 				 name="price"
-				 label="Price"
+				 label="가격"
 				 width="40"
-				 tool_tip="If the object is for sale, what you'd pay to purchase it."/>
+				 tool_tip="만약 그 물건이 판매된다면, 당신이 그것을 사기 위해 지불할 금액."/>
 				<fs_scroll_list.columns
 				 name="land_impact"
-				 label="LI"
+				 label="랜드 충격"
 				 width="40"
-				 tool_tip="The number that is counted against your parcel's maximum."/>
+				 tool_tip="소포의 최대값과 비교하여 계산되는 숫자."/>
 				<fs_scroll_list.columns
 				 name="prim_count"
-				 label="Prims"
+				 label="프리즘"
 				 width="40"
-				 tool_tip="Count of prims that make up each object."/>
+				 tool_tip="각 객체를 구성하는 프림 수."/>
 				<fs_scroll_list.columns
 				 name="owner"
-				 label="Owner"
+				 label="소유주"
 				 width="140"/>
 				<fs_scroll_list.columns
 				 name="group"
-				 label="Group"
+				 label="그룹"
 				 width="140"
-				 tool_tip="What group the object is set to."/>
+				 tool_tip="개체가 설정된 그룹."/>
 				<fs_scroll_list.columns
 				 name="creator"
-				 label="Creator"
+				 label="창조주"
 				 width="170"/>
 				<fs_scroll_list.columns
 				 name="last_owner"
-				 label="Last Owner"
+				 label="마지막 소유주"
 				 width="150"
-				 tool_tip="Who owned it last."/>
+				 tool_tip="누가 마지막으로 소유했는지."/>
 			</fs_scroll_list>
 			<button
 			 name="Refresh"
-			 label="Refresh"
+			 label="새로고침"
 			 font="SansSerif"
 			 mouse_opaque="true"
 			 height="20"
@@ -116,7 +116,7 @@
 			 left_delta="85"
 			 bottom="-9"
 			 follows="left|bottom">
-				Listed | Pending | Total
+				목록 | 보류 | 종합
 			</text>
 			<check_box
 			 follows="right|bottom"
@@ -130,7 +130,7 @@
 		<panel
 		 border="true"
 		 follows="all"
-		 label="Find"
+		 label="찾기"
 		 layout="topleft"
 		 left="0"
 		 top="0"
@@ -143,7 +143,7 @@
 			 height="15"
 			 left="12"
 			 width="200">
-				Name:
+				이름:
 			</text>
 			<text
 			 name="desc_label"
@@ -152,7 +152,7 @@
 			 height="15"
 			 left="218"
 			 width="200">
-				Description:
+				묘사:
 			</text>
 			<line_editor
 			 name="name_search"
@@ -187,7 +187,7 @@
 			 height="15"
 			 left="12"
 			 width="200">
-				Owner:
+				소유주:
 			</text>
 			<text
 			 name="group_label"
@@ -196,7 +196,7 @@
 			 height="15"
 			 left="218"
 			 width="200">
-				Group:
+				그룹:
 			</text>
 			 <line_editor
 			 name="owner_search"
@@ -231,7 +231,7 @@
 			 height="15"
 			 left="12"
 			 width="200">
-				Creator:
+				창조주:
 			</text>
 			<text
 			 name="last_owner_label"
@@ -240,7 +240,7 @@
 			 height="15"
 			 left="218"
 			 width="200">
-				Last owner:
+				마지막 소유주:
 			</text>
 			 <line_editor
 			 name="creator_search"
@@ -274,11 +274,11 @@
 			 layout="topleft"
 			 left="8"
 			 name="regular_expression"
-			 label="Use regular expression"
+			 label="정규 표현식 사용"
 			 top_pad="10"/>
 			<button
 			 name="search"
-			 label="Search"
+			 label="검색"
 			 mouse_opaque="true"
 			 height="20"
 			 width="80"
@@ -287,7 +287,7 @@
 			 follows="left|bottom"/>
 			<button
 			 name="clear"
-			 label="Clear"
+			 label="지우기"
 			 mouse_opaque="true"
 			 height="20"
 			 width="80"
@@ -298,7 +298,7 @@
 		<panel
 		 border="true"
 		 follows="all"
-		 label="Filter"
+		 label="필터"
 		 layout="topleft"
 		 left="0"
 		 top="0"
@@ -310,7 +310,7 @@
 			 follows="top|left"
 			 right="-5"
 			 left="5">
-				Only list objects that are:
+				다음 개체만 나열합니다:
 			</text>
 			<check_box
 			 follows="top|left"
@@ -318,20 +318,20 @@
 			 layout="topleft"
 			 left="10"
 			 name="filter_locked"
-			 label="Locked"
+			 label="잠김"
 			 width="100"/>
 			<check_box
 			 follows="top|left"
 			 layout="topleft"
 			 left_pad="0"
 			 name="filter_physical"
-			 label="Physical"
+			 label="물리"
 			 width="100"/>
 			<check_box
 			 follows="top|left"
 			 layout="topleft"
 			 name="filter_phantom"
-			 label="Phantom"
+			 label="팬텀"
 			 left_pad="0"
 			 width="100"/>
 			<check_box
@@ -339,21 +339,21 @@
 			 top_pad="10"
 			 layout="topleft"
 			 name="filter_temporary"
-			 label="Temporary"
+			 label="임시"
 			 left="10"
 			 width="100"/>
 			<check_box
 			 follows="top|left"
 			 layout="topleft"
 			 name="filter_attachment"
-			 label="Attachment"
+			 label="첨부파일"
 			 left_pad="0"
 			 width="100"/>
 			<check_box
 			 follows="top|left"
 			 layout="topleft"
 			 name="filter_moap"
-			 label="Shared Media"
+			 label="공유 미디어"
 			 left_pad="0"
 			 width="100"/>
 			<check_box
@@ -362,21 +362,21 @@
 			 layout="topleft"
 			 left="10"
 			 name="filter_perm_copy"
-			 label="Copy"
+			 label="복사"
 			 width="100"/>
 			<check_box
 			 follows="top|left"
 			 layout="topleft"
 			 left_pad="0"
 			 name="filter_perm_modify"
-			 label="Modify"
+			 label="수정"
 			 width="100"/>
 			<check_box
 			 follows="top|left"
 			 layout="topleft"
 			 left_pad="0"
 			 name="filter_perm_transfer"
-			 label="Transfer"
+			 label="이전"
 			 width="100"/>
 			<check_box
 			 follows="top|left"
@@ -384,7 +384,7 @@
 			 layout="topleft"
 			 left="10"
 			 name="filter_for_sale"
-			 label="For Sale between"
+			 label="판매 대상:"
 			 top_pad="10"
 			 width="120"/>
 			<spinner
@@ -406,7 +406,7 @@
 			 left_pad="5"
 			 top_delta="4"
 			 width="22">
-				and
+				그리고
 			</text>
 			<spinner
 			 decimal_digits="0"
@@ -427,65 +427,65 @@
 			 left="15"
 			 top_pad="25"
 			 width="100">
-				Mouse click action
+				마우스 클릭 행동
 			</text>
 			<combo_box
 			 height="23"
 			 follows="top|left"
 			 name="click_action"
 			 left_pad="5"
-			 tool_tip="Action that is performed when clicking on an object."
+			 tool_tip="개체를 클릭할 때 수행되는 작업."
 			 width="120">
 				<combo_box.item
 				 enabled="true"
 				 label=" "
 				 name="click_blank"
-				 value="blank"/>
+				 value="빈"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Any"
+				 label="누구든"
 				 name="click_any"
-				 value="any"/>
+				 value="누구든"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Touch"
+				 label="터치"
 				 name="click_touch"
-				 value="touch"/>
+				 value="터치"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Sit"
+				 label="앉기"
 				 name="click_sit"
-				 value="sit"/>
+				 value="앉기"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Buy"
+				 label="구매"
 				 name="click_buy"
-				 value="buy"/>
+				 value="구매"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Pay"
+				 label="결제"
 				 name="click_pay"
-				 value="pay"/>
+				 value="결제"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Open"
+				 label="열기"
 				 name="click_open"
-				 value="open"/>
+				 value="열기"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Play"
+				 label="재생"
 				 name="click_play"
-				 value="play"/>
+				 value="재생"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Open Media"
+				 label="미디어 열기"
 				 name="click_open_media"
-				 value="open_media"/>
+				 value="미디어_열기"/>
 				<combo_box.item
 				 enabled="true"
-				 label="Zoom"
+				 label="확대"
 				 name="click_zoom"
-				 value="zoom"/>
+				 value="확대"/>
 			</combo_box>
 			<check_box
 			 follows="top|left"
@@ -493,7 +493,7 @@
 			 layout="topleft"
 			 left="10"
 			 name="filter_distance"
-			 label="Distance between"
+			 label="사이의 거리"
 			 top_pad="10"
 			 width="120"/>
 			<spinner
@@ -515,7 +515,7 @@
 			 left_pad="5"
 			 top_delta="4"
 			 width="22">
-				and
+				그리고
 			</text>
 			<spinner
 			 decimal_digits="0"
@@ -535,7 +535,7 @@
 			 layout="topleft"
 			 left="10"
 			 name="filter_agent_parcel_only"
-			 label="Current Parcel only"
+			 label="현재 구획만"
 			 width="80"/>
 			<text
 			 name="only_list"
@@ -544,7 +544,7 @@
 			 follows="top|left"
 			 right="-5"
 			 left="5">
-				Exclude objects that are:
+				다음 개체 제외:
 			</text>
 			<check_box
 			 follows="top|left"
@@ -552,7 +552,7 @@
 			 layout="topleft"
 			 left="10"
 			 name="exclude_attachment"
-			 label="Attachment"
+			 label="첨부파일"
 			 width="80"/>
 			<check_box
 			 follows="top|left"
@@ -560,7 +560,7 @@
 			 layout="topleft"
 			 left="10"
 			 name="exclude_physical"
-			 label="Physical"
+			 label="물리"
 			 width="80"/>
 			<check_box
 			 follows="top|left"
@@ -568,7 +568,7 @@
 			 layout="topleft"
 			 left="10"
 			 name="exclude_temporary"
-			 label="Temporary"
+			 label="임시"
 			 width="80"/>
 			<check_box
 			 follows="top|left"
@@ -576,7 +576,7 @@
 			 layout="topleft"
 			 left="10"
 			 name="exclude_childprim"
-			 label="Child Prim"
+			 label="차일드 프림"
 			 width="80"/>
 			<check_box
 			 follows="top|left"
@@ -584,11 +584,11 @@
 			 layout="topleft"
 			 left="10"
 			 name="exclude_neighbor_region"
-			 label="Neighboring Regions"
+			 label="인접 지역"
 			 width="80"/>
 			 <button
 			 name="apply"
-			 label="Apply"
+			 label="적용"
 			 mouse_opaque="true"
 			 height="20"
 			 width="80"
@@ -599,7 +599,7 @@
 		<panel
 		 border="true"
 		 follows="all"
-		 label="Options"
+		 label="옵션"
 		 layout="topleft"
 		 left="0"
 		 top="0"
@@ -610,7 +610,7 @@
 			 height="15"
 			 follows="top|left"
 			 left="5">
-				Display column:
+				열 표시:
 			</text>
 			<check_box
 			 follows="top|left"
@@ -618,7 +618,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_distance"
-			 label="Distance"
+			 label="거리"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -634,7 +634,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_name"
-			 label="Name"
+			 label="이름"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -650,7 +650,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_description"
-			 label="Description"
+			 label="묘사"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -666,7 +666,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_price"
-			 label="Price"
+			 label="가격"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -682,7 +682,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_land_impact"
-			 label="Land Impact"
+			 label="랜드 충격"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -698,7 +698,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_prim_count"
-			 label="Prim Count"
+			 label="프림 세기"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -714,7 +714,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_owner"
-			 label="Owner"
+			 label="소유주"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -730,7 +730,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_group"
-			 label="Group"
+			 label="그룹"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -746,7 +746,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_creator"
-			 label="Creator"
+			 label="창조주"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -762,7 +762,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="show_last_owner"
-			 label="Last owner"
+			 label="마지막 소유자"
 			 top_pad="10"
 			 initial_value="true">
 				<check_box.commit_callback
@@ -776,7 +776,7 @@
 		<panel
 		 border="true"
 		 follows="all"
-		 label="Advanced"
+		 label="고급"
 		 layout="topleft"
 		 left="0"
 		 top="0"
@@ -788,7 +788,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="double_click_touch"
-			 label="Double click touch object"
+			 label="더블 클릭 터치 객체"
 			 top_pad="10"/>
 			<check_box
 			 follows="top|left"
@@ -796,7 +796,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="double_click_buy"
-			 label="Double click buy object"
+			 label="개체 구매 두 번 클릭"
 			 top_pad="10"/>
 			<check_box
 			 follows="top|left"
@@ -804,7 +804,7 @@
 			 layout="topleft"
 			 left="8"
 			 name="double_click_sit"
-			 label="Double click sit on object"
+			 label="객체에 앉기 두 번 클릭"
 			 top_pad="10"/>
 		</panel>
 	</tab_container>

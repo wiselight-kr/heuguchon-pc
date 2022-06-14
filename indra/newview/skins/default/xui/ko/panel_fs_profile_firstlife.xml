@@ -7,7 +7,7 @@
  layout="topleft"
  follows="all"
  name="panel_profile_firstlife"
- label="Profile">
+ label="프로필">
 
     <loading_indicator
      top="5"

@@ -10,34 +10,34 @@
  name="avatarpicker"
  help_topic="avatarpicker"
  save_rect="true"
- title="Choose Resident"
+ title="거주자 선택"
  width="500">
     <floater.string
      name="not_found">
-        &apos;[TEXT]&apos; not found
+        &apos;[TEXT]&apos; 찾을 수 없음
     </floater.string>
     <floater.string
      name="not_found_text">
-        Resident wasn't found.
+        거주자가 발견되지 않습니다.
     </floater.string>
     <floater.string
      name="no_one_near">
-        No one near
+        근처에 아무도 없습니다
     </floater.string>
     <floater.string
      name="no_results">
-        No results
+        결과 없음
     </floater.string>
     <floater.string
      name="searching">
-        Searching...
+        검색중...
     </floater.string>
     <!-- For multiple person selection, use "Select" and "Close" 
       instead of "OK" and "Cancel" because "Cancel" still keeps the ones 
       you have already selected.  The code will show the appropriate
       set of buttons. -->
-    <string name="Select">Select</string>
-    <string name="Close">Close</string>
+    <string name="Select">선택</string>
+    <string name="Close">닫기</string>
     <tab_container
      follows="all"
      height="300"
@@ -66,7 +66,7 @@
              name="InstructSearchResidentName"
              top="8"
              width="300">
-                Type part of a person&apos;s name:
+            사용자&apos; 이름의 부분을 입력하시오:
             </text>
             <line_editor
              bevel_style="none"
@@ -101,14 +101,14 @@
               name="name"
               width="150" />
             <columns
-              label="Username"
+              label="유저 이름"
               name="username"
               width="150" />
           </fs_scroll_list>
         </panel>
         <panel
          height="150"
-         label="Friends"
+         label="친구"
          layout="topleft"
          left="6"
          help_topic="avatarpicker"
@@ -125,7 +125,7 @@
              name="InstructSelectFriend"
              top="8"
              width="200">
-                Select a person:
+                사람 선택:
             </text>
             <button
              follows="top|right"
@@ -150,11 +150,11 @@
              top_pad="5"
              width="132">
             <columns
-              label="Name"
+              label="이름"
               name="name"
               width="150" />
             <columns
-              label="Username"
+              label="유저 이름"
               name="username"
               width="150" />
             </fs_scroll_list>
@@ -179,7 +179,7 @@
              name="InstructSelectResident"
              top="8"
              width="220">
-                Select a person nearby:
+                근처의 사람 선택:
             </text>
             <slider
              control_name="NearMeRange"
@@ -188,7 +188,7 @@
              height="18"
              increment="1"
              initial_value="20"
-             label="Range"
+             label="거리"
              layout="topleft"
              left="10"
              max_val="130"
@@ -205,7 +205,7 @@
              left_pad="0"
              name="meters"
              width="60">
-                Meters
+                미터
             </text>
             <button
              follows="top|left"
@@ -226,11 +226,11 @@
              top="52"
              width="132">
             <columns
-              label="Name"
+              label="이름"
               name="name"
               width="150" />
             <columns
-              label="Username"
+              label="유저 이름"
               name="username"
               width="150" />
           </fs_scroll_list>
@@ -238,7 +238,7 @@
 
         <panel
          height="150"
-         label="Search by UUID"
+         label="UUID로 검색"
          layout="topleft"
          left="6"
          help_topic="avatarpicker"
@@ -255,7 +255,7 @@
              name="SearchByUUIDLabel"
              top="8"
              width="220">
-                Enter a person&apos;s UUID:
+                개인&apos; UUID 입력:
             </text>
             <line_editor
              bevel_style="none"
@@ -270,7 +270,7 @@
             <button
              follows="top|right"
              height="23"
-             label="Go"
+             label="가다"
              label_selected="Go"
              layout="topleft"
              left_pad="5"
@@ -286,11 +286,11 @@
              top="52"
              width="132">
              <columns
-              label="Name"
+              label="이름"
               name="nameUUID"
               width="150" />
              <columns
-              label="Username"
+              label="유저이름"
               name="usernameUUID"
               width="150" />
           </fs_scroll_list>
@@ -308,7 +308,7 @@
     <button
      follows="left|bottom"
      height="23"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      name="cancel_btn"
      width="100"

@@ -8,30 +8,30 @@
  name="floater_placedetails"
  help_topic="floater_placedetails"
  save_rect="true"
- title="Landmark"
+ title="랜드마크"
  min_height="570"
  min_width="250"
  width="322">
 	<string name="title_place">
-		Place Details
+		장소 세부정보
 	</string>
 	<string name="title_remote_place">
-		Place Details
+		장소 세부정보
 	</string>
 	<string name="title_remote_place_detail">
-		Place Details: [NAME]
+		장소 세부정보: [NAME]
 	</string>
 	<string name="title_landmark">
-		Landmark
+		랜드마크
 	</string>
 	<string name="title_landmark_detail">
-		Landmark: [NAME]
+		랜드마크: [NAME]
 	</string>
 	<string name="title_create_landmark">
-		Create Landmark
+		랜드마크 생성
 	</string>
 	<string name="title_teleport_history_item">
-		Teleport History Details: [NAME]
+		순간이동 기록 세부정보: [NAME]
 	</string>
 	<panel
 	 class="panel_landmark_info"
@@ -109,11 +109,11 @@
 						<button
 						 follows="bottom|left|right"
 						 height="23"
-						 label="Teleport"
+						 label="순간이동"
 						 layout="topleft"
 						 left="1"
 						 name="teleport_btn"
-						 tool_tip="Teleport to the selected area"
+						 tool_tip="선택된 영역으로 순간이동"
 						 top="0"
 						 width="108"/>
 					</layout_panel>
@@ -130,11 +130,11 @@
 						<button
 						 follows="bottom|left|right"
 						 height="23"
-						 label="Map"
+						 label="지도"
 						 layout="topleft"
 						 left="1"
 						 name="map_btn"
-						 tool_tip="Show the corresponding area on the World Map"
+						 tool_tip="세계 지도에 해당 지역 표시"
 						 top="0"
 						 width="85" />
 					</layout_panel>
@@ -157,7 +157,7 @@
 						 layout="topleft"
 						 mouse_opaque="false"
 						 name="overflow_btn"
-						 tool_tip="Show additional options"
+						 tool_tip="추가 옵션 표시"
 						 top="0"
 						 left="1"
 						 width="23"/>
@@ -209,7 +209,7 @@
 						<button
 						 follows="bottom|left|right"
 						 height="23"
-						 label="Close"
+						 label="닫기"
 						 layout="topleft"
 						 mouse_opaque="false"
 						 name="close_btn"
@@ -246,7 +246,7 @@
 				<button
 				 follows="bottom|left|right"
 				 height="23"
-				 label="Save"
+				 label="저장"
 				 layout="topleft"
 				 mouse_opaque="false"
 				 name="save_btn"
@@ -268,7 +268,7 @@
 				<button
 				 follows="bottom|left|right"
 				 height="23"
-				 label="Cancel"
+				 label="취소"
 				 layout="topleft"
 				 mouse_opaque="false"
 				 name="cancel_btn"

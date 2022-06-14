@@ -16,7 +16,7 @@
     min_height="120"
     layout="topleft"
     name="camera_floater"
-    title="Camera Controls"
+    title="카메라 조작"
     help_topic="camera_floater"
     save_rect="true"
     save_visibility="true"

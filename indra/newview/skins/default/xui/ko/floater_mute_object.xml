@@ -6,7 +6,7 @@
  layout="topleft"
  name="block by name"
  help_topic="mute_by_name"
- title="Block Object by Name"
+ title="이름으로 개체 차단"
  width="375">
     <text
      type="string"
@@ -18,7 +18,7 @@
      left="10"
      top="25"
      name="message">
-        Block an object:
+        객체 차단:
     </text>
     <line_editor
      type="string"
@@ -31,7 +31,7 @@
      name="object_name"
      top_pad="5"
      width="350">
-        Object name
+        개체 이름
     </line_editor>
     <text
      type="string"
@@ -42,7 +42,7 @@
      layout="topleft"
      left="30"
      name="note">
-      * Only blocks object text, not sounds
+      * 개체 텍스트만 차단하고 소리는 차단하지 않음
     </text>
     <button
      follows="bottom|left"
@@ -56,7 +56,7 @@
     <button
      follows="bottom|right"
      height="23"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="5"
      name="Cancel"

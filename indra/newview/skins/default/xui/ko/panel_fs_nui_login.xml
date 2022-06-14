@@ -106,7 +106,7 @@
     force_disable_fulltext_search="true"
     combo_editor.commit_on_focus_lost="false"
     combo_editor.prevalidate_callback="ascii"
-    tool_tip="The username you chose when you registered, like bobsmith12 or Steller Sunshine"
+    tool_tip="등록할 때 선택한 사용자 이름(예: bobsmith12 또는 Steller Sunshine)"
     name="username_combo"
     width="201">
     <combo_box.combo_editor
@@ -140,7 +140,7 @@
       image_unselected="TrashItem_Off"
       image_selected="TrashItem_Press"
       image_pressed="TrashItem_Press"
-      tool_tip="Remove this username"
+      tool_tip="이 사용자 이름 제거"
       label=""
       layout="topleft"
       name="remove_user_btn"
@@ -212,11 +212,11 @@
     <combo_box.item
       label="마지막 위치"
       name="MyLastLocation"
-      value="last" />
+      value="마지막" />
     <combo_box.item
       label="집"
       name="MyHome"
-      value="home" />
+      value="집" />
     <combo_box.item
       label="&lt;지역 이름을 타이핑하시오&gt;"
       name="Typeregionname" value="" />
@@ -307,7 +307,7 @@
       right="-5"
       height="32"
       max_chars="128"
-      tool_tip="Select which style of viewer you are most familiar with to set your defaults to appropriately."
+      tool_tip="기본값을 적절하게 설정할 가장 익숙한 뷰어 스타일 선택."
       name="mode_combo"
       width="120"
       combo_button.scale_image="true">

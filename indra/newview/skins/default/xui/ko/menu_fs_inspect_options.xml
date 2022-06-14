@@ -2,7 +2,7 @@
 <toggleable_menu
  name="menu_group_plus">
 	<menu_item_check
-	 label="Description"
+	 label="묘사"
 	 name="description">
 		<menu_item_check.on_check
 		 function="Inspect.EnableColumn"
@@ -12,7 +12,7 @@
 		 parameter="description"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Owner Name"
+	 label="소유주 이름"
 	 name="owner_name">
 		<menu_item_check.on_check
 		 function="Inspect.EnableColumn"
@@ -22,7 +22,7 @@
 		 parameter="owner_name"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Creator Name"
+	 label="이름 창조주"
 	 name="creator_name">
 		<menu_item_check.on_check
 		 function="Inspect.EnableColumn"
@@ -32,7 +32,7 @@
 		 parameter="creator_name"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Faces"
+	 label="얼굴"
 	 name="facecount">
 		<menu_item_check.on_check
 		 function="Inspect.EnableColumn"
@@ -42,7 +42,7 @@
 		 parameter="facecount"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Vertices"
+	 label="정점"
 	 name="vertexcount">
 		<menu_item_check.on_check
 		 function="Inspect.EnableColumn"
@@ -52,7 +52,7 @@
 		 parameter="vertexcount"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Triangles"
+	 label="삼각형"
 	 name="trianglecount">
 		<menu_item_check.on_check
 		 function="Inspect.EnableColumn"
@@ -82,7 +82,7 @@
 		 parameter="vramcount"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Creation Date"
+	 label="날짜 생성"
 	 name="creation_date">
 		<menu_item_check.on_check
 		 function="Inspect.EnableColumn"

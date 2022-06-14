@@ -13,11 +13,11 @@
    follows="top|left|bottom"
    left="10"
    name="test_text_editor"
-   tool_tip="text editor"
+   tool_tip="텍스트 편집기"
    top="25"
    word_wrap="true" 
    width="200">
-    Text Editor
+    텍스트 편집기
   </text_editor>
   <text_editor
    height="50"
@@ -25,10 +25,10 @@
    font="SansSerif" 
    left="10"
    name="test_text_editor"
-   tool_tip="text editor"
+   tool_tip="텍스트 편집기"
    top_pad="10"
    width="200">
-    This contains long text and should scroll horizontally to the right
+    긴 텍스트를 포함하며 오른쪽으로 가로로 스크롤해야 합니다
   </text_editor>
   <text_editor
    height="50"
@@ -36,11 +36,11 @@
    font="SansSerif"
    left="10"
    name="numeric_text_editor"
-   tool_tip="text editor for numeric text entry only"
+   tool_tip="숫자 텍스트 입력 전용 텍스트 편집기"
    top_pad="10"
    text_type="int"
    width="200">
-    This is text that is NOT a number, so shouldn't appear
+    숫자가 아닌 텍스트이므로 표시되지 않아야 합니다
   </text_editor>
 
 </floater>

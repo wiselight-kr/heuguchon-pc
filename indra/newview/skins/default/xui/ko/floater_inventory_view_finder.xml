@@ -248,7 +248,7 @@
      width="45" />
     <check_box
      height="16"
-     label="환승"
+     label="이전"
      layout="topleft"
      left_pad="2"
      name="check_transfer"

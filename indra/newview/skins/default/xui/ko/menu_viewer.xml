@@ -872,7 +872,7 @@
         <!--
         <menu_item_separator/>
         <menu_item_check
-         label="Friends"
+         label="친구"
          name="My Friends"
          shortcut="control|shift|F">
             <menu_item_check.on_check
@@ -883,7 +883,7 @@
              parameter="friends_panel" />
             </menu_item_check>
         <menu_item_check
-         label="Groups"
+         label="그룹"
          name="My Groups"
          shortcut="control|shift|G">
          	<menu_item_check.on_check
@@ -894,7 +894,7 @@
              parameter="groups_panel" />
         </menu_item_check>
         <menu_item_check
-         label="Nearby people"
+         label="주변 사람들"
          name="Active Speakers"
          shortcut="control|shift|A">
         	 <menu_item_check.on_check
@@ -1212,7 +1212,7 @@
         </menu_item_call>
         <menu_item_separator/>
     <!--    <menu_item_check
-         label="Show Navigation Bar"
+         label="네비게이션 모음 표시"
          name="ShowNavbarNavigationPanel">
            <menu_item_check.on_click
              function="ToggleControl"
@@ -1222,7 +1222,7 @@
              parameter="ShowNavbarNavigationPanel" />
         </menu_item_check>
        <menu_item_check
-         label="Show Favorites Bar"
+         label="즐겨찾기 모음 표시"
          name="ShowNavbarFavoritesPanel">
            <menu_item_check.on_click
              function="ToggleControl"
@@ -1379,12 +1379,12 @@
 <!--   
 	    <menu
 	     create_jump_keys="true"
-	     label="Environment Editor"
+	     label="환경 편집기"
 	     name="Environment Editor"
 	     tear_off="true">
 	     	
 	     	<menu_item_call
-	     	 label="Environment Settings..."
+	     	 label="환경 설정..."
 	     	 name="Environment Settings">
 	     	 	<menu_item_call.on_click
 	     	 	 function="World.EnvSettings"
@@ -1398,9 +1398,9 @@
 
 	     	<menu
 	     	 name="Water Presets"
-	     	 label="Water Presets">
+	     	 label="물 사전 설정">
 	     	 	<menu_item_call
-	     	 	 label="New preset..."
+	     	 	 label="새로운 사전 설정..."
 	     	 	 name="new_water_preset">
 	     	 	 	<menu_item_call.on_click
 	     	 	 	function="World.EnvPreset"
@@ -1410,7 +1410,7 @@
             parameter="setenv" />
 	     	 	</menu_item_call>
 	     	 	<menu_item_call
-	     	 	 label="Edit preset..."
+	     	 	 label="사전 설정 편집..."
 	     	 	 name="edit_water_preset">
 	     	 	 	<menu_item_call.on_click
 	     	 	 	function="World.EnvPreset"
@@ -1423,9 +1423,9 @@
 
 	     	<menu
 	     	 name="Sky Presets"
-	     	 label="Sky Presets">
+	     	 label="하늘 사전 설정">
 	     	 	<menu_item_call
-	     	 	 label="New preset..."
+	     	 	 label="새로운 사전 설정..."
 	     	 	 name="new_sky_preset">
 	     	 	 	<menu_item_call.on_click
 	     	 	 	function="World.EnvPreset"
@@ -1435,7 +1435,7 @@
             parameter="setenv" />
           </menu_item_call>
 	     	 	<menu_item_call
-	     	 	 label="Edit preset..."
+	     	 	 label="사전 설정 편집..."
 	     	 	 name="edit_sky_preset">
 	     	 	 	<menu_item_call.on_click
 	     	 	 	function="World.EnvPreset"
@@ -1448,9 +1448,9 @@
 	     	
 	     	<menu
 	     	 name="Day Presets"
-	     	 label="Day Presets">
+	     	 label="일 사전 설정">
 	     	 	<menu_item_call
-	     	 	 label="New preset..."
+	     	 	 label="새로운 사전 설정..."
 	     	 	 name="new_day_preset">
 	     	 	 	<menu_item_call.on_click
 	     	 	 	function="World.EnvPreset"
@@ -1460,7 +1460,7 @@
             parameter="setenv" />
           </menu_item_call>
 	     	 	<menu_item_call
-	     	 	 label="Edit preset..."
+	     	 	 label="사전 설정 편집..."
 	     	 	 name="edit_day_preset">
 	     	 	 	<menu_item_call.on_click
 	     	 	 	function="World.EnvPreset"
@@ -2415,7 +2415,7 @@
              parameter="grid_about" />
         </menu_item_call>
 <!--        <menu_item_call
-         label="Tutorial"
+         label="튜토리얼"
          name="Tutorial">
             <menu_item_call.on_click
              function="Floater.Show"
@@ -2423,7 +2423,7 @@
         </menu_item_call>
 		<menu_item_separator/>
         <menu_item_call
-             label="Knowledge Base"
+             label="지식 기지"
              name="Knowledge Base">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"
@@ -2437,14 +2437,14 @@
                  parameter="http://wiki.secondlife.com"/>
         </menu_item_call>
         <menu_item_call
-             label="Community Forums"
+             label="커뮤니티 포럼"
              name="Community Forums">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"
                  parameter="http://community.secondlife.com/t5/Forums/ct-p/Forums"/>
         </menu_item_call>         
         <menu_item_call
-             label="Support portal"
+             label="포탈 지원"
              name="Support portal">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"
@@ -2452,14 +2452,14 @@
         </menu_item_call>
         <menu_item_separator/>
         <menu_item_call
-             label="[SECOND_LIFE] News"
+             label="[SECOND_LIFE] 뉴스"
              name="Second Life News">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"
                  parameter="http://community.secondlife.com/t5/Featured-News/bg-p/blog_feature_news"/>  
         </menu_item_call>
         <menu_item_call
-             label="[SECOND_LIFE] Blogs"
+             label="[SECOND_LIFE] 블로그"
              name="Second Life Blogs">
              <menu_item_call.on_click
                  function="Advanced.ShowURL"

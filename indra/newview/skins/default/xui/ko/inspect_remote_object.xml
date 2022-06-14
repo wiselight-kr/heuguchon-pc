@@ -27,7 +27,7 @@
    use_ellipses="true"
    word_wrap="true"
    width="291">
-     Test Object Name That Is Really Long OMG so long I can't believe how long the name of this object is, I mean really.
+     테스트 개체 이름 정말 긴 OMG 너무 길어서 이 개체의 이름이 얼마나 긴지 믿을 수 없습니다. 정말입니다.
   </text>
   <text
    follows="top|left"
@@ -37,7 +37,7 @@
    name="object_owner_label"
    width="65"
    top_pad="12">
-     Owner:
+     소유주:
   </text>
   <text
    icon_positioning="left"
@@ -72,7 +72,7 @@
   <button
    follows="top|left"
    height="23"
-   label="Map"
+   label="지도"
    left="8"
    top_pad="8"
    name="map_btn"
@@ -80,14 +80,14 @@
   <button
    follows="top|left"
    height="23"
-   label="Block"
+   label="차단"
    left_pad="8"
    name="block_btn"
    width="90" />
   <button
    follows="top|left"
    height="23"
-   label="Close"
+   label="닫기"
    right="-8"
    name="close_btn"
    left_pad="5"

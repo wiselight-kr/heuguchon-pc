@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <context_menu
-      label="Toolbar"
+      label="툴바"
       layout="topleft"
       name="Toolbars Popup"
       visible="false">
-  <menu_item_call label="Remove this button"
+  <menu_item_call label="이 버튼 삭제"
                   layout="topleft"
                   invisibility_control="LockToolbars"
                   name="Remove button">
     <menu_item_call.on_click function="Toolbars.RemoveSelectedCommand" />
   </menu_item_call>
   <menu_item_separator layout="topleft" invisibility_control="LockToolbars" />
-  <menu_item_call label="Toolbar buttons..."
+  <menu_item_call label="툴바 버튼..."
                   layout="topleft"
                   name="Choose Buttons">
     <menu_item_call.on_click function="Floater.Show"
                              parameter="toybox" />
   </menu_item_call>
   <menu_item_separator layout="topleft" />
-  <menu_item_check label="Left Aligned"
+  <menu_item_check label="좌측 정렬"
                    layout="topleft"
                    name="left_aligned">
     <on_click function="Toolbars.SetAlignment"
@@ -26,7 +26,7 @@
     <on_check function="Toolbars.CheckAlignment"
               parameter="left" />
   </menu_item_check>
-  <menu_item_check label="Center Aligned"
+  <menu_item_check label="중앙 정렬"
                    layout="topleft"
                    name="center_aligned">
     <on_click function="Toolbars.SetAlignment"
@@ -34,7 +34,7 @@
     <on_check function="Toolbars.CheckAlignment"
               parameter="center" />
   </menu_item_check>
-  <menu_item_check label="Right Aligned"
+  <menu_item_check label="우측 정렬"
                    layout="topleft"
                    name="right_aligned">
     <on_click function="Toolbars.SetAlignment"
@@ -43,7 +43,7 @@
               parameter="right" />
   </menu_item_check>
   <menu_item_separator layout="topleft" />
-  <menu_item_check label="Icons and labels"
+  <menu_item_check label="아이콘과 레이블"
                    layout="topleft"
                    name="icons_with_text">
     <on_click function="Toolbars.EnableSetting"
@@ -51,7 +51,7 @@
     <on_check function="Toolbars.CheckSetting"
               parameter="icons_with_text" />
   </menu_item_check>
-  <menu_item_check label="Icons only"
+  <menu_item_check label="아이콘만"
                    layout="topleft"
                    name="icons_only">
     <on_click function="Toolbars.EnableSetting"
@@ -59,7 +59,7 @@
     <on_check function="Toolbars.CheckSetting"
               parameter="icons_only" />
   </menu_item_check>
-  <menu_item_check label="Labels only"
+  <menu_item_check label="레이블만"
                    layout="topleft"
                    name="text_only">
     <on_click function="Toolbars.EnableSetting"
@@ -68,7 +68,7 @@
               parameter="text_only" />
   </menu_item_check>
   <menu_item_separator layout="topleft" />
-  <menu_item_check label="Autosize Buttons"
+  <menu_item_check label="자동크기 버튼"
                    layout="topleft"
                    name="layout_style_none">
     <on_click function="Toolbars.SetLayoutStyle"
@@ -76,7 +76,7 @@
     <on_check function="Toolbars.CheckLayoutStyle"
               parameter="none" />
   </menu_item_check>
-  <menu_item_check label="Fixed Size Buttons"
+  <menu_item_check label="고정 크기 버튼"
                    layout="topleft"
                    name="layout_style_equalize">
     <on_click function="Toolbars.SetLayoutStyle"
@@ -84,7 +84,7 @@
     <on_check function="Toolbars.CheckLayoutStyle"
               parameter="equalize" />
   </menu_item_check>
-  <menu_item_check label="Buttons Fill Bar"
+  <menu_item_check label="버튼 채우기 표시줄"
                    layout="topleft"
                    name="layout_style_fill">
     <on_click function="Toolbars.SetLayoutStyle"
@@ -93,7 +93,7 @@
               parameter="fill" />
   </menu_item_check>
   <menu_item_separator layout="topleft" />
-  <menu_item_check label="Locked"
+  <menu_item_check label="잠김"
                    layout="topleft"
                    name="toolbars_locked">
     <on_check control="LockToolbars" />

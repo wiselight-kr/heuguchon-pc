@@ -22,11 +22,11 @@
              default_image_name="Default"
              follows="left|top"
              height="80"
-             label="Iris"
+             label="아이리스"
              layout="topleft"
              left="10"
              name="Iris"
-             tool_tip="Click to choose a picture"
+             tool_tip="사진을 선택하려면 클릭하십시오."
              top="10"
              width="64" >
          <texture_picker.commit_callback
@@ -61,7 +61,7 @@
             fit_panel="false"
 			min_height="150"
 			name="eyes_main_tab"
-			title="Eyes">
+			title="눈">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"

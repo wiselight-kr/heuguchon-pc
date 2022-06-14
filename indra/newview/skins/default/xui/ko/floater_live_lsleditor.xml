@@ -11,39 +11,39 @@
   name="script ed float"
   help_topic="preview_lsl_text"
   save_rect="true"
-  title="Script: New script"
+  title="스크립트: 새로운 스크립트"
   width="508">
   <floater.string
     name="not_allowed">
-    You can not view or edit this script, since it has been set with restricted permissions. You need full permissions to view or edit a script inside an object.
+    이 스크립트는 제한된 권한으로 설정되었기 때문에 보거나 편집할 수 없습니다. 개체 내부의 스크립트를 보거나 편집하려면 전체 권한이 필요합니다.
   </floater.string>
   <floater.string
     name="script_running">
-    Running
+    실행
   </floater.string>
   <floater.string
     name="Title">
-    Script: [NAME]
+    스크립트: [NAME]
   </floater.string>
   <floater.string
     name="experience_enabled">
-    Uncheck to remove the current experience
+    현재 환경을 제거하려면 선택 취소
   </floater.string>
   <floater.string
     name="no_experiences">
-    You are not authorized for any experiences
-  </floater.string>
+    어떠한 경험도 허용되지 않습니다.
+      </floater.string>
   <floater.string
     name="add_experiences">
-    Select to add an experience
+    경험을 추가하려면 선택하십시오.
   </floater.string>
   <floater.string
     name="show_experience_profile">
-    Click to view the experience profile
+    경험 프로파일을 보려면 클릭하십시오.
   </floater.string>
   <floater.string
     name="loading">
-    Loading...
+    로딩중...
   </floater.string>
   <panel
     bevel_style="none"
@@ -59,7 +59,7 @@
   <button
     follows="left|bottom"
     height="23"
-    label="Reset"
+    label="초기화"
     label_selected="Reset"
     layout="topleft"
     name="Reset"
@@ -73,7 +73,7 @@
     font="SansSerif"
     height="18"
     initial_value="true"
-    label="Running"
+    label="실행"
     layout="topleft"
     name="running"
     width="205" />
@@ -84,7 +84,7 @@
     font="SansSerif"
     height="18"
     initial_value="true"
-    label="Mono"
+    label="단일"
     layout="topleft"
     name="mono"
     width="100" />
@@ -95,7 +95,7 @@
              top_pad="10"
              layout="topleft"
              follows="bottom|left"
-             label="Use Experience:"
+             label="경험 사용:"
              name="enable_xp"/>
   <combo_box
     label=""

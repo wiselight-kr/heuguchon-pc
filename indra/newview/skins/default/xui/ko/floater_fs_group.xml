@@ -12,13 +12,13 @@
  save_rect="true"
  min_width="470">
 	<floater.string name="title_create_group">
-		Create new group...
+		새 그룹 생성...
 	</floater.string>
 	<floater.string name="title_loading">
-		Group Profile - Loading...
+		그룹 프로필 - 로딩중...
 	</floater.string>
 	<floater.string name="title">
-		Group Profile - [NAME]
+		그룹 프로필 - [NAME]
 	</floater.string>
     <panel
      background_visible="false"

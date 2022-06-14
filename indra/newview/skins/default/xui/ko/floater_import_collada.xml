@@ -4,21 +4,21 @@
      name="Import Collada" title="Import Scene">
 
   <text bottom_delta="40" left="20" name="mesh count" height="15" follows="top|left">
-	Meshes: [COUNT]
+	메쉬: [COUNT]
   </text>
 
   <text bottom_delta="20" left="20" name="texture count" height="15" follows="top|left">
-	Textures: [COUNT]
+	텍스쳐: [COUNT]
   </text>
 
   <text bottom_delta="40" left="10" name="status" height="15" follows="top|left">
-    Status: [STATUS]
+    상태: [STATUS]
   </text>
 
    <button
 	  bottom_delta="40"
       name="cancel"
-      label="Cancel"
+      label="취소"
       enabled="true"
       height="20"
       layout="topleft"
@@ -36,7 +36,7 @@
       width="75" />
 
   <string name="status_idle">Idle</string>
-  <string name="status_uploading">Uploading [NAME]</string>
-  <string name="status_creating">Creating object [NAME]</string>
+  <string name="status_uploading">업로드중 [NAME]</string>
+  <string name="status_creating">개체 생성중 [NAME]</string>
   
  </floater>

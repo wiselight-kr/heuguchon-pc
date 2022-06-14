@@ -7,8 +7,8 @@
  layout="topleft"
  follows="all"
  name="panel_profile_web"
- label="Web">
-    <panel.string name="LoadTime" value="Load Time: [TIME] seconds"/>
+ label="웹">
+    <panel.string name="LoadTime" value="로드 시간: [TIME] 초"/>
     <line_editor
      top_pad="5"
      left="10"
@@ -27,15 +27,15 @@
      layout="topleft"
      follows="left|top"
      name="load"
-     label="Load"
+     label="로드"
      enabled="false"
-     tool_tip="Load this profile page with embedded web browser." >
+     tool_tip="내장된 웹 브라우저와 함께 이 프로필 페이지 로드." >
         <flyout_button.item
-         label="Open in-viewer browser"
+         label="뷰어 내 브라우저 열기"
          value="popout"
          name="open_item" />
         <flyout_button.item
-         label="Open external browser"
+         label="외부 브라우저 열기"
          value="external"
          name="home_item" />
     </flyout_button>
@@ -57,15 +57,15 @@
      layout="topleft"
      follows="right|top"
      name="web_profile"
-     label="Profile"
+     label="프로필"
      enabled="false" >
         <flyout_button.item
-         label="Popout"
-         value="popout"
+         label="팝 아웃"
+         value="팝 아웃"
          name="builtin_item" />
         <flyout_button.item
-         label="Open external browser"
-         value="external"
+         label="오픈 외부 브라우저"
+         value="외부"
          name="open_item" />
     </flyout_button>
 

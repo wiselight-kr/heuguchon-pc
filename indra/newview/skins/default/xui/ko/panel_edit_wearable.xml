@@ -5,7 +5,7 @@
  follows="all"
  height="570"
  help_topic="fs_edit_body_part"
- label="Wearable"
+ label="의상"
  layout="topleft"
  left="0"
  name="panel_edit_wearable"
@@ -13,139 +13,139 @@
  width="333">
     <string
      name="edit_shape_title">
-        Editing Shape
+        모양 편집중
     </string>
     <string
      name="edit_skin_title">
-        Editing Skin
+        피부 편집중
     </string>
     <string
      name="edit_hair_title">
-        Editing Hair
+        머리카락 편집중
     </string>
     <string
      name="edit_eyes_title">
-        Editing Eyes
+        눈 편집중
     </string>
     <string
      name="edit_shirt_title">
-        Editing Shirt
+        셔츠 편집중
     </string>
     <string
      name="edit_pants_title">
-        Editing Pants
+        바지 편집중
     </string>
     <string
      name="edit_shoes_title">
-        Editing Shoes
+        신발 편집중
     </string>
     <string
      name="edit_socks_title">
-        Editing Socks
+        양말 편집중
     </string>
     <string
      name="edit_jacket_title">
-        Editing Jacket
+        겉옷 편집중
     </string>
     <string
      name="edit_skirt_title">
-        Editing Skirt
+        치마 편집중
     </string>
     <string
      name="edit_gloves_title">
-        Editing Gloves
+        장갑 편집중
     </string>
     <string
      name="edit_undershirt_title">
-        Editing Undershirt
+        속 셔츠 편집중
     </string>
     <string
      name="edit_underpants_title">
-        Editing Underpants
+        속옷 편집중
     </string>
     <string
      name="edit_alpha_title">
-        Editing Alpha Mask
+        알파 마스크 편집중
     </string>
     <string
      name="edit_tattoo_title">
-        Editing Tattoo
+        문신 편집중
     </string>
   <string
    name="edit_universal_title">
-    Editing Universal
+    유니버설 편집중
   </string>
     <string
      name="edit_physics_title">
-        Editing Physics
+        물리학 편집중
     </string>
     <string
      name="shape_desc_text">
-        Shape:
+        모양:
     </string>
     <string
      name="skin_desc_text">
-        Skin:
+        피부:
     </string>
     <string
      name="hair_desc_text">
-        Hair:
+        머리카락:
     </string>
     <string
      name="eyes_desc_text">
-        Eyes:
+        눈:
     </string>
     <string
      name="shirt_desc_text">
-        Shirt:
+        셔츠:
     </string>
     <string
      name="pants_desc_text">
-        Pants:
+        바지:
     </string>
     <string
      name="shoes_desc_text">
-        Shoes:
+        신발:
     </string>
     <string
     name="socks_desc_text">
-        Socks:
+        양말:
     </string>
     <string
      name="jacket_desc_text">
-        Jacket:
+        겉옷:
     </string>
     <string
      name="skirt_desc_text">
-        Skirt:
+        치마:
     </string>
     <string
     name="gloves_desc_text">
-        Gloves:
+        장갑:
     </string>
     <string
      name="undershirt_desc_text">
-        Undershirt:
+        속셔츠:
     </string>
     <string
      name="underpants_desc_text">
-        Underpants:
+        속옷:
     </string>
     <string
      name="alpha_desc_text">
-        Alpha Mask:
+        알파 마스크:
     </string>
     <string
      name="tattoo_desc_text">
-        Tattoo:
+        문신:
     </string>
   <string
      name="universal_desc_text">
-    Universal:
+    유니버설:
   </string>
     <string
      name="physics_desc_text">
-        Physics:
+        물리학:
     </string>
     <!-- Default width of the button should be to show it without label.
      Button will be extedned in code to show whole label when wearable is being changed.
@@ -157,7 +157,7 @@
      image_pressed="BackButton_Press"
      image_unselected="BackButton_Off"
      layout="topleft"
-     label="Save"
+     label="저장"
      left="11"
      name="back_btn"
      pad_left="24"
@@ -174,7 +174,7 @@
      name="edit_wearable_title"
      text_color="White"
      top="3"
-     value="Editing Shape"
+     value="모양 편집중"
      use_ellipses="true"
      width="274" />
     <panel
@@ -185,7 +185,7 @@
      border="false"
      follows="top|left|right"
      height="60"
-     label="Shirt"
+     label="셔츠"
      layout="topleft"
      left="10"
      name="wearable_type_panel"
@@ -200,7 +200,7 @@
          name="description_text"
          text_color="White"
          top="10"
-         value="Shape:"
+         value="모양:"
          width="150" />
         <radio_group
          control_name="AvatarSex"
@@ -218,7 +218,7 @@
              layout="topleft"
              left="0"
              name="sex_male"
-             tool_tip="Male"
+             tool_tip="남성"
              value="1"
              width="40" />
             <radio_item
@@ -228,7 +228,7 @@
              layout="topleft"
              left_pad="10"
              name="sex_female"
-             tool_tip="Female"
+             tool_tip="여성"
              value="0"
              width="40"/>
         </radio_group>
@@ -240,7 +240,7 @@
          layout="topleft"
          left="230"
          name="male_icon"
-         tool_tip="Male"
+         tool_tip="남성"
          top="7"
          width="16" />
         <icon
@@ -250,7 +250,7 @@
          layout="topleft"
          left="280"
          name="female_icon"
-         tool_tip="Female"
+         tool_tip="여성"
          top="7"
          width="16" />
         <line_editor
@@ -477,7 +477,7 @@
                 <button
                  follows="bottom|left|right"
                  height="23"
-                 label="Save As"
+                 label="다른 이름으로 저장"
                  layout="topleft"
                  left="1"
                  name="save_as_button"
@@ -496,7 +496,7 @@
                 <button
                  follows="bottom|left|right"
                  height="23"
-                 label="Undo Changes"
+                 label="변경 취소"
                  layout="topleft"
                  left="1"
                  name="revert_button"
@@ -515,7 +515,7 @@
                 <button
                  follows="bottom|left|right"
                  height="23"
-                 label="Import"
+                 label="불러오기"
                  layout="topleft"
                  left="1"
                  name="import_btn"

@@ -9,11 +9,11 @@
  name="preview lsl text"
  help_topic="preview_lsl_text"
  save_rect="true"
- title="Script: Rotation script"
+ title="스크립트: 회전 스크립트"
  width="508">
     <floater.string
      name="Title">
-        Script: [NAME]
+        스크립트: [NAME]
     </floater.string>
     <panel
      follows="left|top|right|bottom"
@@ -44,7 +44,7 @@
      name="desc txt"
      top="19"
      width="80">
-        Description:
+        묘사:
     </text>
     <line_editor
      border_style="line"

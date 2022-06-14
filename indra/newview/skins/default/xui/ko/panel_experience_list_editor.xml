@@ -11,23 +11,23 @@
   name="experince_list_editor">
   <panel.string
     name="loading">
-    loading...
+    로딩중...
   </panel.string>
    <panel.string
       name="panel_allowed">
-      Allowed Experiences:
+      허락된 경험:
    </panel.string>
    <panel.string
       name="panel_blocked">
-      Blocked Experiences:
+      차단된 경험:
    </panel.string>
    <panel.string
       name="panel_trusted">
-      Key Experiences:
+      키 경험:
    </panel.string>
   <panel.string
     name="no_results">
-    (empty)
+    (비어있음)
   </panel.string>
    <text
       layout="topleft"
@@ -36,7 +36,7 @@
       right="120"
       height="12"
       follows="left|top">
-      Experience List
+      경험 목록
    </text>
    <text
       layout="topleft"
@@ -57,7 +57,7 @@
     <name_list.columns
       user_resize="false"
       name="experience_name"
-      label="Name"/>
+      label="이름"/>
   </name_list>
   <button
     layout="topleft"
@@ -66,17 +66,17 @@
     left_pad="3"
     width="65"
     name="btn_add"
-    label="Add..."/>
+    label="추가..."/>
   <button
     layout="topleft"
     follows="top|right"
     width="64"
     name="btn_remove"
-    label="Remove"/>
+    label="제거"/>
   <button
     layout="topleft"
     follows="top|right"
     width="64"
     name="btn_profile"
-    label="Profile..."/>
+    label="프로필..."/>
 </panel>

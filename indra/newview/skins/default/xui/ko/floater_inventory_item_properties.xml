@@ -234,7 +234,7 @@
      width="88" />
     <check_box
      height="16"
-     label="환승"
+     label="이전"
      layout="topleft"
      left_delta="0"
      name="CheckOwnerTransfer"
@@ -319,7 +319,7 @@
      width="88" />
     <check_box
      height="16"
-     label="환승"
+     label="이전"
      layout="topleft"
      left_delta="0"
      name="CheckNextOwnerTransfer"

@@ -4,7 +4,7 @@
  left="0" bottom="0" visible="false"
  mouse_opaque="false">
     <menu_item_check
-        label="Sort by name"
+        label="이름으로 정렬"
         name="sort_by_name">
         <menu_item_check.on_click
         function="Marketplace.ViewSort.Action"
@@ -14,7 +14,7 @@
         parameter="sort_by_name" />
     </menu_item_check>
     <menu_item_check
-        label="Sort by most recent"
+        label="가장 최근 기준으로 정렬"
         name="sort_by_recent">
         <menu_item_check.on_click
         function="Marketplace.ViewSort.Action"
@@ -24,7 +24,7 @@
         parameter="sort_by_recent" />
     </menu_item_check>
     <menu_item_check
-        label="Sort by stock amount (low to high)"
+        label="재고수량별 정렬(낮음에서 높음)"
         name="sort_by_stock_amount">
         <menu_item_check.on_click
         function="Marketplace.ViewSort.Action"
@@ -36,7 +36,7 @@
     <menu_item_separator
     layout="topleft" />
     <menu_item_check
-        label="Show only listing folders"
+        label="목록 폴더만 표시"
         name="show_only_listing_folders">
         <menu_item_check.on_click
         function="Marketplace.ViewSort.Action"

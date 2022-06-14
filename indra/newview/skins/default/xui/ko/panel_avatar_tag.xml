@@ -35,7 +35,7 @@
          word_wrap="true"
          mouse_opaque="true"
          name="sender_tag_name">
-	      Angela Tester
+	      안젤라 테스터
     	</text>
 	<text
         font="SansSerifSmall"
@@ -61,6 +61,6 @@
      word_wrap="true"
      mouse_opaque="true"
      name="msg_text">
-     The quick brown fox jumps over the lazy dog.
+     빠른 갈색 여우는 게으른 개를 뛰어넘습니다.
     </text_editor>
 </panel>

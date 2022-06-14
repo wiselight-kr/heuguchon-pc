@@ -54,7 +54,7 @@
 	 layout="topleft"
 	 right="-1"
 	 name="chat_btn"
-	 tool_tip="Open Instant Message session"
+	 tool_tip="인스턴트 메시지 세션 열기"
 	 width="80" />
 	<button
 	 top_delta="25"

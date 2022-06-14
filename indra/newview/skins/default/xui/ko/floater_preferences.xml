@@ -69,7 +69,7 @@ https://accounts.secondlife.com/change_email/
          name="search_prefs_edit"
          right="-30"
          text_pad_left="6"
-         tool_tip="Type the search term you are interested in here. Results will be displayed for partial fulltext matches within the setting's name or comment."
+         tool_tip="관심 있는 검색어를 여기에 입력하십시오. 설정 이름 또는 설명에서 전체 텍스트의 부분 일치에 대한 결과가 표시됩니다."
          top="0">
          <search_editor.commit_callback
           function="UpdateFilter" />
@@ -89,7 +89,7 @@ https://accounts.secondlife.com/change_email/
           left_pad="2"
           top_delta="0"
           name="copy_search_slurl_btn"
-          tool_tip="Copy search query as SLURL"
+          tool_tip="검색 쿼리를 SLURL로 복사"
           width="28">
           <button.commit_callback
             function="Pref.CopySearchAsSLURL" />

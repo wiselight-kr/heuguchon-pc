@@ -3,7 +3,7 @@
  layout="topleft"
  name="COF Attachment">
     <menu_item_call
-     label="Touch"
+     label="터치"
      layout="topleft"
      name="touch_attach">
         <on_click
@@ -13,7 +13,7 @@
          parameter="touch" />
     </menu_item_call>
     <menu_item_call
-     label="Edit"
+     label="편집"
      layout="topleft"
      name="edit_item">
         <on_click
@@ -23,7 +23,7 @@
          parameter="edit" />
    </menu_item_call>
     <menu_item_call
-     label="Detach"
+     label="해제"
      layout="topleft"
      name="detach">
         <on_click

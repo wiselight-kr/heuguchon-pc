@@ -2,7 +2,7 @@
 <context_menu
 	name="Asset Blacklist Menu">
 	<menu_item_call
-		label="Remove"
+		label="제거"
 		name="remove">
 		<menu_item_call.on_click
 			function="Blacklist.Remove"

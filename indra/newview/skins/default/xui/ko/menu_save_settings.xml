@@ -7,7 +7,7 @@
         width="120">
     <menu_item_check
             name="save_settings" 
-            label="Save">
+            label="저장">
         <menu_item_check.on_check
                 function="FlyoutCombo.Button.Check"
                 userdata="save" />
@@ -17,7 +17,7 @@
     </menu_item_check>
     <menu_item_check 
             name="save_as_new_settings" 
-            label="Save As">
+            label="다른이름으로 저장">
         <menu_item_check.on_check
                 function="FlyoutCombo.Button.Check"
                 userdata="saveas" />
@@ -27,7 +27,7 @@
     </menu_item_check>
     <menu_item_check
             name="commit_changes"
-            label="Commit">
+            label="커밋">
         <menu_item_check.on_check
                 function="FlyoutCombo.Button.Check"
                 userdata="commit" />
@@ -37,7 +37,7 @@
     </menu_item_check>
     <menu_item_check
             name="apply_local"
-            label="Apply Only To Myself">
+            label="나에게만 적용">
         <menu_item_check.on_check
                 function="FlyoutCombo.Button.Check"
                 userdata="local" />
@@ -47,7 +47,7 @@
     </menu_item_check>
     <menu_item_check
             name="apply_parcel"
-            label="Apply To Parcel">
+            label="구획에 적용">
         <menu_item_check.on_check
                 function="FlyoutCombo.Button.Check"
                 userdata="parcel" />
@@ -57,7 +57,7 @@
     </menu_item_check>
     <menu_item_check
             name="apply_region"
-            label="Apply To Region">
+            label="지역에 적용">
         <menu_item_check.on_check
                 function="FlyoutCombo.Button.Check"
                 userdata="region" />

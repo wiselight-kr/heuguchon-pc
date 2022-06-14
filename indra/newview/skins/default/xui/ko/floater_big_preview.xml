@@ -10,7 +10,7 @@
   save_rect="true"
   single_instance="true"
   reuse_instance="true"
-  title="Preview"
+  title="미리보기"
   height="465"
   width="770">
   <panel

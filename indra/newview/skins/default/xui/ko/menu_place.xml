@@ -6,7 +6,7 @@
  name="place_overflow_menu"
  width="128">
     <menu_item_call
-     label="Copy SLurl"
+     label="SLurl 복사"
      layout="topleft"
      name="copy">
         <menu_item_call.on_click
@@ -14,7 +14,7 @@
          parameter="copy" />
     </menu_item_call>
      <menu_item_call
-     label="Make a Landmark"
+     label="랜드마크 생성"
      layout="topleft"
      name="landmark">
         <menu_item_call.on_click
@@ -22,7 +22,7 @@
          parameter="landmark" />
     </menu_item_call>
     <menu_item_call
-     label="Create Pick"
+     label="선택 생성"
      layout="topleft"
      name="pick">
         <menu_item_call.on_click

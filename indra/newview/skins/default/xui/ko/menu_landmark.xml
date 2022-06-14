@@ -6,7 +6,7 @@
  name="landmark_overflow_menu"
  width="128">
     <menu_item_call
-     label="Copy SLurl"
+     label="SLurl 복사"
      layout="topleft"
      name="copy">
         <menu_item_call.on_click
@@ -14,7 +14,7 @@
          parameter="copy" />
     </menu_item_call>
     <menu_item_call
-     label="Delete"
+     label="삭제"
      layout="topleft"
      name="delete">
         <menu_item_call.on_click
@@ -22,7 +22,7 @@
          parameter="delete" />
     </menu_item_call>
     <menu_item_call
-     label="Create Pick"
+     label="선택 생성"
      layout="topleft"
      name="pick">
         <menu_item_call.on_click
@@ -33,7 +33,7 @@
          parameter="can_create_pick" />
     </menu_item_call>
     <menu_item_call
-     label="Add to Favorites Bar"
+     label="즐겨찾기 모음에 추가"
      layout="topleft"
      name="add_to_favbar">
         <menu_item_call.on_click

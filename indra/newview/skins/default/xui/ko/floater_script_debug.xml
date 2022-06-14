@@ -7,7 +7,7 @@
  name="script debug floater"
  help_topic="script_debug_floater"
  save_rect="true"
- title="Script Warning/Error/Debug"
+ title="스크립트 경고/오류/디버그"
  reuse_instance="true"
  width="450">
     <tab_container

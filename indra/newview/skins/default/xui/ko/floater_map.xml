@@ -20,14 +20,14 @@
     <!-- RLVa shows the anonymized name on the regular tooltip when @shownames=n restricted (rather than show the avatar inspector) --> 
     <floater.string
      name="ToolTipMsg">
-        [AGENT][REGION](Double-click to open Map, shift-drag to pan)
+        [AGENT][REGION](두 번 클릭하여 지도를 열고 이동-끌어 이동)
     </floater.string>
 	<floater.string
      name="AltToolTipMsg">
-		[REGION](Double-click to teleport, shift-drag to pan)
+		[REGION](두 번 클릭하여 순간이동, 이동-끌어서 이동)
 	</floater.string>
 	<floater.string name="mini_map_caption">
-	Mini-map
+	미니맵
     </floater.string>
     <net_map
      bg_color="Transparent"
@@ -43,7 +43,7 @@
      type="string"
      length="1"
      bottom="218"
-     label="N"
+     label="북"
      layout="topleft"
      left="0"
      name="floater_map_north"
@@ -51,13 +51,13 @@
      text_color="1 1 1 0.7"
      top="209"
      valign="center">
-        N
+        북
     </text>
     <text
      type="string"
      length="1"
      bottom="218"
-     label="E"
+     label="동"
      layout="topleft"
      left="0"
      name="floater_map_east"
@@ -65,13 +65,13 @@
      text_color="1 1 1 0.7"
      top="209"
      valign="center">
-        E
+        동
     </text>
     <text
      type="string"
      length="1"
      bottom="218"
-     label="W"
+     label="서"
      layout="topleft"
      left="0"
      name="floater_map_west"
@@ -79,13 +79,13 @@
      text_color="1 1 1 0.7"
      top="209"
      valign="center">
-        W
+        서
     </text>
     <text
      type="string"
      length="1"
      bottom="218"
-     label="S"
+     label="남"
      layout="topleft"
      left="0"
      name="floater_map_south"
@@ -93,13 +93,13 @@
      text_color="1 1 1 0.7"
      top="209"
      valign="center">
-        S
+        남
     </text>
     <text
      type="string"
      length="1"
      bottom="218"
-     label="SE"
+     label="남동"
      layout="topleft"
      left="0"
      name="floater_map_southeast"
@@ -107,13 +107,13 @@
      text_color="1 1 1 0.7"
      top="209"
      valign="center">
-        SE
+        남동
     </text>
     <text
      type="string"
      length="1"
      bottom="218"
-     label="NE"
+     label="북동"
      layout="topleft"
      left="0"
      name="floater_map_northeast"
@@ -121,13 +121,13 @@
      text_color="1 1 1 0.7"
      top="209"
      valign="center">
-        NE
+        북동
     </text>
     <text
      type="string"
      length="1"
      bottom="218"
-     label="SW"
+     label="남서"
      layout="topleft"
      left="0"
      name="floater_map_southwest"
@@ -135,13 +135,13 @@
      text_color="1 1 1 0.7"
      top="209"
      valign="center">
-        SW
+        남서
     </text>
     <text
      type="string"
      length="1"
      bottom="218"
-     label="NW"
+     label="북서"
      layout="topleft"
      left="0"
      name="floater_map_northwest"
@@ -149,6 +149,6 @@
      text_color="1 1 1 0.7"
      top="209"
      valign="center">
-        NW
+        북서
     </text>
 </floater>

@@ -9,7 +9,7 @@
  color="MenuDefaultBgColor"
  drop_shadow="true" >
     <menu_item_call
-     label="Expand all folders"
+     label="모든 폴더 확장"
      name="Expand all folders">
         <menu_item_call.on_click
          function="TeleportHistory.GearMenu.Action"
@@ -19,7 +19,7 @@
          parameter="expand_all" />
     </menu_item_call>
     <menu_item_call
-     label="Collapse all folders"
+     label="모든 폴더 축소"
      name="Collapse all folders">
         <menu_item_call.on_click
          function="TeleportHistory.GearMenu.Action"
@@ -29,7 +29,7 @@
          parameter="collapse_all" />
     </menu_item_call>
   <!-- FS:Beq [timezone support for teleport history] -->
-  <menu name="TPHistoryTimeZone" label="Select Timezone...">
+  <menu name="TPHistoryTimeZone" label="표준 시간대 선택...">
     <menu_item_check
     name="teleport_history_tz_utc"
     label="UTC">
@@ -52,7 +52,7 @@
     </menu_item_check>
     <menu_item_check
         name="teleport_history_tz_local"
-        label="Local">
+        label="로컬">
       <on_click
         function="TeleportHistory.TimeZone.Set"
         parameter="local" />
@@ -65,7 +65,7 @@
     <menu name="Show Menu" label="Show...">
         <menu_item_check
          name="Show Position"
-         label="Position">
+         label="위치">
             <on_click
              function="ToggleControl"
              parameter="FSTeleportHistoryShowPosition" />
@@ -75,7 +75,7 @@
         </menu_item_check>
         <menu_item_check
          name="Show Date"
-         label="Date">
+         label="날짜">
             <on_click
              function="ToggleControl"
              parameter="FSTeleportHistoryShowDate" />
@@ -86,7 +86,7 @@
     </menu>
     <menu_item_separator layout="topleft" />
     <menu_item_call
-     label="Clear Teleport History"
+     label="순간이동 기록 지우기"
      name="Clear Teleport History">
         <menu_item_call.on_click
          function="TeleportHistory.GearMenu.Action"

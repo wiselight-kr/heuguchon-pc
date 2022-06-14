@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <mimetypes name="default">
 	<defaultlabel>
-		(Unknown)
+		(없음)
 	</defaultlabel>
 	<defaultwidget>
-		none
+		없음
 	</defaultwidget>
 	<defaultimpl>
 		media_plugin_cef
 	</defaultimpl>
 	<widgetset name="web">
 		<label name="web_label">
-			Web Content
+			웹 콘텐츠
 		</label>
 		<icon>
 			icn_media_web.tga
 		</icon>
 		<default_type>
-			text/html
+			텍스트/html
 		</default_type>
 		<tooltip name="web_tooltip">
-			This location has Web content
+			이 위치에 웹 콘텐츠가 있습니다.
 		</tooltip>
 		<playtip name="web_playtip">
-			Show Web content
+			웹 콘텐츠 표시
 		</playtip>
 		<allow_resize>
-			true
+			참
 		</allow_resize>
 		<allow_looping>
-			false
+			거짓
 		</allow_looping>
 	</widgetset>
 	<widgetset name="movie">
 		<label name="movie_label">
-			Movie
+			영화
 		</label>
 		<default_type>
-			video/*
+			비디오/*
 		</default_type>
 		<icon>
 			icn_media_movie.tga
 		</icon>
 		<tooltip name="movie_tooltip">
-			There is a movie to play here
+			여기서 상영할 영화가 있다.
 		</tooltip>
 		<playtip name="movie_playtip">
-			Play movie
+			영화 재생
 		</playtip>
 		<allow_resize>
-			false
+			거짓
 		</allow_resize>
 		<allow_looping>
-			true
+			참
 		</allow_looping>
 	</widgetset>
 	<widgetset name="image">
 		<label name="image_label">
-			Image
+			이미지
 		</label>
 		<icon>
 			icn_media_web.tga
 		</icon>
 		<default_type>
-			image/*
+			이미지/*
 		</default_type>
 		<tooltip name="image_tooltip">
-			There is an image at this location
+			이 위치에 이미지가 있습니다.
 		</tooltip>
 		<playtip name="image_playtip">
-			View this location&apos;s image
+			이 위치 및 이미지 보기
 		</playtip>
 		<allow_resize>
-			false
+			거짓
 		</allow_resize>
 		<allow_looping>
-			false
+			거짓
 		</allow_looping>
 	</widgetset>
 	<widgetset name="audio">
 		<label name="audio_label">
-			Audio
+			오디오
 		</label>
 		<icon>
 			icn_media_web.tga
 		</icon>
 		<default_type>
-			audio/*
+			오디오/*
 		</default_type>
 		<tooltip name="audio_tooltip">
-			There is audio at this location
+			이 위치에 오디오가 있습니다.
 		</tooltip>
 		<playtip name="audio_playtip">
-			Play this location&apos;s audio
+			이 위치 및 오디오 재생
 		</playtip>
 		<allow_resize>
-			false
+			거짓
 		</allow_resize>
 		<allow_looping>
-			true
+			참
 		</allow_looping>
 	</widgetset>
 	<widgetset name="none">
 		<label name="none_label">
-			No Content
+			콘텐츠 없음
 		</label>
 		<default_type>
-			none/none
+			없음/없음
 		</default_type>
 		<icon>
 			icn_media_web.tga
 		</icon>
 		<tooltip name="none_tooltip">
-			No media here
+			여기에 미디어가 없음
 		</tooltip>
 		<playtip name="none_playtip" />
 		<allow_resize>
-			false
+			거짓
 		</allow_resize>
 		<allow_looping>
-			false
+			거짓
 		</allow_looping>
 	</widgetset>
 	<scheme name="rtsp">
 		<label name="rtsp_label">
-			Real Time Streaming
+			실시간 스트리밍
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -135,10 +135,10 @@
 	</scheme>
 	<mimetype name="blank">
 		<label name="blank_label">
-			- None -
+			- 없음 -
 		</label>
 		<widgettype>
-			none
+			없음
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -146,10 +146,10 @@
 	</mimetype>
 	<mimetype name="none/none">
 		<label name="none/none_label">
-			- None -
+			- 없음 -
 		</label>
 		<widgettype>
-			none
+			없음
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -157,10 +157,10 @@
 	</mimetype>
 	<mimetype name="audio/*">
 		<label name="audio2_label">
-			Audio
+			오디오
 		</label>
 		<widgettype>
-			audio
+			오디오
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -168,10 +168,10 @@
 	</mimetype>
 	<mimetype name="video/*">
 		<label name="video2_label">
-			Video
+			비디오
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -179,10 +179,10 @@
 	</mimetype>
 	<mimetype name="image/*">
 		<label name="image2_label">
-			Image
+			이미지
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
         <impl>
 			media_plugin_cef
@@ -190,10 +190,10 @@
 	</mimetype>
 	<mimetype menu="1" name="video/vnd.secondlife.qt.legacy">
 		<label name="vnd.secondlife.qt.legacy_label">
-			Movie (QuickTime)
+			영화 (QuickTime)
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -201,10 +201,10 @@
 	</mimetype>
 	<mimetype name="application/javascript">
 		<label name="application/javascript_label">
-			Javascript
+			자바스크립트
 		</label>
 		<widgettype>
-			web
+			웹
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -212,10 +212,10 @@
 	</mimetype>
 	<mimetype name="application/ogg">
 		<label name="application/ogg_label">
-			Ogg Audio/Video
+			Ogg 오디오/영상
 		</label>
 		<widgettype>
-			audio
+			오디오
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -223,10 +223,10 @@
 	</mimetype>
 	<mimetype name="application/pdf">
 		<label name="application/pdf_label">
-			PDF Document
+			PDF 문서
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -234,10 +234,10 @@
 	</mimetype>
 	<mimetype name="application/postscript">
 		<label name="application/postscript_label">
-			Postscript Document
+			포스트스크립트 문서
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -248,7 +248,7 @@
 			Rich Text (RTF)
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -256,10 +256,10 @@
 	</mimetype>
 	<mimetype name="application/smil">
 		<label name="application/smil_label">
-			Synchronized Multimedia Integration Language (SMIL)
+			동기화된 멀티미디어 통합 언어 (SMIL)
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -267,10 +267,10 @@
 	</mimetype>
 	<mimetype name="application/xhtml+xml">
 		<label name="application/xhtml+xml_label">
-			Web Page (XHTML)
+			웹 페이지 (XHTML)
 		</label>
 		<widgettype>
-			web
+			웹
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -278,10 +278,10 @@
 	</mimetype>
 	<mimetype name="application/x-director">
 		<label name="application/x-director_label">
-			Macromedia Director
+			매크로미디어 디렉터
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -289,10 +289,10 @@
 	</mimetype>
 	<mimetype name="audio/mid">
 		<label name="audio/mid_label">
-			Audio (MIDI)
+			오디오 (MIDI)
 		</label>
 		<widgettype>
-			audio
+			오디오
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -300,10 +300,10 @@
 	</mimetype>
 	<mimetype name="audio/mpeg">
 		<label name="audio/mpeg_label">
-			Audio (MP3)
+			오디오 (MP3)
 		</label>
 		<widgettype>
-			audio
+			오디오
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -311,10 +311,10 @@
 	</mimetype>
 	<mimetype name="audio/x-aiff">
 		<label name="audio/x-aiff_label">
-			Audio (AIFF)
+			오디오 (AIFF)
 		</label>
 		<widgettype>
-			audio
+			오디오
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -322,10 +322,10 @@
 	</mimetype>
 	<mimetype name="audio/x-wav">
 		<label name="audio/x-wav_label">
-			Audio (WAV)
+			오디오 (WAV)
 		</label>
 		<widgettype>
-			audio
+			오디오
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -333,10 +333,10 @@
 	</mimetype>
 	<mimetype menu="1" name="image/bmp">
 		<label name="image/bmp_label">
-			Image (BMP)
+			이미지 (BMP)
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -344,10 +344,10 @@
 	</mimetype>
 	<mimetype menu="1" name="image/gif">
 		<label name="image/gif_label">
-			Image (GIF)
+			이미지 (GIF)
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -355,10 +355,10 @@
 	</mimetype>
 	<mimetype menu="1" name="image/jpeg">
 		<label name="image/jpeg_label">
-			Image (JPEG)
+			이미지 (JPEG)
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -366,10 +366,10 @@
 	</mimetype>
 	<mimetype menu="1" name="image/png">
 		<label name="image/png_label">
-			Image (PNG)
+			이미지 (PNG)
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -377,10 +377,10 @@
 	</mimetype>
 	<mimetype name="image/svg+xml">
 		<label name="image/svg+xml_label">
-			Image (SVG)
+			이미지 (SVG)
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -388,10 +388,10 @@
 	</mimetype>
 	<mimetype menu="1" name="image/tiff">
 		<label name="image/tiff_label">
-			Image (TIFF)
+			이미지 (TIFF)
 		</label>
 		<widgettype>
-			image
+			이미지
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -399,10 +399,10 @@
 	</mimetype>
 	<mimetype menu="1" name="text/html">
 		<label name="text/html_label">
-			Web Page
+			웹 페이지
 		</label>
 		<widgettype>
-			web
+			웹
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -410,10 +410,10 @@
 	</mimetype>
 	<mimetype menu="1" name="text/plain">
 		<label name="text/plain_label">
-			Text
+			텍스트
 		</label>
 		<widgettype>
-			text
+			텍스트
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -424,7 +424,7 @@
 			XML
 		</label>
 		<widgettype>
-			text
+			텍스트
 		</widgettype>
 		<impl>
 			media_plugin_cef
@@ -432,10 +432,10 @@
 	</mimetype>
 	<mimetype menu="1" name="video/mpeg">
 		<label name="video/mpeg_label">
-			Movie (MPEG)
+			영화 (MPEG)
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -443,10 +443,10 @@
 	</mimetype>
 	<mimetype name="video/mp4">
 		<label name="video/mp4_label">
-			Movie (MP4)
+			영화 (MP4)
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -454,10 +454,10 @@
 	</mimetype>
 	<mimetype menu="1" name="video/quicktime">
 		<label name="video/quicktime_label">
-			Movie (QuickTime)
+			영화 (QuickTime)
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -465,10 +465,10 @@
 	</mimetype>
 	<mimetype name="video/x-ms-asf">
 		<label name="video/x-ms-asf_label">
-			Movie (Windows Media ASF)
+			영화 (Windows Media ASF)
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -476,10 +476,10 @@
 	</mimetype>
 	<mimetype name="video/x-ms-wmv">
 		<label name="video/x-ms-wmv_label">
-			Movie (Windows Media WMV)
+			영화 (Windows Media WMV)
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc
@@ -487,10 +487,10 @@
 	</mimetype>
 	<mimetype menu="1" name="video/x-msvideo">
 		<label name="video/x-msvideo_label">
-			Movie (AVI)
+			영화 (AVI)
 		</label>
 		<widgettype>
-			movie
+			영화
 		</widgettype>
 		<impl>
 			media_plugin_libvlc

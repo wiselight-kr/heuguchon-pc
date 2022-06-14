@@ -12,7 +12,7 @@
      control_name="ShowStartLocation"
      height="15"
      initial_value="true"
-     label="Oh look it's a checkbox!"
+     label="보십시오! 체크박스 입니다!!"
      layout="topleft"
      left="10"
      name="show_location_checkbox"
@@ -20,7 +20,7 @@
      width="256" />
     <check_box
      height="15"
-     label="Minimal Checkbox"
+     label="최소 체크박스"
      layout="topleft"
      left_delta="0"
      name="minimal_checkbox"
@@ -29,7 +29,7 @@
     <check_box
      enabled="false"
      height="15"
-     label="Disabled Checkbox"
+     label="사용 불가능한 체크박스"
      layout="topleft"
      left_delta="0"
      name="disabled_checkbox"
@@ -37,7 +37,7 @@
      width="150" />
     <check_box
      height="15"
-     label="Text Enabled Color"
+     label="텍스트 사용 색상"
      layout="topleft"
      left_delta="0"
      name="text_enabled_color_checkbox"
@@ -47,7 +47,7 @@
     <check_box
      enabled="false"
      height="15"
-     label="Text Disabled Color"
+     label="텍스트 사용 불가 색상"
      layout="topleft"
      left_delta="0"
      name="text_disabled_color_checkbox"
@@ -57,7 +57,7 @@
     <check_box
      height="15"
      initial_value="true"
-     label="Initial Value Checked"
+     label="초기값 체크"
      layout="topleft"
      left_delta="0"
      name="initial_value_checkbox"
@@ -66,7 +66,7 @@
     <check_box
      font="Monospace"
      height="15"
-     label="Font Monospace"
+     label="글꼴 모노스페이스"
      layout="topleft"
      left_delta="0"
      name="font_checkbox"

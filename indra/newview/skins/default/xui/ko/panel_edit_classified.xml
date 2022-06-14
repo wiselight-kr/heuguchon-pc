@@ -6,7 +6,7 @@
  bevel_style="in"
  follows="left|top|right|bottom"
  height="595"
- label="Edit Classified"
+ label="분류 편집"
  layout="topleft"
  left="0"
  min_height="350"
@@ -16,13 +16,13 @@
  width="333">
  <panel.string
   name="location_notice">
-    (will update after save)
+    (저장 후 업데이트됨)
  </panel.string>
  <string name="publish_label">
-  Publish
+  출판
  </string>
  <string name="save_label">
-  Save
+  저장
  </string>
   <button
      follows="top|left"
@@ -49,7 +49,7 @@
      text_color="LtGray"
      top="0"
      width="250">
-        Edit Classified
+        분류 편집
     </text>
    <scroll_container
     color="SL-Background"
@@ -95,7 +95,7 @@
            layout="topleft"
            name="edit_icon"
            label=""
-           tool_tip="Click to select an image"
+           tool_tip="이미지를 선택하려면 클릭하십시오."
            top="0"
            left="0"
            width="272" />
@@ -113,7 +113,7 @@
          name="Name:"
          text_color="white"
          width="280">
-            Title:
+            제목:
         </text>
         <line_editor
          follows="left|top|right"
@@ -140,7 +140,7 @@
          name="description_label"
          text_color="white"
          width="280">
-            Description:
+            묘사:
         </text>
         <text_editor
          follows="left|top|right"
@@ -166,7 +166,7 @@
          text_color="white"
          top_pad="20"
          width="280">
-            Location:
+            위치:
         </text>
         <text
          type="string"
@@ -180,12 +180,12 @@
          top_pad="2"
          width="280"
          word_wrap="true">
-            loading...
+            로딩중...
         </text>
         <button
          follows="left|top"
          height="23"
-         label="Set to Current Location"
+         label="현재 위치로 설정"
          layout="topleft"
          left="10"
          top_pad="5"
@@ -200,7 +200,7 @@
          name="category_label"
          text_color="white"
          top_pad="15"
-         value="Category:"
+         value="카테고리:"
          width="250" />
         <combo_box
          follows="left|top" 
@@ -224,7 +224,7 @@
         <icons_combo_box
          follows="left|top"
          height="23"
-         label="General Content"
+         label="일반 콘텐츠(내용)"
          layout="topleft"
          left="10"
          name="content_type"
@@ -236,9 +236,9 @@
              imgoverlay_label_space="3"
              pad_left="3"/>
             <icons_combo_box.item
-             label="Moderate Content"
+             label="중간 내용"
              name="mature_ci"
-             value="Mature">
+             value="성숙">
                 <item.columns
                  halign="center"
                  type="icon"
@@ -246,7 +246,7 @@
                  width="20"/>
             </icons_combo_box.item>
             <icons_combo_box.item
-             label="General Content"
+             label="일반 콘텐츠(내용)"
              name="pg_ci"
              value="PG">
                 <item.columns
@@ -258,7 +258,7 @@
         </icons_combo_box>
         <check_box
          height="16"
-         label="Auto renew each week"
+         label="매주 자동 갱신"
          layout="topleft"
          left="10"
          name="auto_renew"
@@ -272,7 +272,7 @@
          name="price_for_listing_label"
          text_color="white"
          top_pad="15"
-         value="Price for listing:"
+         value="목록 가격:"
          width="250" />
         <spinner
          decimal_digits="0"
@@ -290,14 +290,14 @@
          max_val="99999"
          name="price_for_listing"
          top_pad="5"
-         tool_tip="Price for listing."
+         tool_tip="목록 가격."
          width="105" />
      </panel>
     </scroll_container>
     <panel
      follows="left|right|bottom"
      height="23"
-     label="bottom_panel"
+     label="하위 패널"
      layout="topleft"
      left="8"
      name="bottom_panel"
@@ -344,7 +344,7 @@
 			  <button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Cancel"
+		         label="취소"
 		         layout="topleft"
 		         name="cancel_btn"
 		         left="1"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <toggleable_menu name="menu_wearable_favorites">
 	<menu_item_check
-	 label="Sort by name..."
+	 label="이름으로 정렬..."
 	 name="sort_by_name">
 		<on_click
 		 function="FavWearables.Action"
@@ -11,7 +11,7 @@
 		 parameter="sort_by_name"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Sort by most recent..."
+	 label="가장 최근 기준으로 정렬..."
 	 name="sort_by_most_recent">
 		<on_click
 		 function="FavWearables.Action"
@@ -21,7 +21,7 @@
 		 parameter="sort_by_most_recent"/>
 	</menu_item_check>
 	<menu_item_check
-	 label="Sort by type name..."
+	 label="유형 이름별로 정렬..."
 	 name="sort_by_type_name">
 		<on_click
 		 function="FavWearables.Action"

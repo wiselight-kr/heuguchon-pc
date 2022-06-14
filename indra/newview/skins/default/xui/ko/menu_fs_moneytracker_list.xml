@@ -3,7 +3,7 @@
 	name="Money Tracker List Context Menu">
 	<menu_item_call
 		enabled="false"
-		label="Copy as CSV"
+		label="CSV로 복사"
 		name="Copy">
 		<on_click
 			function="MoneyTrackerList.Action"
@@ -14,7 +14,7 @@
 	</menu_item_call>
 	<menu_item_call
 		enabled="false"
-		label="Delete"
+		label="삭제"
 		name="Delete">
 		<on_click
 			function="MoneyTrackerList.Action"

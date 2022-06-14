@@ -17,7 +17,7 @@
      width="219">
         <radio_item
          height="16"
-         label="Use the Estate spatial channel"
+         label="에스테이트 공간 채널 사용"
          layout="topleft"
          left="3"
          name="Estate"
@@ -25,7 +25,7 @@
          width="463" />
         <radio_item
          height="16"
-         label="Use a private spatial channel"
+         label="전용 공간 채널 사용"
          layout="topleft"
          left_delta="0"
          name="Private"
@@ -33,7 +33,7 @@
          width="463" />
         <radio_item
          height="16"
-         label="Disable spatial audio on this parcel"
+         label="이 구획에서 공간 오디오 사용 안 함"
          layout="topleft"
          left_delta="0"
          name="Disabled"
@@ -50,13 +50,13 @@
         <radio_item
          bottom="20"
          height="16"
-         label="Label in label attribute"
+         label="레이블 속성의 레이블"
          layout="topleft"
          name="label_radio_item" />
         <radio_item
          bottom_delta="20"
          height="16"
-         label="Label in text contents"
+         label="텍스트 내용의 레이블"
          layout="topleft"
          name="contents_radio_item" />
     </radio_group>
@@ -71,13 +71,13 @@
         <radio_item
          bottom="20"
          height="16"
-         label="No Border Foo"
+         label="경계선 없음 1"
          layout="topleft"
          name="foo_radio_item" />
         <radio_item
          bottom_delta="20"
          height="16"
-         label="No Border Bar"
+         label="경계선 없음 2"
          layout="topleft"
          name="bar_item" />
     </radio_group>

@@ -3,7 +3,7 @@
  layout="topleft"
  name="Self Pie">
     <menu_item_call
-     label="Sit Down"
+     label="앉기"
      layout="topleft"
      name="Sit Down Here">
         <menu_item_call.on_click
@@ -13,7 +13,7 @@
          function="Self.EnableSitDown" />
     </menu_item_call>
     <menu_item_call
-     label="Stand Up"
+     label="일어서기"
      layout="topleft"
      name="Stand Up">
         <menu_item_call.on_click
@@ -23,16 +23,16 @@
          function="Self.EnableStandUp" />
     </menu_item_call>
     <context_menu
-     label="Take Off"
+     label="벗기"
      layout="topleft"
      name="Take Off &gt;">
         <context_menu
-         label="Clothes"
+         label="의류"
          layout="topleft"
          name="Clothes &gt;">
             <menu_item_call
              enabled="false"
-             label="Shirt"
+             label="셔츠"
              layout="topleft"
              name="Shirt">
                 <menu_item_call.on_click
@@ -44,7 +44,7 @@
             </menu_item_call>
             <menu_item_call
              enabled="false"
-             label="Pants"
+             label="바지"
              layout="topleft"
              name="Pants">
                 <menu_item_call.on_click
@@ -56,7 +56,7 @@
             </menu_item_call>
             <menu_item_call
              enabled="false"
-             label="Skirt"
+             label="치마"
              layout="topleft"
              name="Skirt">
                 <menu_item_call.on_click
@@ -68,7 +68,7 @@
             </menu_item_call>
             <menu_item_call
              enabled="false"
-             label="Shoes"
+             label="신발"
              layout="topleft"
              name="Shoes">
                 <menu_item_call.on_click
@@ -80,7 +80,7 @@
             </menu_item_call>
             <menu_item_call
              enabled="false"
-             label="Socks"
+             label="양말"
              layout="topleft"
              name="Socks">
                 <menu_item_call.on_click
@@ -92,7 +92,7 @@
             </menu_item_call>
             <menu_item_call
              enabled="false"
-             label="Jacket"
+             label="자켓"
              layout="topleft"
              name="Jacket">
                 <menu_item_call.on_click
@@ -104,7 +104,7 @@
             </menu_item_call>
             <menu_item_call
              enabled="false"
-             label="Gloves"
+             label="장갑"
              layout="topleft"
              name="Gloves">
                 <menu_item_call.on_click
@@ -116,7 +116,7 @@
             </menu_item_call>
            <menu_item_call
                  enabled="false"
-                 label="Undershirt"
+                 label="속셔츠"
                  layout="topleft"
                  name="Self Undershirt">
                     <menu_item_call.on_click
@@ -128,7 +128,7 @@
                 </menu_item_call>
                <menu_item_call
                  enabled="false"
-                 label="Underpants"
+                 label="속옷"
                  layout="topleft"
                  name="Self Underpants">
                     <menu_item_call.on_click
@@ -140,7 +140,7 @@
                 </menu_item_call>
                <menu_item_call
                  enabled="false"
-                 label="Tattoo"
+                 label="문신"
                  layout="topleft"
                  name="Self Tattoo">
                     <menu_item_call.on_click
@@ -152,7 +152,7 @@
                 </menu_item_call>
                <menu_item_call
                  enabled="false"
-                 label="Physics"
+                 label="물리학"
                  layout="topleft"
                  name="Self Physics">
                     <menu_item_call.on_click
@@ -164,7 +164,7 @@
                 </menu_item_call>
                <menu_item_call
                  enabled="false"
-                 label="Alpha"
+                 label="알파"
                  layout="topleft"
                  name="Self Alpha">
                     <menu_item_call.on_click
@@ -177,7 +177,7 @@
                 <menu_item_separator
                  layout="topleft" />
                 <menu_item_call
-                 label="All Clothes"
+                 label="모든 의류"
                  layout="topleft"
                  name="All Clothes">
                     <menu_item_call.on_click
@@ -190,11 +190,11 @@
          layout="topleft"
          name="Object Detach HUD" />
         <context_menu
-         label="Detach"
+         label="해제"
          layout="topleft"
          name="Object Detach" />
         <menu_item_call
-         label="Detach All"
+         label="모두 해제"
          layout="topleft"
          name="Detach All">
             <menu_item_call.on_click
@@ -205,7 +205,7 @@
         </menu_item_call>
     </context_menu>
     <menu_item_call
-     label="Now wearing..."
+     label="지금 입는중..."
      layout="topleft"
      name="NowWearing">
         <menu_item_call.on_click
@@ -214,7 +214,7 @@
          function="Edit.EnableCustomizeAvatar" />
     </menu_item_call>
      <menu_item_call
-     label="Outfits"
+     label="의상"
      layout="topleft"
      name="Chenge Outfit">
         <menu_item_call.on_click
@@ -222,7 +222,7 @@
         <menu_item_call.on_enable
          function="Edit.EnableCustomizeAvatar" />
     </menu_item_call>
-    <menu_item_call label="Edit Shape" 
+    <menu_item_call label="모양 편집" 
     layout="topleft"
     name="Edit My Shape">
        <menu_item_call.on_click
@@ -230,7 +230,7 @@
        <menu_item_call.on_enable
         function="Edit.EnableEditShape" />
    </menu_item_call>
-    <menu_item_call label="Edit Outfit" 
+    <menu_item_call label="의상 편집" 
     layout="topleft"
     name="Edit Outfit Parts">
        <menu_item_call.on_click
@@ -238,7 +238,7 @@
        <menu_item_call.on_enable
         function="Edit.EnableCustomizeAvatar" />
    </menu_item_call>
-   <menu_item_call label="Hover Height"
+   <menu_item_call label="호버 높이"
      layout="topleft"
      name="Hover Height">
      <menu_item_call.on_click
@@ -246,26 +246,26 @@
      <menu_item_call.on_enable
       function="Edit.EnableHoverHeight" />
    </menu_item_call>
-   <menu_item_call label="Reset Skeleton"
+   <menu_item_call label="뼈대 초기화"
      layout="topleft"
      name="Reset Skeleton">
      <menu_item_call.on_click
       function="Avatar.ResetSkeleton" />
    </menu_item_call>
-  <menu_item_call label="Reset Skeleton And Animations"
+  <menu_item_call label="뼈대와 애니메이션 초기화"
        layout="topleft"
        name="Reset Skeleton And Animations">
        <menu_item_call.on_click
         function="Avatar.ResetSkeletonAndAnimations" />
   </menu_item_call>
-   <menu_item_call label="Reset Mesh LOD"
+   <menu_item_call label="메쉬 LOD 재설정"
        layout="topleft"
        name="Reset Mesh LOD">
        <menu_item_call.on_click
         function="Avatar.ResetMeshLOD" />
    </menu_item_call>
    <menu_item_call
-     label="Friends"
+     label="친구"
      layout="topleft"
      name="Friends...">
         <menu_item_call.on_click
@@ -273,7 +273,7 @@
          parameter="friends_panel" />
     </menu_item_call>
     <menu_item_call
-     label="Groups"
+     label="그룹"
      layout="topleft"
      name="Groups...">
         <menu_item_call.on_click
@@ -281,7 +281,7 @@
          parameter="groups_panel" />
     </menu_item_call>
    <menu_item_call
-     label="Profile"
+     label="프로필"
      layout="topleft"
      name="Profile...">
         <menu_item_call.on_click
@@ -290,7 +290,7 @@
     </menu_item_call>
     <menu_item_call 
       enabled="true"
-      label="Script Info"
+      label="스크립트 정보"
       name="ScriptInfo">
       <menu_item_call.on_click
        function="Tools.ScriptInfo" />
@@ -298,20 +298,20 @@
        function="EnableBridgeFunction" />
     </menu_item_call>
     <menu_item_call
-		 label="Show Textures"
+		 label="텍스쳐 표시"
          name="Debug...">
             <menu_item_call.on_click
              function="Avatar.Debug" />
     </menu_item_call>
 	<menu_item_call 
       enabled="true"
-      label="Texture Refresh"
+      label="텍스쳐 새로고침"
       name="Texture Refresh">
       <menu_item_call.on_click
        function="Avatar.TexRefresh" />
     </menu_item_call>
     <menu_item_call
-		 label="Dump XML"
+		 label="덤프 XML"
          name="Dump XML">
             <menu_item_call.on_click
              function="Advanced.AppearanceToXML" />
@@ -322,7 +322,7 @@
        layout="topleft" />
   <menu_item_call
      enabled="false"
-     label="Block Particle Owner"
+     label="블록 입자 소유자"
      name="Mute Particle">
     <menu_item_call.on_click
      function="Particle.Mute" />

@@ -37,7 +37,7 @@
      name="preset_name"
      text_color="White"
      top="2"
-     value="Default"
+     value="기본값"
      width="159" />
     <button
      follows="right"
@@ -49,7 +49,7 @@
      left_pad="5"
      right="-10"
      name="delete_btn"
-     tool_tip="Delete preset"
+     tool_tip="사전 설정 삭제"
      top="3"
      height="18"
      width="18" >
@@ -66,7 +66,7 @@
    left_pad="5"
    right="-10"
    name="reset_btn"
-   tool_tip="Reset preset to default"
+   tool_tip="사전 설정을 기본값으로 재설정"
    top="2"
    height="20"
    width="20" >

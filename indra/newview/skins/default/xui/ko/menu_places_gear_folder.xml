@@ -7,7 +7,7 @@
  name="menu_folder_gear"
  visible="false">
     <menu_item_call
-     label="Landmark current location"
+     label="랜드마크 현재 위치"
      layout="topleft"
      name="add_landmark">
         <on_click
@@ -18,7 +18,7 @@
          parameter="add_landmark" />
     </menu_item_call>
     <menu_item_call
-     label="Create subfolder"
+     label="하위 폴더 생성"
      layout="topleft"
      name="add_folder">
         <on_click
@@ -32,7 +32,7 @@
          parameter="category" />
     </menu_item_call>
     <menu_item_call
-     label="Restore Item"
+     label="아이템 회복"
      layout="topleft"
      name="restore_item">
         <menu_item_call.on_click
@@ -42,7 +42,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Cut"
+     label="자르기"
      layout="topleft"
      name="cut">
         <on_click
@@ -53,7 +53,7 @@
          parameter="cut" />
     </menu_item_call>
     <menu_item_call
-     label="Copy"
+     label="복사"
      layout="topleft"
      name="copy_folder">
         <on_click
@@ -64,7 +64,7 @@
          parameter="copy" />
     </menu_item_call>
     <menu_item_call
-     label="Paste"
+     label="붙여넣기"
      layout="topleft"
      name="paste">
         <on_click
@@ -75,7 +75,7 @@
          parameter="paste" />
     </menu_item_call>
     <menu_item_call
-     label="Rename"
+     label="개명"
      layout="topleft"
      name="rename">
         <on_click
@@ -86,7 +86,7 @@
          parameter="rename" />
     </menu_item_call>
     <menu_item_call
-     label="Delete"
+     label="삭제"
      layout="topleft"
      name="delete">
         <on_click
@@ -99,7 +99,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Expand"
+     label="확장"
      layout="topleft"
      name="expand">
         <on_click
@@ -113,7 +113,7 @@
          parameter="expand" />
     </menu_item_call>
     <menu_item_call
-     label="Collapse"
+     label="붕괴"
      layout="topleft"
      name="collapse">
         <on_click

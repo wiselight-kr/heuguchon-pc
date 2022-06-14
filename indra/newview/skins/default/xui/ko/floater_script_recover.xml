@@ -7,7 +7,7 @@
   positioning="centered"
   name="script_recover"
   single_instance="true"
-  title="Script Recovery"
+  title="스크립트 회복"
   width="350">
 
   <text
@@ -21,9 +21,9 @@
    type="string"
    word_wrap="true"
    width="330">
-      [APP_NAME] has detected recoverable scripts that may have been left over from a recent viewer crash.
+      [APP_NAME] 최근 뷰어 충돌로 인해 남아 있을 수 있는 복구 가능한 스크립트가 탐지되었습니다.
   
-If you choose to recover these scripts they will be placed in the 'Lost and Found' folder of your inventory.
+이러한 스크립트를 복구하도록 선택하면 해당 스크립트는 인벤토리의 '분실된 문서' 폴더에 저장됩니다.
   </text>
 
   <scroll_list
@@ -43,7 +43,7 @@ If you choose to recover these scripts they will be placed in the 'Lost and Foun
       name="script_check"
       width="20" />
     <scroll_list.columns
-      label="Script Name"
+      label="스크립트 이름"
       name="script_name"
       width="170" />
   </scroll_list>
@@ -51,7 +51,7 @@ If you choose to recover these scripts they will be placed in the 'Lost and Foun
   <button
     follows="bottom|left"
     height="25"
-    label="Recover"
+    label="회복"
     left="65"
     name="recover_btn"
     top_pad="10"
@@ -59,7 +59,7 @@ If you choose to recover these scripts they will be placed in the 'Lost and Foun
   <button
     follows="bottom|left"
     height="25"
-    label="Cancel"
+    label="취소"
     left_pad="20"
     name="cancel_btn"
     width="100" />

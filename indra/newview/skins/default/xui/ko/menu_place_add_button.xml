@@ -6,7 +6,7 @@
  name="menu_create"
  visible="false">
     <menu_item_call
-     label="Landmark current location"
+     label="랜드마크 현재 위치"
      layout="topleft"
      name="add_landmark">
         <on_click
@@ -17,7 +17,7 @@
          parameter="add_landmark_root" />
     </menu_item_call>
     <menu_item_call
-     label="Create folder"
+     label="폴더 생성"
      layout="topleft"
      name="add_folder">
         <on_click

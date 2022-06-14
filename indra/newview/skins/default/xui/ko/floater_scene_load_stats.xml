@@ -6,7 +6,7 @@
          name="Scene Load Statistics"
          save_rect="true"
          save_visibility="true"
-         title="Scene Load Statistics"
+         title="장면 로드 통계"
          min_width="250"
          width="400">
     <scroll_container follows="top|left|bottom|right"
@@ -26,11 +26,11 @@
                       width="380" >
 <!--Basic Section-->
 		  <stat_view name="basic"
-                 label="Basic"
+                 label="기본"
                  show_label="true"
                  setting="OpenDebugStatBasic">
         <stat_bar name="frame difference"
-                  label="Frame Pixel Difference"
+                  label="프레임 픽셀 차이"
                   orientation="horizontal"
                   unit_label="%"
                   stat="FramePixelDifference"
@@ -39,14 +39,14 @@
                   unit_scale="100"
                   precision="0"/>
         <stat_bar name="bandwidth"
-                  label="UDP Data Received"
+                  label="수신된 UDP 데이터"
                   orientation="horizontal"
                   stat="activemessagedatareceived"
                   bar_max="5000"
                   tick_spacing="500"
                   precision="0"/>
 			  <stat_bar name="packet_loss"
-                  label="Packet Loss"
+                  label="패킷 손실"
                   orientation="horizontal"
                   unit_label=" %"
                   stat="packetslostpercentstat"
@@ -58,15 +58,15 @@
 		  </stat_view>
 <!--Advanced Section-->
       <stat_view name="advanced"
-                 label="Advanced"
+                 label="고급"
                  show_label="true"
                  setting="OpenDebugStatAdvanced">
 			  <stat_view name="render"
-                   label="Render"
+                   label="렌더"
                    show_label="true"
                    setting="OpenDebugStatRender">
           <stat_bar name="objs"
-                    label="Total Objects"
+                    label="종합 개체"
                     orientation="horizontal"
                     unit_label=""
                     stat="numobjectsstat"
@@ -75,7 +75,7 @@
                     precision="0"
                     show_bar="false"/>
           <stat_bar name="newobjs"
-                    label="New Objects"
+                    label="새로운 개체"
                     orientation="horizontal"
                     unit_label="/sec"
                     stat="numnewobjectsstat"
@@ -83,7 +83,7 @@
                     tick_spacing="200"
                     show_bar="false"/>
           <stat_bar name="object_cache_hits"
-                    label="Object Cache Hit Rate"
+                    label="개체 캐시 적중률"
                     orientation="horizontal"
                     stat="object_cache_hits"
                     bar_max="100"
@@ -94,10 +94,10 @@
 			  </stat_view>
 <!--Texture Stats-->
 			  <stat_view name="texture"
-                   label="Texture"
+                   label="텍스쳐"
                    show_label="true">
 			    <stat_bar name="texture_cache_hits"
-                    label="Cache Hit Rate"
+                    label="캐시 적중률"
                     orientation="horizontal"
                     stat="texture_cache_hits"
                     bar_max="100.f"
@@ -106,7 +106,7 @@
                     show_history="true"
                     show_bar="false"/>
           <stat_bar name="texture_cache_read_latency"
-                    label="Cache Read Latency"
+                    label="캐시 읽기 지연 시간"
                     orientation="horizontal"
                     unit_label="msec"
                     stat="texture_cache_read_latency"
@@ -115,14 +115,14 @@
                     show_history="true"
                     show_bar="false"/>
           <stat_bar name="numimagesstat"
-                    label="Count"
+                    label="개수"
                     orientation="horizontal"
                     stat="numimagesstat" 
                     bar_max="8000.f" 
                     tick_spacing="2000.f"
                     show_bar="false"/>
 			    <stat_bar name="numrawimagesstat"
-                    label="Raw Count"
+                    label="원 개수"
                     orientation="horizontal"
                     stat="numrawimagesstat"
                     bar_max="8000.f" 
@@ -131,11 +131,11 @@
 			  </stat_view>
 <!--Network Stats-->
 			  <stat_view name="network"
-                   label="Network"
+                   label="네트워크"
                    show_label="true"
                    setting="OpenDebugStatNet">
 			    <stat_bar name="packetsinstat"
-                    label="Packets In"
+                    label="패킷 수신"
                     orientation="horizontal"
                     stat="packetsinstat"
                     unit_label="/sec" 
@@ -144,7 +144,7 @@
                     precision="1"
                     show_bar="false"/>
 			    <stat_bar name="packetsoutstat"
-                    label="Packets Out"
+                    label="패킷 발신"
                     orientation="horizontal"
                     stat="packetsoutstat"
                     unit_label="/sec"  
@@ -153,7 +153,7 @@
                     precision="1"
                     show_bar="false"/>
 			    <stat_bar name="objectdatareceived"
-                    label="Objects"
+                    label="개체"
                     orientation="horizontal"
                     stat="objectdatareceived"
                     unit_label="kbps"
@@ -162,7 +162,7 @@
                     precision="1"
                     show_bar="false"/>
 			    <stat_bar name="texturedatareceived"
-                    label="Texture"
+                    label="텍스쳐"
                     orientation="horizontal"
                     stat="texturedatareceived"
                     unit_label="kbps"
@@ -171,7 +171,7 @@
                     precision="1"
                     show_bar="false"/>
 			    <stat_bar name="assetudpdatareceived"
-                    label="Asset"
+                    label="재산"
                     orientation="horizontal"
                     stat="assetudpdatareceived"
                     unit_label="kbps"
@@ -180,7 +180,7 @@
                     precision="1"
                     show_bar="false"/>
 			    <stat_bar name="layersdatareceived"
-                    label="Layers"
+                    label="계층"
                     orientation="horizontal"
                     stat="layersdatareceived"
                     unit_label="kbps"
@@ -189,7 +189,7 @@
                     precision="1"
                     show_bar="false"/>
 			    <stat_bar name="messagedatain"
-                    label="Actual In"
+                    label="실제 입력"
                     orientation="horizontal"
                     stat="messagedatain"
                     unit_label="kbps"
@@ -198,7 +198,7 @@
                     precision="1"
                     show_bar="false"/>
 			    <stat_bar name="messagedataout"
-                    label="Actual Out"
+                    label="실제 출력"
                     orientation="horizontal"
                     stat="messagedataout"
                     unit_label="kbps"
@@ -210,11 +210,11 @@
 		  </stat_view>
 <!--Sim Stats-->
 		  <stat_view name="sim"
-                 label="Simulator"
+                 label="시뮬레이터"
                  show_label="true"
                  setting="OpenDebugStatSim">
 			  <stat_bar name="simobjects"
-                  label="Objects"
+                  label="개체"
                   orientation="horizontal"
                   stat="simobjects"
                   precision="0"
@@ -223,7 +223,7 @@
                   show_bar="false"
                   show_mean="false"/>
 			  <stat_bar name="simactiveobjects"
-                  label="Active Objects"
+                  label="개체 활성화"
                   orientation="horizontal"
                   stat="simactiveobjects"
                   precision="0"
@@ -232,7 +232,7 @@
                   show_bar="false"
                   show_mean="false"/>
 			  <stat_bar name="simactivescripts"
-                  label="Active Scripts"
+                  label="스크립트 활성화"
                   orientation="horizontal"
                   stat="simactivescripts"
                   precision="0"
@@ -241,7 +241,7 @@
                   show_bar="false"
                   show_mean="false"/>
 			  <stat_bar name="siminpps"
-                  label="Packets In"
+                  label="패킷 수신"
                   orientation="horizontal"
                   stat="siminpps"
                   unit_label="pps"
@@ -251,7 +251,7 @@
                   show_bar="false"
                   show_mean="false"/>
 			  <stat_bar name="simoutpps"
-                  label="Packets Out"
+                  label="패킷 발신"
                   orientation="horizontal"
                   stat="simoutpps"
                   unit_label="pps" 
@@ -261,7 +261,7 @@
                   show_bar="false"
                   show_mean="false"/>
 			  <stat_bar name="simpendingdownloads"
-                  label="Pending Downloads"
+                  label="보류 중인 다운로드"
                   orientation="horizontal"
                   stat="simpendingdownloads"
                   precision="0"
@@ -270,7 +270,7 @@
                   show_bar="false"
                   show_mean="false"/>
 			  <stat_bar name="simpendinguploads"
-                  label="Pending Uploads"
+                  label="보류 중인 업로드"
                   orientation="horizontal"
                   stat="simpendinguploads"
                   precision="0"
@@ -279,7 +279,7 @@
                   show_bar="false"
                   show_mean="false"/>
 			  <stat_bar name="simtotalunackedbytes"
-                  label="Total Unacked Bytes"
+                  label="언락된 총 바이트 수"
                   orientation="horizontal"
                   stat="simtotalunackedbytes"
                   unit_label="kb"
@@ -289,10 +289,10 @@
                   show_bar="false"
                   show_mean="false"/>
 			  <stat_view name="simperf"
-                   label="Time (ms)"
+                   label="시간 (ms)"
                    show_label="true">
 			    <stat_bar name="simframemsec"
-                    label="Total Frame Time"
+                    label="총 프레임 시간"
                     orientation="horizontal"
                     stat="simframemsec"
                     unit_label="ms"
@@ -302,7 +302,7 @@
                     show_bar="false"
                     show_mean="false"/>
 			    <stat_bar name="simnetmsec"
-                    label="Net Time"
+                    label="넷 타임"
                     orientation="horizontal"
                     stat="simnetmsec"
                     unit_label="ms"
@@ -312,7 +312,7 @@
                     show_bar="false"
                     show_mean="false"/>
 			    <stat_bar name="simsimphysicsmsec"
-                    label="Physics Time"
+                    label="물리 시간"
                     orientation="horizontal"
                     stat="simsimphysicsmsec"
                     unit_label="ms"
@@ -322,7 +322,7 @@
                     show_bar="false"
                     show_mean="false"/>
 			    <stat_bar name="simsimothermsec"
-                    label="Simulation Time"
+                    label="시뮬레이션 시간"
                     orientation="horizontal"
                     stat="simsimothermsec"
                     unit_label="ms"
@@ -332,7 +332,7 @@
                     show_bar="false"
                     show_mean="false"/>
 			    <stat_bar name="simagentmsec"
-                    label="Agent Time"
+                    label="요원 시간"
                     orientation="horizontal"
                     stat="simagentmsec"
                     unit_label="ms"
@@ -342,7 +342,7 @@
                     show_bar="false"
                     show_mean="false"/>
 			    <stat_bar name="simimagesmsec"
-                    label="Images Time"
+                    label="이미지 시간"
                     orientation="horizontal"
                     stat="simimagesmsec"
                     unit_label="ms"
@@ -352,7 +352,7 @@
                     show_bar="false"
                     show_mean="false"/>
 			    <stat_bar name="simscriptmsec"
-                    label="Script Time"
+                    label="스크립트 시간"
                     orientation="horizontal"
                     stat="simscriptmsec"
                     unit_label="ms"
@@ -362,7 +362,7 @@
                     show_bar="false"
                     show_mean="false"/>
           <stat_bar name="simsparemsec"
-                    label="Spare Time"
+                    label="여유 시간"
                     orientation="horizontal"
                     stat="simsparemsec"
                     unit_label="ms"
@@ -373,10 +373,10 @@
                     show_mean="false"/>
 <!--2nd level time blocks under 'Details' second-->
           <stat_view name="timedetails"
-                     label="Time Details (ms)"
+                     label="시간 세부사항 (ms)"
                      show_label="true">
             <stat_bar name="simsimphysicsstepmsec"
-                      label="  Physics Step"
+                      label="  물리학 단계"
                       orientation="horizontal"
                       stat="simsimphysicsstepmsec"
                       unit_label="ms"
@@ -386,7 +386,7 @@
                       show_bar="false"
                       show_mean="false"/>
             <stat_bar name="simsimphysicsshapeupdatemsec"
-                      label="  Update Phys Shapes"
+                      label="  물리적 형상 업데이트"
                       orientation="horizontal"
                       stat="simsimphysicsshapeupdatemsec"
                       unit_label="ms"
@@ -396,7 +396,7 @@
                       show_bar="false"
                       show_mean="false"/>
             <stat_bar name="simsimphysicsothermsec"
-                      label="  Physics Other"
+                      label="  물리 기타"
                       orientation="horizontal"
                       stat="simsimphysicsothermsec"
                       unit_label="ms"
@@ -406,7 +406,7 @@
                       show_bar="false"
                       show_mean="false"/>
             <stat_bar name="simsleepmsec"
-                      label="  Sleep Time"
+                      label="  수면 시간"
                       orientation="horizontal"
                       stat="simsleepmsec"
                       unit_label="ms"
@@ -416,7 +416,7 @@
                       show_bar="false"
                       show_mean="false"/>
             <stat_bar name="simpumpiomsec"
-                      label="  Pump IO"
+                      label="  IO 펌프"
                       orientation="horizontal"
                       stat="simpumpiomsec"
                       unit_label="ms"

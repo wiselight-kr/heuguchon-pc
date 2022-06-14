@@ -13,38 +13,38 @@
     reuse_instance="true"
     save_rect="false"
     single_instance="true"
-    title="Region Objects">
+    title="지역 개체">
   <floater.string name="messaging_initial"></floater.string>
-  <floater.string name="messaging_get_inprogress">Querying for pathfinding linksets ...</floater.string>
-  <floater.string name="messaging_get_error">Error detected while querying for pathfinding linksets.</floater.string>
-  <floater.string name="messaging_set_inprogress">Modifying selected pathfinding linksets ...</floater.string>
-  <floater.string name="messaging_set_error">Error detected while modifying selected pathfinding linksets.</floater.string>
-  <floater.string name="messaging_complete_none_found">No pathfinding linksets.</floater.string>
-  <floater.string name="messaging_complete_available">[NUM_SELECTED] selected out of [NUM_TOTAL].</floater.string>
-  <floater.string name="messaging_not_enabled">This region is not enabled for pathfinding.</floater.string>
-  <floater.string name="linkset_terrain_name">[Terrain]</floater.string>
+  <floater.string name="messaging_get_inprogress">경로 찾기 링크 집합에 대한 쿼리 중 ...</floater.string>
+  <floater.string name="messaging_get_error">경로 찾기 링크 집합을 쿼리하는 동안 오류가 감지됨.</floater.string>
+  <floater.string name="messaging_set_inprogress">선택한 경로 찾기 링크 세트 수정 ...</floater.string>
+  <floater.string name="messaging_set_error">선택한 경로 찾기 링크 집합을 수정하는 동안 오류가 감지됨.</floater.string>
+  <floater.string name="messaging_complete_none_found">경로 찾기 링크 집합 없음.</floater.string>
+  <floater.string name="messaging_complete_available">[NUM_SELECTED] [NUM_TOTAL] 중 선택됨.</floater.string>
+  <floater.string name="messaging_not_enabled">이 영역은 경로 찾기에 사용할 수 없습니다..</floater.string>
+  <floater.string name="linkset_terrain_name">[지형]</floater.string>
   <floater.string name="linkset_terrain_description">--</floater.string>
   <floater.string name="linkset_terrain_owner">--</floater.string>
   <floater.string name="linkset_terrain_scripted">--</floater.string>
   <floater.string name="linkset_terrain_land_impact">--</floater.string>
   <floater.string name="linkset_terrain_dist_from_you">--</floater.string>
-  <floater.string name="linkset_owner_loading">[Loading]</floater.string>
-  <floater.string name="linkset_owner_unknown">[Unknown]</floater.string>
-  <floater.string name="linkset_owner_group">[group]</floater.string>
-  <floater.string name="linkset_is_scripted">Yes</floater.string>
-  <floater.string name="linkset_is_not_scripted">No</floater.string>
-  <floater.string name="linkset_is_unknown_scripted">Unknown</floater.string>
-  <floater.string name="linkset_use_walkable">Walkable</floater.string>
-  <floater.string name="linkset_use_static_obstacle">Static obstacle</floater.string>
-  <floater.string name="linkset_use_dynamic_obstacle">Movable obstacle</floater.string>
-  <floater.string name="linkset_use_material_volume">Material volume</floater.string>
-  <floater.string name="linkset_use_exclusion_volume">Exclusion volume</floater.string>
-  <floater.string name="linkset_use_dynamic_phantom">Movable phantom</floater.string>
-  <floater.string name="linkset_is_terrain">[unmodifiable]</floater.string>
-  <floater.string name="linkset_is_restricted_state">[restricted]</floater.string>
-  <floater.string name="linkset_is_non_volume_state">[concave]</floater.string>
-  <floater.string name="linkset_is_restricted_non_volume_state">[restricted,concave]</floater.string>
-  <floater.string name="linkset_choose_use">Choose linkset use...</floater.string>
+  <floater.string name="linkset_owner_loading">[로딩중]</floater.string>
+  <floater.string name="linkset_owner_unknown">[알 수 없음]</floater.string>
+  <floater.string name="linkset_owner_group">[그룹]</floater.string>
+  <floater.string name="linkset_is_scripted">예</floater.string>
+  <floater.string name="linkset_is_not_scripted">아니오</floater.string>
+  <floater.string name="linkset_is_unknown_scripted">알 수 없음</floater.string>
+  <floater.string name="linkset_use_walkable">걸어서 갈 수 있는</floater.string>
+  <floater.string name="linkset_use_static_obstacle">정적 장애물</floater.string>
+  <floater.string name="linkset_use_dynamic_obstacle">이동 장애물</floater.string>
+  <floater.string name="linkset_use_material_volume">자재량</floater.string>
+  <floater.string name="linkset_use_exclusion_volume">제외량</floater.string>
+  <floater.string name="linkset_use_dynamic_phantom">이동식 팬텀</floater.string>
+  <floater.string name="linkset_is_terrain">[변경할 수 없는]</floater.string>
+  <floater.string name="linkset_is_restricted_state">[제한]</floater.string>
+  <floater.string name="linkset_is_non_volume_state">[오목함]</floater.string>
+  <floater.string name="linkset_is_restricted_non_volume_state">[제한,오목함]</floater.string>
+  <floater.string name="linkset_choose_use">링크 세트 사용 선택...</floater.string>
   <panel
       name="pathfinding_linksets_main"
       border="false"
@@ -66,7 +66,7 @@
         left="20"
         top_pad="14"
         width="67">
-      Filter by:
+      필터링 기준:
     </text>
     <text
         name="linksets_name_label"
@@ -80,7 +80,7 @@
         layout="topleft"
         left_pad="0"
         width="62">
-      Name
+      이름
     </text>
     <line_editor
         border_style="line"
@@ -106,7 +106,7 @@
         left_pad="22"
         top_pad="-15"
         width="88">
-      Description
+      묘사
     </text>
     <line_editor
         border_style="line"
@@ -128,38 +128,38 @@
         top_pad="-20"
         width="199">
       <combo_box.item
-          label="Filter by linkset use..."
+          label="링크 세트 사용별로 필터링..."
           name="filter_by_linkset_use_none"
           value="0" />
       <combo_box.item
-          label="Walkable"
+          label="걸어서 갈 수 있는"
           name="filter_by_linkset_use_walkable"
           value="1" />
       <combo_box.item
-          label="Static obstacle"
+          label="정적 장애물"
           name="filter_by_linkset_use_static_obstacle"
           value="2" />
       <combo_box.item
-          label="Movable obstacle"
+          label="이동 장애물"
           name="filter_by_linkset_use_dynamic_obstacle"
           value="3" />
       <combo_box.item
-          label="Material volume"
+          label="자재량"
           name="filter_by_linkset_use_material_volume"
           value="4" />
       <combo_box.item
-          label="Exclusion volume"
+          label="제외량"
           name="filter_by_linkset_use_exclusion_volume"
           value="5" />
       <combo_box.item
-          label="Movable phantom"
+          label="이동식 팬텀"
           name="filter_by_linkset_use_dynamic_phantom"
           value="6" />
     </combo_box>
     <button
         follows="right|top"
         height="21"
-        label="Apply"
+        label="적용"
         layout="topleft"
         name="apply_filters"
         top_pad="-21"
@@ -168,7 +168,7 @@
     <button
         follows="right|top"
         height="21"
-        label="Clear"
+        label="지우기"
         layout="topleft"
         name="clear_filters"
         top_pad="-21"
@@ -187,31 +187,31 @@
         name="objects_scroll_list"
         width="1040">
       <scroll_list.columns
-          label="Name (root prim)"
+          label="이름 (루트 프림)"
           name="name"
           dynamic_width="true" />
       <scroll_list.columns
-          label="Description (root prim)"
+          label="묘사 (루트 프림)"
           name="description"
           width="158" />
       <scroll_list.columns
-          label="Owner"
+          label="소유주"
           name="owner"
           width="141" />
       <scroll_list.columns
-          label="Scripted"
+          label="스크립트"
           name="scripted"
           width="60" />
       <scroll_list.columns
-          label="Impact"
+          label="영향"
           name="land_impact"
           width="55" />
       <scroll_list.columns
-          label="Distance"
+          label="거리"
           name="dist_from_you"
           width="65" />
       <scroll_list.columns
-          label="Pathfinding use"
+          label="경로 찾기 사용"
           name="linkset_use"
           width="236" />
       <scroll_list.columns
@@ -243,12 +243,12 @@
         name="messaging_status"
         top_pad="17"
         width="679">
-      Linksets:
+      연결 집합:
     </text>
     <button
         follows="right|bottom"
         height="21"
-        label="Refresh list"
+        label="목록 새로고침"
         layout="topleft"
         name="refresh_objects_list"
         top_pad="-16"
@@ -257,7 +257,7 @@
     <button
         follows="right|bottom"
         height="21"
-        label="Select all"
+        label="모두 선택"
         layout="topleft"
         name="select_all_objects"
         top_pad="-21"
@@ -266,7 +266,7 @@
     <button
         follows="right|bottom"
         height="21"
-        label="Select none"
+        label="없음 선택"
         layout="topleft"
         name="select_none_objects"
         top_pad="-21"
@@ -305,12 +305,12 @@
         layout="topleft"
         top_pad="8"
         width="580">
-      Actions on selected
+      선택한 작업
     </text>
     <check_box
         height="19"
         follows="left|bottom"
-        label="Show beacon"
+        label="비콘 표시"
         layout="topleft"
         name="show_beacon"
         left_pad="0"
@@ -319,7 +319,7 @@
     <button
         follows="left|bottom"
         height="21"
-        label="Take"
+        label="가지고 가기"
         layout="topleft"
         name="take_objects"
         top_pad="9"
@@ -328,7 +328,7 @@
     <button
         follows="left|bottom"
         height="21"
-        label="Take copy"
+        label="복사하기"
         layout="topleft"
         name="take_copy_objects"
         top_pad="-21"
@@ -337,7 +337,7 @@
     <button
         follows="left|bottom"
         height="21"
-        label="Teleport me to it"
+        label="그곳으로 순간이동 시켜주십시오"
         layout="topleft"
         name="teleport_me_to_object"
         top_pad="-21"
@@ -346,7 +346,7 @@
     <button
         follows="right|bottom"
         height="21"
-        label="Return"
+        label="반납"
         layout="topleft"
         name="return_objects"
         top_pad="-21"
@@ -355,7 +355,7 @@
     <button
         follows="right|bottom"
         height="21"
-        label="Delete"
+        label="삭제"
         layout="topleft"
         name="delete_objects"
         top_pad="-21"
@@ -393,7 +393,7 @@
         left="18"
         top_pad="8"
         width="972">
-      Edit pathfinding attributes
+      경로 찾기 특성 편집
     </text>
     <combo_box
         height="20"
@@ -418,7 +418,7 @@
         left_pad="36"
         top_pad="-17"
         width="110">
-      Walkability:
+      걸어서갈 수 있음:
     </text>
     <text
         height="13"
@@ -445,7 +445,7 @@
         top_pad="-19"
         max_length_chars="3"
         name="edit_a_value"
-        tool_tip="Walkability for characters of type A.  Example character type is humanoid."
+        tool_tip="A형 캐릭터의 보행성. 예제 문자 유형은 휴머노이드입니다."
         width="45" />
     <text
         height="13"
@@ -473,7 +473,7 @@
         top_pad="-19"
         max_length_chars="3"
         name="edit_b_value"
-        tool_tip="Walkability for characters of type B.  Example character type is creature."
+        tool_tip="B형 캐릭터의 보행성. 예제 문자 유형은 생물체입니다."
         width="45" />
     <text
         height="13"
@@ -501,7 +501,7 @@
         top_pad="-19"
         max_length_chars="3"
         name="edit_c_value"
-        tool_tip="Walkability for characters of type C.  Example character type is mechanical."
+        tool_tip="유형 C의 캐릭터에 대한 보행성. 예제 문자 유형은 기계식입니다."
         width="45" />
     <text
         height="13"
@@ -529,12 +529,12 @@
         top_pad="-19"
         max_length_chars="3"
         name="edit_d_value"
-        tool_tip="Walkability for characters of type D.  Example character type is other."
+        tool_tip="D형 캐릭터의 보행성. 예제 문자 유형은 기타입니다."
         width="45" />
     <button
         follows="left|bottom"
         height="21"
-        label="Apply changes"
+        label="변경 사항 적용"
         layout="topleft"
         name="apply_edit_values"
         top_pad="-21"
@@ -554,7 +554,7 @@
         left="363"
         top_pad="5"
         width="107">
-      (Humanoid)
+      (휴머노이드)
     </text>
     <text
         height="13"
@@ -569,7 +569,7 @@
         layout="topleft"
         left_pad="0"
         width="107">
-      (Creature)
+      (생명이 있는 존재)
     </text>
     <text
         height="13"
@@ -584,7 +584,7 @@
         layout="topleft"
         left_pad="0"
         width="107">
-      (Mechanical)
+      (기계적인)
     </text>
     <text
         height="13"
@@ -599,7 +599,7 @@
         layout="topleft"
         left_pad="0"
         width="107">
-      (Other)
+      (다른)
     </text>
   </panel>
 </floater>

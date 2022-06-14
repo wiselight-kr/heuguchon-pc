@@ -7,7 +7,7 @@
  layout="topleft"
  follows="all"
  name="panel_profile_classified"
- label="Classified">
+ label="분류">
 
     <loading_indicator
      top="5"
@@ -20,7 +20,7 @@
      visible="false" />
  <string
   name="no_classifieds"
-  value="No Classifieds" />
+  value="분류 없음" />
 
     <flat_list_view
      top="6"
@@ -41,7 +41,7 @@
      left="6"
      top_pad="2"
      height="25"
-     label="bottom_panel"
+     label="하부 패널"
      layout="bottom"
      name="edit_panel"
      width="412">
@@ -58,7 +58,7 @@
                    layout="topleft"
                    left="0"
                    name="new_btn"
-                   tool_tip="Create a classified at the current location"
+                   tool_tip="현재 위치에 분류 만들기"
                    top="0"
                    width="31" />
 
@@ -123,11 +123,11 @@
                  enabled="false"
                  follows="top|left|right"
                  height="23"
-                 label="Info"
+                 label="정보"
                  layout="topleft"
                  name="info_btn"
                  tab_stop="false"
-                 tool_tip="Show pick information"
+                 tool_tip="선택 정보 표시"
                  width="130" />
           </layout_panel>
 
@@ -144,11 +144,11 @@
                  enabled="false"
                  follows="top|left|right"
                  height="23"
-                 label="Teleport"
+                 label="순간이동"
                  layout="topleft"
                  name="teleport_btn"
                  tab_stop="false"
-                 tool_tip="Teleport to the corresponding area"
+                 tool_tip="해당 영역으로 순간이동"
                  width="150" />
           </layout_panel>
 
@@ -165,11 +165,11 @@
                  enabled="false"
                  follows="top|left|right"
                  height="23"
-                 label="Map"
+                 label="지도"
                  layout="topleft"
                  name="show_on_map_btn"
                  tab_stop="false"
-                 tool_tip="Show the corresponding area on the World Map"
+                 tool_tip="세계 지도에 해당 지역 표시"
                  width="122" />
           </layout_panel>
     </layout_stack>

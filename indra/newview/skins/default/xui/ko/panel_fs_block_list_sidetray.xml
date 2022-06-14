@@ -13,7 +13,7 @@
      <panel
       follows="left|top|right"
       height="27"
-      label="bottom_panel"
+      label="하부 패널"
       layout="topleft"
       left="0"
       name="blocked_buttons_panel"
@@ -24,7 +24,7 @@
           height="23"
           layout="topleft"
           left="6"
-          label="Filter"
+          label="필터"
           max_length_chars="300"
           name="blocked_filter_input"
           top="4"
@@ -41,7 +41,7 @@
           menu_filename="menu_people_blocked_gear.xml"
           menu_position="bottomleft"
           name="blocked_gear_btn"
-          tool_tip="Actions on selected person or object"
+          tool_tip="선택한 사용자 또는 개체에 대한 작업"
           top="3"
           width="31" />
          <menu_button
@@ -56,7 +56,7 @@
           menu_filename="menu_people_blocked_view.xml"
           menu_position="bottomleft"
           name="view_btn"
-          tool_tip="Sort options"
+          tool_tip="옵션 정렬"
           top_delta="0"
           width="31" />
          <menu_button
@@ -71,7 +71,7 @@
           menu_filename="menu_people_blocked_plus.xml"
           menu_position="bottomleft"
           name="plus_btn"
-          tool_tip="Pick a Resident or an object to block"
+          tool_tip="차단할 거주자 또는 개체 선택"
           top_delta="0"
           width="31"/>
           <button
@@ -84,7 +84,7 @@
           left_pad="2"
           layout="topleft"
           name="unblock_btn"
-          tool_tip="Remove Resident or object from blocked list"
+          tool_tip="차단 목록에서 거주자 또는 개체 제거"
           top_delta="0"
           width="31"/>
      </panel>
@@ -99,7 +99,7 @@
           left="4"
           use_ellipses="true"
           name="block_limit">
-          차단 명단: [COUNT] ([LIMIT] max.)
+          차단된 항목: [COUNT] ([LIMIT] 최대.)
       </text>
 	<fs_scroll_list
 	 draw_heading="true"
@@ -116,10 +116,10 @@
 	 right="-1">
 		<fs_scroll_list.columns
 		 name="item_name"
-		 label="Name"/>
+		 label="이름"/>
 		<fs_scroll_list.columns
 		 name="item_type"
-		 label="Type"
+		 label="유형"
 		 width="96"/>
 		<fs_scroll_list.columns
 		 name="item_mute_type"

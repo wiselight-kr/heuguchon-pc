@@ -10,16 +10,16 @@
  width="280">
     <floater.string
      name="failed_to_initialize">
-        Failed to initialize motion
+        모션을 초기화하지 못했습니다
     </floater.string>
     <floater.string
      name="anim_too_long">
-        Animation file is [LENGTH] seconds in length.
-Maximum animation length is [MAX_LENGTH] seconds.
+        애니메이션 파일의 길이는 [LENGTH]초입니다.
+최대 애니메이션 길이는 [MAX_LENGTH]초입니다.
     </floater.string>
     <floater.string
      name="failed_file_read">
-        Unable to read animation file.
+        애니메이션 파일을 읽을 수 없습니다.
 [STATUS]
     </floater.string>
     <floater.string
@@ -28,127 +28,127 @@ Maximum animation length is [MAX_LENGTH] seconds.
     </floater.string>
     <floater.string
      name="E_ST_EOF">
-        Premature end of file.
+        파일의 조기 종료.
     </floater.string>
     <floater.string
      name="E_ST_NO_CONSTRAINT">
-        Cannot read constraint definition.
+        제약 조건 정의를 읽을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_FILE">
-        Cannot open BVH file.
+         BVH 파일을 열 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_HIER">
-        Invalid HIERARCHY header.
+        잘못된 HIERARCHY 머리글.
     </floater.string>
     <floater.string
      name="E_ST_NO_JOINT">
-        Cannot find ROOT or JOINT.
+         ROOT 나 JOINT (을)를 찾을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_NAME">
-        Cannot get JOINT name.
+        JOINT 이름을 가져올 수 없습니다..
     </floater.string>
     <floater.string
      name="E_ST_NO_OFFSET">
-        Cannot find OFFSET.
+         OFFSET (을)를 찾을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_CHANNELS">
-        Cannot find CHANNELS.
+         CHANNELS (을)를 찾을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_ROTATION">
-        Cannot get rotation order.
+        회전 순서를 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_AXIS">
-        Cannot get rotation axis.
+        회전 축을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_MOTION">
-        Cannot find MOTION.
+        MOTION을 찾을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_FRAMES">
-        Cannot get number of frames.
+        프레임 수를 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_FRAME_TIME">
-        Cannot get frame time.
+        프레임 시간을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_POS">
-        Cannot get position values.
+        위치 값을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_ROT">
-        Cannot get rotation values.
+        회전 값을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_FILE">
-        Cannot open translation file.
+        번역 파일을 열 수 없습니다..
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_HEADER">
-        Cannot read translation header.
+        번역 헤더를 읽을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_NAME">
-        Cannot read translation names.
+        번역 이름을 읽을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_IGNORE">
-        Cannot read translation ignore value.
+        번역 무시 값을 읽을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_RELATIVE">
-        Cannot read translation relative value.
+        번역 상대 값을 읽을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_OUTNAME">
-        Cannot read translation outname value.
+        번역 이름 값을 읽을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_MATRIX">
-        Cannot read translation matrix.
+        번역 행렬을 읽을 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_MERGECHILD">
-        Cannot get mergechild name.
+        병합 하위 이름을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_MERGEPARENT">
-        Cannot get mergeparent name.
+        병합 상위 이름을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_PRIORITY">
-        Cannot get priority value.
+        우선 순위 값을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_LOOP">
-        Cannot get loop value.
+        루프 값을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_EASEIN">
-        Cannot get easeIn values.
+        easyIn 값을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_EASEOUT">
-        Cannot get easeOut values.
+        easyOut 값을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_HAND">
-        Cannot get hand morph value.
+        핸드 모프 값을 가져올 수 없습니다.
     </floater.string>
     <floater.string
      name="E_ST_NO_XLT_EMOTE">
-        Cannot read emote name.
+        원격 이름을 읽을 수 없음.
     </floater.string>
     <floater.string
      name="E_ST_BAD_ROOT">
-        Incorrect root joint name, use "hip".
+        잘못된 루트 조인트 이름, "hip" 사용.
     </floater.string>
     <floater.string
      name="FS_report_frames">
@@ -163,7 +163,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      layout="topleft"
      left="10"
      name="name_label">
-        Name:
+        이름:
     </text>
     <line_editor
      bottom_delta="0"
@@ -182,7 +182,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      layout="topleft"
      left="10"
      name="description_label">
-        Description:
+        묘사:
     </text>
     <line_editor
      bottom_delta="0"
@@ -204,7 +204,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      left="10"
      max_val="4"
      name="priority"
-     tool_tip="Controls which other animations can be overridden by this animation"
+     tool_tip="이 애니메이션에서 재정의할 수 있는 다른 애니메이션 제어"
      width="160" />
     <check_box
      top_pad="0"
@@ -215,7 +215,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      width="100"
      initial_value="false"
      name="loop_check"
-     tool_tip="Makes this animation loop" />
+     tool_tip="이 애니메이션을 루프로 만듭니다" />
     <text
      type="string"
      length="1"
@@ -241,7 +241,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      left="15"
      max_val="100"
      name="loop_in_point"
-     tool_tip="Sets point in animation that looping returns to"
+     tool_tip="루프가 반환되는 애니메이션의 점을 설정합니다"
      width="130" />
     <spinner
      bottom_delta="0"
@@ -254,7 +254,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      left_pad="10"
      max_val="100"
      name="loop_out_point"
-     tool_tip="Sets point in animation that ends a loop"
+     tool_tip="루프를 종료하는 애니메이션의 점을 설정합니다"
      label_width="60"
      width="120" />
     <spinner
@@ -269,7 +269,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      left="15"
      max_val="1000"
      name="loop_in_frames"
-     tool_tip="Sets point in animation that looping returns to, in frames"
+     tool_tip="루프가 반환되는 애니메이션의 점을 프레임 단위로 설정합니다"
      width="130" />
     <spinner
      bottom_delta="0"
@@ -282,7 +282,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      left_pad="10"
      max_val="1000"
      name="loop_out_frames"
-     tool_tip="Sets point in animation that ends a loop, in frames"
+     tool_tip="루프를 끝내는 애니메이션의 점을 프레임 단위로 설정합니다"
      label_width="60"
      width="120" />
     <text
@@ -296,7 +296,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      layout="topleft"
      left="10"
      name="hand_label">
-        Hand Pose
+        건네주는 동작
     </text>
     <combo_box
      height="23"
@@ -305,58 +305,58 @@ Maximum animation length is [MAX_LENGTH] seconds.
      initial_value="Hands_Relaxed"
      label=" "
      name="hand_pose_combo"
-     tool_tip="Controls what hands do during animation"
+     tool_tip="애니메이션 중에 손이 수행하는 작업 제어"
      width="130">
         <combo_box.item
-         label="Spread"
+         label="퍼지다"
          name="Spread"
          value="" />
         <combo_box.item
-         label="Relaxed"
+         label="안정됨"
          name="Relaxed"
          value="Hands_Relaxed" />
         <combo_box.item
-         label="Point Both"
+         label="모두 가리키다"
          name="PointBoth"
          value="Hands_Point" />
         <combo_box.item
-         label="Fist"
+         label="주먹"
          name="Fist"
          value="Hands_Fist" />
         <combo_box.item
-         label="Relaxed Left"
+         label="안정된 왼쪽"
          name="RelaxedLeft"
          value="Hands_Relaxed_L" />
         <combo_box.item
-         label="Point Left"
+         label="왼쪽을 가리키다"
          name="PointLeft"
          value="Hands_Point_L" />
         <combo_box.item
-         label="Fist Left"
+         label="주먹 왼쪽"
          name="FistLeft"
          value="Hands_Fist_L" />
         <combo_box.item
-         label="Relaxed Right"
+         label="안정된 오른쪽"
          name="RelaxedRight"
          value="Hands_Relaxed_R" />
         <combo_box.item
-         label="Point Right"
+         label="오른쪽을 가리키다"
          name="PointRight"
          value="Hands_Point_R" />
         <combo_box.item
-         label="Fist Right"
+         label="주먹 오른쪽"
          name="FistRight"
          value="Hands_Fist_R" />
         <combo_box.item
-         label="Salute Right"
+         label="오른쪽에 경례"
          name="SaluteRight"
          value="Hands_Salute_R" />
         <combo_box.item
-         label="Typing"
+         label="타이핑"
          name="Typing"
          value="Hands_Typing" />
         <combo_box.item
-         label="Peace Right"
+         label="오른쪽에 피쓰"
          name="PeaceRight"
          value="Hands_Peace_R" />
     </combo_box>
@@ -371,7 +371,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      layout="topleft"
      left="10"
      name="emote_label">
-        Expression
+        표현
     </text>
     <combo_box
      height="23"
@@ -381,86 +381,86 @@ Maximum animation length is [MAX_LENGTH] seconds.
      initial_value=""
      label=" "
      name="emote_combo"
-     tool_tip="Controls what face does during animation">
+     tool_tip="애니메이션 중에 얼굴이 수행하는 작업 제어">
       <item
-       label="(None)"
+       label="(없음)"
        value=""
        name="[None]" />
       <item
-       label="Aaaaah"
-       value="Aaaaah"
+       label="아아아아아아"
+       value="아아아"
        name="Aaaaah" />
       <item
-       label="Afraid"
-       value="Afraid"
+       label="두려움"
+       value="두려움"
        name="Afraid" />
       <item
-       label="Angry"
-       value="Angry"
+       label="분노"
+       value="분노"
        name="Angry" />
       <item
-       label="Big Smile"
-       value="Big Smile"
+       label="큰 미소"
+       value="큰 미소"
        name="BigSmile" />
       <item
-       label="Bored"
-       value="Bored"
+       label="지루함"
+       value="지루함"
        name="Bored" />
       <item
-       label="Cry"
-       value="Cry"
+       label="울기"
+       value="울기"
        name="Cry" />
       <item
-       label="Disdain"
-       value="Disdain"
+       label="무시"
+       value="무시"
        name="Disdain" />
       <item
-       label="Embarrassed"
-       value="Embarrassed"
+       label="당황"
+       value="당황"
        name="Embarrassed" />
       <item
-       label="Frown"
-       value="Frown"
+       label="찡그림"
+       value="찡그림"
        name="Frown" />
       <item
-       label="Kiss"
-       value="Kiss"
+       label="키스"
+       value="키스"
        name="Kiss" />
       <item
-       label="Laugh"
-       value="Laugh"
+       label="웃음"
+       value="웃음"
        name="Laugh" />
       <item
        label="Plllppt"
        value="Plllppt"
        name="Plllppt" />
       <item
-       label="Repulsed"
-       value="Repulsed"
+       label="거부당함"
+       value="거부당함"
        name="Repulsed" />
       <item
-       label="Sad"
-       value="Sad"
+       label="슬픔"
+       value="슬픔"
        name="Sad" />
       <item
-       label="Shrug"
-       value="Shrug"
+       label="으쓱댐"
+       value="으쓱댐"
        name="Shrug" />
       <item
-       label="Smile"
-       value="Smile" 
+       label="미소"
+       value="미소" 
        name="Smile" />
       <item
-       label="Surprise"
-       value="Surprise" 
+       label="놀람"
+       value="놀람" 
        name="Surprise" />
       <item
-       label="Wink"
-       value="Wink"
+       label="윙크"
+       value="윙크"
        name="Wink" />
       <item
-       label="Worry"
-       value="Worry"
+       label="걱정"
+       value="걱정"
        name="Worry" />
     </combo_box>
     <text
@@ -474,7 +474,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      layout="topleft"
      left="10"
      name="preview_label">
-        Preview while
+        미리보는 동안
     </text>
     <combo_box
      height="23"
@@ -484,18 +484,18 @@ Maximum animation length is [MAX_LENGTH] seconds.
      initial_value="Standing"
      label=" "
      name="preview_base_anim"
-     tool_tip="Use this to test your animation behavior while your avatar performs common actions.">
+     tool_tip="아바타가 일반적인 작업을 수행하는 동안 애니메이션 동작을 테스트하려면 이 옵션을 사용합니다.">
         <item
-         label="Standing"
-         value="Standing"
+         label="일어서기"
+         value="일어서기"
          name="Standing" />
         <item
-         label="Walking"
-         value="Walking"
+         label="걷기"
+         value="걷기"
          name="Walking" />
         <item
-         label="Sitting"
-         value="Sitting"
+         label="앉기"
+         value="앉기"
          name="Sitting" />
         <item
          label="Flying"
@@ -507,13 +507,13 @@ Maximum animation length is [MAX_LENGTH] seconds.
      height="23"
      increment="0.01"
      initial_value="0.3"
-     label="Ease In (sec)"
+     label="쉬운 안(초)"
      label_width="140"
      layout="topleft"
      left="10"
      max_val="10"
      name="ease_in_time"
-     tool_tip="Amount of time (in seconds) over which animations blends in"
+     tool_tip="애니메이션이 혼합되는 시간(초)"
      top_pad="10"
      width="210" />
     <spinner
@@ -521,13 +521,13 @@ Maximum animation length is [MAX_LENGTH] seconds.
      height="23"
      increment="0.01"
      initial_value="0.3"
-     label="Ease Out (sec)"
+     label="쉬운 바깥(초)"
      label_width="140"
      layout="topleft"
      top_pad="0"
      max_val="10"
      name="ease_out_time"
-     tool_tip="Amount of time (in seconds) over which animations blends out"
+     tool_tip="애니메이션이 혼합되는 시간(초)"
      width="210" />
     <button
      follows="top|right"
@@ -542,7 +542,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      layout="topleft"
      left="10"
      name="play_btn"
-     tool_tip="Play your animation"
+     tool_tip="귀하의 애니메이션 재생"
      top_pad="0"
      width="23" />
     <button
@@ -559,7 +559,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
      layout="topleft"
      left="10"
      name="pause_btn"
-     tool_tip="Pause your animation"
+     tool_tip="귀하의 애니메이션 일시정지"
      top_pad="-23"
      width="23" />	 
     <button
@@ -574,7 +574,7 @@ Maximum animation length is [MAX_LENGTH] seconds.
 	 image_pressed_selected="SegmentedBtn_Right_Selected_Press"
      layout="topleft"
      name="stop_btn"
-     tool_tip="Stop animation playback"
+     tool_tip="애니메이션 재생 중지"
      top_delta="0"
      left_delta="23"
      width="23" />
@@ -600,14 +600,14 @@ Maximum animation length is [MAX_LENGTH] seconds.
      left="70"
      width="200"
      name="bad_animation_text">
-        Unable to read animation file.
-We recommend BVH files exported from Poser 4.
+        애니메이션 파일을 읽을 수 없습니다.
+Poser 4에서 BVH 파일을 내보내는 것이 좋습니다.
     </text>
   <button
     bottom="-77"
    follows="bottom|left"
    height="23"
-   label="Reload file"
+   label="파일 재로드"
    layout="topleft"
    left="10"
    name="reload_btn"
@@ -616,7 +616,7 @@ We recommend BVH files exported from Poser 4.
     bottom="-50"
    follows="bottom|left"
    height="23"
-   label="Upload (L$[AMOUNT])"
+   label="업로드 (L$[AMOUNT])"
    layout="topleft"
    left="10"
    name="ok_btn"
@@ -625,7 +625,7 @@ We recommend BVH files exported from Poser 4.
     	bottom="-50"
      follows="bottom|left"
      height="23"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      name="cancel_btn"
      left="142"

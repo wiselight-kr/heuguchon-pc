@@ -7,7 +7,7 @@
  name="floater_script_colors"
  help_topic="lsl_editor_preferences"
  save_rect="true"
- title="Script Editor Preferences"
+ title="스크립트 편집기 기본 설정"
  width="330">
 	<text
 	 follows="left|top"
@@ -17,7 +17,7 @@
 	 name="color_pickers_label"
 	 top="30"
 	 width="200">
-	Choose desired colors:
+	원하는 색상 선택:
     </text>
 	
 	<color_swatch
@@ -48,7 +48,7 @@
 		name="text_label"
 		top_delta="5"
 		width="100">
-        Text
+        텍스트
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -78,7 +78,7 @@
 		name="cursor_label"
 		top_delta="5"
 		width="100">
-        Cursor
+        커서
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -108,7 +108,7 @@
 		name="background_label"
 		top_delta="5"
 		width="100">
-        Background
+        배경
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -138,7 +138,7 @@
 		name="section_label"
 		top_delta="5"
 		width="100">
-        Sections
+        섹션
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -168,7 +168,7 @@
 		name="datatype_label"
 		top_delta="5"
 		width="100">
-        Data Types
+        데이터 종류
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -198,7 +198,7 @@
 		name="event_label"
 		top_delta="5"
 		width="100">
-        Events
+        이벤트
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -228,7 +228,7 @@
 		name="comment_label"
 		top_delta="5"
 		width="100">
-        Comment
+        댓글
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -258,7 +258,7 @@
 		name="function_label"
 		top_delta="5"
 		width="100">
-        Function
+        함수
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -288,7 +288,7 @@
 		name="string_literal_label"
 		top_delta="5"
 		width="100">
-        String Literals
+        문자열 리터럴
     </text>
 	
 	<color_swatch
@@ -319,7 +319,7 @@
 		name="constant_label"
 		top_delta="5"
 		width="100">
-        Constant
+        상수
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -349,7 +349,7 @@
 		name="i_constant_label"
 		top_delta="5"
 		width="100">
-        Integer Const
+        정수 상수
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -379,7 +379,7 @@
 		name="s_constant_label"
 		top_delta="5"
 		width="100">
-        String Const
+        문자열 상수
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -409,7 +409,7 @@
 		name="f_constant_label"
 		top_delta="5"
 		width="100">
-        Float Const
+        소수 상수
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -439,7 +439,7 @@
 		name="c_constant_label"
 		top_delta="5"
 		width="100">
-        Compound
+        복합체
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -469,7 +469,7 @@
 		name="flow_control_label"
 		top_delta="5"
 		width="100">
-        Flow Control
+        흐름 제어
     </text>
 	<color_swatch
 		can_apply_immediately="true"
@@ -499,7 +499,7 @@
 		name="preprocessor_label"
 		top_delta="5"
 		width="100">
-        Preprocessor
+        전처리기
     </text>
 
     <script_editor
@@ -545,7 +545,7 @@ default
 		name="prefs_label"
 		top_pad="6"
 		width="150">
-		Script Editor Options:
+		스크립트 편집기 옵션:
     </text>
 	<check_box
 		control_name="ExternalEditorConvertTabsToSpaces"
@@ -556,14 +556,14 @@ default
 		name="convert_tabs_to_spaces_checkbox"
 		top_pad="6"
 		width="200"
-		label="Convert tabs to spaces" />
+		label="탭을 공백으로 변환" />
 	<check_box
 		control_name="_NACL_LSLPreprocessor"
 		follows="left|top"
 		height="16"
 		top_pad="2"
-		label="Enable LSL preprocessor"
-		tool_tip="When checked, the LSL preprocessor is enabled."
+		label="LSL 전처리기 사용"
+		tool_tip="이 옵션을 선택하면 LSL 사전 프로세서가 활성화됩니다."
 		name="preproc_checkbox" />
 	<check_box
 		control_name="_NACL_PreProcLSLOptimizer"
@@ -572,8 +572,8 @@ default
 		height="16"
 		top_pad="2"
 		left_delta="16"
-		label="Script optimizer"
-		tool_tip="When checked, the LSL preprocessor will optimize space used by scripts."
+		label="스크립트 최적화 도구"
+		tool_tip="이 옵션을 선택하면 LSL 사전 프로세서가 스크립트에서 사용하는 공간을 최적화합니다."
 		name="preprocoptimizer_checkbox" />
 	<check_box
 		control_name="_NACL_PreProcLSLSwitch"
@@ -581,8 +581,8 @@ default
 		follows="left|top"
 		height="16"
 		top_pad="2"
-		label="switch() statement"
-		tool_tip="When checked, the LSL preprocessor will allow the use of the switch() statement for script flow control."
+		label="switch() 구문"
+		tool_tip="언제 확인하고서, LSL 전처리기는 switch()성명은 스크립트 흐름 관리를 위한 사용을 허용할 것입니다."
 		name="preprocswitch_checkbox" />
 	<check_box
 		control_name="_NACL_PreProcLSLLazyLists"
@@ -590,8 +590,8 @@ default
 		follows="left|top"
 		height="16"
 		top_pad="2"
-		label="Lazy lists"
-		tool_tip="When checked, the LSL preprocessor will allow the use of syntax extensions for list handling."
+		label="게으른 목록"
+		tool_tip="이 옵션을 선택하면 LSL 사전 프로세서가 목록 처리를 위한 구문 확장 사용을 허용합니다."
 		name="preproclazy_checkbox" />
 	<check_box
 		control_name="_NACL_PreProcEnableHDDInclude"
@@ -599,8 +599,8 @@ default
 		follows="left|top"
 		top_pad="2"
 		height="16"
-		label="#includes from local disk"
-		tool_tip="When checked, the LSL preprocessor will allow #include statements to reference files on your local disk."
+		label="#includes 로컬 디스크에서"
+		tool_tip="이 옵션을 선택하면 LSL 프리프로세서가 #include 문을 로컬 디스크에 있는 파일을 참조할 수 있습니다."
 		name="preprocinclude_checkbox" />
 	<text
 		follows="left|top"
@@ -611,7 +611,7 @@ default
 		name="lslpreprocinclude_textbox"
 		top_pad="2"
 		width="256">
-		Preprocessor include path:
+		사전 프로세서 포함 경로:
 	</text>
 	<line_editor
 		control_name="_NACL_PreProcHDDIncludeLocation"
@@ -646,7 +646,7 @@ default
 		name="advanced_label"
 		top_pad="6"
 		width="150">
-		Advanced Options:
+		고급 옵션:
     </text>
 	<check_box
 		control_name="FSllOwnerSayToScriptDebugWindow"
@@ -657,7 +657,7 @@ default
 		name="FSllOwnerSayToScriptDebugWindow_checkbox"
 		top_pad="6"
 		width="200"
-		label="Route llOwnerSay to script debug window" />
+		label="Route lllOwnerSay to script 디버그 창" />
 	<check_box
 		control_name="FSScriptEditorRecompileButton"
 		follows="left|top"
@@ -666,7 +666,7 @@ default
 		name="FSScriptEditorRecompileButton_checkbox"
 		top_pad="6"
 		width="200"
-		label="Enable recompile button (useful for #include scripts)" />
+		label="재컴파일 버튼 사용(#include 스크립트에 유용함)" />
         
 	<button
 		follows="top|left"

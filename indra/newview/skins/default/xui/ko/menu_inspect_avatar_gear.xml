@@ -6,7 +6,7 @@
          visible="false"
          name="Gear Menu">
   <menu_item_call
-   label="View Profile"
+   label="프로필 보기"
    enabled="true" 
    name="view_profile">
     <menu_item_call.on_click
@@ -27,7 +27,7 @@
      function="InspectAvatar.IM"/>
   </menu_item_call>
   <menu_item_call
-   label="Call"
+   label="전화"
    enabled="true"
    name="call">
     <menu_item_call.on_click
@@ -36,7 +36,7 @@
      function="InspectAvatar.Gear.EnableCall"/>
   </menu_item_call>
   <menu_item_call
-   label="Offer Teleport"
+   label="순간이동 제공"
    name="teleport">
     <menu_item_call.on_click
      function="InspectAvatar.Teleport"/>
@@ -44,7 +44,7 @@
      function="InspectAvatar.Gear.EnableTeleportOffer"/>
   </menu_item_call>
   <menu_item_call
-   label="Request Teleport"
+   label="순간이동 요청"
    name="request_teleport">
     <menu_item_call.on_click
      function="InspectAvatar.TeleportRequest"/>
@@ -52,14 +52,14 @@
      function="InspectAvatar.Gear.EnableTeleportRequest"/>
   </menu_item_call>
   <menu_item_call
-   label="Invite to Group"
+   label="그룹에 초대"
    name="invite_to_group">
     <menu_item_call.on_click
      function="InspectAvatar.InviteToGroup"/>
   </menu_item_call>
   <menu_item_separator />
   <menu_item_call
-   label="Block"
+   label="차단"
    name="block">
     <menu_item_call.on_click
      function="InspectAvatar.ToggleMute"/>
@@ -67,7 +67,7 @@
      function="InspectAvatar.EnableMute" />
   </menu_item_call>
   <menu_item_call
-   label="Unblock"
+   label="차단해제"
    name="unblock">
     <menu_item_call.on_click
      function="InspectAvatar.ToggleMute"/>
@@ -75,13 +75,13 @@
      function="InspectAvatar.EnableUnmute" />
   </menu_item_call>
   <menu_item_call
-   label="Report"
+   label="신고"
    name="report">
     <menu_item_call.on_click
      function="InspectAvatar.Report"/>
   </menu_item_call>  
   <menu_item_call
-   label="Freeze"
+   label="얼리기"
    name="freeze">
     <menu_item_call.on_click
      function="InspectAvatar.Freeze"/>
@@ -89,7 +89,7 @@
      function="InspectAvatar.VisibleFreeze"/>
   </menu_item_call>
   <menu_item_call
-   label="Eject"
+   label="내쫓기"
    name="eject">
     <menu_item_call.on_click
      function="InspectAvatar.Eject"/>
@@ -97,7 +97,7 @@
      function="InspectAvatar.VisibleEject"/>
   </menu_item_call>
   <menu_item_call
-   label="Kick"
+   label="걷어차기"
    name="kick">
     <menu_item_call.on_click
      function="InspectAvatar.Kick"/>
@@ -113,7 +113,7 @@
      function="InspectAvatar.EnableGod" />
   </menu_item_call>
   <menu_item_call
-   label="Debug Textures"
+   label="텍스쳐 디버그"
    name="debug">
     <menu_item_call.on_click
      function="Avatar.Debug"/>
@@ -121,7 +121,7 @@
      function="IsGodCustomerService"/>
   </menu_item_call>
     <menu_item_call
-		 label="Dump XML"
+		 label="덤프 XML"
          name="Dump XML">
             <menu_item_call.on_click
              function="Advanced.AppearanceToXML" />
@@ -129,7 +129,7 @@
              function="Advanced.EnableAppearanceToXML"/>
     </menu_item_call>
   <menu_item_call
-   label="Find On Map"
+   label="지도에서 찾기"
    name="find_on_map">
     <menu_item_call.on_click
      function="InspectAvatar.FindOnMap"/>
@@ -137,7 +137,7 @@
      function="InspectAvatar.VisibleFindOnMap"/>
   </menu_item_call>
   <menu_item_call
-   label="Zoom In"
+   label="확대"
    name="zoom_in">
     <menu_item_call.on_click
      function="InspectAvatar.ZoomIn"/>
@@ -145,7 +145,7 @@
      function="InspectAvatar.VisibleZoomIn"/>
   </menu_item_call>  
   <menu_item_call
-   label="Pay"
+   label="결제"
    name="pay">
     <menu_item_call.on_click
      function="InspectAvatar.Pay"/>
@@ -153,7 +153,7 @@
      function="InspectAvatar.Gear.EnablePay"/>
   </menu_item_call>
   <menu_item_call
-   label="Share"
+   label="공유"
    name="share">
     <menu_item_call.on_click
      function="InspectAvatar.Share"/>

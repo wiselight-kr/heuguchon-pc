@@ -6,10 +6,10 @@
  can_resize="false"
  legacy_header_height="18"
  name="floater_fs_contact_set_configure"
- title="Contact set settings">
+ title="연락처 집합 설정">
     <floater.string
      name="title">
-    [NAME] settings
+    [NAME] 설정
     </floater.string>
     <panel
      name="top_panel"
@@ -26,7 +26,7 @@
      left="10"
      height="12"
      name="set_label">
-Contact Set Settings:
+연락처 집합 설정:
     </text>
     <line_editor
      name="set_name_editor"
@@ -44,16 +44,16 @@ Contact Set Settings:
      layout="topleft"
      right="-10"
      width="75"
-     label="Rename"/>
+     label="개명"/>
     <color_swatch
      can_apply_immediately="true"
      follows="left|top"
      height="55"
-     label="Set Color"
+     label="색깔 선택"
      top_pad="8"
      left="14"
      name="set_swatch"
-     tool_tip="Click to open Color Picker"
+     tool_tip="색깔 선택기를 열려면 클릭하십시오."
      width="65" />
     <check_box
      height="16"
@@ -79,17 +79,17 @@ Contact Set Settings:
      left="10"
      height="12"
      name="global_label">
-Global Settings:
+전역 설정:
     </text>
     <color_swatch
      can_apply_immediately="true"
      follows="left|top"
      height="55"
-     label="Default Set Color"
+     label="기본 설정 색깔"
      top_pad="8"
      left_delta="4"
      name="global_swatch"
-     tool_tip="Click to open Color Picker"
+     tool_tip="색깔 선택기를 열려면 클릭하십시오."
      width="100" />
     <text
      top_pad="-2"
@@ -98,13 +98,13 @@ Global Settings:
      left="15"
      name="label_online"
      width="200">
-Online notifications:
+온라인 알림:
     </text>
     <check_box
      top_pad="4"
      follows="left|top"
      height="12"
-     label="Show Online Notices for ALL friends as toasts"
+     label="모든 친구를 위한 온라인 공지사항을 건배로 표시"
      left_delta="5"
      name="ChatOnlineNotification"
      width="270"
@@ -112,7 +112,7 @@ Online notifications:
     <check_box
      follows="left|top"
      height="12"
-     label="Show Online Notices for ALL friends in nearby chat"
+     label="근처 채팅에 있는 모든 친구의 온라인 공지사항 표시"
      name="OnlineOfflinetoNearbyChat"
      width="270"
      control_name="OnlineOfflinetoNearbyChat"/>
@@ -120,7 +120,7 @@ Online notifications:
      disabled_control="ChatOnlineNotification"
      follows="left|top"
      height="12"
-     label="Show Online Notices for certain Sets as toast"
+     label="특정 세트에 대한 온라인 공지사항을 토스트로 표시"
      name="FSContactSetsNotificationToast"
      width="270"
      control_name="FSContactSetsNotificationToast"/>
@@ -128,7 +128,7 @@ Online notifications:
      disabled_control="OnlineOffLinetoNearbyChat"
      follows="left|top"
      height="12"
-     label="Show Online Notices for certain Sets in nearby chat"
+     label="특정 세트에 대한 온라인 공지사항을 근처 채팅에 표시"
      name="FSContactSetsNotificationNearbyChat"
      width="270"
      control_name="FSContactSetsNotificationNearbyChat"/>
@@ -139,13 +139,13 @@ Online notifications:
      left="15"
      name="label_colors"
      width="200">
-Custom Colors:
+사용자 설정 색깔:
     </text>
     <check_box
      top_pad="4"
      follows="left|top"
      height="12"
-     label="Color mini map icon based on their Contact Set"
+     label="연락처 집합을 기준으로 한 색상 미니 맵 아이콘"
      left_delta="5"
      name="FSContactSetsColorizeMiniMap"
      width="270"
@@ -153,14 +153,14 @@ Custom Colors:
     <check_box
      follows="left|top"
      height="12"
-     label="Color name tag based on their Contact Set"
+     label="연락처 집합에 기반한 색상 이름 태그"
      name="FSContactSetsColorizeNameTag"
      width="270"
      control_name="FSContactSetsColorizeNameTag"/>
     <check_box
      follows="left|top"
      height="12"
-     label="Color radar list entry based on their Contact Set"
+     label="연락처 세트에 기반한 컬러 레이더 목록 항목"
      name="FSContactSetsColorizeRadar"
      width="270"
      control_name="FSContactSetsColorizeRadar"/>
@@ -168,7 +168,7 @@ Custom Colors:
      follows="left|top"
      height="12"
      initial_value="false"
-     label="Color chat based on their Contact Set"
+     label="연락처 집합에 기반한 색깔 채팅"
      name="FSContactSetsColorizeChat"
      width="270"
      control_name="FSContactSetsColorizeChat"/>

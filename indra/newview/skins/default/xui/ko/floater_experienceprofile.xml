@@ -7,7 +7,7 @@
   enabled="true"
   can_resize="true"
   help_topic="floater_experienceprofile"
-  title="Experience Profile"
+  title="경험 프로필"
   save_rect="true"
   min_width="325"
   min_height="325"
@@ -15,7 +15,7 @@
   height="650">
   <floater.string
     name="empty_slurl">
-    (none)
+    (없음)
   </floater.string>
   <floater.string
     name="maturity_icon_general">
@@ -37,7 +37,7 @@
     left_pad="4"
     name="edit_title"
     top="2"
-    value="Experience Profile"
+    value="경험 프로필"
     use_ellipses="true"
     left="6"
     right="-3"/>
@@ -116,7 +116,7 @@
               <button
                 follows="top|right"
                 height="23"
-                label="Edit"
+                label="수정"
                 layout="topleft"
                 name="edit_btn"
                 width="100"
@@ -206,7 +206,7 @@
                 left="10"
                 name="ContentRating"
                 width="75">
-                Rating:
+                별점:
               </text>
               <text
                 type="string"
@@ -240,7 +240,7 @@
                 left="10"
                 name="Location"
                 width="290">
-                Location:
+                위치:
               </text>
               <text
                 type="string"
@@ -274,7 +274,7 @@
                 layout="topleft"
                 left="10"
                 width="290">
-                Marketplace store:
+                마켓플레이스 매장:
               </text>
               <text
                 type="string"
@@ -306,7 +306,7 @@
                 left="10"
                 name="Owner"
                 width="75">
-                Owner:
+                소유주:
               </text>
               <text
                 type="string"
@@ -341,7 +341,7 @@
                 left="10"
                 name="Group"
                 width="75">
-                Group:
+                그룹:
               </text>
               <text
                 type="string"
@@ -380,7 +380,7 @@
               <button
                 follows="bottom|left"
                 height="23"
-                label="Forget"
+                label="잊어버림"
                 layout="topleft"
                 name="forget_btn"
                 width="94"
@@ -408,12 +408,12 @@
                 name="privileged"
                 visible="false"
                 width="288">
-                This experience is enabled for all residents.
+                이 환경은 모든 거주자에 대해 활성화됩니다.
               </text>
               <button
                 follows="bottom|left"
                 height="23"
-                label="Report Abuse"
+                label="남용 신고"
                 layout="topleft"
                 name="report_btn"
                 width="94"
@@ -529,16 +529,16 @@
             left="10"
             name="edit_ContentRating"
             right="-10">
-            Rating:
+            별점:
           </text>
           <icons_combo_box
             follows="right|top"
             height="20"
-            label="Moderate"
+            label="적당함"
             layout="topleft"
             right="-10"
             top_pad="-19"
-            tool_tip="Increasing the maturity rating on an experience will reset permission for all residents which have allowed the experience."
+            tool_tip="경험의 성숙도 등급을 높이면 경험이 허용된 모든 거주자에 대한 권한이 재설정됩니다."
             name="edit_ContentRatingText"
             width="105">
             <icons_combo_box.drop_down_button
@@ -547,7 +547,7 @@
               imgoverlay_label_space="3"
               pad_left="3"/>
             <icons_combo_box.item
-              label="Adult"
+              label="성인"
               name="Adult"
               value="42">
               <item.columns
@@ -557,7 +557,7 @@
                 width="20"/>
             </icons_combo_box.item>
             <icons_combo_box.item
-              label="Moderate"
+              label="적당함"
               name="Mature"
               value="21">
               <item.columns
@@ -567,7 +567,7 @@
                 width="20"/>
             </icons_combo_box.item>
             <icons_combo_box.item
-              label="General"
+              label="일반"
               name="PG"
               value="13">
               <item.columns
@@ -587,7 +587,7 @@
             top_pad="10"
             name="edit_Location"
             right="90">
-            Location:
+            위치:
           </text>
           <text
             type="string"
@@ -605,7 +605,7 @@
             width="125"
             height="23"
             name="location_btn"
-            label="Set to Current"
+            label="현재에 설정"
             />
           <button
             top_pad="-23"
@@ -613,7 +613,7 @@
             right="-10"
             width="125"
             name="clear_btn"
-            label="Clear Location"/>
+            label="위치 지우기"/>
           <text
             name="edit_marketplace"
             type="string"
@@ -624,7 +624,7 @@
             layout="topleft"
             left="10"
             right="-10">
-            Marketplace store:
+            마켓플레이스 매장:
           </text>
           <line_editor
             type="string"
@@ -643,7 +643,7 @@
                      layout="topleft"
                      follows="top|left"
                      tool_tip=""
-                     label="Enable Experience"
+                     label="경험 활성화"
                      name="edit_enable_btn"/>
           <check_box width="125"
                      height="21"
@@ -652,7 +652,7 @@
                      visible="false"
                      layout="topleft"
                      follows="top|left|right"
-                     label="Hide In Search"
+                     label="찾기에서 숨기기"
                      name="edit_private_btn"/>
           <text
             follows="left|top|right"
@@ -663,12 +663,12 @@
             name="changes"
             use_ellipses="true"
             word_wrap="true"
-            value="Experience changes may take several minutes to be seen on all regions."
+            value="모든 지역에서 경험의 변화가 나타나는 데 몇 분 정도 걸릴 수 있습니다."
             right="-10"/>
           <button
             follows="top|left"
             height="23"
-            label="Back"
+            label="뒤"
             layout="topleft"
             name="cancel_btn"
             width="125"
@@ -678,7 +678,7 @@
           <button
             follows="top|right"
             height="23"
-            label="Save"
+            label="저장"
             layout="topleft"
             name="save_btn"
             top_pad="-23"

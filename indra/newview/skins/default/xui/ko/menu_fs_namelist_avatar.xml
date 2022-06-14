@@ -3,14 +3,14 @@
  layout="topleft"
  name="Namelist Popup">
     <menu_item_call
-     label="View Profile"
+     label="프로필 보기"
      layout="topleft"
      name="show_agent">
         <menu_item_call.on_click
          function="Namelist.ShowProfile"/>
     </menu_item_call>
     <menu_item_call
-     label="Send IM..."
+     label="IM 전송..."
      layout="topleft"
      name="send_im">
         <menu_item_call.on_click
@@ -20,7 +20,7 @@
          parameter="can_send_im"/>
     </menu_item_call>
     <menu_item_call
-     label="View chat transcripts..."
+     label="채팅 내용 보기..."
      layout="topleft"
      name="chat_history">
         <menu_item_call.on_click
@@ -30,7 +30,7 @@
          parameter="can_callog"/>
     </menu_item_call>
     <menu_item_call
-     label="친구추가"
+     label="친구 추가"
      layout="topleft"
      name="add_friend">
         <menu_item_call.on_click
@@ -40,14 +40,14 @@
          parameter="can_add_friend"/>
     </menu_item_call>
     <menu_item_call
-     label="Add to Set..."
+     label="집합에 추가..."
      layout="topleft"
      name="Add to Set">
         <menu_item_call.on_click
          function="Namelist.AddToContactSet"/>
     </menu_item_call>
     <menu_item_call
-     label="Zoom at Resident"
+     label="거주자에게 확대"
      layout="topleft"
      name="zoom_agent">
         <menu_item_call.on_click
@@ -56,7 +56,7 @@
          function="Namelist.EnableZoomIn"/>
     </menu_item_call>
     <menu_item_call
-     label="Teleport to Resident"
+     label="거주자에게 순간이동"
      layout="topleft"
      name="teleportto_agent">
         <menu_item_call.on_click
@@ -66,7 +66,7 @@
          parameter="teleport_to"/>
     </menu_item_call>
     <menu_item_call
-     label="Offer Teleport"
+     label="순간이동 제공"
      layout="topleft"
      name="offer_teleport">
         <menu_item_call.on_click
@@ -76,7 +76,7 @@
          parameter="offer_teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Request Teleport"
+     label="순간이동 요청"
      layout="topleft"
      name="request_teleport">
         <menu_item_call.on_click
@@ -86,7 +86,7 @@
          parameter="request_teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Track Resident"
+     label="거주자 추적"
      layout="topleft"
      name="track_agent">
         <menu_item_call.on_click
@@ -96,7 +96,7 @@
          parameter="track_avatar"/>
     </menu_item_call>
     <menu_item_call
-     label="Remove Friend..."
+     label="친구 삭제..."
      layout="topleft"
      name="remove_friend">
         <menu_item_call.on_click
@@ -107,7 +107,7 @@
     </menu_item_call>
     <menu_item_separator/>
     <menu_item_check
-     label="Block"
+     label="차단"
      layout="topleft"
      name="Block">
         <menu_item_check.on_click
@@ -120,14 +120,14 @@
     </menu_item_check>
     <menu_item_separator/>
     <menu_item_call
-     label="Copy Name to clipboard"
+     label="클립보드에 이름 복사"
      layout="topleft"
      name="url_copy_label">
         <menu_item_call.on_click
          function="Namelist.CopyLabel"/>
     </menu_item_call>
     <menu_item_call
-     label="Copy Url to clipboard"
+     label="클립보드에 URL 복사"
      layout="topleft"
      name="url_copy">
         <menu_item_call.on_click

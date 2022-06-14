@@ -7,14 +7,14 @@
  help_topic="floater_region_restarting"
  single_instance="true"
  reuse_instance="false"
- title="Region Restart">
+ title="지역 재시작">
     <string name="RegionName">
-    The region you are in now ([NAME]) is about to restart.
+    현재 [NAME]에 있는 영역을 다시 시작하려고 합니다.
 
-If you stay in this region you will be logged out.
+이 지역에 머무르면 로그아웃됩니다.
     </string>
     <string name="RestartSeconds">
-     Seconds until restart
+     다시 시작할 때까지의 시간(초)
 [SECONDS]
     </string>
     <panel
@@ -51,9 +51,9 @@ If you stay in this region you will be logged out.
      top="5"
      left="40"
      width="230">
-    The region you are in now (-The longest region name-) is about to restart.
+    현재 지역(가장 긴 지역 이름-)을(를) 다시 시작하려고 합니다.
 
-If you stay in this region you will be logged out.
+이 지역에 머무르면 로그아웃됩니다
     </text>
     <text
      type="string"
@@ -68,14 +68,14 @@ If you stay in this region you will be logged out.
      left="0"
      halign="center"
      width="290">
-     Seconds until restart
+     재시작까지 걸리는 시간(초)
      32767
     </text>
     <combo_box
      allow_text_entry="true"
      follows="top|right"
      height="23"
-     label="My Landmarks"
+     label="내 랜드마크"
      layout="topleft"
      top_pad="10"
      left="30"
@@ -84,7 +84,7 @@ If you stay in this region you will be logged out.
      right="-50"
      width="182">
         <combo_box.item
-         label="My Landmarks"
+         label="내 랜드마크들"
          name="item1"
          value="None" />
     </combo_box>
@@ -93,7 +93,7 @@ If you stay in this region you will be logged out.
      height="23"
      image_overlay="Arrow_Right"
      image_overlay_alignment="center"
-     tool_tip="Teleport to Landmark"
+     tool_tip="랜드마크로 순간이동"
      layout="topleft"
      left_pad="1"
      name="teleport_btn"

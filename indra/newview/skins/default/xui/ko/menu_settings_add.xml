@@ -5,7 +5,7 @@
         name="menu_settings_add"
         visible="false">
     <menu_item_call
-            label="New Sky"
+            label="새 하늘"
             layout="topleft"
             name="New Sky">
         <menu_item_call.on_click
@@ -15,7 +15,7 @@
                 function="MyEnvironments.EnvironmentEnabled" />
     </menu_item_call>
     <menu_item_call
-            label="New Water"
+            label="새 물"
             layout="topleft"
             name="New Water">
         <menu_item_call.on_click
@@ -25,7 +25,7 @@
                 function="MyEnvironments.EnvironmentEnabled" />
     </menu_item_call>
     <menu_item_call
-            label="New Day Cycle"
+            label="새 주간 주기"
             layout="topleft"
             name="New Day Cycle">
         <menu_item_call.on_click

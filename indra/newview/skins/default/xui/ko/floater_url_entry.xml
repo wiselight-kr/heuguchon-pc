@@ -17,7 +17,7 @@
      left="10"
      name="media_label"
      top="20">
-        Media URL:
+        미디어 URL:
     </text>
     <combo_box
      allow_text_entry="true"
@@ -41,7 +41,7 @@
     <button
      follows="top|left"
      height="20"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="5"
      name="cancel_btn"
@@ -50,7 +50,7 @@
     <button
      follows="top|right"
      height="20"
-     label="Clear"
+     label="지우기"
      layout="topleft"
      left_pad="65"
      name="clear_btn"
@@ -66,7 +66,7 @@
      layout="topleft"
      left="152"
      name="loading_label"
-     visible="false">
-        Loading...
+     visible="true">
+        로딩중...
     </text>
 </floater>

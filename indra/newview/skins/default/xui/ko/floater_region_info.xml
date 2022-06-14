@@ -6,7 +6,7 @@
  layout="topleft"
  name="regioninfo"
  save_rect="true"
- title="Region / Estate"
+ title="지역 / 재산"
  width="485">
     <tab_container
      bottom="535"

@@ -9,7 +9,7 @@
  name="toolbox floater"
  help_topic="toolbox_floater"
  save_rect="true"
- short_title="Build Tools"
+ short_title="건설 도구"
  single_instance="true"
  save_visibility="true"
  sound_flags="0"
@@ -91,7 +91,7 @@
      layout="topleft"
      left="10"
      name="button focus"
-     tool_tip="Focus"
+     tool_tip="집중"
      width="35">
 	  <button.commit_callback
 	     function="BuildTool.setTool"
@@ -106,7 +106,7 @@
      layout="topleft"
      left_pad="10"
      name="button move"
-     tool_tip="Move"
+     tool_tip="이동"
      width="35">
 	  <button.commit_callback
 	     function="BuildTool.setTool"
@@ -121,7 +121,7 @@
      layout="topleft"
      left_pad="10"
      name="button edit"
-     tool_tip="Edit"
+     tool_tip="수정"
      width="35">
 	  <button.commit_callback
 	     function="BuildTool.setTool"
@@ -136,7 +136,7 @@
      layout="topleft"
      left_pad="10"
      name="button create"
-     tool_tip="Create"
+     tool_tip="생성"
      width="35">
 	  <button.commit_callback
 	     function="BuildTool.setTool"
@@ -151,7 +151,7 @@
      layout="topleft"
      left_pad="10"
      name="button land"
-     tool_tip="Land"
+     tool_tip="랜드"
      width="35">
 	  <button.commit_callback
 	     function="BuildTool.setTool"
@@ -288,7 +288,7 @@
      top_pad="0"
      layout="topleft"
      name="prev_part_btn"
-     tool_tip="Select previous linked part or face"
+     tool_tip="이전에 연결된 부품 또는 면 선택"
      width="12">
 	  <button.commit_callback
 	     function="Tools.SelectNextPart"
@@ -301,7 +301,7 @@
      left_pad="0"
      layout="topleft"
      name="next_part_btn"
-     tool_tip="Select next linked part or face"
+     tool_tip="다음 링크된 부품 또는 면 선택"
      width="12">
 	  <button.commit_callback
 	     function="Tools.SelectNextPart"
@@ -335,7 +335,7 @@
      left_pad="4"
      follows="left|top"
      name="combobox grid mode"
-     tool_tip="Choose the type of grid ruler for positioning the object"
+     tool_tip="객체를 배치하기 위한 그리드 눈금자 유형"
      top_delta="0"
      width="108">
       <combo_box.item
@@ -411,7 +411,7 @@
      layout="topleft"
      follows="top|left"
      name="Options..."
-     tool_tip="See more grid options"
+     tool_tip="그리드 옵션 더 보기"
      top="80"
      right="-10"
      width="18"
@@ -429,7 +429,7 @@
      layout="topleft"
      left="10"
      name="ToolCube"
-     tool_tip="Cube"
+     tool_tip="정육면체"
      top="58"
      width="20" />
     <button
@@ -442,7 +442,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolPrism"
-     tool_tip="Prism"
+     tool_tip="프리즘"
      top_delta="0"
      width="20" />
     <button
@@ -455,7 +455,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolPyramid"
-     tool_tip="Pyramid"
+     tool_tip="피라미드"
      top_delta="0"
      width="20" />
     <button
@@ -468,7 +468,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolTetrahedron"
-     tool_tip="Tetrahedron"
+     tool_tip="사면체"
      top_delta="0"
      width="20" />
     <button
@@ -481,7 +481,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolCylinder"
-     tool_tip="Cylinder"
+     tool_tip="실린더"
      top_delta="0"
      width="20" />
     <button
@@ -494,7 +494,7 @@
      layout="topleft"
      left="10"
      name="ToolHemiCylinder"
-     tool_tip="Hemicylinder"
+     tool_tip="반실린더"
      top="84"
      width="20" />
     <button
@@ -507,7 +507,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolCone"
-     tool_tip="Cone"
+     tool_tip="원뿔"
      top_delta="0"
      width="20" />
     <button
@@ -520,7 +520,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolHemiCone"
-     tool_tip="Hemicone"
+     tool_tip="반원뿔"
      top_delta="0"
      width="20" />
     <button
@@ -533,7 +533,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolSphere"
-     tool_tip="Sphere"
+     tool_tip="구"
      top_delta="0"
      width="20" />
     <button
@@ -546,7 +546,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolHemiSphere"
-     tool_tip="Hemisphere"
+     tool_tip="반구"
      top_delta="0"
      width="20" />
     <button
@@ -559,7 +559,7 @@
      layout="topleft"
      left="10"
      name="ToolTorus"
-     tool_tip="Torus"
+     tool_tip="원환체"
      top="109"
      width="20" />
     <button
@@ -572,7 +572,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolTube"
-     tool_tip="Tube"
+     tool_tip="관"
      top_delta="0"
      width="20" />
     <button
@@ -585,7 +585,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolRing"
-     tool_tip="Ring"
+     tool_tip="고리"
      top_delta="0"
      width="20" />
     <button
@@ -598,7 +598,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolTree"
-     tool_tip="Tree"
+     tool_tip="나무"
      top_delta="0"
      width="20" />
     <button
@@ -613,7 +613,7 @@
      layout="topleft"
      left_delta="29"
      name="ToolGrass"
-     tool_tip="Grass"
+     tool_tip="풀"
      top_delta="0"
      width="20" />
     <check_box
@@ -801,7 +801,7 @@
      layout="topleft"
      left="135"
      name="button apply to selection"
-     tool_tip="Modify selected land"
+     tool_tip="선택된 랜드 수정"
      width="82">
 	  <button.commit_callback
 	     function="BuildTool.applyToSelection"/>
@@ -815,7 +815,7 @@
      top_pad="28"
      left="10"
      name="link_num_obj_count"
-	 tool_tip="Link number may not be accurate."
+	 tool_tip="링크 번호가 정확하지 않을 수 있습니다."
      width="143">
         [DESC] [NUM]
     </text>
@@ -970,7 +970,7 @@
              select_on_focus="true"
              top_delta="0"
              width="190"
-             tool_tip="The name is limited to 63 characters. Longer prim names are cut short. Names can only consist of printable characters found in the ASCII-7 (non-extended) character set, with the exception of the vertical bar/pipe &apos;|&apos;." />
+             tool_tip="이름은 63자로 제한됩니다. 긴 원시 이름은 짧게 자릅니다. 이름은 수직 막대/파이프를 제외하고 ASCII-7(확장되지 않은) 문자 집합에 있는 인쇄 가능한 문자로만 구성될 수 있습니다 &apos;|&apos;." />
             <text
              follows="left|top"
              height="10"
@@ -989,7 +989,7 @@
              select_on_focus="true"
              top_delta="0"
              width="190"
-             tool_tip="When people have &apos;Hover Tips on All Objects&apos; selected in the viewer's settings, they'll see the object description pop-up for any object under their mouse pointer. The prim description is limited to 127 bytes any string longer then that will be truncated." />
+             tool_tip="사람들이 &apos를 가질 때;뷰어 설정에서 선택한 모든 개체에 대한 마우스 포인터 아래에 개체 설명 팝업이 표시됩니다. 프림 설명은 잘릴 문자열보다 긴 문자열로 127바이트로 제한됩니다." />
             <text
              type="string"
              left="10"
@@ -1114,7 +1114,7 @@
 			 top_delta="0"
 			 name="button set group"
 			 tab_stop="false"
-			 tool_tip="Choose a group to share this object's permissions"
+			 tool_tip="이 개체의 권한을 공유할 그룹 선택"
 			 width="18" />
             <check_box
              height="19"
@@ -1122,7 +1122,7 @@
              label="공유"
              layout="topleft"
              name="checkbox share with group"
-             tool_tip="Allow all members of the set group to share your modify permissions for this object. You must Deed to enable role restrictions."
+             tool_tip="집합 그룹의 모든 구성원이 이 개체에 대한 수정 권한을 공유할 수 있습니다. 역할 제한을 사용하려면 증서를 작성해야 합니다."
              top_pad="3"
              left="85"
              width="87" />
@@ -1135,7 +1135,7 @@
              name="button deed"
              right="-5"
 			 top_delta="-1"
-             tool_tip="Deeding gives this item away with next owner permissions. Group shared objects can be deeded by a group officer."
+             tool_tip="디딩은 다음 소유자 권한과 함께 이 항목을 제공합니다. 그룹 관리자가 그룹 공유 개체를 삭제할 수 있습니다."
              width="80" />
             <text
              type="string"
@@ -1157,7 +1157,7 @@
              width="148"
              top_delta="-4"
              left_pad="10"
-             tool_tip="A click action enables you to interact with an object with a single left click. Each click action has a special cursor indicating what it does. Some click actions have requirements to function. For example Touch and Pay require scripts" >
+             tool_tip="클릭 동작을 사용하면 한 번의 마우스 왼쪽 단추로 개체와 상호 작용할 수 있습니다. 각 클릭 동작에는 해당 동작을 나타내는 특수 커서가 있습니다. 일부 클릭 동작에는 작동하기 위한 요구 사항이 있습니다. 예를 들어 터치 및 결제 스크립트 필요" >
                 <combo_box.item
                  label="터치  (기본값)"
                  name="Touch/grab(default)"
@@ -1204,7 +1204,7 @@
              name="checkbox for sale"
              left="7"
              width="100"
-             tool_tip="Lets people buy this object, its content or it copy inworld for specified price." />
+             tool_tip="사람들이 지정된 가격으로 이 개체, 컨텐츠 또는 복사본을 세계에서 구입할 수 있습니다." />
   <!-- NEW SALE TYPE COMBO BOX -->
       <combo_box
             left_pad="8"
@@ -1218,7 +1218,7 @@
             mouse_opaque="true"
             name="sale type"
             width="168"
-            tool_tip="Select whether purchaser will receive a copy, copy of the content or item itself." >
+            tool_tip="구매자가 내용 또는 품목 자체의 사본, 사본 또는 사본을 받을지 선택." >
         <combo_box.item
            name="Copy"
            label="복사"
@@ -1250,7 +1250,7 @@ even though the user gets a free copy.
       min_val="0"
       height="20"
       max_val="999999999"
-      tool_tip="Object cost." />
+      tool_tip="개체 가격." />
 	<button
 	 left_pad="10"
 	 enabled="false"
@@ -1258,7 +1258,7 @@ even though the user gets a free copy.
 	 height="20"
 	 label="적용"
 	 name="button mark for sale"
-	 tool_tip="Mark/Update object(s) for sale."
+	 tool_tip="개체를 판매용으로 표시/업데이트."
 	 width="100"/>
 	<button
 	 top_pad="7"
@@ -1267,7 +1267,7 @@ even though the user gets a free copy.
 	 height="20"
 	 label="키 복사"
 	 name="btnCopyKeys"
-     tool_tip="Copies the selected object's root key to the clipboard. Shift-click copies all of the selected objects' keys" width="80">
+     tool_tip="선택한 개체의 루트 키를 클립보드에 복사합니다. Shift 클릭 시 선택한 개체의 모든 키가 복사됩니다." width="80">
 		<button.commit_callback
 		function="BuildTool.CopyKeys"/>
 	</button>
@@ -1278,7 +1278,7 @@ even though the user gets a free copy.
        layout="topleft"
 	   left_pad="15"
        name="search_check"
-       tool_tip="Let people see this object in search results" />
+       tool_tip="검색 결과에서 이 개체를 볼 수 있도록 허용" />
 		<panel
          border="false"
          follows="left|top"
@@ -1318,7 +1318,7 @@ even though the user gets a free copy.
              label="이동"
              layout="topleft"
              name="checkbox allow everyone move"
-             tool_tip="Anyone can move the object."
+             tool_tip="누구나 개체를 이동할 수 있습니다."
              left="10"
              width="85" />
             <check_box
@@ -1327,7 +1327,7 @@ even though the user gets a free copy.
              layout="topleft"
              left_pad="0"
              name="checkbox allow everyone copy"
-             tool_tip="Anyone can take a copy of the object. Object and all of its contents must be copy and transfer permissive."
+             tool_tip="누구나 그 물건의 복사본을 가져갈 수 있다. 개체 및 개체의 모든 내용은 복사 및 전송 허용이어야 합니다."
              width="80" />
             <check_box
              height="19"
@@ -1335,7 +1335,7 @@ even though the user gets a free copy.
              layout="topleft"
              left_pad="0"
              name="checkbox allow export"
-             tool_tip="Anyone can export this Object."
+             tool_tip="누구나 이 개체를 내보낼 수 있습니다."
              width="90" />
             <text
                type="string"
@@ -1353,7 +1353,7 @@ even though the user gets a free copy.
              left="10"
              height="10"
              name="checkbox next owner can modify"
-             tool_tip="Next owner can edit properties like item name or scale of this object."
+             tool_tip="다음 소유자는 이 개체의 항목 이름 또는 축척과 같은 속성을 편집할 수 있습니다."
              width="85" />
             <check_box
              follows="left|top|right"
@@ -1362,17 +1362,17 @@ even though the user gets a free copy.
              layout="topleft"
              left_pad="0"
              name="checkbox next owner can copy"
-             tool_tip="Next owner can make unlimited copies of this object. Copies maintain creator information, and can never be more permissive than the item being copied."
+             tool_tip="다음 소유자는 이 개체의 복사본을 무제한으로 만들 수 있습니다. 복사본은 작성자 정보를 유지하며, 복사되는 항목보다 더 허용적일 수 없습니다."
              width="80" />
             <check_box
              follows="left|top|right"
              height="19"
-             label="환승"
+             label="이전"
              layout="topleft"
              name="checkbox next owner can transfer"
              left_pad="0"
              top_delta="0"
-             tool_tip="Next owner can give away or resell this object."
+             tool_tip="다음 소유자는 이 개체를 양도하거나 재판매할 수 있습니다."
              width="100" />
 <!-- *NOTE: These "B/O/G/E/N/F fields may overlap "perm_modify" above, 
      but that's OK, this is used only for debugging. -->
@@ -1490,7 +1490,7 @@ even though the user gets a free copy.
          border="false"
          follows="all"
          height="567"
-         label="개체"
+         label="갸채"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -1515,7 +1515,7 @@ even though the user gets a free copy.
              label="잠김"
              layout="topleft"
              name="checkbox locked"
-             tool_tip="Prevents object from being moved or deleted. Frequently useful during building to avoid unintended edits."
+             tool_tip="개체를 이동하거나 삭제할 수 없습니다. 의도하지 않은 편집을 방지하기 위해 빌드하는 동안 자주 유용함."
              top_pad="5"
              left="10"
              width="123" />
@@ -1524,7 +1524,7 @@ even though the user gets a free copy.
              label="물리"
              layout="topleft"
              name="Physical Checkbox Ctrl"
-             tool_tip="Allows object to be pushed and affected by gravity"
+             tool_tip="물체가 밀리고 중력에 의해 영향을 받습니다."
              top_pad="0"
              width="123" />
             <check_box
@@ -1532,7 +1532,7 @@ even though the user gets a free copy.
              label="임시적"
              layout="topleft"
              name="Temporary Checkbox Ctrl"
-             tool_tip="Causes object to be deleted 1 minute after creation"
+             tool_tip="생성 후 1분 후에 개체를 삭제합니다."
              top_pad="0"
              width="123" />
             <check_box
@@ -1540,7 +1540,7 @@ even though the user gets a free copy.
              label="팬텀"
              layout="topleft"
              name="Phantom Checkbox Ctrl"
-             tool_tip="Causes object to not collide with other objects or avatars"
+             tool_tip="개체가 다른 개체 또는 아바타와 충돌하지 않도록 합니다."
              top_pad="0"
              width="123" />
         <text
@@ -1612,7 +1612,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="copypos"
              enabled="true"
-             tool_tip="Copy Position"
+             tool_tip="위치 복사"
              width="20" />
             <button
              tab_stop="false"
@@ -1623,7 +1623,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="pastepos"
              enabled="true"
-             tool_tip="Paste Position"
+             tool_tip="위치 붙여넣기"
              width="20" />
             <button
              tab_stop="false"
@@ -1634,7 +1634,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="pasteposclip"
              enabled="true"
-             tool_tip="Paste Position from Clipboard"
+             tool_tip="클립보드에서 위치 붙여넣기"
              width="20" />
             <text
              type="string"
@@ -1706,7 +1706,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="copysize"
              enabled="true"
-             tool_tip="Copy Size"
+             tool_tip="크기 복사"
              width="20" />
             <button
              tab_stop="false"
@@ -1717,7 +1717,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="pastesize"
              enabled="true"
-             tool_tip="Paste Size"
+             tool_tip="크기 붙여넣기"
              width="20" />
             <button
              tab_stop="false"
@@ -1728,7 +1728,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="pastesizeclip"
              enabled="true"
-             tool_tip="Paste Size from Clipboard"
+             tool_tip="클립보드에서 크기 붙여넣기"
              width="20" />
             <text
              type="string"
@@ -1800,7 +1800,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="copyrot"
              enabled="true"
-             tool_tip="Copy Rotation"
+             tool_tip="회전 복사"
              width="20" />
             <button
              tab_stop="false"
@@ -1811,7 +1811,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="pasterot"
              enabled="true"
-             tool_tip="Paste Rotation"
+             tool_tip="회전 붙여넣기"
              width="20" />
             <button
              tab_stop="false"
@@ -1822,7 +1822,7 @@ even though the user gets a free copy.
              mouse_opaque="true"
              name="pasterotclip"
              enabled="true"
-             tool_tip="Paste Rotation from Clipboard"
+             tool_tip="클립보드에서 회전 붙여넣기"
              width="20" />
 
  <!--           <text
@@ -1857,7 +1857,7 @@ even though the user gets a free copy.
 			 layout="topleft"
 			 left="5"
 			 name="copyparams"
-			 tool_tip="Copy Parameters to Clipboard"
+			 tool_tip="클립보드에 매개변수 복사"
 			 width="52">
 			</button>
 			<button
@@ -1867,7 +1867,7 @@ even though the user gets a free copy.
 			 layout="topleft"
 			 left_pad="10"
 			 name="pasteparams"
-			 tool_tip="Paste Parameters from Clipboard"
+			 tool_tip="클립보드에서 매개변수 붙여넣기"
 			 width="52">
 			</button>
             <combo_box
@@ -2301,7 +2301,7 @@ even though the user gets a free copy.
              left="125"
              name="text taper2"
              top_pad="3"
-			 tool_tip="Does not work on all prim types."
+			 tool_tip="일부 프림 유형에서 작동하지 않음."
              width="150">
                 테이퍼 프로필
             </text>
@@ -2394,7 +2394,7 @@ even though the user gets a free copy.
              layout="topleft"
              left="125"
              name="sculpt texture control"
-             tool_tip="Click to choose a picture"
+             tool_tip="사진을 선택하려면 클릭하십시오"
              top="70"
              visible="false"
              width="145" />
@@ -2404,7 +2404,7 @@ even though the user gets a free copy.
              layout="topleft"
              left_delta="0"
              name="sculpt mirror control"
-             tool_tip="Flips sculpted prim along the X axis"
+             tool_tip="X축을 따라 조각된 프림을 뒤집습니다."
              top_pad="8"
              visible="false"
              width="130" />
@@ -2414,7 +2414,7 @@ even though the user gets a free copy.
              layout="topleft"
              left_delta="0"
              name="sculpt invert control"
-             tool_tip="Inverts the sculpted prims normals, making it appear inside-out"
+             tool_tip="조각된 프라이머 정상을 반전하여 안쪽으로 표시합니다."
              top_pad="4"
              visible="false"
              width="121" />
@@ -2429,7 +2429,7 @@ even though the user gets a free copy.
              top_pad="10"
              visible="false"
              width="130">
-                Stitching type
+                스티치형
             </text>
             <combo_box
              height="19"
@@ -2438,7 +2438,7 @@ even though the user gets a free copy.
              name="sculpt type control"
              top_pad="4"
              visible="false"
-			 tool_tip="The &quot;none&quot; option has been removed because it is identical with &quot;Plane&quot;."
+			 tool_tip="&quot;없음 &quot; 옵션이 &quot;와 동일하기 때문에 제거되었습니다.평면&quot;."
              width="150">
                 <combo_box.item
                  label="구"
@@ -2608,7 +2608,7 @@ even though the user gets a free copy.
           name="LOD_swap_defaults_label"
           top_pad="3"
           value="Default"
-          tool_tip="The default LOD factor setting that will be applied by most viewers."
+          tool_tip="기본 LOD 요인 대부분의 뷰어에 의해 적용될 것입니다."
           visible="true"
           width="60" />
         <text
@@ -2619,7 +2619,7 @@ even though the user gets a free copy.
           halign="center"
           name="LOD_swap_usr_label"
           top_delta="0"
-          tool_tip="Your current setting, taken from RenderVolumeLODFactor"
+          tool_tip="RenderVolumeLODFactor에서 가져온 현재 설정"
           value="Yours"
           visible="true"
           width="30" />
@@ -2634,7 +2634,7 @@ even though the user gets a free copy.
           value="LOD Swap"
           visible="false"
           width="60" />
-        <string name="ll_lod_tooltip_msg">Linden Lab Second Life Viewer default ([FACTOR])</string>
+        <string name="ll_lod_tooltip_msg">Linden Lab Second Life Viewer 기본값 ([FACTOR])</string>
         <text
           follows="left|top"
           height="16"
@@ -2646,7 +2646,7 @@ even though the user gets a free copy.
           value="LL"
           visible="false"
           width="30" />
-        <string name="fs_lod_tooltip_msg">[APPNAME] Viewer default ([FACTOR])</string>
+        <string name="fs_lod_tooltip_msg">[APPNAME] 뷰어 기본값 ([FACTOR])</string>
         <text
           follows="left|top"
           height="16"
@@ -2668,7 +2668,7 @@ even though the user gets a free copy.
           halign="center"
           name="LOD_swap_usr_current"
           top_delta="0"
-          tool_tip="Your current LOD Factor"
+          tool_tip="현재 LOD 계수"
           value="[FACTOR]"
           visible="false"
           width="30" />
@@ -2733,7 +2733,7 @@ even though the user gets a free copy.
           right="-1"
           word_wrap="true"
           top_pad="15"
-          tool_tip="Best practice: Creators should ensure good LOD behaviour for Default settings across all viewers."
+          tool_tip="모범 사례: 작성자는 모든 뷰어에서 기본 설정에 대해 양호한 LOD 동작을 보장해야 합니다."
           height="100">
           이 표에는 LOD 변경 경계가 카메라에서 미터 단위로 표시되어 있습니다.
         </text>
@@ -2784,7 +2784,7 @@ even though the user gets a free copy.
              layout="topleft"
              left="10"
              name="Animated Mesh Checkbox Ctrl"
-             tool_tip="Allows rigged mesh objects to be animated independently"
+             tool_tip="조작된 메시 개체를 독립적으로 애니메이션화할 수 있습니다"
              top_pad="5"
              width="121" />
             <check_box
@@ -2794,7 +2794,7 @@ even though the user gets a free copy.
              layout="topleft"
              left="10"
              name="Flexible1D Checkbox Ctrl"
-             tool_tip="Allows object to flex about the Z axis (Client-side only)"
+             tool_tip="개체가 Z 축을 중심으로 구부러지도록 허용(클라이언트 측에만 해당)"
              top_pad="5"
              width="121" />
             <spinner
@@ -2912,7 +2912,7 @@ even though the user gets a free copy.
              layout="topleft"
              left="10"
              name="Light Checkbox Ctrl"
-             tool_tip="Causes object to emit light"
+             tool_tip="물체가 빛을 방출하게 합니다."
              top_pad="15"
              width="60" />
             <color_swatch
@@ -2925,7 +2925,7 @@ even though the user gets a free copy.
              left_pad="10"
              top_pad="-17"
              name="colorswatch"
-             tool_tip="Click to open color picker"
+             tool_tip="색상 선택기를 열려면 클릭하십시오."
              width="40" />
          <texture_picker
             allow_no_texture="true"
@@ -2938,7 +2938,7 @@ even though the user gets a free copy.
             left_delta="57"
             mouse_opaque="true"
             name="light texture control"
-            tool_tip="Click to choose a projection image (only has effect with deferred rendering enabled)"
+            tool_tip="투영 이미지를 선택하려면 클릭하십시오(연기 렌더링이 활성화된 경우에만 적용됨)."
             width="32" />
           <spinner
              follows="left|top"
@@ -3032,7 +3032,7 @@ even though the user gets a free copy.
 				     layout="topleft"
 				     follows="left|top"
 				     name="Physics Shape Type Combo Ctrl"
-				     tool_tip="Choose the physics shape type"
+				     tool_tip="물리적 형상 유형 선택"
 				     width="108"/>
           <button
               follows="left|top"
@@ -3046,7 +3046,7 @@ even though the user gets a free copy.
               layout="topleft"
               left_delta="117"
               name="PhysicsViewToggle"
-              tool_tip="Toggle the physics view on in edit mode"
+              tool_tip="편집 모드에서 물리 보기 켜기"
               width="19"/>
             <combo_box
              height="19"
@@ -3272,7 +3272,7 @@ even though the user gets a free copy.
          layout="topleft"
          left_delta="0"
          name="checkbox show owners"
-         tool_tip="Colorize the parcels according to the type of owner: &#10;&#10;Green = Your land &#10;Aqua = Your group&apos;s land &#10;Red = Owned by others &#10;Yellow = For sale &#10;Purple = For auction &#10;Grey = Public"
+         tool_tip="소유자의 유형에 따라 구획을 색칠합니다. &#10;&#10;녹색 = 귀하의 토지 &#10;아쿠아 = 당신의 그룹&apos;sland &#10;Red = 타인의 소유 &#10;노란색 = 판매용 &#10;보라색 = 경매용 &#10;회색 = 공공"
          top_pad="8"
          width="205" />
         <text

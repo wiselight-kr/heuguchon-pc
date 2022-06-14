@@ -4,14 +4,14 @@
      left="0" bottom="0" visible="false"
      mouse_opaque="false">
   <menu_item_call
-   label="Block Resident by name..."
+   label="이름으로 거주자 차단..."
    name="block_resident_by_name">
       <on_click
        function="Block.Action"
        parameter="block_res_by_name"/>
   </menu_item_call>
   <menu_item_call
-   label="Block object by name"
+   label="이름으로 개체 차단"
    name="block_object_by_name">
       <on_click
        function="Block.Action"

@@ -7,7 +7,7 @@
  name="floaterland"
  help_topic="floaterland"
  save_rect="true"
- title="About Land"
+ title="랜드에 대하여"
  width="490">
     <floater.string
       name="maturity_icon_general">
@@ -274,7 +274,7 @@
           <!--  <button
              follows="left|top"
              height="23"
-             label="Profile"
+             label="프로필"
              layout="topleft"
              left_pad="4"
              name="Profile..."
@@ -328,7 +328,7 @@
              layout="topleft"
              left="108"
              name="check deed"
-             tool_tip="A group officer can deed this land to the group, so it will be supported by the group&apos;s land allocation."
+             tool_tip="그룹 임원은 이 토지를 그룹에 양도할 수 있으므로 그룹&apos;의 토지 할당에 의해 지원된다."
              top_pad="3"
              width="146" />
             <button
@@ -340,7 +340,7 @@
              left_pad="2"
              right="-10"
              name="Deed..."
-             tool_tip="You may only deed land if you are an officer in the selected group."
+             tool_tip="선택된 그룹의 임원일 경우에만 토지를 양도할 수 있습니다."
              top_delta="-2"
              width="90" />
             <check_box
@@ -350,7 +350,7 @@
              layout="topleft"
              left="108"
              name="check contrib"
-             tool_tip="When the land is deeded to the group, the former owner contributes enough land allocation to support it."
+             tool_tip="토지가 그룹에 양도되면, 이전 소유자는 그것을 지탱할 수 있는 충분한 토지 할당을 기부한다."
              width="199"
              top_pad="-2"/>
             <text
@@ -544,7 +544,7 @@
              layout="topleft"
              left="10"
              name="Linden Sale..."
-             tool_tip="Land must be owned, set content, and not already for auction."
+             tool_tip="토지는 소유해야 하며, 내용을 설정해야 하며, 아직 경매에 부쳐서는 안 됩니다."
              top_pad="-23"
              width="150" />
             <button
@@ -575,7 +575,7 @@
              layout="topleft"
              left_delta="-135"
              name="Buy Pass..."
-             tool_tip="A pass gives you temporary access to this land."
+             tool_tip="이 땅에 임시로 접근할 수 있는 통로가 있다."
              top_delta="0"
              width="130" />
             <button
@@ -978,7 +978,7 @@
              layout="topleft"
              name="ReturnOwner..."
              right="-10"
-             tool_tip="Return objects to their owners."
+             tool_tip="소유자에게 개체 반환."
              width="119"
              top_delta="0"/>
             <text
@@ -1026,7 +1026,7 @@
              layout="topleft"
              name="ReturnGroup..."
              right="-10"
-             tool_tip="Return objects to their owners."
+             tool_tip="소유자에게 개체 반환."
              width="119"
              top_delta="0"/>
             <text
@@ -1074,7 +1074,7 @@
              layout="topleft"
              name="ReturnOther..."
              right="-10"
-             tool_tip="Return objects to their owners."
+             tool_tip="소유자에게 개체 반환."
              width="119"
              top_delta="0"/>
             <text
@@ -1146,7 +1146,7 @@
      name="Refresh List"
      left_pad="5"
      right="-183"
-     tool_tip="Refresh Object List"
+     tool_tip="개체 목록 새로 고침"
      width="20"
   top_delta="-6"/>
             <button
@@ -1281,7 +1281,7 @@
              label="모두"
              layout="topleft"
              name="edit land check"
-             tool_tip="If checked, anyone can terraform your land. It is best to leave this unchecked, as you can always edit your own land."
+             tool_tip="확인되면 누구나 땅을 테라포밍할 수 있습니다. 항상 자신의 영역을 편집할 수 있으므로 이 옵션을 선택하지 않은 상태로 두는 것이 가장 좋습니다."
              left_pad="2"
              width="130" />
 			 
@@ -1317,7 +1317,7 @@
              label="모두"
              layout="topleft"
              name="check fly"
-             tool_tip="If checked, Residents can fly on your land. If unchecked, they can only fly into and over your land."
+             tool_tip="이 옵션을 선택하면 거주자가 해당 땅에서 비행할 수 있습니다. 만약 체크하지 않으면, 그들은 오직 당신의 땅으로 그리고 위로 날아갈 수 있습니다."
              left_pad="2"
              width="130" />
             <text
@@ -1337,7 +1337,7 @@
              layout="topleft"
              left_pad="2"
              name="edit objects check"
-             tool_tip="If checked, Residents can create and rez objects on your land."
+             tool_tip="이 옵션을 선택하면 거주자가 해당 토지에 개체를 만들고 크기를 조정할 수 있습니다."
              width="130" />
             <check_box
              height="16"
@@ -1345,7 +1345,7 @@
              layout="topleft"
              left_pad="2"
              name="edit group objects check"
-             tool_tip="If checked, parcel group members can create and rez objects on your land."
+             tool_tip="이 옵션을 선택하면 구획 그룹 구성원이 해당 토지에 개체를 만들고 크기를 조정할 수 있습니다."
              width="70" />
             <text
              type="string"
@@ -1364,7 +1364,7 @@
              layout="topleft"
              left_pad="2"
              name="all object entry check"
-             tool_tip="If checked, Residents can move existing objects from other parcels onto this parcel."
+             tool_tip="이 옵션을 선택하면 거주자가 다른 소포에 있는 기존 물체를 이 소포에 옮길 수 있습니다."
              top_delta="0"
              width="130" />
             <check_box
@@ -1373,7 +1373,7 @@
              layout="topleft"
              left_pad="2"
              name="group object entry check"
-             tool_tip="If checked, parcel group members can move existing objects from other parcels onto this parcel."
+             tool_tip="이 옵션을 선택하면 구획 그룹 구성원이 다른 구획에서 이 구획으로 기존 객체를 이동할 수 있습니다."
              top_delta="0"
              width="70" />
             <text
@@ -1393,7 +1393,7 @@
              layout="topleft"
              left_pad="2"
              name="check other scripts"
-             tool_tip="If checked, Residents can run scripts on your parcel, including attachments."
+             tool_tip="이 옵션을 선택하면 거주자가 첨부 파일을 포함하여 소포에 대한 스크립트를 실행할 수 있습니다."
              top_delta="0"
              width="130" />
             <check_box
@@ -1402,7 +1402,7 @@
              layout="topleft"
              left_pad="2"
              name="check group scripts"
-             tool_tip="If checked, parcel group members can run scripts on your parcel, including attachments."
+             tool_tip="이 옵션을 선택하면 구획 그룹 구성원이 첨부 파일을 포함하여 구획에서 스크립트를 실행할 수 있습니다."
              top_delta="0"
              width="70" />
           <panel
@@ -1419,7 +1419,7 @@
              layout="topleft"
              left="18"
              name="check safe"
-             tool_tip="If checked, sets the land to Safe, disabling damage combat. If cleared, damage combat is enabled."
+             tool_tip="이 옵션을 선택하면 육지를 안전으로 설정하여 피해 전투를 비활성화합니다. 삭제하면 데미지 전투가 활성화됩니다."
              top="140"
              width="200" />
             <check_box
@@ -1428,7 +1428,7 @@
              layout="topleft"
              left_pad="5"
              name="PushRestrictCheck"
-             tool_tip="Prevents scripts from pushing. Checking this option may be useful for preventing disruptive behavior on your land."
+             tool_tip="스크립트가 푸시되지 않도록 합니다. 이 옵션을 선택하면 토지에서의 중단 동작을 방지하는 데 유용할 수 있습니다."
              top="140"
              width="119" />
             <check_box
@@ -1437,7 +1437,7 @@
              layout="topleft"
              left="18"
              name="ShowDirectoryCheck"
-             tool_tip="Let people see this parcel in search results"
+             tool_tip="검색 결과에서 이 구획을 볼 수 있도록 허용"
              top="162"
              width="430" />
             <combo_box
@@ -1452,55 +1452,55 @@
                 <combo_box.item
                  label="아무 카테고리"
                  name="item0"
-                 value="none" />
+                 value="없음" />
                 <combo_box.item
                  label="린든 위치"
                  name="item1"
-                 value="linden" />
+                 value="린든" />
                 <combo_box.item
                  label="예술 &amp; 문화"
                  name="item3"
-                 value="arts" />
+                 value="예술" />
                 <combo_box.item
                  label="비즈니스"
                  name="item4"
-                 value="store" />
+                 value="상점" />
                 <combo_box.item
                  label="교육"
                  name="item5"
-                 value="educational" />
+                 value="교육적인" />
                 <combo_box.item
                  label="게임"
                  name="item6"
-                 value="game" />
+                 value="게임" />
                 <combo_box.item
                  label="놀기"
                  name="item7"
-                 value="gather" />
+                 value="모이다" />
                 <combo_box.item
                  label="신참 친구"
                  name="item8"
-                 value="newcomer" />
+                 value="신참" />
                 <combo_box.item
                  label="공원 &amp; 자연"
                  name="item9"
-                 value="park" />
+                 value="공원" />
                 <combo_box.item
                  label="주택지"
                  name="item10"
-                 value="home" />
+                 value="집" />
                 <combo_box.item
                  label="쇼핑"
                  name="item11"
-                 value="shopping" />
+                 value="쇼핑" />
                 <combo_box.item
                  label="대여"
                  name="item13"
-                 value="rental" />
+                 value="대여" />
                 <combo_box.item
                  label="다른"
                  name="item12"
-                 value="other" />
+                 value="다른" />
             </combo_box>
             <check_box
              height="16"
@@ -1558,7 +1558,7 @@
              left="224"
              top="184"
              name="SeeAvatarsCheck"
-             tool_tip="Allows avatars on other parcels to see and chat with avatars on this parcel, and you to see and chat with them."
+             tool_tip="다른 구획의 아바타가 이 구획의 아바타를 보고 대화할 수 있도록 허용하고 사용자는 해당 구획의 아바타를 보고 대화할 수 있습니다."
              width="10" />
             <text
              type="string"
@@ -1583,7 +1583,7 @@
              layout="topleft"
              name="Set"
              left="255"
-             tool_tip="Sets the landing point where visitors arrive. Sets to your avatar&apos;s location inside this parcel."
+             tool_tip="방문자가 도착하는 도착 지점을 설정합니다. 이 소포 안의 아바타&apos; 위치로 설정합니다."
              width="50" />
             <button
              follows="right|top"
@@ -1593,7 +1593,7 @@
              layout="topleft"
              left_pad="5"
              name="Clear"
-             tool_tip="Clear the landing point"
+             tool_tip="착륙 지점 지우기"
              width="55" />
             <button
              follows="right|top"
@@ -1603,7 +1603,7 @@
              layout="topleft"
              left_pad="5"
              name="teleport_to_landing_point"
-             tool_tip="Teleport to the landing point"
+             tool_tip="착륙 지점으로 순간이동"
              width="55" />
             <text
              type="string"
@@ -1623,23 +1623,23 @@
              layout="topleft"
              name="landing type"
              top_pad="0"
-             tool_tip="Teleport Routing -- select how to handle teleports onto your land"
+             tool_tip="텔레포트 라우팅 - 사용자의 땅에서 텔레포트를 처리하는 방법을 선택합니다"
              width="120">
                 <combo_box.item
                  enabled="true"
                  label="차단"
                  name="Blocked"
-                 value="Blocked" />
+                 value="차단된" />
                 <combo_box.item
                  enabled="true"
                  label="착륙 지점"
                  name="LandingPoint"
-                 value="Landing Point" />
+                 value="착륙지점" />
                 <combo_box.item
                  enabled="true"
                  label="아무데나"
                  name="Anywhere"
-                 value="Anywhere" />
+                 value="아무데나" />
             </combo_box>
         </panel>
         <panel
@@ -1668,7 +1668,7 @@
              layout="topleft"
              left_pad="0"
              name="media type"
-             tool_tip="Specify if the URL is a movie, web page, or other media"
+             tool_tip="URL이 동영상, 웹 페이지 또는 기타 미디어인지 지정"
              width="120"
              top_delta="0"/>
             <text
@@ -1753,7 +1753,7 @@
              layout="topleft"
              left="110"
              name="media texture"
-             tool_tip="Click to choose a picture"
+             tool_tip="사진을 선택하려면 클릭하십시오"
              top_delta="0"
              width="64" />
             <text
@@ -1776,7 +1776,7 @@
              left="107"
              name="media_auto_scale"
              top_pad="-10"
-             tool_tip="Checking this option will scale the content for this parcel automatically. It may be slightly slower and lower quality visually but no other texture scaling or alignment will be required."
+             tool_tip="이 옵션을 선택하면 이 구획의 내용 크기가 자동으로 조정됩니다. 시각적으로 약간 느리고 품질이 낮을 수 있지만 다른 텍스처 스케일링 또는 정렬은 필요하지 않습니다."
              width="200" />
             <text
              type="string"
@@ -1786,7 +1786,7 @@
              layout="topleft"
              left="10"
              name="media_size"
-             tool_tip="Size to render Web media, leave 0 for default."
+             tool_tip="웹 미디어를 렌더링할 크기. 기본값으로 0으로 유지."
              width="100"
              top_pad="10">
                 크기:
@@ -1803,7 +1803,7 @@
              left_pad="0"
              max_val="1024"
              name="media_size_width"
-             tool_tip="Size to render Web media, leave 0 for default."
+             tool_tip="웹 미디어를 렌더링할 크기. 기본값으로 0으로 유지."
              top_delta="0"
              width="64" />
             <spinner
@@ -1818,7 +1818,7 @@
              left_pad="16"
              max_val="1024"
              name="media_size_height"
-             tool_tip="Size to render Web media, leave 0 for default."
+             tool_tip="웹 미디어를 렌더링할 크기. 기본값으로 0으로 유지."
              top_delta="0"
              width="64" />
             <text
@@ -1851,7 +1851,7 @@
              layout="topleft"
              left_pad="-3"
              name="media_loop"
-             tool_tip="Play media in a loop.  When the media has finished playing, it will restart from the beginning."
+             tool_tip="루프에서 미디어를 재생합니다. 미디어 재생이 완료되면 미디어가 처음부터 다시 시작됩니다."
              top_delta="-1"
              width="200" />
         </panel>
@@ -1895,7 +1895,7 @@
              left_pad="0"
              top_delta="0"
              name="stream_add_btn"
-             tool_tip="Add Music Stream URL to saved stream list"
+             tool_tip="저장된 스트림 목록에 음악 스트림 URL 추가"
              width="23" />
             <button
              follows="left|top"
@@ -1905,7 +1905,7 @@
              left_pad="2"
              top_delta="0"
              name="stream_delete_btn"
-             tool_tip="Remove Music Stream URL from saved stream list"
+             tool_tip="저장된 스트림 목록에서 음악 스트림 URL 제거"
              width="23" />
             <button
 			 enabled="true"
@@ -1916,7 +1916,7 @@
              left_pad="2"
              top_delta="0"
              name="stream_copy_btn"
-             tool_tip="Copy Music Stream URL to clipboard"
+             tool_tip="음악 스트림 URL을 클립보드에 복사"
              width="23" />
             <text
              type="string"
@@ -2036,7 +2036,7 @@
              layout="topleft"
              left_delta="20"
              name="limit_age_verified"
-             tool_tip="Residents must be age 18 or older to access this parcel. See the [SUPPORT_SITE] for more information."
+             tool_tip="거주자는 18세 이상이어야 이 소포를 이용할 수 있습니다. 자세한 내용은 [SUPPORT_SITE]를 참조하십시오."
              top_pad="4"
              width="278" />
             <check_box
@@ -2046,7 +2046,7 @@
              layout="topleft"
              left_delta="0"
              name="limit_payment"
-             tool_tip="Residents must have payment information on file to access this parcel.  See the [SUPPORT_SITE] for more information."
+             tool_tip="거주자들은 이 소포에 접근하기 위해 지불 정보를 가지고 있어야 한다. 자세한 내용은 [SUPPORT_SITE]를 참조하십시오."
              top_pad="4"
              width="278" />
             <check_box
@@ -2055,7 +2055,7 @@
              layout="topleft"
              left="8"
              name="GroupCheck"
-             tool_tip="Set group in the General tab."
+             tool_tip="일반 탭에서 그룹 설정."
              top="73"
              width="278" />
             <check_box
@@ -2065,7 +2065,7 @@
              layout="topleft"
              left_delta="0"
              name="PassCheck"
-             tool_tip="Allows temporary access to this parcel"
+             tool_tip="이 구획에 대한 임시 액세스 허용"
              top_pad="4"
              width="120" />
             <combo_box
@@ -2078,11 +2078,11 @@
                 <combo_box.item
                  label="아무나"
                  name="Anyone"
-                 value="anyone" />
+                 value="아무나" />
                 <combo_box.item
                  label="그룹"
                  name="Group"
-                 value="group" />
+                 value="그룹" />
             </combo_box>
             <spinner
              enabled="false"
@@ -2155,7 +2155,7 @@
              left="0"
              multi_select="true"
              name="AccessList"
-             tool_tip="([LISTED] listed, [MAX] max)"
+             tool_tip="([LISTED] 상장, [MAX] 최대)"
              width="230" />
             <button
              follows="bottom"
@@ -2205,7 +2205,7 @@
              multi_select="true"
              draw_heading="true"
              name="BannedList"
-             tool_tip="([LISTED] listed, [MAX] max)"
+             tool_tip="([LISTED] 상장, [MAX] 최대)"
              width="230">
              <columns
               label="이름"

@@ -6,7 +6,7 @@
  layout="topleft"
  name="associate listing"
  help_topic="associate_listing"
- title="Associate Listing"
+ title="목록 연결"
  width="375">
     <text
      type="string"
@@ -18,7 +18,7 @@
      left="10"
      top="25"
      name="message">
-        Listing ID:
+        목록 ID:
     </text>
     <line_editor
      type="string"
@@ -31,7 +31,7 @@
      name="listing_id"
      top_pad="5"
      width="350">
-        Type ID here
+        여기에 ID를 입력하시오
     </line_editor>
     <button
      follows="bottom|left"

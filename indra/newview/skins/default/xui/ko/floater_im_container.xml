@@ -12,7 +12,7 @@
  save_visibility="true"
  single_instance="true"
  reuse_instance="true"
- title="CONVERSATIONS"
+ title="대화"
  bottom="-50"
  right="-5"
  width="450"
@@ -67,7 +67,7 @@
                      layout="topleft"
                      left="5"
                      name="sort_btn"
-                     tool_tip="View/sort options"
+                     tool_tip="보기/정렬 옵션"
                      top="1"
                      width="31" />
                     <button
@@ -81,7 +81,7 @@
                      top="1"
                      left_pad="2"
                      name="add_btn"
-                     tool_tip="Start a new conversation"
+                     tool_tip="새로운 대화 시작"
                      width="31"/>
                     <button
                      follows="top|left"
@@ -94,7 +94,7 @@
                      top="1"
                      left_pad="2"
                      name="speak_btn"
-                     tool_tip="Speak with people using your microphone"
+                     tool_tip="마이크를 사용하여 사람들과 대화하기"
                      width="31"/>	
                 </layout_panel>
                 <layout_panel
@@ -112,7 +112,7 @@
                      top="1"
                      left="4"
                      name="expand_collapse_btn"
-                     tool_tip="Collapse/Expand this list"
+                     tool_tip="이 목록 붕괴/확장"
                      width="35" />
                 </layout_panel>
             </layout_stack>
@@ -157,7 +157,7 @@
                      top="1"
                      right="-10"
                      name="stub_collapse_btn"
-                     tool_tip="Collapse this pane"
+                     tool_tip="이 창 접기"
                      width="31" />
                     <text
                      type="string"
@@ -172,7 +172,7 @@
                      valign="center"
                      parse_urls="true"
                      wrap="true">
-                         This conversation is in a separate window.   [secondlife:/// Bring it back.]
+                         이 대화는 별도의 창에 있습니다.   [secondlife:/// Bring it back.]
                     </text>
                 </panel>
             </panel_container>

@@ -2,7 +2,7 @@
 <floater
  name="radar"
  help_topic="fs_radar"
- title="Radar"
+ title="레이더"
  width="400"
  height="440"
  min_width="365"

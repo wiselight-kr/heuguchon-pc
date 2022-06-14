@@ -5,7 +5,7 @@
  layout="topleft"
  name="groups"
  help_topic="groups"
- title="Groups"
+ title="그룹"
  width="280">
     <text
      type="string"
@@ -17,7 +17,7 @@
      name="groupdesc"
      top="24"
      width="248">
-        Choose a group:
+        그룹 선택:
     </text>
     <scroll_list
      height="165"
@@ -41,7 +41,7 @@
      width="80" />
     <button
      height="20"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_pad="8"

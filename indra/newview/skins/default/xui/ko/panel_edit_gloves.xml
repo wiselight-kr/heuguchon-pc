@@ -22,11 +22,11 @@
         default_image_name="Default"
         follows="left|top"
         height="80"
-        label="Fabric"
+        label="천"
         layout="topleft"
         left="10"
         name="Fabric"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top="10"
         width="64" >
          <texture_picker.commit_callback
@@ -36,11 +36,11 @@
         can_apply_immediately="true"
         follows="left|top"
         height="80"
-        label="Color/Tint"
+        label="색상/색조"
         layout="topleft"
         left_pad="20"
         name="Color/Tint"
-        tool_tip="Click to open color picker"
+        tool_tip="색상 선택기를 열려면 클릭하십시오."
         top="10"
         width="64" >
          <color_swatch.commit_callback
@@ -75,7 +75,7 @@
             fit_panel="false"
 			min_height="150"
 			name="gloves_main_tab"
-			title="Gloves">
+			title="장갑">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"

@@ -7,7 +7,7 @@
  layout="topleft"
  name="scriptlimits"
  save_rect="true"
- title="Script Information"
+ title="스크립트 정보"
  min_width="620"
  width="620">
     <tab_container

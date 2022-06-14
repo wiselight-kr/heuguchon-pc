@@ -13,13 +13,13 @@
   save_visibility="false"
   single_instance="true"
   reuse_instance="true"
-  title="Blocked Residents &amp; Objects"
+  title="차단된 거주자 &amp; 개체"
   width="310">
       <panel
         class="fs_panel_block_list_sidetray"
         name="panel_block_list_sidetray"
         filename="panel_fs_block_list_sidetray.xml"
-        label="Blocked Residents &amp; Objects"
+        label="차단된 거주자 &amp; 개체"
         font="SansSerifBold"
         top="0"
         left="0"

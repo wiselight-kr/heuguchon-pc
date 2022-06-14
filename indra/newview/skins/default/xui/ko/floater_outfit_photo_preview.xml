@@ -10,15 +10,15 @@
  width="410">
    <floater.string
      name="Title">
-        Texture: [NAME]
+        텍스쳐: [NAME]
     </floater.string>
     <floater.string
      name="exceed_limits">
-        Max outfit photo size is [MAX_WIDTH]*[MAX_HEIGHT]. Please select another texture.
+        최대 장비 사진 크기는 [MAX_WIDTH]*[MAX_HEIGHT]입니다. 다른 텍스쳐를 선택하십시오.
     </floater.string>
     <floater.string
      name="photo_confirmation">
-         Set this as Outfit Photo for [OUTFIT]?
+         [OUTFIT]의 의상 사진으로 설정하시겠습니까?
     </floater.string>
     <text
      type="string"
@@ -57,7 +57,7 @@
     <button
      follows="right|bottom"
      height="22"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      name="cancel_btn"
      right="-20"

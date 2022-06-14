@@ -9,7 +9,7 @@
  visible="false"
  width="128">
     <menu_item_check
-         label="Show Coordinates"
+         label="좌표 표시"
          name="Show Coordinates">
            <on_click
              function="ToggleControl"
@@ -19,7 +19,7 @@
              parameter="NavBarShowCoordinates" />
     </menu_item_check>
     <menu_item_check
-      label="Show Parcel Properties"
+      label="구획 특성 표시"
       name="Show Parcel Properties">
       <on_click
         function="ToggleControl"
@@ -33,7 +33,7 @@
     <!-- Label of 'Landmark' item is changing in runtime, 
     see  AddLandmarkNavBarMenu/EditLandmarkNavBarMenu in strings.xml -->
     <menu_item_call
-     label="Landmark"
+     label="랜드마크"
      name="Landmark">
         <on_click
          function="TopInfoBar.Action"
@@ -42,7 +42,7 @@
     <menu_item_separator
      name="Separator" />
     <menu_item_call
-     label="Copy"
+     label="복사"
      name="Copy">
         <on_click
          function="TopInfoBar.Action"

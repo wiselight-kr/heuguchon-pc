@@ -11,11 +11,11 @@
              top="5"
              left="10"
              name="resolution_combobox"
-             tool_tip="Image resolution"
+             tool_tip="이미지 해상도"
              height="21"
              width="124">
               <combo_box.item
-               label="Current Window"
+               label="현재 창"
                name="CurrentWindow"
                value="[i0,i0]" />
               <combo_box.item
@@ -43,7 +43,7 @@
                name="1600x1200"
                value="[i1600,i1200]" />
               <combo_box.item
-               label="Custom"
+               label="사용자 설정"
                name="Custom"
                value="[i-1,i-1]" />
             </combo_box>
@@ -51,15 +51,15 @@
                follows="left|top"
 			   layout="topleft"
                name="filters_combobox"
-               tool_tip="Image filters"
+               tool_tip="이미지 필터"
                top_delta="0"
                left_pad="4"
                height="21"
                width="124">
                 <combo_box.item
-                 label="No Filter"
+                 label="필터 없음"
                  name="NoFilter"
-                 value="NoFilter" />
+                 value="필터 없음" />
             </combo_box>
             <spinner
              allow_text_entry="false"
@@ -105,7 +105,7 @@
              follows="left|top"
              layout="topleft"
              initial_value="true"
-             label="Keep Aspect ratio"
+             label="가로 세로 비율 유지"
              name="keep_aspect_ratio"
              left_pad="4"
              height="16"
@@ -135,7 +135,7 @@
                 type="string"
                 visible="true"
                 width="251">
-                Refreshing...
+                새로고침중...
             </text>
 			<view_border 
 			 bevel_style="in"
@@ -150,11 +150,11 @@
              follows="left|top"
 			 layout="topleft"
              height="23"
-             label="Refresh"
+             label="새로고침"
              left="10"
              top_pad="5"
              name="new_snapshot_btn"
-             tool_tip="Click to refresh"
+             tool_tip="새로고침 하려면 클릭하시오"
              visible="true"
              width="100" >
              <button.commit_callback
@@ -164,11 +164,11 @@
                 follows="right|top"
 				layout="topleft"
                 height="23"
-                label="Preview"
+                label="미리보기"
                 right="-10"
                 top_delta="0"
                 name="big_preview_btn"
-                tool_tip="Click to toggle preview"
+                tool_tip="미리보기를 전환하려면 클릭하십시오."
                 is_toggle="true"
                 visible="true"
                 width="100" >
@@ -185,7 +185,7 @@
              name="title_label"
              top_pad="5"
              type="string">
-              Title:
+              제목:
             </text>
             <line_editor
              follows="left|top"
@@ -211,7 +211,7 @@
              top_pad="5"
 			 width="25"
              type="string">
-              Description:
+              묘사:
             </text>
             <text_editor
              follows="left|top"
@@ -231,7 +231,7 @@
              follows="left|top"
 			 layout="topleft"
              initial_value="true"
-             label="Include location at end of description"
+             label="설명 끝에 위치 포함"
              name="add_location_cb"
               left="9"
               height="16"
@@ -245,9 +245,9 @@
              left="10"
              name="tags_label"
              top_pad="2"
-             tool_tip="Separate tags with spaces. Use &quot;&quot; for multi-word tags"
+             tool_tip="태그를 공백으로 구분합니다. 다중 단어 태그에 &quot;&quot; 사용"
              type="string">
-              Tags:
+              태그:
             </text>
             <text_editor
              follows="left|top"
@@ -269,19 +269,19 @@
              top_pad="5"
              left="10"
              name="rating_combobox"
-             tool_tip="Flickr content rating"
+             tool_tip="Flickr 내용 등급"
              height="21"
              width="250">
               <combo_box.item
-               label="Safe Flickr rating"
+               label="안전 Flickr 등급"
                name="SafeRating"
                value="1" />
               <combo_box.item
-               label="Moderate Flickr rating"
+               label="적당한 Flickr 등급"
                name="ModerateRating"
                value="2" />
               <combo_box.item
-               label="Restricted Flickr rating"
+               label="제한 Flickr 등급"
                name="RestrictedRating"
                value="3" />
             </combo_box>
@@ -291,7 +291,7 @@
            top_pad="5"
            left="10"
            height="23"
-           label="Share"
+           label="공유"
            name="post_photo_btn"
            width="100">
             <button.commit_callback
@@ -301,7 +301,7 @@
                follows="right|top"
 			   layout="topleft"
                height="23"
-               label="Cancel"
+               label="취소"
                name="cancel_photo_btn"
                right="-10"
                top_delta="0"

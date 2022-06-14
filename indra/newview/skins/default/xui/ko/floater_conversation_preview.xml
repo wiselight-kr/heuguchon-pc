@@ -10,11 +10,11 @@
  name="preview_conversation"
  positioning="centered"
  save_rect="true"
- title="Conversation:"
+ title="대화:"
  width="400">
     <floater.string
      name="Title">
-        Conversation: [NAME]
+        대화: [NAME]
     </floater.string>
     <fs_chat_history
      font="SansSerifSmall"
@@ -37,7 +37,7 @@
      name="page_label"
      right="-110"
      top_pad="7"
-     value="Page"
+     value="페이지"
      width="35">
     </text>
     <spinner

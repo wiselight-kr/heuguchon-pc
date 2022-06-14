@@ -7,7 +7,7 @@
  bevel_style="in"
  follows="left|top|right|bottom"
  height="569"
- label="Edit Pick"
+ label="선택 편집"
  layout="topleft"
  left="0"
  min_height="350"
@@ -17,7 +17,7 @@
  width="333">
  <panel.string
   name="location_notice">
-    (will update after save)
+    (저장 후 업데이트됨)
  </panel.string>
   <button
      follows="top|left"
@@ -44,7 +44,7 @@
      text_color="LtGray"
      top="4"
      width="250">
-        Edit Pick
+        선택 편집
     </text>
    <scroll_container
      color="SL-Background"
@@ -82,7 +82,7 @@
            layout="topleft"
            name="edit_icon"
            label=""
-           tool_tip="Click to select an image"
+           tool_tip="이미지를 선택하려면 클릭하십시오."
            top="10"
            left="11"
            width="286" />
@@ -99,7 +99,7 @@
          name="Name:"
          text_color="white"
          width="280">
-            Title:
+            제목:
         </text>
         <line_editor
          follows="left|top|right"
@@ -124,7 +124,7 @@
          name="description_label"
          text_color="white"
          width="280">
-            Description:
+            묘사:
         </text>
         <text_editor
          follows="left|top|right"
@@ -151,7 +151,7 @@
          text_color="white"
          top_pad="20"
          width="280">
-            Location:
+            위치:
         </text>
         <text
          type="string"
@@ -164,12 +164,12 @@
          top_pad="2"
          width="280"
          word_wrap="true">
-            loading...
+            로딩중...
         </text>
         <button
          follows="left|top"
          height="23"
-         label="Set to Current Location"
+         label="현재 위치로 설정"
          layout="topleft"
          left="8"
          top_pad="0"
@@ -180,7 +180,7 @@
     <panel
      follows="left|right|bottom"
      height="23"
-     label="bottom_panel"
+     label="하위 패널"
      layout="topleft"
      left="8"
      name="bottom_panel"
@@ -208,7 +208,7 @@
 		        <button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Save Pick"
+		         label="선택 저장"
 		         layout="topleft"
 		         name="save_changes_btn"
 		         top="0"
@@ -227,7 +227,7 @@
 		        <button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Cancel"
+		         label="취소"
 		         layout="topleft"
 		         name="cancel_btn"
 		         top="0"

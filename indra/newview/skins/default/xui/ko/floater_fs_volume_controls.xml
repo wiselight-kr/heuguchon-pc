@@ -14,7 +14,7 @@
  save_rect="true"
  save_visibility="false"
  single_instance="true"
- title="Volume Controls"
+ title="음량 조절"
 >
 	<panel
 	 name="global_volume_controls_panel"

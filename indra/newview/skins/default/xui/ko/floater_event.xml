@@ -3,20 +3,20 @@
  height="400"
  can_resize="true"
  help_topic="event_details"
- label="Event"
+ label="이벤트"
  layout="topleft"
  name="Event"
  save_rect="true"
  save_visibility="false"
- title="Event Details"
+ title="이벤트 세부사항"
  width="600">
 	<floater.string
 		name="loading_text">
-		Loading...
+		로딩중...
 	</floater.string>
     <floater.string
      name="done_text">
-        Done
+        완료
     </floater.string>
   <web_browser
      trusted_content="true" 

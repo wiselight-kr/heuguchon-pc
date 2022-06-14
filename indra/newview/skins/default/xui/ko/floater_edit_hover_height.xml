@@ -14,7 +14,7 @@
  help_topic="hover_height"
  save_rect="true"
  save_visibility="true"
- title="Set Hover Height"
+ title="호버 높이 설정"
  width="515">
       <slider
      enabled="false"

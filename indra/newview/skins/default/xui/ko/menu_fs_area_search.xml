@@ -3,7 +3,7 @@
  layout="topleft"
  name="Object List popup">
 	<menu_item_call
-	 label="Script Info"
+	 label="스크립트 정보"
 	 layout="topleft"
 	 name="script_info">
 		<menu_item_call.on_click
@@ -14,7 +14,7 @@
 		 parameter="script"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Touch"
+	 label="터치"
 	 layout="topleft"
 	 name="touch_object">
 		<menu_item_call.on_click
@@ -22,7 +22,7 @@
 		 parameter="touch"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Sit"
+	 label="앉기"
 	 layout="topleft"
 	 name="sit_on_object">
 		<menu_item_call.on_click
@@ -30,7 +30,7 @@
 		 parameter="u_sit_on_object"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Teleport to"
+	 label="~로 순간이동"
 	 layout="topleft"
 	 name="teleport_to_object">
 		<menu_item_call.on_click
@@ -41,7 +41,7 @@
 		 parameter="one"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Zoom"
+	 label="확대"
 	 layout="topleft"
 	 name="look_at_object">
 		<menu_item_call.on_click
@@ -55,7 +55,7 @@
 		 parameter="in_dd"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Inspect"
+	 label="조사"
 	 layout="topleft"
 	 name="inspect_object">
 		<menu_item_call.on_click
@@ -63,7 +63,7 @@
 		 parameter="inspect"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Edit"
+	 label="편집"
 	 layout="topleft"
 	 name="edit_object">
 		<menu_item_call.on_click
@@ -71,7 +71,7 @@
 		 parameter="edit"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Return"
+	 label="내보내기"
 	 layout="topleft"
 	 name="return_object">
 		<menu_item_call.on_click
@@ -79,7 +79,7 @@
 		 parameter="return"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Delete"
+	 label="삭제"
 	 layout="topleft"
 	 name="delete_object">
 		<menu_item_call.on_click
@@ -87,7 +87,7 @@
 		 parameter="delete"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Blacklist"
+	 label="블랙리스트"
 	 layout="topleft"
 	 name="blacklist_object">
 		<menu_item_call.on_click
@@ -97,7 +97,7 @@
 <!-- <menu_item_separator
 	 layout="topleft"/>  -->
 	<menu_item_call
-	 label="Buy object"
+	 label="개체 구매"
 	 layout="topleft"
 	 name="object_buy">
 		<menu_item_call.on_click
@@ -110,7 +110,7 @@
 	<menu_item_separator
 	 layout="topleft"/>
 	<menu_item_call
-	 label="Filter My Objects"
+	 label="내 개체 필터"
 	 layout="topleft"
 	 name="filter_my_objects">
 		<menu_item_call.on_click
@@ -120,7 +120,7 @@
 	<menu_item_separator
 	 layout="topleft"/>
 	<menu_item_call
-	 label="Select All"
+	 label="모두 선택"
 	 layout="topleft"
 	 name="select_all">
 		<menu_item_call.on_click
@@ -128,7 +128,7 @@
 	   parameter="select_all"/>
 	</menu_item_call>
 	<menu_item_call
-	 label="Clear Selection"
+	 label="선택 지우기"
 	 layout="topleft"
 	 name="clear_selection">
 		<menu_item_call.on_click

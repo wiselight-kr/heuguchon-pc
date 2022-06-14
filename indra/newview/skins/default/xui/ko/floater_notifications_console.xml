@@ -8,12 +8,12 @@
  name="notifications_console"
  help_topic="notifications_console"
  single_instance="true"
- title="Notifications Console"
+ title="알림 콘솔"
  width="500">
     <combo_box
      follows="left|right|top"
      height="18"
-     label="Select notification type"
+     label="알림 유형 선택"
      layout="topleft"
      left="2"
      name="notification_types"
@@ -22,7 +22,7 @@
     <button
      follows="right|top"
      height="18"
-     label="Add"
+     label="추가"
      layout="topleft"
      left_pad="3"
      name="add_notification"

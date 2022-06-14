@@ -10,7 +10,7 @@
 	save_rect="true"
 	save_visibility="false"
 	single_instance="false"
-	title="Particle Editor"
+	title="입자 편집기"
 	width="506">
 
 <panel
@@ -36,7 +36,7 @@
 	left="0"
 	top="8"
 	width="100">
-Pattern:
+패턴:
 </text>
 
 <combo_box
@@ -47,29 +47,29 @@ Pattern:
 	width="150">
 
 	<combo_box.item
-		label="Explode"
+		label="폭발"
 		name="explode"
-		value="explode" />
+		value="폭발" />
 
 	<combo_box.item
-		label="Angle"
+		label="각도"
 		name="angle"
-		value="angle" />
+		value="각도" />
 
 	<combo_box.item
-		label="Angle Cone"
+		label="각도 원뿔"
 		name="angle_cone"
-		value="angle_cone" />
+		value="각도 원뿔" />
 
 	<combo_box.item
-		label="Angle Cone Empty"
+		label="각도 원뿔 빔"
 		name="angle_cone_empty"
-		value="angle_cone_empty" />
+		value="각도 원뿔 빔" />
 
 	<combo_box.item
-		label="Drop"
+		label="떨구기"
 		name="drop"
-		value="drop" />
+		value="떨구기" />
 
 </combo_box>
 
@@ -80,7 +80,7 @@ Pattern:
 	left_pad="8"
 	top="8"
 	width="50">
-	Texture:
+	텍스쳐:
 </text>
 
 <texture_picker
@@ -98,7 +98,7 @@ Pattern:
 	left="0"
 	top="44"
 	width="100">
-	Burst Rate:
+	버스트 속도:
 </text>
 
 <spinner
@@ -118,7 +118,7 @@ Pattern:
 	left="0"
 	top_pad="20"
 	width="100">
-	Burst Count:
+	버스트 개수:
 </text>
 
 <spinner
@@ -140,7 +140,7 @@ Pattern:
 	left_pad="41"
 	top_delta="6"
 	width="100">
-	Burst Radius:
+	버스트 반지름:
 </text>
 
 <spinner
@@ -159,7 +159,7 @@ Pattern:
 	left="0"
 	top_pad="20"
 	width="100">
-	Angle Begin:
+	각도 시작:
 </text>
 
 <spinner
@@ -178,7 +178,7 @@ Pattern:
 	left_pad="41"
 	top_delta="6"
 	width="100">
-	Burst Speed Min:
+	버스트 속도 최소:
 </text>
 
 <spinner
@@ -198,7 +198,7 @@ Pattern:
 	left="0"
 	top_pad="20"
 	width="100">
-	Angle End:
+	각도 끝:
 </text>
 
 <spinner
@@ -217,7 +217,7 @@ Pattern:
 	left_pad="41"
 	top_delta="6"
 	width="100">
-	Burst Speed Max:
+	최대 버스트 속도:
 </text>
 
 <spinner
@@ -237,7 +237,7 @@ Pattern:
 	left="0"
 	top_pad="20"
 	width="100">
-	Source Max Age:
+	소스 최대 사용 기간:
 </text>
 
 <spinner
@@ -256,7 +256,7 @@ Pattern:
 	left_pad="41"
 	top_delta="6"
 	width="100">
-	Start Alpha:
+	알파 시작:
 </text>
 
 <spinner
@@ -276,7 +276,7 @@ Pattern:
 	left="0"
 	top_pad="20"
 	width="100">
-	Particles Max Age:
+	입자 최대 연령:
 </text>
 
 <spinner
@@ -296,7 +296,7 @@ Pattern:
 	left_pad="41"
 	top_delta="6"
 	width="100">
-	End Alpha:
+	알파 끝:
 </text>
 
 <spinner
@@ -316,7 +316,7 @@ Pattern:
 	left="0"
 	top_pad="20"
 	width="100">
-	Start Glow:
+	예열 시작:
 </text>
 
 <spinner
@@ -338,44 +338,44 @@ Pattern:
 	width="160">
 
 	<combo_box.item
-		label="Blend One"
+		label="하나 혼합"
 		name="blend_one"
-		value="blend_one" />
+		value="하나 혼합" />
 
 	<combo_box.item
-		label="Blend Zero"
+		label="0 혼합"
 		name="blend_zero"
-		value="blend_zero" />
+		value="0 혼합" />
 
 	<combo_box.item
-		label="Blend Dest Color"
+		label="혼합 증류 색상"
 		name="blend_dest_color"
-		value="blend_dest_color" />
+		value="혼합 증류 색상" />
 
 	<combo_box.item
-		label="Blend Src Color"
+		label="혼합 원료 색상"
 		name="blend_src_color"
-		value="blend_src_color" />
+		value="혼합 원료 색상" />
 
 	<combo_box.item
-		label="Blend 1 - Dest Color"
+		label="혼합 1 - 증류 색상"
 		name="blend_one_minus_dest_color"
-		value="blend_one_minus_dest_color" />
+		value="혼합 1 - 증류 색상" />
 
 	<combo_box.item
-		label="Blend 1 - Src Color"
+		label="혼합 1 - 원료 색상"
 		name="blend_one_minus_src_color"
-		value="blend_one_minus_src_color" />
+		value="혼합 1 - 원료 색상" />
 
 	<combo_box.item
-		label="Blend Src Alpha"
+		label="혼합 원료 알파"
 		name="blend_src_alpha"
-		value="blend_src_alpha" />
+		value="혼합 원료 알파" />
 
 	<combo_box.item
-		label="Blend 1 - Src Alpha"
+		label="혼합 1 - 원료 알파"
 		name="blend_one_minus_src_alpha"
-		value="blend_one_minus_src_alpha" />
+		value="혼합 1 - 원료 알파" />
 </combo_box>
 
 <text
@@ -385,7 +385,7 @@ Pattern:
 	left="0"
 	top_pad="8"
 	width="100">
-	End Glow:
+	불빛 종료:
 </text>
 
 <spinner
@@ -407,44 +407,44 @@ Pattern:
 	width="160">
 
 	<combo_box.item
-		label="Blend One"
+		label="하나 혼합"
 		name="blend_one"
-		value="blend_one" />
+		value="하나 혼합" />
 
 	<combo_box.item
-		label="Blend Zero"
+		label="0 혼합"
 		name="blend_zero"
-		value="blend_zero" />
+		value="0 혼합" />
 
 	<combo_box.item
-		label="Blend Dest Color"
+		label="혼합 증류 색상"
 		name="blend_dest_color"
-		value="blend_dest_color" />
+		value="혼합 증류 색상" />
 
 	<combo_box.item
-		label="Blend Src Color"
+		label="혼합 원료 색상"
 		name="blend_src_color"
-		value="blend_src_color" />
+		value="혼합 원료 색상" />
 
 	<combo_box.item
-		label="Blend 1 - Dest Color"
+		label="혼합 1 - 증류 색상"
 		name="blend_one_minus_dest_color"
-		value="blend_one_minus_dest_color" />
+		value="혼합 1 - 증류 색상" />
 
 	<combo_box.item
-		label="Blend 1 - Src Color"
+		label="혼합 1 - 원료 색상"
 		name="blend_one_minus_src_color"
-		value="blend_one_minus_src_color" />
+		value="혼합 1 - 증류 색상" />
 
 	<combo_box.item
-		label="Blend Src Alpha"
+		label="원료 알파 혼합"
 		name="blend_src_alpha"
-		value="blend_src_alpha" />
+		value="원료 알파 혼합" />
 
 	<combo_box.item
-		label="Blend 1 - Src Alpha"
+		label="혼합 1 - 원료 알파"
 		name="blend_one_minus_src_alpha"
-		value="blend_one_minus_src_alpha" />
+		value="혼합 1 - 원료 알파" />
 </combo_box>
 
 <text
@@ -454,7 +454,7 @@ Pattern:
 	left="0"
 	top_pad="10"
 	width="80">
-	Scale Start:
+	스케일 시작:
 </text>
 
 <spinner
@@ -484,7 +484,7 @@ Pattern:
 	left_pad="9"
 	top_delta="6"
 	width="28">
-	End:
+	시작:
 </text>
 
 <spinner
@@ -520,7 +520,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="bounce_checkbox"
-	label="Bounce"
+	label="튀어오름"
 	left="0"
 	top="6"
 	width="120" />
@@ -529,7 +529,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="emissive_checkbox"
-	label="Emissive"
+	label="방사성"
 	top_pad="4"
 	width="120" />
 
@@ -537,7 +537,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="follow_source_checkbox"
-	label="Follow Source"
+	label="원료를 따라"
 	top_pad="4"
 	width="120" />
 
@@ -545,7 +545,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="follow_velocity_checkbox"
-	label="Follow Velocity"
+	label="속도를 따라"
 	top_pad="4"
 	width="120" />
 
@@ -553,7 +553,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="interpolate_color_checkbox"
-	label="Interpolate Color"
+	label="보간색"
 	top_pad="4"
 	width="120" />
 
@@ -561,7 +561,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="interpolate_scale_checkbox"
-	label="Interpolate Scale"
+	label="눈금 보간"
 	top_pad="4"
 	width="120" />
 
@@ -569,7 +569,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="target_position_checkbox"
-	label="Target Position"
+	label="대상 위치"
 	top_pad="4"
 	width="120" />
 
@@ -577,7 +577,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="target_linear_checkbox"
-	label="Target Linear"
+	label="대상 선형"
 	top_pad="4"
 	width="120" />
 
@@ -585,7 +585,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="wind_checkbox"
-	label="Wind"
+	label="바람"
 	top_pad="4"
 	width="120" />
 
@@ -593,7 +593,7 @@ Pattern:
 	follows="left|top"
 	height="16"
 	name="ribbon_checkbox"
-	label="Ribbon"
+	label="리본"
 	top_pad="4"
 	width="120" />
 
@@ -601,8 +601,8 @@ Pattern:
 	follows="left|top"
 	height="24"
 	name="copy_button"
-	label="Copy"
-	tool_tip="Copies the particle system's parameter as LSL script to the clipboard."
+	label="복사"
+	tool_tip="파티클 시스템의 매개변수를 LSL 스크립트로 클립보드에 복사합니다."
 	top_pad="7"
 	width="58" />
 
@@ -610,8 +610,8 @@ Pattern:
 	follows="left|top"
 	height="24"
 	name="inject_button"
-	label="Inject"
-	tool_tip="Inject this particle system into the selected object."
+	label="주사"
+	tool_tip="선택한 개체에 이 입자 시스템 주입."
 	left_pad="4"
 	width="58" />
 
@@ -632,7 +632,7 @@ Pattern:
 	left="0"
 	top="4"
 	width="76">
-	Target Key:
+	대상 키:
 </text>
 
 <line_editor
@@ -647,7 +647,7 @@ Pattern:
 	image_overlay="StopReload_Over"
 	left_pad="4"
 	name="clear_target_button"
-	tool_tip="Clear target object or avatar."
+	tool_tip="대상 개체 또는 아바타 지우기."
 	width="20"
 	height="20" />
 
@@ -656,7 +656,7 @@ Pattern:
 	image_overlay="Inv_Object"
 	left_pad="2"
 	name="pick_target_button"
-	tool_tip="Click here to select the particle target object or avatar."
+	tool_tip="파티클 대상 개체 또는 아바타를 선택하려면 여기를 클릭하십시오."
 	width="20"
 	height="20" />
 
@@ -667,7 +667,7 @@ Pattern:
 	left="0"
 	top_pad="8"
 	width="76">
-	Acceleration:
+	가속:
 </text>
 
 <spinner
@@ -702,7 +702,7 @@ Pattern:
 	left="0"
 	top_pad="20"
 	width="76">
-	Omega:
+	오메가:
 </text>
 
 <spinner

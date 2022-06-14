@@ -37,11 +37,11 @@
      top_delta="0"
      follows="top|right"
      layout="topleft"
-     height="18"
+     height="18" 
      image_overlay="Script_Config"
      left_pad="1"
      name="config_btn"
-     tool_tip="Configure selected contact set"
+     tool_tip="선택한 연락처 집합 구성"
      width="20" />
     <button
      top_delta="0"
@@ -51,7 +51,7 @@
      image_overlay="AddItem_Off"
      left_pad="1"
      name="add_set_btn"
-     tool_tip="Add a new contact set"
+     tool_tip="새 연락처 세트 추가"
      width="20" />
     <button
      top_delta="0"
@@ -61,7 +61,7 @@
      image_overlay="TrashItem_Off"
      left_pad="1"
      name="remove_set_btn"
-     tool_tip="Remove selected contact set"
+     tool_tip="선택한 연락처 집합 제거"
      width="20" />
 	<view_border
 	 top="22"
@@ -97,7 +97,7 @@
 	 label="추가..."
 	 left="269"
 	 name="add_btn"
-	 tool_tip="Add an avatar to the current contact set"
+	 tool_tip="현재 연락처 집합에 아바타 추가"
 	 width="80" />
     <button
      top_pad="3"
@@ -106,7 +106,7 @@
      height="22"
      label="제거..."
      name="remove_btn"
-     tool_tip="Remove this avatar from the current contact set"
+     tool_tip="현재 연락처 집합에서 이 아바타 제거"
      width="80" />
 	<button
 	 top_pad="3"
@@ -115,7 +115,7 @@
 	 height="22"
 	 label="프로필..."
 	 name="profile_btn"
-	 tool_tip="Open this avatar's profile"
+	 tool_tip="이 아바타의 프로필 열기"
 	 width="80" />
     <button
      top_pad="3"
@@ -124,7 +124,7 @@
      height="22"
      label="IM..."
      name="start_im_btn"
-     tool_tip="Begin an instant message conversation"
+     tool_tip="인스턴트 메시지 대화 시작"
      width="80" />
 	<button
 	 top_pad="3"
@@ -133,7 +133,7 @@
 	 height="22"
 	 label="순간이동..."
 	 name="offer_teleport_btn"
-	 tool_tip="Offer a teleport to your current location"
+	 tool_tip="현재 위치로 텔레포트를 제공합니다."
 	 width="80" />
 	<button
 	 top_pad="10"
@@ -142,7 +142,7 @@
 	 height="22"
 	 label="별칭 설정..."
 	 name="set_pseudonym_btn"
-	 tool_tip="Give this avatar a pseudonym"
+	 tool_tip="이 아바타에 가명을 지정합니다."
 	 width="80" />
 	<button
 	 top_pad="3"
@@ -151,7 +151,7 @@
 	 height="22"
 	 label="별칭 제거..."
 	 name="remove_pseudonym_btn"
-	 tool_tip="Remove an avatar's pseudonym"
+	 tool_tip="아바타의 가명 제거"
 	 width="80" />
 	<button
 	 top_pad="3"
@@ -160,7 +160,7 @@
 	 height="22"
 	 label="전시 이름 제거..."
 	 name="remove_displayname_btn"
-	 tool_tip="Remove an avatar's display name"
+	 tool_tip="아바타의 표시 이름 제거"
 	 width="80" />
     <text
      bottom="-4"

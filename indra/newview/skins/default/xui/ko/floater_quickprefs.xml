@@ -14,7 +14,7 @@
     save_visibility="true"
     single_instance="true"
     save_dock_state="true"
-    title="Quick Preferences">
+    title="빠른 환경설정">
 <panel
     name="quickprefs"
     left="0"
@@ -76,11 +76,11 @@
             layout="topleft"
             left="5"
             name="HoverHeightLabel"
-            tool_tip="Set the hover height of your avatar"
+            tool_tip="아바타 호버 높이 설정"
             mouse_opaque="false"
             top_pad="5"
             width="90">
-            Hover Height:
+            호버 높이:
         </text>
         <slider
             text_width="40"
@@ -105,11 +105,11 @@
             layout="topleft"
             left="5"
             name="Maximum bandwidth"
-            tool_tip="Set your Network bandwidth in Kbps (kilobits per second)"
+            tool_tip="네트워크 대역폭을 Kbps(킬로비트/초)로 설정합니다."
             mouse_opaque="false"
             top_pad="5"
             width="90">
-            Max Bandwidth:
+            최대 대역폭:
         </text>
         <slider
             text_width="40"
@@ -135,11 +135,11 @@
             layout="topleft"
             left="5"
             name="Maximum complexity"
-            tool_tip="Controls at what point a visually complex avatar is drawn as a jelly doll"
+            tool_tip="시각적으로 복잡한 아바타가 젤리 인형으로 그려지는 시점을 제어합니다."
             mouse_opaque="false"
             top_pad="5"
             width="90">
-            Max Complexity:
+            최대 복잡도:
         </text>
         <slider
             text_width="40"
@@ -168,7 +168,7 @@
             text_readonly_color="LabelDisabledColor"
             top_delta="2"
             width="50">
-            No Limit
+            제한 없음
         </text>
  <!--</FS:HG> FIRE-6340, FIRE-6567 - Setting Bandwidth issues -->
         <text
@@ -179,11 +179,11 @@
             layout="topleft"
             left="5"
             name="WL Sky"
-            tool_tip="Presets for your sky"
+            tool_tip="하늘을 위한 사전 설정"
             mouse_opaque="false"
             top_delta="24"
             width="90">
-            Sky:
+            하늘:
         </text>
         <combo_box
             follows="left|top"
@@ -225,11 +225,11 @@
             layout="topleft"
             left="5"
             name="WL Water"
-            tool_tip="Presets for your water"
+            tool_tip="물에 대한 사전 설정"
             mouse_opaque="false"
             top_delta="25"
             width="90">
-            Water:
+            물:
         </text>
         <combo_box
             follows="left|top"
@@ -271,11 +271,11 @@
             layout="topleft"
             left="5"
             name="Day Cycle"
-            tool_tip="Presets for your day cycle"
+            tool_tip="주간 주기에 맞는 사전 설정"
             mouse_opaque="false"
             top_delta="24"
             width="90">
-            Day Cycle:
+            주간 주기:
         </text>
         <combo_box
             follows="left|top"
@@ -317,7 +317,7 @@
             width="208"
             top_delta="25"
             left="5"
-            label="Personal Lighting...">
+            label="개인 조명...">
             <button.commit_callback
              function="Floater.ToggleOrBringToFront"
              parameter="env_adjust_snapshot" />
@@ -328,7 +328,7 @@
                 <button
                  name="ResetToRegionDefault"
                  label=""
-                 tool_tip="Reset the environment options to shared environment."
+                 tool_tip="환경 옵션을 공유 환경으로 재설정."
                  enabled="true"
                  top_delta="0"
                  left="215"
@@ -343,7 +343,7 @@
                 <button
                  name="button_edit"
                  label=""
-                 tool_tip="Click here to configure your Quick Preferences controls"
+                 tool_tip="빠른 기본 설정 컨트롤을 구성하려면 여기를 클릭하십시오"
                  top_delta="0"
                  left="236"
                  height="20"
@@ -384,7 +384,7 @@
  layout="topleft"
  follows="left|top"
  name="move_up_button"
- tool_tip="Move selected control one slot up"
+ tool_tip="선택한 컨트롤을 한 슬롯 위로 이동"
  enabled_control="QuickPrefsSelectedControl"
  image_overlay="Arrow_Up"
  top="8"
@@ -396,7 +396,7 @@
  layout="topleft"
  follows="left|top"
  name="add_new_button"
- tool_tip="Add a new quick preferences control"
+ tool_tip="새 빠른 기본 설정 컨트롤 추가"
  image_overlay="AddItem_Off"
  left_pad="4"
  top_delta="0"
@@ -408,8 +408,8 @@
  follows="left|top"
  name="label_edit"
  enabled_control="QuickPrefsSelectedControl"
- tool_tip="Type the label for the control here"
- label="Control label:"
+ tool_tip="여기에 컨트롤의 레이블을 입력합니다."
+ label="레이블 조작:"
  left_pad="4"
  width="185"
  height="23" />
@@ -418,7 +418,7 @@
  layout="topleft"
  follows="left|top"
  name="move_down_button"
- tool_tip="Move selected control one slot down"
+ tool_tip="선택한 컨트롤을 한 슬롯 아래로 이동"
  enabled_control="QuickPrefsSelectedControl"
  image_overlay="Arrow_Down"
  left="4"
@@ -430,13 +430,13 @@
  follows="left|top"
  name="control_name_combo"
  enabled_control="QuickPrefsSelectedControl"
- tool_tip="Select control from the list of debug settings"
+ tool_tip="디버그 설정 목록에서 제어 선택"
  left_pad="4"
  width="225"
  height="23">
 <combo_box.item
  type="string"
- label="=== Choose ==="
+ label="=== 선택 ==="
  name="control_name_list_header"
  value="" />
 </combo_box>
@@ -450,14 +450,14 @@
  top_pad="8"
  width="42"
  height="23">
-Type:
+종류:
 </text>
 
 <combo_box
  layout="topleft"
  follows="left|top"
  name="control_type_combo_box"
- tool_tip="Select the type of user interface control you want to use for this setting"
+ tool_tip="이 설정에 사용할 사용자 인터페이스 컨트롤 유형을 선택하십시오"
  enabled_control="QuickPrefsSelectedControl"
  left_pad="4"
  top_delta="-5"
@@ -466,37 +466,37 @@ Type:
 <!-- do not use <combo_item>Foo</combo_item>, it doesn't work -->
 <combo_box.item
  type="string"
- label="Checkbox"
+ label="체크박스"
  name="Checkbox"
  value="0" />
 <combo_box.item
  type="string"
- label="Text"
+ label="텍스트"
  name="Text"
  value="1" />
 <combo_box.item
  type="string"
- label="Spinner"
+ label="스피너"
  name="Spinner"
  value="2" />
 <combo_box.item
  type="string"
- label="Slider"
+ label="슬라이더"
  name="Slider"
  value="3" />
 <combo_box.item
  type="string"
- label="Radio"
+ label="라디오"
  name="Radio"
  value="4" />
 <combo_box.item
  type="string"
- label="Color 3"
+ label="색깔 3"
  name="Color 3"
  value="5" />
 <combo_box.item
  type="string"
- label="Color 4"
+ label="색깔 4"
  name="Color 4"
  value="6" />
 </combo_box>
@@ -507,13 +507,13 @@ Type:
  enabled="false"
  follows="left|top"
  name="control_integer_checkbox"
- tool_tip="Activate this checkbox if your setting is an integer value, i.e. it has only whole numbers"
+ tool_tip="설정이 정수 값(예: 정수만 포함)인 경우 이 확인란을 활성화합니다."
  enabled_control="QuickPrefsSelectedControl"
  left_pad="4"
  height="20"
  top_delta="0"
  width="16"
- label="Integer" />
+ label="정수" />
 
 <!-- enable/disable additionally done in code depending on the type of control chosen -->
 <spinner
@@ -521,10 +521,10 @@ Type:
  enabled="false"
  follows="left|top"
  name="control_min_edit"
- tool_tip="The lowest value you will be allowed to select"
+ tool_tip="선택할 수 있는 가장 낮은 값"
  enabled_control="QuickPrefsSelectedControl"
  decimal_digits="2"
- label="Min:"
+ label="최소:"
  label_width="32"
  min_val="-100000.0"
  max_val="100000.0"
@@ -538,10 +538,10 @@ Type:
  enabled="false"
  follows="left|top"
  name="control_max_edit"
- tool_tip="The highest value you will be allowed to select"
+ tool_tip="선택할 수 있는 가장 높은 값"
  enabled_control="QuickPrefsSelectedControl"
  decimal_digits="2"
- label="Max:"
+ label="최대:"
  label_width="32"
  min_val="-100000.0"
  max_val="100000.0"
@@ -554,7 +554,7 @@ Type:
  enabled="false"
  follows="left|top"
  name="control_increment_edit"
- tool_tip="The increment for your value when you click the up/down arrow on a spinner or use the cursor keys on a slider"
+ tool_tip="스피너에서 위쪽/아래쪽 화살표를 클릭하거나 슬라이더에서 커서 키를 사용할 때 값의 증분"
  enabled_control="QuickPrefsSelectedControl"
  decimal_digits="2"
  label="Incr:"
@@ -569,8 +569,8 @@ Type:
  layout="topleft"
  follows="right_top"
  name="Restore_Btn"
- tool_tip="Restore the default settings"
- label="Reset"
+ tool_tip="기본 설정 복원"
+ label="재설정"
  left="4"
  width="120"
  top_pad="4"
@@ -580,7 +580,7 @@ Type:
  layout="topleft"
  follows="right|top"
  name="button_close"
- tool_tip="Close the edit overlay panel"
+ tool_tip="오버레이 편집 패널을 닫습니다"
  toggle="true"
  control_name="QuickPrefsEditMode"
  image_unselected="Icon_Close_Press"

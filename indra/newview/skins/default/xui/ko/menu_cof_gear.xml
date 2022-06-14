@@ -3,11 +3,11 @@
  layout="topleft"
  name="Gear COF">
     <menu
-     label="New Clothes"
+     label="새로운 의상"
      layout="topleft"
      name="COF.Gear.New_Clothes" />
     <menu
-     label="New Body Parts"
+     label="새로운 신체 부위"
      layout="topleft"
      name="COF.Gear.New_Body_Parts" />
 </toggleable_menu>

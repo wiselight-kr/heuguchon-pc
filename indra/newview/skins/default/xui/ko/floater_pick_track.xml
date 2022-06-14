@@ -10,7 +10,7 @@
         min_width="225"
         name="track picker"
         help_topic="track_picker"
-        title="Pick Track"
+        title="트랙 선택"
         width="225">
     <layout_stack name="adjuster"
             follows="all"
@@ -39,7 +39,7 @@
                 mouse_opaque="false"
                 top="0"
                 width="300">
-                Select source sky:
+                소스 하늘 선택:
             </text>
         </layout_panel>
         <layout_panel name="pnl_traks"
@@ -62,7 +62,7 @@
                 width="100">
                 <radio_item
                     height="20"
-                    label="Sky4 [ALT]"
+                    label="하늘4 [ALT]"
                     layout="topleft"
                     left="0"
                     name="radio_sky4"
@@ -71,7 +71,7 @@
                     width="90" />
                 <radio_item
                     height="20"
-                    label="Sky3 [ALT]"
+                    label="하늘4 [ALT]"
                     layout="topleft"
                     left="0"
                     name="radio_sky3"
@@ -80,7 +80,7 @@
                     width="90" />
                 <radio_item
                     height="20"
-                    label="Sky2 [ALT]"
+                    label="하늘2 [ALT]"
                     layout="topleft"
                     left="0"
                     name="radio_sky2"
@@ -89,7 +89,7 @@
                     width="90" />
                 <radio_item
                     height="20"
-                    label="Ground"
+                    label="지면"
                     layout="topleft"
                     left="0"
                     name="radio_sky1"
@@ -117,7 +117,7 @@
             <button
                     follows="top|left"
                     height="20"
-                    label="Cancel"
+                    label="취소"
                     label_selected="Cancel"
                     layout="topleft"
                     left_delta="110"

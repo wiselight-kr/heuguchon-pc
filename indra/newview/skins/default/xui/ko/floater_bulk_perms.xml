@@ -6,7 +6,7 @@
  layout="topleft"
  name="floaterbulkperms"
  help_topic="floaterbulkperms"
- title="Adjust Content Permissions"
+ title="내용 허가 조정"
  width="350">
     <floater.string
      name="nothing_to_modify_text">
@@ -37,7 +37,7 @@
      image_name="Inv_Animation"
      mouse_opaque="true"
      name="icon_animation"
-     tool_tip="Animation"
+     tool_tip="애니메이션"
      left_pad="5" />
     <check_box
      control_name="BulkChangeIncludeBodyParts"
@@ -49,7 +49,7 @@
     <icon
      height="16"
      image_name="Inv_Eye"
-     tool_tip="Body Parts"
+     tool_tip="신체 부위"
      mouse_opaque="true"
      name="icon_bodypart"
      left_pad="2" />
@@ -65,7 +65,7 @@
      image_name="Inv_Shirt"
      mouse_opaque="true"
      name="icon_clothing"
-     tool_tip="Clothing"
+     tool_tip="의상"
      left_pad="2" />
       <check_box
      control_name="BulkChangeIncludeGestures"
@@ -80,7 +80,7 @@
      layout="topleft"
      mouse_opaque="true"
      name="icon_gesture"
-     tool_tip="Gestures"
+     tool_tip="제스쳐"
      left_pad="2" />
     <check_box
      control_name="BulkChangeIncludeNotecards"
@@ -96,7 +96,7 @@
      layout="topleft"
      mouse_opaque="true"
      name="icon_notecard"
-     tool_tip="Notecards"
+     tool_tip="노트카드"
      left_pad="4" />
    <check_box
      control_name="BulkChangeIncludeObjects"
@@ -110,7 +110,7 @@
      image_name="Inv_Object"
      mouse_opaque="true"
      name="icon_object"
-     tool_tip="Objects"
+     tool_tip="개체"
      left_pad="2" />
     <check_box
      control_name="BulkChangeIncludeScripts"
@@ -126,7 +126,7 @@
      layout="topleft"
      mouse_opaque="true"
      name="icon_script"
-     tool_tip="Scripts"
+     tool_tip="스크립트"
      left_pad="4" />
     <check_box
      control_name="BulkChangeIncludeSounds"
@@ -140,7 +140,7 @@
      image_name="Inv_Sound"
      mouse_opaque="true"
      name="icon_sound"
-     tool_tip="Sounds"
+     tool_tip="소리"
      left_pad="4" />
     <check_box
      control_name="BulkChangeIncludeTextures"
@@ -154,7 +154,7 @@
      image_name="Inv_Texture"
      mouse_opaque="true"
      name="icon_texture"
-     tool_tip="Textures"
+     tool_tip="텍스쳐"
      left_pad="2" />
   <check_box
     control_name="BulkChangeIncludeSettings"
@@ -168,7 +168,7 @@
     image_name="Inv_SettingsDay"
     mouse_opaque="true"
     name="icon_setting"
-    tool_tip="Environment settings"
+    tool_tip="환경 설정"
     left_pad="2" />
     <button
       height="23"
@@ -226,7 +226,7 @@
      layout="topleft"
      top_pad="0"
      name="share_with_group"
-     tool_tip="Allow all members of the set group to share your modify permissions for this object. You must Deed to enable role restrictions."
+     tool_tip="집합 그룹의 모든 구성원이 이 개체에 대한 수정 권한을 공유할 수 있습니다. 역할 제한을 사용하려면 증서를 작성해야 합니다."
      width="92" />
         <text
      type="string"
@@ -239,7 +239,7 @@
      top="110"
      width="92"
      word_wrap="true">
-        아무나:
+        누구나:
     </text>
     <check_box
      control_name="BulkChangeEveryoneCopy"
@@ -248,7 +248,7 @@
      layout="topleft"
      top_pad="0"
      name="everyone_copy"
-     tool_tip="Anyone can take a copy of the object. Object and all of its contents must be copy and transfer permissive"
+     tool_tip="누구나 그 물건의 복사본을 가져갈 수 있습니다. 개체 및 개체의 모든 내용은 복사 및 전송 허용이어야 합니다."
      width="92" />
     <text
      type="string"
@@ -269,7 +269,7 @@
      label="수정"
      layout="topleft"
      name="next_owner_modify"
-     tool_tip="Next owner can edit properties like item name or scale of this object."
+     tool_tip="다음 소유자는 이 개체의 항목 이름 또는 축척과 같은 속성을 편집할 수 있습니다."
      top_pad="0"
      width="92" />
     <check_box
@@ -279,7 +279,7 @@
      layout="topleft"
      top_pad="0"
      name="next_owner_copy"
-     tool_tip="Next owner can make unlimited copies of this object. Copies maintain creator information, and can never be more permissive than the item being copied."
+     tool_tip="다음 소유자는 이 개체의 복사본을 무제한으로 만들 수 있습니다. 복사본은 작성자 정보를 유지하며, 복사되는 항목보다 더 허용적일 수 없습니다."
      width="92">
       <check_box.commit_callback
        function="BulkPermission.CommitCopy"/>
@@ -290,10 +290,10 @@
      height="16"
      top_pad="0"
      initial_value="true"
-     label="환승"
+     label="이전"
      layout="topleft"
      name="next_owner_transfer"
-     tool_tip="Next owner can give away or resell this object."
+     tool_tip="다음 소유자는 이 개체를 양도하거나 재판매할 수 있습니다."
      width="92" />
     <scroll_list
      enabled="false"

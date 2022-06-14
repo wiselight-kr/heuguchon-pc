@@ -14,9 +14,9 @@
    left="10"
    name="enabled_line_editor"
    top="40"
-   tool_tip="enabled line editor"
+   tool_tip="선 편집기 사용가능"
    width="200">
-    Enabled line editor
+    선 편집기 사용가능
   </line_editor>
   <line_editor
    height="20"
@@ -24,10 +24,10 @@
    left_delta="0"
    name="ascii_line_editor"
    prevalidate_callback="ascii"
-   tool_tip="ascii line editor"
+   tool_tip="ascii 선 편집기"
    top_pad="10" 
    width="200">
-    ASCII only line editor
+    ASCII 만 선 편집기입니다
   </line_editor>
   <line_editor
    enabled="false"
@@ -36,9 +36,9 @@
    left_delta="0"
    name="disabled_line_editor"
    top_pad="10"
-   tool_tip="disabled line editor"
+   tool_tip="선 편집기 사용 불가"
    width="200">
-    Disabled line editor
+    선 편집기 사용 불가
   </line_editor>
   <line_editor
    height="20"
@@ -47,9 +47,9 @@
    name="enabled_colored_line_editor"
    text_color="1 0 0 1" 
    top_pad="10"
-   tool_tip="enabled colored line editor"
+   tool_tip="빨간색 텍스트 줄 편집기 사용"
    width="200">
-    Enabled red-text line editor
+    빨간색 텍스트 줄 편집기 사용
   </line_editor>
   <line_editor
     enabled="false"
@@ -59,9 +59,9 @@
    name="disabled_colored_line_editor"
     text_readonly_color="1 0 0 1" 
    top_pad="10"
-   tool_tip="disabled colored line editor"
+   tool_tip="색상 선 편집기 사용 불가"
    width="200">
-    Disabled red-text line editor
+    빨간색 텍스트 줄 편집기 사용 불가
   </line_editor>
   <line_editor
    height="20"
@@ -70,7 +70,7 @@
    text_pad_left="25"
    top_pad="10"
    width="200">
-    25 px left text padding
+    25 px 좌측 텍스트 패딩
   </line_editor>
   <line_editor
    height="20"
@@ -79,7 +79,7 @@
    text_pad_right="75"
    top_pad="10"
    width="200">
-    75 px right text padding
+    75 px 우측 텍스트 패딩
   </line_editor>
   <line_editor
    height="20"
@@ -89,7 +89,7 @@
    text_pad_right="75"
    top_pad="10"
    width="200">
-    25 px left 75 px right text padding
+    25 px 좌측 75 px 우측 텍스트 패딩
   </line_editor>
   <!-- "search_editor" is a specialized line_editor that shows read-only
        help text until the user clicks in the widget. -->
@@ -100,7 +100,7 @@
    layout="topleft"
    left_delta="0"
    name="search editor"
-   tool_tip="search editor"
+   tool_tip="편집기 검색"
    top_pad="10"
    width="200" />
 </floater>

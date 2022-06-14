@@ -16,10 +16,10 @@
  sound_flags="0"
  visible="true"
  width="228">
-  <string name="PrivateGroup">Private group</string>
-  <string name="FreeToJoin">Free to join</string>
-  <string name="CostToJoin">L$[AMOUNT] to join</string>
-  <string name="YouAreMember">You are a member</string>
+  <string name="PrivateGroup">개인 그룹</string>
+  <string name="FreeToJoin">무료 가입</string>
+  <string name="CostToJoin">가입하려면 L$[AMOUNT]</string>
+  <string name="YouAreMember">당신은 멤버입니다</string>
   <text
      follows="all"
      font="SansSerifLarge"
@@ -32,7 +32,7 @@
      use_ellipses="true"
      width="175"
      word_wrap="false">
-    TestString PleaseIgnore
+    테스트 문자열 무시하십시오.
   </text>
   <text
    follows="all"
@@ -43,7 +43,7 @@
    name="group_subtitle"
    use_ellipses="true"
    width="175">
-    123 members
+    123 멤버들
   </text>
   <text
    follows="all"
@@ -54,8 +54,8 @@
    top_pad="6"
    width="220"
    word_wrap="true">
-A group of folks charged with creating a room with a moose.
-Fear the moose!  Fear it!  And the mongoose too!
+한 무리의 사람들이 무스가 있는 방을 만드는 일을 맡았습니다.
+무스를 두려워하십시오! 겁내지 마십시오! 그리고 몽구스도!
   </text>
   <text
    follows="all"
@@ -64,7 +64,7 @@ Fear the moose!  Fear it!  And the mongoose too!
    name="group_cost"
    top_pad="13"
    width="220">
-L$123 to join
+참가하려면 L$123 
   </text>
   <group_icon
      follows="all"
@@ -77,7 +77,7 @@ L$123 to join
   <button
    follows="bottom|left"
    height="23"
-   label="Join"
+   label="참가"
    left="8"
    top="125"
    name="join_btn"
@@ -86,7 +86,7 @@ L$123 to join
   <button
    follows="bottom|left"
    height="23"
-   label="Leave"
+   label="떠나기"
    left="8"
    top="125"
    name="leave_btn"
@@ -95,7 +95,7 @@ L$123 to join
   <button
      follows="bottom|left"
      height="23"
-     label="View Profile"
+     label="프로필 보기"
      name="view_profile_btn"
      top="125"
      left="117"

@@ -11,7 +11,7 @@
  save_rect="true"
  name="avatarinfo"
  help_topic="panel_my_profile_tab"
- title="Profile">
+ title="프로필">
  <!-- FS:Ansariel: Help topic set above is a dummy only - real topics are set for the panels down below! -->
 <panel
  class="panel_fs_profile"
@@ -43,28 +43,28 @@
         <panel
          class="panel_fs_profile_web"
          filename="panel_fs_profile_web.xml"
-         label="Web"
+         label="웹"
          layout="topleft"
          help_topic="profile_web_tab"
          name="panel_profile_web" />
         <panel
          class="panel_fs_profile_interests"
          filename="panel_fs_profile_interests.xml"
-         label="Interests"
+         label="흥미"
          layout="topleft"
          help_topic="profile_interests_tab"
          name="panel_profile_interests" />
         <panel
          class="panel_fs_profile_picks"
          filename="panel_fs_profile_picks.xml"
-         label="Picks"
+         label="선택"
          layout="topleft"
          help_topic="profile_picks_tab"
          name="panel_profile_picks" />
         <panel
          class="panel_fs_profile_classified"
          filename="panel_fs_profile_classified.xml"
-         label="Classified"
+         label="분류된"
          layout="topleft"
          help_topic="profile_classified_tab"
          name="panel_profile_classified" />
@@ -78,7 +78,7 @@
         <panel
          class="panel_fs_profile_notes"
          filename="panel_fs_profile_notes.xml"
-         label="Notes"
+         label="노트"
          layout="topleft"
          help_topic="profile_notes_tab"
          name="panel_profile_notes" />
@@ -93,7 +93,7 @@
      follows="left|bottom"
      name="ok_btn"
      label="OK"
-     tool_tip="Save changes to profile and close"
+     tool_tip="프로필 변경 내용 저장 후 닫기"
      visible="false" />
 
     <button
@@ -104,7 +104,7 @@
      layout="topleft"
      follows="right|bottom"
      name="cancel_btn"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      visible="false" />
 

@@ -16,7 +16,7 @@
      left="10"
      top="84"
      width="200">
-        bottom 400 left 10
+        하단 400 좌측 10
     </text>
     <text
      type="string"
@@ -26,7 +26,7 @@
      left_delta="0"
      top_pad="4"
      width="200">
-        Bottom delta -20
+        하단 델타 -20
     </text>
     <text
      type="string"
@@ -36,7 +36,7 @@
      left_delta="0"
      top_pad="64"
      width="200">
-        bottom 300 left 10, should delta_bottom
+        하단 300 좌측 10, 델타_하단 이어야합니다
     </text>
     <text
      type="string"
@@ -46,7 +46,7 @@
      left_pad="40"
      top_delta="0"
      width="200">
-        bottom 300 left 250, should delta_left
+        하단 300 좌측 250, 델타_좌측 이어야합니다
     </text>
     <text
      type="string"
@@ -56,7 +56,7 @@
      left="10"
      top="204"
      width="200">
-        bottom 280 left 10, should absolute position
+        하단 280 좌측 10, 절대 위치 이어야합니다
     </text>
     <text
      type="string"
@@ -66,7 +66,7 @@
      left_pad="40"
      top_delta="-2"
      width="200">
-        bottom 282 left 250, should delta_left and delta_bottom
+        하단 282 좌측 250, 델타_좌측과 델타_하단 이어야합니다
     </text>
     <text
      type="string"
@@ -76,7 +76,7 @@
      left="10"
      top="234"
      width="200">
-        bottom 250 left 10, should absolute position
+        하단 250 좌측 10, 절대 위치 이어야합니다
     </text>
     <text
      type="string"
@@ -86,6 +86,6 @@
      left="250"
      top="244"
      width="200">
-        bottom 240 left 250, should absolute position
+        하단 240 좌측 250, 절대 위치 이어야합니다
     </text>
 </floater>

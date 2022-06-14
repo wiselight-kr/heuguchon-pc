@@ -18,7 +18,7 @@
     name="title"
     text_color="White"
     top="2"
-    value="Experience Profile"
+    value="체험 프로필"
     use_ellipses="true"
     left="3"
     right="-3"/>
@@ -136,7 +136,7 @@
             left="10"
             name="Location"
             width="290">
-            Location:
+            위치:
           </text>
           <text
             type="string"
@@ -148,12 +148,12 @@
             valign="center"
             name="LocationTextText"
             width="288">
-            someplace
+            어떤 곳
           </text>
           <button
             follows="bottom|left"
             height="23"
-            label="Teleport"
+            label="순간이동"
             layout="topleft"
             name="teleport_btn"
             width="151"
@@ -161,7 +161,7 @@
           <button
             follows="bottom|left"
             height="23"
-            label="Map"
+            label="지도"
             layout="topleft"
             name="map_btn"
             top_pad="-23"
@@ -189,7 +189,7 @@
             left="10"
             name="Location"
             width="290">
-            Marketplace store:
+            마켓플레이스 매장:
           </text>
           <text
             type="string"
@@ -201,7 +201,7 @@
             valign="center"
             name="LocationTextText"
             width="288">
-            someplace
+            어떤 곳
           </text>
         </layout_panel>
         <layout_panel
@@ -222,7 +222,7 @@
             left="10"
             name="ContentRating"
             width="100">
-            Rating:
+            별점:
           </text>
           <text
             type="string"
@@ -235,7 +235,7 @@
             name="ContentRatingText"
             top_delta="-2"
             width="188">
-            Adult
+            성인
           </text>
           <text
             type="string"
@@ -246,7 +246,7 @@
             left="10"
             name="Owner"
             width="100">
-            Owner:
+            소유주:
           </text>
           <text
             type="string"
@@ -259,12 +259,12 @@
             name="OwnerText"
             top_delta="-2"
             width="188">
-            Kyle
+            카일
           </text>
           <button
             follows="bottom|left"
             height="23"
-            label="Edit"
+            label="편집"
             layout="topleft"
             name="edit_btn"
             top_pad="0"

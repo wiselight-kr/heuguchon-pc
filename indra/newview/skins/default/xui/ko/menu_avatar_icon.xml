@@ -9,7 +9,7 @@
  visible="false"
  width="128">
     <menu_item_call
-     label="View Profile"
+     label="프로필 보기"
      layout="topleft"
      name="Show Profile">
         <menu_item_call.on_click
@@ -25,38 +25,38 @@
          parameter="im" />
     </menu_item_call>
     <menu_item_call
-     label="Teleport to resident"
+     label="거주자에게 순간이동"
      layout="topleft"
      name="Teleport to">
        <on_click function="AvatarIcon.Action" parameter="teleport_to"/>
     </menu_item_call>
     <menu_item_call
-     label="Offer teleport"
+     label="순간이동 제공"
      layout="topleft"
      name="Offer Teleport">
         <on_click function="AvatarIcon.Action" parameter="teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Request Teleport"
+     label="순간이동 요청"
      layout="topleft"
      name="Request Teleport">
         <on_click function="AvatarIcon.Action" parameter="request_teleport"/>      
     </menu_item_call>
     <menu_item_call
-     label="Voice call"
+     label="음성 전화"
      layout="topleft"
      name="Voice Call">
         <on_click function="AvatarIcon.Action" parameter="voice_call"/>
     </menu_item_call>
     <menu_item_call
-     label="Chat history..."
+     label="채팅 기록..."
      layout="topleft"
      name="Chat History">
         <on_click function="AvatarIcon.Action" parameter="chat_history"/>   
     </menu_item_call>
     <menu_item_separator layout="topleft" name="separator_chat_history"/>
     <menu_item_call
-     label="친구추가"
+     label="친구 추가"
      layout="topleft"
      name="Add Friend">
         <menu_item_call.on_click
@@ -64,7 +64,7 @@
          parameter="add" />
     </menu_item_call>
     <menu_item_call
-     label="Remove friend"
+     label="친구 제거"
      layout="topleft"
      name="Remove Friend">
         <menu_item_call.on_click
@@ -72,7 +72,7 @@
          parameter="remove" />
     </menu_item_call>
     <menu_item_call
-     label="Add to set"
+     label="집합에 추가"
      layout="topleft"
      name="Add Contact Set">
         <menu_item_call.on_click
@@ -80,65 +80,65 @@
          parameter="add_set" />
     </menu_item_call>
     <menu_item_call
-     label="Invite to group..."
+     label="그룹에 초대..."
      layout="topleft"
      name="Invite Group">
       <on_click function="AvatarIcon.Action" parameter="invite_to_group" />   
     </menu_item_call>
     <menu_item_separator layout="topleft" name="separator_invite_to_group"/>
     <menu_item_call
-     label="Zoom In"
+     label="확대"
      layout="topleft"
      name="Zoom In">
       <on_click function="AvatarIcon.Action" parameter="zoom_in" />
     </menu_item_call>
     <menu_item_call
-     label="Map"
+     label="지도"
      layout="topleft"
      name="Map">
        <on_click function="AvatarIcon.Action" parameter="map" />
     </menu_item_call>
     <menu_item_call
-     label="Track"
+     label="추적하기"
      layout="topleft"
      name="track">
       <on_click function="AvatarIcon.Action" parameter="track" />
     </menu_item_call>
     <menu_item_call
-     label="Share"
+     label="공유"
      layout="topleft"
      name="Share">
        <on_click function="AvatarIcon.Action" parameter="share" />
     </menu_item_call>
     <menu_item_call
-     label="Pay"
+     label="재생"
      layout="topleft"
      name="Pay">
        <on_click function="AvatarIcon.Action" parameter="pay" />
        <on_enable function="AvatarIcon.Enable" parameter="can_pay" />
     </menu_item_call>
     <menu_item_call
-     label="Copy Name to clipboard"
+     label="클립보드에 이름 복사"
      layout="topleft"
      name="copy name">
        <on_click function="AvatarIcon.Action" parameter="copy_name" />
     </menu_item_call>
     <menu_item_call
-     label="Copy Url to clipboard"
+     label="클립보드에 URL 복사"
      layout="topleft"
      name="copy url">
        <on_click function="AvatarIcon.Action" parameter="copy_url" />
     </menu_item_call>
     <menu_item_separator layout="topleft" name="separator_block"/>
     <menu_item_check
-     label="Block Voice"
+     label="음성 차단"
      layout="topleft"
      name="Block Unblock">
        <on_click function="AvatarIcon.Action" parameter="block_unblock" />
        <on_check function="AvatarIcon.Check" parameter="is_blocked" />
     </menu_item_check>
     <menu_item_check
-     label="Block Text"
+     label="텍스트 차단"
      layout="topleft"
      name="Mute Text">
        <on_click function="AvatarIcon.Action" parameter="mute_unmute" />
@@ -146,25 +146,25 @@
     </menu_item_check>
     <menu_item_separator layout="topleft" name="Moderator Options Separator"/>
     <context_menu
-     label="Moderator Options"
+     label="중재자 옵션"
      layout="topleft"
      name="Moderator Options">
       <menu_item_call
-       label="Allow text chat"
+       label="텍스트 채팅 허락"
        layout="topleft"
        name="AllowTextChat">
         <on_click function="AvatarIcon.Action" parameter="allow_text_chat" />
         <on_enable function="AvatarIcon.Enable" parameter="can_allow_text_chat" />
       </menu_item_call>
       <menu_item_call
-       label="Forbid text chat"
+       label="텍스트 채팅 금지"
        layout="topleft"
        name="ForbidTextChat">
         <on_click function="AvatarIcon.Action" parameter="forbid_text_chat" />
         <on_enable function="AvatarIcon.Enable" parameter="can_allow_text_chat" />
       </menu_item_call>
       <menu_item_call
-       label="Mute this participant"
+       label="참가자 음소거"
        layout="topleft"
        name="ModerateVoiceMuteSelected">
         <on_click function="AvatarIcon.Action" parameter="group_mute" />
@@ -172,7 +172,7 @@
         <on_visible function="AvatarIcon.Visible" parameter="show_mute" />
       </menu_item_call>
       <menu_item_call
-       label="Unmute this participant"
+       label="참가자의 음소거 해제"
        layout="topleft"
        name="ModerateVoiceUnMuteSelected">
         <on_click function="AvatarIcon.Action" parameter="group_unmute" />
@@ -182,7 +182,7 @@
     </context_menu>
     <menu_item_separator layout="topleft" name="Group Ban Separator"/>
     <menu_item_call
-     label="Ban member"
+     label="멤버 금지"
      layout="topleft"
      name="BanMember">
       <on_click function="AvatarIcon.Action" parameter="ban_member" />

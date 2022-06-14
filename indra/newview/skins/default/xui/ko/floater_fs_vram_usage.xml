@@ -11,7 +11,7 @@
  name="object_vram_usage"
  help_topic=""
  save_rect="true"
- title="Object impact on VRAM"
+ title="VRAM에 대한 개체 영향"
  width="400">
     <scroll_list
         name="result_list"
@@ -31,27 +31,27 @@
 		  width="0"/>
       <column
           name="name"
-          label="Name"
+          label="이름"
           dynamicwidth="true"/>
       <column
           name="distance"
-          label="Distance"
+          label="거리"
           dynamicwidth="true"/>
       <column
           name="faces"
-          label="Faces"
+          label="얼굴"
           dynamicwidth="true"/>
       <column
           name="vertices"
-          label="Vertices"
+          label="정점들"
           dynamicwidth="true"/>
       <column
           name="indices"
-          label="Indices"
+          label="인덱스들"
           dynamicwidth="true"/>
       <column
           name="vram_usage"
-          label="VRAM (Textures) in KB"
+          label="VRAM (텍스쳐) in KB"
           dynamicwidth="true"/>
       <column
           name="vram_usage_vbo"
@@ -63,7 +63,7 @@
 	 left="10"
 	 top="-25"
      height="23"
-     label="Refresh"
+     label="새로고침"
      label_selected="Refresh"
      layout="topleft"
      left_pad="10"

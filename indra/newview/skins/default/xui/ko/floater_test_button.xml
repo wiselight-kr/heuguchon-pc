@@ -10,7 +10,7 @@
  width="500">
     <button
      height="23"
-     label="Generic Button"
+     label="일반 버튼"
      layout="topleft"
      left="10"
      name="generic_button"
@@ -19,7 +19,7 @@
     <button
      bottom_delta="30"
      height="23"
-     label="Bottom delta"
+     label="아래 델타"
      layout="topleft"
      name="bottom_delta_button" />
     <button
@@ -32,28 +32,28 @@
      auto_resize="true"
      bottom_delta="30"
      height="23"
-     label="Auto Resize"
+     label="자동 재크기"
      layout="topleft"
      name="auto_resize_button" />
     <button
      bottom_delta="30"
      height="23"
      is_toggle="true"
-     label="Click Change Label"
+     label="변경 레이블 클릭"
      label_selected="New Label"
      layout="topleft"
      name="label_selected_button" />
     <button
      bottom_delta="30"
      height="23"
-     label="No Label Shadow"
+     label="레이블 그림자 없음"
      label_shadow="false"
      layout="topleft"
      name="label_shadow_button" />
     <button
      bottom_delta="30"
      height="23"
-     label="EmphasisColor Label"
+     label="강조 색상 레이블"
      label_color="EmphasisColor"
      layout="topleft"
      name="label_color_button" />
@@ -61,7 +61,7 @@
      bottom_delta="30"
      height="23"
      is_toggle="true"
-     label="Toggle"
+     label="토글"
      label_color_selected="EmphasisColor"
      label_selected="Toggle on"
      layout="topleft"
@@ -70,7 +70,7 @@
      bottom_delta="30"
      enabled="false"
      height="23"
-     label="Disabled"
+     label="불가능한"
      label_color_disabled="EmphasisColor"
      label_selected="Selected"
      layout="topleft"
@@ -78,14 +78,14 @@
     <button
      bottom_delta="30"
      height="23"
-     label="Highlight"
+     label="강조"
      layout="topleft"
      name="highlight_color_button" />
     <button
      bottom_delta="30"
      height="23"
      hover_glow_amount="0"
-     label="No Hover Glow"
+     label="호버 발광 없음"
      layout="topleft"
      name="hover_glow_amount_button" />
     <button

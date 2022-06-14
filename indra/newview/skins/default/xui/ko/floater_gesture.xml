@@ -7,7 +7,7 @@
  height="465"
  name="gestures"
  help_topic="gestures"
- title="Gestures"
+ title="제스쳐"
  background_visible="true"
  label="Places"
  layout="topleft"
@@ -16,15 +16,15 @@
  width="313">
     <floater.string
      name="loading">
-        Loading...
+        로딩중...
     </floater.string>
     <floater.string
      name="playing">
-        (Playing)
+        (재생중)
     </floater.string>
     <!-- It's used to build new name for gesture created by "Copy" menu item -->
     <floater.string
-     name="copy_name">Copy of [COPY_NAME]</floater.string>
+     name="copy_name">[COPY_NAME]의 복사본</floater.string>
     <scroll_list
      bottom_delta="400"
      draw_heading="true"
@@ -35,11 +35,11 @@
      top="20"
      name="gesture_list">
         <scroll_list.columns
-         label="Name"
+         label="이름"
          name="name"
          width="153" />
         <scroll_list.columns
-         label="Chat"
+         label="채팅"
          name="trigger"
          width="80" />
        <scroll_list.columns
@@ -47,7 +47,7 @@
          name="key"
          width="-1" />
         <scroll_list.columns
-         label="Key"
+         label="키"
          name="shortcut"
          width="80" />
     </scroll_list>
@@ -73,7 +73,7 @@
                menu_filename="menu_gesture_gear.xml"
                name="gear_btn"
                top="5"
-               tool_tip="More options"
+               tool_tip="더 많은 옵션"
                width="18" />
               <button
                  follows="bottom|left"
@@ -85,7 +85,7 @@
                  layout="topleft"
                  left_pad="5"
                  name="new_gesture_btn"
-                 tool_tip="Make new gesture"
+                 tool_tip="새 제스쳐 만들기"
                  top_delta="0"
                  width="18" />
               <button
@@ -98,7 +98,7 @@
                  layout="topleft"
                  left_pad="5"
                  name="activate_btn"
-                 tool_tip="Activate/Deactivate selected gesture"
+                 tool_tip="선택된 제스쳐 활성화/비활성화"
                  top="10"
                  width="10" />
               <check_box
@@ -124,15 +124,15 @@
                  layout="topleft"
                  name="del_btn"
                  right="-5"
-                 tool_tip="Delete this gesture"
+                 tool_tip="이 제스쳐 삭제"
                  top_delta="0"
                  width="18" />
             </panel>
     <button
      follows="left|bottom"
      height="23"
-     label="Edit"
-     tool_tip="Open window for editing selected gesture."
+     label="수정"
+     tool_tip="선택한 제스처를 편집할 수 있는 창 열기."
      layout="topleft"
      left="6"
      name="edit_btn"
@@ -141,8 +141,8 @@
     <button
      follows="left|bottom"
      height="23"
-     label="Play"
-     tool_tip="Execute selected gesture in-world."
+     label="재생"
+     tool_tip="선택한 제스처 실행."
      layout="topleft"
      left_pad="6"
      name="play_btn"
@@ -151,7 +151,7 @@
     <button
      follows="left|bottom"
      height="23"
-     label="Stop"
+     label="정지"
      layout="topleft"
      left_delta="0"
      name="stop_btn"

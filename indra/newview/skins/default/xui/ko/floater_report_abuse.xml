@@ -5,11 +5,11 @@
  layout="topleft"
  name="floater_report_abuse"
  help_topic="floater_report_abuse"
- title="Report Abuse"
+ title="남용 신고"
  width="333">
     <floater.string
      name="Screenshot">
-        Screenshot
+        스크린샷
     </floater.string>
     <texture_picker
      allow_no_texture="true"
@@ -27,7 +27,7 @@
      height="23"
      image_overlay="Refresh_Off"
      layout="topleft"
-     tool_tip="Refresh Screenshot"
+     tool_tip="스크린샷 새로고침"
      name="refresh_screenshot"
      left_pad="5"
      top="126"
@@ -44,7 +44,7 @@
      name="reporter_title"
      top_pad="5"
      width="100">
-        Reporter:
+        신고자:
     </text>
     <text
      type="string"
@@ -72,7 +72,7 @@
      name="sim_title"
      top_pad="2"
      width="100">
-        Region:
+        지역:
     </text>
     <text
      type="string"
@@ -85,7 +85,7 @@
      top_delta="0"
      use_ellipses="true"
      width="200">
-        Region Name
+        지역 이름
     </text>
     <text
      type="string"
@@ -99,7 +99,7 @@
      name="pos_title"
      top_pad="2"
      width="100">
-        Position:
+        위치:
     </text>
     <text
      type="string"
@@ -123,7 +123,7 @@
      name="select_object_label"
      top_pad="2"
      width="310">
-        Click the button, then the abusive object:
+        버튼을 클릭한 다음 남용 대상을 클릭합니다.:
     </text>
     <button
      height="32"
@@ -131,7 +131,7 @@
      left_delta="0"
      name="pick_btn"
      image_overlay="Inv_Object"
-     tool_tip="Object Picker - Identify an object as the subject of this report"
+     tool_tip="개체 선택기 - 개체를 이 신고의 제목으로 식별합니다"
      top_pad="0"
      width="32" />
     <text
@@ -146,7 +146,7 @@
      name="object_name_label"
      top_delta="0"
      width="80">
-        Object:
+        개체:
     </text>
     <text
      type="string"
@@ -175,7 +175,7 @@
      name="owner_name_label"
      top_pad="0"
      width="80">
-        Owner:
+        소유주:
     </text>
     <text
      type="string"
@@ -196,68 +196,68 @@
      layout="topleft"
      left="10"
      name="category_combo"
-     tool_tip="Category -- select the category that best describes this report"
+     tool_tip="범주 - 이 신고를 가장 잘 설명하는 범주를 선택합니다."
      top_pad="5"
      width="313">
       <!-- Values can be populated from capability -->
         <combo_box.item
-         label="Select category"
+         label="카테고리 선택"
          name="Select_category"
          value="0" />
         <combo_box.item
-         label="Age &gt; Age play"
+         label="나이 &gt; 나이 재생"
          name="Age__Age_play"
          value="31" />       
         <combo_box.item
-         label="Assault &gt; Shooting, pushing, or shoving another Resident in a Safe Area"
+         label="폭행 &gt; 사격, 밀침, 혹은 안전한 지역에 다른 거주자를 밀치기"
          name="Assault__Safe_area"
          value="35" />        
         <combo_box.item
-         label="Disclosure &gt; Real world information"
+         label="공개 &gt; 실제 월드 정보"
          name="Disclosure__Real_world_information"
          value="39" />     
         <combo_box.item
-         label="Disturbing the peace &gt; Excessive scripted objects"
+         label="평화 방해 &gt; 과도한 개체 스크립트"
          name="Disturbing_the_peace__Excessive_scripted_objects"
          value="43" />
         <combo_box.item
-         label="Disturbing the peace &gt; Object littering"
+         label="평화를 어지럽힘 &gt; 개체 쓰레기 버림"
          name="Disturbing_the_peace__Object_littering"
          value="44" />
         <combo_box.item
-         label="Disturbing the peace &gt; Repetitive spam"
+         label="평화 방해 &gt; 반복 스팸"
          name="Disturbing_the_peace__Repetitive_spam"
          value="45" />        
         <combo_box.item
-         label="Fraud &gt; L$ or USD $"
+         label="사기 &gt; L$ 혹은 USD $"
          name="Fraud__US$"
          value="50" />       
         <combo_box.item
-         label="Harassment &gt; Targeted behavior intended to disrupt"
+         label="괴롭힘 &gt; 중단을 의도한 대상 행동"
          name="Harassment__Solicting_inciting_others_to_violate_ToS"
          value="55" />       
         <combo_box.item
-         label="Indecency &gt; Broadly offensive content or conduct"
+         label="부적절 &gt; 광범위하게 모욕적인 내용 또는 행위"
          name="Indecency__Broadly_offensive_content_or_conduct"
          value="57" />
         <combo_box.item
-         label="Indecency &gt; Inappropriate avatar name"
+         label="부적절 &gt; 부적절한 아바타 이름"
          name="Indecency__Inappropriate_avatar_name"
          value="59" />
         <combo_box.item
-         label="Indecency &gt; Inappropriate content or conduct for Region Rating"
+         label="부적절 &gt; 지역 등급에 부적절한 내용 또는 행위"
          name="Indecency__Mature_content_in_PG_region"
          value="60" />       
         <combo_box.item
-         label="Intolerance"
+         label="편협함"
          name="Intolerance"
          value="61" />        
         <combo_box.item
-         label="Land &gt; Encroachment &gt; Objects or textures"
+         label="랜드 &gt; 침해 &gt; 대체나 텍스쳐"
          name="Land__Encroachment__Objects_textures"
          value="63" />        
         <combo_box.item
-         label="Skill Gaming Policy Violation"
+         label="스킬 게임 정책 위반"
          name="Wagering_gambling"
          value="67" />       
     </combo_box>
@@ -273,7 +273,7 @@
      name="abuser_name_title"
      top_pad="6"
      width="313">
-        Abuser name:
+        남용자 이름:
     </text>
     <line_editor
      border_style="line"
@@ -287,11 +287,11 @@
      width="195" />
     <button
      height="23"
-     label="Choose"
+     label="선택"
      layout="topleft"
      left_pad="5"
      name="select_abuser"
-     tool_tip="Select the name of the abuser from a list"
+     tool_tip="목록에서 악용자 이름 선택"
      top_delta="0"
      width="100" />
 <!--    <check_box
@@ -316,7 +316,7 @@
      name="abuser_name_title2"
      top_pad="2"
      width="313">
-        Location of Abuse:
+        남용 위치:
     </text>
     <line_editor
      border_style="line"
@@ -341,7 +341,7 @@
      name="sum_title"
      top_pad="2"
      width="313">
-        Summary:
+        요약:
     </text>
     <line_editor
      border_style="line"
@@ -366,7 +366,7 @@
      name="dscr_title"
      top_pad="6"
      width="50">
-        Details:
+        세부사항:
     </text>
     <text
      type="string"
@@ -379,7 +379,7 @@
      word_wrap="true"
      top_pad="-13"
      width="270">
-        Please be as specific as possible
+        가능한 구체적으로 말씀해 주십시오.
     </text>
     <text_editor
      follows="left|top"
@@ -404,14 +404,14 @@
      top_pad="2"
      word_wrap="true"
      width="313">
-        * Incomplete reports won't be investigated
+        * 가능한 구체적으로 말씀해 주십시오. 불완전한 신고는 조사되지 않습니다.
     </text>
      <button
      left="80"
      follows="left|top"
      height="23"
      top="532"
-     label="Report Abuse"
+     label="남용 신고"
      label_selected="Report Abuse"
      layout="topleft"
      name="send_btn"
@@ -419,7 +419,7 @@
      <button
      follows="left|top"
      height="23"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      name="cancel_btn"

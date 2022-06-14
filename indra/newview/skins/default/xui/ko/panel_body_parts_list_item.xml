@@ -58,7 +58,7 @@
      height="23"
      width="23"
      tab_stop="false"
-     tool_tip="You don't have permission to edit">
+     tool_tip="편집할 권한이 없습니다.">
         <icon 
          name="btn_lock1"
          layout="topleft"
@@ -90,7 +90,7 @@
           height="23"
           width="23"
           tab_stop="false"
-          tool_tip="Edit this shape"/>
+          tool_tip="이 모양 편집"/>
       </panel>
     <icon
      follows="left|right|top"

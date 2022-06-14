@@ -6,18 +6,18 @@
  name="floater_translation_settings"
  help_topic="translation_settings"
  save_rect="true"
- title="Chat Translation Settings"
+ title="채팅 번역 설정"
  width="485">
 
- <string name="bing_api_key_not_verified">Bing appID not verified. Please try again.</string>
- <string name="google_api_key_not_verified">Google API key not verified. Please try again.</string>
+ <string name="bing_api_key_not_verified">Bing 앱ID가 확인되지 않았습니다. 다시 시도하십시오..</string>
+ <string name="google_api_key_not_verified">Google API 키가 확인되지 않았습니다. 다시 시도하십시오.</string>
 
- <string name="bing_api_key_verified">Bing appID verified.</string>
- <string name="google_api_key_verified">Google API key verified.</string>
+ <string name="bing_api_key_verified">Bing 앱 ID 확인됨.</string>
+ <string name="google_api_key_verified">Google API 키 확인됨.</string>
 
  <check_box
   height="16"     
-  label="Enable machine translation while chatting"
+  label="채팅하는 동안 컴퓨터 번역 사용"
   layout="topleft"
   left="10"
   name="translate_chat_checkbox"
@@ -31,7 +31,7 @@
   name="translate_language_label"
   top_pad="20"
   width="130">
-  Translate chat into: 
+  채팅을 다음으로 번역: 
  </text>
  <combo_box
   allow_text_entry="true"
@@ -44,11 +44,11 @@
   top_delta="-5"
   width="190">
   <combo_box.item
-   label="System Default"
+   label="시스템 기본값"
    name="System Default Language"
    value="default" />
   <combo_box.item
-   label="English"
+   label="영어"
    name="English"
    value="en" />
   <!-- After "System Default" and "English", please keep the rest of these combo_box.items in alphabetical order by the first character in the string. -->
@@ -123,7 +123,7 @@
   top_pad="20"
   width="330"
   wrap="true">
-  Choose translation service:
+  번역 서비스 선택:
  </text>
 
  <radio_group
@@ -136,12 +136,12 @@
   width="320">
   <radio_item
    initial_value="bing"
-   label="Bing Translator"
+   label="Bing 번역기"
    layout="topleft"
    name="bing" />
   <radio_item
    initial_value="google"
-   label="Google Translate"
+   label="Google 번역"
    layout="topleft"
    name="google"
    top_pad="55" />
@@ -172,7 +172,7 @@
  <button
   follows="left|top"
   height="23"
-  label="Verify"
+  label="확인"
   layout="topleft"
   left_pad="10"
   name="verify_bing_api_key_btn"
@@ -204,7 +204,7 @@
  <button
   follows="left|top"
   height="23"
-  label="Verify"
+  label="확인"
   layout="topleft"
   left_pad="10"
   name="verify_google_api_key_btn"
@@ -236,7 +236,7 @@
  <button
   follows="left|top"
   height="23"
-  label="Cancel"
+  label="취소"
   layout="topleft"
   left_pad="10"
   name="cancel_btn"

@@ -3,7 +3,7 @@
  layout="topleft"
  name="Url Popup">
     <menu_item_call
-     label="Run This Command"
+     label="이 커맨드 실행"
      layout="topleft"
      name="run_slapp">
         <menu_item_call.on_click
@@ -12,7 +12,7 @@
     <menu_item_separator
      layout="topleft" />
     <menu_item_call
-     label="Copy SLurl to clipboard"
+     label="SLurl을 클립보드에 복사"
      layout="topleft"
      name="url_copy">
         <menu_item_call.on_click

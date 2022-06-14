@@ -9,7 +9,7 @@
          column="lst_action"
          font="SansSerif"
          halign="left"
-         label="Move Actions"
+         label="동작 이동"
          name="lst_action"
          value="Move_Walk_Off" />
     </rows>
@@ -32,7 +32,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         tool_tip="마우스 커서가 가리키는 위치로 텔레포트하지만 모든 위치에서 직접 텔레포트를 사용할 수 있는 것은 아니므로 목적지 근처로 텔레포트할 수 있습니다"
+         tool_tip="마우스 커서가 가리키는 위치로 순간이동하지만 모든 위치에서 직접 텔레포트를 사용할 수 있는 것은 아니므로 목적지 근처로 순간이동할 수 있습니다"
          value="순간이동" />
     </rows>
     <rows
@@ -97,7 +97,7 @@
     </rows>
     <rows
      name="jump"
-     value="jump">
+     value="점프">
         <columns
          column="lst_action"
          font="SansSerif"

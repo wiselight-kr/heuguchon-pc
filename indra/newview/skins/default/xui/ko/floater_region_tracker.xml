@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <floater
  name="region_tracker"
- title="Region Tracker"
+ title="지역 추적기"
  help_topic="floater_region_tracker"
  save_rect="true"
  save_visibility="true"
@@ -32,7 +32,7 @@
    valign="center"
    name="region_label_text"
    use_ellipses="true"
-   value="Add regions from the World Map" />
+   value="세계 지도에서 지역 추가" />
   <button
    top="2"
    right="-71"
@@ -43,7 +43,7 @@
    width="31" 
    mouse_opaque="true" 
    name="refresh"
-   tool_tip="Refresh"
+   tool_tip="새로고침"
    image_selected="Toolbar_Middle_Selected"
    image_unselected="Toolbar_Middle_Off"
    image_overlay="Refresh_Off" />
@@ -56,7 +56,7 @@
    width="31" 
    mouse_opaque="true" 
    name="remove"
-   tool_tip="Remove region(s)"
+   tool_tip="지역 제거(s)"
    image_selected="Toolbar_Middle_Selected"
    image_unselected="Toolbar_Middle_Off"
    image_overlay="TrashItem_Off" />
@@ -69,13 +69,13 @@
    width="31" 
    mouse_opaque="true" 
    name="open_map"
-   tool_tip="Open map"
+   tool_tip="지도 열기"
    image_selected="Toolbar_Middle_Selected"
    image_unselected="Toolbar_Middle_Off"
    image_overlay="Command_Map_Icon" />
   <scroll_list
    name="region_list"
-   tool_tip="Double click an entry to open it on the world map."
+   tool_tip="항목을 두 번 클릭하여 세계 지도에서 엽니다."
    height="216"
    right="-5"
    layout="topleft"
@@ -91,14 +91,14 @@
    search_column="0">
    <scroll_list.columns
     name="region_label"
-    label="Label"
+    label="레이블"
     dynamic_width="true"/>
    <scroll_list.columns
     name="region_maturity_icon"
     width="26" />
    <scroll_list.columns
     name="region_name"
-    label="Region"
+    label="지역"
     width="150"/>
    <scroll_list.columns
     name="region_agent_count"

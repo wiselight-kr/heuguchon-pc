@@ -5,7 +5,7 @@
   height="105"
   layout="topleft"
   name="window_size"
-  title="Window Size"
+  title="창 크기"
   width="205">
   <string name="resolution_format">[RES_X] x [RES_Y]</string>
     <text
@@ -16,7 +16,7 @@
      top="10" 
      name="windowsize_text"
      width="280">
-     Set window size:
+     창 크기 설정:
     </text>
     <combo_box
      allow_text_entry="true"
@@ -25,11 +25,11 @@
      left_delta="0"
      max_chars="50"
      name="window_size_combo"
-     tool_tip="width x height"
+     tool_tip="넓이 x 높이"
      top_pad="5"
      width="179">
       <combo_box.item
-       label="1000 x 700 (default)"
+       label="1000 x 700 (기본값)"
        name="item1"
        value="1000 x 700" />
       <combo_box.item
@@ -84,7 +84,7 @@
     <button
      follows="right|bottom"
      height="23"
-     label="Set"
+     label="설정"
      left_delta="0"
      name="set_btn"
      top_pad="10"
@@ -92,7 +92,7 @@
     <button
      follows="right|bottom"
      height="23"
-     label="Cancel"
+     label="취소"
      left_pad="5"
      name="cancel_btn"
      top_delta="0"

@@ -13,7 +13,7 @@
      <panel
       follows="left|top|right"
       height="27"
-      label="bottom_panel"
+      label="아래_패널"
       layout="topleft"
       left="0"
       name="blocked_buttons_panel"
@@ -41,7 +41,7 @@
           menu_filename="menu_people_blocked_gear.xml"
           menu_position="bottomleft"
           name="blocked_gear_btn"
-          tool_tip="Actions on selected person or object"
+          tool_tip="선택한 사용자 또는 개체에 대한 작업"
           top="3"
           width="31" />
          <menu_button
@@ -71,7 +71,7 @@
           menu_filename="menu_people_blocked_plus.xml"
           menu_position="bottomleft"
           name="plus_btn"
-          tool_tip="Pick a Resident or an object to block"
+          tool_tip="차단할 거주자 또는 개체 선택"
           top_delta="0"
           width="31"/>
           <button
@@ -84,7 +84,7 @@
           left_pad="2"
           layout="topleft"
           name="unblock_btn"
-          tool_tip="Remove Resident or object from blocked list"
+          tool_tip="차단 목록에서 거주자 또는 개체 제거"
           top_delta="0"
           width="31"/>
      </panel>
@@ -99,7 +99,7 @@
           left="3"
           use_ellipses="true"
           name="block_limit">
-          [COUNT] entries in your block list, and the limit is [LIMIT].
+          [COUNT] 블록 목록의 항목, 그리고 제한은 [LIMIT]입니다.
       </text>
     <block_list
      follows="all"
@@ -108,7 +108,7 @@
      left="3"
      name="blocked"
      keep_one_selected="false"
-     tool_tip="List of currently blocked Residents"
+     tool_tip="현재 차단된 거주자 목록"
      top_pad="4"
   	 right="-1"/>
 </panel>

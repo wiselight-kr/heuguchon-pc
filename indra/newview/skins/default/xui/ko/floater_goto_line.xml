@@ -6,7 +6,7 @@
  layout="topleft"
  name="script goto"
  help_topic="script_goto"
- title="Go to Line"
+ title="선으로 이동"
  width="200">
     <button
      height="24"
@@ -27,7 +27,7 @@
      name="txt"
      top="21"
      width="65">
-        Go to line
+        선으로 이동
     </text>
     <line_editor
      border_style="line"

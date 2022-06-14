@@ -7,14 +7,14 @@
  layout="topleft"
  follows="all"
  name="panel_profile"
- label="Profile">
+ label="프로필">
     <string
      name="status_online">
-Online
+온라인
     </string>
     <string
      name="status_offline">
-Offline
+오프라인
     </string>
     <string
      name="CaptionTextAcctInfo">
@@ -37,10 +37,10 @@ http://www.secondlife.com/account/partners.php?lang=en
      value="http://secondlife.com/account" />
     <string
      name="no_partner_text"
-     value="None" />
+     value="없음" />
     <string
      name="no_group_text"
-     value="None" />
+     value="없음" />
     <string
      name="RegisterDateFormat">
 [REG_DATE]
@@ -56,16 +56,16 @@ http://www.secondlife.com/account/partners.php?lang=en
     </string>
     <string
      name="FSDev"
-     value=" Developer" />
+     value=" 개발자" />
     <string
      name="FSSupp"
-     value=" Support" />
+     value=" 지원" />
     <string
       name="FSQualityAssurance"
-      value=" Bug Hunter" />
+      value=" 벌레 사냥꾼" />
     <string
      name="FSGW"
-     value=" Gateway" />
+     value=" 출입문" />
 
 <!--
 
@@ -92,7 +92,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          follows="left|top"
          name="Name:"
          halign="right"
-         value="Name:" />
+         value="이름:" />
 
         <view_border
          left_pad="4"
@@ -117,7 +117,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          v_pad="0"
          enabled="false"
          max_length="254"
-         value="(loading...)" />
+         value="(로딩중...)" />
 
         <button
          left_pad="2"
@@ -127,7 +127,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          follows="top|right"
          name="set_name"
          image_overlay="Edit_Wrench"
-         tool_tip="Set Display Name"
+         tool_tip="표시 이름 설정"
          visible="false"
          enabled="false" />
 
@@ -140,7 +140,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          follows="left|top"
          name="Key:"
          halign="right"
-         value="Key:" />
+         value="키:" />
 
         <view_border
          left_pad="4"
@@ -165,7 +165,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          v_pad="0"
          enabled="false"
          max_length="254"
-         value="(loading...)" />
+         value="(로딩중...)" />
 
         <text
          left_pad="2"
@@ -184,7 +184,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          layout="topleft"
          follows="top|right"
          name="copy_own_uri_button"
-         label="Copy URI" />
+         label="URI 복사" />
   
         <texture_picker
          top_pad="3"
@@ -207,7 +207,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          layout="topleft"
          follows="left|top|right"
          name="label"
-         value="Born:" />
+         value="태어남:" />
 
         <view_border
          top_pad="0"
@@ -244,7 +244,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          layout="topleft"
          follows="left|top|right"
          name="label2"
-         value="Account:" />
+         value="계좌:" />
 
         <view_border
          top_pad="0"
@@ -280,7 +280,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          layout="topleft"
          follows="left|top|right"
          name="partner_label"
-         value="Partner:" />
+         value="파트너:" />
 
         <view_border
          top_pad="0"
@@ -311,7 +311,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          follows="left|top"
          name="Groups:"
          halign="right"
-         value="Groups:" />
+         value="그룹:" />
 
         <button
          top_delta="20"
@@ -323,7 +323,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          name="group_invite"
          label="+"
          label_selected="+"
-         tool_tip="Invite to Group" />
+         tool_tip="그룹에 초대" />
 
         <group_list
          top_delta="-20"
@@ -345,7 +345,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          follows="left|top"
          name="About:"
          halign="right"
-         value="About:" />
+         value="대해서:" />
 
         <view_border
          top_delta="0"
@@ -382,7 +382,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          follows="left|bottom"
          name="Give item:"
          halign="right"
-         value="Give item:" />
+         value="아이템 주기:" />
         <view_border
          top_delta="0"
          left="66"
@@ -401,8 +401,8 @@ KC: Use view_border's around text_editor's due to text render issues with border
          follows="left|bottom"
          name="Give inventory"
          halign="center"
-         tool_tip="Drop inventory items here to give them to this person.">
-            Drop inventory item here.
+         tool_tip="이 사용자에게 제공할 인벤토리 항목을 여기에 놓으십시오.">
+            재고 품목을 여기에 놓으십시오.
         </text>
 
         <layout_stack
@@ -431,9 +431,9 @@ KC: Use view_border's around text_editor's due to text render issues with border
                  layout="topleft"
                  follows="left|top|right"
                  name="show_on_map_btn"
-                 label="Find on Map"
+                 label="지도에서 찾기"
                  label_selected="Find on Map"
-                 tool_tip="Locate the Resident on the map" />
+                 tool_tip="지도에서 거주자 찾기" />
 
                 <button
                  top_pad="2"
@@ -441,9 +441,9 @@ KC: Use view_border's around text_editor's due to text render issues with border
                  layout="topleft"
                  follows="left|top|right"
                  name="pay"
-                 label="Pay"
+                 label="지불"
                  label_selected="Pay"
-                 tool_tip="Pay money to the Resident" />
+                 tool_tip="주민에게 돈을 지불하시오." />
 
             </layout_panel>
             <layout_panel
@@ -461,9 +461,9 @@ KC: Use view_border's around text_editor's due to text render issues with border
                  layout="topleft"
                  follows="left|top|right"
                  name="teleport"
-                 label="Offer Teleport"
+                 label="순간이동 제안"
                  label_selected="Offer Teleport"
-                 tool_tip="Offer a teleport to the Resident" />
+                 tool_tip="레지던트에게 텔레포트 제공" />
 
                 <button
                  top_pad="2"
@@ -471,9 +471,9 @@ KC: Use view_border's around text_editor's due to text render issues with border
                  layout="topleft"
                  follows="left|top|right"
                  name="im"
-                 label="Instant Message"
+                 label="인스턴트 메시지"
                  label_selected="Instant Message"
-                 tool_tip="Open instant message session" />
+                 tool_tip="인스턴트 메시지 세션 열기" />
 
             </layout_panel>
             <layout_panel
@@ -493,7 +493,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
                  name="add_friend"
                  label="친구추가"
                  label_selected="Add Friend"
-                 tool_tip="Offer friendship to the Resident" />
+                 tool_tip="레지던트에게 우정을 바칩니다." />
 
                 <button
                  top_pad="2"
@@ -502,8 +502,8 @@ KC: Use view_border's around text_editor's due to text render issues with border
                  layout="topleft"
                  follows="left|top|right"
                  name="block"
-                 label="Block"
-                 tool_tip="Block this Resident" />
+                 label="차단"
+                 tool_tip="이 거주자 차단" />
 
                 <button
                  top_delta="0"
@@ -512,8 +512,8 @@ KC: Use view_border's around text_editor's due to text render issues with border
                  layout="topleft"
                  follows="left|top|right"
                  name="unblock"
-                 label="Unblock"
-                 tool_tip="Unblock this Resident" />
+                 label="차단 해제"
+                 tool_tip="이 거주자 차단 해제" />
 
                 <menu_button
                  left_pad="4"
@@ -535,7 +535,7 @@ KC: Use view_border's around text_editor's due to text render issues with border
          layout="topleft"
          follows="left|bottom"
          name="show_in_search_checkbox"
-         label="Show in search"
+         label="검색 표시"
          visible="false"
          enabled="false" />
 

@@ -12,7 +12,7 @@
 	positioning="centered"
 	save_rect="true"
 	single_instance="true"
-	title="Firestorm Search"
+	title="Firestorm 검색"
 	width="780">
 	<!-- Strings -->
 	<floater.string name="string.location">
@@ -225,7 +225,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Open Profile"
+		label="프로필 열기"
 		name="people_profile_btn"
 		top="484"
 		left="3"
@@ -234,7 +234,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Send Message"
+		label="메세지 전송"
 		name="people_message_btn"
 		width="120"
 		left_pad="1" />
@@ -242,7 +242,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="친구추가"
+		label="친구 추가"
 		name="people_friend_btn"
 		width="120"
 		left_pad="1" />
@@ -250,7 +250,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Open Profile"
+		label="프로필 열기"
 		name="group_profile_btn"
 		top="484"
 		left="3"
@@ -259,7 +259,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Join Chat"
+		label="채팅 참가"
 		name="group_message_btn"
 		width="120"
 		left_pad="1" />
@@ -267,7 +267,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Join Group"
+		label="그룹 참가"
 		name="group_join_btn"
 		width="120"
 		left_pad="1" />
@@ -275,7 +275,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Teleport"
+		label="순간이동"
 		name="teleport_btn"
 		top="484"
 		left="3"
@@ -284,7 +284,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Show on Map"
+		label="지도에서 표시"
 		name="map_btn"
 		width="120"
 		left_pad="1" />
@@ -292,7 +292,7 @@
 		layout="topleft"
 		follows="left|bottom"
 		height="23"
-		label="Remind me"
+		label="상기시키기"
 		name="event_reminder_btn"
 		width="120"
 		left_pad="1" />

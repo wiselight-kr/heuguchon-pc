@@ -8,35 +8,35 @@
  min_width="545"
  name="top_objects"
  help_topic="top_objects"
- title="Top Objects"
+ title="상위 개체"
  width="800">
     <floater.string
      name="top_scripts_title">
-        Top Scripts
+        상위 스크립트
     </floater.string>
     <floater.string
      name="top_scripts_text">
-        [COUNT] scripts taking a total of [TIME] ms and using [MEMORY] KB
+        [COUNT] 총 [TIME] ms가 걸리고 [MEMORY] KB를 사용하는 스크립트
     </floater.string>
     <floater.string
      name="scripts_score_label">
-        Time
+        시간
     </floater.string>
     <floater.string
      name="top_colliders_title">
-        Top Colliders
+        상위 충돌기
     </floater.string>
     <floater.string
      name="top_colliders_text">
-        Top [COUNT] objects experiencing many potential collisions
+        많은 잠재적 충돌이 발생하는 상위 [COUNT] 개체
     </floater.string>
     <floater.string
      name="colliders_score_label">
-        Score
+        점수
     </floater.string>
     <floater.string
      name="none_descriptor">
-        None found.
+        찾을 수 없음.
     </floater.string>
     <floater.string
      name="URLs">
@@ -44,7 +44,7 @@
     </floater.string>
     <floater.string
      name="memory">
-        Memory (KB)
+        메모리 (KB)
     </floater.string>
 
 
@@ -61,7 +61,7 @@
      top="20"
      text_color="EmphasisColor"
      width="400">
-        Loading...
+        로딩중...
     </text>
     <scroll_list
      draw_heading="true"
@@ -74,27 +74,27 @@
      top_delta="17"
      width="780">
         <scroll_list.columns
-         label="Score"
+         label="점수"
          name="score"
          width="45" />
         <scroll_list.columns
-         label="Name"
+         label="이름"
          name="name"
          width="130" />
         <scroll_list.columns
-         label="Owner"
+         label="소유주"
          name="owner"
          width="100" />
         <scroll_list.columns
-         label="Location"
+         label="위치"
          name="location"
          width="120" />
         <scroll_list.columns
-         label="Parcel"
+         label="구획"
          name="parcel"
          width="120" />
         <scroll_list.columns
-         label="Date"
+         label="일자"
          name="time"
          width="130" />
           <scroll_list.columns
@@ -102,7 +102,7 @@
           	name="URLs"
          width="40" />
         <scroll_list.columns
-         label="Memory (KB)"
+         label="메모리 (KB)"
          name="memory"
          width="40" />
 		<scroll_list.commit_callback
@@ -118,7 +118,7 @@
      name="id_text"
      top_pad="10"
      width="107">
-        Object ID:
+        개체 ID:
     </text>
     <line_editor
      enabled="false"
@@ -132,7 +132,7 @@
     <button
      follows="bottom|right"
      height="23"
-     label="Show Beacon"
+     label="비콘 표시"
      layout="topleft"
      left_pad="5"
      name="show_beacon_btn"
@@ -151,7 +151,7 @@
      top_pad="5"
      name="obj_name_text"
      width="107">
-        Object name:
+        개체 이름:
     </text>
     <line_editor
      follows="left|bottom|right"
@@ -164,7 +164,7 @@
     <button
      follows="bottom|right"
      height="23"
-     label="Filter"
+     label="필터"
      layout="topleft"
      left_pad="5"
      name="filter_object_btn"
@@ -183,7 +183,7 @@
      top_pad="5"
      name="owner_name_text"
      width="107">
-        Owner:
+        소유주:
     </text>
     <line_editor
      follows="left|bottom|right"
@@ -196,7 +196,7 @@
     <button
      follows="bottom|right"
      height="23"
-     label="Filter"
+     label="필터"
      layout="topleft"
      left_pad="5"
      name="filter_owner_btn"
@@ -215,7 +215,7 @@
      top_pad="5"
      name="parcel_name_text"
      width="107">
-        Parcel:
+        구획:
     </text>
     <line_editor
      follows="left|bottom|right"
@@ -228,7 +228,7 @@
     <button
      follows="bottom|right"
      height="23"
-     label="Filter"
+     label="필터"
      layout="topleft"
      left_pad="5"
      name="filter_parcel_btn"
@@ -240,7 +240,7 @@
     <button
      follows="bottom|right"
      height="22"
-     label="Refresh"
+     label="새로고침"
      layout="topleft"
      name="refresh_btn"
      right="-8"
@@ -252,7 +252,7 @@
     <button
      follows="bottom|left"
      height="23"
-     label="Return Selected"
+     label="선택 항목 반환"
      layout="topleft"
      left="5"
      top_delta="0"
@@ -264,7 +264,7 @@
     <button
      follows="bottom|left"
      height="23"
-     label="Return All"
+     label="모두 되돌리기"
      layout="topleft"
      left_pad="10"
      name="return_all_btn"
@@ -276,7 +276,7 @@
     <button
      follows="bottom|left"
      height="23"
-     label="Teleport to"
+     label="순간이동"
      layout="topleft"
      left_pad="10"
      name="teleport_to_btn"
@@ -289,7 +289,7 @@
      enabled="false"
      follows="bottom|left"
      height="23"
-     label="Profile"
+     label="프로필"
      layout="topleft"
      left_pad="10"
      name="profile_btn"
@@ -302,7 +302,7 @@
      enabled_control="UseLSLBridge"
      follows="bottom|left"
      height="23"
-     label="Script Info"
+     label="스크립트 정보"
      layout="topleft"
      left_pad="10"
      name="script_info_btn"
@@ -315,7 +315,7 @@
      enabled="false"
      follows="bottom|left"
      height="23"
-     label="Estate Kick"
+     label="재산 걷어차기"
      layout="topleft"
      left_pad="10"
      name="estate_kick_btn"

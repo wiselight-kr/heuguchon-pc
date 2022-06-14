@@ -8,7 +8,7 @@
  help_topic="floater_test_textbox"
  translate="false"
  width="875"
- title="Textbox Tests">
+ title="텍스트 박스 테스트">
 
     <text
         clip_partial="true"
@@ -23,7 +23,7 @@
         word_wrap="true"
         mouse_opaque="false"
         name="title" >
-This text has word_wrap set true, use_ellipses set true, and clip_partial set true, so it should wrap around, spilling over to the last line, then clip the last partial line and show ellipses to indicate there is more text
+이 텍스트에는 word_wrap set true, use_ellips set true, clip_partial set true가 있으므로 줄바꿈하여 마지막 줄까지 넘친 다음 마지막 부분 줄을 자르고 타원을 표시하여 텍스트가 더 있음을 나타냅니다
     </text>
 
     <text
@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         left_delta="0"
         top_pad="10"
         width="650">
-SansSerif ITALIC
+SansSerif 이탤릭
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </text>
 
@@ -57,7 +57,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         left_delta="0"
         top_pad="10"
         width="650">
-SansSerif UNDERLINE
+SansSerif 밑줄
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </text>
 
@@ -69,7 +69,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         left_delta="0"
         top_pad="10"
         width="650">
-SansSerif BOLD
+SansSerif 두꺼운
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </text>
 
@@ -81,7 +81,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         left_delta="0"
         top_pad="10"
         width="650">
-SansSerif BOLD ITALIC
+SansSerif 두꺼운 이탤릭
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </text>
 
@@ -93,7 +93,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         left_delta="0"
         top_pad="10"
         width="650">
-SansSerif BOLD UNDERLINE
+SansSerif 두꺼운 밑줄
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </text>
 
@@ -160,7 +160,7 @@ The 华文细黑 brown fox ヒラキjumped over the lazy dog.
         height="20"
         halign="right"
         top_pad="10">
-Right aligned text
+오른쪽 정렬 텍스트
     </text>
 
     <text
@@ -169,7 +169,7 @@ Right aligned text
         width="250"
         height="20"
         halign="center">
-Centered text
+가운데 텍스트
     </text>
 
     <text
@@ -178,7 +178,7 @@ Centered text
         width="250"
         height="20"
         halign="left">
-Left aligned text
+왼쪽 정렬 텍스트
     </text>
 
     <text
@@ -211,7 +211,7 @@ h_pad = 30, height = 40
         tool_tip="text editor"
         top="25"
         width="200">
-Text Editor
+텍스트 편집기
     </text_editor>
 
     <text_editor
@@ -222,11 +222,11 @@ Text Editor
         tool_tip="text editor"
         top_pad="10"
         width="200">
-Text Editor
-with multiple
-lines of text
-and hence a
-scroll bar
+텍스트 편집기
+곱셈으로
+텍스트 줄
+그리고, 그래서
+스크롤 막대
     </text_editor>
 
     <text_editor
@@ -299,11 +299,11 @@ scroll bar gjyrrr
         tool_tip="text box"
         top_pad="5"
         width="200">
-Text box
-with
-multiple lines
-and too many lines
-to actually fit
+텍스트 상자
+와 함께
+여러 줄
+및 너무 많은 줄
+실제로 맞다
     </text>
 
 </floater>

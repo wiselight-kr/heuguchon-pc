@@ -4,7 +4,7 @@
      left="0" bottom="0" visible="false"
      mouse_opaque="false">
   <menu_item_call
-   label="View Profile"
+   label="프로필 보기"
    name="profile">
      <menu_item_call.on_click
       function="ContactSet.Action"
@@ -24,7 +24,7 @@
        parameter="has_selection" />
   </menu_item_call>
   <menu_item_call
-   label="Teleport..."
+   label="순간이동..."
    name="teleport">
      <menu_item_call.on_click
       function="ContactSet.Action"
@@ -34,7 +34,7 @@
       parameter="has_selection" />
   </menu_item_call>
   <menu_item_call
-   label="Set alias..."
+   label="별명 설정..."
    name="set_pseudonym">
      <menu_item_call.on_click
       function="ContactSet.Action"
@@ -44,7 +44,7 @@
       parameter="has_single_selection" />
   </menu_item_call>
   <menu_item_call
-   label="Remove alias..."
+   label="별명 제거..."
    name="remove_pseudonym">
      <menu_item_call.on_click
       function="ContactSet.Action"
@@ -54,7 +54,7 @@
       parameter="has_pseudonym" />
   </menu_item_call>
   <menu_item_call
-   label="Remove display name..."
+   label="표시 이름 제거..."
    name="remove_displayname">
      <menu_item_call.on_click
       function="ContactSet.Action"
@@ -64,7 +64,7 @@
       parameter="has_display_name" />
   </menu_item_call>
   <menu_item_call
-   label="Configure Contact Set..."
+   label="연락처 집합 구성..."
    name="set_config">
      <menu_item_call.on_click
       function="ContactSet.Action"

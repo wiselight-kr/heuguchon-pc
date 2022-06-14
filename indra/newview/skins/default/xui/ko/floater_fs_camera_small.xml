@@ -93,7 +93,7 @@ free_mode_title
          scale_image="true"
          sound_flags="3"
          visible="true"
-         tool_tip="Orbit camera around focus"
+         tool_tip="포커스를 중심으로 카메라 회전"
 		 held_down_delay.seconds="0.0"
          top="0" />
     </layout_panel>

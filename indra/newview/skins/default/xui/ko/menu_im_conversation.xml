@@ -3,35 +3,35 @@
  layout="topleft"
  name="Conversation Gear Menu">
     <menu_item_call
-     label="View Profile"
+     label="프로필 보기"
      layout="topleft"
      name="View Profile">
         <on_click function="Avatar.GearDoToSelected" parameter="view_profile" />
         <on_enable function="Avatar.EnableGearItem" parameter="can_view_profile" />
     </menu_item_call>
     <menu_item_call
-     label="친구추가"
+     label="친구 추가"
      layout="topleft"
      name="Add Friend">
         <on_click function="Avatar.GearDoToSelected" parameter="add_friend" />
         <on_enable function="Avatar.EnableGearItem" parameter="can_add" />
     </menu_item_call>
     <menu_item_call
-     label="Remove friend"
+     label="친구 삭제"
      layout="topleft"
      name="remove_friend">
         <on_click function="Avatar.GearDoToSelected" parameter="remove_friend" />
         <on_enable function="Avatar.EnableGearItem" parameter="can_delete" />
     </menu_item_call>
     <menu_item_call
-     label="Offer teleport"
+     label="순간이동 제공"
      layout="topleft"
      name="offer_teleport">
         <on_click function="Avatar.GearDoToSelected" parameter="offer_teleport"/>
         <on_enable function="Avatar.EnableGearItem" parameter="can_offer_teleport"/>
     </menu_item_call>
     <menu_item_call
-     label="Invite to group..."
+     label="그룹에 초대..."
      layout="topleft"
      name="invite_to_group">
         <on_click function="Avatar.GearDoToSelected" parameter="invite_to_group" />
@@ -41,7 +41,7 @@
      layout="topleft"
      name="View Icons Separator" />
     <menu_item_call
-     label="Chat transcript..."
+     label="대화 내용..."
      layout="topleft"
      name="chat_history">
         <on_click function="Avatar.GearDoToSelected" parameter="chat_history"/>
@@ -50,28 +50,28 @@
     <menu_item_separator
      layout="topleft"/>
     <menu_item_call
-       label="Zoom In"
+       label="확대"
        layout="topleft"
        name="zoom_in">
       <on_click function="Avatar.DoToSelected" parameter="zoom_in" />
       <on_enable function="Avatar.EnableItem" parameter="can_zoom_in" />
     </menu_item_call>
     <menu_item_call
-     label="Map"
+     label="지도"
      layout="topleft"
      name="map">
         <on_click function="Avatar.GearDoToSelected" parameter="map" />
         <on_enable function="Avatar.EnableGearItem" parameter="can_show_on_map" />
     </menu_item_call>
     <menu_item_call
-     label="Share"
+     label="공유"
      layout="topleft"
      name="Share">
         <on_click function="Avatar.GearDoToSelected" parameter="share" />
         <on_enable function="Avatar.EnableGearItem" parameter="can_share" />
     </menu_item_call>
     <menu_item_call
-     label="Pay"
+     label="결제"
      layout="topleft"
      name="Pay">
         <on_click function="Avatar.GearDoToSelected" parameter="pay" />
@@ -80,7 +80,7 @@
     <menu_item_separator
      layout="topleft"/>
     <menu_item_check
-     label="Block Voice"
+     label="음성 차단"
      layout="topleft"
      name="Block/Unblock">
         <on_check function="Avatar.CheckGearItem" parameter="is_blocked" />
@@ -88,7 +88,7 @@
         <on_enable function="Avatar.EnableGearItem" parameter="can_block" />
     </menu_item_check>
     <menu_item_check
-     label="Block Text"
+     label="텍스트 차단"
      layout="topleft"
      name="MuteText">
         <on_check function="Avatar.CheckGearItem" parameter="is_muted" />

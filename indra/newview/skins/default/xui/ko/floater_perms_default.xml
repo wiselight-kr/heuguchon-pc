@@ -6,7 +6,7 @@
  name="perms default"
  help_topic="perms_default"
  save_rect="true"
- title="Default Creation Permissions"
+ title="기본 생성 권한"
  width="700">
   <panel
    follows="left|top|right|bottom"
@@ -73,7 +73,7 @@
        left_pad="5"
        top="10"
        width="100">
-          환승
+          이전
       </text>    
       <text
        name="label_5"
@@ -112,7 +112,7 @@
        layout="topleft"
        left="0"
        top_pad="10"
-       tool_tip="Set default permissions for when Objects are created"
+       tool_tip="개체 생성 시 기본 사용 권한 설정"
        width="100">
           개체
       </text>
@@ -176,7 +176,7 @@
        height="16"
        layout="topleft"
        left="0"
-       tool_tip="Set default permissions for uploaded items"
+       tool_tip="업로드된 항목에 대한 기본 권한 설정"
        width="100">
           업로드
       </text>
@@ -240,7 +240,7 @@
        height="16"
        layout="topleft"
        left="0"
-       tool_tip="Set default permissions for when Scripts are created"
+       tool_tip="스크립트 생성 시 기본 권한 설정"
        width="100">
           스크립트
       </text>
@@ -304,7 +304,7 @@
        height="16"
        layout="topleft"
        left="0"
-       tool_tip="Set default permissions for when Notecards are created"
+       tool_tip="노트카드 생성 시 기본 권한 설정"
        width="100">
         노트카드
       </text>
@@ -368,7 +368,7 @@
        height="16"
        layout="topleft"
        left="0"
-       tool_tip="Set default permissions for when Gestures are created"
+       tool_tip="제스처 생성 시 기본 권한 설정"
        width="100">
           제스쳐
       </text>
@@ -432,7 +432,7 @@
        height="16"
        layout="topleft"
        left="0"
-       tool_tip="Set default permissions for when Clothing or Body Parts are created"
+       tool_tip="의류 또는 신체 부위를 만들 때 사용할 기본 권한 설정"
        width="100">
           의상
       </text>
@@ -496,7 +496,7 @@
        height="16"
        layout="topleft"
        left="0"
-       tool_tip="Set default permissions for when Environment settings are created"
+       tool_tip="환경 설정 생성 시 기본 권한 설정"
        width="100">
           설정
       </text>

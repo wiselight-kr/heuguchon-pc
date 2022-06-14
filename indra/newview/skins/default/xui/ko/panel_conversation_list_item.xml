@@ -80,7 +80,7 @@
 		     parse_urls="false"
 		     top="6"
 		     use_ellipses="true"
-		     value="(loading)"
+		     value="(로딩중)"
 		     width="35" />
 		    <output_monitor
 		     auto_update="true"

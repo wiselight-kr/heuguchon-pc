@@ -7,7 +7,7 @@
  layout="topleft"
  follows="all"
  name="panel_profile_interests"
- label="Interests">
+ label="흥미">
 
     <loading_indicator
      top="5"
@@ -27,7 +27,7 @@
      follows="left|top"
      name="I Want To:"
      halign="right">
-        I Want To:
+        하고싶습니다:
     </text>
         <check_box
          top_delta="0"
@@ -37,7 +37,7 @@
          layout="topleft"
          follows="left|top"
          name="chk0"
-         label="Build"
+         label="건설"
          enabled="false" />
         <check_box
          left_pad="80"
@@ -46,7 +46,7 @@
          layout="topleft"
          follows="left|top"
          name="chk1"
-         label="Explore"
+         label="탐험"
          enabled="false" />
         <check_box
          top_pad="1"
@@ -56,7 +56,7 @@
          layout="topleft"
          follows="left|top"
          name="chk2"
-         label="Meet"
+         label="만남"
          enabled="false" />
         <check_box
          left_pad="80"
@@ -65,7 +65,7 @@
          layout="topleft"
          follows="left|top"
          name="chk6"
-         label="Be Hired"
+         label="고용됨"
          enabled="false" />
         <check_box
          top_pad="1"
@@ -75,7 +75,7 @@
          layout="topleft"
          follows="left|top"
          name="chk3"
-         label="Group"
+         label="그룹"
          enabled="false" />
         <check_box
          left_pad="80"
@@ -84,7 +84,7 @@
          layout="topleft"
          follows="left|top"
          name="chk4"
-         label="Buy"
+         label="구매"
          enabled="false" />
         <check_box
          top_pad="1"
@@ -94,7 +94,7 @@
          layout="topleft"
          follows="left|top"
          name="chk5"
-         label="Sell"
+         label="판매"
          enabled="false" />
         <check_box
          left_pad="80"
@@ -103,7 +103,7 @@
          layout="topleft"
          follows="left|top"
          name="chk7"
-         label="Hire"
+         label="고용"
          enabled="false" />
         <line_editor
          top_pad="6"
@@ -124,7 +124,7 @@
      follows="left|top"
      name="Skills:"
      halign="right">
-        Skills:
+        기술:
     </text>
         <check_box
          top_delta="0"
@@ -134,7 +134,7 @@
          layout="topleft"
          follows="left|top"
          name="schk0"
-         label="Textures"
+         label="텍스쳐"
          enabled="false" />
         <check_box
          left_pad="80"
@@ -143,7 +143,7 @@
          layout="topleft"
          follows="left|top"
          name="schk1"
-         label="Architecture"
+         label="건설"
          enabled="false" />
 <!-- The next two are out of order on purpose due to the odd layout used in v1.x -->
         <check_box
@@ -154,7 +154,7 @@
          layout="topleft"
          follows="left|top"
          name="schk3"
-         label="Modeling"
+         label="모델링"
          enabled="false" />
         <check_box
          left_pad="80"
@@ -163,7 +163,7 @@
          layout="topleft"
          follows="left|top"
          name="schk2"
-         label="Event Planning"
+         label="이벤트 계획"
          enabled="false" />
         <check_box
          top_pad="1"
@@ -173,7 +173,7 @@
          layout="topleft"
          follows="left|top"
          name="schk4"
-         label="Scripting"
+         label="스크립팅"
          enabled="false" />
         <check_box
          left_pad="80"
@@ -182,7 +182,7 @@
          layout="topleft"
          follows="left|top"
          name="schk5"
-         label="Custom Characters"
+         label="사용자 지정 문자"
          enabled="false" />
         <line_editor
          top_pad="6"
@@ -203,7 +203,7 @@
      follows="left|top"
      name="Languages:"
      halign="right" >
-    Languages:
+    언어:
     </text>
         <line_editor
          top_delta="-1"

@@ -5,7 +5,7 @@
  layout="topleft"
  name="Sound Preview"
  help_topic="sound_preview"
- title="Sound.Wav"
+ title="소리.Wav"
  width="300">
     <text
      type="string"
@@ -18,7 +18,7 @@
      name="name_label"
      top="20"
      width="275">
-        Name:
+        이름:
     </text>
     <line_editor
      border_style="line"
@@ -42,7 +42,7 @@
      name="description_label"
      top_pad="10"
      width="270">
-        Description:
+        묘사:
     </text>
     <line_editor
      border_style="line"
@@ -58,7 +58,7 @@
     <button
      follows="left|bottom"
      height="22"
-     label="Upload (L$[AMOUNT])"
+     label="업로드 (L$[AMOUNT])"
      layout="topleft"
      left="35"
      name="ok_btn"
@@ -67,7 +67,7 @@
     <button
      follows="right|bottom"
      height="22"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      name="cancel_btn"

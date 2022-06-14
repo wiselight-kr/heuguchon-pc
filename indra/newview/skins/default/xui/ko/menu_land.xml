@@ -3,7 +3,7 @@
  layout="topleft"
  name="Land Pie">
     <menu_item_call
-     label="About Land"
+     label="랜드에 관하여"
      name="Place Information...">
         <menu_item_call.on_click
          function="Floater.Show"
@@ -19,10 +19,8 @@
          function="GoToObject" />
     </menu_item_call>-->
     <menu_item_call
-     label="Sit Here"
+     label="여기 앉기"
      name="Sit Here">
-        <menu_item_call.on_enable
-         function="Land.CanSit" />
         <menu_item_call.on_click
          function="Land.Sit" />
     </menu_item_call>
@@ -30,7 +28,7 @@
      layout="topleft" />
         <menu_item_call
      enabled="false"
-     label="Buy This Land"
+     label="이 랜드 구매"
      name="Land Buy">
         <menu_item_call.on_click
          function="Land.Buy" />
@@ -39,7 +37,7 @@
     </menu_item_call>
    <menu_item_call
      enabled="false"
-     label="Buy Pass"
+     label="패스 구매"
      name="Land Buy Pass">
         <menu_item_call.on_click
          function="Land.BuyPass" />
@@ -50,7 +48,7 @@
      layout="topleft" />
    <menu_item_call
      enabled="false"
-     label="Build"
+     label="빌드"
      name="Create">
         <menu_item_call.on_click
          function="Land.Build" />
@@ -59,7 +57,7 @@
     </menu_item_call>
     <menu_item_call
      enabled="false"
-     label="Edit Terrain"
+     label="지역 편집"
      name="Edit Terrain">
         <menu_item_call.on_click
          function="Land.Edit" />
@@ -70,7 +68,7 @@
        layout="topleft" />
   <menu_item_call
      enabled="false"
-     label="Block Particle Owner"
+     label="블록 입자 소유자"
      name="Mute Particle">
     <menu_item_call.on_click
      function="Particle.Mute" />

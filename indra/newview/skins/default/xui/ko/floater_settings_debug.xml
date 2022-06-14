@@ -10,7 +10,7 @@
 	min_width="430"
 	name="settings_debug"
 	help_topic="settings_debug"
-	title="Debug Settings"
+	title="디버그 설정"
 	width="450">
 
 	<panel
@@ -26,14 +26,14 @@
 			clear_button_visible="true"
 			follows="left|top"
 			height="18"
-			label="Search Here"
+			label="여기서 검색"
 			layout="topleft"
 			left="0"
 			max_length_bytes="255"
 			name="search_settings_input"
 			right="-1"
 			text_pad_left="6"
-			tool_tip="Type the search term you are interested in here. Results will be displayed for partial fulltext matches within the setting's name or comment."
+			tool_tip="관심 있는 검색어를 여기에 입력하십시오. 설정 이름 또는 설명에서 전체 텍스트의 부분 일치에 대한 결과가 표시됩니다."
 			top="3">
 			<!-- commit callback for clear button clicks -->
 			<search_editor.commit_callback
@@ -83,7 +83,7 @@
 			max_length="512"
 			name="comment_text"
 			right="-1"
-			tool_tip="Debug setting comment. Often gives helpful information on the setting you have selected."
+			tool_tip="디버그 설정 설명입니다. 선택한 설정에 대한 유용한 정보를 제공하는 경우가 많습니다."
 			top="0"
 			word_wrap="true" />
 
@@ -99,12 +99,12 @@
 			tab_stop="true">
 			<radio_item
 				top_pad="5" 
-				label="TRUE"
+				label="사실"
 				name="TRUE"
-				value="true" />
+				value="사실" />
 			<radio_item
 				top_pad="5" 
-				label="FALSE"
+				label="거짓"
 				name="FALSE"
 				value="" />
 			<commit_callback
@@ -128,7 +128,7 @@
 			can_apply_immediately="true"
 			height="85"
 			name="val_color_swatch"
-			label="Color"
+			label="색깔"
 			layout="topleft"
 			top_delta="0"
 			width="67" >
@@ -139,7 +139,7 @@
 		<spinner
 			follows="left|bottom"
 			height="20"
-			label="Spin 1"
+			label="회전 1"
 			layout="topleft"
 			left="0"
 			max_val="1e+007"
@@ -154,7 +154,7 @@
 		<spinner
 			follows="right|bottom"
 			height="20"
-			label="Spin 2"
+			label="회전 2"
 			layout="topleft"
 			right="-1"
 			max_val="1e+007"
@@ -169,7 +169,7 @@
 		<spinner
 			follows="left|bottom"
 			height="20"
-			label="Spin 3"
+			label="회전 3"
 			layout="topleft"
 			left="0"
 			max_val="1e+007"
@@ -184,7 +184,7 @@
 		<spinner
 			follows="right|bottom"
 			height="20"
-			label="Spin 4"
+			label="회전 4"
 			layout="topleft"
 			right="-1"
 			max_val="1e+007"
@@ -205,7 +205,7 @@
 			image_selected="PushButton_Selected_Press"
 			name="sanity_warning_btn"
 			right="-160"
-			tool_tip="This debug setting failed the sanity check; its value lies outside the recommended range."
+			tool_tip="이 디버그 설정이 건전성 검사에 실패했습니다. 값이 권장 범위를 벗어났습니다."
 			top_pad="10"
 			visible="true"
 			width="22">
@@ -215,11 +215,11 @@
 		<button
 			follows="right|bottom"
 			height="22"
-			label="Copy"
+			label="복사"
 			layout="topleft"
 			left_pad="4"
 			name="copy_btn"
-			tool_tip="Copies the setting's name to the clipboard."
+			tool_tip="설정 이름을 클립보드에 복사합니다."
 			width="50">
 			<button.commit_callback
 				function="ClickCopy" />
@@ -227,11 +227,11 @@
 		<button
 			follows="right|bottom"
 			height="22"
-			label="Reset to default"
+			label="기본값으로 초기화"
 			layout="topleft"
 			left_pad="4"
 			name="default_btn"
-			tool_tip="Reset this debug setting to its default value."
+			tool_tip="이 디버그 설정을 기본값으로 재설정."
 			width="100">
 			<button.commit_callback
 				function="ClickDefault" />

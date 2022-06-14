@@ -12,19 +12,19 @@
  can_resize="true"
  title="Backup objects...">
 	<floater.string name="title_floater">
-		Backup [OBJECT] to Hard Disk...
+		 [OBJECT]하드디스크에 백접...
 	</floater.string>
 	<floater.string name="title_working">
-		Backup [OBJECT] working - Gathering information...
+	 [OBJECT] 백업 작업 - 정보 수집...
 	</floater.string>
 	<floater.string name="title_inventory">
-		Backup [OBJECT] working - Fetching inventory...
+		 [OBJECT] 백업 작업 - 인벤토리 가져오기...
 	</floater.string>
 	<floater.string name="title_assets">
-		Backup [OBJECT] working - Fetching assets...
+		 [OBJECT] 백업 작업 - 자산 가져오기...
 	</floater.string>
 	<floater.string name="title_textures">
-		Backup [OBJECT] working - Fetching textures...
+		 [OBJECT] 백업 작업 - 텍스처 가져오기...
 	</floater.string>
 	<layout_stack
 	 follows="all"
@@ -52,7 +52,7 @@
 			 name="SelectionInfoText"
 			 top="2"
 			 width="235">
-				Selection Info
+				선택 정보
 			</text>
 			<text
 			 follows="left|top"
@@ -62,7 +62,7 @@
 			 left_delta="8"
 			 top_pad="2"
 			 width="235">
-				Exportable prims: [COUNT]/[TOTAL]
+				내보내기 가능한 프림: [COUNT]/[TOTAL]
 			</text>
 			<text
 			 follows="left|top"
@@ -71,7 +71,7 @@
 			 name="exportable_textures"
 			 top_pad="2"
 			 width="235">
-				Exportable textures: [COUNT]/[TOTAL]
+				내보내기 가능한 텍스쳐: [COUNT]/[TOTAL]
 			</text>
 			<text
 			 follows="left|bottom"
@@ -81,13 +81,13 @@
 			 name="OptionsText"
 			 top="82"
 			 width="235">
-				Options:
+				옵션:
 			</text>
 			<check_box
 			 control_name="FSExportContents"
 			 follows="left|bottom"
 			 height="16"
-			 label="Backup object contents to disk"
+			 label="Disk에 개체 내용 백업"
 			 layout="topleft"
 			 name="contents_check"
 			 top_pad="2"
@@ -96,7 +96,7 @@
 			 layout="topleft"
 			 follows="left|bottom"
 			 height="23"
-			 label="Save as..."
+			 label="다른 이름으로 저장..."
 			 name="export_btn"
 			 top="117"
 			 left="4"
@@ -121,7 +121,7 @@
 			 tab_width="119"
 			 tab_position="top">
 				<panel
-				 label="Objects"
+				 label="개체"
 				 name="prims_panel">
 					<scroll_list
 					 enabled="true"
@@ -143,7 +143,7 @@
 					</scroll_list>
 				</panel>
 				<panel
-				 label="Textures"
+				 label="텍스쳐"
 				 name="texture_panel">
 					<scroll_container
 					 opaque="false"

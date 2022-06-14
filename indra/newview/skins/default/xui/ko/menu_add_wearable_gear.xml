@@ -3,7 +3,7 @@
  layout="topleft"
  name="Add Wearable Gear Menu">
     <menu_item_check
-     label="Sort by Most Recent"
+     label="가장 최근 기준으로 정렬"
      layout="topleft"
      name="sort_by_most_recent">
         <on_check
@@ -14,7 +14,7 @@
          parameter="by_most_recent" />
     </menu_item_check>
     <menu_item_check
-     label="Sort by Name"
+     label="이름으로 정렬"
      layout="topleft"
      name="sort_by_name">
         <on_check
@@ -25,7 +25,7 @@
          parameter="by_name" />
     </menu_item_check>
     <menu_item_check
-     label="Sort by Type"
+     label="종류로 정렬"
      layout="topleft"
      name="sort_by_type">
         <on_check

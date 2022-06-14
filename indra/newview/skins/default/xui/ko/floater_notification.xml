@@ -6,7 +6,7 @@
  layout="topleft"
  min_height="50"
  name="notification"
- title="Notifications Console"
+ title="알림 콘솔"
  width="200">
     <text_editor
      type="string"
@@ -23,12 +23,12 @@
      top="25"
      width="192"
      word_wrap="true">
-        Loading...
+        로딩중...
     </text_editor>
     <combo_box
      follows="left|bottom"
      height="20"
-     label="Response"
+     label="응답"
      layout="topleft"
      left="10"
      name="response"

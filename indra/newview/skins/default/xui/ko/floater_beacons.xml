@@ -8,7 +8,7 @@
  save_rect="true"
  save_visibility="true"
  single_instance="true"
- title="Beacons"
+ title="비콘"
  width="240">
     <panel
      follows="left|top|right|bottom"
@@ -25,12 +25,12 @@
          name="label_show"
          text_color="White"
          type="string">
-            Show :
+            보기 :
          </text>
         <check_box
          height="16"
          layout="topleft"
-         label="Bounding boxes for lights in scene"
+         label="장면의 조명에 대한 경계 상자"
          name="lights_bounding_boxes">
           <check_box.on_check
            function="Advanced.CheckInfoDisplay"
@@ -44,7 +44,7 @@
          control_name="renderbeacons"
          height="16"
          width="100"
-         label="Beacons"
+         label="비콘들"
          layout="topleft"
          name="beacons" >
           <check_box.commit_callback
@@ -54,7 +54,7 @@
          control_name="renderhighlights"
          height="16"
          left_pad="10"
-         label="Highlights"
+         label="하이라이트"
          layout="topleft"
          name="highlights" >
           <check_box.commit_callback
@@ -65,7 +65,7 @@
          control_name="FSRenderBeaconText"
          height="16"
          width="100"
-         label="Beacon info text in viewer window"
+         label="뷰어 창의 비콘 정보 텍스트"
          layout="topleft"
          left="0"
          name="FSRenderBeaconText"/>
@@ -76,11 +76,11 @@
          height="16"
          layout="topleft"
          left="20"
-         tool_tip="Beacon width"
+         tool_tip="비콘 폭"
          name="beacon_width_label"
          top_pad="4"
          width="128">
-            Width:
+            폭:
         </text>
         <slider
          control_name="DebugBeaconLineWidth"
@@ -103,13 +103,13 @@
          name="label_objects"
          text_color="White"
          type="string">
-           For these objects:
+           이 개체들을 위한:
          </text>
          <check_box
          control_name="physicalbeacon"
          height="16"
          left="0"
-         label="Physical"
+         label="물리"
          layout="topleft"
          name="physical" >
           <check_box.commit_callback
@@ -120,7 +120,7 @@
          height="16"
          left="0"
          top_pad="2"
-         label="Scripted"
+         label="스크립트"
          layout="topleft"
          name="scripted">
           <check_box.commit_callback
@@ -131,7 +131,7 @@
          height="16"
          top_pad="2"
          left="20"
-         label="Touch only"
+         label="터치만"
          layout="topleft"
          name="touch_only" >
           <check_box.commit_callback
@@ -142,7 +142,7 @@
          height="16"
          left="0"
          top_pad="2"
-         label="Sound sources"
+         label="소리 자료"
          layout="topleft"
          name="sounds" >
           <check_box.commit_callback
@@ -152,7 +152,7 @@
          control_name="particlesbeacon"
          height="16"
          top_pad="2"
-         label="Particle sources"
+         label="입자 자료"
          layout="topleft"
          name="particles" >
           <check_box.commit_callback
@@ -163,7 +163,7 @@
          height="16"
          left="0"
          top_pad="2"
-         label="Media sources"
+         label="미디어 자료"
          layout="topleft"
          name="moapbeacon" >
           <check_box.commit_callback
@@ -186,12 +186,12 @@
          name="label_objects"
          text_color="White"
          type="string">
-           Show direction to:
+           방향 표시:
          </text>
         <check_box
          control_name="sunbeacon"
          height="16"
-         label="Sun"
+         label="태양"
          layout="topleft"
          name="sun" >
           <check_box.commit_callback
@@ -200,7 +200,7 @@
         <check_box
          control_name="moonbeacon"
          height="16"
-         label="Moon"
+         label="달"
          layout="topleft"
          top_pad="2"
          name="moon" >

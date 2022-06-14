@@ -4,7 +4,7 @@
      left="0" bottom="0" visible="false"
      mouse_opaque="false">
   <menu_item_check
-   label="Sort by Most Recent"
+   label="가장 최근 기준으로 정렬"
    name="sort_most">
       <menu_item_check.on_click
        function="People.Recent.ViewSort.Action"
@@ -14,7 +14,7 @@
        parameter="sort_recent" />
   </menu_item_check>
   <menu_item_check
-   label="Sort by Name"
+   label="이름으로 정렬"
    name="sort_name">
       <menu_item_check.on_click
        function="People.Recent.ViewSort.Action"
@@ -24,7 +24,7 @@
        parameter="sort_name" />
   </menu_item_check>
   <menu_item_separator layout="topleft" />
-  <menu_item_check name="view_icons" label="View People Icons">
+  <menu_item_check name="view_icons" label="사람 아이콘 보기">
     <menu_item_check.on_click
      function="People.Recent.ViewSort.Action"
      parameter="view_icons" />

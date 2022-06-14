@@ -5,7 +5,7 @@
  layout="topleft"
  name="godtools floater"
  help_topic="godtools_floater"
- title="God Tools"
+ title="신 도구"
  width="400">
     <tab_container
      follows="left|top"
@@ -31,7 +31,7 @@
             <button
              follows="left|top"
              height="20"
-             label="Flush This Region&apos;s Map Visibility Caches"
+             label="이 영역 &apos;의 지도 가시성 캐시 플러시"
              label_selected="Flush This Region&apos;s Map Visibility Caches"
              layout="topleft"
              left="10"
@@ -46,7 +46,7 @@
          border="true"
          follows="left|top|right|bottom"
          height="347"
-         label="Region"
+         label="지역"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -64,7 +64,7 @@
              name="Region Name:"
              top="12"
              width="80">
-                Region Name:
+                지역 이름:
             </text>
             <line_editor
              border_style="line"
@@ -82,11 +82,11 @@
 			</line_editor>
             <check_box
              height="16"
-             label="Prelude"
+             label="전주곡"
              layout="topleft"
              left="10"
              name="check prelude"
-             tool_tip="Set this to make the region a prelude"
+             tool_tip="지역을 전주곡으로 설정하려면 이 옵션을 설정합니다."
              top_pad="10"
              width="180">
 			       <check_box.commit_callback
@@ -94,11 +94,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Fixed Sun"
+             label="고정된 태양"
              layout="topleft"
              left_delta="0"
              name="check fixed sun"
-             tool_tip="Fix the sun position (like in Region/Estate &gt; Terrain)"
+             tool_tip="태양 위치를 고정합니다(지역/상태 &gt; 지형과 유사)"
              top_pad="4"
              width="180">
 			       <check_box.commit_callback
@@ -106,11 +106,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Reset Home On Teleport"
+             label="순간이동 시 홈 재설정"
              layout="topleft"
              left_delta="0"
              name="check reset home"
-             tool_tip="When Resident teleports out, reset their home to the destination position."
+             tool_tip="거주자가 텔레포트 아웃하면, 목적지 위치로 홈을 재설정합니다."
              top_pad="4"
              width="180">
 			       <check_box.commit_callback
@@ -118,11 +118,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Visible"
+             label="가시적인"
              layout="topleft"
              left_delta="0"
              name="check visible"
-             tool_tip="Set this to make the region visible to non-gods"
+             tool_tip="신이 아닌 사람이 영역을 볼 수 있도록 하려면 이 옵션을 선택합니다"
              top_pad="4"
              width="180">
 			       <check_box.commit_callback
@@ -130,11 +130,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Damage"
+             label="손상"
              layout="topleft"
              left_delta="0"
              name="check damage"
-             tool_tip="Set this to enable damage in this region"
+             tool_tip="이 영역에서 손상을 활성화하려면 이 옵션을 설정합니다"
              top_pad="4"
              width="180">
 			       <check_box.commit_callback
@@ -142,11 +142,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Block Traffic Tracking"
+             label="트래픽 추적 차단"
              layout="topleft"
              left_delta="0"
              name="block dwell"
-             tool_tip="Set this to make the region not compute traffic"
+             tool_tip="영역에서 트래픽을 계산하지 않도록 하려면 이 옵션을 설정합니다"
              top_pad="4"
              width="180">
 			       <check_box.commit_callback
@@ -154,11 +154,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Block Terraform"
+             label="테라폼 차단"
              layout="topleft"
              left_delta="0"
              name="block terraform"
-             tool_tip="Set this to disallow people terraforming their land"
+             tool_tip="사람들이 땅을 테라포밍하는 것을 허용하지 않도록 설정합니다"
              top_pad="4"
              width="180">
 			       <check_box.commit_callback
@@ -166,11 +166,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Sandbox"
+             label="샌드박스"
              layout="topleft"
              left_delta="0"
              name="is sandbox"
-             tool_tip="Toggle whether this is a sandbox region"
+             tool_tip="샌드박스 영역인지 여부를 전환합니다"
              top_pad="4"
              width="180">
 			       <check_box.commit_callback
@@ -179,12 +179,12 @@
             <button
              follows="top|right"
              height="22"
-             label="Bake Terrain"
+             label="지역 굽기"
              label_selected="Bake Terrain"
              layout="topleft"
              left="12"
              name="Bake Terrain"
-             tool_tip="Save the current terrain as default"
+             tool_tip="현재 지형을 기본값으로 저장"
              top_pad="32"
              width="110">
 			       <button.commit_callback
@@ -193,11 +193,11 @@
             <button
              follows="top|right"
              height="22"
-             label="Revert Terrain"
+             label="지형 되돌리기"
              label_selected="Revert Terrain"
              layout="topleft"
              name="Revert Terrain"
-             tool_tip="Replace the current terrain with default"
+             tool_tip="현재 지형을 기본값으로 바꿉니다"
              top_pad="10"
              width="110">
 			       <button.commit_callback
@@ -206,11 +206,11 @@
             <button
              follows="top|right"
              height="22"
-             label="Swap Terrain"
+             label="지역 바꾸기"
              label_selected="Swap Terrain"
              layout="topleft"
              name="Swap Terrain"
-             tool_tip="Swap current terrain with default"
+             tool_tip="현재 지형을 기본값으로 전환"
              top_pad="10"
              width="110">
 			       <button.commit_callback
@@ -227,7 +227,7 @@
              name="estate id"
              top="40"
              width="190">
-                Estate ID:
+                재산 ID:
             </text>
             <line_editor
              border_style="line"
@@ -251,7 +251,7 @@
              name="parent id"
              top_pad="4"
              width="190">
-                Parent ID:
+                부모 ID:
             </text>
             <line_editor
              border_style="line"
@@ -262,7 +262,7 @@
              left_delta="108"
              max_length_chars="10"
              name="parentestate"
-             tool_tip="This is the parent estate for this region"
+             tool_tip="이 지역의 상위 자산입니다"
              top_delta="0"
              width="50">
 			       <line_editor.commit_callback
@@ -278,7 +278,7 @@
              name="Grid Pos: "
              top_pad="4"
              width="190">
-                Grid Pos:
+                그리드 위치:
             </text>
             <line_editor
              border_style="line"
@@ -289,7 +289,7 @@
              left_delta="88"
              max_length_chars="10"
              name="gridposx"
-             tool_tip="This is the grid x position for this region"
+             tool_tip="이 영역에 대한 그리드 x 위치입니다"
              top_delta="0"
              width="50">
 			       <line_editor.commit_callback
@@ -304,7 +304,7 @@
              left_pad="10"
              max_length_chars="10"
              name="gridposy"
-             tool_tip="This is the grid y position for this region"
+             tool_tip="이 지역의 그리드 y 위치입니다."
              top_delta="0"
              width="40">
 			       <line_editor.commit_callback
@@ -320,7 +320,7 @@
              name="Redirect to Grid: "
              top_pad="4"
              width="88">
-                Redirect to Grid:
+                그리드로 방향 재설정:
             </text>
             <line_editor
              border_style="line"
@@ -360,7 +360,7 @@
              name="billable factor text"
              top_pad="10"
              width="110">
-                Billable Factor:
+                청구가능 요인:
             </text>
 	      <spinner
              follows="top|right"
@@ -385,7 +385,7 @@
              name="land cost text"
              top_pad="10"
              width="110">
-                L$ per m²:
+              m² 당 L$ :
             </text>
             <spinner
              follows="top|right"
@@ -404,12 +404,12 @@
             <button
              follows="top|right"
              height="22"
-             label="Refresh"
+             label="새로고침"
              label_selected="Refresh"
              layout="topleft"
              left="278"
              name="Refresh"
-             tool_tip="Click here to refresh the above information"
+             tool_tip="위 정보를 새로 고치려면 여기를 클릭하십시오"
              top_pad="10"
              width="110">
 				<button.commit_callback
@@ -418,12 +418,12 @@
             <button
              follows="top|right"
              height="22"
-             label="Apply"
+             label="적용"
              label_selected="Apply"
              layout="topleft"
              left="278"
              name="Apply"
-             tool_tip="Click here to apply any changes from above"
+             tool_tip="위의 변경 사항을 적용하려면 여기를 클릭하십시오."
              top="317"
              width="110">
 				<button.commit_callback
@@ -432,12 +432,12 @@
             <button
              follows="top|right"
              height="22"
-             label="Select Region"
+             label="지역 선택"
              label_selected="Select Region"
              layout="topleft"
              left="130"
              name="Select Region"
-             tool_tip="Select the whole region with the land tool"
+             tool_tip="랜드 도구를 사용하여 전체 지역 선택"
              top="238"
              width="110">
 				<button.commit_callback
@@ -446,12 +446,12 @@
             <button
              follows="top|right"
              height="22"
-             label="Autosave now"
+             label="지금 자동 저장"
              label_selected="Autosave now"
              layout="topleft"
              left_delta="0"
              name="Autosave now"
-             tool_tip="Save gzipped state to autosave directory"
+             tool_tip="gziped 상태를 자동 저장 디렉터리에 저장"
              top_pad="10"
              width="110">
 				<button.commit_callback
@@ -462,7 +462,7 @@
          border="true"
          follows="left|top|right|bottom"
          height="347"
-         label="Objects"
+         label="개체"
          layout="topleft"
          left_delta="0"
          mouse_opaque="false"
@@ -472,7 +472,7 @@
          width="398">
             <panel.string
              name="no_target">
-                (no target)
+                (타겟 없음)
             </panel.string>
             <text
              type="string"
@@ -484,7 +484,7 @@
              name="Region Name:"
              top="10"
              width="80">
-                Region Name:
+                지역 이름:
             </text>
             <text
              type="string"
@@ -496,15 +496,15 @@
              name="region name"
              top_delta="0"
              width="320">
-                Welsh
+                웨일즈 어
             </text>
             <check_box
              height="16"
-             label="Disable Scripts"
+             label="스크립트 사용 불가능"
              layout="topleft"
              left="10"
              name="disable scripts"
-             tool_tip="Set this to disable all scripts in this region"
+             tool_tip="이 영역의 모든 스크립트를 사용하지 않도록 설정하려면 이 옵션을 설정합니다"
              top="30"
              width="110">
 				<check_box.commit_callback
@@ -512,11 +512,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Disable Collisions"
+             label="충돌 사용 불가능"
              layout="topleft"
              left_pad="10"
              name="disable collisions"
-             tool_tip="Set this to disable non-agent collisions in this region"
+             tool_tip="이 영역에서 비에이전트 충돌을 사용하지 않도록 설정하려면 이 옵션을 설정합니다."
              top_delta="0"
              width="121">
 				<check_box.commit_callback
@@ -524,11 +524,11 @@
 			</check_box>
             <check_box
              height="16"
-             label="Disable Physics"
+             label="물리학 사용 불가능"
              layout="topleft"
              left_delta="120"
              name="disable physics"
-             tool_tip="Set this to disable all physics in this region"
+             tool_tip="이 영역의 모든 물리학을 사용하지 않도록 설정하려면 이 옵션을 설정합니다"
              top_delta="0"
              width="130">
 				<check_box.commit_callback
@@ -537,12 +537,12 @@
             <button
              follows="top|right"
              height="22"
-             label="Apply"
+             label="적용"
              label_selected="Apply"
              layout="topleft"
              left="278"
              name="Apply"
-             tool_tip="Click here to apply any changes from above"
+             tool_tip="위의 변경 사항을 적용하려면 여기를 클릭하십시오."
              top="54"
              width="110">
 				<button.commit_callback
@@ -551,12 +551,12 @@
 			<button
              follows="top|right"
              height="22"
-             label="Set Target"
+             label="대상 설정"
              label_selected="Set Target"
              layout="topleft"
              left="8"
              name="Set Target"
-             tool_tip="Set the target avatar for object deletion"
+             tool_tip="개체 삭제를 위한 대상 아바타 설정"
              top="78"
              width="110">
 				<button.commit_callback
@@ -572,17 +572,17 @@
              name="target_avatar_name"
              top_delta="0"
              width="260">
-                (no target)
+                (대상 없음)
             </text>
             <button
              follows="top|right"
              height="22"
-             label="Delete Target&apos;s Scripted Objects On Others Land"
+             label="다른 토지에서 대상&apos;의 스크립트 객체 삭제"
              label_selected="Delete Target&apos;s Scripted Objects On Others Land"
              layout="topleft"
              left="8"
              name="Delete Target&apos;s Scripted Objects On Others Land"
-             tool_tip="Delete all scripted objects owned by the target on land not owned by the target. (no copy) objects will be returned."
+             tool_tip="대상이 소유하지 않은 토지에서 대상이 소유하는 모든 스크립트 개체를 삭제합니다. (복사본 없음) 개체가 반환됩니다."
              top="126"
              width="380">
 				<button.commit_callback
@@ -591,12 +591,12 @@
             <button
              follows="top|right"
              height="22"
-             label="Delete Target&apos;s Scripted Objects On *Any* Land"
+             label="*어떤* 땅에서든 대상&apos;s 스크립트 객체 삭제"
              label_selected="Delete Target&apos;s Scripted Objects On *Any* Land"
              layout="topleft"
              left_delta="0"
              name="Delete Target&apos;s Scripted Objects On *Any* Land"
-             tool_tip="Delete all scripted objects owned by the target in this region. (no copy) objects will be returned."
+             tool_tip="이 영역의 대상이 소유한 스크립팅된 모든 개체를 삭제합니다. (복사본 없음) 개체가 반환됩니다."
              top_pad="28"
              width="380">
 				<button.commit_callback
@@ -605,12 +605,13 @@
             <button
              follows="top|right"
              height="22"
-             label="Delete *ALL* Of Target&apos;s Objects"
+             label=" 개체의 *모든*대상 &apos; 삭제
+"
              label_selected="Delete *ALL* Of Target&apos;s Objects"
              layout="topleft"
              left_delta="0"
              name="Delete *ALL* Of Target&apos;s Objects"
-             tool_tip="Delete all objects owned by the target in this region. (no copy) objects will be returned."
+             tool_tip="이 영역의 대상이 소유한 모든 개체를 삭제합니다. (복사본 없음) 개체가 반환됩니다."
              top_pad="28"
              width="380">
 				<button.commit_callback
@@ -619,12 +620,12 @@
 			<button
              follows="top|right"
              height="20"
-             label="Get Top Colliders"
+             label="상단 충돌기 가져오기"
              label_selected="Get Top Colliders"
              layout="topleft"
              left="12"
              name="Get Top Colliders"
-             tool_tip="Gets list of objects experiencing the most narrowphase callbacks"
+             tool_tip="가장 좁은 단계 콜백을 경험하는 개체 목록을 가져옵니다"
              top_pad="20"
              width="130">
 				<button.commit_callback
@@ -633,12 +634,12 @@
             <button
              follows="top|right"
              height="20"
-             label="Get Top Scripts"
+             label="최상위 스크립트 가져오기"
              label_selected="Get Top Scripts"
              layout="topleft"
              left_delta="0"
              name="Get Top Scripts"
-             tool_tip="Gets list of objects spending the most time running scripts"
+             tool_tip="스크립트 실행에 가장 많은 시간을 소비하는 개체 목록을 가져옵니다"
              top_pad="5"
              width="130">
 				<button.commit_callback
@@ -647,12 +648,12 @@
             <button
              follows="top|right"
              height="20"
-             label="Scripts digest"
+             label="스크립트 소화"
              label_selected="Scripts digest"
              layout="topleft"
              left_delta="0"
              name="Scripts digest"
-             tool_tip="Gets a list of all scripts and number of occurences of each"
+             tool_tip="모든 스크립트의 목록과 각 스크립트의 발생 횟수를 가져옵니다"
              top_pad="5"
              width="130" >
 				<button.commit_callback
@@ -663,7 +664,7 @@
          border="true"
          follows="left|top|right|bottom"
          height="347"
-         label="Request"
+         label="요청"
          layout="topleft"
          left_delta="0"
          help_topic="godtools_request_tab"
@@ -680,7 +681,7 @@
              name="Destination:"
              top="12"
              width="80">
-                Destination:
+                목적지:
             </text>
             <combo_box
              height="22"
@@ -690,13 +691,13 @@
              top_delta="0"
              width="290">
                 <combo_box.item
-                 label="Selection"
+                 label="선택"
                  name="item1"
-                 value="Selection" />
+                 value="선택" />
                 <combo_box.item
-                 label="Agent Region"
+                 label="요원 지역"
                  name="item2"
-                 value="Agent Region" />
+                 value="요원 지역" />
             </combo_box>
             <text
              type="string"
@@ -708,7 +709,7 @@
              name="Request:"
              top_pad="10"
              width="80">
-                Request:
+                요청:
             </text>
             <combo_box
              allow_text_entry="true"
@@ -719,21 +720,21 @@
              top_delta="0"
              width="290">
                 <combo_box.item
-                 label="colliders &lt;steps&gt;"
+                 label="충돌 &lt;'단계&gt;"
                  name="item1"
-                 value="colliders &lt;steps&gt;" />
+                 value="충돌 &lt;단계&gt;" />
                 <combo_box.item
-                 label="scripts &lt;count&gt;,&lt;optional pattern&gt;"
+                 label="스크립트 &lt;개수&gt;,&lt;선택적 패턴&gt;"
                  name="item2"
-                 value="scripts &lt;count&gt;,&lt;optional pattern&gt;" />
+                 value="스크립트 &lt;개수&gt;,&lt;선택적 패턴&gt;" />
                 <combo_box.item
-                 label="objects &lt;pattern&gt;"
+                 label="개체 &lt;패턴&gt;"
                  name="item3"
-                 value="objects &lt;pattern&gt;" />
+                 value="개체 &lt;패턴&gt;" />
                 <combo_box.item
-                 label="rez &lt;asset_id&gt;"
+                 label="rez &lt;재산_id&gt;"
                  name="item4"
-                 value="rez &lt;asset_id&gt;" />
+                 value="rez &lt;재산_id&gt;" />
             </combo_box>
             <text
              type="string"
@@ -745,7 +746,7 @@
              name="Parameter:"
              top_pad="10"
              width="80">
-                Parameter:
+                매개변수:
             </text>
             <line_editor
              border_style="line"
@@ -761,7 +762,7 @@
             <button
              follows="left|top"
              height="20"
-             label="Make Request"
+             label="요청 만들기"
              label_selected="Make Request"
              layout="topleft"
              left="10"

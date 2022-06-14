@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <floater
-    title="Audit Marketplace Listings"
+    title="시장 목록 감사"
     name="floater_marketplace_validation"
     help_topic="floater_marketplace_validation"
     layout="topleft"

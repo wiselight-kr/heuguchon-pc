@@ -14,7 +14,7 @@
          parameter="can_im" />
     </menu_item_call>
     <menu_item_call
-     label="Voice call..."
+     label="음성 전화..."
      layout="topleft"
      name="Call">
         <on_click
@@ -25,7 +25,7 @@
          parameter="can_call" />
     </menu_item_call>
     <menu_item_call
-     label="Open chat transcript..."
+     label="채팅 내용 열기..."
      layout="topleft"
      name="Chat history">
         <on_click
@@ -36,7 +36,7 @@
          parameter="can_view_chat_history" />
     </menu_item_call>
     <menu_item_call
-     label="Open chat transcript externally..."
+     label="채팅 내용 외부 열기..."
      layout="topleft"
      name="Chat history External">
         <on_click
@@ -47,7 +47,7 @@
          parameter="can_view_chat_history" />
     </menu_item_call>
     <menu_item_call
-     label="View Profile"
+     label="프로필 보기"
      layout="topleft"
      name="View Profile">
         <on_click
@@ -58,7 +58,7 @@
          parameter="can_view_profile" />
     </menu_item_call>
     <menu_item_call
-    label="Offer Teleport"
+    label="순간이동 제안"
     name="teleport">
       <on_click
        function="Calllog.Action"
@@ -68,7 +68,7 @@
       parameter="can_offer_teleport"/>
     </menu_item_call>
     <menu_item_call
-    label="Request Teleport"
+    label="순간이동 요청"
     name="request_teleport">
       <on_click
        function="Calllog.Action"
@@ -79,7 +79,7 @@
     </menu_item_call>
     <menu_item_separator />
     <menu_item_call
-     label="친구추가"
+     label="친구 추가"
      layout="topleft"
      name="add_friend">
         <on_click
@@ -90,7 +90,7 @@
          parameter="is_not_friend" />
     </menu_item_call>
     <menu_item_call
-     label="Remove Friend"
+     label="친구 삭제"
      layout="topleft"
      name="remove_friend">
         <on_click
@@ -101,7 +101,7 @@
          parameter="is_friend" />
     </menu_item_call>
     <menu_item_call
-     label="Invite to group..."
+     label="그룹에 초대..."
      layout="topleft"
      name="Invite">
         <on_click
@@ -113,7 +113,7 @@
     </menu_item_call>
     <menu_item_separator />
     <menu_item_call
-     label="Map"
+     label="지도"
      layout="topleft"
      name="Map">
         <on_click
@@ -124,7 +124,7 @@
          parameter="can_show_on_map" />
     </menu_item_call>
     <menu_item_call
-     label="Share"
+     label="공유"
      layout="topleft"
      name="Share">
         <on_click
@@ -135,7 +135,7 @@
          parameter="can_share" />
     </menu_item_call>
     <menu_item_call
-     label="Pay"
+     label="결제"
      layout="topleft"
      name="Pay">
         <on_click
@@ -146,7 +146,7 @@
          parameter="can_pay" />
     </menu_item_call>
     <menu_item_check
-     label="Block/Unblock"
+     label="차단/차단해제"
      layout="topleft"
      name="Block/Unblock">
         <menu_item_check.on_click

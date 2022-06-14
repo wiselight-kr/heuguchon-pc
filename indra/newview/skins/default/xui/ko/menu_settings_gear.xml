@@ -5,7 +5,7 @@
         name="menu_settings_gear"
         visible="false">
     <menu_item_call
-            label="Edit"
+            label="편집"
             layout="topleft"
             name="edit_settings">
         <on_click
@@ -20,7 +20,7 @@
     <menu_item_call
             name="Settings Apply Local"
             layout="topleft"
-            label="Apply Only To Myself">
+            label="나에게만 적용">
         <menu_item_call.on_click 
                 function="MyEnvironments.DoApply"
                 parameter="local" />
@@ -28,7 +28,7 @@
     <menu_item_call
             name="Settings Apply Parcel"
             layout="topleft"
-            label="Apply To Parcel">
+            label="구획에 적용">
         <menu_item_call.on_click 
                 function="MyEnvironments.DoApply"
                 parameter="parcel" />
@@ -39,7 +39,7 @@
     <menu_item_call
             name="Settings Apply Region"
             layout="topleft"
-            label="Apply To Region">
+            label="지역에 적용">
         <menu_item_call.on_click 
                 function="MyEnvironments.DoApply"
                 parameter="region" />
@@ -51,7 +51,7 @@
             layout="topleft" 
             name="Separator" />
     <menu_item_call
-            label="Copy"
+            label="복사"
             layout="topleft"
             name="copy_settings">
         <on_click
@@ -62,7 +62,7 @@
                 parameter="copy" />
     </menu_item_call>
     <menu_item_call
-            label="Paste"
+            label="붙여넣기"
             layout="topleft"
             name="paste_settings">
         <on_click
@@ -73,7 +73,7 @@
                 parameter="paste" />
     </menu_item_call>
     <menu_item_call
-            label="Copy UUID"
+            label="UUID 복사"
             layout="topleft"
             name="copy_uuid">
         <on_click

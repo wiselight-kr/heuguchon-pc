@@ -9,7 +9,7 @@
  visible="false"
  width="128">
     <menu_item_check
-         label="Show Coordinates"
+         label="좌표 표시"
          name="Show Coordinates">
            <menu_item_check.on_click
              function="Navbar.Action"
@@ -19,7 +19,7 @@
              parameter="show_coordinates" />
     </menu_item_check>
     <menu_item_check
-      label="Show Parcel Properties"
+      label="구획 특성 표시"
       name="Show Parcel Properties">
       <menu_item_check.on_click
         function="Navbar.Action"
@@ -32,7 +32,7 @@
     <!-- Label of 'Landmark' item is changing in runtime, 
     see  AddLandmarkNavBarMenu/EditLandmarkNavBarMenu in strings.xml -->
     <menu_item_call
-     label="Landmark"
+     label="랜드마크"
      name="Landmark">
         <menu_item_call.on_click
          function="Navbar.Action"
@@ -41,7 +41,7 @@
     <menu_item_separator
      name="Separator" />
     <menu_item_call
-     label="Cut"
+     label="자르기"
      name="Cut">
         <menu_item_call.on_click
          function="Navbar.Action"
@@ -51,7 +51,7 @@
          parameter="can_cut" />
     </menu_item_call>
     <menu_item_call
-     label="Copy"
+     label="복사"
      name="Copy">
         <menu_item_call.on_click
          function="Navbar.Action"
@@ -61,7 +61,7 @@
          parameter="can_copy" />
     </menu_item_call>
     <menu_item_call
-     label="Paste"
+     label="붙여넣기"
      name="Paste">
         <menu_item_call.on_click
          function="Navbar.Action"
@@ -71,7 +71,7 @@
          parameter="can_paste" />
     </menu_item_call>
     <menu_item_call
-     label="Delete"
+     label="삭제"
      name="Delete">
         <menu_item_call.on_click
          function="Navbar.Action"
@@ -81,7 +81,7 @@
          parameter="can_delete" />
     </menu_item_call>
     <menu_item_call
-     label="Select All"
+     label="모두 선택"
      name="Select All">
         <menu_item_call.on_click
          function="Navbar.Action"

@@ -11,7 +11,7 @@
  name="objectcontents"
  help_topic="objectcontents"
  save_rect="true"
- title="Object Contents"
+ title="개체 컨텐츠(내용)"
  width="300">
    <text
      type="string"
@@ -61,20 +61,20 @@
             <flyout_button
              follows="left|right|bottom"
              height="23"
-             label="Copy To Inventory"
+             label="인벤토리로 복사"
              layout="topleft"
              left="0"
              name="copy_flyout"
              top="0"
              width="100">
                 <flyout_button.item
-                 label="Replace outfit with contents"
+                 label="장비 내용물로 바꾸기"
                  name="replace"
-                 value="replace" />
+                 value="대체" />
                 <flyout_button.item
-                 label="Add contents to outfit"
+                 label="의상에 내용 추가"
                  name="add"
-                 value="add" />
+                 value="추가" />
                 <flyout_button.commit_callback
                  function="OpenObject.CopyAction" />
             </flyout_button>
@@ -93,7 +93,7 @@
             <button
              follows="left|bottom|right"
              height="23"
-             label="Cancel"
+             label="취소"
              label_selected="Cancel"
              layout="topleft"
              left="0"

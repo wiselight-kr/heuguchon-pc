@@ -9,7 +9,7 @@
         height="465"
         name="my_environments"
         help_topic="my_environments"
-        title="My Environments"
+        title="내 환경"
         background_visible="true"
         layout="topleft"
         min_height="350"
@@ -31,7 +31,7 @@
                 tab_group="1"
                 height="54"
                 name="filter_panel"
-                label="Filters"
+                label="필터"
                 font="SansSerifBold">
             <icon
                     height="16"
@@ -43,7 +43,7 @@
                     width="16" />
             <check_box
                     height="16"
-                    label="Days"
+                    label="날들"
                     layout="topleft"
                     left_pad="2"
                     name="chk_days"
@@ -59,7 +59,7 @@
                     width="16" />
             <check_box
                     height="16"
-                    label="Skies"
+                    label="하늘"
                     layout="topleft"
                     left_pad="2"
                     name="chk_skies"
@@ -75,7 +75,7 @@
                     width="16" />
             <check_box
                     height="16"
-                    label="Water"
+                    label="물"
                     layout="topleft"
                     left_pad="2"
                     name="chk_water"
@@ -84,7 +84,7 @@
           <filter_editor
                   follows="left|top|right"
                   height="23"
-                  label="Filter Environments"
+                  label="환경 필터"
                   layout="topleft"
                   left="4"
                   name="flt_search"
@@ -96,7 +96,7 @@
                 user_resize="true"
                 tab_group="1"
                 name="list_panel"
-                label="Environments"
+                label="환경"
                 font="SansSerifBold">
             <panel
                     name="pnl_inv_wrap"
@@ -132,7 +132,7 @@
                     follows="left|bottom"
                     height="14"
                     initial_value="false"
-                    label="Show All Folders"
+                    label="모든 폴더 보기"
                     layout="topleft"
                     name="chk_showfolders"
                     top="2"
@@ -151,7 +151,7 @@
                     top_pad="1"
                     follows="top|left|right"
                     height="30"
-                    label="bottom_panel"
+                    label="아래_패널"
                     layout="topleft"
                     left="0"
                     name="pnl_bottom">
@@ -166,7 +166,7 @@
                         menu_filename="menu_settings_gear.xml"
                         name="btn_gear"
                         top="5"
-                        tool_tip="More options"
+                        tool_tip="더 많은 옵션"
                         width="18" />
                 <menu_button
                         follows="bottom|left"
@@ -179,7 +179,7 @@
                         left_pad="5"
                         menu_filename="menu_settings_add.xml"
                         name="btn_newsettings"
-                        tool_tip="Make new setting"
+                        tool_tip="새로운 세팅 만들기"
                         top_delta="0"
                         width="18" />
                 <button
@@ -192,7 +192,7 @@
                         layout="topleft"
                         name="btn_del"
                         right="-5"
-                        tool_tip="Remove selected item"
+                        tool_tip="선택된 아이템 제거"
                         top_delta="0"
                         width="18" />
             </panel>

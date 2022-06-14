@@ -15,7 +15,7 @@
  height="164"
  layout="topleft"
  name="floater_sound_devices"
- title="Sound Devices"
+ title="소리 장치"
  width="490">
   <panel
     layout="topleft"
@@ -33,7 +33,7 @@
     height="14"
     width="80"
     layout="topleft"
-    >Voice Chat</text>
+    >음성 채팅</text>
   <check_box
     layout="topleft"
     control_name="EnableVoiceChat"
@@ -43,6 +43,6 @@
     name="enable_voice"
     width="100"
     height="14"
-    label="Enabled"
+    label="사용 가능"
     />
 </floater>

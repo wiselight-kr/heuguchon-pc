@@ -21,10 +21,10 @@
   min_height="150">
     <floater.string
      name="participant_added"
-     value="[NAME] was invited to the conversation."/>
+     value="[NAME] 대화에 초대되었습니다"/>
     <floater.string
      name="multiple_participants_added"
-     value="[NAME] were invited to the conversation."/>
+     value="[NAME] 대화에 초대되었습니다."/>
 
   <layout_stack
     border_size="0"
@@ -101,7 +101,7 @@
         image_hover_unselected="Toolbar_Middle_Over"
         image_selected="Toolbar_Middle_Selected"
         image_unselected="Toolbar_Middle_Off"
-        tool_tip="Show this group's profile">
+        tool_tip="이 그룹의 프로필 표시">
          <button.commit_callback
           function="IMSession.Menu.Action"
           parameter="group_info"/>
@@ -128,7 +128,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Show this resident's profile">
+       tool_tip="이 거주자의 프로필 표시">
         <button.commit_callback
          function="IMSession.Menu.Action"
          parameter="show_profile"/>
@@ -153,7 +153,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Add this resident as a friend"
+       tool_tip="이 거주자를 친구로 추가"
        name="add_friend_btn"
        width="24">
         <button.commit_callback
@@ -182,7 +182,7 @@
        layout="topleft"
        left_delta="2"
        name="teleport_btn"
-       tool_tip="Offer or request a teleport"
+       tool_tip="순간이동 제안 혹은 요청"
        top="0"
        width="31" />
     </layout_panel>
@@ -205,7 +205,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Send an item to this resident"
+       tool_tip="이 거주자에게 항목 보내기"
        name="share_btn"
        width="24">
         <button.commit_callback
@@ -232,7 +232,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Send money to this resident"
+       tool_tip="이 거주자에게 송금"
        name="pay_btn"
        width="24">
         <button.commit_callback
@@ -258,7 +258,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Add a voice to this chat"
+       tool_tip="이 채팅에 음성 추가"
        name="call_btn"
        top="0"
        width="24">
@@ -285,7 +285,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="End Voice Call"
+       tool_tip="음성전화 종료"
        name="end_call_btn"
        top="0"
        width="24">
@@ -338,7 +338,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Open this conversation's past transcripts."
+       tool_tip="대화의 과거 대화 내용 열기."
        image_overlay="Chat_History"
        name="im_history_btn"
        top="0"
@@ -367,7 +367,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Add someone to this conversation"
+       tool_tip="대화에 사용자 추가"
        name="add_participant_btn"
        width="24">
         <button.commit_callback
@@ -392,7 +392,7 @@
      image_hover_unselected="Toolbar_Middle_Over"
      image_selected="Toolbar_Middle_Selected"
      image_unselected="Toolbar_Middle_Off"
-     tool_tip="Send system info"
+     tool_tip="시스템 정보 전송"
      image_overlay="Info_Off"
      name="send_sysinfo_btn"
      top="0"
@@ -419,7 +419,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Chat Options"
+       tool_tip="채팅 옵션"
        name="chat_options_btn"/>
     </layout_panel>
     <layout_panel
@@ -441,7 +441,7 @@
        image_hover_unselected="Toolbar_Middle_Over"
        image_selected="Toolbar_Middle_Selected"
        image_unselected="Toolbar_Middle_Off"
-       tool_tip="Search chat"
+       tool_tip="채팅 검색"
        image_overlay="Script_Search"/>
     </layout_panel>
 
@@ -472,7 +472,7 @@
        top="0"
        left_delta="5"
        name="FSSupportGroupChatPrefix_toggle"
-       tool_tip="Adds current viewer version, viewer skin, operating system and RLVa status to the front of messages sent by you to this group which will assist support staff in correctly diagnosing your issues and improve accuracy in answering your questions"
+       tool_tip="현재 뷰어 버전, 뷰어 스킨, 운영 체제 및 RLVA 상태를 이 그룹에 보낸 메시지 전면에 추가함으로써 지원 담당자가 문제를 올바르게 진단하고 질문에 대한 답변의 정확도를 향상시킵니다"
        width="110" />
   </layout_panel>
     <layout_panel
@@ -501,7 +501,7 @@
        top="0"
        left_delta="5"
        name="FSSupportGroupChatPrefixTesting_toggle"
-       tool_tip="Adds current viewer version, viewer skin, operating system and RLVa status to the front of messages sent by you to this group which will assist support staff in correctly diagnosing your issues and improve accuracy in answering your questions. (This is seperate from the support groups)"
+       tool_tip="현재 뷰어 버전, 뷰어 스킨, 운영 체제 및 RLVA 상태를 이 그룹에 보낸 메시지 전면에 추가합니다. 이 기능은 지원 담당자가 문제를 올바르게 진단하고 질문에 대한 답변을 정확하게 하는 데 도움이 됩니다. (지원 그룹과는 별개입니다)"
        width="100" />
   </layout_panel>
   <!-- END: FS Prefix -->
@@ -608,7 +608,7 @@
             left="6"
             height="14"
             bottom="-3">
-            Unread Messages: [NUM]
+            읽지 않은 메세지: [NUM]
           </text>
         </layout_panel>
         <layout_panel
@@ -667,7 +667,7 @@
               follows="left|right|bottom"
               name="send_chat"
               label="Send"
-              tool_tip="Sends the IM" />
+              tool_tip="IM 전송" />
             </layout_panel>
           </layout_stack>
         </layout_panel>

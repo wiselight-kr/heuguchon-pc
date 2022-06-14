@@ -12,24 +12,24 @@
  help_topic="snapshot"
  save_rect="true"
  save_visibility="false"
- title="Outfit Snapshot"
+ title="스냅샷 의상"
  width="624"
  min_height="455">
   <floater.string
    name="unknown">
-    unknown
+    알 수 없음
   </floater.string>
   <string
    name="inventory_progress_str">
-    Saving to Inventory
+    인벤토리로 저장
   </string>
   <string
  	 name="inventory_succeeded_str">
-    Saved to Inventory!
+    인벤토리로 저장!
   </string>
   <string
  	 name="inventory_failed_str">
-    Failed to save to inventory.
+    인벤토리로 저장 실패.
   </string>
 	<view
 	 name="controls_container"
@@ -53,7 +53,7 @@
 	 halign="left"
      layout="topleft"
      left="10"
-	 label="Refresh"
+	 label="새로고침"
      name="new_snapshot_btn"
      top_pad="0"
      width="167" />
@@ -115,32 +115,32 @@
          name="layer_type_label"
          top_pad="5"
          width="100">
-            Capture:
+            캡처:
         </text>
         <combo_box
          follows="left|top|right"
          height="23"
-         label="Image Layers"
+         label="이미지 계층"
          layout="topleft"
          left="30"
          name="layer_types"
          top_pad="1"
          right="-2">
             <combo_box.item
-             label="Colors"
+             label="색깔"
              name="Colors"
-             value="colors" />
+             value="색깔" />
             <combo_box.item
-             label="Depth"
+             label="깊이"
              name="Depth"
-             value="depth" />
+             value="깊ㅇ" />
             <combo_box.item
-             label="Depth (24 bit)"
+             label="깊이 (24 bit)"
              name="Depth24"
-             value="depth24" />
+             value="깊이24" />
         </combo_box>
         <check_box
-         label="Interface"
+         label="인터페이스"
          layout="topleft"
          left="30"
 		 height="16"
@@ -150,7 +150,7 @@
         <check_box
          enabled_control="RenderUIInSnapshot"
          control_name="FSShowCurrencyBalanceInSnapshots"
-         label="L$ Balance"
+         label="L$ 잔고"
          layout="topleft"
          left="30"
          top_pad="7"
@@ -165,7 +165,7 @@
          width="180"
          name="hud_check" />
         <check_box
-         label="Freeze frame (fullscreen)"
+         label="프레임 얼리기 (전체화면)"
          layout="topleft"
 		 height="16"
          left="10"
@@ -173,7 +173,7 @@
          width="180"
          name="freeze_frame_check" />
         <check_box
-         label="Auto-refresh"
+         label="자동-새로고침"
          layout="topleft"
 		 height="16"
          left="10"
@@ -190,21 +190,21 @@
          name="filter_list_label"
          top_pad="7"
          width="50">
-            Filter:
+            필터:
         </text>
         <combo_box
             follows="left|right|top"
             name="filters_combobox"
-            tool_tip="Image filters"
+            tool_tip="이미지 필터"
             top_delta="-3"
             left="50"
 			right="-1"
             height="21"
             width="135">
             <combo_box.item
-            label="No Filter"
+            label="필터 없음"
             name="NoFilter"
-            value="NoFilter" />
+            value="필터 없음" />
         </combo_box>
 		 <view_border 
          bevel_style="in"
@@ -264,7 +264,7 @@
            text_color="0.2 0.85 0.2 1"
            top="4"
            type="string">
-              Succeeded
+              성공
           </text>
       </panel>
       <panel
@@ -294,7 +294,7 @@
            text_color="0.95 0.4 0.4 1"
            top="4"
            type="string">
-              Failed
+              실패
           </text>
       </panel>
       <loading_indicator
@@ -319,7 +319,7 @@
        type="string"
        visible="false"
        width="162">
-          Working
+          작동
       </text>
       <text
        follows="left|top"
@@ -335,7 +335,7 @@
        type="string"
        visible="false"
        width="130">
-          Refresh to save.
+          저장할 새로 고침.
       </text>
 	</view>
   <ui_ctrl 
@@ -351,7 +351,7 @@
    height="21"
    layout="topleft"
    name="img_info_border"
-   top_pad="5"
+   top_pad="0"
    right="-10"
    follows="left|top|right"
    left_delta="0"/>
@@ -368,7 +368,7 @@
     name="image_res_text"
     top_delta="5"
     width="200">
-       [WIDTH]px (width) x [HEIGHT]px (height)
+       [WIDTH]px (너비) x [HEIGHT]px (높이)
    </text>
    <text
     follows="right|top"

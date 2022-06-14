@@ -3,7 +3,7 @@
  layout="topleft"
  name="Classifieds">
     <menu_item_call
-     label="Info"
+     label="정보"
      layout="topleft"
      name="classified_info">
         <menu_item_call.on_click
@@ -13,7 +13,7 @@
          parameter="info" />
     </menu_item_call>
     <menu_item_call
-     label="Edit"
+     label="편집"
      layout="topleft"
      name="classified_edit"
      visible="false">
@@ -24,7 +24,7 @@
          parameter="edit" />
     </menu_item_call>
     <menu_item_call
-     label="Teleport"
+     label="순간이동"
      layout="topleft"
      name="classified_teleport">
         <menu_item_call.on_click
@@ -34,7 +34,7 @@
          parameter="teleport" />
     </menu_item_call>
     <menu_item_call
-     label="Map"
+     label="지도"
      layout="topleft"
      name="classified_map">
         <menu_item_call.on_click
@@ -48,7 +48,7 @@
      name="classified_separator"
      visible="false" />
     <menu_item_call
-     label="Delete"
+     label="삭제"
      layout="topleft"
      name="classified_delete"
      visible="false">

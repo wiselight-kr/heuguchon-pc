@@ -7,15 +7,15 @@
  legacy_header_height="18"
  can_resize="false"
  name="floater_fs_add_contact"
- title="Add to Contact Set...">
+ title="주소록 집합에 추가...">
 	<floater.string name="no_sets">
-		No contact sets available.
+		사용 가능한 연락처 집합 없음.
 	</floater.string>
 	<floater.string name="text_add_single">
-		Please select which contact set to add [NAME] to:
+		[NAME]을(를) 추가할 연락처 세트를 선택하십시오:
 	</floater.string>
 	<floater.string name="text_add_multiple">
-		Please select which contact set to add [COUNT] avatars to:
+		[COUNT] 아바타를 추가할 연락처 세트를 선택하십시오:
 	</floater.string>
 	<text
 	 type="string"
@@ -52,7 +52,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Add to set"
+	 label="집합에 추가"
 	 name="add_btn"
 	 width="130" />
 	<button
@@ -61,7 +61,7 @@
 	 follows="top|right"
 	 layout="topleft"
 	 height="22"
-	 label="Cancel"
+	 label="취소"
 	 name="cancel_btn"
 	 width="130" />
 </floater>

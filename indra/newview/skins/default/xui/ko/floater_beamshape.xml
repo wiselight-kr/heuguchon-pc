@@ -8,7 +8,7 @@
  can_resize="false"
  height="407"
  name="BeamCreator"
- title="Beam Shape Creator"
+ title="빔 모양 생성기"
  width="410"
  save_rect="true">
 	<text
@@ -19,9 +19,11 @@
 	 bottom="-350"
 	 height="50"
 	 width="300">
-		To create a new beam, left click the panel below to
-define a beam ray of the selected color, or right click to
-remove a ray. Press the Save button when done.
+새 빔을 만들려면 아래 패널을 마우스 왼쪽 단추로 클릭하여 
+선택한 색상의 빔 선을 정의하거나 마우스 오른쪽 단추로 클릭하여 
+빔을 제거하십시오.
+완료되면 저장 버튼을 누릅니다.
+
 	</text>
 
 	<color_swatch
@@ -31,11 +33,11 @@ remove a ray. Press the Save button when done.
 	 color="1, 1, 1, 1"
 	 follows="left|top"
 	 height="60"
-	 label="Beam Color"
+	 label="빔 색깔"
 	 left_delta="325"
 	 mouse_opaque="true"
 	 name="beam_color_swatch"
-	 tool_tip="Click to open Color Picker to change dot color"
+	 tool_tip="색깔 선택기를 클릭하여 점 색깔을 변경합니다"
 	 width="65" />
 
 	<panel
@@ -60,7 +62,7 @@ remove a ray. Press the Save button when done.
 	 follows="left|top"
 	 halign="center"
 	 height="22"
-	 label="Save"
+	 label="저장"
 	 left_delta="10"
 	 mouse_opaque="true"
 	 name="beamshape_save"
@@ -72,7 +74,7 @@ remove a ray. Press the Save button when done.
 	 follows="left|top"
 	 halign="center"
 	 height="22"
-	 label="Load"
+	 label="로드"
 	 left_delta="90"
 	 mouse_opaque="true"
 	 name="beamshape_load"
@@ -84,7 +86,7 @@ remove a ray. Press the Save button when done.
 	 follows="left|top"
 	 halign="center"
 	 height="22"
-	 label="Clear"
+	 label="지우기"
 	 left_delta="100"
 	 mouse_opaque="true"
 	 name="beamshape_clear"
@@ -96,7 +98,7 @@ remove a ray. Press the Save button when done.
 	 follows="left|top"
 	 halign="center"
 	 height="22"
-	 label="Cancel"
+	 label="취소"
 	 left_delta="100"
 	 mouse_opaque="true"
 	 name="cancel"

@@ -6,7 +6,7 @@
  layout="topleft"
  name="TexFetchDebugger"
  help_topic="texfetchdebugger"
- title="Texture Fetching Debugger"
+ title="텍스처 가져오기 디버거"
  width="540">
   <text
    type="string"
@@ -18,7 +18,7 @@
    name="total_num_fetched_label"
    top="30"
    width="400">
-    1, Total number of fetched textures: [NUM]
+    1, 가져온 총 텍스처 수: [NUM]
   </text>
   <text
    type="string"
@@ -30,7 +30,7 @@
    name="total_num_fetching_requests_label"
    top_delta="25"
    width="400">
-    2, Total number of fetching requests: [NUM]
+    2, 총 가져오기 요청 수: [NUM]
   </text>
   <text
    type="string"
@@ -42,7 +42,7 @@
    name="total_num_cache_hits_label"
    top_delta="25"
    width="400">
-    3, Total number of cache hits: [NUM]
+    3, 총 캐시 적중 횟수: [NUM]
   </text>
   <text
    type="string"
@@ -54,7 +54,7 @@
    name="total_num_visible_tex_label"
    top_delta="25"
    width="400">
-    4, Total number of visible textures: [NUM]
+    4, 표시되는 총 텍스처 수: [NUM]
   </text>
   <text
    type="string"
@@ -66,7 +66,7 @@
    name="total_num_visible_tex_fetch_req_label"
    top_delta="25"
    width="450">
-    5, Total number of visible texture fetching requests: [NUM]
+    5, 표시되는 총 텍스처 가져오기 요청 수: [NUM]
   </text>
   <text
    type="string"
@@ -78,7 +78,7 @@
    name="total_fetched_data_label"
    top_delta="25"
    width="530">
-    6, Total number of fetched data: [SIZE1]KB, Decoded Data: [SIZE2]KB, [PIXEL]MPixels
+    6, 가져온 총 데이터 수: [SIZE1]KB, 디코딩된 데이터: [SIZE2]KB, [PIXEL]M픽셀
   </text>
   <text
    type="string"
@@ -90,7 +90,7 @@
    name="total_fetched_vis_data_label"
    top_delta="25"
    width="480">
-    7, Total number of visible data: [SIZE1]KB, Decoded Data: [SIZE2]KB
+    7, 표시되는 총 데이터 수: [SIZE1]KB, 디코딩된 데이터: [SIZE2]KB
   </text>
   <text
    type="string"
@@ -102,7 +102,7 @@
    name="total_fetched_rendered_data_label"
    top_delta="25"
    width="530">
-    8, Total number of rendered data: [SIZE1]KB, Decoded Data: [SIZE2]KB, [PIXEL]MPixels
+    8, 렌더링된 총 데이터 수: [SIZE1]KB, 디코딩된 데이터: [SIZE2]KB, [PIXEL]M픽셀
   </text>
   <text
    type="string"
@@ -114,7 +114,7 @@
    name="total_time_cache_read_label"
    top_delta="25"
    width="400">
-    9, Total time on cache readings: [TIME] seconds
+    9,  캐시 읽기 총 시간: [TIME] 초
   </text>
   <text
    type="string"
@@ -126,7 +126,7 @@
    name="total_time_cache_write_label"
    top_delta="25"
    width="400">
-    10, Total time on cache writings: [TIME] seconds
+    10, 캐시 쓰기 총 시간: [TIME] 초
   </text>
   <text
    type="string"
@@ -138,7 +138,7 @@
    name="total_time_decode_label"
    top_delta="25"
    width="400">
-    11, Total time on decodings: [TIME] seconds
+    11, 디코딩에 대한 총 시간: [TIME] 초
   </text>
   <text
    type="string"
@@ -150,7 +150,7 @@
    name="total_time_gl_label"
    top_delta="25"
    width="400">
-    12, Total time on gl texture creation: [TIME] seconds
+    12, gl 텍스처 생성에 걸린 총 시간: [TIME] 초
   </text>
   <text
    type="string"
@@ -162,7 +162,7 @@
    name="total_time_http_label"
    top_delta="25"
    width="400">
-    13, Total time on HTTP fetching: [TIME] seconds
+    13, HTTP 가져오기 시 총 시간: [TIME] 초
   </text>
   <text
    type="string"
@@ -174,7 +174,7 @@
    name="total_time_fetch_label"
    top_delta="25"
    width="400">
-    14, Total time on entire fetching: [TIME] seconds
+    14, 전체 페칭에 대한 총 시간: [TIME] 초
   </text>
   <text
   type="string"
@@ -186,7 +186,7 @@
   name="total_time_refetch_vis_cache_label"
   top_delta="25"
   width="540">
-    15, Refetching visibles from cache, Time: [TIME] seconds, Fetched: [SIZE]KB, [PIXEL]MPixels
+    15, 캐시에서 가시성 다시 가져오기, 시간: [TIME] 초, 가져옴: [SIZE]KB, [PIXEL]M픽셀
   </text>
   <text
   type="string"
@@ -198,7 +198,7 @@
   name="total_time_refetch_all_cache_label"
   top_delta="25"
   width="540">
-    16, Refetching all textures from cache, Time: [TIME] seconds, Fetched: [SIZE]KB, [PIXEL]MPixels
+    16, 캐시에서 모든 텍스처 다시 가져오기, 시간: [TIME]초, 가져옴: [SIZE]KB, [PIXEL]MPixels
   </text>
   <text
   type="string"
@@ -210,7 +210,7 @@
   name="total_time_refetch_vis_http_label"
   top_delta="25"
   width="540">
-    17, Refetching visibles from HTTP, Time: [TIME] seconds, Fetched: [SIZE]KB, [PIXEL]MPixels
+    17, HTTP에서 보기 다시 가져오기, 시간: [TIME]초, 가져옴: [SIZE]KB, [PIXEL]M픽셀
   </text>
   <text
   type="string"
@@ -222,7 +222,7 @@
   name="total_time_refetch_all_http_label"
   top_delta="25"
   width="540">
-    18, Refetching all textures from HTTP, Time: [TIME] seconds, Fetched: [SIZE]KB, [PIXEL]MPixels
+    18, HTTP에서 모든 텍스처 다시 가져오기, 시간: [TIME]초, 가져옴: [SIZE]KB, [PIXEL]M픽셀
   </text>
   <spinner
      decimal_digits="2"
@@ -230,7 +230,7 @@
      height="20"
      increment="0.01"
      initial_value="1.0"
-     label="19, Ratio of Texel/Pixel:"
+     label="19, 텍셀/픽셀 비율:"
      label_width="130"
      layout="topleft"
      left_delta="0"
@@ -252,7 +252,7 @@
   name="texture_source_label"
   top_delta="30"
   width="110">
-    20, Texture Source:
+    20, 텍스처 소스:
   </text>
   <radio_group
      control_name="TextureFetchSource"
@@ -266,7 +266,7 @@
      width="264">
     <radio_item
      height="16"
-     label="Cache + HTTP"
+     label="캐쉬 + HTTP"
      layout="topleft"
      left="3"
      name="0"
@@ -274,7 +274,7 @@
      width="100" />
     <radio_item
      height="16"
-     label="HTTP Only"
+     label="HTTP 만"
      layout="topleft"
      left_delta="100"
      name="1"
@@ -284,7 +284,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Start"
+   label="시작"
    layout="topleft"
    left="10"
    name="start_btn"
@@ -296,7 +296,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Reset"
+   label="초기화"
    layout="topleft"
    left_pad="7"
    name="clear_btn"
@@ -308,7 +308,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Close"
+   label="닫기"
    layout="topleft"
    left_pad="7"
    name="close_btn"
@@ -320,7 +320,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Cache Read"
+   label="캐시 읽기"
    layout="topleft"
    left="10"
    name="cacheread_btn"
@@ -332,7 +332,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Cache Write"
+   label="캐시 쓰기"
    layout="topleft"
    left_pad="7"
    name="cachewrite_btn"
@@ -356,7 +356,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Decode"
+   label="디코드"
    layout="topleft"
    left_pad="7"
    name="decode_btn"
@@ -368,7 +368,7 @@
   <button
    follows="left|top"
    height="20"
-   label="GL Texture"
+   label="GL 텍스쳐"
    layout="topleft"
    left_pad="7"
    name="gl_btn"
@@ -380,7 +380,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Refetch Vis Cache"
+   label="초기화 Vis 캐시"
    layout="topleft"
    left="10"
    name="refetchviscache_btn"
@@ -392,7 +392,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Refetch All Cache"
+   label="모든 캐시 다시 가져오기"
    layout="topleft"
    left_pad="7"
    name="refetchallcache_btn"
@@ -404,7 +404,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Refetch Vis HTTP"
+   label="Vis HTTP 다시 가져오기"
    layout="topleft"
    left_pad="7"
    name="refetchvishttp_btn"
@@ -416,7 +416,7 @@
   <button
    follows="left|top"
    height="20"
-   label="Refetch All HTTP"
+   label="모든 HTTP 가져오기"
    layout="topleft"
    left_pad="7"
    name="refetchallhttp_btn"

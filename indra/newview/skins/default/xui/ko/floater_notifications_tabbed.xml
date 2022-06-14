@@ -6,7 +6,7 @@
  name="floater_notifications_tabbed"
  help_topic="notification_chiclet"
  save_rect="true"
- title="Notifications"
+ title="알림"
  width="400"
  min_width="400"
  height="550"
@@ -22,24 +22,24 @@
 >
   <floater.string
     name="system_tab_title">
-    System ([COUNT])
+    시스템 ([COUNT])
   </floater.string>
   <floater.string
     name="transactions_tab_title">
-    Transactions ([COUNT])
+    거래 ([COUNT])
   </floater.string>
   <floater.string
     name="group_invitations_tab_title">
-    Invitations ([COUNT])
+    초대 ([COUNT])
   </floater.string>
   <floater.string
     name="group_notices_tab_title">
-    Group ([COUNT])
+    그룹 ([COUNT])
   </floater.string>
 
   <string
    name="title_notification_tabbed_window">
-    Notifications
+    알림
   </string>
   <layout_stack
     left="2"
@@ -69,7 +69,7 @@
        border="true"
        bevel_style="none"
        follows="left|top|right|bottom"
-       label="System (0)"
+       label="시스템 (0)"
        layout="topleft"
        name="system_notification_list_tab">
         <notification_list_view
@@ -86,7 +86,7 @@
        border="true"
        bevel_style="none"
        follows="left|top|right|bottom"
-       label="Transactions (0)"
+       label="거래 (0)"
        layout="topleft"
        name="transaction_notifications_tab">
         <notification_list_view
@@ -103,7 +103,7 @@
        border="true"
        bevel_style="none"
        follows="left|top|right|bottom"
-       label="Invitations (0)"
+       label="초대 (0)"
        layout="topleft"
        name="group_invite_notifications_tab">
         <notification_list_view
@@ -120,7 +120,7 @@
        border="true"
        bevel_style="none"
        follows="left|top|right|bottom"
-       label="Group (0)"
+       label="그룹 (0)"
        layout="topleft"
        name="group_notice_notifications_tab">
         <notification_list_view

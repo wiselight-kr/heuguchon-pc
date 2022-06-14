@@ -9,7 +9,7 @@
          column="lst_action"
          font="SansSerif"
          halign="left"
-         label="Sound and Media"
+         label="소리와 미디어"
          name="lst_action"
          value="Audio_Press" />
     </rows>
@@ -21,7 +21,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Play/Pause Media" />
+         value="미디어 재생/일시정지" />
     </rows>
     <rows
      name="toggle_enable_media"
@@ -31,7 +31,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Play/Stop All Media" />
+         value="모든 미디어 재생/정지" />
     </rows>
     <rows
      name="voice_follow_key"
@@ -41,7 +41,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Voice" />
+         value="음성" />
     </rows>
     <rows
      name="toggle_voice"
@@ -51,7 +51,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Toggle Voice" />
+         value="음성 전환" />
     </rows>
     <rows
      name="start_chat"
@@ -61,7 +61,7 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Start Chat" />
+         value="대화 시작" />
     </rows>
     <rows
      name="start_gesture"
@@ -71,6 +71,6 @@
          font="SansSerif"
          halign="left"
          name="lst_action"
-         value="Start Gesture" />
+         value="제스쳐 시작" />
     </rows>
 </contents>

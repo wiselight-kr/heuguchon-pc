@@ -14,7 +14,7 @@
  help_topic="avatar"
  save_rect="true"
  save_visibility="true"
- title="Choose an Avatar"
+ title="아바타를 선택하시오"
  width="700">
     <web_browser
       top="25"

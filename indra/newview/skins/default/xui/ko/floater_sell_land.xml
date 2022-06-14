@@ -8,7 +8,7 @@
  name="sell land"
  help_topic="sell_land"
  single_instance="true"
- title="Sell Land"
+ title="랜드 판매"
  width="313">
     <scroll_container
      color="DkGray2"
@@ -42,7 +42,7 @@
      left="16"
      name="info_parcel_label"
      width="70">
-        Parcel:
+        구획:
     </text>
     <text
      top_delta="0"
@@ -51,14 +51,14 @@
      left="78"
      name="info_parcel"
      right="-20">
-        PARCEL NAME
+        구획 이름
     </text>
     <text
      follows="top|left"
      left="16"
      name="info_size_label"
      width="70">
-        Size:
+        크기:
     </text>
     <text
      follows="top|left"
@@ -78,7 +78,7 @@
      text_color="white"
      top="195"
      width="200">
-        To sell this parcel:
+        이 소포를 팔기 위해서는:
     </text>
     <text
      follows="top|left"
@@ -86,14 +86,14 @@
      height="16"
      left="30"
      name="price_label">
-        1. Set a price:
+        1. 가격을 책정하시오:
     </text>
     <text
      follows="top|left"
      height="16"
      left="40"
      name="price_text">
-        Choose an appropriate price.
+        적절한 가격을 선택합니다.
     </text>
     <text
      height="16"
@@ -117,7 +117,7 @@
      name="price_per_m"
      top_delta="25"
      width="200">
-        (L$[PER_METER] per m²)
+        (m² 당 L$[PER_METER])
     </text>
     <text
      follows="top|left"
@@ -125,7 +125,7 @@
      height="16"
      left="30"
      name="sell_to_label">
-        2. Sell the land to:
+        2. ~에게 랜드를 판매합니다:
     </text>
     <text
      follows="top|left"
@@ -134,7 +134,7 @@
      word_wrap="true"
      name="sell_to_text"
      right="-20">
-        Choose whether to sell to anyone or a particular buyer.
+        누구에게 판매할지 또는 특정 구매자에게 판매할지 선택.
     </text>
     <combo_box
      follows="top|left"
@@ -145,15 +145,15 @@
      width="130">
         <combo_box.item
          enabled="false"
-         label="- Select one -"
+         label="- 하나 선택 -"
          name="--selectone--"
          value="select" />
         <combo_box.item
-         label="누구나"
+         label="누구든"
          name="Anyone"
-         value="누구나" />
+         value="anyone" />
         <combo_box.item
-         label="Specific person:"
+         label="특정한 인원:"
          name="Specificuser:"
          value="user" />
     </combo_box>
@@ -167,7 +167,7 @@
      width="150" />
     <button
      height="20"
-     label="Select"
+     label="선택"
      left_pad="5"
      name="sell_to_select_agent"
      top_delta="0"
@@ -179,7 +179,7 @@
      left="30"
      name="sell_objects_label"
      width="266">
-        3. Sell the objects with the land?
+        3. 랜드와 개체를 판매합니까?
     </text>
     <text
      font="SansSerifSmall"
@@ -188,7 +188,7 @@
      word_wrap="true"
      left="40"
      name="sell_objects_text">
-        Land owner&apos;s transferable objects on parcel will change ownership.
+        토지 소유자의 &apos; 양도 가능 물체가 소포로 소유권이 변경됩니다.
     </text>
     <radio_group
      top_pad="5"
@@ -206,19 +206,19 @@
         <radio_item
          top_pad="10"
          height="18"
-         label="No, keep ownership of objects"
+         label="아니요, 물건의 소유권을 유지하십시오"
          left="2"
          name="no" />
         <radio_item
          top_pad="10"
          height="16"
-         label="Yes, sell objects with land"
+         label="예, 땅과 개체를 판매합니다"
          left="2"
          name="yes" />
     </radio_group>
     <button
      height="20"
-     label="Show Objects"
+     label="개체 표시"
      name="show_objects"
      left="70"
      top_pad="10"
@@ -231,12 +231,12 @@
      left="16"
      name="nag_message_label"
      right="-5">
-        REMEMBER: All sales are final.
+        기억: 모든 판매는 최종 판매입니다.
     </text>
     <button
      follows="bottom|left"
      height="20"
-     label="Set Land For Sale"
+     label="분양지 설정"
      left_delta="0"
      name="sell_btn"
      top_pad="10"
@@ -244,7 +244,7 @@
     <button
      follows="bottom|left"
      height="20"
-     label="Cancel"
+     label="취소"
      left_pad="5"
      name="cancel_btn"
      top_delta="0"

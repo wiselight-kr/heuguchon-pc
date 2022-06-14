@@ -32,10 +32,10 @@
        unless the C++ code uses them to fill in another widget. -->
   <floater.string
    name="sample_string"
-   value="Sample String" />
+   value="표본 문자열" />
   <floater.string
    name="other_string"
-   value="Other String" />
+   value="다른 문자열" />
 
   <!-- Floaters can contain drop-down menus.
        The menu_bar widget contains the inividual menus.
@@ -44,19 +44,19 @@
    height="18"
    layout="topleft"
    follows="top|left"
-   tool_tip="menu"
+   tool_tip="메뉴"
    left="2"
    name="test_menu_bar"
    top="16">
     <menu
-     label="Menu"
+     label="메뉴"
      layout="topleft"
      tear_off="true"
      name="Menu"
      width="128">
       <!-- menu_item_call will trigger a function call in the C++ code -->
       <menu_item_call
-       label="Menu Item 1"
+       label="메뉴 아이템 1"
        layout="topleft"
        name="test_menu_item_1" />
       <!-- menu_item_separator is a horizontal line used to separate sections
@@ -64,7 +64,7 @@
            no more than 7 items separated by menu_item_separators. -->
       <menu_item_separator/>
       <menu_item_call
-       label="Menu Item 2"
+       label="메뉴 아이템 2"
        layout="topleft"
        name="test_menu_item_2" />
     </menu>
@@ -79,51 +79,51 @@
    follows="top|left"
    left="10"
    height="16">
-    For widget list see http://wiki.secondlife.com/wiki/XUI_Reference
-  </text>
+    위젯 목록은  http://wiki.secondlife.com/wiki/XUI_Reference 을 참조하십시오   
+    </text>
 
   <!-- First column -->
 
   <button
    follows="top|left"
-   label="Button"
+   label="버튼"
    layout="topleft"
    left_delta="0"
    name="test_button"
-   tool_tip="button"
+   tool_tip="버튼"
    top="80"
    width="100" />
   <!-- "flyout_button" is a button that can spawn a menu -->
   <flyout_button
    follows="top|left"
-   label="Flyout"
+   label="플라이아웃"
    layout="topleft"
    left_delta="0"
    name="fly_btn"
    top_pad="15"
-   tool_tip="flyout button"
+   tool_tip="플라이아웃 버튼"
    width="100">
     <flyout_button.item
-     label="Item 1"
-     value="shout" />
+     label="아이템 1"
+     value="외침" />
     <flyout_button.item
-     label="Item 2"
-     value="say" />
+     label="아이템 2"
+     value="말하기" />
     <flyout_button.item
-     label="Item 3"
-     value="whisper" />
+     label="아이템 3"
+     value="속삭임" />
   </flyout_button>
   <check_box
    bottom_delta="35"
    height="10"
-   label="Checkbox"
+   label="체크박스"
    layout="topleft"
-   tool_tip="checkbox"
+   tool_tip="체크박스"
    name="test_checkbox" />
   <check_box
    top_pad="5"
    enabled="false" 
-   label="Checkbox Disabled"
+   label="체크박스 사용할 수 없음"
    tool_tip="checkbox disabled"
    name="test_checkbox_disabled" />
   <!-- "combo_box" is a pop-menu of items.  Optionally the box itself can
@@ -133,16 +133,16 @@
    bottom_delta="35"
    follows="top|left"
    width="150"
-   label="Combobox"
+   label="콤보박스"
    layout="topleft"
-   tool_tip="combo box"
+   tool_tip="콤보 박스"
    name="test_combo_box">
     <combo_box.item
      name="item1"
-     label="Combobox Item 1" />
+     label="콤보박스 아이템 1" />
     <combo_box.item
      name="item2"
-     label="Combobox Item 2" />
+     label="콤보박스 아이템 2" />
   </combo_box>
   <!-- "icon" is a read-only image.  The image_name must match an entry
         in textures.xml.  We support TGA and PNG for UI images. -->
@@ -151,7 +151,7 @@
    image_name="icon_avatar_online.tga"
    layout="topleft"
    left_delta="0"
-   tool_tip="icon"
+   tool_tip="아이콘"
    name="test_icon"
    top_pad="40"
    width="16" />
@@ -165,20 +165,20 @@
    left_delta="0"
    name="test_line_editor"
    top_pad="20"
-   tool_tip="line editor"
+   tool_tip="선 편집기"
    width="200">
-    Line Editor Sample Text
+    선 편집기 표본 텍스트
   </line_editor>
   <!-- "filter_editor" is a specialized line_editor that shows read-only
        help text until the user clicks in the widget. -->
   <filter_editor
    follows="left|top"
    height="20"
-   label="Type here to search"
+   label="검색하려면 여기에 타이핑하십시오"
    layout="topleft"
    left_delta="0"
    name="search editor"
-   tool_tip="search editor"
+   tool_tip="검색 편집기"
    top_pad="30"
    width="200" />
   <!-- "progress_bar" percent completed gets set in C++ code -->
@@ -190,25 +190,25 @@
    name="test_progress_bar"
    top_pad="30"
    control_name="NearbyToastWidth"
-   tool_tip="progress bar"
+   tool_tip="진행률 막대"
    width="200" />
   <!-- "stat_view" is a container for statistics graphs.  It is only used
        for debugging/diagnostic displays. -->
   <stat_view
    height="250"
-   label="Statistics View"
+   label="통계 보기"
    layout="topleft"
    left_delta="0"
    name="axis_view"
    show_label="true"
    top_pad="30"
-   tool_tip="stat view"
+   tool_tip="통계 보기"
    width="200">
     <stat_bar
      width="100"
      bar_max="100"
      bottom_delta="30"
-     label="Test Stat"
+     label="통계 시험"
      layout="topleft"
      stat="stat"
      bar_min="20"
@@ -224,16 +224,16 @@
    layout="topleft"
    left_pad="90"
    name="size_radio_group"
-   tool_tip="radio group"
+   tool_tip="라디오 그룹"
    top="80"
    width="200">
     <radio_item
      bottom="20"
-     label="Radio 1"
+     label="라디오 1"
      layout="topleft"
      name="small_radio_item" />
     <radio_item
-     label="Radio 2"
+     label="라디오 2"
      layout="topleft"
      name="large_radio_item" />
   </radio_group>
@@ -243,23 +243,23 @@
    follows="top|left"
    height="80"
    draw_heading="true"
-   tool_tip="scroll list"
+   tool_tip="목록 스크롤"
    layout="topleft">
     <scroll_list.columns
      dynamic_width="true"
      name="first_column"
-     label="Column A"/>
+     label=" 열 A"/>
     <scroll_list.columns
      dynamic_width="true"
      name="second_column"
-     label="Column B"/>
+     label="열 B"/>
     <row>
-      <column column="first_column">short text</column>
-      <column column="second_column">more short text</column>
+      <column column="first_column">짧은 텍스트</column>
+      <column column="second_column">더 짧은 텍스트</column>
     </row>
     <row>
-      <column column="first_column">this is some longer text</column>
-      <column column="second_column">and here is some more long text</column>
+      <column column="first_column">이것은 좀 더 긴 텍스트입니다.</column>
+      <column column="second_column">그리고 여기 좀 더 긴 텍스트가 있습니다.</column>
     </row>
   </scroll_list>
   <!-- "slider" is a horizontal input widget for numerical data. -->
@@ -270,9 +270,9 @@
    min_val="0"
    max_val="100"
    initial_value="20"
-   label="Slider"
+   label="슬라이더"
    name="test_slider"
-   tool_tip="slider"
+   tool_tip="슬라이더"
    width="200" />
   <!-- "spinner" is a numerical input widget with an up and down arrow to
        change the value. -->
@@ -280,11 +280,11 @@
     height="10"
    bottom_delta="35"
    follows="top|left"
-   label="Spinner"
+   label="스피너"
    layout="topleft"
    label_width="45"
    name="test_spinner"
-   tool_tip="spinner"/>
+   tool_tip="스피너"/>
   <text
    bottom_delta="50"
    follows="top|left"
@@ -292,8 +292,8 @@
    font.style = "UNDERLINE"
    layout="topleft"
    name="test_text"
-   tool_tip="text">
-    Text (underlined)
+   tool_tip="텍스트">
+    텍스트 (밑줄)
   </text>
   <text
    top_pad="10"
@@ -303,7 +303,7 @@
    use_ellipses="true"
    name="test_text"
    tool_tip="text">
-    Truncated text here
+    여기서 잘린 텍스트
   </text>
   <!-- "text_editor" is a multi-line text input widget, similar to
        textarea in HTML. -->
@@ -313,25 +313,25 @@
    layout="topleft"
    left_delta="0"
    name="test_text_editor"
-   tool_tip="text editor"
+   tool_tip="텍스트 편집기"
    top_pad="25"
    width="200">
-    Text Editor
+    텍스트 편집기
   </text_editor>
   <text
    height="40"
    follows="top|left|bottom"
    layout="topleft"
    name="test_text_box"
-   tool_tip="text box"
+   tool_tip="텍스트 박스"
    top_pad="5"
    width="200">
-      Text box
-with
-multiple lines
-and too
-many
-line to actually fit
+      텍스트 상자
+와 함께
+여러 줄
+그리고
+많이
+꼭 맞도록 선을 긋기.
   </text>
   <!-- And a third column -->
 
@@ -344,14 +344,14 @@ line to actually fit
    left="525"
    name="group_tab_container"
    tab_position="top"
-   tool_tip="tab container"
+   tool_tip="탭 컨테이너"
    top="80"
    width="300">
     <!-- "panel" is a container for widgets.  It is automatically resized to
          fit the parent tab_container. -->
     <panel
 	 border="true"
-     label="Tab 1 - Color"
+     label="탭 1 - 색상"
      layout="topleft"
      name="panel2">
       <!-- "color_swatch" displays a color and spawns a color picker when
@@ -363,9 +363,9 @@ line to actually fit
        height="90"
        layout="topleft"
        left="10"
-       label="Color Swatch 1"
+       label="색상 스와치 1"
        name="swatch1"
-       tool_tip="Color Swatch: Click to open Color Picker"
+       tool_tip="색상 스와치: 색상 선택기를 열려면 클릭하십시오"
        top="10"
        width="80" />
       <color_swatch
@@ -373,11 +373,11 @@ line to actually fit
        color="1 0 1 1"
        follows="left|top"
        height="90"
-       label="Color Swatch 2"
+       label="색상 스와치 2"
        layout="topleft"
        left_pad="10"
        name="swatch2"
-       tool_tip="Color Swatch: Click to open Color Picker"
+       tool_tip="색상 스와치: 색상 선택기를 열려면 클릭하십시오"
        top_delta="0"
        width="80" />
       <text
@@ -387,8 +387,8 @@ line to actually fit
        follows="top|left"
        font.name="Monospace"
        name="test_text10"
-       tool_tip="text">
-        Monospace Button Flyout Checkbox
+       tool_tip="텍스트">
+        모노스페이스 버튼 플라이아웃 확인란
       </text>
       <text
        top_pad="10"
@@ -397,7 +397,7 @@ line to actually fit
        follows="top|left"
        font.name="SansSerifSmall"
        name="test_text10"
-       tool_tip="text">
+       tool_tip="텍스트">
         SansSerifSmall.  Русский 中文 (简体)
       </text>
       <text
@@ -407,7 +407,7 @@ line to actually fit
        follows="top|left"
        font.name="SansSerif"
        name="test_text11"
-       tool_tip="text">
+       tool_tip="텍스트">
         SansSerif.  Русский 中文 (简体)
       </text>
       <text
@@ -417,7 +417,7 @@ line to actually fit
        follows="top|left"
        font.name="SansSerifLarge"
        name="test_text12"
-       tool_tip="text">
+       tool_tip="텍스트">
         SansSerifLarge.  Русский 中文 (简体)
       </text>
       <text
@@ -427,7 +427,7 @@ line to actually fit
        follows="top|left"
        font.name="SansSerifHuge"
        name="test_text13"
-       tool_tip="text">
+       tool_tip="텍스트">
         SansSerifHuge.  Русский 中文 (简体)
       </text>
     </panel>
@@ -436,7 +436,7 @@ line to actually fit
 	  border="true"
      filename="floater_test_checkbox.xml"
      height="225"
-     label="Tab 2 - Checkbox"
+     label="탭 2 - 체크박스"
      layout="topleft"
      left_delta="0"
      name="tab2"

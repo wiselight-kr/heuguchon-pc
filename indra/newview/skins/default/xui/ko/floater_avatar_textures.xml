@@ -11,7 +11,7 @@
  can_resize="false">
     <floater.string
      name="InvalidAvatar">
-        Invalid Avatar
+        유효하지 않은 아바타
     </floater.string>
 
     <scroll_container
@@ -45,8 +45,8 @@
      name="label"
      top="20"
      width="90">
-        Baked
-Textures
+        구워진
+텍스쳐
     </text>
     <text
      type="string"
@@ -57,12 +57,12 @@ Textures
      name="composite_label"
      top_delta="0"
      width="120">
-        Composite
-Textures
+        구성요소
+텍스쳐
     </text>
     <button
      height="40"
-     label="Dump IDs to Console"
+     label="콘솔에 ID 덤프"
      label_selected="Dump"
      layout="topleft"
      name="Dump"
@@ -83,7 +83,7 @@ Textures
 
     <texture_picker
      height="103"
-     label="Hair"
+     label="머리카락"
      layout="topleft"
      left="10"
      name="hair-baked"
@@ -91,7 +91,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Hair"
+     label="머리카락"
      layout="topleft"
      left_pad="21"
      name="hair_grain"
@@ -99,7 +99,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Hair Alpha"
+     label="머리카락 알파"
      layout="topleft"
      left_pad="7"
      name="hair_alpha"
@@ -107,7 +107,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Hair Tattoo"
+     label="머리카락 문신"
      layout="topleft"
      left_pad="7"
      name="hair_tattoo"
@@ -116,7 +116,7 @@ Textures
 
     <texture_picker
      height="103"
-     label="Head"
+     label="머리"
      layout="topleft"
      left="10"
      name="head-baked"
@@ -124,7 +124,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Makeup"
+     label="화장"
      layout="topleft"
      left_pad="21"
      name="head_bodypaint"
@@ -132,7 +132,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Head Alpha"
+     label="머리 알파"
      layout="topleft"
      left_pad="7"
      name="head_alpha"
@@ -140,7 +140,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Head Tattoo"
+     label="머리 문신"
      layout="topleft"
      left_pad="7"
      name="head_tattoo"
@@ -148,7 +148,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Head Unv Tattoo"
+     label="머리 Unv 문신"
      layout="topleft"
      left_pad="7"
      name="head_universal_tattoo"
@@ -157,7 +157,7 @@ Textures
 
     <texture_picker
      height="103"
-     label="Eyes"
+     label="눈"
      layout="topleft"
      left="10"
      name="eyes-baked"
@@ -165,7 +165,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Eye"
+     label="눈"
      layout="topleft"
      left_pad="21"
      name="eyes_iris"
@@ -173,7 +173,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Eyes Alpha"
+     label="눈 알파"
      layout="topleft"
      left_pad="7"
      name="eyes_alpha"
@@ -181,7 +181,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Eyes Tattoo"
+     label="눈 문신"
      layout="topleft"
      left_pad="7"
      name="eyes_tattoo"
@@ -190,7 +190,7 @@ Textures
 
     <texture_picker
      height="103"
-     label="Upper Body"
+     label="상체"
      layout="topleft"
      left="10"
      name="upper-baked"
@@ -198,7 +198,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Upper BodyPaint"
+     label="상체 바디페인트"
      layout="topleft"
      left_pad="21"
      name="upper_bodypaint"
@@ -206,7 +206,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Undershirt"
+     label="속 셔츠"
      layout="topleft"
      left_pad="7"
      name="upper_undershirt"
@@ -214,7 +214,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Gloves"
+     label="장갑"
      layout="topleft"
      left_pad="7"
      name="upper_gloves"
@@ -222,7 +222,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Shirt"
+     label="셔츠"
      layout="topleft"
      left_pad="7"
      name="upper_shirt"
@@ -230,7 +230,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Upper Jacket"
+     label="윗옷"
      layout="topleft"
      left_pad="7"
      name="upper_jacket"
@@ -238,7 +238,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Upper Alpha"
+     label="상부 알파"
      layout="topleft"
      left_pad="7"
      name="upper_alpha"
@@ -246,7 +246,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Upper Tattoo"
+     label="상부 문신"
      layout="topleft"
      left_pad="7"
      name="upper_tattoo"
@@ -254,7 +254,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Upper Unv Tattoo"
+     label="상부 Unv 문신"
      layout="topleft"
      left_pad="7"
      name="upper_universal_tattoo"
@@ -263,7 +263,7 @@ Textures
 
     <texture_picker
      height="103"
-     label="Lower Body"
+     label="하체"
      layout="topleft"
      left="10"
      name="lower-baked"
@@ -271,7 +271,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Lower BodyPaint"
+     label="하체 바디페인트"
      layout="topleft"
      left_pad="21"
      name="lower_bodypaint"
@@ -279,7 +279,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Underpants"
+     label="속옷"
      layout="topleft"
      left_pad="7"
      name="lower_underpants"
@@ -287,7 +287,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Socks"
+     label="양말"
      layout="topleft"
      left_pad="7"
      name="lower_socks"
@@ -295,7 +295,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Shoes"
+     label="신발"
      layout="topleft"
      left_pad="7"
      name="lower_shoes"
@@ -303,7 +303,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Pants"
+     label="바지"
      layout="topleft"
      left_pad="7"
      name="lower_pants"
@@ -311,7 +311,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Jacket"
+     label="자켓"
      layout="topleft"
      left_pad="7"
      name="lower_jacket"
@@ -319,7 +319,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Lower Alpha"
+     label="하부 알파"
      layout="topleft"
      left_pad="7"
      name="lower_alpha"
@@ -327,7 +327,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Lower Tattoo"
+     label="하부 문신"
      layout="topleft"
      left_pad="7"
      name="lower_tattoo"
@@ -335,7 +335,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Lower Unv Tattoo"
+     label="하부 Unv 문신"
      layout="topleft"
      left_pad="7"
      name="lower_universal_tattoo"
@@ -344,7 +344,7 @@ Textures
 
     <texture_picker
      height="103"
-     label="Skirt"
+     label="치마"
      layout="topleft"
      left="10"
      name="skirt-baked"
@@ -352,7 +352,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Skirt"
+     label="치마"
      layout="topleft"
      left_pad="21"
      name="skirt"
@@ -360,7 +360,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Skirt Tattoo"
+     label="치마 문신"
      layout="topleft"
      left_pad="7"
      name="skirt_tattoo"
@@ -369,7 +369,7 @@ Textures
 
     <texture_picker
      height="103"
-     label="Left Arm"
+     label="왼팔"
      layout="topleft"
      left="10"
      name="leftarm-baked"
@@ -377,7 +377,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Left Arm Tattoo"
+     label="왼팔 문신"
      layout="topleft"
      left_pad="21"
      name="leftarm_tattoo"
@@ -386,7 +386,7 @@ Textures
 
     <texture_picker
      height="103"
-     label="Left Leg"
+     label="왼다리"
      layout="topleft"
      left="10"
      name="leftleg-baked"
@@ -394,7 +394,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="Left Leg Tattoo"
+     label="왼다리 문신"
      layout="topleft"
      left_pad="21"
      name="leftleg_tattoo"
@@ -411,7 +411,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="AUX 1 Tattoo"
+     label="AUX 1 문신"
      layout="topleft"
      left_pad="21"
      name="aux1_tattoo"
@@ -428,7 +428,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="AUX 2 Tattoo"
+     label="AUX 2 문신"
      layout="topleft"
      left_pad="21"
      name="aux2_tattoo"
@@ -445,7 +445,7 @@ Textures
      width="92" />
     <texture_picker
      height="103"
-     label="AUX 3 Tattoo"
+     label="AUX 3 문신"
      layout="topleft"
      left_pad="21"
      name="aux3_tattoo"

@@ -12,7 +12,7 @@
  save_rect="true"
  single_instance="true"
  reuse_instance="true"
- title="Conversation Log"
+ title="대화 로그"
  width="300">
   <panel
    follows="left|top|right"
@@ -25,7 +25,7 @@
      height="23"
      layout="topleft"
      left="4"
-     label="Filter People"
+     label="사람들 필터"
      max_length_chars="300"
      name="people_filter_input"
      top="4"
@@ -40,7 +40,7 @@
      layout="topleft"
      left_pad="8"
      name="conversations_gear_btn"
-     tool_tip="Actions on selected person or group"
+     tool_tip="선택한 사용자 또는 그룹에 대한 작업"
      top="3"
      width="31" />
     <menu_button

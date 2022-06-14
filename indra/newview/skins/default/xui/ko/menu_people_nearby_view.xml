@@ -4,7 +4,7 @@
  left="0" bottom="0" visible="false"
  mouse_opaque="false">
     <menu_item_check
-       label="Sort by Recent Speakers"
+       label="최근 스피커별로 정렬"
        name="sort_by_recent_speakers">
       <menu_item_check.on_click
          function="People.Nearby.ViewSort.Action"
@@ -14,7 +14,7 @@
          parameter="sort_by_recent_speakers"/>
     </menu_item_check>
     <menu_item_check
-       label="Sort by Name"
+       label="이름으로 정렬"
        name="sort_name">
       <menu_item_check.on_click
          function="People.Nearby.ViewSort.Action"
@@ -24,7 +24,7 @@
          parameter="sort_name"/>
     </menu_item_check>
     <menu_item_check
-       label="Sort by Distance"
+       label="거리로 정렬"
        name="sort_distance">
       <menu_item_check.on_click
          function="People.Nearby.ViewSort.Action"
@@ -34,7 +34,7 @@
          parameter="sort_distance"/>
     </menu_item_check>
     <menu_item_check
-       label="Sort by Recent arrival"
+       label="최근 목적지로 정렬"
        name="sort_arrival">
       <menu_item_check.on_click
          function="People.Nearby.ViewSort.Action"
@@ -44,7 +44,7 @@
          parameter="sort_arrival"/>
   </menu_item_check>
     <menu_item_separator layout="topleft" />
-    <menu_item_check name="view_icons" label="View People Icons">
+    <menu_item_check name="view_icons" label="사람 아이콘 보기">
         <menu_item_check.on_click
          function="People.Nearby.ViewSort.Action"
          parameter="view_icons" />
@@ -52,7 +52,7 @@
          function="CheckControl"
          parameter="NearbyListShowIcons" />
     </menu_item_check>
-    <menu_item_check name ="view_map" label="View Map">
+    <menu_item_check name ="view_map" label="지도 보기">
         <menu_item_check.on_check
          function="CheckControl"
          parameter="NearbyListShowMap" />

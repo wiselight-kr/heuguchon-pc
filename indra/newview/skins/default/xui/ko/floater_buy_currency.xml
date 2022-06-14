@@ -11,11 +11,11 @@
  width="350">
     <floater.string
      name="buy_currency">
-        Buy L$ [LINDENS] for approx. [LOCALAMOUNT]
+        대략 L$ [LINDENS] 구매. [LOCALAMOUNT]
     </floater.string>
     <floater.string
      name="info_cannot_buy">
-        Unable to Buy
+        구매할 수 없음
     </floater.string>
     <floater.string
      name="estimated_zero">
@@ -58,7 +58,7 @@
        top="8"
        width="340"
        name="info_need_more">
-          You need more L$
+          더 많은 L$ 가 필요합니다
       </text>
       <text
        type="string"
@@ -71,7 +71,7 @@
        top="8"
        width="300"
        name="info_buying">
-          Buy L$
+           L$ 구매
       </text>
       <view_border
        bevel_style="none"
@@ -100,7 +100,7 @@
        name="target_price_label"
        top_pad="3"
        width="210">
-          You need
+          당신은 필요합니다
       </text>
       <text
        type="string"
@@ -135,7 +135,7 @@
        name="balance_label"
        top_pad="5"
        width="210">
-        You now have
+        당신은 이제 가지고 있습니다
       </text>
       <text
        type="string"
@@ -171,7 +171,7 @@
         name="required_label"
         top_pad="6"
         width="210">
-        You should buy at least
+        적어도 사야합니다
       </text>
       <text
        type="string"
@@ -214,7 +214,7 @@
        left="20"
        name="currency_action"
        width="210">
-          Choose amount to buy
+          구매 금액 선택
       </text>
       <text
        font="SansSerifMedium"
@@ -257,7 +257,7 @@
        left="150"
        name="currency_est"
        width="170">
-       Approx. [LOCALAMOUNT]
+       대략. [LOCALAMOUNT]
       </text>
       <text
        type="string"
@@ -272,7 +272,7 @@
        width="150"
        halign="right"
        name="getting_data">
-          Estimating...
+          추정중...
       </text>
       <text
        type="string"
@@ -285,7 +285,7 @@
        name="total_label"
        top_pad="10"
        width="210">
-          Your new balance will be
+          당신의 새로운 잔고는
       </text>
       <text
        type="string"
@@ -343,7 +343,7 @@
        width="300"
        height="30"
        name="exchange_rate_note">
-Re-enter amount to see the latest exchange rate.
+금액을 재입력하여 최신 환율을 확인하십시오.
       </text>
       <text
        type="string"
@@ -356,8 +356,8 @@ Re-enter amount to see the latest exchange rate.
        width="310"
        height="35"
        name="purchase_warning_repurchase">
-After you receive your L$, you should try your
-purchase again.
+L$를 받은 후 L$를 사용해 보십시오.
+다시 구매.
       </text>
     </layout_panel>
     <layout_panel
@@ -377,7 +377,7 @@ purchase again.
        left="15"
        width="300"
        name="contacting">
-          Contacting LindeX...
+           LindeX 에 문의 중...
         </text>
       <button
        follows="top|left|right"

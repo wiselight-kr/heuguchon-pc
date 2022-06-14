@@ -9,14 +9,14 @@
  save_rect="true"
  single_instance="true"
  reuse_instance="true"
- title="Discord"
+ title="디스코드"
  height="485"
  width="272">
-	<string name="discord_connected">You are connected to Discord as:</string>
-	<string name="discord_disconnected">Not connected to Discord.</string>
-	<string name="SocialDiscordConnecting">Connecting to Discord...</string>
-	<string name="SocialDiscordErrorConnecting">Problem connecting to Discord</string>
-	<string name="SocialDiscordDisconnecting">Disconnecting from Discord...</string>
+	<string name="discord_connected">다음과 같이 Discoord에 연결되어 있습니다:</string>
+	<string name="discord_disconnected">다음과 같이 Discoord에 연결되어 있지 않습니다.</string>
+	<string name="SocialDiscordConnecting">Discord에 연결중...</string>
+	<string name="SocialDiscordErrorConnecting">Discord에 연결 문제</string>
+	<string name="SocialDiscordDisconnecting">Discord에 연결 해제중...</string>
 	<text
 	 layout="topleft"
 	 length="1"
@@ -27,7 +27,7 @@
 	 name="account_caption_label"
 	 top="5"
 	 type="string">
-		Not connected to Discord.
+		Discord에 연결되지 않음.
 	</text>
 	<text
 	 layout="topleft"
@@ -49,7 +49,7 @@
 	 right="-10"
 	 visible="true"
 	 height="23"
-	 label="Automatically connect on login"
+	 label="로그인 시 자동으로 연결"
 	 name="startup_check"
 	 width="210"/>
 	<check_box
@@ -60,7 +60,7 @@
 	 right="-10"
 	 visible="true"
 	 height="23"
-	 label="Share username"
+	 label="사용자 이름 공유"
 	 name="name_check"
 	 width="210"/>
 	<button
@@ -71,7 +71,7 @@
 	 right="-10"
 	 visible="true"
 	 height="23"
-	 label="Connect..."
+	 label="연결..."
 	 name="connect_btn"
 	 width="210">
 		<commit_callback function="FSDiscord.Connect"/>
@@ -84,7 +84,7 @@
 	 left="10"
 	 right="-10"
 	 height="23"
-	 label="Disconnect"
+	 label="연결 해제"
 	 name="disconnect_btn"
 	 width="210"
 	 visible="false">
@@ -102,7 +102,7 @@
 	 name="rating_label"
 	 top_pad="5"
 	 type="string">
-		Share name of regions with following content rating to Discord:
+		Discord에 대한 다음 콘텐츠 등급을 가진 지역의 공유 이름:
 	</text>
 	<combo_box
 	 control_name="FSMaxSharedMaturity"
@@ -112,19 +112,19 @@
 	 name="maturity_desired_combobox"
 	 width="200">
 		<combo_box.item
-		 label="General, Moderate, Adult"
+		 label="일반, 적당한, 성인"
 		 name="Desired_Adult"
 		 value="42" />
 		<combo_box.item
-		 label="General and Moderate"
+		 label="일반 과 적당한"
 		 name="Desired_Mature"
 		 value="21" />
 		<combo_box.item
-		 label="General"
+		 label="일반"
 		 name="Desired_PG"
 		 value="13" />
 		<combo_box.item
-		 label="Don't share"
+		 label="공유하지 않음"
 		 name="Desired_None"
 		 value="0" />
 	</combo_box>
@@ -140,7 +140,7 @@
 	 name="dont_names_label"
 	 top_pad="5"
 	 type="string">
-		Don't share region names to Discord if they are listed below:
+		아래에 나열된 경우 지역 이름을 Discoord와 공유하지 마십시오:
 	</text>
 	<scroll_list
 	 follows="top|left|right"
@@ -196,6 +196,6 @@
 	 valign="center"
 	 text_color="EmphasisColor"
 	 font="SansSerif">
-		Loading...
+		로딩중...
 	</text>
 </floater>

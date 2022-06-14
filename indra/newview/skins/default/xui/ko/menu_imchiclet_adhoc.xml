@@ -9,7 +9,7 @@
  visible="false"
  width="128">
     <menu_item_call
-     label="End Session"
+     label="세션 종료"
      layout="topleft"
      name="End Session">
         <menu_item_call.on_click

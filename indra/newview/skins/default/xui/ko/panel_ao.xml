@@ -23,7 +23,7 @@
 
 		<combo_box
 			name="ao_set_selection_combo"
-			tool_tip="Select animation set to edit."
+			tool_tip="편집할 애니메이션 세트 선택."
 			left="0"
 			top="4"
 			right="-24"
@@ -35,7 +35,7 @@
 
 		<button
 			name="ao_activate"
-			tool_tip="Activate this animation set now."
+			tool_tip="지금 이 애니메이션 세트 활성화."
 			left_pad="4"
 			width="20"
 			height="20"
@@ -54,7 +54,7 @@
 		<check_box
 			name="ao_default"
 			label="기본값"
-			tool_tip="Make this animation set the default set that plays when you log in."
+			tool_tip="이 애니메이션을 로그인 시 재생되는 기본 집합으로 설정."
 			left="0"
 			top_pad="8"
 			width="20"
@@ -64,7 +64,7 @@
 
 		<button
 			name="ao_add"
-			tool_tip="Create a new animation set."
+			tool_tip="새 애니메이션 세트 만들기."
 			top_delta="0"
 			right="-24"
 			width="20"
@@ -75,7 +75,7 @@
 
 		<button
 			name="ao_remove"
-			tool_tip="Remove this animation set."
+			tool_tip="이 애니메이션 세트 제거."
 			left_pad="4"
 			width="20"
 			height="20"
@@ -86,7 +86,7 @@
 		<check_box
 			name="ao_sit_override"
 			label="자리 재정의"
-			tool_tip="Check this if you want sit animation overrides."
+			tool_tip="애니메이션을 재정의하려면 이 옵션을 선택합니다."
 			left="0"
 			top_pad="4"
 			width="100"
@@ -97,7 +97,7 @@
 		<check_box
 			name="ao_smart"
 			label="현명해지십시오"
-			tool_tip="Smart mode tries to determine if the sit override would clash with the object's own animation and disables the overrider temporarily."
+			tool_tip="스마트 모드는 시트 덮어쓰기가 개체의 자체 애니메이션과 충돌하는지 여부를 확인하려고 시도하며 덮어쓰기를 일시적으로 비활성화합니다."
 			left_pad="4"
 			right="-1"
 			height="16"
@@ -107,7 +107,7 @@
 		<check_box
 			name="ao_disable_stands_in_mouselook"
 			label="마우스룩에서 스탠드 사용 안 함"
-			tool_tip="If you need to preserve your custom stand animation in mouselook, check this box."
+			tool_tip="사용자 지정 스탠드 애니메이션을 마우스 모양에서 보존해야 하는 경우 이 확인란을 선택하십시오."
 			left="0"
 			top_pad="4"
 			width="100"
@@ -117,7 +117,7 @@
 
 		<combo_box
 			name="ao_state_selection_combo"
-			tool_tip="Select animation state to edit."
+			tool_tip="편집할 애니메이션 상태 선택."
 			left="0"
 			top_pad="4"
 			right="-1"
@@ -152,7 +152,7 @@
 
 			<button
 				name="ao_move_up"
-				tool_tip="Move the selected animation up in the list."
+				tool_tip="선택한 애니메이션을 목록에서 위로 이동."
 				left="0"
 				top="0"
 				width="20"
@@ -163,7 +163,7 @@
 
 			<button
 				name="ao_move_down"
-				tool_tip="Move the selected animation down in the list."
+				tool_tip="선택한 애니메이션을 목록에서 아래로 이동합니다."
 				top_pad="4"
 				width="20"
 				height="32"
@@ -173,7 +173,7 @@
 
 			<button
 				name="ao_trash"
-				tool_tip="Remove the selected animation from the list."
+				tool_tip="목록에서 선택한 애니메이션 제거."
 				left_delta="0"
 				bottom="-1"
 				width="20"
@@ -186,7 +186,7 @@
 		<check_box
 			name="ao_cycle"
 			label="주기"
-			tool_tip="Play a different animation from the list every time the animation state is called."
+			tool_tip="애니메이션 상태가 호출될 때마다 목록과 다른 애니메이션 재생."
 			left="0"
 			top_pad="4"
 			width="55"
@@ -197,7 +197,7 @@
 		<check_box
 			name="ao_randomize"
 			label="랜덤한 순서"
-			tool_tip="Randomize order of animations in cycle mode."
+			tool_tip="사이클 모드에서 애니메이션 순서 랜덤화."
 			left_pad="4"
 			width="100"
 			height="16"
@@ -206,7 +206,7 @@
 
 		<text
 			name="ao_cycle_time_seconds_label"
-			value="Cycle time (seconds):"
+			value="주기 시간(초):"
 			left="0"
 			top_pad="4"
 			width="120"
@@ -215,7 +215,7 @@
 
 		<spinner
 			name="ao_cycle_time"
-			tool_tip="Time before switching to the next animation in the list. Set this to 0 to disable automatic animation cycling."
+			tool_tip="목록에서 다음 애니메이션으로 전환하기 전까지의 시간입니다. 자동 애니메이션 사이클을 사용하지 않으려면 이 값을 0으로 설정합니다."
 			top_delta="-6"
 			left_pad="8"
 			height="16"
@@ -231,7 +231,7 @@
 		<button
 			name="ao_reload"
 			label="재로드"
-			tool_tip="Reload animation overrider configuration."
+			tool_tip="애니메이션 재정의 구성 다시 로드."
 			left="0"
 			top_pad="8"
 			right="-1"
@@ -260,7 +260,7 @@
 		<button
 			name="ao_previous"
 			image_overlay="BackArrow_Off"
-			tool_tip="Switch to previous animation of the current state."
+			tool_tip="현재 상태의 이전 애니메이션으로 전환."
 			left="0"
 			top="0"
 			width="88"
@@ -280,7 +280,7 @@
 		<button
 			name="ao_next"
 			image_overlay="ForwardArrow_Off"
-			tool_tip="Switch to next animation of the current state."
+			tool_tip="현재 상태의 다음 애니메이션으로 전환."
 			left="2"
 			top="0"
 			width="88"
@@ -293,7 +293,7 @@
 
 		<button
 			name="ao_less"
-			tool_tip="Show small Animation Overrider interface."
+			tool_tip="작은 애니메이션 재정의 인터페이스 표시."
 			image_overlay="DisclosureArrow_Opened_Off"
 			left_pad="4"
 			width="20"
@@ -413,7 +413,7 @@
 
 	<combo_box
 		name="ao_set_selection_combo_small"
-		tool_tip="Select animation set to edit."
+		tool_tip="편집할 애니메이션 세트 선택."
 		left="0"
 		top="0"
 		right="-24"
@@ -423,7 +423,7 @@
 
 	<button
 		name="ao_more"
-		tool_tip="Show full interface for configuration."
+		tool_tip="구성에 대한 전체 인터페이스 표시."
 		image_overlay="Edit_Wrench"
 		left_pad="4"
 		right="-1"
@@ -434,7 +434,7 @@
 	<button
 		name="ao_previous_small"
 		image_overlay="BackArrow_Off"
-		tool_tip="Switch to previous animation of the current state."
+		tool_tip="현재 상태의 이전 애니메이션으로 전환."
 		left="0"
 		top_pad="4"
 		width="62"
@@ -445,7 +445,7 @@
 	<button
 		name="ao_next_small"
 		image_overlay="ForwardArrow_Off"
-		tool_tip="Switch to next animation of the current state."
+		tool_tip="현재 상태의 다음 애니메이션으로 전환."
 		left_pad="4"
 		width="62"
 		height="20"
@@ -455,7 +455,7 @@
 	<check_box
 		name="ao_sit_override_small"
 		label="앉기"
-		tool_tip="Check this if you want sit animation overrides."
+		tool_tip="애니메이션을 재정의하려면 이 옵션을 선택합니다."
 		left_pad="4"
 		width="45"
 		height="16"

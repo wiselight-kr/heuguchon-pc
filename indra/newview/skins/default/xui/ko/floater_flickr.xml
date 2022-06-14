@@ -9,7 +9,7 @@
   save_rect="true"
   single_instance="true"
   reuse_instance="true"
-  title="Share to Flickr"
+  title="Flickr에 공유"
   height="590"
   width="272">
   <panel
@@ -34,13 +34,13 @@
        filename="panel_flickr_photo.xml"
        class="llflickrphotopanel"
        follows="all"
-       label="Photo"
+       label="사진"
        name="panel_flickr_photo"/>
      <panel
        filename="panel_flickr_account.xml"
        class="llflickraccountpanel"
        follows="all"
-       label="Account"
+       label="계정"
        name="panel_flickr_account"/>     
     </tab_container>
     <panel
@@ -60,7 +60,7 @@
       valign="center"
       text_color="DrYellow"
       font="SansSerif">
-      Error
+      오류
      </text>
      <loading_indicator
       follows="left|bottom|right"
@@ -83,7 +83,7 @@
       valign="center"
       text_color="EmphasisColor"
       font="SansSerif">
-      Loading...
+      로딩중...
     </text>
   </panel>
  </panel>

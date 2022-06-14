@@ -45,11 +45,11 @@
         default_image_name="Default"
         follows="left|top"
         height="115"
-        label="Lower Alpha"
+        label="하위 알파"
         layout="topleft"
         left_pad="5"
         name="Lower Alpha"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top="10"
         width="115" >
          <texture_picker.commit_callback
@@ -69,11 +69,11 @@
         default_image_name="Default"
         follows="left|top"
         height="115"
-        label="Upper Alpha"
+        label="상위 알파"
         layout="topleft"
         left_pad="5"
         name="Upper Alpha"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top="10"
         width="115">
          <texture_picker.commit_callback
@@ -93,11 +93,11 @@
         default_image_name="Default"
         follows="left|top"
         height="115"
-        label="Head Alpha"
+        label="머리 알파"
         layout="topleft"
         left_pad="5"
         name="Head Alpha"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top_delta="0"
         width="115" >
          <texture_picker.commit_callback
@@ -117,11 +117,11 @@
         default_image_name="Default"
         follows="left|top"
         height="115"
-        label="Eye Alpha"
+        label="눈 알파"
         layout="topleft"
         left_pad="5"
         name="Eye Alpha"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top_delta="0"
         width="115" >
          <texture_picker.commit_callback
@@ -141,11 +141,11 @@
         default_image_name="Default"
         follows="left|top"
         height="115"
-        label="Hair Alpha"
+        label="머리카락 알파"
         layout="topleft"
         left="30"
         name="Hair Alpha"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top_delta="0"
         width="115" >
          <texture_picker.commit_callback

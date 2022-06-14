@@ -11,7 +11,7 @@
   help_topic="floater_places"
   save_rect="true"
   reuse_instance="true"
-  title="Places"
+  title="장소"
   min_height="200"
   min_width="200"
   width="333">
@@ -21,6 +21,6 @@
       class="panel_places"
       name="main_panel"
       filename="panel_places.xml"
-      label="Places"
+      label="장소"
       font="SansSerifBold"/>
 </floater>

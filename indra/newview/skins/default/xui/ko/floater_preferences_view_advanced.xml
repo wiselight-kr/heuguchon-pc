@@ -4,7 +4,7 @@
  layout="topleft"
  name="floaterpreferencesviewadvanced"
  help_topic="floaterviewadvanced"
- title="Camera Position"
+ title="카메라 위치"
  save_rect="true"
  width="280">
 
@@ -16,7 +16,7 @@
     left="10"
     top="5"
     width="100">
-      Camera offset:
+      카메라 오프셋:
   </text>
 
   <spinner
@@ -70,7 +70,7 @@
     left="10"
     top_pad="10"
     width="100">
-      Focus offset:
+      포커스 오프셋:
   </text>
 
   <spinner
@@ -124,7 +124,7 @@
     left="10"
     top_pad="15"
     width="260">
-      Camera offset scale:
+      카메라 오프셋 척도:
   </text>
 
   <slider
@@ -157,7 +157,7 @@
   <button
    follows="top|left"
    height="23"
-   label="Save as preset..."
+   label="사전 설정으로 저장..."
    layout="topleft"
    left="10"
    name="save_preset_btn"
@@ -170,7 +170,7 @@
   <button
    follows="top|left"
    height="23"
-   label="Close"
+   label="닫기"
    layout="topleft"
    left_pad="10"
    name="close_btn"

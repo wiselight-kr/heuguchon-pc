@@ -7,13 +7,13 @@
  layout="topleft"
  follows="all"
  name="panel_picks"
- label="Picks">
+ label="선택">
  <string
   name="no_picks"
-  value="No Picks" />
+  value="선택 없음" />
  <string
   name="no_classifieds"
-  value="No Classifieds" />
+  value="분류 없음" />
 
     <loading_indicator
      top="20"
@@ -34,7 +34,7 @@
      follows="left|top|right"
      halign="center"
      name="Tell everyone about your favorite places in Second Life.">
-        Tell everyone about your favorite places in [GRID].
+        [GRID]에서 가장 좋아하는 장소에 대해 모두에게 알려 주십시오.
     </text>
 
     <button
@@ -45,7 +45,7 @@
      layout="topleft"
      follows="left|top"
      name="new_btn"
-     label="New..."
+     label="새로운..."
      visible="false"
      enabled="false" />
     <button
@@ -55,7 +55,7 @@
      layout="topleft"
      follows="left|top"
      name="delete_btn"
-     label="Delete..."
+     label="삭제..."
      visible="false"
      enabled="false" />
 <!--
@@ -103,7 +103,7 @@
      follows="left|top|right"
      name="picks_panel_text"
      mouse_opaque="false">
-        Loading...
+        로딩중...
     </text>
 
 </panel>

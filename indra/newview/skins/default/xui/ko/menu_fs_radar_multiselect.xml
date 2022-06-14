@@ -4,7 +4,7 @@
 	name="Multi-Selected People Context Menu">
 	<menu_item_call
 		enabled="false"
-		label="친구추가"
+		label="친구 추가"
 		layout="topleft"
 		name="Add Friends">
 		<on_click
@@ -14,14 +14,14 @@
 			parameter="can_add" />
 	</menu_item_call>
 	<menu_item_call
-		label="Add to Set"
+		label="집합에 추가"
 		layout="topleft"
 		name="Add to Set">
 		<menu_item_call.on_click
 			function="Avatar.AddToContactSet" />
 	</menu_item_call>
 	<menu_item_call
-		label="Remove Friends"
+		label="친구 삭제"
 		layout="topleft"
 		name="Remove Friend">
 		<menu_item_call.on_click
@@ -39,7 +39,7 @@
 	</menu_item_call>
 	<menu_item_call
 		enabled="false"
-		label="Call"
+		label="전화"
 		layout="topleft"
 		name="Call">
 		<on_click
@@ -50,35 +50,35 @@
 	</menu_item_call>
 	<menu name="MarkAvatar" label="Mark...">
 		<menu_item_call
-			label="Red"
+			label="빨강"
 			name="MarkRed">
 			<menu_item_call.on_click
 				function="Nearby.People.SetAvatarMarkColor"
 				parameter="Red"/>
 		</menu_item_call>
 		<menu_item_call
-		label="Green"
+		label="초록"
 		name="MarkGreen">
 			<menu_item_call.on_click
 				function="Nearby.People.SetAvatarMarkColor"
 				parameter="Green"/>
 		</menu_item_call>
 		<menu_item_call
-		label="Blue"
+		label="파랑"
 		name="MarkBlue">
 			<menu_item_call.on_click
 				function="Nearby.People.SetAvatarMarkColor"
 				parameter="Blue"/>
 		</menu_item_call>
 		<menu_item_call
-			label="Purple"
+			label="보라"
 			name="MarkPurple">
 			<menu_item_call.on_click
 				function="Nearby.People.SetAvatarMarkColor"
 				parameter="Purple"/>
 		</menu_item_call>
 		<menu_item_call
-			label="Yellow"
+			label="노랑"
 			name="MarkYellow">
 			<menu_item_call.on_click
 				function="Nearby.People.SetAvatarMarkColor"
@@ -86,14 +86,14 @@
 		</menu_item_call>
 		<menu_item_separator/>
 		<menu_item_call
-			label="Clear Mark(s)"
+			label="표시 지우기"
 			name="Clear Mark">
 			<menu_item_call.on_click
 				function="Nearby.People.ClearAvatarMarkColor"/>
 		</menu_item_call>
 		<menu_item_separator/>
 		<menu_item_call
-			label="Clear all Marks"
+			label="모든 표시 지우기"
 			name="Clear Marks">
 			<menu_item_call.on_click
 				function="Nearby.People.ClearAllAvatarMarkColors"/>
@@ -101,7 +101,7 @@
 	</menu>
 	<menu_item_call
 		enabled="false"
-		label="Share"
+		label="공유"
 		layout="topleft"
 		name="Share">
 		<on_click
@@ -109,7 +109,7 @@
 	</menu_item_call>
 	<menu_item_call
 		enabled="false"
-		label="Pay"
+		label="결제"
 		layout="topleft"
 		name="Pay">
 		<menu_item_call.on_click
@@ -119,7 +119,7 @@
 			parameter="can_pay"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Offer Teleport"
+		label="순간이동 제안"
 		name="teleport">
 		<menu_item_call.on_click
 			function="Avatar.OfferTeleport"/>
@@ -131,7 +131,7 @@
 	<menu_item_separator />
 
 	<menu_item_call
-		label="Freeze"
+		label="얼리기"
 		name="freeze">
 		<menu_item_call.on_click
 			function="Avatar.Freeze"/>
@@ -139,7 +139,7 @@
 			function="Avatar.VisibleFreezeEject"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Parcel Eject"
+		label="구획 탈출"
 		name="eject">
 		<menu_item_call.on_click
 			function="Avatar.Eject"/>
@@ -147,7 +147,7 @@
 			function="Avatar.VisibleFreezeEject"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Estate Kick"
+		label="재산 걷어차기"
 		name="kick">
 		<menu_item_call.on_click
 			function="Avatar.Kick"/>
@@ -155,7 +155,7 @@
 			function="Avatar.VisibleKickTeleportHome"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Estate Teleport Home"
+		label="재산 순간이동 집"
 		name="teleport_home">
 		<menu_item_call.on_click
 			function="Avatar.TeleportHome"/>
@@ -163,7 +163,7 @@
 			function="Avatar.VisibleKickTeleportHome"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Estate Ban"
+		label="재산 금지"
 		name="estate_ban">
 		<menu_item_call.on_click
 			function="Avatar.EstateBan"/>
@@ -171,34 +171,34 @@
 			function="Avatar.VisibleKickTeleportHome"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Derender"
+		label="디렌더"
 		name="derender">
 		<menu_item_call.on_click
 			function="Avatar.Derender"/>
 	</menu_item_call>
 	<menu_item_call
-		label="Derender &amp; Blacklist"
+		label="디렌더 &amp; 블랙리스트"
 		name="derender_permanent">
 		<menu_item_call.on_click
 			function="Avatar.DerenderPermanent"/>
 	</menu_item_call>
-	<menu label="Render Settings" name="render_settings">
+	<menu label="렌더링 설정" name="render_settings">
 		<menu_item_call
-			label="Render Normally"
+			label="일반 렌더링"
 			name="av_render_normal">
 			<menu_item_call.on_click
 				function="Nearby.People.SetRenderMode"
 				parameter="0" />
 		</menu_item_call>
 		<menu_item_call
-			label="Do Not Render"
+			label="렌더링 하지 않음"
 			name="av_render_never">
 			<menu_item_call.on_click
 				function="Nearby.People.SetRenderMode"
 				parameter="1" />
 		</menu_item_call>
 		<menu_item_call
-			label="Render Fully"
+			label="전체 렌더링"
 			name="av_render_always">
 			<menu_item_call.on_click
 				function="Nearby.People.SetRenderMode"

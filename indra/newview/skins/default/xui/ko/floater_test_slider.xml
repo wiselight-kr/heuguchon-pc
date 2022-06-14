@@ -10,7 +10,7 @@
  width="450">
     <slider
      height="20"
-     label="Generic Slider"
+     label="일반 슬라이더"
      layout="topleft"
      left="10"
      name="generic_slider"
@@ -18,7 +18,7 @@
      width="250" />
     <slider
      height="20"
-     label="Callback Slider"
+     label="콜백 슬라이더"
      layout="topleft"
      left_delta="0"
      name="callback_slider"
@@ -32,7 +32,7 @@
      height="20"
      increment="1"
      initial_value="2.0"
-     label="Value Slider"
+     label="값 슬라이더"
      layout="topleft"
      left_delta="0"
      max_val="5"
@@ -42,7 +42,7 @@
      width="250" />
     <slider
      height="20"
-     label="Mini Slider 1"
+     label="미니 슬라이더 1"
      layout="topleft"
      left_delta="0"
      name="mini_slider_1"
@@ -50,7 +50,7 @@
      width="200" />
     <slider
      height="20"
-     label="Mini Slider 2"
+     label="미니 슬라이더 2"
      layout="topleft"
      left_pad="20"
      name="mini_slider_2"
@@ -68,7 +68,7 @@
      height="20"
      increment="1"
      initial_value="2.0"
-     label="Slider Bar"
+     label="슬라이더 바"
      layout="topleft"
      max_val="5"
      min_val="1"
@@ -79,7 +79,7 @@
      bottom="360"
      decimal_digits="1"
      height="20"
-     label="Red Slider"
+     label="빨간 슬라이더"
      label_width="100"
      layout="topleft"
      name="red_slider"
@@ -91,7 +91,7 @@
      decimal_digits="1"
      height="100"
 	 left="20"
-     label="Red Slider Vertical"
+     label="빨간 슬라이더 수직"
      label_width="100"
      layout="topleft"
      name="red_slider_vertical"

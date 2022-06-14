@@ -23,11 +23,11 @@
         default_image_name="Default"
         follows="left|top"
         height="80"
-        label="Head"
+        label="머리"
         layout="topleft"
         left="25"
         name="Head"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top="10"
         width="74" >
          <texture_picker.commit_callback
@@ -39,11 +39,11 @@
         default_image_name="Default"
         follows="left|top"
         height="80"
-        label="Upper body"
+        label="상체"
         layout="topleft"
         left_pad="20"
         name="Upper Body"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top="10"
         width="74" >
          <texture_picker.commit_callback
@@ -55,11 +55,11 @@
         default_image_name="Default"
         follows="left|top"
         height="80"
-        label="Lower body"
+        label="하체"
         layout="topleft"
         left_pad="20"
         name="Lower Body"
-        tool_tip="Click to choose a picture"
+        tool_tip="사진을 선택하려면 클릭하십시오."
         top="10"
         width="74" >
          <texture_picker.commit_callback
@@ -94,7 +94,7 @@
             fit_panel="false"
 			min_height="150"
 			name="skin_color_tab"
-			title="Skin Color">
+			title="피부색">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"
@@ -108,7 +108,7 @@
             fit_panel="false"
 			min_height="150"
 			name="skin_face_tab"
-			title="Face Detail">
+			title="얼굴 세부사항">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"
@@ -122,7 +122,7 @@
             fit_panel="false"
 			min_height="150"
 			name="skin_makeup_tab"
-			title="Makeup">
+			title="화장">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"
@@ -136,7 +136,7 @@
             fit_panel="false"
 			min_height="150"
 			name="skin_body_tab"
-			title="Body Detail">
+			title="신체 세부사항">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"

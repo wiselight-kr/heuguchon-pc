@@ -4,7 +4,7 @@
      left="0" bottom="0" visible="false"
      mouse_opaque="false">
   <menu_item_call
-   label="Unblock"
+   label="차단 해제"
    name="unblock">
       <on_click
        function="Block.Action"
@@ -15,7 +15,7 @@
   </menu_item_call>
 
   <menu_item_check
-   label="Block Voice"
+   label="음성 차단"
    layout="topleft"
    name="BlockVoice">
       <on_check
@@ -33,7 +33,7 @@
   </menu_item_check>
 
   <menu_item_check
-   label="Block Text"
+   label="텍스트 차단"
    layout="topleft"
    name="MuteText">
       <on_check
@@ -51,7 +51,7 @@
   </menu_item_check>
 
   <menu_item_check
-   label="Block Particles"
+   label="입자 차단"
    layout="topleft"
    name="MuteParticles">
       <on_check
@@ -69,7 +69,7 @@
   </menu_item_check>
 
   <menu_item_check
-   label="Block Object Sounds"
+   label="개체 소리 차단"
    layout="topleft"
    name="BlockObjectSounds">
       <on_check
@@ -88,7 +88,7 @@
 
   <menu_item_separator />
   <menu_item_call
-   label="Profile..."
+   label="프로필..."
    name="profile">
       <on_click
        function="Block.Action"

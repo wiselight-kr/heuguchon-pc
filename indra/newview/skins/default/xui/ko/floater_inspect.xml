@@ -9,7 +9,7 @@
  name="inspect"
  help_topic="inspect"
  save_rect="true"
- title="Inspect Objects"
+ title="개체 조사"
  width="610">
     <floater.string
      name="timeStamp">
@@ -20,18 +20,18 @@
         (Group)
     </floater.string>
     <floater.string name="stats_list">
-        Total stats:
+        종합 스탯:
 
-[NUM_OBJECTS] objects, [NUM_PRIMS] prims
+[NUM_OBJECTS] 개체, [NUM_PRIMS] 프림
 
-Faces: [NUM_FACES]
-Visible: [NUM_VISIBLE_FACES]
-Vertices: [NUM_VERTICES]
-Triangles: [NUM_TRIANGLES]
-Complex.: [COMPLEXITY]
+얼굴: [NUM_FACES]
+표시 가능: [NUM_VISIBLE_FACES]
+정점: [NUM_VERTICES]
+삼각형: [NUM_TRIANGLE]
+복합: [COMPLEXITY]
 
-Textures: [NUM_TEXTURES]
-TMem: [TEXTURE_MEMORY] KB
+텍스처: [NUM_TEXURES]
+TMem: [TEXE_MEMORY] KB
 VRAM: [VRAM_USAGE] KB
     </floater.string>
 
@@ -51,7 +51,7 @@ VRAM: [VRAM_USAGE] KB
       v_pad="2"
       read_only="true"
       tab_stop="false"
-      value="(loading...)"
+      value="(로딩중...)"
       word_wrap="true"/>
     <scroll_list
      top="24"
@@ -63,35 +63,35 @@ VRAM: [VRAM_USAGE] KB
      left_pad="5"
      name="object_list"
      right="-6"
-     tool_tip="Select an object from this list to highlight it in-world">
+     tool_tip="이 목록에서 개체를 선택하여 해당 개체를 월드로 강조 표시합니다.">
         <scroll_list.columns
          dynamic_width="true"
-         label="Object Name"
+         label="개체 이름"
          name="object_name" />
         <scroll_list.columns
          dynamic_width="true"
-         label="Description"
+         label="묘사"
          name="description" />
         <scroll_list.columns
          dynamic_width="true"
-         label="Owner Name"
+         label="소유주 이름"
          name="owner_name" />
         <scroll_list.columns
          dynamic_width="true"
-         label="Creator Name"
+         label="창조주 이름"
          name="creator_name" />
         <scroll_list.columns
-         label="Faces"
+         label="얼굴"
          name="facecount"
          width="45"
          sort_column="facecount_sort"/>
         <scroll_list.columns
-         label="Vertices"
+         label="정점"
          name="vertexcount"
          width="55"
          sort_column="vertexcount_sort"/>
         <scroll_list.columns
-         label="Triangles"
+         label="삼각형"
          name="trianglecount"
          width="55"
          sort_column="trianglecount_sort"/>
@@ -106,7 +106,7 @@ VRAM: [VRAM_USAGE] KB
          width="55"
          sort_column="vramcount_sort"/>
         <scroll_list.columns
-         label="Creation Date"
+         label="작성 날짜"
          name="creation_date"
          dynamic_width="true"
          sort_column="creation_date_sort"/>
@@ -142,11 +142,11 @@ VRAM: [VRAM_USAGE] KB
      height="23"
      image_selected="Toolbar_Middle_Selected"
      image_unselected="Toolbar_Middle_Off"
-     label="See Owner Profile..."
+     label="소유자 프로필 참조..."
      layout="topleft"
      left="4"
      name="button owner"
-     tool_tip="See profile of the highlighted object&apos;s owner"
+     tool_tip="강조 표시된 개체&apos;소유자의 프로파일 보기"
      top_pad="4"
      width="150">
         <button.commit_callback
@@ -161,7 +161,7 @@ VRAM: [VRAM_USAGE] KB
      layout="topleft"
      left_pad="2"
      name="button creator"
-     tool_tip="See profile of the highlighted object&apos;s original creator"
+     tool_tip="강조 표시된 개체&apos;원래 작성자의 프로파일 보기"
      top_delta="0"
      width="150">
         <button.commit_callback
@@ -177,7 +177,7 @@ VRAM: [VRAM_USAGE] KB
      layout="topleft"
      left_pad="2"
      name="options_btn"
-     tool_tip="Options"
+     tool_tip="옵션"
      top_delta="0"
      width="31" />
     <icon

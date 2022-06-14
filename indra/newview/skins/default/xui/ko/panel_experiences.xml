@@ -7,17 +7,17 @@
   left="3"
   width="200"
   height="300"
-  label="Experiences"
+  label="경험"
   follows="all">
   <string
     name="loading_experiences"
-    value="Loading experiences..."/>
+    value="경험 로딩중..."/>
   <string
     name="no_experiences"
-    value="No experiences."/>
+    value="경험 없음."/>
   <string
     name="acquire"
-    value="Acquire an Experience" />
+    value="경험 획득" />
   <layout_stack
     layout="topleft"
     top="0"

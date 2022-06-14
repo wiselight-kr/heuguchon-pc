@@ -9,7 +9,7 @@
  height="315"
  width="490"
  name="spellcheck_floater"
- title="Spell Checker Settings">
+ title="철자 검사기 설정">
   <check_box
    bottom_delta="30"
    control_name="SpellCheck"
@@ -17,7 +17,7 @@
    height="16"
    width="100"
    follows="left|top"
-   label="Enable spell checker"
+   label="철자 검사기 활성화"
    name="spellcheck_enable" />
   <view_border
    top_pad="10"
@@ -41,7 +41,7 @@
    type="string"
    width="90"
   >
-    Main dictionary:
+    주 사전:
   </text>
   <combo_box
    enabled_control="SpellCheck"
@@ -57,7 +57,7 @@
    enabled_control="SpellCheck"
    follows="top|left"
    height="10"
-   label="Logs:"
+   label="로그:"
    layout="topleft"
    left="38"
    mouse_opaque="false"
@@ -66,7 +66,7 @@
    type="string"
    width="190"
   >
-    Additional dictionaries:
+    추가 사전:
   </text>
   <text
    follows="top|left"
@@ -78,7 +78,7 @@
    top_pad="10"
    type="string"
    width="175">
-      Available
+      이용가능
   </text>
   <text
    follows="top|left"
@@ -89,7 +89,7 @@
    layout="topleft"
    name="spellcheck_active"
    width="175">
-      Active
+      활성화
   </text>
   <scroll_list
    enabled_control="SpellCheck"
@@ -142,7 +142,7 @@
    enabled="false"
    follows="left|top"
    height="23"
-   label="Remove"
+   label="제거"
    layout="topleft"
    left="55"
    name="spellcheck_remove_btn"
@@ -151,7 +151,7 @@
   <button
    follows="left|top"
    height="23"
-   label="Import..."
+   label="불러오기..."
    layout="topleft"
    left_pad="15"
    name="spellcheck_import_btn"

@@ -4,7 +4,7 @@
      left="0" bottom="0" visible="false"
      mouse_opaque="false">
   <menu_item_check
-   label="Display Group Icons"
+   label="그룹 아이콘 표시"
    layout="topleft"
    name="Display Group Icons">
       <menu_item_check.on_click

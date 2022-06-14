@@ -7,7 +7,7 @@
  layout="topleft"
  follows="all"
  name="panel_notes"
- label="Notes &amp; Privacy">
+ label="주의 사항 &amp; 개인 정보">
 
     <loading_indicator
      top="3"
@@ -28,7 +28,7 @@
      follows="left|top|right"
      name="status_message"
      font.style="BOLD"
-     value="Private notes on this avatar:" />
+     value="이 아바타에 대한 개인 정보:" />
 
     <text_editor
      top_pad="4"
@@ -50,7 +50,7 @@
      name="status_message2"
      top_pad="8"
      font.style="BOLD"
-     value="Allow this avatar to:"
+     value="이 아바타 허용:"
      right="-6"/>
 
     <check_box
@@ -60,7 +60,7 @@
      layout="topleft"
      follows="left|bottom|right"
      name="status_check"
-     label="See when I am online"
+     label="온라인 상태 확인"
      enabled="false" />
 
     <check_box
@@ -70,7 +70,7 @@
      layout="topleft"
      follows="left|bottom|right"
      name="map_check"
-     label="Find me on the world map"
+     label="세계 지도에서 나를 찾아라."
      enabled="false" />
 
     <check_box
@@ -80,6 +80,6 @@
      layout="topleft"
      follows="left|bottom|right"
      name="objects_check"
-     label="Edit, delete or take my objects"
+     label="내 개체 편집, 삭제 또는 가져오기"
      enabled="false" />
 </panel>

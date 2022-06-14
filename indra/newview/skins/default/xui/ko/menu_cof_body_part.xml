@@ -3,14 +3,14 @@
  layout="topleft"
  name="COF Body">
     <menu_item_call
-     label="Replace"
+     label="교체"
      layout="topleft"
      name="replace">
         <on_click
          function="BodyPart.Replace"/>
     </menu_item_call>
     <menu_item_call
-     label="Edit"
+     label="편집"
      layout="topleft"
      name="edit">
         <on_click
@@ -20,7 +20,7 @@
          parameter="edit" />
     </menu_item_call>
     <menu_item_call
-     label="Create New"
+     label="새로 생성"
      layout="topleft"
      name="create_new"
      translate="false">

@@ -8,14 +8,14 @@
  can_resize="false"
  height="250"
  name="BeamColor"
- title="Beam Color rotate"
+ title="빔 색깔 회전"
  width="410"
  save_rect="true">
 	<floater.string name="start_hue">
-		Start Hue
+		색상 시작
 	</floater.string>
 	<floater.string name="end_hue">
-		End Hue
+		색상 종료
 	</floater.string>
     <panel
 	 name="BeamColor_Picker"
@@ -39,10 +39,9 @@
 	 left="15"
 	 bottom_delta="50"
 	 height="40">
-Please use the mouse to select the colors for which
-you wish your beam color to start and stop on.
-Left click changes start position.
-Right click changes end position.
+빔 색상이 시작 및 중지되기를 바란다면 마우스를 사용하여 색상을 선택하십시오
+왼쪽 클릭 시 시작 위치가 변경됩니다.
+오른쪽 클릭으로 종료 위치가 변경됩니다.
 	</text>
 	<color_swatch
 	 border_color="0.45098, 0.517647, 0.607843, 1"
@@ -55,7 +54,7 @@ Right click changes end position.
 	 left="300"
 	 mouse_opaque="true"
 	 name="BeamColor_Preview"
-	 tool_tip="Click to open Color Picker"
+	 tool_tip="색깔 선택기를 열려면 클릭하십시오"
 	 width="100" />
 	<text
 	 font="SansSerifSmall"
@@ -63,7 +62,7 @@ Right click changes end position.
 	 follows="left|top"
 	 left_delta="30"
 	 bottom_delta="0">
-		Preview
+		미리보기
 	</text>
 	<slider
 	 bottom="-50"
@@ -76,21 +75,21 @@ Right click changes end position.
 	 height="18"
 	 increment="1"
 	 initial_value="100"
-	 label="Rotation Speed:"
+	 label="회전 속도:"
 	 label_width="85"
 	 max_val="300"
 	 min_val="0"
 	 mouse_opaque="true"
 	 show_text="true"
 	 width="280"
-	 tool_tip="Controls the speed of the color cycle"/>
+	 tool_tip="색상 주기의 속도를 제어합니다"/>
 	<button
 	 bottom_delta="30"
 	 enabled="true"
 	 follows="left|top"
 	 halign="center"
 	 height="22"
-	 label="Save"
+	 label="저장"
 	 left="70"
 	 mouse_opaque="true"
 	 name="BeamColor_Save"
@@ -102,7 +101,7 @@ Right click changes end position.
 	 follows="left|top"
 	 halign="center"
 	 height="22"
-	 label="Load"
+	 label="로드"
 	 left_delta="90"
 	 mouse_opaque="true"
 	 name="BeamColor_Load"
@@ -114,7 +113,7 @@ Right click changes end position.
 	 follows="left|top"
 	 halign="center"
 	 height="22"
-	 label="Cancel"
+	 label="취소"
 	 left_delta="100"
 	 mouse_opaque="true"
 	 name="BeamColor_Cancel"

@@ -6,12 +6,12 @@
  name="perm prefs"
  help_topic="perm_prefs"
  save_rect="true"
- title="Default Upload Permissions"
+ title="기본 업로드 권한"
  width="315">
     <panel
      follows="left|top|right|bottom"
      height="120"
-     label="Permissions"
+     label="사용 권한"
      layout="topleft"
      left="10"
      name="permissions"
@@ -20,7 +20,7 @@
         <check_box
          control_name="ShareWithGroup"
          height="16"
-         label="Share with group"
+         label="그룹과 공유"
          layout="topleft"
          left="10"
          name="share_with_group"
@@ -29,7 +29,7 @@
         <check_box
          control_name="EveryoneCopy"
          height="16"
-         label="Allow anyone to copy"
+         label="모든 사용자의 복사 허용"
          layout="topleft"
          left_delta="0"
          name="everyone_copy"
@@ -45,12 +45,12 @@
          name="NextOwnerLabel"
          top_pad="5"
          width="200">
-            Next owner can:
+            다음 소유자가 할 수 있습니다:
         </text>
         <check_box
          control_name="NextOwnerModify"
          height="16"
-         label="Modify"
+         label="수정"
          layout="topleft"
          left_delta="0"
          name="next_owner_modify"
@@ -59,7 +59,7 @@
         <check_box
          control_name="NextOwnerCopy"
          height="16"
-         label="Copy"
+         label="복사"
          layout="topleft"
          left_delta="0"
          name="next_owner_copy"
@@ -74,7 +74,7 @@
          enabled="false"
          height="16"
          initial_value="true"
-         label="Resell/Give away"
+         label="재판매/증여"
          layout="topleft"
          left_delta="0"
          name="next_owner_transfer"
@@ -95,7 +95,7 @@
 	</button>
     <button
      height="20"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_pad="5"

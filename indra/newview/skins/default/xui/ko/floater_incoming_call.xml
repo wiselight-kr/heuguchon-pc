@@ -16,32 +16,32 @@
     </floater.string>
     <floater.string
      name="localchat">
-        Nearby Voice Chat
+        근처 음성 채팅
     </floater.string>
     <floater.string
      name="anonymous">
-        anonymous
+        익명
     </floater.string>
     <floater.string
      name="VoiceInviteP2P">
-        is calling you.
+        전화 수신중.
     </floater.string>
     <floater.string
      name="VoiceInviteAdHoc">
-        has joined a Voice Chat call with a conference chat.
+        전화 회의 대화로 음성 채팅 통화에 참여했습니다.
     </floater.string>
     <floater.string
      name="VoiceInviteGroup">
-      just joined '[GROUP]' voice channel.
+      방금 '[GROUP]' 음성 채널에 가입했습니다.
     </floater.string>
     <floater.string
      name="VoiceInviteQuestionGroup">
-      Would you like to leave [CURRENT_CHAT] and join the call with '[GROUP]'?
-    </floater.string>
+      [CURRENT_CHAT]을(를) 종료하고 '[GROUP]'을(를) 사용하여 통화에 참여하시겠습니까?
+          </floater.string>
     <floater.string
      name="VoiceInviteQuestionDefault">
-      Do you want to leave [CURRENT_CHAT] and join this voice chat?
-    </floater.string>
+      [CURRENT_CHAT]을(를) 종료하고 이 음성 채팅에 참여하시겠습니까?
+          </floater.string>
     <avatar_icon
      enabled="false"
      follows="left|top"
@@ -71,7 +71,7 @@
      word_wrap="true" />
      <button
      height="24"
-     label="Answer"
+     label="정답"
      label_selected="Answer"
      layout="topleft"
      left="70"
@@ -80,7 +80,7 @@
      width="120" />
     <button
      height="24"
-     label="Ignore"
+     label="무시"
      label_selected="Ignore"
      layout="topleft"
      name="Reject"
@@ -88,7 +88,7 @@
      width="120" />
     <button
      height="24"
-     label="Open IM instead"
+     label="대신 IM 열기"
      layout="topleft"
      name="Start IM"
      left_pad="10"
@@ -104,6 +104,6 @@
      use_ellipses="true"
      width="475"
      word_wrap="true">
-     If you answer, you will be disconnected from your current voice conversation.
+     응답하면 현재 음성 대화에서 연결이 끊어집니다.
     </text>
 </floater>

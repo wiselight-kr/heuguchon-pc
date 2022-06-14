@@ -15,7 +15,7 @@
      image_hover_unselected="Toolbar_Middle_Over"
      image_selected="Toolbar_Middle_Selected"
      image_unselected="Toolbar_Middle_Off"
-     label="Switch"
+     label="스위치"
      layout="topleft"
      left="5"
      name="switch_btn"

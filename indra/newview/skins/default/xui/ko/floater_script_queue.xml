@@ -7,60 +7,60 @@
  name="queue"
  help_topic="script_queue"
  save_rect="true"
- title="Reset Progress"
+ title="진행률 재설정"
  width="300">
     <floater.string
      name="Starting">
-        Starting [START] of [COUNT] items.
+        [COUNT] 항목의 [START] 시작.
     </floater.string>
     <floater.string
      name="Done">
-        Done.
+        완료.
     </floater.string>
     <floater.string
      name="Resetting">
-        Resetting
+        재설정중
     </floater.string>
     <floater.string
      name="Running">
-        Running
+        실행중
     </floater.string>
     <floater.string
      name="NotRunning">
-        Not running
+        실행 중 아님
     </floater.string>
     <floater.string
      name="Timeout">
-        Timeout: [OBJECT_NAME]
+        시간초과: [OBJECT_NAME]
     </floater.string>
     <floater.string
      name="LoadingObjInv">
-        Loading inventory for: [OBJECT_NAME]
+        다음에 대한 재고 로드 중: [OBJECT_NAME]
     </floater.string>
     <floater.string
         name="Deleting">
-      Deleting
+      삭제중
     </floater.string>
     <floater.string
         name="SkippingPermissions">
-      Skipping: [OBJECT_NAME] (Permissions)
+      건너뛰는 중: [OBJECT_NAME] (사용권한)
     </floater.string>
     <floater.string
         name="Compiling">
-      Compiling "[OBJECT_NAME]"...
+       "[OBJECT_NAME]" 컴파일 중...
     </floater.string>
     <floater.string
         name="CompileSuccess">
-      Compilation of "[OBJECT_NAME]" succeeded
-    </floater.string>
+      "[OBJECT_NAME]"을(를) 컴파일했습니다.
+          </floater.string>
     <floater.string
         name="CompileFailure">
-      Compilation of "[OBJECT_NAME]" failed:
+      "[OBJECT_NAME]"을(를) 컴파일하지 못했습니다:
     </floater.string>
     <button
      follows="right|bottom"
      height="24"
-     label="Close"
+     label="닫기"
      label_selected="Close"
      layout="topleft"
      left="220"

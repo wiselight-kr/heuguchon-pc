@@ -35,11 +35,11 @@
        default_image_name="Default"
        follows="left|top"
        height="115"
-       label="Head Tattoo"
+       label="머리 문신"
        layout="topleft"
        left="20"
        name="Head Tattoo"
-       tool_tip="Click to choose a picture"
+       tool_tip="사진을 선택하려면 클릭하십시오."
        top="10"
        width="115" >
         <texture_picker.commit_callback
@@ -50,11 +50,11 @@
        default_image_name="Default"
        follows="left|top"
        height="115"
-       label="Upper Tattoo"
+       label="상체 문신"
        layout="topleft"
        left_pad="30"
        name="Upper Tattoo"
-       tool_tip="Click to choose a picture"
+       tool_tip="사진을 선택하려면 클릭하십시오."
        top="10"
        width="115" >
         <texture_picker.commit_callback
@@ -65,11 +65,11 @@
        default_image_name="Default"
        follows="left|top"
        height="115"
-       label="Lower Tattoo"
+       label="하체 문신"
        layout="topleft"
        left="20"
        name="Lower Tattoo"
-       tool_tip="Click to choose a picture"
+       tool_tip="사진을 선택하려면 클릭하십시오."
        top_pad="10"
        width="115" >
         <texture_picker.commit_callback
@@ -81,11 +81,11 @@
        can_apply_immediately="true"
        follows="left|top"
        height="115"
-       label="Color/Tint"
+       label="색상/색조"
        layout="topleft"
        left_pad="30"
        name="Color/Tint"
-       tool_tip="Click to open color picker"
+       tool_tip="클릭하여 색상 선택기를 엽니다."
        top_delta="0"
        width="115" >
         <color_swatch.commit_callback

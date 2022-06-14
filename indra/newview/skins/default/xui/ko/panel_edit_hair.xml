@@ -22,11 +22,11 @@
              default_image_name="Default"
              follows="left|top"
              height="80"
-             label="Texture"
+             label="텍스쳐"
              layout="topleft"
              left="10"
              name="Texture"
-             tool_tip="Click to choose a picture"
+             tool_tip="사진을 선택하려면 클릭하십시오."
              top="10"
              width="64" >
               <texture_picker.commit_callback
@@ -61,7 +61,7 @@
             fit_panel="false"
 			min_height="150"
 			name="hair_color_tab"
-			title="Color">
+			title="색상">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"
@@ -75,7 +75,7 @@
             fit_panel="false"
 			min_height="150"
 			name="hair_style_tab"
-			title="Style">
+			title="스타일">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"
@@ -89,7 +89,7 @@
             fit_panel="false"
 			min_height="150"
 			name="hair_eyebrows_tab"
-			title="Eyebrows">
+			title="눈썹">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"
@@ -103,7 +103,7 @@
             fit_panel="false"
 			min_height="150"
 			name="hair_facial_tab"
-			title="Facial">
+			title="얼굴">
 			<scrolling_panel_list
 				follows="all"
                 layout="topleft"

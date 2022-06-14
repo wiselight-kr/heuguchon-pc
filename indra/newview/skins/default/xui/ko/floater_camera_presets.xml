@@ -4,7 +4,7 @@
  can_resize="true"
  height="200"
  min_height="150"
- title="Camera Presets"
+ title="카메라 사전설정"
  layout="topleft"
  name="floater_camera_presets"
  positioning="centered"

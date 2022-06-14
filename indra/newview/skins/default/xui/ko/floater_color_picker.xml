@@ -6,7 +6,7 @@
  layout="topleft"
  name="ColorPicker"
  help_topic="colorpicker"
- title="Color Picker"
+ title="색깔 선택기"
  width="440">
 <tab_container
  name="scale_type_container"
@@ -34,7 +34,7 @@
      name="r_val_text"
      top="3"
      width="60">
-        Red:
+        빨간색:
     </text>
     <spinner
      decimal_digits="0"
@@ -58,7 +58,7 @@
      mouse_opaque="false"
      name="g_val_text"
      width="60">
-        Green:
+        초록색:
     </text>
     <spinner
      decimal_digits="0"
@@ -82,7 +82,7 @@
      mouse_opaque="false"
      name="b_val_text"
      width="60">
-        Blue:
+        파란색:
     </text>
     <spinner
      decimal_digits="0"
@@ -113,7 +113,7 @@
      name="r_val_text_lsl"
      top="3"
      width="60">
-        Red:
+        빨간색:
     </text>
     <spinner
      decimal_digits="3"
@@ -137,7 +137,7 @@
      mouse_opaque="false"
      name="g_val_text_lsl"
      width="60">
-        Green:
+        초록색:
     </text>
     <spinner
      decimal_digits="3"
@@ -161,7 +161,7 @@
      mouse_opaque="false"
      name="b_val_text_lsl"
      width="60">
-        Blue:
+        파란색:
     </text>
     <spinner
      decimal_digits="3"
@@ -178,7 +178,7 @@
 </panel>
 <panel
  name="Hex"
- label="Hex"
+ label="16진수"
  follows="left|top"
  layout="topleft">
     <text
@@ -191,7 +191,7 @@
      top="16"
      name="hex_text"
      width="120">
-    Hex Code (#rrggbb):
+    16진수 코드 (#rrggbb):
     </text>
     <text
      type="string"
@@ -230,7 +230,7 @@
      mouse_opaque="false"
      name="h_val_text"
      width="413">
-        Hue:
+        색깔:
     </text>
     <spinner
      decimal_digits="0"
@@ -295,7 +295,7 @@
     <check_box
      follows="left|bottom"
      height="20"
-     label="Apply now"
+     label="지금 적용하기"
      layout="topleft"
      left="10"
      name="apply_immediate"
@@ -314,7 +314,7 @@
      follows="right|bottom"
      height="23"
      label="Copy LSL"
-     tool_tip="Copies the color value into an LSL color vector in the format of &lt;r, g, b&gt;."
+     tool_tip="색상 값을 &lt;r, g, b&gt; 형식으로 LSL 색상 벡터에 복사합니다."
      layout="topleft"
      right="-190"
      top_delta="9"
@@ -333,7 +333,7 @@
     <button
      follows="right|bottom"
      height="23"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_pad="5"
@@ -350,7 +350,7 @@
      name="Current color:"
      top="254"
      width="110">
-        ^ Current color ^
+        ^ 현재 색깔 ^
     </text>
     <text
      type="string"
@@ -363,6 +363,6 @@
      top_pad="0"
      width="130"
      wrap="true">
-        (Drag below to save)
+        (저장하려면 아래로 끌어 이동)
     </text>
 </floater>

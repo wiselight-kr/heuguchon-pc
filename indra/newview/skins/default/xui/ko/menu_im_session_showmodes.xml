@@ -4,7 +4,7 @@
  left="0" bottom="0" visible="false"
  mouse_opaque="false">
     <menu_item_check
-       label="Compact view"
+       label="컴팩트한 보기"
        name="compact_view">
       <menu_item_check.on_click
          function="IMSession.Menu.Action"
@@ -14,7 +14,7 @@
          parameter="compact_view"/>
     </menu_item_check>
     <menu_item_check
-       label="Expanded view"
+       label="확장된 보기"
        name="expanded_view">
       <menu_item_check.on_click
          function="IMSession.Menu.Action"
@@ -24,7 +24,7 @@
          parameter="expanded_view"/>
     </menu_item_check>
     <menu_item_separator layout="topleft" />
-    <menu_item_check name="IMShowTime" label="Show time">
+    <menu_item_check name="IMShowTime" label="상영시간">
         <menu_item_check.on_click
          function="IMSession.Menu.Action"
          parameter="IMShowTime" />
@@ -35,7 +35,7 @@
          function="IMSession.Menu.ShowModes.Enable"
          parameter="IMShowTime" />
     </menu_item_check>
-    <menu_item_check name="IMShowNamesForP2PConv" label="Show names in one-to-one conversations">
+    <menu_item_check name="IMShowNamesForP2PConv" label="일대일 대화에서 이름 표시">
         <menu_item_check.on_click
          function="IMSession.Menu.Action"
          parameter="IMShowNamesForP2PConv" />

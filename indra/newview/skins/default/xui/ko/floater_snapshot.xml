@@ -12,7 +12,7 @@
  help_topic="snapshot"
  save_rect="true"
  save_visibility="false"
- title="Snapshot"
+ title="스냅샷"
  width="624"
  min_height="455">
     <floater.string
@@ -89,7 +89,7 @@
 	 halign="left"
      layout="topleft"
      left="10"
-	 label="Refresh"
+	 label="새로고침"
      name="new_snapshot_btn"
      top_pad="0"
      width="167" />
@@ -156,27 +156,27 @@
         <combo_box
          follows="left|top|right"
          height="23"
-         label="Image Layers"
+         label="이미지 층"
          layout="topleft"
          left="30"
          name="layer_types"
          top_pad="1"
          right="-2">
             <combo_box.item
-             label="Colors"
+             label="색상"
              name="Colors"
              value="colors" />
             <combo_box.item
-             label="Depth"
+             label="깊이"
              name="Depth"
              value="depth" />
             <combo_box.item
-             label="Depth (24 bit)"
+             label="깊이 (24 bit)"
              name="Depth24"
              value="depth24" />
         </combo_box>
         <check_box
-         label="Interface"
+         label="인터페이스"
          layout="topleft"
          left="30"
 		 height="16"
@@ -186,7 +186,7 @@
         <check_box
          enabled_control="RenderUIInSnapshot"
          control_name="FSShowCurrencyBalanceInSnapshots"
-         label="L$ Balance"
+         label="L$ 잔고"
          layout="topleft"
          left="30"
          top_pad="7"
@@ -201,7 +201,7 @@
          width="180"
          name="hud_check" />
         <check_box
-         label="Freeze frame (fullscreen)"
+         label="프레임 얼리기 (전체화면)"
          layout="topleft"
 		 height="16"
          left="10"
@@ -209,7 +209,7 @@
          width="180"
          name="freeze_frame_check" />
         <check_box
-         label="Auto-refresh"
+         label="자동 새로고침"
          layout="topleft"
 		 height="16"
          left="10"
@@ -238,7 +238,7 @@
             height="21"
             width="135">
             <combo_box.item
-            label="No Filter"
+            label="필터 없음"
             name="NoFilter"
             value="NoFilter" />
         </combo_box>

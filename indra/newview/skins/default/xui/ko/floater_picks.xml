@@ -11,7 +11,7 @@
  save_rect="true"
  save_visibility="true"
  reuse_instance="true"
- title="Picks"
+ title="선택"
  width="333" >
    <panel
     class="panel_me"

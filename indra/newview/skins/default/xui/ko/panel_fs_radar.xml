@@ -12,10 +12,10 @@
 	<string name="TypingColumnIcon" value="radarbox_t"/>
 	<string
 	 name="MiniMapToolTipMsg"
-	 value="[REGION] (Double-click to open Map, shift-drag to pan)"/>
+	 value="[REGION] (두 번 클릭하여 지도를 열고 이동-끌어 이동)"/>
 	<string
 	 name="AltMiniMapToolTipMsg"
-	 value="[REGION] (Double-click to teleport, shift-drag to pan)"/>
+	 value="[REGION] (두 번 클릭하여 순간이동, 이동-끌어서 이동)"/>
 	<string
 	 name="avatar_name_count"
 	 value="Name [[TOTAL]/[IN_REGION]/[IN_CHAT_RANGE]]"/>
@@ -43,7 +43,7 @@
 			 height="23"
 			 layout="topleft"
 			 left="3"
-			 label="tkfkaemf vlfxj"
+			 label="사람들 필터"
 			 max_length_chars="300"
 			 name="nearby_filter_input"
 			 top="1"
@@ -59,7 +59,7 @@
 			 layout="topleft"
 			 left_pad="7"
 			 name="gear_btn"
-			 tool_tip="Actions on selected person"
+			 tool_tip="선택한 사용자에 대한 작업"
 			 top="0"
 			 width="31" />
 			<menu_button
@@ -72,7 +72,7 @@
 			 layout="topleft"
 			 left_pad="2"
 			 name="options_btn"
-			 tool_tip="Radar options"
+			 tool_tip="레이더 옵션"
 			 top_delta="0"
 			 width="31" />
 			<button
@@ -85,7 +85,7 @@
 			 layout="topleft"
 			 left_pad="2"
 			 name="add_friend_btn"
-			 tool_tip="Offer friendship to a resident"
+			 tool_tip="레지던트에게 우정을 바치다"
 			 top_delta="0"
 			 width="31">
 				<commit_callback
@@ -179,40 +179,40 @@
 							<radar_list.columns
 							 label="이름"
 							 name="name"
-							 tool_tip="[TOTAL] avatars, [IN_REGION] in the same region, [IN_CHAT_RANGE] in chat range"
+							 tool_tip="[TOTAL] 아바타, [IN_REGION] 같은 지역, [IN_CHAT_RANGE] 채팅 거리"
 							 dynamic_width="true"/>
 							<radar_list.columns
 							 label=""
 							 name="voice_level"
-							 tool_tip="Is talking on voice"
+							 tool_tip="음성으로 말하고 있음"
 							 width="20"/>
 							<radar_list.columns
 							 label=""
 							 name="in_region"
-							 tool_tip="Is in the same region (green) or on the same parcel (green/yellow)"
+							 tool_tip="동일한 영역(녹색) 또는 동일한 구획(녹색/노란색)에 있습니까"
 							 width="15"/>
 							<radar_list.columns
 							 label=""
 							 name="typing_status"
-							 tool_tip="Is typing"
+							 tool_tip="타이핑 중"
 							 width="15"/>
 							<radar_list.columns
 							 label=""
 							 name="sitting_status"
-							 tool_tip="Is sitting"
+							 tool_tip="앉는 중"
 							 width="15"/>
 							<radar_list.columns
 							 label=""
 							 name="flags"
-							 tool_tip="Payment info status"
+							 tool_tip="지급정보현황"
 							 width="15"/>
 							<radar_list.columns
 							 label=""
 							 name="has_notes"
-							 tool_tip="Avatar has notes"
+							 tool_tip="아바타는 주의사항이 있습니다"
 							 width="15"/>
 							<radar_list.columns
-							 label="Age"
+							 label="나이"
 							 name="age"
 							 width="50"/>
 							<radar_list.columns
@@ -253,7 +253,7 @@
 				 name="nearby_dummy_icon"
 				 width="318"/>
 				<icon
-				 top="0"
+				 top="0" 
 				 follows="top|right"
 				 height="25"
 				 image_name="Toolbar_Right_Off"

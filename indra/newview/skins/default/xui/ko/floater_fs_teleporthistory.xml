@@ -9,7 +9,7 @@
  help_topic="floater_tphistory"
  save_rect="true"
  reuse_instance="true"
- title="Teleport History"
+ title="순간이동 기록"
  min_height="200"
  min_width="318"
  width="318">
@@ -19,7 +19,7 @@
 	 height="23"
 	 layout="topleft"
 	 left="6"
-	 label="Filter Teleport History"
+	 label="순간이동 기록 필터"
 	 max_length_chars="300"
 	 name="Filter"
 	 top="23"
@@ -27,7 +27,7 @@
 
 	<menu_button
 	 follows="top|right"
-	 tool_tip="Show options"
+	 tool_tip="옵션 표시"
 	 height="23"
 	 image_hover_unselected="Toolbar_Middle_Over"
 	 image_overlay="OptionsMenu_Off"
@@ -41,7 +41,7 @@
 	 width="31" />
 	<menu_button
 	 follows="top|right"
-	 tool_tip="Show sorting options"
+	 tool_tip="정렬 옵션 표시"
 	 height="23"
 	 image_hover_unselected="Toolbar_Middle_Over"
 	 image_overlay="Conv_toolbar_sort"
@@ -114,11 +114,11 @@
 						<button
 						 follows="bottom|left|right"
 						 height="23"
-						 label="Teleport"
+						 label="순간이동"
 						 layout="topleft"
 						 left="1"
 						 name="teleport_btn"
-						 tool_tip="Teleport to the selected area"
+						 tool_tip="선택된 영역으로 순간이동"
 						 top="0"
 						 width="108" />
 					</layout_panel>
@@ -135,11 +135,11 @@
 						<button
 						 follows="bottom|left|right"
 						 height="23"
-						 label="Map"
+						 label="지도"
 						 layout="topleft"
 						 left="1"
 						 name="map_btn"
-						 tool_tip="Show the corresponding area on the World Map"
+						 tool_tip="세계 지도에 해당 지역 표시"
 						 top="0"
 						 width="82"/>
 					</layout_panel>
@@ -156,11 +156,11 @@
 						<button
 						 follows="bottom|left|right"
 						 height="23"
-						 label="Show Profile"
+						 label="프로필 표시"
 						 layout="topleft"
 						 left="1"
 						 name="profile_btn"
-						 tool_tip="Show the profile of this location"
+						 tool_tip="이 위치의 프로필 표시"
 						 top="0"
 						 width="82" />
 					</layout_panel>

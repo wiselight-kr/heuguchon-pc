@@ -4,7 +4,7 @@
      left="0" bottom="0" visible="false"
      mouse_opaque="false">
   <menu_item_check
-   label="Sort by name"
+   label="이름으로 정렬"
    name="sort_by_name">
       <on_click
        function="Block.Action"
@@ -14,7 +14,7 @@
        parameter="sort_by_name"/>
   </menu_item_check>
   <menu_item_check
-   label="Sort by name (descending)"
+   label="이름으로 정렬 (내림차순)"
    name="sort_by_name_desc">
       <on_click
        function="Block.Action"
@@ -24,7 +24,7 @@
        parameter="sort_by_name_desc"/>
   </menu_item_check>
   <menu_item_check
-   label="Sort by type"
+   label="유형으로 정렬"
    name="sort_by_type">
       <on_click
        function="Block.Action"
@@ -34,7 +34,7 @@
        parameter="sort_by_type" />
   </menu_item_check>
   <menu_item_check
-   label="Sort by type (descending)"
+   label="유형으로 정렬 (내림차순)"
    name="sort_by_type_desc">
       <on_click
        function="Block.Action"

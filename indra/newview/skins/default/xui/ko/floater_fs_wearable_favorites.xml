@@ -13,14 +13,14 @@
  save_visibility="true"
  single_instance="true"
  reuse_instance="true"
- title="Favorite Wearables"
+ title="즐겨찾는 의상"
  width="310">
 
 	<floater.string name="empty_list">
-		Drag wearable items here to add to list.
+		목록에 추가할 웨어러블 아이템을 여기로 끌어다 놓기.
 	</floater.string>
 	<floater.string name="search_no_items">
-		No matching items found.
+		일치하는 항목을 찾을 수 없습니다.
 	</floater.string>
 
 	<panel
@@ -36,7 +36,7 @@
 		 height="23"
 		 layout="topleft"
 		 left="3"
-		 label="Filter Wearables"
+		 label="의상 필터"
 		 max_length_chars="300"
 		 name="wearable_filter_input"
 		 top="1"
@@ -51,7 +51,7 @@
 		 layout="topleft"
 		 left_pad="2"
 		 name="options_btn"
-		 tool_tip="Wearable favorites options"
+		 tool_tip="의상 즐겨찾기 옵션"
 		 top_delta="0"
 		 width="31" />
 		<button
@@ -64,7 +64,7 @@
 		 left_pad="2"
 		 layout="topleft"
 		 name="remove_btn"
-		 tool_tip="Remove wearable from favorites list"
+		 tool_tip="즐겨찾기 목록에서 의상 제거"
 		 top_delta="0"
 		 width="31"/>
 	</panel>
