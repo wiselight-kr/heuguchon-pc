@@ -19,7 +19,7 @@
    follows="left|top|right"
    height="23"
    name="voice_effect"
-   tool_tip="Select a Voice Morph to change your voice"
+   tool_tip="음성을 변경하려면 음성 형태 선택"
    top_pad="0"
    width="200">
     <combo_box.item

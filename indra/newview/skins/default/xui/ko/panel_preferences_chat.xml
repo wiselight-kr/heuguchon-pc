@@ -11,7 +11,7 @@
  name="chat">
 
 <tab_container
- label="파이어스톰 pref"
+ label="Firestorm 환경설정"
  layout="topleft"
  follows="all"
  top="5"
@@ -143,7 +143,7 @@
              control_name="FSllOwnerSayToScriptDebugWindow"
              enabled="false"
              height="16"
-             label="Route lllOwnerSay to script 디버그 창"
+             label="스크립트로의 경로 lllOwnerSay 디버그 창"
              layout="topleft"
              name="FSllOwnerSayToScriptDebugWindow_checkbox"
              top_pad="1"

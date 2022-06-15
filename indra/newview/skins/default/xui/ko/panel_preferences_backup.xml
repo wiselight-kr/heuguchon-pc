@@ -18,7 +18,7 @@
      left="30"
      width="80"
      height="20">
-Backup Path:
+백업 경로:
     </text>
 
     <line_editor
@@ -35,7 +35,7 @@ Backup Path:
      left_pad="10"
      follows="right|top"
      height="20"
-     label="Set"
+     label="설정"
      name="set_backup_settings_path"
      width="80" >
         <button.commit_callback
@@ -291,17 +291,17 @@ Backup Path:
         <row name="restore_folders_row_beams">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
             <column name="restore_global_folders_label">선정 빔</column>
-            <column name="value">beams</column>
+            <column name="value">빔</column>
         </row>
         <row name="restore_folders_row_beamcolors">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
             <column name="restore_global_folders_label">선정 빔 색깔</column>
-            <column name="value">beamsColors</column>
+            <column name="value">빔 색깔</column>
         </row>
         <row name="restore_folders_row_spellcheck">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
             <column name="restore_global_folders_label">사용자 지정 맞춤법 검사</column>
-            <column name="value">dictionaries</column>
+            <column name="value">사전</column>
         </row>
         <!-- We must have this entry before the other windlight entries to have the
              windlight/ base folder created. Since we can't hide rows make it so the
@@ -309,27 +309,27 @@ Backup Path:
         <row enabled="false" name="restore_folders_row_windlight">
             <column type="checkbox" name="restore_global_folders_check" value="true" enabled="false" />
             <column name="restore_global_folders_label">윈드라이트 (의무)</column>
-            <column name="value">windlight</column>
+            <column name="value">윈드라이트</column>
         </row>
         <row name="restore_folders_row_daycycles">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
             <column name="restore_global_folders_label">윈드라이트 주간 주기 </column>
-            <column name="value">windlight/days</column>
+            <column name="value">윈드라이트/주간</column>
         </row>
         <row name="restore_folders_row_skies">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
             <column name="restore_global_folders_label">윈드라이트 스키</column>
-            <column name="value">windlight/skies</column>
+            <column name="value">윈드라이트/스키</column>
         </row>
         <row name="restore_folders_row_waters">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
             <column name="restore_global_folders_label">윈드라이트 물</column>
-            <column name="value">windlight/water</column>
+            <column name="value">윈드라이트/물</column>
         </row>
         <row name="restore_folders_row_presets" value="presets">
             <column type="checkbox" name="restore_global_folders_check" value="true" />
             <column name="restore_global_folders_label">사전설정</column>
-            <column name="value">presets</column>
+            <column name="value">사전설정</column>
         </row>
     </scroll_list>
 

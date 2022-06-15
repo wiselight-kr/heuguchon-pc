@@ -12,7 +12,7 @@
      <panel
       follows="left|top|right"
       height="27"
-      label="bottom_panel"
+      label="하부_패널"
       layout="topleft"
       left="0"
       name="contact_sets_buttons_panel"
@@ -38,7 +38,7 @@
           menu_filename="menu_people_contact_sets_gear.xml"
           menu_position="bottomleft"
           name="contact_sets_gear_btn"
-          tool_tip="Actions on selected person or group"
+          tool_tip="선택한 개인 또는 단체에 행동."
           top="3"
           width="31" />
          <menu_button
@@ -53,7 +53,7 @@
           menu_filename="menu_people_contact_sets_add.xml"
           menu_position="bottomleft"
           name="contact_sets_plus_btn"
-          tool_tip="Add a group or resident"
+          tool_tip="그룹 또는 거주자 추가"
           top_delta="0"
           width="31"/>
          <menu_button
@@ -68,7 +68,7 @@
           menu_filename="menu_people_contact_sets_remove.xml"
           menu_position="bottomleft"
           name="contact_sets_remove_btn"
-          tool_tip="Remove a group or resident"
+          tool_tip="그룹 또는 상주 제거"
           top_delta="0"
           width="31"/>
      </panel>

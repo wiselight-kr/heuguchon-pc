@@ -31,7 +31,7 @@
      name="parcel_info_text"
      top="4"
      type="string"
-     value="(loading...)"
+     value="(로딩중...)"
      width="250"/>
   <icon
     enabled="true"

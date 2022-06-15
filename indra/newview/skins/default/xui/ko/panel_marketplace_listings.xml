@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <panel
-  label="Marketplace"
+  label="마켓플레이스"
   name="Marketplace Panel"
   follows="all"
   layout="topleft"
@@ -16,7 +16,7 @@
     left="0">
     <menu_button
       name="sort_btn"
-      tool_tip="View/sort options"
+      tool_tip="옵션 보기/정렬"
       layout="topleft"
       follows="top|left"
       width="31"
@@ -30,7 +30,7 @@
       menu_position="bottomleft"/>
     <button
       name="add_btn"
-      tool_tip="Create a new listing folder"
+      tool_tip="새 목록 폴더 만들기"
       layout="topleft"
       follows="top|left"
       width="31"
@@ -42,8 +42,8 @@
       image_unselected="Toolbar_Middle_Off"/>
     <button
       name="audit_btn"
-      label="Check for Errors"
-      tool_tip="Check your marketplace listings"
+      label="오류 검사"
+      tool_tip="시장 목록 확인"
       layout="topleft"
       follows="top|right"
       width="97"
@@ -61,7 +61,7 @@
     text_pad_left="10"
     follows="left|top|right"
     height="23"
-    label="Filter Marketplace Listings"
+    label="시장 목록 필터링"
     layout="topleft"
     left="0"
     max_length_chars="300"
@@ -112,7 +112,7 @@
           font="SansSerifMedium"
           font_shadow="hard"
           valign="top">
-          Drop folders here to create new listings
+          새 목록을 만들려면 여기에 폴더 놓기
       </text>
   </panel>
 </panel>

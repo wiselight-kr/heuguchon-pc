@@ -16,7 +16,7 @@
      name="to_label"
      top="10"
      width="60">
-        To:
+        ~에게:
     </text>
     <line_editor
      control_name="LastPostcardRecipient"
@@ -38,7 +38,7 @@
      left="5"
      name="name_label"
      width="60">
-        From:
+        ~로 부터:
     </text>
     <line_editor
      follows="left|top|right"
@@ -60,7 +60,7 @@
      left="5"
      name="subject_label"
      width="60">
-        Subject:
+        주제:
     </text>
     <line_editor
      follows="left|top|right"
@@ -84,6 +84,6 @@
      right="-4"
      top_pad="5"
      word_wrap="true">
-        Type your message here.
+        여기에 메시지를 입력하십시오.
     </text_editor>
 </panel>

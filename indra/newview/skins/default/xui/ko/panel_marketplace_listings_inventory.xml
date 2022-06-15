@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <inventory_panel
-    label="All"
+    label="모두"
     name="All Items"
     help_topic="marketplace_tab"
     layout="topleft"
@@ -14,7 +14,7 @@
     show_root_folder="false"
     use_marketplace_folders="true"
     start_folder.type="merchant"
-    tool_tip="Drag and drop items here to list them"
+    tool_tip="항목을 여기에 끌어다 놓으면 나열됩니다."
     bg_opaque_color="DkGray2"
     bg_alpha_color="DkGray2"
     background_visible="true"

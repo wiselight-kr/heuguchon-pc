@@ -129,7 +129,7 @@
      right="-3"
      name="profile_btn"
      tab_stop="false"
-     tool_tip="Show item info"
+     tool_tip="아이템 정보 표시"
      top="1"
      visible="false"
      width="20" />

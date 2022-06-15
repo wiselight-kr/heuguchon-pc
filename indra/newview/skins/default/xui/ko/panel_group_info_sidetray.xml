@@ -3,7 +3,7 @@
 background_visible="false"
  follows="all"
  height="570"
- label="Group Profile"
+ label="그룹 프로필"
  layout="topleft"
  min_height="350"
  left="0"
@@ -12,19 +12,19 @@ background_visible="false"
  width="333">
     <panel.string
      name="default_needs_apply_text">
-        There are unsaved changes
+        저장되지 않은 변경 사항이 있습니다.
     </panel.string>
     <panel.string
      name="want_apply_text">
-        Do you want to save these changes?
+        변경 사항을 저장하시겠습니까?
     </panel.string>
     <panel.string
      name="group_join_btn">
-        Join (L$[AMOUNT])
+        가입 (L$[AMOUNT])
     </panel.string>
     <panel.string
      name="group_join_free">
-        Free
+        자유
     </panel.string>
 
 	<layout_stack
@@ -75,7 +75,7 @@ background_visible="false"
      layout="topleft"
      name="group_name"
      v_pad="0"
-     value="(Loading...)"
+     value="(로딩중...)"
       font="SansSerifHugeBold"
      h_pad="0"
       height="26"
@@ -90,7 +90,7 @@ background_visible="false"
     <line_editor
      follows="left|top"
      font="SansSerif"
-     label="Type your new group name here"
+     label="여기에 새 그룹 이름을 입력하십시오"
      layout="topleft"
      left_delta="10"
      max_length_bytes="35"
@@ -145,7 +145,7 @@ background_visible="false"
             expanded="true"
             layout="topleft"
             name="group_general_tab"
-            title="General"
+            title="일반"
             fit_panel="false">
                    <panel
                       border="false"
@@ -162,7 +162,7 @@ background_visible="false"
             expanded="false"
             layout="topleft"
             name="group_roles_tab"
-            title="Roles &amp; Members"
+            title="역할 &amp; 회원"
             fit_panel="false">
                 <panel
                    border="false"
@@ -178,7 +178,7 @@ background_visible="false"
             expanded="false"
             layout="topleft"
             name="group_notices_tab"
-            title="Notices"
+            title="알림"
             fit_panel="false">
                 <panel
                     border="false"
@@ -195,7 +195,7 @@ background_visible="false"
              expanded="false"
              layout="topleft"
              name="group_land_tab"
-             title="Land/Assets"
+             title="랜드/자산"
              fit_panel="false">
                  <panel
 					 border="false"
@@ -211,7 +211,7 @@ background_visible="false"
              expanded="false"
              layout="topleft"
              name="group_experiences_tab"
-             title="Experiences"
+             title="경험"
              fit_panel="false">
            <panel
                border="false"
@@ -267,7 +267,7 @@ background_visible="false"
 				width="91">
 					<button
 				     follows="bottom|left|right"
-				     label="Chat"
+				     label="채팅"
 				     name="btn_chat"
 				     left="1"     
 				     height="23"
@@ -288,9 +288,9 @@ background_visible="false"
 			         left="1"
 			         height="23"
 				     name="btn_call"
-				     label="Group Call"
+				     label="그룹 전화"
 			         layout="topleft"
-			         tool_tip="Call this group"
+			         tool_tip="이 그룹 전화"
 			         top="0"
 			         width="90" />		
 				</layout_panel>
@@ -306,7 +306,7 @@ background_visible="false"
 					<button
 				     follows="bottom|left|right"
 				     height="23"
-				     label="Save"
+				     label="저장"
 				     label_selected="Save"
 				     name="btn_apply"
 				     left="1"

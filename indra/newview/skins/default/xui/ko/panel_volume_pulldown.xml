@@ -15,7 +15,7 @@
 >
 	<slider
 	 name="System Volume"
-	 label="Master"
+	 label="마스터"
 	 top="6"
 	 left="10"
 	 height="15"
@@ -70,7 +70,7 @@
 	</button>
 	<slider
 	 name="UI Volume"
-	 label="Buttons"
+	 label="버튼"
 	 top_pad="6"
 	 left="10"
 	 height="15"
@@ -106,7 +106,7 @@
 	/>
 	<slider
 	 name="Wind Volume"
-	 label="Ambient"
+	 label="은은함"
 	 top_pad="4"
 	 left="10"
 	 height="15"
@@ -142,17 +142,17 @@
 	/>
 	<check_box
 	 name="collisions_audio_play_btn"
-	 tool_tip="Enable default sounds from collisions"
+	 tool_tip="충돌 시 기본 사운드 사용"
 	 left_pad="5"
 	 height="16"
 	 width="16"
 	 layout="topleft"
-	 control_name="EnableCollisionSounds"
+	 control_name="FSPlayCollisionSounds"
 	 disabled_control="MuteAudio"
 	/>
 	<slider
 	 name="SFX Volume"
-	 label="Sounds"
+	 label="소리"
 	 top_pad="4"
 	 left="10"
 	 height="15"
@@ -192,7 +192,7 @@
 	</button>
 	<check_box
 	 name="gesture_audio_play_btn"
-	 tool_tip="Enable sounds from gestures"
+	 tool_tip="제스처의 소리 사용"
 	 top_delta="2"
 	 left_pad="5"
 	 height="16"
@@ -203,7 +203,7 @@
 	/>
 	<slider
 	 name="Music Volume"
-	 label="Music"
+	 label="음악"
 	 top_pad="4"
 	 left="10"
 	 height="15"
@@ -239,7 +239,7 @@
 	/>
 	<check_box
 	 name="enable_music"
-	 tool_tip="Enable Streaming Music"
+	 tool_tip="음악 스트리밍 사용"
 	 top_delta="2"
 	 left_pad="5"
 	 height="16"
@@ -249,7 +249,7 @@
 	/>
 	<slider
 	 name="Media Volume"
-	 label="Media"
+	 label="미디어"
 	 top_pad="4"
 	 left="10"
 	 height="15"
@@ -285,7 +285,7 @@
 	/>
 	<check_box
 	 name="enable_media"
-	 tool_tip="Enable Streaming Media"
+	 tool_tip="스트리밍 미디어 사용"
 	 top_delta="2"
 	 left_pad="5"
 	 height="16"
@@ -297,7 +297,7 @@
 	/>
 	<slider
 	 name="Voice Volume"
-	 label="Voice"
+	 label="음성"
 	 top_pad="4"
 	 left="10"
 	 height="15"
@@ -333,7 +333,7 @@
 	/>
 	<check_box
 	 name="enable_voice_check"
-	 tool_tip="Enable Voice Chat"
+	 tool_tip="음성 채팅 사용"
 	 top_delta="2"
 	 left_pad="5"
 	 height="16"

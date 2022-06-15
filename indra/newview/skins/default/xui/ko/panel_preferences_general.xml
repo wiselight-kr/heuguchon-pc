@@ -8,7 +8,7 @@
  top="1"
  width="540"
  name="general_panel"
- label="General">
+ label="일반">
  <!--language-->
     <text
      type="string"

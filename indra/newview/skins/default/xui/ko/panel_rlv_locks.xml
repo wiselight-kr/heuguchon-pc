@@ -2,7 +2,7 @@
 <panel
   follows="all"
   height="200"
-  label="Active RLV Locks"
+  label="RLV 잠금 활성화"
   layout="topleft"
   name="panel_rlvLocks"
   top="0"
@@ -17,16 +17,16 @@
     multi_select="false"
     name="lock_list"
     top_pad="0" >
-    <scroll_list.columns label="Lock Type" name="lock_type" width="100" />
-    <scroll_list.columns label="Method" name="lock_addrem" width="60" />
-    <scroll_list.columns label="Target Object / Point" name="lock_target" />
-    <scroll_list.columns label="Lock Origin" name="lock_origin" width="150" />
+    <scroll_list.columns label="잠금 유형" name="lock_type" width="100" />
+    <scroll_list.columns label="방법" name="lock_addrem" width="60" />
+    <scroll_list.columns label="타겟 개체 / Point" name="lock_target" />
+    <scroll_list.columns label="원본 잠금" name="lock_origin" width="150" />
   </scroll_list>
   <panel
     background_visible="false"
     follows="left|right|bottom"
     height="25"
-    label="bottom_panel"
+    label="하부_패널"
     layout="topleft"
     name="bottom_panel"
     top_pad="0" >
@@ -36,7 +36,7 @@
       image_overlay_alignment="left"
       image_selected="Toolbar_Left_Selected"
       image_unselected="Toolbar_Left_Off"
-      label="Refresh"
+      label="새로고침"
       left="0"
       name="refresh_btn"
       top="1"

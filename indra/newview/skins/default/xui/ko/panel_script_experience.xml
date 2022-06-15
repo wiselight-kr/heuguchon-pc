@@ -1,6 +1,6 @@
 <panel
   name="script_experience"
-  title="Experience"
+  title="경험"
   width="400"
   follows="top|left|right"
   top="0"
@@ -26,7 +26,7 @@
           pad_left="35"
           top="0"
           left="3"
-          label="Experience"
+          label="경험"
           halign="left"
           handle_right_mouse="false"
           follows="top|left|right"
@@ -34,7 +34,7 @@
           image_selected="MarketplaceBtn_Selected">
   </button>
   <check_box
-	  follows="top|right" height="25" label="Uses Experience" left="215" width="0" top="0" name="enable_xp"
+	  follows="top|right" height="25" label="경험 사용" left="215" width="0" top="0" name="enable_xp"
 	  />
   <layout_stack
     follows="top|left|right"
@@ -50,33 +50,33 @@
     <layout_panel  width="120"
                    height="140">
       <text >
-        Script:
+        스크립트:
       </text>
       <text bottom_delta="25">
-        Associated with:
+        연관됨:
       </text>
       <text bottom_delta="25">
-        You can contribute:
+        당신은 기여할 수 있습니다:
       </text>
       <text bottom_delta="25">
-        Associate with:
+        연관 지음:
       </text>
     </layout_panel>
 
     <layout_panel width="250"
                   height="140">
       <text >
-        EasySit Animator 1.2.4
+        쉽게 앉기 애니메이터 1.2.4
       </text>
       <text bottom_delta="25"
            text_color="HTMLLinkColor" font.style="UNDERLINE">
-        Kyle's Superhero RPG
+        카일의 슈퍼히어로 RPG
       </text>
       <text bottom_delta="25">
-        Yes
+        네
       </text>
       <combo_box left="0" bottom_delta="33"
-                 label="Choose Experience..."
+                 label="경험 선택..."
                  name="Experiences..."
                  follows="top|left|right"
         />
@@ -92,6 +92,6 @@
     name="No Experiences"
     visible="false"
     text_color="AlertCautionTextColor">
-    You are not a contributor to any experiences.
+    당신은 어떤 경험에도 기여하지 않습니다.
   </text>
 </panel>

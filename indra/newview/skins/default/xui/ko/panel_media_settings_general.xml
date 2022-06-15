@@ -4,7 +4,7 @@
  enabled="true" 
  follows="left|top|right|bottom"
  height="500" 
- label="General" 
+ label="일반" 
  left="102" 
  mouse_opaque="true"
  name="Media Settings General" 
@@ -17,7 +17,7 @@
    height="15"
    left="10"
    name="home_label">
-    Home Page:
+    홈페이지:
   </text>
   <text
    visible="false" 
@@ -27,7 +27,7 @@
    left_delta="64"
    text_color="red"
    name="home_fails_whitelist_label">
-    (This page does not pass the specified whitelist)
+    (이 페이지는 지정된 화이트리스트를 통과하지 않습니다)
   </text>
   <line_editor 
    max_length_bytes="1024"
@@ -38,7 +38,7 @@
    height="20" 
    left="10" 
    name="home_url"
-   tool_tip="The home page for this media source"
+   tool_tip="이 미디어 원본의 홈 페이지"
    width="340"> 
     <!--  <line_editor.commit_callback
 	     function="Media.CommitHomeURL"/> -->
@@ -61,7 +61,7 @@
    height="15"
    left="164"
    name="preview_label">
-    Preview
+    미리보기
   </text>
   
   <text 
@@ -70,7 +70,7 @@
    height="15" 
    left="10" 
    name="current_url_label">
-    Current Page:
+    현재 페이지:
   </text>
   <text 
    name="current_url"
@@ -82,14 +82,14 @@
    font="SansSerif"
    height="20" 
    left="10" 
-   tool_tip="The current page for this media source"
+   tool_tip="이 미디어 원본의 현재 페이지"
    value="" 
    width="340" />
   <button 
    bottom_delta="-20" 
    follows="top|left" 
    height="20" 
-   label="Reset"
+   label="초기화"
    left_delta="233" 
    name="current_url_reset_btn" 
    width="110"/>
@@ -100,7 +100,7 @@
    font="SansSerifSmall"
    height="16"
    initial_value="false"
-   label="Auto Loop" 
+   label="자동 루프" 
    left="10" 
    mouse_opaque="true"
    name="auto_loop" 
@@ -114,7 +114,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="First Click Interacts" 
+   label="첫 번째 클릭 상호 작용" 
    left_delta="0" 
    mouse_opaque="true"
    name="first_click_interact" 
@@ -128,7 +128,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Auto Zoom" 
+   label="자동 확대" 
    left_delta="0" 
    mouse_opaque="true"
    name="auto_zoom" 
@@ -142,7 +142,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Auto Play Media" 
+   label="미디어 자동 재생" 
    left="10" 
    mouse_opaque="true"
    name="auto_play" 
@@ -157,7 +157,7 @@
    width="340" 
    enabled="false" 
    name="media_setting_note">
-    Note: Residents can override this setting
+    참고: 거주자는 이 설정을 재정의할 수 있습니다.
   </text>
 
   <check_box 
@@ -167,7 +167,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Auto Scale Media on Face of Object" 
+   label="객체 면의 미디어 자동 스케일 조정" 
    left="10" 
    mouse_opaque="true"
    name="auto_scale" 
@@ -180,7 +180,7 @@
    height="15" 
    left="30" 
    name="size_label">
-    Size:
+    크기:
   </text>
   
   <spinner 

@@ -10,23 +10,23 @@
   width="497">
   <panel.string
     name="loading">
-    Loading...
+    로딩중...
   </panel.string>
   <panel.string
     name="can_not_view">
-    You can not view or edit this script, since it has been set with restricted permissions. You need full permissions to view or edit a script inside an object.
+    이 스크립트는 제한된 권한으로 설정되었기 때문에 보거나 편집할 수 없습니다. 개체 내부의 스크립트를 보거나 편집하려면 전체 권한이 필요합니다.
   </panel.string>
   <panel.string
     name="public_objects_can_not_run">
-    Public Objects cannot run scripts
+    공용 개체에서 스크립트를 실행할 수 없음
   </panel.string>
   <panel.string
     name="script_running">
-    Running
+    실행중
   </panel.string>
   <panel.string
     name="Title">
-    Script: [NAME]
+    스크립트: [NAME]
   </panel.string>
   <menu_bar
     bg_visible="false"
@@ -40,114 +40,114 @@
     <menu
       top="0"
       height="62"
-      label="File"
+      label="파일"
       layout="topleft"
       left="0"
       mouse_opaque="false"
       name="File"
       width="138">
       <menu_item_call
-        label="Save"
+        label="저장"
         layout="topleft"
         name="Save" />
       <menu_item_separator
         layout="topleft" />
       <menu_item_call
-        label="Revert All Changes"
+        label="모든 변경 내용 되돌리기"
         layout="topleft"
         name="Revert All Changes" />
       <menu_item_separator
         layout="topleft" />
       <menu_item_call
-        label="Load from file..."
+        label="파일에서 로드..."
         layout="topleft"
         name="LoadFromFile" />
       <menu_item_call
-        label="Save to file..."
+        label="파일로 저장..."
         layout="topleft"
         name="SaveToFile" />
           <menu_item_call
-           label="Script Editor Preferences..."
+           label="스크립트 편집기 기본 설정..."
            layout="topleft"
            name="ScriptPrefs" />
     </menu>
     <menu
       top="0"
       height="198"
-      label="Edit"
+      label="편집"
       layout="topleft"
       mouse_opaque="false"
       name="Edit"
       width="139">
       <menu_item_call
         enabled="false"
-        label="Undo"
+        label="실행 취소"
         layout="topleft"
         name="Undo" />
       <menu_item_call
         enabled="false"
-        label="Redo"
+        label="다시 시도"
         layout="topleft"
         name="Redo" />
       <menu_item_separator
         layout="topleft" />
       <menu_item_call
         enabled="false"
-        label="Cut"
+        label="자르기"
         layout="topleft"
         name="Cut" />
       <menu_item_call
         enabled="false"
-        label="Copy"
+        label="복사"
         layout="topleft"
         name="Copy" />
       <menu_item_call
         enabled="false"
-        label="Paste"
+        label="붙여넣기"
         layout="topleft"
         name="Paste" />
       <menu_item_separator
         layout="topleft"
         name="separator2" />
       <menu_item_call
-        label="Select All"
+        label="모두 선택"
         layout="topleft"
         name="Select All" />
       <menu_item_call
         enabled="false"
-        label="Deselect"
+        label="선택 해제"
         layout="topleft"
         name="Deselect" />
       <menu_item_separator
         layout="topleft"
         name="separator3" />
       <menu_item_call
-        label="Search / Replace..."
+        label="검색 / 대체..."
         layout="topleft"
         name="Search / Replace..." />
             <menu_item_call
-             label="Go to line..."
+             label="선으로 이동..."
              layout="topleft"
              name="Go to line..." />
     </menu>
     <menu
       top="0"
       height="34"
-      label="Help"
+      label="도움말"
       layout="topleft"
       mouse_opaque="false"
       name="Help"
       width="112">
       <menu_item_call
-        label="Help..."
+        label="도움말..."
         layout="topleft"
         name="Help..." />
       <menu_item_call
-        label="Keyword Help..."
+        label="키워드 도움말..."
         layout="topleft"
         name="Keyword Help..." />
             <menu_item_call
-             label="Script Library..."
+             label="스크립트 라이브러리..."
              name="Script Library">
              <menu_item_call.on_click
               function="PromptShowURL"
@@ -193,7 +193,7 @@
              image_unselected="Script_Editor"
              image_selected="Script_Editor"
              image_pressed="Script_Editor"
-             tool_tip="External Script Editor"
+             tool_tip="외부 스크립트 편집기"
              label=""
              layout="topleft"
              name="Edit_btn"
@@ -206,7 +206,7 @@
              image_unselected="Script_Disk_Load"
              image_selected="Script_Disk_Load"
              image_pressed="Script_Disk_Load"
-             tool_tip="Load a Script from your Hard Disk"
+             tool_tip="하드 디스크에서 스크립트 로드"
              label=""
              layout="topleft"
              name="load_disk_btn"
@@ -218,7 +218,7 @@
              image_unselected="Script_Disk_Save"
              image_selected="Script_Disk_Save"
              image_pressed="Script_Disk_Save"
-             tool_tip="Save a Script to your Hard Disk"
+             tool_tip="하드 디스크에 스크립트 저장"
              label=""
              layout="topleft"
              name="save_disk_btn"
@@ -231,7 +231,7 @@
              image_unselected="Script_Cut"
              image_selected="Script_Cut"
              image_pressed="Script_Cut"
-             tool_tip="Cut"
+             tool_tip="자르기"
              label=""
              layout="topleft"
              name="cut_btn"
@@ -243,7 +243,7 @@
              image_unselected="Script_Copy"
              image_selected="Script_Copy"
              image_pressed="Script_Copy"
-             tool_tip="Copy"
+             tool_tip="복사"
              label=""
              layout="topleft"
              name="copy_btn"
@@ -255,7 +255,7 @@
              image_unselected="Script_Paste"
              image_selected="Script_Paste"
              image_pressed="Script_Paste"
-             tool_tip="Paste"
+             tool_tip="붙여넣기"
              label=""
              layout="topleft"
              name="paste_btn"
@@ -268,7 +268,7 @@
              image_unselected="Script_Undo"
              image_selected="Script_Undo"
              image_pressed="Script_Undo"
-             tool_tip="Undo"
+             tool_tip="실행 취소"
              label=""
              layout="topleft"
              name="undo_btn"
@@ -280,7 +280,7 @@
              image_unselected="Script_Redo"
              image_selected="Script_Redo"
              image_pressed="Script_Redo"
-             tool_tip="Redo"
+             tool_tip="다시 시도"
              label=""
              layout="topleft"
              name="redo_btn"
@@ -293,7 +293,7 @@
              image_unselected="Script_Search"
              image_selected="Script_Search"
              image_pressed="Script_Search"
-             tool_tip="Search/Replace"
+             tool_tip="검색/대체"
              label=""
              layout="topleft"
              name="search_btn"
@@ -305,7 +305,7 @@
              image_unselected="Script_Config"
              image_selected="Script_Config"
              image_pressed="Script_Config"
-             tool_tip="Script Editor Preferences"
+             tool_tip="스크립트 편집기 기본 설정"
              label=""
              layout="topleft"
              name="prefs_btn"
@@ -356,7 +356,7 @@
     enable_tooltip_paste="true"
      word_wrap="true"
      show_context_menu="true">
-    Loading...
+    로딩중...
     </script_editor>
   <scroll_list
     top_pad="10"
@@ -369,7 +369,7 @@
   <combo_box
     follows="left|bottom"
     height="23"
-    label="Insert..."
+    label="삽입..."
     layout="topleft"
     name="Insert..."
      width="128" />
@@ -386,7 +386,7 @@
     enabled="false"
     follows="right|bottom"
     height="23"
-    label="Edit..."
+    label="편집..."
     layout="topleft"
      top_delta="-4"
      right="-104"
@@ -395,7 +395,7 @@
     <button
      follows="right|bottom"
      height="23"
-     label="Save"
+     label="저장"
      label_selected="Save"
      layout="topleft"
      left_pad="4"

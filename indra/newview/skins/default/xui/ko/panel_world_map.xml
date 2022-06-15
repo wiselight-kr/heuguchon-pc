@@ -15,114 +15,114 @@
     </panel.string>
     <panel.string
      name="world_map_north">
-        N
+        북
     </panel.string>
     <panel.string
      name="world_map_east">
-        E
+        동
     </panel.string>
     <panel.string
      name="world_map_west">
-        W
+        서
     </panel.string>
     <panel.string
      name="world_map_south">
-        S
+        남
     </panel.string>
     <panel.string
      name="world_map_southeast">
-        SE
+        남동
     </panel.string>
     <panel.string
      name="world_map_northeast">
-        NE
+        북동
     </panel.string>
     <panel.string
      name="world_map_southwest">
-        SW
+        남서
     </panel.string>
     <panel.string
      name="world_map_northwest">
-        NW
+        북서
     </panel.string>
     <panel.string
      name="world_map_person">
-        1 person
+        1 명
     </panel.string>
     <panel.string
      name="world_map_people">
-        [NUMBER] people
+        [NUMBER] 명
     </panel.string>
     <text
      type="string"
      length="1"
-     label="N"
+     label="북"
      layout="topleft"
      name="floater_map_north"
      text_color="White_70">
-        N
+        북
     </text>
     <text
      type="string"
      length="1"
-     label="E"
+     label="동"
      layout="topleft"
      name="floater_map_east"
      text_color="White_70">
-        E
+        동
     </text>
     <text
      type="string"
      length="1"
-     label="W"
+     label="서"
      layout="topleft"
      name="floater_map_west"
      text_color="White_70">
-        W
+        서
     </text>
     <text
      type="string"
      length="1"
-     label="S"
+     label="남"
      layout="topleft"
      name="floater_map_south"
      text_color="White_70">
-        S
+        남
     </text>
     <text
      type="string"
      length="1"
-     label="SE"
+     label="남동"
      layout="topleft"
      name="floater_map_southeast"
      text_color="White_70">
-        SE
+        남동
     </text>
     <text
      type="string"
      length="1"
-     label="NE"
+     label="북동"
      layout="topleft"
      name="floater_map_northeast"
      text_color="White_70">
-        NE
+        북동
     </text>
     <text
      type="string"
      length="1"
-     label="SW"
+     label="남서"
      layout="topleft"
      name="floater_map_southwest"
      text_color="White_70">
-        SW
+        남서
     </text>
     <text
      type="string"
      length="1"
-     label="NW"
+     label="북서"
      layout="topleft"
      name="floater_map_northwest"
      text_color="White_70">
-        NW
+        북서
     </text>
 </panel>

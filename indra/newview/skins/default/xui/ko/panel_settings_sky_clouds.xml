@@ -2,7 +2,7 @@
 <panel
         border="true"
         follows="all"
-        label="Clouds"
+        label="구름"
         layout="topleft"
         left="0"
         help_topic="land_general_tab"
@@ -33,7 +33,7 @@
                     left ="5"
                     top="15"
                     width="100">
-                Cloud Coverage:
+                구름 커버리지:
             </text>
             <slider
                     decimal_digits="2"
@@ -57,7 +57,7 @@
                     left="5"
                     top_delta="15"
                     width="100">
-                Cloud Scale:
+                구름 스케일:
             </text>
             <slider
                     decimal_digits="2"
@@ -81,7 +81,7 @@
                     left="5"
                     top_delta="15"
                     width="100">
-                Cloud Variance:
+                클라우드 변화:
             </text>
             <slider
                     decimal_digits="2"
@@ -105,7 +105,7 @@
                     left="5"
                     top_delta="25"
                     width="200">
-                    Cloud Scroll:
+                    구름 스크롤:
             </text>
             <xy_vector
             follows="left|top"
@@ -128,7 +128,7 @@
                     left_delta="180"
                     top_delta="-20"
                     width="200">
-                    Cloud Image:
+                    구름 이미지:
                 </text>
                 <texture_picker
                 height="123"
@@ -145,7 +145,7 @@
                         left_delta="-5"
                         top_pad="5"
                         width="80">
-                    Cloud Color:
+                    구름 색상:
                 </text>
                 <color_swatch
                         can_apply_immediately="true"
@@ -174,7 +174,7 @@
                     left_delta="15"
                     top_pad="15"
                     width="200">
-                    Cloud Density:
+                    구름 밀도:
                 </text>
                 <slider
                 label="X"
@@ -229,7 +229,7 @@
                     left_delta="-5"
                     top_delta="35"
                     width="200">
-                Cloud Detail:
+                구름 세부사항:
             </text>
             <slider
                     label="X"

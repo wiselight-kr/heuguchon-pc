@@ -58,7 +58,7 @@
 
   <text
    name="filter_label"
-   value="Filter:"
+   value="필터:"
    width="40"
    height="16"
    left_pad="4"

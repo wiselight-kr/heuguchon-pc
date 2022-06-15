@@ -3,7 +3,7 @@
 background_visible="true"
  follows="all"
  height="550"
- label="Group Creation"
+ label="그룹 생성"
  layout="topleft"
  min_height="350"
  left="0"
@@ -12,7 +12,7 @@ background_visible="true"
  width="313">
   <panel.string
    name="current_membership">
-(your membership)
+(회원 자격)
   </panel.string>
   <panel
     name="group_info_top"
@@ -31,12 +31,12 @@ background_visible="true"
      type="string"
      follows="top|left"
      layout="topleft">
-    Group Name:
+    그룹 이름:
     </text>
     <line_editor
      follows="left|right|top"
      font="SansSerif"
-     label="Type your new group name here"
+     label="여기에 새 그룹 이름을 입력하십시오"
      layout="topleft"
      max_length_bytes="35"
      name="group_name_editor"
@@ -96,7 +96,7 @@ background_visible="true"
          name="insignia"
          label=""
          no_commit_on_selection="true"
-         tool_tip="Click to choose a picture"
+         tool_tip="사진을 선택하려면 클릭하십시오"
          layout="topleft"
          height="110"
          left="5"
@@ -115,7 +115,7 @@ background_visible="true"
          bg_readonly_color="DkGray2"
          text_readonly_color="White"
          word_wrap="true">
-          Group Charter
+          그룹 헌장
         </text_editor>
       </panel>
       <panel
@@ -132,17 +132,17 @@ background_visible="true"
         <check_box
          follows="right|top|left"
          layout="topleft"
-         label="Anyone can join"
+         label="누구나 참가할 수 있음"
          height="16"
          left="10"
          name="open_enrollement"
-         tool_tip="Sets whether this group allows new members to join without being invited."
+         tool_tip="이 그룹이 초대되지 않고 새 구성원을 가입시킬지 여부를 설정합니다."
          width="90" />
         <check_box
-         label="Cost to join"
+         label="가입비"
          layout="topleft"
          name="check_enrollment_fee"
-         tool_tip="Sets whether to require an enrollment fee to join the group"
+         tool_tip="그룹에 가입하는 데 등록 비용이 필요한지 여부를 설정합니다"
          top_pad="5"
          left_delta="0"
          height="16" />
@@ -158,28 +158,28 @@ background_visible="true"
          height="23"
          left="30"
          name="spin_enrollment_fee"
-         tool_tip="New members must pay this fee to join the group when Enrollment Fee is checked."
+         tool_tip="가입비가 확인되면 새 회원이 그룹에 가입하려면 이 비용을 지불해야 합니다."
          width="170" />
         <combo_box
          follows="left|top"
          layout="topleft"
          name="group_mature_check"
-         tool_tip="Maturity ratings designate the type of content and behavior allowed in a group"
+         tool_tip="성숙도 등급은 그룹에 허용되는 내용 및 동작 유형을 지정합니다."
          height="23"
          left="10"
          top_pad="4"
          width="190">
           <combo_item name="select_mature" value="Select">
-            - Select maturity rating -
+            - 만기등급선택 -
           </combo_item>
           <combo_box.item
-           label="Moderate Content"
+           label="중간 내용"
            name="mature"
-           value="Mature" />
+           value="성숙" />
           <combo_box.item
-           label="General Content"
+           label="일반 내용"
            name="pg"
-           value="Not Mature" />
+           value="비성숙" />
         </combo_box>
       </panel>
     </layout_panel>
@@ -206,7 +206,7 @@ background_visible="true"
         right="-8"
         top="5"
         word_wrap="true">
-        The fee to create a group is based on your membership level. [https://secondlife.com/my/account/membership.php More info]
+        그룹 작성 수수료는 회원 수준에 따라 다릅니다. [https://secondlife.com/my/account/membership.php 추가 정보]
       </text>
       <scroll_list
         draw_border="false"
@@ -230,13 +230,13 @@ background_visible="true"
           name="clmn_price"/>
         <scroll_list.rows
           name="basic"
-          value="Basic (placeholder)"/>
+          value="기본 (플레이스 홀더)"/>
         <scroll_list.rows
           name="plc2"
           value="" />
         <scroll_list.rows
           name="premium"
-          value="Premium (placeholder)" />
+          value="프리미엄 (플레이스 홀더)" />
       </scroll_list>
     </layout_panel>
     <layout_panel
@@ -289,10 +289,10 @@ background_visible="true"
           <button
             follows="bottom|left|right"
             layout="topleft"
-            label="Create group for L$ [COST]"
+            label="L$에 대한 그룹 생성 [COST]"
             name="btn_create"
             visible="true"
-            tool_tip="Create a new Group"
+            tool_tip="새로운 그룹 생성"
             height="23"
             left="1"
             top="0"
@@ -300,7 +300,7 @@ background_visible="true"
           <button
             follows="bottom|left|right"
             name="back"
-            label="Cancel"
+            label="취소"
             layout="topleft"
             left_pad="13"
             height="23"
@@ -330,7 +330,7 @@ background_visible="true"
         top_pad="8"
         word_wrap="true"
         halign="center">
-        Note: After 7 days, a group with no members (other than the creator) is deleted!
+        참고: 7일 후 작성자 이외의 구성원이 없는 그룹이 삭제됩니다!
       </text>
     </layout_panel>
   </layout_stack>

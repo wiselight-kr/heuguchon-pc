@@ -3,25 +3,25 @@
  bg_alpha_color="DkGray"
  follows="all"
  height="200"
- label="Device Settings"
+ label="장비 설정"
  layout="topleft"
  name="device_settings_panel"
  width="360">
     <panel.string
       name="default_text">
-        Default
+        기본값
     </panel.string>
     <string
      name="name_no_device">
-        No Device
+        장비 없음
     </string>
     <string
      name="name_no_device">
-        No Device
+        장비 없음
     </string>
     <string
      name="name_default_system_device">
-        Default System Device
+        기본 시스템 장치
     </string>
     <icon
      follows="left|top"
@@ -56,7 +56,7 @@
      top_delta="5"
      name="Input"
      width="60">
-        Input
+        입력
     </text>
     <combo_box
      height="23"
@@ -79,7 +79,7 @@
      name="Output"
      top_delta="5"
      width="60">
-        Output
+        출력
     </text>
     <combo_box
      control_name="VoiceOutputAudioDevice"
@@ -102,7 +102,7 @@
      name="My volume label"
      top_pad="14"
      width="200">
-        Mic volume:
+        마이크 음량:
     </text>
     <slider_bar
      control_name="AudioLevelMic"
@@ -114,7 +114,7 @@
      left_delta="95"
      max_val="2"
      name="mic_volume_slider"
-     tool_tip="Change the mic level using this slider"
+     tool_tip="이 슬라이더를 사용하여 마이크 수준 변경"
      top_pad="-18"
      width="110" />
     <text
@@ -128,7 +128,7 @@
      name="wait_text"
      top_delta="-1"
      width="110">
-        Please wait
+        잠시 대기 바랍니다
     </text>
   <locate
      follows="right|top"

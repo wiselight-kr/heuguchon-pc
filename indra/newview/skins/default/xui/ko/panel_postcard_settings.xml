@@ -7,14 +7,14 @@
     <combo_box
      follows="left|top|right"
      height="23"
-     label="Resolution"
+     label="결의안"
      layout="topleft"
      left="5"
      name="postcard_size_combo"
      right="-3"
      top_pad="5">
         <combo_box.item
-         label="Current Window"
+         label="현재 창"
          name="CurrentWindow"
          value="[i0,i0]" />
         <combo_box.item
@@ -30,7 +30,7 @@
          name="1024x768"
          value="[i1024,i768]" />
         <combo_box.item
-         label="Custom"
+         label="사용자화"
          name="Custom"
          value="[i-1,i-1]" />
     </combo_box>
@@ -40,7 +40,7 @@
     follows="left|top"
     height="20"
     increment="32"
-    label="Width x Height"
+    label="폭 x 높이"
     label_width="90"
     layout="topleft"
     left="5"
@@ -67,7 +67,7 @@
    <check_box
     top_pad="12"
     follows="left|top"
-    label="Constrain proportions"
+    label="비율 제한"
     layout="topleft"
     left="5"
     name="postcard_keep_aspect_check" />
@@ -77,7 +77,7 @@
    height="15"
    increment="1"
    initial_value="75"
-   label="Quality:"
+   label="질:"
    label_width="45"
    layout="topleft"
    left="5"

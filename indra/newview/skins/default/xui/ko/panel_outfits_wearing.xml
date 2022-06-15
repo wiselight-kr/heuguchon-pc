@@ -11,7 +11,7 @@
  width="312">
 <panel.string
     name="no_attachments">
-    No attachments worn.
+    첨부파일 착용 안 함.
    </panel.string>
      <accordion
      fit_parent="true"
@@ -28,7 +28,7 @@
      <accordion_tab
      layout="topleft"
      name="tab_wearables"
-     title="Wearables">
+     title="의류">
     <wearable_items_list
      follows="all"
      height="400"
@@ -45,7 +45,7 @@
      <accordion_tab
      layout="topleft"
      name="tab_temp_attachments"
-     title="Temporary attachments">
+     title="임시 첨부파일">
     <scroll_list
      draw_heading="false"
      left="3"
@@ -84,7 +84,7 @@
          layout="topleft"
          left="0"
          name="options_gear_btn"
-         tool_tip="Show additional options"
+         tool_tip="추가 옵션 표시"
          top="1"
          width="31" />
         <!--<button
@@ -117,7 +117,7 @@
          halign="right"
          v_pad="6"
          width="150">
-            Complexity: [WEIGHT]
+            복잡성: [WEIGHT]
         </text>
     </panel>
 </panel>

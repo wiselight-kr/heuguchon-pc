@@ -56,7 +56,7 @@
      left_pad="3"
      right="-31"
      name="info_btn"
-     tool_tip="More info"
+     tool_tip="더 많은 정보"
      tab_stop="false"
      top_delta="-2"
      width="16" />
@@ -70,7 +70,7 @@
      right="-3"
      name="profile_btn"
      tab_stop="false"
-     tool_tip="View profile"
+     tool_tip="프로필 보기"
      top_delta="-2"
      width="20" />
 </panel>

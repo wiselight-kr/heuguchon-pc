@@ -5,7 +5,7 @@ background_visible="true"
 background_opaque="false"
  follows="all"
  height="570"
- label="Picks"
+ label="선택"
  layout="topleft"
  left="8"
  name="panel_picks"
@@ -13,10 +13,10 @@ background_opaque="false"
  width="313">
  <string
   name="no_picks"
-  value="No Picks" />
+  value="선택 없음" />
  <string
   name="no_classifieds"
-  value="No Classifieds" />
+  value="분류 없음" />
 
 <tab_container
   follows="all"
@@ -29,7 +29,7 @@ background_opaque="false"
     <panel
      layout="topleft"
      name="tab_picks"
-     title="Picks"
+     title="선택"
      follows="all"
      visible="true">
         <flat_list_view
@@ -45,7 +45,7 @@ background_opaque="false"
     <panel
      layout="topleft"
      name="tab_classifieds"
-     title="Classifieds"
+     title="분류"
      follows="all"
      visible="true">
             <flat_list_view
@@ -68,7 +68,7 @@ background_opaque="false"
          left="6"
          top_pad="2"
          height="25"
-         label="bottom_panel"
+         label="하부_패널"
          layout="bottom"
          name="edit_panel"
          width="313">
@@ -85,7 +85,7 @@ background_opaque="false"
                    layout="topleft"
                    left="0"
                    name="new_btn"
-                   tool_tip="Create a new pick or classified at the current location"
+                   tool_tip="현재 위치에서 분류된 새 선택 항목 만들기"
                    top="0"
                    width="31" />
 
@@ -150,11 +150,11 @@ background_opaque="false"
                  enabled="false"
                  follows="top|left|right"
                  height="23"
-                 label="Info"
+                 label="정보"
                  layout="topleft"
                  name="info_btn"
                  tab_stop="false"
-                 tool_tip="Show pick information"
+                 tool_tip="선택 정보 표시"
                  width="95" />
           </layout_panel>
 
@@ -171,11 +171,11 @@ background_opaque="false"
                  enabled="false"
                  follows="top|left|right"
                  height="23"
-                 label="Teleport"
+                 label="순간이동"
                  layout="topleft"
                  name="teleport_btn"
                  tab_stop="false"
-                 tool_tip="Teleport to the corresponding area"
+                 tool_tip="해당 영역으로 순간이동"
                  width="117" />
           </layout_panel>
 
@@ -192,11 +192,11 @@ background_opaque="false"
                  enabled="false"
                  follows="top|left|right"
                  height="23"
-                 label="Map"
+                 label="지도"
                  layout="topleft"
                  name="show_on_map_btn"
                  tab_stop="false"
-                 tool_tip="Show the corresponding area on the World Map"
+                 tool_tip="세계 지도에 해당 지역 표시"
                  width="90" />
           </layout_panel>
     </layout_stack>

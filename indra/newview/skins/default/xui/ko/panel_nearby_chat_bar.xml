@@ -12,7 +12,7 @@
      border_thickness="1"
      follows="left|right"
      height="23"
-     label="Click here to chat."
+     label="채팅하려면 여기를 클릭하십시오."
      layout="topleft"
      left_delta="3"
      left="0"
@@ -21,7 +21,7 @@
      spellcheck="true"
      text_pad_left="5"
      text_pad_right="25"
-     tool_tip="Press Enter to say, Ctrl+Enter to shout"
+     tool_tip="Enter 키를 눌러 Ctrl+Enter 키를 눌러 소리 지릅니다."
      top="2"
      width="283" />
     <output_monitor
@@ -50,7 +50,7 @@
      image_pressed_selected="ComboButton_Selected"
      height="23"
      name="show_nearby_chat"
-     tool_tip="Shows/hides nearby chat log">
+     tool_tip="근처 대화 로그를 표시하거나 숨깁니다.">
         <button.init_callback
            function="Button.SetDockableFloaterToggle"
            parameter="nearby_chat" />

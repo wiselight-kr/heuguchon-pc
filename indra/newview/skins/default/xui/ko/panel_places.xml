@@ -3,7 +3,7 @@
  default_tab_group="1"
  follows="all"
  height="570"
- label="Places"
+ label="장소"
  layout="topleft"
  min_height="350"
  name="places panel"
@@ -12,19 +12,19 @@
  width="333">
   <string
    name="landmarks_tab_title"
-   value="Landmarks" />
+   value="랜드마크" />
   <string
    name="teleport_history_tab_title"
-   value="Teleport History" />
+   value="순간이동 기록" />
   <string
    name="favorites_tab_title"
-   value="Favorites" />
+   value="즐겨찾기" />
   <string
    name="tooltip_trash_items"
-   value="Remove selected landmark or folder" />
+   value="선택한 랜드마크 또는 폴더 제거" />
   <string
    name="tooltip_trash_history"
-   value="Delete list of visited places" />
+   value="방문한 장소 목록 삭제" />
   <layout_stack
     animate="false"
     border_size="0"
@@ -65,7 +65,7 @@
           height="23"
           layout="topleft"
           left="10"
-          label="Filter My Places"
+          label="내 장소 필터링"
           max_length_chars="300"
           name="Filter"
           tab_group="1"
@@ -80,7 +80,7 @@
         width="32">
         <menu_button
           follows="bottom|left"
-          tool_tip="Show options"
+          tool_tip="옵션 표시"
           height="25"
           image_hover_unselected="Toolbar_Middle_Over"
           image_overlay="OptionsMenu_Off"
@@ -101,7 +101,7 @@
         width="32">
         <menu_button
           follows="bottom|left"
-          tool_tip="Show sorting options"
+          tool_tip="정렬 옵션 표시"
           height="25"
           image_hover_unselected="Toolbar_Middle_Over"
           image_overlay="Conv_toolbar_sort"
@@ -131,7 +131,7 @@
           layout="topleft"
           left="0"
           name="add_menu_btn"
-          tool_tip="Add new landmark or folder"
+          tool_tip="새 랜드마크 또는 폴더 추가"
           top="0"
           width="31" />
       </layout_panel>
@@ -140,7 +140,7 @@
         height="25"
         layout="topleft"
         name="trash_btn_panel"
-        tool_tip="Remove selected landmark or folder"
+        tool_tip="선택한 랜드마크 또는 폴더 제거"
         width="31">
         <dnd_button
           follows="bottom|left"
@@ -253,11 +253,11 @@
 						<button
 				         follows="bottom|left|right"
 				         height="23"
-				         label="Teleport"
+				         label="순간이동"
 				         layout="topleft"
 				         left="1"
 				         name="teleport_btn"
-				         tool_tip="Teleport to the selected area"
+				         tool_tip="선택한 영역으로 순간이동"
 				         top="0"
 				         width="108" />		
 					</layout_panel>
@@ -274,11 +274,11 @@
 						<button
 				         follows="bottom|left|right"
 				         height="23"
-				         label="Map"
+				         label="지도"
 				         layout="topleft"
 				         left="1"
 				         name="map_btn"
-				         tool_tip="Show the corresponding area on the World Map"
+				         tool_tip="세계 지도에 해당 지역 표시"
 				         top="0"
 				         width="85" />		
 					</layout_panel>
@@ -304,7 +304,7 @@
 					layout="topleft"
 					mouse_opaque="false"
 					name="overflow_btn"
-					tool_tip="Show additional options"
+					tool_tip="추가 옵션 표시"
 					top="0"
 					left="0"
 					width="23" />
@@ -343,12 +343,12 @@
 						<button
 				         follows="bottom|left|right"
 				         height="23"
-				         label="Profile"
+				         label="프로필"
 				         layout="topleft"
 						 mouse_opaque="false"
 				         name="profile_btn"
 				         left="1"
-				         tool_tip="Show place profile"
+				         tool_tip="장소 프로필 표시"
 				         top="0"
 				         width="101" />		
 					</layout_panel>
@@ -379,7 +379,7 @@
 						<button
 				         follows="bottom|left|right"
 				         height="23"
-				         label="Close"
+				         label="닫기"
 				         layout="topleft"
 						 mouse_opaque="false"
 				         name="close_btn"
@@ -420,7 +420,7 @@
 				<button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Save"
+		         label="저장"
 		         layout="topleft"
 				 mouse_opaque="false"
 		         name="save_btn"
@@ -442,7 +442,7 @@
 				<button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Cancel"
+		         label="취소"
 		         layout="topleft"
 				 mouse_opaque="false"
 		         name="cancel_btn"

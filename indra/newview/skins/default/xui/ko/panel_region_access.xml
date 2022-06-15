@@ -4,7 +4,7 @@
  follows="top|left"
  height="510"
  help_topic="panel_region_access_tab"
- label="Access"
+ label="접근"
  layout="topleft"
  left="0"
  name="Access"
@@ -32,7 +32,7 @@
     bg_opaque_color="DkGray"
     bottom="-1"
     follows="all"
-    label="Estate Managers"
+    label="자산 관리자"
     layout="topleft"
     left="0"
     help_topic="estate_managers_tab"
@@ -50,7 +50,7 @@
      top_pad="10"
      left="10"
      width="200">
-        Estate Managers:
+        자산 관리자:
     </text>
     <!-- Estate Managers box -->
     <view_border
@@ -72,7 +72,7 @@
      top_delta="0"
      width="453">
         <columns
-         label="Name"
+         label="이름"
          name="name"
          width="453" />
     </name_list>
@@ -80,7 +80,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Add..."
+     label="추가..."
      layout="topleft"
      left="10"
      name="add_estate_manager_btn"
@@ -89,7 +89,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Remove..."
+     label="제거..."
      layout="topleft"
      name="remove_estate_manager_btn"
      left_pad="6"
@@ -105,7 +105,7 @@
     bg_opaque_color="DkGray"
     bottom="-1"
     follows="all"
-    label="Allowed"
+    label="허용"
     layout="topleft"
     left="0"
     help_topic="allowed_tab"
@@ -115,7 +115,7 @@
        <panel
         follows="left|top|right"
         height="27"
-        label="top_panel"
+        label="상부_패널"
         layout="topleft"
         left="0"
         name="allowed_search_panel"
@@ -126,7 +126,7 @@
             height="23"
             layout="topleft"
             left="6"
-            label="Search allowed agents"
+            label="허용된 에이전트 검색"
             max_length_chars="300"
             name="allowed_search_input"
             top="4"
@@ -134,7 +134,7 @@
            <button
             follows="left|top"
             height="23"
-            label="Copy"
+            label="복사"
             layout="topleft"
             left_pad="3"
             name="copy_allowed_list_btn"
@@ -151,7 +151,7 @@
      top_pad="10"
      left="10"
      width="200">
-        Always allowed:
+        항상 허용:
     </text>
     <!-- Always allowed box -->
     <view_border
@@ -173,7 +173,7 @@
      top_delta="0"
      width="453">
         <columns
-         label="Name"
+         label="이름"
          name="name"
          width="453" />
     </name_list>
@@ -181,7 +181,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Add..."
+     label="추가..."
      layout="topleft"
      left="10"
      name="add_allowed_avatar_btn"
@@ -190,7 +190,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Remove..."
+     label="제거..."
      layout="topleft"
      name="remove_allowed_avatar_btn"
      left_pad="6"
@@ -205,7 +205,7 @@
     bg_opaque_color="DkGray"
     bottom="-1"
     follows="all"
-    label="Allowed Groups"
+    label="허용 그룹"
     layout="topleft"
     left="0"
     help_topic="allowed_groups_tab"
@@ -215,7 +215,7 @@
        <panel
         follows="left|top|right"
         height="27"
-        label="top_panel"
+        label="상부_패널"
         layout="topleft"
         left="0"
         name="allowed_group_search_panel"
@@ -226,7 +226,7 @@
             height="23"
             layout="topleft"
             left="6"
-            label="Search allowed groups"
+            label="허용 그룹 검색"
             max_length_chars="300"
             name="allowed_group_search_input"
             top="4"
@@ -234,7 +234,7 @@
            <button
             follows="left|top"
             height="23"
-            label="Copy"
+            label="복사"
             layout="topleft"
             left_pad="3"
             name="copy_allowed_group_list_btn"
@@ -250,7 +250,7 @@
      name="allow_group_label"
      top_pad="10"
      width="200">
-        Groups always allowed:
+        그룹을 항상 허용했다:
     </text>
     <!-- Groups always allowed box -->
     <view_border
@@ -272,7 +272,7 @@
      top_delta="0"
      width="453">
         <columns
-         label="Name"
+         label="이름"
          name="name"
          width="453" />
     </name_list>
@@ -280,7 +280,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Add..."
+     label="추가..."
      layout="topleft"
      left="10"
      name="add_allowed_group_btn"
@@ -289,7 +289,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Remove..."
+     label="제거..."
      layout="topleft"
      name="remove_allowed_group_btn"
      left_pad="6"
@@ -305,7 +305,7 @@
     bg_opaque_color="DkGray"
     bottom="-1"
     follows="all"
-    label="Banned"
+    label="금지"
     layout="topleft"
     left="0"
     help_topic="banned_tab"
@@ -315,7 +315,7 @@
        <panel
         follows="left|top|right"
         height="27"
-        label="top_panel"
+        label="상부_패널"
         layout="topleft"
         left="0"
         name="banned_search_panel"
@@ -326,7 +326,7 @@
             height="23"
             layout="topleft"
             left="6"
-            label="Search banned agents"
+            label="금지된 에이전트 검색"
             max_length_chars="300"
             name="banned_search_input"
             top="4"
@@ -334,7 +334,7 @@
                <button
                 follows="left|top"
                 height="23"
-                label="Copy"
+                label="복사"
                 layout="topleft"
                 left_pad="3"
                 name="copy_banned_list_btn"
@@ -350,7 +350,7 @@
      name="ban_resident_label"
      top_pad="10"
      width="200">
-        Always banned:
+        항상 금지:
     </text>
     <!-- Always banned box -->
     <view_border
@@ -372,19 +372,19 @@
        top_delta="0"
        width="453">
           <columns
-            label="Name"
+            label="이름"
             name="name"
             width="120" />
           <columns
-            label="Last login date"
+            label="마지막 로그인 날짜"
             name="last_login_date"
             width="100" />
           <columns
-            label="Date banned"
+            label="금지된 날짜"
             name="ban_date"
             width="100" />
           <columns
-            label="Banned by"
+            label="금지 대상"
             name="bannedby"
             width="115" />
       </name_list>
@@ -392,7 +392,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Add..."
+     label="추가..."
      layout="topleft"
      left="10"
      name="add_banned_avatar_btn"
@@ -401,7 +401,7 @@
     <button
      follows="left|top"
      height="23"
-     label="Remove..."
+     label="제거..."
      layout="topleft"
      name="remove_banned_avatar_btn"
      left_pad="6"

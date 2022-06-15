@@ -4,7 +4,7 @@
  follows="top|left"
  height="320"
  help_topic="panel_region_general_tab"
- label="Region"
+ label="지역"
  layout="topleft"
  left="0"
  name="General"
@@ -19,7 +19,7 @@
      name="region_text_lbl"
      top="10"
      width="100">
-        Region:
+        지역:
     </text>
     <text
      follows="left|top"
@@ -30,7 +30,7 @@
      name="region_text"
      top_delta="0"
      width="400">
-        unknown
+        알 수 없음
     </text>
     <text
      follows="right|top"
@@ -41,7 +41,7 @@
      right="-100"
      name="estate_id_lbl"
      width="80">
-        Estate ID:
+        사유지 ID:
     </text>
     <line_editor
      follows="right|top"
@@ -62,7 +62,7 @@
      name="region_type_lbl"
      top="30"
      width="100">
-        Type:
+        유형:
     </text>
     <text
      follows="left|top"
@@ -73,7 +73,7 @@
      name="region_type"
      top_delta="0"
      width="225">
-        unknown
+        알 수 없음
     </text>
     <text
      follows="right|top"
@@ -84,7 +84,7 @@
      right="-100"
      name="grid_position_lbl"
      width="80">
-        Grid Position:
+        그리드 위치:
     </text>
     <line_editor
      follows="right|top"
@@ -115,7 +115,7 @@
      name="version_channel_text_lbl"
      top="50"
      width="100">
-        Version:
+        버전:
     </text>
     <text
      follows="left|top"
@@ -126,11 +126,11 @@
      name="version_channel_text"
      top_delta="0"
      right="-10">
-        unknown
+        알 수 없음
     </text>
     <check_box
      height="20"
-     label="Block Terraform"
+     label="테라포밍 차단"
      layout="topleft"
      left="10"
      name="block_terraform_check"
@@ -138,7 +138,7 @@
      width="80" />
     <check_box
      height="20"
-     label="Block Fly"
+     label="날기 차단"
      layout="topleft"
      left="10"
      name="block_fly_check"
@@ -146,16 +146,16 @@
      width="80" />
     <check_box
      height="20"
-     label="Block Parcel Fly Over"
+     label="구획 날아서 이동 차단"
      layout="topleft"
      left="10"
      name="block_fly_over_check"
-     tool_tip="Extend access checks upwards to prevent flying over a parcel"
+     tool_tip="소포 위를 비행하지 않도록 접근 검사를 위쪽으로 연장합니다"
      top="110"
      width="90" />
   <check_box
      height="20"
-     label="Allow Damage"
+     label="손상 허용"
      layout="topleft"
      left="10"
      name="allow_damage_check"
@@ -163,7 +163,7 @@
      width="80" />
     <check_box
      height="20"
-     label="Restrict Pushing"
+     label="푸시 제한"
      layout="topleft"
      left="10"
      name="restrict_pushobject"
@@ -171,7 +171,7 @@
      width="80" />
     <check_box
      height="20"
-     label="Allow Land Resell"
+     label="랜드 재판매 허용"
      layout="topleft"
      left="10"
      name="allow_land_resell_check"
@@ -179,7 +179,7 @@
      width="80" />
     <check_box
      height="20"
-     label="Allow Land Join/Divide"
+     label="랜드 참가/나눔 허용"
      layout="topleft"
      left="10"
      name="allow_parcel_changes_check"
@@ -187,11 +187,11 @@
      width="80" />
     <check_box
      height="20"
-     label="Block Land Show in Search"
+     label="검색 시 랜드 표시 차단"
      layout="topleft"
      left="10"
      name="block_parcel_search_check"
-     tool_tip="Let people see this region and its parcels in search results"
+     tool_tip="검색 결과에서 이 지역 및 해당 구획을 볼 수 있도록 합니다"
      top="210"
      width="80" />
 	<spinner
@@ -199,7 +199,7 @@
      follows="left|top"
      height="20"
      increment="1"
-     label="Agent Limit"
+     label="에이전트 제한"
      label_width="97"
      layout="topleft"
      left="10"
@@ -212,7 +212,7 @@
      follows="left|top"
      height="20"
      increment="0.5"
-     label="Object Bonus"
+     label="개체 보너스"
      label_width="97"
      layout="topleft"
      left="10"
@@ -224,18 +224,18 @@
     <text
      follows="left|top"
      height="20"
-     label="Maturity"
+     label="성숙함"
      layout="topleft"
      left="10"
      name="access_text"
      top="310"
      width="100">
-        Rating:
+        별점:
     </text>
     <icons_combo_box
      follows="left|top"
      height="20"
-     label="Moderate"
+     label="적당함"
      layout="topleft"
      left_delta="100"
      name="access_combo"
@@ -247,7 +247,7 @@
          imgoverlay_label_space="3"
          pad_left="3"/>
         <icons_combo_box.item
-         label="Adult"
+         label="성인"
          name="Adult"
          value="42">
             <item.columns
@@ -257,7 +257,7 @@
              width="20"/>
           </icons_combo_box.item>
         <icons_combo_box.item
-         label="Moderate"
+         label="적당함"
          name="Mature"
          value="21">
             <item.columns
@@ -267,7 +267,7 @@
              width="20"/>
         </icons_combo_box.item>
         <icons_combo_box.item
-         label="General"
+         label="일반"
          name="PG"
          value="13">
             <item.columns
@@ -281,7 +281,7 @@
      enabled="false"
      follows="left|top"
      height="20"
-     label="Apply"
+     label="적용"
      layout="topleft"
      left="108"
      name="apply_btn"
@@ -290,7 +290,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Teleport Home One Resident..."
+     label="한 거주자 집으로 순간이동..."
      layout="topleft"
      left="10"
      name="kick_btn"
@@ -299,7 +299,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Teleport Home All Residents..."
+     label="모든 거주자 집으로 순간이동..."
      layout="topleft"
      left_delta="0"
      name="kick_all_btn"
@@ -308,7 +308,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Send Message To Region..."
+     label="지역으로 메시지 보내기..."
      layout="topleft"
      left_delta="0"
      name="im_btn"
@@ -317,7 +317,7 @@
     <button
      follows="left|top"
      height="20"
-     label="Manage Telehub..."
+     label="텔레허브 관리..."
      layout="topleft"
      left="250"
      name="manage_telehub_btn"

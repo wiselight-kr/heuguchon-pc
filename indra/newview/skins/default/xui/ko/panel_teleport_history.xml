@@ -12,14 +12,14 @@
      width="307">
         <no_matched_tabs_text
          name="no_matched_teleports_msg"
-         value="Didn't find what you're looking for? Try [secondlife:///app/search/places/[SEARCH_TERM] Search]." />
+         value="찾고 있는 것을 찾지 못했습니까?  [secondlife:///app/search/places/[SEARCH_TERM] 검색] 시도." />
         <no_visible_tabs_text
          name="no_teleports_msg"
-         value="Teleport history is empty. Try [secondlife:///app/search/places/ Search]." />
+         value="순간이동 기록이 비어 있습니다. [secondlife:///app/search/places/ 검색] 시도." />
 	    <accordion_tab
          layout="topleft"
          name="today"
-         title="Today">
+         title="오늘">
             <flat_list_view
              follows="all"
              height="150"
@@ -33,7 +33,7 @@
         <accordion_tab
          layout="topleft"
          name="yesterday"
-         title="Yesterday">
+         title="어제">
             <flat_list_view
              follows="all"
              height="150"
@@ -47,7 +47,7 @@
         <accordion_tab
          layout="topleft"
          name="2_days_ago"
-         title="2 days ago">
+         title="2 일전">
             <flat_list_view
              follows="all"
              height="150"
@@ -61,7 +61,7 @@
         <accordion_tab
          layout="topleft"
          name="3_days_ago"
-         title="3 days ago">
+         title="3 일전">
             <flat_list_view
              follows="all"
              height="150"
@@ -75,7 +75,7 @@
         <accordion_tab
          layout="topleft"
          name="4_days_ago"
-         title="4 days ago">
+         title="4 일전">
             <flat_list_view
              follows="all"
              height="150"
@@ -89,7 +89,7 @@
         <accordion_tab
          layout="topleft"
          name="5_days_ago"
-         title="5 days ago">
+         title="5 일전">
             <flat_list_view
              follows="all"
              height="150"
@@ -103,7 +103,7 @@
         <accordion_tab
          layout="topleft"
          name="6_days_and_older"
-         title="6 days and older">
+         title="6 일 혹은 더 오래전">
             <flat_list_view
              follows="all"
              height="150"
@@ -117,7 +117,7 @@
         <accordion_tab
          layout="topleft"
          name="1_month_and_older"
-         title="1 month and older">
+         title="1 달 혹은 더 오래전">
             <flat_list_view
              follows="all"
              height="150"
@@ -131,7 +131,7 @@
         <accordion_tab
          layout="topleft"
          name="6_months_and_older"
-         title="6 months and older">
+         title="6 달 혹은 더 오래전">
             <flat_list_view
              follows="all"
              height="150"

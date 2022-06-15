@@ -45,7 +45,7 @@
      name="group_name"
      top="2"
      use_ellipses="true"
-     value="Unknown"
+     value="알 수 없음"
      width="242" />
     <button
      follows="right"
@@ -68,7 +68,7 @@
      right="-3"
      name="profile_btn"
      tab_stop="false"
-     tool_tip="View profile"
+     tool_tip="프로필 보기"
      top_delta="-2"
      width="20" />
 </panel>

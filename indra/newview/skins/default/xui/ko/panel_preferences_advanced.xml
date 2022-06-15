@@ -15,7 +15,7 @@
     </panel.string>
     <panel.string
      name="middle_mouse">
-        Middle Mouse
+        중간 마우스
     </panel.string>
     <check_box
      control_name="AllowMultipleViewers"
@@ -90,7 +90,7 @@
      word_wrap="true"
      top_pad="25"
      height="100">
-        Amount of time, in milliseconds, to yield every frame to other applications when [APP_NAME] is not the foreground window (default: 40; 1 second = 1000 milliseconds):
+        [APP_NAME]이(가) 포그라운드 창이 아닐 때 모든 프레임을 다른 애플리케이션에 넘겨주는 시간(밀리초)입니다(기본값: 40, 1초 = 1000밀리초).
     </text>
     <slider
      can_edit_text="true"

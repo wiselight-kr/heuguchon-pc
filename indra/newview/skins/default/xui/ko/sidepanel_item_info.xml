@@ -5,31 +5,31 @@
   layout="topleft"
   name="item properties"
   help_topic="item_properties"
-  title="Item Profile"
+  title="아이템 프로필"
   width="333">
   <panel.string
 	name="loading_experience">
-    (loading)
+    (로딩중)
   </panel.string>
   <panel.string
     name="unknown">
-    (unknown)
+    (알 수 없음)
   </panel.string>
   <panel.string
     name="unknown_multiple">
-    (unknown / multiple)
+    (알 수 없음 / 다중)
   </panel.string>
   <panel.string
     name="public">
-    (public)
+    (공공의)
   </panel.string>
   <panel.string
     name="you_can">
-    You can:
+    할 수 있음:
   </panel.string>
   <panel.string
     name="owner_can">
-    Owner can:
+    소유자가 할 수 있음:
   </panel.string>
   <panel.string
     name="acquiredDate">
@@ -37,11 +37,11 @@
   </panel.string>
   <panel.string
     name="origin_inventory">
-    (Inventory)
+    (인벤토리)
   </panel.string>
   <panel.string
     name="origin_inworld">
-    (Inworld)
+    (인월드)
   </panel.string>
   <icon
     follows="top|right"
@@ -86,7 +86,7 @@
     name="origin"
     text_color="LtGray_50"
     use_ellipses="true"
-    value="(Inventory)"
+    value="(인벤토리)"
     width="275" />
   <scroll_container
     color="SL-Background_66"
@@ -118,7 +118,7 @@
         name="LabelItemNameTitle"
         top="10"
         width="78">
-        Name:
+        이름:
       </text>
       <line_editor
         border_style="line"
@@ -131,7 +131,7 @@
         name="LabelItemName"
         top_delta="0"
         width="210"
-        tool_tip="The name is limited to 63 characters. Longer prim names are cut short. Names can only consist of printable characters found in the ASCII-7 (non-extended) character set, with the exception of the vertical bar/pipe &apos;|&apos;." />
+        tool_tip="이름은 63자로 제한됩니다. 긴 원시 이름은 짧게 자릅니다. 이름은 수직 막대/파이프 &apos;|&apos;를 제외하고 ASCII-7(확장되지 않은) 문자 집합에 있는 인쇄 가능한 문자로만 구성될 수 있습니다." />
       <text
         type="string"
         length="1"
@@ -142,7 +142,7 @@
         name="LabelItemDescTitle"
         top_pad="10"
         width="78">
-        Description:
+        묘사:
       </text>
       <line_editor
         border_style="line"
@@ -155,7 +155,7 @@
         name="LabelItemDesc"
         top_delta="-5"
         width="210"
-        tool_tip="When people have &apos;Hover Tips on All Objects&apos; selected in the viewer's settings, they'll see the object description pop-up for any object under their mouse pointer. The prim description is limited to 127 bytes any string longer then that will be truncated." />
+        tool_tip="사람들이 &apos를 가질 때;뷰어 설정에서 선택한 모든 개체에 대한 마우스 포인터 아래에 개체 설명 팝업이 표시됩니다. Prim 설명은 잘릴 문자열보다 긴 문자열로 127바이트로 제한됩니다." />
       <text
         type="string"
         length="1"
@@ -166,7 +166,7 @@
         name="LabelCreatorTitle"
         top_pad="10"
         width="78">
-        Creator:
+        창조자:
       </text>
       <avatar_icon
         follows="top|left"
@@ -209,7 +209,7 @@
         name="LabelOwnerTitle"
         top_pad="10"
         width="78">
-        Owner:
+        소유자:
       </text>
       <avatar_icon
         follows="top|left"
@@ -252,7 +252,7 @@
         name="LabelAcquiredTitle"
         top_pad="10"
         width="78">
-        Acquired:
+        획득:
       </text>
       <text
         type="string"
@@ -276,7 +276,7 @@
         top_pad="0"
         width="78"
         visible="true">
-        Experience:
+        경험:
       </text>
       <text
         type="string"
@@ -311,11 +311,11 @@
           layout="topleft"
           name="perm_modify"
           width="200">
-          You can:
+          할 수 있음:
         </text>
         <check_box
           height="18"
-          label="Modify"
+          label="수정"
           layout="topleft"
           left="20"
           name="CheckOwnerModify"
@@ -323,14 +323,14 @@
           width="90" />
         <check_box
           height="18"
-          label="Copy"
+          label="복사"
           layout="topleft"
           left_pad="0"
           name="CheckOwnerCopy"
           width="90" />
         <check_box
           height="18"
-          label="Transfer"
+          label="이전"
           layout="topleft"
           left_pad="0"
           name="CheckOwnerTransfer"
@@ -345,15 +345,15 @@
           name="AnyoneLabel"
           top_pad="8"
           width="100">
-          누구나:
+          누구든:
         </text>
         <check_box
           height="18"
-          label="Copy"
+          label="복사"
           layout="topleft"
           left_pad="0"
           name="CheckEveryoneCopy"
-          tool_tip="Anyone can take a copy of the object. Object and all of its contents must be copy and transfer permissive."
+          tool_tip="누구나 그 물건의 복사본을 가져갈 수 있다. 개체 및 개체의 모든 내용은 복사 및 전송 허용이어야 합니다."
           top_delta="-2"
           width="150" />
         <text
@@ -366,16 +366,16 @@
           name="GroupLabel"
           top_pad="8"
           width="100">
-          Group:
+          그룹:
         </text>
         <check_box
           height="18"
-          label="Share"
+          label="공유"
           layout="topleft"
           left_pad="0"
           top_delta="-2"
           name="CheckShareWithGroup"
-          tool_tip="Allow all members of the set group to share your modify permissions for this object. You must Deed to enable role restrictions."
+          tool_tip="집합 그룹의 모든 구성원이 이 개체에 대한 수정 권한을 공유할 수 있습니다. 역할 제한을 사용하려면 증서를 작성해야 합니다."
           width="150" />
         <text
           type="string"
@@ -388,43 +388,43 @@
           top_pad="8"
           width="200"
           word_wrap="true">
-          Next owner:
+          다음 소유자:
         </text>
         <check_box
           height="18"
-          label="Modify"
+          label="수정"
           layout="topleft"
           left="20"
           top_pad="0"
           name="CheckNextOwnerModify"
-          tool_tip="Next owner can edit properties like item name or scale of this object."
+          tool_tip="다음 소유자는 이 개체의 항목 이름 또는 축척과 같은 속성을 편집할 수 있습니다."
           width="90" />
         <check_box
           height="18"
-          label="Copy"
+          label="복사"
           layout="topleft"
           left_pad="0"
           name="CheckNextOwnerCopy"
-          tool_tip="Next owner can make unlimited copies of this object. Copies maintain creator information, and can never be more permissive than the item being copied."
+          tool_tip="다음 소유자는 이 개체의 복사본을 무제한으로 만들 수 있습니다. 복사본은 작성자 정보를 유지하며, 복사되는 항목보다 더 허용적일 수 없습니다."
           width="90" />
         <check_box
           height="18"
-          label="Transfer"
+          label="이전"
           layout="topleft"
           left_pad="0"
           name="CheckNextOwnerTransfer"
-          tool_tip="Next owner can give away or resell this object."
+          tool_tip="다음 소유자는 이 개체를 양도하거나 재판매할 수 있습니다."
           width="106" />
       </panel>
       <check_box
         height="18"
-        label="For Sale"
+        label="판매중"
         layout="topleft"
         left="20"
         name="CheckPurchase"
         top_pad="20"
         width="100"
-        tool_tip="Lets people buy this object, its content or it copy inworld for specified price." />
+        tool_tip="사람들이 지정된 가격으로 이 개체, 컨텐츠 또는 복사본을 세계에서 구입할 수 있습니다." />
       <combo_box
         height="23"
         left_pad="0"
@@ -432,18 +432,18 @@
         follows="left|top"
         name="ComboBoxSaleType"
         width="170"
-        tool_tip="Select whether purchaser will receive a copy, copy of the content or item itself." >
+        tool_tip="구매자가 내용 또는 품목 자체의 사본, 사본 또는 사본을 받을지 선택." >
         <combo_box.item
              name="Copy"
-             label="Copy"
+             label="복사"
              value="2" />
         <combo_box.item
              name="Contents"
-             label="Contents"
+             label="내용"
              value="3" />
         <combo_box.item
              name="Original"
-             label="Original"
+             label="원본"
              value="1" />
       </combo_box>
       <spinner
@@ -451,7 +451,7 @@
         decimal_digits="0"
         increment="1"
         name="Edit Cost"
-        label="Price: L$"
+        label="가격: L$"
         label_width="75"
         left="120"
         width="170"
@@ -459,7 +459,7 @@
         height="23"
         max_val="999999999"
         top_pad="10"
-        tool_tip="Object cost." />
+        tool_tip="개체 가격." />
     </panel>
 
   </scroll_container>
@@ -474,7 +474,7 @@
     <button
       follows="top|right"
       height="23"
-      label="Cancel"
+      label="취소"
       layout="topleft"
       name="cancel_btn"
       right="-1"

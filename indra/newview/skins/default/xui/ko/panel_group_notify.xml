@@ -2,7 +2,7 @@
 <panel
  background_visible="true"
  height="260"
- label="instant_message"
+ label="인스턴스 메세지"
  layout="topleft"
  left="0"
  name="panel_group_notify"
@@ -27,7 +27,7 @@
      text_color="GroupNotifyTextColor"
      top_pad="5"
      use_ellipses="true"
-     value="Group Notice"
+     value="그룹 알림"
      width="380"/>
     <text
      follows="left|top|right"
@@ -41,7 +41,7 @@
      top_pad="5"
      use_ellipses="true"
      width="380"
-     value="Sent by Sender Name, Group Name"/>
+     value="보낸 사람 이름, 그룹 이름별로 전송됨"/>
     <group_icon
      follows="left|top"
      height="64"
@@ -68,7 +68,7 @@
      top="50"
      type="string"
      use_ellipses="true"
-     value="message"
+     value="메세지"
      word_wrap="true" >
     </simple_text_editor>
     <icon
@@ -91,7 +91,7 @@
      parse_urls="false"
      right="-10"
      text_color="GroupNotifyTextColor"
-     value="Attachment"
+     value="첨부파일"
      use_ellipses="true" />
     <button
      bottom="-10"
@@ -106,7 +106,7 @@
      bottom="-10"
      follows="bottom|right"
      height="20"
-     label="Group Notices"
+     label="그룹 알림"
      layout="topleft"
      left_pad="10"
      name="btn_notices"
@@ -115,7 +115,7 @@
      bottom="-10"
      follows="bottom|right"
      height="20"
-     label="Group Chat"
+     label="그룹 채팅"
      layout="topleft"
      left_pad="10"
      name="btn_groupchat"

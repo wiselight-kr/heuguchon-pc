@@ -131,7 +131,7 @@
     left="192"
     name="buy_land_btn"
     top="2"
-    tool_tip="Parcel is for sale" 
+    tool_tip="구획은 판매중입니다" 
     width="16"/>
   <icon
     follows="right|top"
@@ -179,18 +179,18 @@
        length="1"
        name="parcel_info_text"
        top="3"
-       value="(loading...)"
+       value="(로딩중...)"
        type="string"
        width="100"/>
    </panel>
 
     <panel.string
      name="packet_loss_tooltip">
-        Packet Loss
+        패킷 손실
     </panel.string>
     <panel.string
      name="bandwidth_tooltip">
-        Bandwidth
+        대역폭
     </panel.string>
     <panel.string
      name="time">
@@ -226,7 +226,7 @@
 		 name="search_menu_edit"
 		 right="-1"
 		 text_pad_left="6"
-		 tool_tip="Type the search term you are interested in here. Results will be displayed for partial fulltext matches within the menu."
+		 tool_tip="관심 있는 검색어를 여기에 입력하십시오. 메뉴 내에서 전체 텍스트의 부분 일치에 대한 결과가 표시됩니다."
 		 top="0">
 			<search_button 
 			 top_pad="4"
@@ -267,7 +267,7 @@
      name="balance"
      text_color="CurrencyColor"
      text_readonly_color="CurrencyColor"
-     tool_tip="Click to refresh your L$ balance"
+     tool_tip="L$ 잔액을 새로 고치려면 클릭하십시오"
      top="4"
      wrap="false"
      value="L$??" 
@@ -287,7 +287,7 @@
      label_shadow="true"
      name="buyL"
      pad_right="2"
-     tool_tip="Click to buy more L$"
+     tool_tip="추가 L$를 구입하려면 클릭하십시오"
      top="2"
      width="40" />
   </panel>
@@ -314,7 +314,7 @@
      layout="topleft"
      left="2"
      name="TimeText"
-     tool_tip="Current time (Pacific)"
+     tool_tip="현재 시간 (태평양)"
      width="96">
         24:00:00 AM PST
     </text>
@@ -347,7 +347,7 @@
      left_pad="2"
      top="1"
      name="stream_toggle_btn"
-     tool_tip="Start/Stop Parcel Audio Stream"
+     tool_tip="구획 오디오 스트림 시작/중지"
      width="16" >
     </button>
     <button
@@ -361,7 +361,7 @@
      left_pad="2"
      top="1"
      name="media_toggle_btn"
-     tool_tip="Start/Stop All Media (Music, Video, Web pages)"
+     tool_tip="모든 미디어 시작/중지(음악, 비디오, 웹 페이지)"
      width="16" >
     </button>
     <button
@@ -385,7 +385,7 @@
      height="16"
      width="42"
      halign="center"
-     tool_tip="Frames per second"
+     tool_tip="초당 프레임 수"
      wrap="false">
         200.0
     </text>

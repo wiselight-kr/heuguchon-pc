@@ -2,94 +2,94 @@
 <teleport_messages>
 	<message_set name="errors">
 		<message name="invalid_tport">
-			Teleport attempts are limited to 6 per minute. If you are having trouble, wait one minute and try teleporting again. If the problem persists, log out and log in again.
+			순간이동 시도는 분당 6회로 제한된다. 문제가 있으면 1분 정도 기다렸다가 다시 순간이동을 시도하세요. 문제가 지속되면 로그아웃했다가 다시 로그인하십시오.
 		</message>
 		<message name="invalid_region_handoff">
-			Problem encountered processing your region crossing. You may need to log back in before you can cross regions.
-If you continue to get this message, please check the [SUPPORT_SITE].
+			영역 교차 처리 중 문제가 발생했습니다. 지역을 가로지르기 전에 다시 로그인해야 할 수 있습니다.
+이 메시지가 계속 표시되면 [SUPPORT_SITE]를 확인하십시오.
 		</message>
 		<message name="blocked_tport">
-			Sorry, teleport is currently blocked. Try again in a moment.
-If you still cannot teleport, please log out and log back in to resolve the problem.
+			죄송합니다, 순간이동은 현재 차단되어 있습니다. 잠시 후에 다시 시도하십시오.
+그래도 순간이동을 할 수 없으면 로그아웃했다가 다시 로그인하여 문제를 해결하십시오.
 		</message>
 		<message name="nolandmark_tport">
-			Sorry, but system was unable to locate landmark destination.
+			죄송합니다. 시스템이 랜드마크 대상을 찾을 수 없습니다.
 		</message>
 		<message name="timeout_tport">
-			Sorry, but system was unable to complete the teleport connection.
-Try again in a moment.
+			죄송합니다. 시스템에서 순간이동 연결을 완료할 수 없습니다.
+잠시 후에 다시 시도하십시오.
 		</message>
 		<message name="NoHelpIslandTP">
-You cannot teleport back to Welcome Island.
-Go to &apos;Welcome Island Public&apos; to repeat the tutorial.
+웰컴 아일랜드로 순간이동으로 돌아갈 수 없습니다.
+&apos로 이동아일랜드 퍼블릭 &apos; 자습서 반복을 환영합니다.
 		</message>
 		<message name="noaccess_tport">
-			Sorry, you do not have access to that teleport destination.
+			죄송합니다. 해당 순간이동 대상에 액세스할 수 없습니다.
 		</message>
 		<message name="missing_attach_tport">
-			Your attachments have not arrived yet. Try waiting for a few more seconds or log out and back in again before attempting to teleport.
+			첨부 파일이 아직 도착하지 않았습니다. 몇 초 더 기다리거나 순간이동을 시도하기 전에 로그아웃했다가 다시 로그인하십시오.
 		</message>
 		<message name="too_many_uploads_tport">
-			The asset queue in this region is currently clogged so your teleport request will not be able to succeed in a timely manner. Please try again in a few minutes or go to a less busy area.
+			이 영역의 자산 대기열은 현재 막혔으므로 텔레포트 요청을 적시에 성공할 수 없습니다. 잠시 후 다시 시도하거나 덜 붐비는 지역으로 이동하십시오.
 		</message>
 		<message name="expired_tport">
-			Sorry, but the system was unable to complete your teleport request in a timely fashion. Please try again in a few minutes.
+			죄송합니다. 시스템에서 순간이동 요청을 적시에 완료할 수 없습니다. 잠시 후 다시 시도하십시오.
 		</message>
 		<message name="expired_region_handoff">
-			Sorry, but the system was unable to complete your region crossing in a timely fashion. Please try again in a few minutes.
+			죄송합니다. 시스템이 지역 건널목을 적시에 완료할 수 없습니다. 잠시 후 다시 시도하십시오.
 		</message>
 		<message name="preexisting_tport">
-			Sorry, but the system was unable to start your teleport. Please try again in a few minutes.
+			죄송합니다. 시스템에서 순간이동을 시작할 수 없습니다. 잠시 후 다시 시도하십시오.
 		</message>
 		<message name="no_host">
-			Unable to find teleport destination. The destination may be temporarily unavailable or no longer exists. Please try again in a few minutes.
+			순간이동 대상을 찾을 수 없습니다. 대상이 일시적으로 사용할 수 없거나 더 이상 존재하지 않을 수 있습니다. 잠시 후 다시 시도하십시오.
 		</message>
 		<message name="no_inventory_host">
-			The inventory system is currently unavailable.
+			재고 시스템을 현재 사용할 수 없습니다.
 		</message>
     <message name="MustGetAgeRegion">
-      You must be age 18 or over to enter this region.
+      이 지역에 들어가려면 18세 이상이어야 합니다.
     </message>
     <message name="RegionTPSpecialUsageBlocked">
-      Unable to enter region. '[REGION_NAME]' is a Skill Gaming Region, and you must meet certain criteria in order to enter. For details, please review the [http://wiki.secondlife.com/wiki/Linden_Lab_Official:Second_Life_Skill_Gaming_FAQ Skill Gaming FAQ].
-    </message>
+      지역을 입력할 수 없습니다. '[REGION_NAME]'은 스킬 게임 영역이며, 참가하려면 특정 기준을 충족해야 합니다. 자세한 내용은 [http://wiki.secondlife.com/wiki/Linden_Lab_Official:Second_Life_Skill_Gaming_FAQ 스킬 게임 FAQ]를 참조하십시오.
+          </message>
   </message_set>
 	<message_set name="progress">
 		<message name="sending_dest">
-			Sending to destination.
+			대상으로 전송.
 		</message>
 		<message name="redirecting">
-			Redirecting to different location.
+			다른 위치로 재위치조정.
 		</message>
 		<message name="relaying">
-			Relaying to destination.
+			대상으로 릴레이 중.
 		</message>
 		<message name="sending_home">
-			Sending home location request.
+			홈 위치 요청 전송 중.
 		</message>
 		<message name="sending_landmark">
-			Sending landmark location request.
+			랜드마크 위치 요청 전송 중.
 		</message>
 		<message name="completing">
-			Completing teleport.
+			순간이동 완료 중.
 		</message>
 		<message name="completed_from">
-			Teleport completed from [T_SLURL]
+			[T_SURL]에서 순간이동 완료
 		</message>
 		<message name="resolving">
-			Resolving destination.
+			대상 확인 중.
 		</message>
 		<message name="contacting">
-			Contacting new region.
+			새 지역에 연락하는 중.
 		</message>
 		<message name="arriving">
-			Arriving...
+			도착 중...
 		</message>
 		<message name="requesting">
-			Requesting Teleport...
+			순간이동 요청하는 중...
 		</message>
     <message name="pending">
-      Pending Teleport...
+      순간이동 대기 중...
     </message>
   </message_set>
 </teleport_messages>

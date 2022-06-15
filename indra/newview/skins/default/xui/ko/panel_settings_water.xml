@@ -2,7 +2,7 @@
 <panel
         border="true"
         follows="all"
-        label="Water"
+        label="물"
         layout="topleft"
         left="0"
         name="panel_settings_water"
@@ -32,7 +32,7 @@
                     left="5"
                     top="5"
                     width="215">
-                Water Fog:
+                물 안개:
             </text>
             <text
                     name="color_label"
@@ -42,7 +42,7 @@
                     left_delta="15"
                     top_delta="0"
                     width="60">
-                Color:
+                색상:
             </text>
             <color_swatch
                     can_apply_immediately="true"
@@ -61,7 +61,7 @@
                     top_delta="-15"
                     left_delta="80"
                     width="150">
-                Density Exponent:
+                밀도 지수:
             </text>
             <slider
                     decimal_digits="1"
@@ -84,7 +84,8 @@
                     top_delta="25"
                     left_delta="-15"
                     width="150">
-                Underwater Modifier:</text>
+                수중 수정기:
+                    </text>
             <slider
                     decimal_digits="2"
                     follows="left|top"
@@ -108,7 +109,7 @@
                             name="FresnelScaleText"
                             top_delta="-53"
                             width="150">
-                        Fresnel Scale:
+                        Fresnel 스케일:
                     </text>
                     <slider
                             decimal_digits="2"
@@ -129,7 +130,7 @@
                             name="FresnelOffsetText"
                             top_delta="25"
                             width="150">
-                        Fresnel Offset:
+                        Fresnel 오프셋:
                     </text>
                     <slider
                             decimal_digits="2"
@@ -174,7 +175,7 @@
                             left="15"
                             top="5"
                             width="215">
-                        Normal Map
+                        일반 지도
                     </text>
                     <texture_picker
                             height="84"
@@ -192,7 +193,7 @@
                             layout="topleft"
                             top_delta="-20"
                             left_delta="175">
-                        Large Wave Speed
+                        큰 파도 속력
                     </text>
                     <xy_vector
                         follows="top|left"
@@ -217,7 +218,7 @@
                             layout="topleft"
                             top_delta="-20"
                             left_delta="140">
-                        Small Wave Speed
+                        작은 파도 속력
                     </text>
                     <xy_vector
                         follows="top|left"
@@ -243,7 +244,7 @@
                             left="10"
                             top="90"
                             width="215">
-                        Reflection Wavelet Scale
+                        반사 잔물결 스케일
                     </text>
                     <slider
                             decimal_digits="1"
@@ -304,7 +305,7 @@
                             left="5"
                             top="5"
                             width="215">
-                        Refraction And Blur:
+                        굴절 및 흐림:
                     </text>
                     <text
                             name="refraction_scale_above_label"
@@ -314,7 +315,7 @@
                             top_delta="25"
                             left_delta="5"
                             width="215">
-                        Refraction Scale (Above)
+                        굴절 스케일 (위)
                     </text>
                     <slider
                             control_name="water_scale_above"
@@ -341,7 +342,7 @@
                             left_delta="-5"
                             top_pad="5"
                             width="215">
-                        Refraction Scale (Below)
+                        굴절 스케일(아래)
                     </text>
                     <slider
                             control_name="water_scale_below"
@@ -367,7 +368,7 @@
                             left_delta="-5"
                             top_pad="5"
                             width="215">
-                        Blur Multiplier
+                        블러 승수
                     </text>
                     <slider
                             control_name="water_blur_multip"

@@ -43,7 +43,7 @@
  layout="topleft"
  follows="right|top"
  name="remove_button"
- tool_tip="Remove this control"
+ tool_tip="이 조작 삭제"
  label=""
  image_unselected="TrashItem_Off"
  image_selected="TrashItem_Press"
@@ -70,7 +70,7 @@
  top="2"
  right="-1"
  height="20">
-Control Label:
+조작 레이블:
 </text>
 
 </layout_panel>
@@ -143,7 +143,7 @@ Control Label:
      width="60"
      layout="topleft"
      follows="left|top"
-     label="On"
+     label="켬"
      value="1" />
     <radio_item
      name="off"
@@ -151,7 +151,7 @@ Control Label:
      layout="topleft"
      follows="right|top"
      left_pad="10"
-     label="Off"
+     label="끔"
      value="0" />
 </radio_group>
 

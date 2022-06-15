@@ -433,8 +433,8 @@
      right="-10">
         <!-- using a blank padding column to make things look prettier, since "halign" doesn't seem to work for checkboxes -Zi -->
         <column label="" name="make_pretty" width="1" />
-        <column label="Show" name="alert_enabled_check" width="22" />
-        <column label="Alert" name="alert_label" width="460" />
+        <column label="표시" name="alert_enabled_check" width="22" />
+        <column label="알림" name="alert_label" width="460" />
         <scroll_list.commit_callback
          function="Pref.SelectPopup" />
     </scroll_list>

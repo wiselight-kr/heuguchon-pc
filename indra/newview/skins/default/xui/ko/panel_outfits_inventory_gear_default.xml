@@ -7,7 +7,7 @@
  name="menu_gear_default"
  visible="false">
     <menu_item_call
-     label="Replace Current Outfit"
+     label="현재 의류 교체"
      layout="topleft"
      name="wear">
         <on_click
@@ -18,7 +18,7 @@
 		 parameter="wear" />
     </menu_item_call>
     <menu_item_call
-     label="Remove From Current Outfit"
+     label="현재 장비에서 제거"
      layout="topleft"
      name="remove">
         <on_click
@@ -32,7 +32,7 @@
      layout="topleft"
      name="Outfits Gear Separator" />
     <menu_item_call
-     label="Rename"
+     label="개명"
      layout="topleft"
      name="rename">
         <on_click
@@ -43,7 +43,7 @@
 		 parameter="rename" />
     </menu_item_call>
     <menu_item_call
-     label="Remove Link"
+     label="링크 제거"
      layout="topleft"
      name="remove_link">
         <on_click
@@ -54,7 +54,7 @@
 		 parameter="remove_link" />
     </menu_item_call>
     <menu_item_call
-     label="Delete Outfit"
+     label="의상 삭제"
      layout="topleft"
      name="delete">
         <on_click

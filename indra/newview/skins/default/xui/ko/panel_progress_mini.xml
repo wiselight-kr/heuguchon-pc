@@ -23,7 +23,7 @@
 <button
  follows="right|top"
  height="20"
- label="Cancel"
+ label="취소"
  layout="topleft"
  left_pad="4"
  name="cancel_btn"
@@ -37,6 +37,6 @@
  name="progress_text"
  right="-64"
  top="5"
- value="Progress..." />
+ value="진행..." />
 
 </panel>

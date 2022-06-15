@@ -4,7 +4,7 @@
  enabled="true" 
  follows="left|top|right|bottom"
  height="500" 
- label="Customize" 
+ label="사용자화" 
  left="102" 
  mouse_opaque="true"
  name="Media settings for controls" 
@@ -18,7 +18,7 @@
    left="10"
    name="controls_label" 
    text_readonly_color="LabelDisabledColor">
-    Controls:
+    조작:
   </text>
   <combo_box
    allow_text_entry="false"
@@ -31,13 +31,13 @@
    width="120">
     <combo_item
 	 name="Standard"
-	 value="Standard">
-      Standard
+	 value="표준">
+      표준
     </combo_item>
     <combo_item
 	 name="Mini"
 	 value="Mini">
-      Mini
+      미니
     </combo_item>
   </combo_box>
 
@@ -50,7 +50,7 @@
    name="owner_label" 
    text_readonly_color="LabelDisabledColor">
     Owner
-  </text>
+  소유자
   
   <check_box 
    bottom_delta="-22" 
@@ -59,7 +59,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Allow Navigation &amp; Interactivity" 
+   label="탐색 및 상호 작용 허용" 
    left="30" 
    mouse_opaque="true"
    name="perms_owner_interact" 
@@ -73,7 +73,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Show Control Bar" 
+   label="제어 막대 표시" 
    left="30" 
    mouse_opaque="true"
    name="perms_owner_control" 
@@ -88,7 +88,7 @@
    left="10"
    name="group_label" 
    text_readonly_color="LabelDisabledColor">
-    Group:
+    그룹:
   </text>
   
   <name_box 
@@ -109,7 +109,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Allow Navigation &amp; Interactivity" 
+   label="탐색 및 상호 작용 허용" 
    left="30" 
    mouse_opaque="true"
    name="perms_group_interact" 
@@ -123,7 +123,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Show Control Bar" 
+   label="제어 막대 표시" 
    left="30" 
    mouse_opaque="true"
    name="perms_group_control" 
@@ -138,7 +138,7 @@
    left="10" 
    name="anyone_label" 
    text_readonly_color="LabelDisabledColor">
-    누구나
+    누구든
   </text>
   
   <check_box 
@@ -148,7 +148,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Allow Navigation &amp; Interactivity" 
+   label="탐색 및 상호 작용 허용" 
    left="30" 
    mouse_opaque="true"
    name="perms_anyone_interact" 
@@ -162,7 +162,7 @@
    font="SansSerifSmall"
    height="16" 
    initial_value="false"
-   label="Show Control Bar" 
+   label="제어 막대 표시" 
    left="30" 
    mouse_opaque="true"
    name="perms_anyone_control" 

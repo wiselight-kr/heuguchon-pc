@@ -36,7 +36,7 @@
      name="Loading..."
      top="11"
      width="128">
-        Loading...
+        로딩중...
     </text>
     <text
      type="string"
@@ -48,7 +48,7 @@
      name="Loading...2"
      top_delta="0"
      width="128">
-        Loading...
+        로딩중...
     </text>
     <view_border 
      layout="topleft"

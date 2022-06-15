@@ -4,64 +4,64 @@
 	 layout="topleft"
 	 name="object properties"
 	 help_topic="object_properties"
-	 title="Object Profile"
+	 title="개체 프로필"
     follows="all"
 	 width="333">
 	 <panel.string
 	  name="text deed continued">
-		Deed
+		증서
 	 </panel.string>
 	<panel.string
 	 name="text deed">
-		Deed
+		증서
 	</panel.string>
             <panel.string
              name="text modify info 1">
-                You can modify this object
+                이 개체를 수정할 수 있습니다.
             </panel.string>
             <panel.string
              name="text modify info 2">
-                You can modify these objects
+                이 개체 수정할 수 있습니다.
             </panel.string>
             <panel.string
              name="text modify info 3">
-                You can't modify this object
+                이 개체를 수정할 수 없습니다.
             </panel.string>
             <panel.string
              name="text modify info 4">
-                You can't modify these objects
+                이 개체는 수정할 수 없습니다.
             </panel.string>
             <panel.string
       name="text modify info 5">
-    You can't modify this object across a region boundary
+    영역 경계에서 이 개체를 수정할 수 없습니다.
   </panel.string>
   <panel.string
       name="text modify info 6">
-    You can't modify these objects across a region boundary
+    영역 경계에서 이러한 개체를 수정할 수 없습니다.
   </panel.string>
   <panel.string
              name="text modify warning">
-                This object has linked parts
+                이 개체에 연결된 부품이 있습니다.
             </panel.string>
             <panel.string
              name="Cost Default">
-                Price: L$
+                가격: L$
             </panel.string>
             <panel.string
              name="Cost Total">
-                Sum Price: L$
+                총합: L$
             </panel.string>
             <panel.string
              name="Cost Per Unit">
-                Price Per: L$
+                개당 가격: L$
             </panel.string>
             <panel.string
              name="Cost Mixed">
-                Mixed Price
+                혼합 가격
             </panel.string>
             <panel.string
              name="Sale Mixed">
-                Mixed Sale
+                혼합 판매
             </panel.string>
     <button
      follows="top|left"
@@ -86,7 +86,7 @@
      text_color="LtGray"
      top="0"
      use_ellipses="true"
-     value="Object Profile"
+     value="개체 프로필"
      right="-10" />
 	    <text
      follows="top|left|right"
@@ -95,7 +95,7 @@
      left="45"
      name="where"
      text_color="LtGray_50"
-     value="(Inworld)"
+     value="(인월드)"
      right="-10" />
     <scroll_container
      color="SL-Background"
@@ -129,7 +129,7 @@
              name="Name:"
 		     top="10"
 		     width="78">
-	        Name:
+	        이름:
 	    </text>
 	    <line_editor
 		     border_style="line"
@@ -142,7 +142,7 @@
              name="Object Name"
 	    	 top_delta="0"
 		     width="225"
-             tool_tip="The name is limited to 63 characters. Longer prim names are cut short. Names can only consist of printable characters found in the ASCII-7 (non-extended) character set, with the exception of the vertical bar/pipe &apos;|&apos;." />
+             tool_tip="이름은 63자로 제한됩니다. 긴 원시 이름은 짧게 자릅니다. 이름은 수직 막대/파이프 &apos;|&apos;를 제외하고 ASCII-7(확장되지 않은) 문자 집합에 있는 인쇄 가능한 문자로만 구성될 수 있습니다." />
 	    <text
 	    type="string"
 	    length="1"
@@ -153,7 +153,7 @@
              name="Description:"
 	    top_pad="10"
 	    width="78">
-	        Description:
+	        묘사:
 	    </text>
             <line_editor
 	     border_style="line"
@@ -167,7 +167,7 @@
 		     max_length_bytes="127"
 	    	 top_delta="-5"
 	    	 width="225"
-             tool_tip="When people have &apos;Hover Tips on All Objects&apos; selected in the viewer's settings, they'll see the object description pop-up for any object under their mouse pointer. The prim description is limited to 127 bytes any string longer then that will be truncated." />
+             tool_tip="사람들이 &apos를 가질 때;뷰어 설정에서 선택한 모든 개체에 대한 마우스 포인터 아래에 개체 설명 팝업이 표시됩니다. Prim 설명은 잘릴 문자열보다 긴 문자열로 127바이트로 제한됩니다." />
 	    <text
 		     type="string"
 		     length="1"
@@ -178,7 +178,7 @@
 		 name="CreatorNameLabel"
 		  top_pad="12"
 		     width="78">
-	        Creator:
+	        창조자:
     	</text>
 	    <text
 		     type="string"
@@ -192,7 +192,7 @@
 		     translate="false"
          use_ellipses="true" 
 		     width="225">
-	        (loading ...)
+	        (로딩중 ...)
 	     </text>
 	    <text
 			 type="string"
@@ -204,7 +204,7 @@
 			name="Owner:"
 			top_pad="15"
 			 width="78">
-			    Owner:
+			    소유자:
 	     </text>
 	     <text
 			    type="string"
@@ -218,7 +218,7 @@
 			    translate="false"
           use_ellipses="true" 
 			    width="225">
-			    (loading ...)
+			    (로딩중 ...)
 	     </text>
 	    	    <text
 			 type="string"
@@ -230,7 +230,7 @@
 			name="Group_label"
 			top_pad="15"
 			width="78">
-			    Group:
+			    그룹:
 	     </text>
       		<button
 			 follows="top|left"
@@ -244,7 +244,7 @@
 			 top_delta="0"
 			 name="button set group"
 			 tab_stop="false"
-			 tool_tip="Choose a group to share this object's permissions"
+			 tool_tip="이 개체의 권한을 공유할 그룹 선택"
 			 width="10" />
             <name_box
              follows="left|top"
@@ -258,13 +258,13 @@
             <button
              follows="top|left"
              height="23"
-             label="Deed"
+             label="증서"
              label_selected="Deed"
              layout="topleft"
              name="button deed"
              top_pad="0"
              left="81"
-             tool_tip="Deeding gives this item away with next owner permissions. Group shared objects can be deeded by a group officer."
+             tool_tip="디딩은 다음 소유자 권한과 함께 이 항목을 제공합니다. 그룹 관리자가 그룹 공유 개체를 삭제할 수 있습니다."
              width="100" />
             <text
              type="string"
@@ -276,7 +276,7 @@
              left="5"
              name="label click action"
              width="280">
-                Click to:
+                클릭:
             </text>
             <combo_box
              follows="left|top"
@@ -285,35 +285,35 @@
              name="clickaction"
              width="168"
              left="81"
-             tool_tip="A click action enables you to interact with an object with a single left click. Each click action has a special cursor indicating what it does. Some click actions have requirements to function. For example Touch and Pay require scripts" >
+             tool_tip="클릭 동작을 사용하면 한 번의 마우스 왼쪽 단추로 개체와 상호 작용할 수 있습니다. 각 클릭 동작에는 해당 동작을 나타내는 특수 커서가 있습니다. 일부 클릭 동작에는 작동하기 위한 요구 사항이 있습니다. 예를 들어 터치 및 결제 스크립트 필요" >
                 <combo_box.item
-                 label="Touch  (default)"
+                 label="터치  (기본값)"
                  name="Touch/grab(default)"
-                 value="Touch" />
+                 value="터치" />
                 <combo_box.item
-                 label="Sit on object"
+                 label="개체에 앉기"
                  name="Sitonobject"
-                 value="Sit" />
+                 value="앉기" />
                 <combo_box.item
-                 label="Buy object"
+                 label="개체 구매"
                  name="Buyobject"
-                 value="Buy" />
+                 value="구매" />
                 <combo_box.item
-                 label="Pay object"
+                 label="개체 결제"
                  name="Payobject"
-                 value="Pay" />
+                 value="결제" />
                 <combo_box.item
-                 label="Open"
+                 label="열기"
                  name="Open"
-                 value="Open" />
+                 value="열기" />
                 <combo_box.item
-                 label="Zoom"
+                 label="확대"
                  name="Zoom"
-                 value="Zoom" />
+                 value="확대" />
                 <combo_box.item
-                 label="None"
+                 label="없음"
                  name="None"
-                 value="None" />
+                 value="없음" />
             </combo_box>
 	 <panel
          border="false"
@@ -338,7 +338,7 @@
              layout="topleft"
              name="perm_modify"
              width="280">
-                You can modify this object
+                이 개체를 수정할 수 있습니다.
             </text>
 	  	    <text
 			 type="string"
@@ -350,23 +350,23 @@
                name="Anyone can:"
 			 top_pad="8"
 			 width="100">
-			누구나:
+			누구든:
 	    </text>
 	    <check_box
 			 height="18"
-			 label="Copy"
+			 label="복사"
 			 layout="topleft"
 			 left_pad="0"
              name="checkbox allow everyone copy"
-             tool_tip="Anyone can take a copy of the object. Object and all of its contents must be copy and transfer permissive."
+             tool_tip="누구나 그 물건의 복사본을 가져갈 수 있다. 개체 및 개체의 모든 내용은 복사 및 전송 허용이어야 합니다."
 			 top_delta="-2"
 			 width="90" />
 	    <check_box
              height="18"
-             label="Move"
+             label="이동"
              layout="topleft"
              name="checkbox allow everyone move"
-             tool_tip="Anyone can move the object."
+             tool_tip="누구나 개체를 이동할 수 있습니다."
 			 left_pad="0"
              width="150" />
 	       	<text
@@ -379,16 +379,16 @@
 			 name="GroupLabel"
 			 top_pad="8"
 			 width="100">
-			Group:
+			그룹:
     	</text>
 			    <check_box
 			 height="18"
-			 label="Share"
+			 label="공유"
 			 layout="topleft"
 			 left_pad="90"
 			 top_delta="-2"
              name="checkbox share with group"
-			 tool_tip="Allow all members of the set group to share your modify permissions for this object. You must Deed to enable role restrictions."
+			 tool_tip="집합 그룹의 모든 구성원이 이 개체에 대한 수정 권한을 공유할 수 있습니다. 역할 제한을 사용하려면 증서를 작성해야 합니다."
 			 width="150" />
 	    	    <text
 			 type="string"
@@ -401,43 +401,43 @@
 			 top_pad="8"
 			 width="200"
 			 word_wrap="true">
-			Next owner:
+			다음 소유자:
 	    </text>
 	    <check_box
 			 height="18"
-			 label="Modify"
+			 label="수정"
 			 layout="topleft"
 			 left="20"
 			 top_pad="0"
              name="checkbox next owner can modify"
-             tool_tip="Next owner can edit properties like item name or scale of this object."
+             tool_tip="다음 소유자는 이 개체의 항목 이름 또는 축척과 같은 속성을 편집할 수 있습니다."
 			 width="90" />
 	    <check_box
 			 height="18"
-			 label="Copy"
+			 label="복사"
 			 layout="topleft"
 			 left_pad="0"
              name="checkbox next owner can copy"
-             tool_tip="Next owner can make unlimited copies of this object. Copies maintain creator information, and can never be more permissive than the item being copied."
+             tool_tip="다음 소유자는 이 개체의 복사본을 무제한으로 만들 수 있습니다. 복사본은 작성자 정보를 유지하며, 복사되는 항목보다 더 허용적일 수 없습니다."
 			 width="90" />
 	    <check_box
 			 height="18"
-			 label="Transfer"
+			 label="이전"
 			 layout="topleft"
 			 left_pad="0"
              name="checkbox next owner can transfer"
-			 tool_tip="Next owner can give away or resell this object"
+			 tool_tip="다음 소유자는 이 개체를 양도하거나 재판매할 수 있습니다."
 			 width="106" />
 	    </panel>
 	    <check_box
 			 height="23"
-			 label="For Sale"
+			 label="판매중"
 			 layout="topleft"
 			 left="20"
              name="checkbox for sale"
 			 top_pad="10"
 			 width="100"
-			 tool_tip="Lets people buy this object, its content or it copy inworld for specified price." />
+			 tool_tip="사람들이 지정된 가격으로 이 개체, 컨텐츠 또는 복사본을 세계에서 구입할 수 있습니다." />
 		<combo_box
 			 height="23"
 			 left_pad="0"
@@ -445,18 +445,18 @@
 			 follows="left|top"
              name="sale type"
 			 width="170"
-			 tool_tip="Select whether purchaser will receive a copy, copy of the content or item itself.">
+			 tool_tip="구매자가 내용 또는 품목 자체의 사본, 사본 또는 사본을 받을지 선택.">
         <combo_box.item
            name="Copy"
-           label="Copy"
+           label="복사"
            value="2" />
         <combo_box.item
            name="Contents"
-           label="Contents"
+           label="내용"
            value="3" />
         <combo_box.item
            name="Original"
-           label="Original"
+           label="원본"
            value="1" />
 	    </combo_box>
 		<spinner
@@ -466,22 +466,22 @@
         top_pad="10"
         left="120"
         name="Edit Cost"
-        label="Price: L$"
+        label="가격: L$"
         label_width="73"				
         width="150"
         min_val="0"
         height="20"
         max_val="999999999"
-        tool_tip="Object cost." />
+        tool_tip="목적원가." />
       <check_box
 	   height="20"
 	   width="110"
 	   top_pad="6"
-	   label="Show in search"
+	   label="검색으로 표시"
        layout="topleft"
 	   left="120"
        name="search_check"
-       tool_tip="Let people see this object in search results" />
+       tool_tip="검색 결과에서 이 개체를 볼 수 있도록 허용" />
             <text
              type="string"
         follows="left|top"
@@ -489,7 +489,7 @@
         top_pad="6"
         width="150"
         left="5">
-      Pathfinding attributes:
+      경로 찾기 특성:
     </text>
     <text
         type="string"
@@ -593,12 +593,12 @@
                 <button
 		     follows="top|left|right"
 		     height="23"
-		     label="Open"
+		     label="열기"
              auto_resize="true"
 		     layout="topleft"
 		     name="open_btn"
 		     width="73"
-		     tool_tip="Open to view the Object Contents." />
+		     tool_tip="개체 내용을 보려면 열기." />
       </layout_panel>
       <layout_panel
 	  follows="bottom|left"
@@ -611,11 +611,11 @@
 	          <button
 		     follows="top|left|right"
 		     height="23"
-		     label="Pay"
+		     label="결제"
 		     layout="topleft"
 		     name="pay_btn"
 		     width="73"
-		     tool_tip="Open Pay Window. Object must have pay script for this to work." />
+		     tool_tip="결제창을 엽니다. 개체에 유료 스크립트가 있어야 작동합니다." />
       </layout_panel>
       <layout_panel
 	  follows="bottom|left"
@@ -628,11 +628,11 @@
 	          <button
 		     follows="top|left|right"
 		     height="23"
-		     label="Buy"
+		     label="구매"
 		     layout="topleft"
 		     name="buy_btn"
 		     width="73"
-		     tool_tip="Open Buy Window. Requires the object to be set for sale." />
+		     tool_tip="구매 창을 엽니다. 판매를 위해 개체를 설정해야 합니다." />
       </layout_panel>
       <layout_panel
 	  follows="bottom|left"
@@ -645,11 +645,11 @@
                 <button
 		     follows="top|left|right"
 		     height="23"
-		     label="Details"
+		     label="세부사항"
 		     layout="topleft"
 		     name="details_btn"
 		     width="74"
-		     tool_tip="Open Inspect Object Window." />
+		     tool_tip="개체 조사 창 열기." />
 
 	    </layout_panel>
       </layout_stack>

@@ -23,7 +23,7 @@
     font.style="BOLD"
     name="Graphic Presets"
     width="200">
-      Graphic Presets
+      그래픽 사전 설정
   </text>
   <scroll_list
     follows="left|top"
@@ -57,7 +57,7 @@
     width="215" />
   <button
     name="open_prefs_btn"
-    label="Open Graphics Preferences"
+    label="그래픽 환경설정 열기"
     tool_tip = "Bring up graphics prefs"
     top_delta="3"
     left="15"

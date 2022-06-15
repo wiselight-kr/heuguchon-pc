@@ -206,7 +206,7 @@
                 background_visible="true"
                 bg_opaque_image_overlay="MouseGray"
                 background_opaque="true">
-
+알림
   <button name="local_chat_button"
           tool_tip="Shows/hides nearby chat window (CTRL+H)"
           label="근처 대화"

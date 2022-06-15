@@ -13,7 +13,7 @@
   arrow_size="12"
   max_folder_item_overlap="2">
 	<new_badge 
-        label="New" 
+        label="새로운" 
         label_offset_horiz="-1"
         location="right" 
         padding_horiz="12.5" 

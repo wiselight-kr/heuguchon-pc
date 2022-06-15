@@ -50,12 +50,12 @@
     allow_text_entry="true"
     follows="left|top"
     height="32"
-    label="Username"
+    label="사용자 이름"
     combo_editor.font="SansSerifLarge"
     max_chars="128"
     combo_editor.commit_on_focus_lost="false"
     combo_editor.prevalidate_callback="ascii"
-    tool_tip="The username you chose when you registered, like bobsmith12 or Steller Sunshine"
+    tool_tip="등록할 때 선택한 사용자 이름(예: bobsmith12 또는 Steller Sunshine)"
     name="username_combo"
     width="206">
     <combo_box.combo_editor
@@ -69,7 +69,7 @@
     max_length_chars="16"
     text_pad_left="8"
     name="password_edit"
-    label="Password"
+    label="비밀번호"
   	bg_image_always_focused="true"
     font="SansSerifLarge"
     is_password="true"
@@ -81,7 +81,7 @@
     allow_text_entry="true"
     control_name="NextLoginLocation"    
     follows="left|top"
-    label="My favorite places"
+    label="내가 가장 좋아하는 장소"
     height="32"
     max_chars="128"
     combo_editor.font="SansSerifLarge"
@@ -94,7 +94,7 @@
       bg_image_always_focused="true"
       text_pad_left="8"/>
     <combo_box.item
-      label="My last location"
+      label="마지막 위치"
       name="MyLastLocation"
       value="last" />
     <combo_box.item
@@ -107,7 +107,7 @@
     image_unselected="PushButton_Login"
     image_pressed="PushButton_Login_Pressed"
     image_hover_unselected="PushButton_Login_Over"
-    label="Log In"
+    label="로그인"
     label_color="White"
     font="SansSerifMedium"
     name="connect_btn"
@@ -126,7 +126,7 @@
     left_pad="10"
     width="200"
     valign="center">
-    Sign up
+    회원가입
   </text>
   <check_box
     follows="left|top"
@@ -138,7 +138,7 @@
     word_wrap="down"
     check_button.bottom="3"
     name="remember_name"
-    tool_tip="Already remembered user can be forgotten from Me &gt; Preferences &gt; Advanced &gt; Remembered Usernames."
+    tool_tip="이미 기억된 사용자는 Me &gt; 환경설정 &gt; 고급 &gt; 기억된 사용자 이름에서 잊혀질 수 있습니다."
     width="198" />
   <check_box
     control_name="RememberPassword"
@@ -148,7 +148,7 @@
     height="16"
     left="408"
     bottom_delta="0"
-    label="Remember password"
+    label="비밀번호 기억"
     word_wrap="down"
     check_button.bottom="3"
     name="remember_password"
@@ -161,7 +161,7 @@
   	left="588"
   	bottom_delta="8"
     max_chars="128"
-    label="Select grid"    
+    label="그리드 선택"    
     layout="topleft"
     name="server_combo"
     width="149" />
@@ -175,7 +175,7 @@
     bottom_delta="-8"
     width="120"
     halign="center">
-    Password help
+    비밀번호 도움말
   </text>
   </layout_panel>
   <layout_panel

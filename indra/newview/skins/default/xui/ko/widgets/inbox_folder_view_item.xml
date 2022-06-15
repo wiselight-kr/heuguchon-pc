@@ -5,7 +5,7 @@
   selection_image="Rounded_Square"
   >
 	<new_badge 
-        label="New" 
+        label="새로운" 
         label_offset_horiz="-1"
         location="right" 
         padding_horiz="12.5" 

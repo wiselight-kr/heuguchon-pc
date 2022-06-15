@@ -14,13 +14,13 @@
 	=== OFF ===
 </panel.string>
 	<string name="EmbeddedItemNotSet">
-		Not set
+		설정 안 됨
 	</string>
 	<string name="EmbeddedItemNotAvailable">
-		Not available
+		이용 불가능
 	</string>
 	<string name="EmbeddedItemNotLoggedIn">
-		Not logged in
+		로그인하지 않음
 	</string>
 
 <tab_container
@@ -1774,7 +1774,7 @@
        top_pad="6"
        width="475">
         대상 폴더를 변경하려면 인벤토리에서 해당 폴더를 마우스 오른쪽 버튼으로 클릭
-     "Use as default for"
+     "기본값으로 사용"
       </text>
       <button
        name="reset_default_folders"

@@ -34,7 +34,7 @@
              layout="topleft"
              left="10"
              name="colorswatch"
-             tool_tip="Click to open color picker"
+             tool_tip="색상 선택기를 열려면 클릭하십시오"
              top="20"
              width="64" />
             <text
@@ -103,11 +103,11 @@
                 <combo_box.item
                  label="물질"
                  name="Materials"
-                 value="Materials" />
+                 value="물질" />
                 <combo_box.item
                  label="미디어"
                  name="Media"
-                 value="Media" />
+                 value="미디어" />
             </combo_box>
             <radio_group
             height="50"
@@ -163,7 +163,7 @@
              layout="topleft"
              left="10"
              name="texture control"
-             tool_tip="Click to choose a picture"
+             tool_tip="사진을 선택하려면 클릭하십시오"
              top_pad="5"
              width="64" />
             <text
@@ -189,19 +189,19 @@
                 <combo_box.item
                  label="없음"
                  name="None"
-                 value="None" />
+                 value="없음" />
                 <combo_box.item
                  label="알파 혼합"
                  name="Alpha blending"
-                 value="Alpha blending" />
+                 value="알파 혼합" />
                 <combo_box.item
                  label="알파 마스킹"
                  name="Alpha masking"
-                 value="Alpha masking" />
+                 value="알파 마스킹" />
                 <combo_box.item
                  label="방사능 마스크"
                  name="Emissive mask"
-                 value="Emissive mask" />
+                 value="방사능 마스크" />
             </combo_box>
             <text
              type="string"
@@ -240,7 +240,7 @@
              layout="topleft"
              left="10"
              name="bumpytexture control"
-             tool_tip="Click to choose a picture"
+             tool_tip="사진을 선택하려면 클릭하십시오"
              top_delta="-55"
              width="64" />
             <text
@@ -266,75 +266,75 @@
                 <combo_box.item
                  label="없음"
                  name="None"
-                 value="None" />
+                 value="없음" />
                 <combo_box.item
-                 label="빛"
+                 label="밝기"
                  name="Brightness"
-                 value="Brightness" />
+                 value="밝기" />
                 <combo_box.item
                  label="어둠"
                  name="Darkness"
-                 value="Darkness" />
+                 value="어둠" />
                 <combo_box.item
                  label="나뭇결"
                  name="woodgrain"
-                 value="woodgrain" />
+                 value="나뭇결" />
                 <combo_box.item
                  label="나무껍질"
                  name="bark"
-                 value="bark" />
+                 value="나무껍질" />
                 <combo_box.item
                  label="벽돌"
                  name="bricks"
-                 value="bricks" />
+                 value="벽돌" />
                 <combo_box.item
                  label="흑백"
                  name="checker"
-                 value="checker" />
+                 value="흑백" />
                 <combo_box.item
                  label="콘크리트"
                  name="concrete"
-                 value="concrete" />
+                 value="콘크리트" />
                 <combo_box.item
                  label="딱딱한 타일"
                  name="crustytile"
-                 value="crustytile" />
+                 value="딱딱한 타일" />
                 <combo_box.item
                  label="석재"
                  name="cutstone"
-                 value="cutstone" />
+                 value="석재" />
                 <combo_box.item
                  label="원판"
                  name="discs"
-                 value="discs" />
+                 value="원판" />
                 <combo_box.item
                  label="자갈"
                  name="gravel"
-                 value="gravel" />
+                 value="자갈" />
                 <combo_box.item
                  label="페트리 접시"
                  name="petridish"
-                 value="petridish" />
+                 value="페트리 접시" />
                 <combo_box.item
                  label="측선"
                  name="siding"
-                 value="siding" />
+                 value="측선" />
                 <combo_box.item
                  label="돌 타일"
                  name="stonetile"
-                 value="stonetile" />
+                 value="돌 타일" />
                 <combo_box.item
                  label="치장 벽토"
                  name="stucco"
-                 value="stucco" />
+                 value="치장 벽토" />
                 <combo_box.item
                  label="흡입"
                  name="suction"
-                 value="suction" />
+                 value="흡입" />
                 <combo_box.item
                  label="직물 무늬"
                  name="weave"
-                 value="weave" />
+                 value="직물 무늬" />
               <!--
                  NORSPEC-182, ensure item doesn't show up in menu until it should
                 <combo_box.item
@@ -354,7 +354,7 @@
              layout="topleft"
              left="10"
              name="shinytexture control"
-             tool_tip="Click to choose a picture"
+             tool_tip="사진을 선택하려면 클릭하십시오"
              top_delta="-14"
              width="64" />
             <text
@@ -380,19 +380,19 @@
                 <combo_box.item
                  label="없음"
                  name="None"
-                 value="None" />
+                 value="없음" />
                 <combo_box.item
-                 label="낮은"
+                 label="낮음"
                  name="Low"
-                 value="Low" />
+                 value="낮음" />
                 <combo_box.item
                  label="중간"
                  name="Medium"
-                 value="Medium" />
+                 value="중간" />
                 <combo_box.item
-                 label="높은"
+                 label="높음"
                  name="High"
-                 value="High" />
+                 value="높음" />
               <!--
                  NORSPEC-182, ensure item doesn't show up in menu until it should
                 <combo_box.item
@@ -475,7 +475,7 @@
              layout="topleft"
              left_pad="10"
              name="shinycolorswatch"
-             tool_tip="Click to open color picker"
+             tool_tip="색상 선택기를 열려면 클릭하십시오"
              top_delta="-4"
              width="64" />
             <text
@@ -497,7 +497,7 @@
 			 left="10"
 			 name="add_media"
 			 top_pad="4"
-			 tool_tip="Add Media"
+			 tool_tip="미디어 추가"
 			 label="선택..."
 			 width="85">
 				<button.commit_callback
@@ -509,7 +509,7 @@
 			 layout="topleft"
 			 left_pad="5"
 			 name="delete_media"
-			 tool_tip="Delete this media texture"
+			 tool_tip="이 미디어 텍스처 삭제"
 			 top_delta="0"
 			 label="제거"
 			 width="85">
@@ -525,7 +525,7 @@
 			 left_pad="5"
 			 name="button align"
 			 top_delta="0"
-			 tool_tip="Align media texture (must load first)"
+			 tool_tip="미디어 텍스처 정렬(먼저 로드해야 함)"
 			 width="85" />
             <text
              type="string"
@@ -550,11 +550,11 @@
                 <combo_box.item
                  label="기본값"
                  name="Default"
-                 value="Default" />
+                 value="기본ㄱ밧" />
                 <combo_box.item
                  label="평면"
                  name="Planar"
-                 value="Planar" />
+                 value="평면" />
             </combo_box>
             <spinner
              follows="left|top"
@@ -605,7 +605,7 @@
              image_overlay="Edit_Flip_X"
              name="flipTextureScaleV"
              label=""
-             tool_tip="Flip"
+             tool_tip="뒤집기"
              width="16">
                <button.commit_callback
 				function="BuildTool.Flip"
@@ -808,7 +808,7 @@
              layout="topleft"
              left="7"
              name="checkbox planar align"
-             tool_tip="Align textures on all selected faces with the last selected face. Requires Planar texture mapping."
+             tool_tip="선택한 모든 면의 질감을 마지막으로 선택한 면과 정렬합니다. 평면 텍스처 매핑 필요."
              top_pad="2"
              width="203" />
             <!-- FS:Beq use Linden Lab control_name with FS control definition (also removes the typo in "syncronize" yay )-->
@@ -821,7 +821,7 @@
              left="7"
              top_pad="0"
              name="checkbox_sync_settings"
-             tool_tip="Synchronize texture map parameters"
+             tool_tip="텍스처 맵 매개변수 동기화"
              width="199" />
             <button
              layout="topleft"
@@ -831,7 +831,7 @@
              top_delta="-15"
              label="조정"
              name="button align textures"
-             tool_tip="Align current texture layers"
+             tool_tip="현재 텍스처 도면층 정렬"
              width="84" />
             <button
              layout="topleft"

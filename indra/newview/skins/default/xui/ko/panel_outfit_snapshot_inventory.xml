@@ -26,7 +26,7 @@
      text_color="white"
      type="string"
      top_delta="3">
-        Inventory
+        인벤토리
     </text>
     <view_border 
      bevel_style="in"
@@ -50,14 +50,14 @@
      width="200"
      type="string"
      word_wrap="true">
-Uploading an image to your inventory costs L$[UPLOAD_COST].
+이미지를 인벤토리에 업로드하려면 L$[UPLOAD_COST]가 필요합니다.
 
-Fee is based on your subscription level. Higher levels are charged lower fees.
+요금은 가입 수준에 따라 결정됩니다. 수준이 높을수록 낮은 수수료가 부과됩니다.
     </text>
     <button
      follows="right|bottom"
      height="23"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      name="cancel_btn"
      right="-5"
@@ -69,7 +69,7 @@ Fee is based on your subscription level. Higher levels are charged lower fees.
     <button
      follows="left|bottom"
      height="23"
-     label="Save"
+     label="저장"
      layout="topleft"
      left="10"
      name="save_btn"

@@ -7,10 +7,10 @@
  left="1"
  top="1"
  width="540"
- label="UI-선호"
+ label="UI-환경설정"
  name="Display panel">
 <tab_container
- label="Firestorm 선호"
+ label="Firestorm 환경설정"
  layout="topleft"
  follows="all"
  top="5"

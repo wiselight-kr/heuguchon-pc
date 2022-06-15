@@ -9,11 +9,11 @@
 	height="230"
 	name="nearby_media"
 	help_topic="nearby_media">
-  <string name="media_item_count_format">(%ld media items)</string>
-  <string name="empty_item_text">&lt;empty&gt;</string>
-  <string name="parcel_media_name">Parcel Streaming Media</string>
-  <string name="parcel_audio_name">Parcel Streaming Audio</string>
-  <string name="playing_suffix">(playing)</string>
+  <string name="media_item_count_format">(%ld 미디어 아이템)</string>
+  <string name="empty_item_text">&lt;빈&gt;</string>
+  <string name="parcel_media_name">구획 스트리밍 미디어</string>
+  <string name="parcel_audio_name">구획 스트리밍 오디오</string>
+  <string name="playing_suffix">(재생중)</string>
   <panel
 	  bevel_style="in"
     background_visible="false" 
@@ -25,22 +25,22 @@
 	<button
 		name="all_nearby_media_disable_btn"
 		follows="left"
-		tool_tip="Turn all nearby media off"
+		tool_tip="주변 미디어 모두 끄기"
 		left="8"
 		width="95"
 		height="22"
-		label="Stop All">
+		label="모두 중지">
 	  <button.commit_callback
 		  function="MediaListCtrl.DisableAll" />
 	</button>
 	<button
 		name="all_nearby_media_enable_btn"
 		follows="left"
-		tool_tip="Turn all nearby media on"
+		tool_tip="모든 주변 미디어 켜기"
 		left_pad="4"
 		width="95"
 		height="22"
-		label="Start All">
+		label="모두 시작">
 	  <button.commit_callback
 		  function="MediaListCtrl.EnableAll" />
 	</button>
@@ -52,7 +52,7 @@
 		image_selected="PushButton_Selected"
 		image_unselected="PushButton_Off"
 		hover_glow_amount="0.25"
-		tool_tip = "Bring up media prefs"
+		tool_tip = "미디어 접두사 불러오기"
 		top_delta="0"
 		left_pad="4"
 		height="22"
@@ -63,13 +63,13 @@
 	<button
 		name="more_btn"
 		follows="right"
-		tool_tip="Advanced Controls"
+		tool_tip="고급 조작"
 		top_delta="0"
 		right="-8"
 		width="66"
 		height="22"
 		is_toggle="true"
-		label="More &gt;&gt;"
+		label="더보기 &gt;&gt;"
 		label_selected="&lt;&lt; Less">
 	  <button.commit_callback
 		  function="MediaListCtrl.MoreLess" />
@@ -94,7 +94,7 @@
 		left="10"
 		name="nearby_media_title"
 		width="200">
-	  Nearby Media
+	  근처 미디어
 	</text>
 	<text
 		type="string"
@@ -105,7 +105,7 @@
 		left="10"
 		name="show_text"
 		width="62">
-	  Show:
+	  표시:
 	</text>
 	<combo_box
 		height="23"
@@ -115,7 +115,7 @@
 		follows="left|top"
 		name="show_combo">
 	  <combo_box.item
-		  label="All"
+		  label="모두"
 		  value="0"
 		  name="All" />
 	  <combo_box.item
@@ -123,11 +123,11 @@
 		  value="2"
 		  name="WithinParcel" />
 	  <combo_box.item
-		  label="Outside this Parcel"
+		  label="이 구획의 외부"
 		  value="3"
 		  name="OutsideParcel" />
 	  <combo_box.item
-		  label="On other Avatars"
+		  label="다른 아바타에서"
 		  value="4"
 		  name="OnOthers" />
 	</combo_box>
@@ -150,25 +150,25 @@
 	  <scroll_list.columns
 		  sort_column="media_proximity"
 		  width="-1"
-		  label="Proximity"
+		  label="근접"
 		  name="media_proximity" />
 	  <scroll_list.columns
 		  sort_column="media_visibility"
 		  width="-1"
-		  label="Visible"
+		  label="가시적"
 		  name="media_visibility" />
 	  <scroll_list.columns
 		  sort_column="media_class"
 		  width="-1"
-		  label="Class"
+		  label="클래스"
 		  name="media_class" />
 	  <scroll_list.columns
-		  label="Name"
+		  label="이름"
 		  name="media_name" />
 	  <scroll_list.columns
 		  sort_column="media_debug"
 		  width="-1"
-		  label="Debug"
+		  label="디버그"
 		  name="media_debug" />
 	</scroll_list>
 	<panel
@@ -211,7 +211,7 @@
 			  image_unselected="PushButton_Off"
 			  hover_glow_amount="0.25"
 			  layout="topleft"
-			  tool_tip="Stop selected media"
+			  tool_tip="선택한 미디어 중지"
 			  top="0"
 			  height="22"
 			  width="22">
@@ -238,7 +238,7 @@
 			  image_unselected="PushButton_Off"
 			  hover_glow_amount="0.25"
 			  layout="topleft"
-			  tool_tip = "Play selected media"
+			  tool_tip = "선택한 미디어 재생"
 			  top="0"
 			  height="22"
 			  width="22">
@@ -267,7 +267,7 @@
 			  top="0"
 			  height="22"
 			  width="22"
-			  tool_tip = "Pause selected media">
+			  tool_tip = "선택한 미디어 일시 중지">
 			<button.commit_callback
 				function="SelectedMediaCtrl.Pause" />
 		  </button>
@@ -290,7 +290,7 @@
 			  increment="0.01"
 			  initial_value="0.5"
 			  layout="topleft"
-			  tool_tip="Audio volume for selected media"
+			  tool_tip="선택한 미디어의 오디오 볼륨"
 			  width="200">
 			<slider_bar.commit_callback
 				function="SelectedMediaCtrl.Volume" />
@@ -316,7 +316,7 @@
 			  is_toggle="true"
 			  layout="topleft"
 			  scale_image="false" 
-			  tool_tip="Mute audio on selected media"
+			  tool_tip="선택한 미디어의 오디오 음소거"
 			  top="0"
 			  height="20"
 			  width="22" >
@@ -345,7 +345,7 @@
 			  top="0"
 			  height="22"
 			  layout="topleft"
-			  tool_tip="Zoom into selected media"
+			  tool_tip="선택한 미디어 확대"
 			  width="22">
 			<button.commit_callback
 				function="SelectedMediaCtrl.Zoom" />
@@ -371,7 +371,7 @@
 			  top="0"
 			  height="22"
 			  layout="topleft"
-			  tool_tip ="Zoom back from selected media"
+			  tool_tip ="선택한 미디어에서 축소"
 			  top_delta="-4"
 			  width="21" >
 			<button.commit_callback

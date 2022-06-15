@@ -11,13 +11,13 @@
    top="0"
    width="312">
   <string name="outfit_photo_string">
-    Photo of "[OUTFIT_NAME]" outfit
+    "[OUTFIT_NAME]" 의상 사진
   </string>
   <string name="no_outfits_msg">
-    You don't have any outfits yet. Try [secondlife:///app/search/all/ Search]
+    아직 의상이 없으시네요. [secondlife:///app/search/all/ 검색] 시도
   </string>
   <string name="no_matched_outfits_msg">
-    Didn't find what you're looking for? Try [secondlife:///app/search/all/[SEARCH_TERM] Search].
+    찾고 있는 것을 찾지 못했습니까? [secondlife:///app/search/all/[SEARCH_TERM] 검색] 시도.
   </string>
   <text
     type="string"
@@ -31,7 +31,7 @@
     valign="center"
     parse_urls="true"
     wrap="true">
-    Searching...
+    검색중...
   </text> 
   <scroll_container
    follows="all"
@@ -96,7 +96,7 @@
 	 width="312">
      <menu_button
        follows="bottom|left"
-       tool_tip="Show additional options"
+       tool_tip="추가 옵션 표시"
        height="25"
        image_hover_unselected="Toolbar_Left_Over"
        image_overlay="OptionsMenu_Off"
@@ -126,7 +126,7 @@
        follows="bottom|left"
        v_pad="6"
        width="100">
-          [COUNT] Outfits
+          [COUNT] 의류
       </text>
       <text
        top_delta="0"
@@ -141,7 +141,7 @@
        halign="right"
        v_pad="6"
        width="150">
-          Complexity: [WEIGHT]
+          복잡성: [WEIGHT]
       </text>
       <button
        follows="bottom|right"
@@ -153,7 +153,7 @@
        layout="topleft"
        left_pad="6"
        name="trash_btn"
-       tool_tip="Delete selected outfit"
+       tool_tip="선택한 의상 삭제"
        width="31"/>
     </panel>
 </panel>

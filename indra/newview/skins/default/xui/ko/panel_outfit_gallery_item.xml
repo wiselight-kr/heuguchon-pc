@@ -15,7 +15,7 @@
    top="0"
    >
   <string name="worn_string">
-    (worn)
+    (착용)
   </string>
   <icon
       left="1"
@@ -52,7 +52,7 @@
       top="2"
       width="150"
       use_ellipses="true">
-      Summer hipster, Pierce Pierce Pierce Pierce
+      여름 힙스터, 피어스 피어스 피어스
     </text>
     <text
       read_only="true"
@@ -64,7 +64,7 @@
       name="outfit_worn_text"
       top="12"
       width="150">
-      (worn)
+      (착용)
     </text>
   </panel>
 

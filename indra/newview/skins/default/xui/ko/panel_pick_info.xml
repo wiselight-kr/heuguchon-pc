@@ -34,7 +34,7 @@ bg_opaque_color="DkGray"
      name="title"
      text_color="LtGray"
      top="2"
-     value="Pick Info"
+     value="정보 선택"
      use_ellipses="true"
      width="275" />
     <scroll_container
@@ -83,7 +83,7 @@ bg_opaque_color="DkGray"
          read_only="true"
          text_color="white"
          v_pad="0"
-         value="[name]"
+         value="[이름]"
          use_ellipses="true" />
         <text_editor
          allow_scroll="false"
@@ -98,7 +98,7 @@ bg_opaque_color="DkGray"
          width="280"
          word_wrap="true"
          v_pad="0"
-         value="[loading...]" />
+         value="[로딩중...]" />
         <text_editor
          bg_readonly_color="DkGray2"
          follows="all"
@@ -112,7 +112,7 @@ bg_opaque_color="DkGray"
          name="pick_desc"
          read_only="true"
          text_readonly_color="white"
-         value="[description]"
+         value="[묘사]"
          wrap="true" />
     </panel>
     </scroll_container>
@@ -145,7 +145,7 @@ bg_opaque_color="DkGray"
 			  <button
 			  	 follows="bottom|left|right"
 		         height="23"
-		         label="Teleport"
+		         label="순간이동"
 		         layout="topleft"
 		         name="teleport_btn"
 		         top="0"
@@ -163,7 +163,7 @@ bg_opaque_color="DkGray"
 			  <button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Map"
+		         label="지도"
 		         layout="topleft"
 		         name="show_on_map_btn"
 		         top_pad="0"
@@ -181,7 +181,7 @@ bg_opaque_color="DkGray"
 			  <button
 		         follows="bottom|left|right"
 		         height="23"
-		         label="Edit"
+		         label="편집"
 		         layout="topleft"
 		         name="edit_btn"
 		         top_pad="0"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <panel
- label="General"
+ label="일반"
  width="470"
  height="410"
  class="panel_group_general"
@@ -9,17 +9,17 @@
  follows="all">
     <panel.string
      name="help_text">
-        The General tab contains general information about this group, a list of members, general Group Preferences and member options.
+        일반 탭에는 이 그룹에 대한 일반 정보, 구성원 목록, 일반 그룹 환경설정 및 구성원 옵션이 있습니다.
 
-Hover your mouse over the options for more help.
+추가 도움말을 보려면 마우스를 옵션 위에 놓으십시오.
     </panel.string>
     <panel.string
      name="group_info_unchanged">
-        General group information has changed
+        일반 그룹 정보가 변경되었습니다.
     </panel.string>
     <panel.string
      name="incomplete_member_data_str">
-        Retrieving member data
+        구성원 데이터를 검색하는 중
     </panel.string>
 
    <panel
@@ -40,7 +40,7 @@ Hover your mouse over the options for more help.
      type="string"
      follows="top|left"
      layout="topleft">
-    Group Key:
+    그룹 키:
     </text>
 
     <view_border
@@ -53,7 +53,7 @@ Hover your mouse over the options for more help.
       name="info_border" />
      <text_editor
       name="group_key"
-      label="Group Key:"
+      label="그룹 키:"
       left_delta="0"
       top_delta="0"
       width="282"
@@ -73,7 +73,7 @@ Hover your mouse over the options for more help.
      left_pad="4"
      right="-1"
      height="20"
-     label="Copy URI"
+     label="URI 복사"
      follows="top|right" />
 
     <text
@@ -85,7 +85,7 @@ Hover your mouse over the options for more help.
      type="string"
      follows="top|left"
      layout="topleft">
-    Founded by:
+    설립자:
     </text>
 
     <text
@@ -105,12 +105,12 @@ Hover your mouse over the options for more help.
      left_pad="4"
      right="-1"
      height="20"
-     label="Copy Name"
+     label="이름 복사"
      follows="top|right" />
 	 
     <texture_picker
      name="insignia"
-     tool_tip="Click to choose a picture"
+     tool_tip="사진을 선택하려면 클릭하십시오."
      height="110"
      left="0"
      top_pad="4"
@@ -133,7 +133,7 @@ Hover your mouse over the options for more help.
      max_length="511"
      word_wrap="true"
      layout="topleft">
-    Group Charter
+    그룹 헌장
     </text_editor>
 
     <text
@@ -146,7 +146,7 @@ Hover your mouse over the options for more help.
      visible="true"
      follows="top|right"
      layout="topleft">
-    Join (L$00000)
+    가입 (L$00000)
     </text>
 
     <button
@@ -155,7 +155,7 @@ Hover your mouse over the options for more help.
      left_pad="4"
      right="-1"
      height="20"
-     label="Join now!"
+     label="지금 가입!"
      visible="true"
      follows="top|right"
      layout="topleft" />
@@ -173,15 +173,15 @@ Hover your mouse over the options for more help.
      follows="all"
      layout="topleft">
         <name_list.columns
-         label="Member"
+         label="회원"
          name="name"
          relative_width="0.4" />
         <name_list.columns
-         label="Title"
+         label="제목"
          name="title"
          relative_width="0.4" />
         <name_list.columns
-         label="Status"
+         label="상태"
          name="status"
          relative_width="0.2" />
     </name_list>
@@ -214,27 +214,27 @@ Hover your mouse over the options for more help.
          name="my_group_settngs_label"
          follows="left|top|right"
          layout="topleft">
-        My Group Settings
+        내 그룹 설정
         </text>
 
         <check_box
          height="16"
-         label="Show in my profile"
+         label="내 프로필에 표시"
          layout="topleft"
          left="0"
          name="list_groups_in_profile"
-         tool_tip="Sets whether you want to show this group in your profile"
+         tool_tip="프로필에 이 그룹을 표시할지 여부를 설정합니다"
          top_pad="4"
          width="295" />
 
         <check_box
          height="16"
          font="SansSerifSmall"
-         label="Receive group notices"
+         label="그룹 통지 수신"
          layout="topleft"
          left="0"
          name="receive_notices"
-         tool_tip="Sets whether you want to receive Notices from this group.  Uncheck this box if this group is spamming you."
+         tool_tip="이 그룹에서 통지를 수신할지 여부를 설정합니다. 이 그룹이 스팸 메일을 보내는 경우 이 상자의 선택을 취소합니다."
          top_pad="4"
          width="300" />
 
@@ -242,11 +242,11 @@ Hover your mouse over the options for more help.
         <check_box
          height="16"
          font="SansSerifSmall"
-         label="Receive group instant messages"
+         label="그룹 인스턴트 메시지 수신"
          layout="topleft"
          left="0"
          name="receive_chat"
-         tool_tip="Sets whether you want to participate in group chat for this group."
+         tool_tip="이 그룹에 대한 그룹 채팅 참여 여부를 설정합니다."
          top_pad="5"
          width="300" />
         <!-- </exodus> -->
@@ -260,7 +260,7 @@ Hover your mouse over the options for more help.
          type="string"
          follows="left|top|right"
          layout="topleft">
-            Current title:
+            현재 제목:
         </text>
 
         <combo_box
@@ -270,7 +270,7 @@ Hover your mouse over the options for more help.
          left="0"
          right="-5"
          name="active_title"
-         tool_tip="Sets the title that appears in your avatar's name tag when this group is active."
+         tool_tip="이 그룹이 활성 상태일 때 아바타의 이름 태그에 나타나는 제목을 설정합니다."
          top_pad="2" />
 
     </layout_panel>
@@ -303,13 +303,13 @@ Hover your mouse over the options for more help.
          name="group_settngs_label"
          right="-1"
          layout="topleft">
-         Group Setup
+         그룹 설정
         </text>
 
         <check_box
          name="show_in_group_list"
-         tool_tip="Let people see this group in search results"
-         label="Show in search"
+         tool_tip="검색 결과에서 이 그룹을 볼 수 있도록 허용"
+         label="검색에서 표시"
          left="0"
          top_pad="4"
          width="10"
@@ -319,8 +319,8 @@ Hover your mouse over the options for more help.
 
         <check_box
          name="open_enrollement"
-         label="Anyone can join"
-         tool_tip="Sets whether this group allows new members to join without being invited."
+         label="누구나 가입 가능"
+         tool_tip="이 그룹이 초대되지 않고 새 구성원을 가입시킬지 여부를 설정합니다."
          top_pad="4"
          left="0"
          height="16"
@@ -328,15 +328,15 @@ Hover your mouse over the options for more help.
          layout="topleft" />
         <check_box
          name="check_enrollment_fee"
-         tool_tip="Sets whether to require an enrollment fee to join the group"
-         label="Cost to join"
+         tool_tip="그룹에 가입하는 데 등록 비용이 필요한지 여부를 설정합니다"
+         label="가입비"
          top_pad="4"
          width="10"
          height="16"
          layout="topleft" />
         <spinner
          name="spin_enrollment_fee"
-         tool_tip="New members must pay this fee to join the group when Enrollment Fee is checked."
+         tool_tip="가입비가 확인되면 새 회원이 그룹에 가입하려면 이 비용을 지불해야 합니다."
          top_pad="0"
          left_pad="14"
          width="100"
@@ -350,7 +350,7 @@ Hover your mouse over the options for more help.
          layout="topleft" />
         <combo_box
          name="group_mature_check"
-         tool_tip="Maturity ratings designate the type of content and behavior allowed in a group"
+         tool_tip="성숙도 등급은 그룹에 허용되는 내용 및 동작 유형을 지정합니다"
          left="0"
          top_pad="8"
          right="-1"
@@ -358,14 +358,14 @@ Hover your mouse over the options for more help.
          follows="left|right|top"
          layout="topleft">
             <combo_item name="select_mature" value="Select">
-            - Select maturity rating -
+            - 성숙 등급 선택 -
             </combo_item>
             <combo_box.item
-             label="Moderate Content"
+             label="중간 내용"
              name="mature"
              value="Mature" />
             <combo_box.item
-             label="General Content"
+             label="일반 내용"
              name="pg"
              value="Not Mature" />
         </combo_box>

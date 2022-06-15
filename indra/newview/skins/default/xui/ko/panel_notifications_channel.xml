@@ -29,15 +29,15 @@
          top="0"
          width="100">
             <scroll_list.columns
-             label="Name"
+             label="이름"
              name="name"
              width="100" />
             <scroll_list.columns
-             label="Content"
+             label="내용"
              name="content"
              width="150" />
             <scroll_list.columns
-             label="Date"
+             label="날짜"
              name="date"
              width="150" />
         </scroll_list>
@@ -57,15 +57,15 @@
          top="0"
          width="100">
             <scroll_list.columns
-             label="Name"
+             label="이름"
              name="name"
              width="100" />
             <scroll_list.columns
-             label="Content"
+             label="내용"
              name="content"
              width="150" />
             <scroll_list.columns
-             label="Date"
+             label="날짜"
              name="date"
              width="150" />
         </scroll_list>

@@ -78,7 +78,7 @@
 	     layout="topleft"
 	     left="5"
 	     name="back_btn"
-	     tool_tip="Go back to previous location"
+	     tool_tip="이전 위치로 돌아가기"
 	     top="0"
 	     width="31" />
 	    <pull_button
@@ -90,7 +90,7 @@
 	     layout="topleft"
 	     left_pad="0"
 	     name="forward_btn"
-	     tool_tip="Go forward one location"
+	     tool_tip="한 위치 앞으로 이동"
 	     top_delta="0"
 	     width="31" />
 	    <button
@@ -101,7 +101,7 @@
 	     layout="topleft"
 	     left_pad="7"
 	     name="home_btn"
-	     tool_tip="Teleport to home location"
+	     tool_tip="집 위치로 순간이동"
 	     top_delta="0"
 	     width="32" />
           <!-- About Land Button here -->         
@@ -113,7 +113,7 @@
 	     left_pad="7"
 	     name="About_Land"
 	     label="랜드" 
-	     tool_tip="Opens Land Information window"
+	     tool_tip="랜드 정보 창을 엽니다."
 	     top_delta="0"
 	     width="43">
 		 <button.init_callback
@@ -130,8 +130,8 @@
 	     layout="topleft"
 	     left_pad="7"
 	     name="PersonalLighting"
-	     label="라이팅"
-	     tool_tip="Opens the Personal Lighting window"
+	     label="조명"
+	     tool_tip="개인 조명 창을 엽니다."
 	     top_delta="0"
 	     width="60" />
           <!-- end of Windlight Button -->
@@ -186,7 +186,7 @@
 	     layout="topleft"
 	     mouse_opaque="true"
 	     name="search_combo_box"
-	     tool_tip="Search"
+	     tool_tip="검색"
 	     top="0"
 	     width="234">
          <combo_editor
@@ -228,7 +228,7 @@
      left="0"
      name="favorite"
      image_drag_indication="Accordion_ArrowOpened_Off"
-     tool_tip="Drag Landmarks here for quick access to your favorite places in Second Life!"
+     tool_tip="Second Life에서 즐겨찾는 장소에 빠르게 액세스하려면 랜드마크를 여기로 끌어다 놓으십시오!"
      width="1024">
         <label
          follows="left|top"
@@ -238,18 +238,18 @@
          left="10"
          name="favorites_bar_label"
          text_color="LtGray"
-         tool_tip="Drag Landmarks here for quick access to your favorite places in Second Life!"
+         tool_tip="Second Life에서 즐겨찾는 장소에 빠르게 액세스하려면 랜드마크를 여기로 끌어다 놓으십시오!"
 	     valign="bottom"
          width="102">
-          Favorites Bar
+          즐겨찾기 모음
         </label>
         <chevron_button
              name="more_btn"
              image_unselected="TabIcon_Close_Off"
              image_selected="TabIcon_Close_Off"
              tab_stop="false"
-             follows="left|bottom"
-             tool_tip="Show more of My Favorites"
+             follows="left|bottom" 
+             tool_tip="내 즐겨찾기 추가 표시"
              width="15"
              height="15"/>
   </favorites_bar>

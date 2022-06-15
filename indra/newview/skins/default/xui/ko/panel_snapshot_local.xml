@@ -204,16 +204,16 @@
      layout="topleft"
      left="10"
      name="save_btn"
-     tool_tip="Save image to a file"
+     tool_tip="파일로 이미지 저장"
      top_delta="0"
      width="97">
         <flyout_button.item
          label="저장"
          name="save_item"
-         value="save" />
+         value="저장" />
         <flyout_button.item
          label="다른이름으로 저장..."
          name="saveas_item"
-         value="save as" />
+         value="다른이름으로 저장" />
     </flyout_button>
 </panel>

@@ -17,28 +17,28 @@
         width="320">
     <string
             name="No Outfit"
-            value="No Outfit"/>
+            value="의상 없음"/>
     <string
             name="unsaved_changes"
-            value="Unsaved Changes"/>
+            value="변화 저장 안됨"/>
     <string
             name="now_editing"
-            value="Now Editing"/>
+            value="지금 편집중"/>
     <string
             name="folder_view_off"
-            value="Hierarchy_View_Disabled"
+            value="계층_보기_사용안함"
             translate="false"/>
     <string
             name="folder_view_on"
-            value="Hierarchy_View_On"
+            value="계층_보기_사용"
             translate="false"/>
     <string
             name="list_view_off"
-            value="List_View_Disabled"
+            value="목록_보기_사용안함"
             translate="false"/>
     <string
             name="list_view_on"
-            value="List_View_On"
+            value="목록_보기_사용"
             translate="false"/>
 
     <panel.string
@@ -47,19 +47,19 @@
     </panel.string>
     <panel.string
             name="unknown">
-        (unknown)
+        (알 수 없음)
     </panel.string>
 
     <!-- Wearables filtering strings -->
-    <string name="Filter.All" value="All"/>
-    <string name="Filter.Clothes/Body" value="Clothes/Body"/>
-    <string name="Filter.Objects" value="Objects"/>
-    <string name="Filter.Clothing" value="Clothing"/>
-    <string name="Filter.Bodyparts" value="Body parts"/>
+    <string name="Filter.All" value="모두"/>
+    <string name="Filter.Clothes/Body" value="의류/신체"/>
+    <string name="Filter.Objects" value="개체"/>
+    <string name="Filter.Clothing" value="의류"/>
+    <string name="Filter.Bodyparts" value="신체 부위"/>
 
     <string
             name="replace_body_part"
-            value="Click to replace your existing shape"/>
+            value="기존 모양을 바꾸려면 클릭하십시오."/>
 
 
     <button
@@ -84,7 +84,7 @@
             name="title"
             text_color="LtGray"
             top="0"
-            value="Edit Outfit Parts"
+            value="의상 부품 편집"
             use_ellipses="true"
             width="275" />
 
@@ -128,7 +128,7 @@
                     name="status"
                     text_color="EmphasisColor"
                     top="2"
-                    value="Now editing..."
+                    value="지금 편집중..."
                     use_ellipses="true"
                     width="245" />
             <text
@@ -140,7 +140,7 @@
                     parse_urls="false"
                     text_color="LtGray"
                     top_pad="2"
-                    value="[Current Outfit]"
+                    value="[현재 의류]"
                     use_ellipses="true"
                     width="245" />
             <loading_indicator
@@ -223,12 +223,12 @@ It is calculated as border_size + 2*UIResizeBarOverlap
                             image_pressed_selected="PushButton_Selected_Press"
                             image_selected="PushButton_Selected_Press"
                             is_toggle="true"
-                            label="Add More..."
+                            label="추가..."
                             layout="topleft"
                             left="2"
                             name="show_add_wearables_btn"
                             top_pad="2"
-                            tool_tip="Open/Close"
+                            tool_tip="열기/닫기"
                             width="125" />
 
                     <combo_box
@@ -279,7 +279,7 @@ It is calculated as border_size + 2*UIResizeBarOverlap
                             background_image="TextField_Search_Off"
                             enabled="true"
                             follows="left|right|top"
-                            label="Filter Inventory Wearables"
+                            label="필터 인벤토리 의류"
                             layout="topleft"
                             left="5"
                             width="290"
@@ -352,7 +352,7 @@ It is calculated as border_size + 2*UIResizeBarOverlap
             <button follows="bottom|left"
                     height="22"
                     left="2"
-                    label="Wear Item"
+                    label="아이템 입기"
                     layout="topleft"
                     name="plus_btn"
                     top_pad="5"
@@ -405,7 +405,7 @@ It is calculated as border_size + 2*UIResizeBarOverlap
                 halign="right"
                 v_pad="6"
                 width="150">
-                    Complexity: [WEIGHT]
+                    복잡성: [WEIGHT]
         </text>
         <button
                 follows="bottom|right"
@@ -418,7 +418,7 @@ It is calculated as border_size + 2*UIResizeBarOverlap
                 left_pad="6"
                 name="shop_btn_1"
                 top="1"
-                tool_tip="Visit the SL Marketplace. You can also select something you are wearing, then click here to see more things like it"
+                tool_tip="SL 마켓플레이스를 방문하세요. 또한 입고 있는 옷을 선택한 다음 여기를 클릭하여 더 많은 것을 볼 수 있습니다."
                 width="31" />
     </panel>
 
@@ -495,7 +495,7 @@ It is calculated as border_size + 2*UIResizeBarOverlap
                 halign="right"
                 v_pad="6"
                 width="150">
-                    Complexity: [WEIGHT]
+                    복잡성: [WEIGHT]
         </text>
         <button
                 follows="bottom|right"
@@ -508,7 +508,7 @@ It is calculated as border_size + 2*UIResizeBarOverlap
                 left_pad="6"
                 name="shop_btn_2"
                 top="1"
-                tool_tip="Visit the SL Marketplace. You can also select something you are wearing, then click here to see more things like it"
+                tool_tip="SL 마켓플레이스를 방문하세요. 또한 입고 있는 옷을 선택한 다음 여기를 클릭하여 더 많은 것을 볼 수 있습니다."
                 width="31" />
     </panel>
 
@@ -543,7 +543,7 @@ It is calculated as border_size + 2*UIResizeBarOverlap
                 <button
                         follows="bottom|left|right"
                         height="23"
-                        label="Save"
+                        label="저장"
                         left="1"
                         layout="topleft"
                         name="save_btn"
@@ -562,7 +562,7 @@ It is calculated as border_size + 2*UIResizeBarOverlap
               <button
                    follows="bottom|left|right"
                    height="23"
-                   label="Save as..."
+                   label="다른 이름으로 저장..."
                    layout="topleft"
                    name="save_as_btn"
                    top="0"
@@ -582,11 +582,11 @@ It is calculated as border_size + 2*UIResizeBarOverlap
                         follows="bottom|left|right"
                         height="23"
                         left="0"
-                        label="Undo Changes"
+                        label="변경 취소"
                         layout="topleft"
                         name="revert_btn"
                         top="0"
-                        tool_tip="Revert to last saved version"
+                        tool_tip="마지막으로 저장된 버전으로 복구"
                         width="147" />
             </layout_panel>
         </layout_stack>

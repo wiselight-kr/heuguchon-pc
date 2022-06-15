@@ -38,7 +38,7 @@
   background_visible="true"
   bg_opaque_image="Toast_Over"
   bg_alpha_image="Toast_Background"
-  label="wrapper_panel"
+  label="포장_패널"
   layout="topleft"
   left="0"
   name="wrapper_panel"
@@ -63,7 +63,7 @@
    translate="false"
    use_ellipses="true"
    width="260">
-    Toast text;
+    건배 텍스트;
   </text>
  </panel>
   <button

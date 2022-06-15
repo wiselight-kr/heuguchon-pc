@@ -4,7 +4,7 @@
  follows="top|left"
  height="460"
  help_topic="panel_region_terrain_tab"
- label="Terrain"
+ label="지형"
  layout="topleft"
  left="0"
  name="Terrain"
@@ -19,7 +19,7 @@
      name="region_text_lbl"
      top="10"
      width="100">
-        Region:
+        지역:
     </text>
     <text
      follows="left|top"
@@ -30,12 +30,12 @@
      name="region_text"
      top_delta="0"
      width="400">
-        unknown
+        알 수 없음
     </text>
     <spinner
      follows="left|top"
      height="20"
-     label="Water Height"
+     label="물 높이"
      label_width="120"
      layout="topleft"
      left="15"
@@ -47,7 +47,7 @@
      follows="left|top"
      height="20"
      increment="0.2"
-     label="Terrain Raise Limit"
+     label="지형 상승 제한"
      label_width="120"
      layout="topleft"
      left="240"
@@ -59,7 +59,7 @@
      follows="left|top"
      height="20"
      increment="0.2"
-     label="Terrain Lower Limit"
+     label="지형 하강 제한"
      label_width="120"
      layout="topleft"
      left="240"
@@ -86,7 +86,7 @@
      name="detail_texture_text"
      top="110"
      width="450">
-        Terrain Textures (requires 512x512 / 1024x1024, 24 bit .tga files)
+        지형 텍스처(512x512/1024x1024, 24비트 .tga 파일 필요)
     </text>
     <texture_picker
      follows="left|top"
@@ -134,7 +134,7 @@
      name="height_text_lbl"
      top_delta="90"
      width="65">
-        1 (Low)
+        1 (낮음)
     </text>
     <text
      type="string"
@@ -170,7 +170,7 @@
      name="height_text_lbl4"
      top_delta="0"
      width="100">
-        4 (High)
+        4 (높음)
     </text>
     <text
      type="string"
@@ -182,7 +182,7 @@
      name="height_text_lbl5"
      top_delta="30"
      width="300">
-        Texture Elevation Ranges
+        텍스처 고도 범위
     </text>
     <text
      follows="left|top"
@@ -193,7 +193,7 @@
      top_delta="30"
      width="200"
      word_wrap="true">
-      These values represent the blend range for the textures above.
+      이 값은 위의 텍스처의 혼합 범위를 나타냅니다.
     </text>
     <text
        follows="left|top"
@@ -204,7 +204,7 @@
        top_delta="32"
        width="200"
        word_wrap="true">
-        Measured in meters, the LOW value is the MAXIMUM height of Texture #1, and the HIGH value is the MINIMUM height of Texture #4.
+        미터 단위로 측정되는 낮은 값은 텍스처 #1의 최대 높이이고 높은 값은 텍스처의 최소 높이입니다 #4.
     </text>
     <text
      follows="left|top"
@@ -214,7 +214,7 @@
      name="height_text_lbl6"
      top="250"
      width="100">
-        Northwest
+        북서
     </text>
     <text
      follows="left|top"
@@ -224,14 +224,14 @@
      name="height_text_lbl7"
      top_delta="0"
      width="100">
-        Northeast
+        북동
     </text>
 <!--  northwest low-->
      <spinner
       follows="left|top"
       height="20"
       increment="0.5"
-      label="Low"
+      label="낮음"
       label_width="37"
       layout="topleft"
       left="230"
@@ -245,7 +245,7 @@
        follows="left|top"
        height="20"
        increment="0.5"
-       label="Low"
+       label="낮음"
        label_width="37"
        layout="topleft"
        left_pad="10"
@@ -259,7 +259,7 @@
       follows="left|top"
       height="20"
       increment="0.5"
-      label="High"
+      label="높음"
       label_width="37"
       layout="topleft"
       left="230"
@@ -273,7 +273,7 @@
        follows="left|top"
        height="20"
        increment="0.5"
-       label="High"
+       label="높음"
        label_width="37"
        layout="topleft"
        left_pad="10"
@@ -290,7 +290,7 @@
      name="height_text_lbl8"
      top_pad="10"
      width="100">
-        Southwest
+        남서
     </text>
     <text
      follows="left|top"
@@ -300,14 +300,14 @@
      name="height_text_lbl9"
      top_delta="0"
      width="100">
-        Southeast
+        남동
     </text>
 <!--  southwest low-->
     <spinner
      follows="left|top"
      height="20"
      increment="0.5"
-     label="Low"
+     label="낮음"
      label_width="37"
      layout="topleft"
      left="230"
@@ -321,7 +321,7 @@
      follows="left|top"
      height="20"
      increment="0.5"
-     label="Low"
+     label="낮음"
      label_width="37"
      layout="topleft"
      left_pad="10"
@@ -335,7 +335,7 @@
      follows="left|top"
      height="20"
      increment="0.5"
-     label="High"
+     label="높음"
      label_width="37"
      layout="topleft"
      left="230"
@@ -349,7 +349,7 @@
      follows="left|top"
      height="20"
      increment="0.5"
-     label="High"
+     label="높음"
      label_width="37"
      layout="topleft"
      left_pad="10"
@@ -362,37 +362,37 @@
     <button
      follows="left|top"
      height="20"
-     label="Download RAW terrain..."
+     label="RAW 지형 다운로드..."
      layout="topleft"
      left="10"
      name="download_raw_btn"
-     tool_tip="Available only to estate owners, not managers"
+     tool_tip="관리자가 아닌 부동산 소유자만 사용 가능"
      top="390"
      width="160" />
     <button
      follows="left|top"
      height="20"
-     label="Upload RAW terrain..."
+     label="RAW 지형 업로드..."
      layout="topleft"
      left_pad="10"
      top_delta="0"
      name="upload_raw_btn"
-     tool_tip="Available only to estate owners, not managers"
+     tool_tip="관리자가 아닌 부동산 소유자만 사용 가능"
      width="160" />
     <button
      follows="left|top"
      height="20"
-     label="Bake Terrain"
+     label="지형 굽기"
      layout="topleft"
      left_pad="10"
      name="bake_terrain_btn"
-     tool_tip="Set current terrain as mid-point for raise/lower limits"
+     tool_tip="현재 지형을 상승/하강 제한의 중간 지점으로 설정"
      width="100" />
     <button
      enabled="true"
      follows="left|top"
      height="20"
-     label="Apply"
+     label="적용"
      layout="topleft"
      left_delta="0"
      name="apply_btn"

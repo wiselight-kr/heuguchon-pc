@@ -20,7 +20,7 @@
      name="sidetray_tab_title"
      text_color="white"
      top="0"
-     value="Side Panel"
+     value="측면 패널"
      width="255" />
 
     <button
@@ -34,7 +34,7 @@
      top_pad="0"
      right="-28"
      width="16"
-     tool_tip="Undock" />
+     tool_tip="도킹 스테이션에서 분리하기" />
 
     <button
      follows="right|top"
@@ -47,7 +47,7 @@
      top_pad="-16"
      left_pad="-16"
      width="16"
-     tool_tip="Dock"
+     tool_tip="독"
      visible="false" />
 
     <button
@@ -60,7 +60,7 @@
      name="minimize"
      left_pad="1"
      width="16"
-     tool_tip="Collapse"
+     tool_tip="붕괴"
      visible="true" />
 <!--
   What does this do here? It seems to be left over from somewhere.

@@ -11,6 +11,6 @@
      name="no_items_msg"
      v_pad="10"
      h_pad="10"
-     value="No matches found"
+     value="일치하는 항목 없음"
      wrap="true" />
 </flat_list_view>

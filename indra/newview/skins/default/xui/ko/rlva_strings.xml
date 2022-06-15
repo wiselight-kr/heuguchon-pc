@@ -2,242 +2,242 @@
 <llsd>
 <map>
 
-	<key>strings</key>
+	<key>문자열</key>
 	<map>
 		<!-- Primarily used when @showloc restricted -->
-		<key>hidden_generic</key>
+		<key>히든 제너릭</key>
 		<map>
-			<key>value</key>
-			<string>(Hidden)</string>
+			<key>값</key>
+			<string>(숨김)</string>
 		</map>
-		<key>hidden_parcel</key>
+		<key>숨겨진 구획</key>
 		<map>
-			<key>value</key>
-			<string>(Hidden parcel)</string>
+			<key>값</key>
+			<string>(숨겨진 구획)</string>
 		</map>
-		<key>hidden_region</key>
+		<key>숨겨진 지역</key>
 		<map>
-			<key>value</key>
-			<string>(Hidden region)</string>
+			<key>값</key>
+			<string>(숨겨진 지역)</string>
 		</map>
 
 		<!-- Received/sent IMs will be replaced by the matching string when @recvim/sendim restricted -->
-		<key>blocked_recvim</key>
+		<key>차단된 recvim</key>
 		<map>
-			<key>value</key>
-			<string>*** IM blocked by your viewer</string>
-			<key>description</key>
-			<string>Shown in place of the original message when an incoming IM is blocked</string>
-			<key>label</key>
-			<string>Blocked incoming IM message (local)</string>
-			<key>customizable</key>
+			<key>값</key>
+			<string>*** IM이 뷰어에 의해 차단됨</string>
+			<key>묘사</key>
+			<string>수신 IM이 차단되면 원래 메시지 대신 표시됩니다.</string>
+			<key>레이블</key>
+			<string>차단된 수신 IM 메시지(로컬)</string>
+			<key>사용자 정의 가능</key>
 			<boolean>1</boolean>
 		</map>
-		<key>blocked_sendim</key>
+		<key>IM 전송 차단</key>
 		<map>
-			<key>value</key>
-			<string>*** IM blocked by sender's viewer</string>
-			<key>description</key>
-			<string>Shown (and sent to the remote party) when an outgoing IM is blocked</string>
-			<key>label</key>
-			<string>Blocked outgoing IM message (local + remote)</string>
-			<key>customizable</key>
+			<key>값</key>
+			<string>*** 보낸 사람의 뷰어에 의해 IM 차단됨</string>
+			<key>묘사</key>
+			<string>송신 IM이 차단될 때 표시(및 원격 파티로 전송)</string>
+			<key>레이블</key>
+			<string>차단된 발신 IM 메시지(로컬 + 원격)</string>
+			<key>사용자 정의 가능</key>
 			<boolean>1</boolean>
 		</map>
 
 		<!-- Sent to the remote party when they issue @list or @except as an IM query (if enabled) -->
-		<key>imquery_list_deny</key>
+		<key>IM 쿼리 목록 방해</key>
 		<map>
-			<key>value</key>
-			<string>*** The other party respectfully requests you mind your own business (bunnies made me do it!)</string>
-			<key>description</key>
-			<string>Sent to the remote party when you deny their request to list your active RLV restrictions)</string>
-			<key>label</key>
-			<string>@list and @except command (remote)</string>
-			<key>customizable</key>
+			<key>값</key>
+			<string>*** 상대방은 정중하게 당신 일이나 신경 써 달라고 부탁합니다</string>
+			<key>묘사</key>
+			<string>원격 파티의 활성 RLV 제한 목록 요청을 거부할 때 원격 파티로 전송</string>
+			<key>레이블</key>
+			<string>@list 과 @except 커맨드 (원격)</string>
+			<key>사용자 정의 가능</key>
 			<boolean>1</boolean>
 		</map>
 
 		<!-- Sent to the remote party as a suffix to @list to inform them there might be more information -->
-		<key>imquery_list_suffix</key>
+		<key>IM 쿼리 목록 접미사</key>
 		<map>
-			<key>value</key>
-			<string>(Use @except to see the list of active exceptions)</string>
-			<key>description</key>
-			<string>Sent to the remote party as a suffix to @list to inform them how to request your exceptions</string>
-			<key>label</key>
-			<string>@list command suffix (remote)</string>
-			<key>customizable</key>
+			<key>값</key>
+			<string>(활성 예외 목록을 보려면 @except를 사용합니다)</string>
+			<key>묘사</key>
+			<string>@list의 접미사로 원격 파티로 전송되어 예외 요청 방법을 알려줍니다.</string>
+			<key>레이블</key>
+			<string>@list 명령 접미사(원격)</string>
+			<key>사용자 정의 가능</key>
 			<boolean>0</boolean>
 		</map>
 
 		<!-- Sent to the remote party when they issue @stopim as an IM query (if enabled) -->
-		<key>stopim_nosession</key>
+		<key>IM 정지 세션 없음</key>
 		<map>
-			<key>value</key>
-			<string>*** The other party is not under a @startim restriction</string>
-			<key>description</key>
-			<string>Sent to the remote party when they attempt to forcefully close your IM conversation with them (and no such session exists)</string>
-			<key>label</key>
-			<string>@stopim command with no session (remote)</string>
-			<key>customizable</key>
+			<key>값</key>
+			<string>*** 상대방에게 @startim 제한이 없습니다</string>
+			<key>묘사</key>
+			<string>원격 대화 상대가 사용자와의 IM 대화를 강제로 종료하려고 할 때(그런 세션이 존재하지 않음) 전송됩니다</string>
+			<key>레이블</key>
+			<string>@stopim 명령(세션 없음)(원격)</string>
+			<key>사용자 정의 가능</key>
 			<boolean>1</boolean>
 		</map>
-		<key>stopim_endsession_remote</key>
+		<key>IM 정지 세션 종료 조종</key>
 		<map>
-			<key>value</key>
-			<string>*** Session has been ended for the other party</string>
-			<key>description</key>
-			<string>Sent to the remote party when they attempt to forcefully close the IM conversation (and it exists)</string>
-			<key>label</key>
-			<string>@stopim command with an active session (remote)</string>
-			<key>customizable</key>
+			<key>값</key>
+			<string>*** 다른 파티에 대한 세션이 종료되었습니다.</string>
+			<key>묘사</key>
+			<string>원격 대화 상대가 IM 대화를 강제로 닫으려고 할 때(존재하는 경우) 전송됩니다.</string>
+			<key>레이블</key>
+			<string>@stopim 명령(활성 세션 포함)(원격)</string>
+			<key>사용자 정의 가능</key>
 			<boolean>1</boolean>
 		</map>
-		<key>stopim_endsession_local</key>
+		<key>IM 정지 세션 종료 로컬</key>
 		<map>
-			<key>value</key>
-			<string>[NAME] has remotely closed the IM conversation with @stopim</string>
+			<key>값</key>
+			<string>[NAME]이(가) @stopim과의 IM 대화를 원격으로 종료했습니다.</string>
 		</map>
 
 		<!-- Shown as notifications -->
-		<key>blocked_autopilot</key>
+		<key>차단된 오토파일럿</key>
 		<map>
-			<key>value</key>
-			<string>Unable to use the autopilot due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 자동 조종을 사용할 수 없음</string>
 		</map>
-		<key>blocked_generic</key>
+		<key>차단된 제네릭</key>
 		<map>
-			<key>value</key>
-			<string>Unable to perform action due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 작업을 수행할 수 없음</string>
 		</map>
-		<key>blocked_groupchange</key>
+		<key>차단된 그룹 변경</key>
 		<map>
-			<key>value</key>
-			<string>Unable to change your active group due to an RLV restriction; switching back to "[GROUP_SLURL]"</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 활성 그룹을 변경할 수 없습니다. "[GROUP_SLURL]"로 다시 전환합니다</string>
 		</map>
-		<key>blocked_invfolder</key>
+		<key>차단된 인벤토리 폴더</key>
 		<map>
-			<key>value</key>
-			<string>Unable to perform the requested inventory action due to an RLV locked folder.</string>
+			<key>값</key>
+			<string>RLV 잠긴 폴더로 인해 요청된 인벤토리 작업을 수행할 수 없습니다.</string>
 		</map>
-		<key>blocked_nearby</key>
+		<key>차단된 근처</key>
 		<map>
-			<key>value</key>
-			<string>Unable to see the presence of nearby avatars due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 인근 아바타의 존재를 확인할 수 없음</string>
 		</map>
-		<key>blocked_permattach</key>
+		<key>차단된 퍼마태치</key>
 		<map>
-			<key>value</key>
-			<string>Attempt to attach '[OBJECT]' was denied due to RLV restrictions</string>
+			<key>값</key>
+			<string>'[OBJECT]' 연결 시도가 RLV 제한으로 인해 거부되었습니다.</string>
 		</map>
-		<key>blocked_permteleport</key>
+		<key>차단된 펌텔레포트</key>
 		<map>
-			<key>value</key>
-			<string>'[OBJECT]' was denied permission to teleport you due to RLV restrictions</string>
+			<key>값</key>
+			<string>'[OBJECT]' RLV 제한으로 인해 텔레포트 권한이 거부되었습니다.</string>
 		</map>
-		<key>blocked_scriptdialog</key>
+		<key>차단된 스크립트 대화</key>
 		<map>
-			<key>value</key>
-			<string>Unable to show script dialog or textbox due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 스크립트 대화 상자 또는 텍스트 상자를 표시할 수 없습니다.</string>
 		</map>
-		<key>blocked_share</key>
+		<key>차단된 공유</key>
 		<map>
-			<key>value</key>
-			<string>Unable to share inventory with [RECIPIENT] due to RLV restrictions.</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 [RECIPINT]와 재고를 공유할 수 없습니다.</string>
 		</map>
-		<key>blocked_share_generic</key>
+		<key>차단된 공유 제네릭</key>
 		<map>
-			<key>value</key>
-			<string>Unable to share inventory due to RLV restrictions.</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 재고를 공유할 수 없습니다.</string>
 		</map>
-		<key>blocked_startim</key>
+		<key>차단된 IM 시작</key>
 		<map>
-			<key>value</key>
-			<string>Unable to start IM session with [RECIPIENT] due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 [RECIPINT]로 IM 세션을 시작할 수 없음</string>
 		</map>
-		<key>blocked_startconf</key>
+		<key>차단된 구성 시작</key>
 		<map>
-			<key>value</key>
-			<string>Unable to start conference with [RECIPIENT] due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 [RECIPIENT]과(와) 회의를 시작할 수 없습니다.</string>
 		</map>
-		<key>blocked_teleport</key>
+		<key>차단된 순간이동</key>
 		<map>
-			<key>value</key>
-			<string>Unable to initiate teleport due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 텔레포트를 시작할 수 없음</string>
 		</map>
-		<key>blocked_teleport_offer</key>
+		<key>차단된 순간이동 제안</key>
 		<map>
-			<key>value</key>
-			<string>Unable to offer teleport due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 텔레포트를 제공할 수 없음</string>
 		</map>
-		<key>blocked_viewxxx</key>
+		<key>차단된 보기</key>
 		<map>
-			<key>value</key>
-			<string>Unable to open [TYPE] due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 [TYPE]을(를) 열 수 없습니다.</string>
 		</map>
-		<key>blocked_wireframe</key>
+		<key>차단된 와이어프레임</key>
 		<map>
-			<key>value</key>
-			<string>Unable to enable wireframe mode due to RLV restrictions</string>
+			<key>값</key>
+			<string>RLV 제한으로 인해 와이어프레임 모드를 활성화할 수 없음</string>
 		</map>
 
 		<!-- Sent as "Busy" messages to the remote party -->
-		<key>blocked_recvim_remote</key>
+		<key>차단된 원격 IM 수신</key>
 		<map>
-			<key>value</key>
-			<string>The Resident you messaged is currently prevented from reading your instant messages at the moment, please try again later.</string>
-			<key>description</key>
-			<string>Sent to the remote party when their IM was blocked</string>
-			<key>label</key>
-			<string>Blocked incoming IM message (remote)</string>
-			<key>customizable</key>
+			<key>값</key>
+			<string>메시지를 보낸 거주자는 현재 인스턴트 메시지를 읽을 수 없습니다. 나중에 다시 시도하십시오.</string>
+			<key>묘사</key>
+			<string>IM이 차단되었을 때 원격 파티로 전송됨</string>
+			<key>레이블</key>
+			<string>차단된 수신 IM 메시지(원격)</string>
+			<key>사용자 정의 가능한</key>
 			<boolean>1</boolean>
 		</map>
-		<key>blocked_tplurerequest_remote</key>
+		<key>차단된 원격 tplure 요청</key>
 		<map>
-			<key>value</key>
-			<string>The Resident is currently prevented from accepting. Please try again later.</string>
-			<key>description</key>
-			<string>Sent to the remote party when their teleport offer or request was blocked</string>
-			<key>label</key>
-			<string>Blocked teleport offer/request (remote)</string>
-			<key>customizable</key>
+			<key>값</key>
+			<string>레지던트는 현재 수락할 수 없습니다. 나중에 다시 시도해 주십시오.</string>
+			<key>묘사</key>
+			<string>텔레포트 제안 또는 요청이 차단되었을 때 원격 파티로 전송됨</string>
+			<key>레이블</key>
+			<string>차단된 텔레포트 제공/요청(원격)</string>
+			<key>사용자 정의 가능한</key>
 			<boolean>1</boolean>
 		</map>
 	</map>
 
 	<!-- Generic names used to replace resident names when @shownames restricted -->
-	<key>anonyms</key>
+	<key>익명</key>
 	<array>
-		<string>A resident</string>
-		<string>This resident</string>
-		<string>That resident</string>
-		<string>An individual</string>
-		<string>This individual</string>
-		<string>That individual</string>
-		<string>A person</string>
-		<string>This person</string>
-		<string>That person</string>
-		<string>A stranger</string>
-		<string>This stranger</string>
-		<string>That stranger</string>
-		<string>A being</string>
-		<string>This being</string>
-		<string>That being</string>
-		<string>An agent</string>
-		<string>This agent</string>
-		<string>That agent</string>
-		<string>A soul</string>
-		<string>This soul</string>
-		<string>That soul</string>
-		<string>Somebody</string>
-		<string>Some people</string>
-		<string>Someone</string>
-		<string>Mysterious one</string>
-		<string>An unknown being</string>
-		<string>Unidentified one</string>
-		<string>An unknown person</string>
+		<string>거주자</string>
+		<string>이 거주자</string>
+		<string>그 거주자</string>
+		<string>개인</string>
+		<string>이 개인</string>
+		<string>그 개인</string>
+		<string>사람</string>
+		<string>이 사람</string>
+		<string>그 사람</string>
+		<string>이방인</string>
+		<string>이 이방인</string>
+		<string>그 이방인</string>
+		<string>물건</string>
+		<string>이 물건</string>
+		<string>저 물건</string>
+		<string>에이전트</string>
+		<string>이 에이전트</string>
+		<string>그 에이전트</string>
+		<string>영혼</string>
+		<string>이 영혼</string>
+		<string>그 영혼</string>
+		<string>누군가</string>
+		<string>몇몇 사람들</string>
+		<string>누구든</string>
+		<string>신비한 것</string>
+		<string>알 수 없는 물건</string>
+		<string>식별되지 않은 것</string>
+		<string>알 수 없는 사람</string>
 	</array>
 
 </map>

@@ -11,13 +11,13 @@
  name="im">
  
 	<string name="AutoresponseItemNotSet">
-		No item set
+		아이템 집합 없음
 	</string>
 	<string name="AutoresponseItemNotAvailable">
-		Item not available
+		아이템 이용 불가능
 	</string>
 	<string name="AutoresponseItemNotLoggedIn">
-		Not logged in
+		로그인하지 않음
 	</string>
  
 <tab_container
@@ -232,7 +232,7 @@
 		mouse_opaque="false"
 		name="logging_label"
 		width="300">
-		Save:
+		저장:
 	   </text>
 	   <combo_box
 		enabled="false"
@@ -261,7 +261,7 @@
 		enabled="false"
 		follows="left|top"
 		height="23"
-		label="로그 클리어..."
+		label="로그 지우기..."
 		layout="topleft"
 		left_pad="4"
 		name="clear_log"
@@ -429,7 +429,7 @@
       name="mylookat"
       top_pad="25"
       width="200">
-        대상을 바라보는 내 시선:
+        대상을 바라보는 시선:
       </text>
         <check_box
          control_name="PrivateLookAtTarget"
@@ -518,7 +518,7 @@
          top_pad="5"
          width="475"
          wrap="true">
-           노트: 자동 응답 메시지를 활성화하려면 통신 메뉴를 통해 온라인 상태를 설정하십시오. &gt; 온라인 상태
+           주목: 자동 응답 메시지를 활성화하려면 통신 메뉴를 통해 온라인 상태를 설정하십시오. &gt; 온라인 상태
         </text>
         <text
          type="string"
@@ -759,7 +759,7 @@
         <button
          follows="left|top"
          height="23"
-         label="클리어"
+         label="지우기"
          layout="topleft"
          left_pad="4"
          name="clear_autoresponse_item"

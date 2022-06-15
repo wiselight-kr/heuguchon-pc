@@ -2,7 +2,7 @@
 <panel
  width="470"
  height="420"
- label="Members &amp; Roles"
+ label="회원 &amp; 역할"
  layout="topleft"
  left="0"
  top="0"
@@ -11,11 +11,11 @@
 
     <panel.string
      name="default_needs_apply_text">
-        There are unsaved changes
+        저장되지 않은 변경 사항이 있습니다.
     </panel.string>
     <panel.string
      name="want_apply_text">
-        Do you want to save your changes?
+        변경 내용을 저장하시겠습니까?
     </panel.string>
     <panel.string
      name="help_text" />
@@ -37,7 +37,7 @@
 
         <panel
          name="members_sub_tab"
-         label="Members"
+         label="회원"
          tool_tip="Members"
          help_topic="roles_members_tab"
          left="0"
@@ -50,9 +50,9 @@
 
             <panel.string
              name="help_text">
-                You can add or remove Roles assigned to Members.
-Select multiple Members by holding the Ctrl key and
-clicking on their names.
+                구성원에게 할당된 역할을 추가하거나 제거할 수 있습니다.
+Ctrl 키를 누른 상태에서 여러 멤버를 선택하고
+이름을 클릭하기.
             </panel.string>
             <panel.string
              name="donation_area">
@@ -60,15 +60,15 @@ clicking on their names.
             </panel.string>
             <panel.string
              name="power_folder_icon" translate="false">
-                Inv_FolderClosed
+                인벤토리 폴더 닫힘
             </panel.string>
             <panel.string
              name="power_all_have_icon" translate="false">
-                Checkbox_On
+                체크박스 켜짐
             </panel.string>
             <panel.string
              name="power_partial_icon" translate="false">
-                Checkbox_Off
+                체크박스 꺼짐
             </panel.string>
 
             <filter_editor
@@ -79,7 +79,7 @@ clicking on their names.
              height="22"
              search_button_visible="false"
              follows="left|top|right"
-             label="Filter Members"
+             label="회원 필터"
              name="filter_input" />
 
             <name_list
@@ -96,26 +96,26 @@ clicking on their names.
              layout="topleft">
 
                 <name_list.columns
-                 label="Member"
+                 label="회원"
                  name="name"
                  relative_width="0.50" />
                 <name_list.columns
-                 label="Donation"
+                 label="기부"
                  name="donated"
                  relative_width="0.15" />
                 <name_list.columns
-                 label="Status"
+                 label="상태"
                  name="online"
                  relative_width="0.18" />
                 <name_list.columns
-                 label="Title"
+                 label="제목"
                  name="title"
                  relative_width="0.18" />
             </name_list>
 
             <button
              name="member_invite"
-             label="Invite"
+             label="초대"
              left="3"
              top_pad="4"
              width="100"
@@ -125,7 +125,7 @@ clicking on their names.
 
             <button
              name="member_eject"
-             label="Eject"
+             label="방출"
              left_pad="4"
              width="100"
              height="23"
@@ -134,7 +134,7 @@ clicking on their names.
 
             <button
              height="23"
-             label="Ban Member(s)"
+             label="멤버(들) 금지"
              follows="bottom|left"
              left_pad="4"
              name="member_ban"
@@ -143,7 +143,7 @@ clicking on their names.
 
             <button
              name="export_list"
-             label="Export List"
+             label="내보내기 목록"
              left_pad="4"
              width="100"
              height="23"
@@ -155,8 +155,8 @@ clicking on their names.
 
         <panel
          name="roles_sub_tab"
-         label="Roles"
-         tool_tip="Roles"
+         label="역할"
+         tool_tip="역할"
          help_topic="roles_roles_tab"
          left="0"
          top="0"
@@ -176,26 +176,25 @@ clicking on their names.
              width="100" />-->
             <panel.string
              name="help_text">
-            Roles have a title and an allowed list of Abilities
-that Members can perform. Members can belong to
-one or more Roles. A group can have up to 10 Roles,
-including the Everyone and Owner Roles.
+            역할에는 구성원이 수행할 수 있는 권한의 제목과 허용된 목록이 있습니다. 
+            구성원은 하나 이상의 역할에 속할 수 있습니다.
+          한 그룹은 모든 사용자 및 소유자 역할을 포함하여 최대 10개의 역할을 가질 수 있습니다.
             </panel.string>
             <panel.string
              name="cant_delete_role">
-            The &apos;Everyone&apos; and &apos;Owners&apos; Roles are special and can't be deleted.
+            &apos;여러분 &apos; 및 &apos;소유자&apos; 역할은 특별하므로 삭제할 수 없습니다.
             </panel.string>
             <panel.string
              name="power_folder_icon" translate="false">
-            Inv_FolderClosed
+            인벤토리 폴더 닫힘
             </panel.string>
             <panel.string
              name="power_all_have_icon" translate="false">
-            Checkbox_On
+            체크박스 켜짐
             </panel.string>
             <panel.string
              name="power_partial_icon" translate="false">
-            Checkbox_Off
+            체크박스 꺼짐
             </panel.string>
 
             <filter_editor
@@ -206,7 +205,7 @@ including the Everyone and Owner Roles.
              height="22"
              search_button_visible="false"
              follows="left|top|right"
-             label="Filter Roles"
+             label="역할 필터"
              name="filter_input" />
 
             <scroll_list
@@ -224,11 +223,11 @@ including the Everyone and Owner Roles.
              layout="topleft">
 
                 <scroll_list.columns
-                 label="Role"
+                 label="역할"
                  name="name"
                relative_width="0.45"  />
                 <scroll_list.columns
-                 label="Title"
+                 label="제목"
                  name="title"
                relative_width="0.45"  />
                 <scroll_list.columns
@@ -239,7 +238,7 @@ including the Everyone and Owner Roles.
 
             <button
              name="role_create"
-             label="New Role"
+             label="새로운 역할"
              left="3"
              top_pad="4"
              width="100"
@@ -250,7 +249,7 @@ including the Everyone and Owner Roles.
             <button
              follows="bottom|left"
              height="23"
-             label="Copy Role"
+             label="역할 복사"
              layout="topleft"
              left_pad="4"
              name="role_copy"
@@ -258,7 +257,7 @@ including the Everyone and Owner Roles.
 
             <button
              name="role_delete"
-             label="Delete Role"
+             label="역할 삭제"
              left_pad="4"
              width="100"
              height="23"
@@ -270,8 +269,8 @@ including the Everyone and Owner Roles.
 
         <panel
          name="actions_sub_tab"
-         label="Abilities"
-         tool_tip="You can view an Ability&apos;s Description and which Roles and Members can execute the Ability."
+         label="능력"
+         tool_tip="능력&apos; 묘사과 해당 기능을 실행할 수 있는 역할 및 구성원을 볼 수 있습니다."
          help_topic="roles_actions_tab"
          left="0"
          top="0"
@@ -283,20 +282,19 @@ including the Everyone and Owner Roles.
 
             <panel.string
              name="help_text">
-                Abilities allow Members in Roles to do specific
-things in this group. There&apos;s a broad variety of Abilities.
+                역할의 구성원은 기능을 사용하여 이 그룹에서 특정 작업을 수행할 수 있습니다. 다양한 능력이 있습니다.
             </panel.string>
             <panel.string
              name="power_folder_icon" translate="false">
-                Inv_FolderClosed
+                인벤토리 폴더 닫힘
             </panel.string>
             <panel.string
              name="power_all_have_icon" translate="false">
-                Checkbox_On
+                체크박스 켜짐
             </panel.string>
             <panel.string
              name="power_partial_icon" translate="false">
-                Checkbox_Off
+                체크박스 꺼짐
             </panel.string>
 
          <filter_editor
@@ -307,12 +305,12 @@ things in this group. There&apos;s a broad variety of Abilities.
          height="22"
          search_button_visible="false"
          follows="left|top|right"
-         label="Filter Abilities"
+         label="능력 필터"
          name="filter_input" />
 
         <scroll_list
          name="action_list"
-         tool_tip="Select an Ability to view more details"
+         tool_tip="세부 정보를 볼 수 있는 기능 선택"
          left="0"
          top_pad="5"
          right="-1"
@@ -343,22 +341,22 @@ things in this group. There&apos;s a broad variety of Abilities.
     <panel
      border="false"
      height="303"
-     label="Banned Residents"
+     label="금지된 거주자"
      layout="topleft"
      left="0"
      right="-1"
      help_topic="roles_banlist_tab"
      name="banlist_sub_tab"
      class="panel_group_banlist_subtab"
-     tool_tip="View the banned residents from this group."
+     tool_tip="이 그룹에서 금지된 거주자 보기."
      width="310">
       <panel.string
        name="help_text">
-        Any resident on the ban list will be unable to join the group.
+        금지 목록에 있는 거주자는 그룹에 가입할 수 없습니다.
       </panel.string>
       <panel.string
        name="ban_count_template">
-        Ban count: [COUNT]/[LIMIT]
+        금지 수: [COUNT]/[LIMIT]
       </panel.string>
       <name_list
            column_padding="0"
@@ -375,33 +373,33 @@ things in this group. There&apos;s a broad variety of Abilities.
            name_column="name"
            top_pad="5">
         <name_list.columns
-         label="Resident"
+         label="거주자"
          name="name"
          font.name="SANSSERIF_SMALL"
          font.style="NORMAL"
          relative_width="0.7" />
         <name_list.columns
-         label="Date Banned"
+         label="금지된 날짜"
          name="ban_date"
          relative_width="0.3" />
       </name_list>
       <button
         follows="top|left"
         height="23"
-        label="Ban Resident(s)"
+        label="금지된 거주자"
         layout="topleft"
         left="3"
         name="ban_create"
-        tool_tip="Ban residents from your group"
+        tool_tip="그룹에서 거주자 금지"
         width="120" />
       <button
         follows="top|left"
         height="23"
-        label="Remove Ban(s)"
+        label="금지 제거"
         layout="topleft"
         left_pad="5"
         name="ban_delete"
-        tool_tip="Unban selected residents from your group"
+        tool_tip="그룹에서 선택한 거주자 금지 해제"
         width="120" />
       <button
         follows="top|left"
@@ -411,7 +409,7 @@ things in this group. There&apos;s a broad variety of Abilities.
         layout="topleft"
         left_pad="5"
         name="ban_refresh"
-        tool_tip="Refresh the ban list"
+        tool_tip="금지 목록 새로 고침"
         />
       <text
         type="string"
@@ -485,7 +483,7 @@ things in this group. There&apos;s a broad variety of Abilities.
          text_color="EmphasisColor"
          follows="left|top|right"
          layout="topleft">
-        Assigned Roles
+        할당된 역할
         </text>
 
         <scroll_list
@@ -527,11 +525,11 @@ things in this group. There&apos;s a broad variety of Abilities.
          text_color="EmphasisColor"
          name="static2"
          layout="topleft">
-        Allowed Abilities
+        허용된 능력
         </text>
 
         <scroll_list
-         tool_tip="For details of each allowed ability see the abilities tab"
+         tool_tip="허용된 각 능력에 대한 자세한 내용은 능력 탭을 참조하십시오"
          right="-1"
          top_pad="0"
          height="93"
@@ -582,7 +580,7 @@ things in this group. There&apos;s a broad variety of Abilities.
          type="string"
          follows="left|top"
          layout="topleft">
-        Role Name
+        역할 이름
         </text>
 
         <line_editor
@@ -605,7 +603,7 @@ things in this group. There&apos;s a broad variety of Abilities.
          type="string"
          follows="left|top"
          layout="topleft">
-        Role Title
+        역할 제목
         </text>
 
         <line_editor
@@ -622,11 +620,11 @@ things in this group. There&apos;s a broad variety of Abilities.
         <check_box
          top_pad="4"
          height="16"
-         label="Reveal members"
+         label="회원 드러냄"
          right="-140"
          layout="topleft"
          name="role_visible_in_list"
-         tool_tip="Sets whether members of this role are visible in the General tab to people outside of the group."
+         tool_tip="허용된 각 기능에 대한 자세한 내용은 능력 탭을 참조하십시오. 이 역할의 구성원이 그룹 외부의 사용자에게 일반 탭에 표시되는지 여부 설정."
          width="16"
          follows="top|right"/>
 
@@ -639,7 +637,7 @@ things in this group. There&apos;s a broad variety of Abilities.
          type="string"
          follows="left|top"
          layout="topleft">
-        Description
+        묘사
         </text>
 
         <text_editor
@@ -694,7 +692,7 @@ things in this group. There&apos;s a broad variety of Abilities.
          follows="left|top|right"
          text_color="EmphasisColor"
          layout="topleft">
-        Assigned Members
+        할당된 구성원
         </text>
 
         <name_list
@@ -738,12 +736,12 @@ things in this group. There&apos;s a broad variety of Abilities.
          text_color="EmphasisColor"
          follows="left|top|right"
          layout="topleft">
-        Allowed Abilities
+        허용된 능력
         </text>
 
         <scroll_list
          name="role_allowed_actions"
-         tool_tip="For details of each allowed ability see the abilities tab"
+         tool_tip="허용된 각 능력에 대한 자세한 내용은 능력 탭을 참조하십시오."
          top_pad="0"
          right="-1"
          height="20"
@@ -813,7 +811,7 @@ things in this group. There&apos;s a broad variety of Abilities.
          word_wrap="true"
          follows="left|top|right"
          layout="topleft">
-        This Ability is &apos;Eject Members from this Group&apos;. Only an Owner can eject another Owner.
+        이 능력은 &apos;이 그룹에서 구성원 제거&apos;. 소유자만 다른 소유자를 꺼낼 수 있습니다.
         </text_editor>
 
     </panel>
@@ -845,7 +843,7 @@ things in this group. There&apos;s a broad variety of Abilities.
          text_color="EmphasisColor"
          follows="left|top|right"
          layout="topleft">
-        Roles with this ability
+        이 기능이 있는 역할
         </text>
 
         <scroll_list
@@ -874,7 +872,7 @@ things in this group. There&apos;s a broad variety of Abilities.
          text_color="EmphasisColor"
          follows="top|left|right"
          layout="topleft">
-        Members with this ability
+        이 능력을 가진 회원
         </text>
 
         <name_list

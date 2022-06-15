@@ -10,7 +10,7 @@
  label="색깔"
  name="colors_panel">
  <tab_container
-	 label="색깔 프리픽스"
+	 label="색깔 접두사"
 	 layout="topleft"
 	 follows="all"
 	 top="5"
@@ -164,7 +164,7 @@
        name="friends_label"
        top_delta="5"
        width="95">
-       Friends
+       친구
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -292,7 +292,7 @@
        name="script_error_label"
        top_delta="5"
        width="95">
-       에러
+       오류
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -357,7 +357,7 @@
        name="llownersay_label"
        top_delta="5"
        width="95">
-       주인
+       소유자
      </text>
      <color_swatch
        can_apply_immediately="true"
@@ -598,7 +598,7 @@
 	  left="1"
 	  right="-1"
 	  follows="all"
-	  label="Name Tags"
+	  label="이름표"
 	  name="tab-nametag" >
      <text
        follows="left|top"
@@ -1708,7 +1708,7 @@
      initial_value="1.0"
      layout="topleft"
      label_width="115"
-     label="Active:"
+     label="활성화:"
      left="50"
      max_val="1.00"
      min_val="0.00"
@@ -1726,7 +1726,7 @@
      initial_value="0.95"
      layout="topleft"
      label_width="115"
-     label="Inactive:"
+     label="비활성화:"
      left="50"
      max_val="1.00"
      min_val="0.00"
@@ -1744,7 +1744,7 @@
      initial_value="0.95"
      layout="topleft"
      label_width="115"
-     label="Camera / Movement:"
+     label="카메라 / 이동:"
      left="50"
      max_val="1.00"
      min_val="0.00"
@@ -1790,7 +1790,7 @@
      max_val="1.00"
      min_val="0.00"
      decimal_digits="3"
-     label="Opacity:"
+     label="투명도:"
      layout="topleft"
      label_width="118"
      name="console_background_opacity"

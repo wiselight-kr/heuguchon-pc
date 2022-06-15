@@ -82,11 +82,11 @@
     </panel.string>
     <panel.string
      name="AllFriendsTitle">
-    모두 ([모두])
+    모두 ([ALL])
     </panel.string>
     <panel.string
      name="OnlineFriendsTitle">
-    온라인 ([온라인])
+    온라인 ([ONLINE])
     </panel.string>
 
     <tab_container
@@ -392,7 +392,7 @@
                  width="317"
                  name="tab_online"
                  follows="all"
-                 title="Online">
+                 title="온라인">
                         <avatar_list
                          allow_select="true"
                          follows="all"
@@ -410,7 +410,7 @@
                  width="317"
                  name="tab_all"
                  follows="all"
-                 title="All">
+                 title="모두">
                         <avatar_list
                          allow_select="true"
                          follows="all"

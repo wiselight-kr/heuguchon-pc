@@ -58,7 +58,7 @@
    height="23"
    width="23"
    tab_stop="false"
-   tool_tip="You don't have permission to edit"/>
+   tool_tip="편집할 권한이 없습니다"/>
   <lock_icon
    name="btn_lock1"
    layout="topleft"
@@ -89,5 +89,5 @@
    height="23"
    width="23"
    tab_stop="false"
-   tool_tip="Edit this wearable"/>
+   tool_tip="이 의류 편집"/>
 </clothing_list_item>

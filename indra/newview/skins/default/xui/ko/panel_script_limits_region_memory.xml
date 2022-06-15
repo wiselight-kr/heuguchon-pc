@@ -3,7 +3,7 @@
  border="true"
  follows="top|left"
  height="570"
- label="Region Memory"
+ label="지역 메모리"
  layout="topleft"
  name="script_limits_region_memory_panel"
  top="0"
@@ -20,7 +20,7 @@
 	 top_pad="24"
 	 text_color="White"
 	 width="620">
-	   Parcel Script Memory
+	   구획 스크립트 메모리
 	</text>
 	<text
 	 type="string"
@@ -70,7 +70,7 @@
      top_delta="12"
      text_color="EmphasisColor"
      width="620">
-        Loading...
+        로딩중...
     </text>
     <scroll_list
      draw_heading="true"
@@ -85,7 +85,7 @@
      top_delta="16"
      width="600">
         <scroll_list.columns
-         label="Size (kb)"
+         label="크기 (kb)"
          name="size"
          width="72" />
         <scroll_list.columns
@@ -93,26 +93,26 @@
          name="urls"
          width="48" />
         <scroll_list.columns
-         label="Object Name"
+         label="개체 이름"
          name="name"
          width="100" />
         <scroll_list.columns
-         label="Object Owner"
+         label="개체 소유자"
          name="owner"
          width="100" />
         <scroll_list.columns
-         label="Parcel"
+         label="구획"
          name="parcel"
          width="130" />
         <scroll_list.columns
-         label="Location"
+         label="위치"
          name="location"
          width="80" />
     </scroll_list>
     <button
      follows="bottom|left"
      height="19"
-     label="Refresh List"
+     label="목록 새로고침"
      layout="bottomleft"
      left_pad="5"
      name="refresh_list_btn"
@@ -122,7 +122,7 @@
     <button
      follows="bottom|left"
      height="19"
-     label="Return"
+     label="반환"
 	 visible="false"
      layout="bottomleft"
      name="return_btn"
@@ -132,7 +132,7 @@
     <button
      follows="bottom|left"
      height="19"
-     label="Highlight"
+     label="하이라이트"
 	 visible="false"
      layout="bottomleft"
      left_delta="105"
