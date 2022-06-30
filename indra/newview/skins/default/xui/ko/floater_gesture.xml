@@ -9,7 +9,7 @@
  help_topic="gestures"
  title="제스쳐"
  background_visible="true"
- label="Places"
+ label="장소"
  layout="topleft"
  min_height="180"
  min_width="200"

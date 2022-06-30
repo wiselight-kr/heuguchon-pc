@@ -277,7 +277,7 @@
       <combo_box.item
           label="프리셋 사용"
           name="Use preset"
-          value="default" />
+          value="기본값" />
     </combo_box>
     <button
       follows="bottom|right"

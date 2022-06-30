@@ -45,7 +45,7 @@
     <button
      follows="bottom|right"
      height="23"
-     label="Cancel"
+     label="취소"
      layout="topleft"
      left_pad="5"
      name="Cancel"

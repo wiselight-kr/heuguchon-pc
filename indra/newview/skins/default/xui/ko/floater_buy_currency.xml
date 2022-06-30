@@ -4,7 +4,7 @@
  can_minimize="false"
  height="285"
  layout="topleft"
- title="Buy L$"
+ title="구매 L$"
  name="buy currency"
  help_topic="buy_linden_dollars"
  single_instance="true"
@@ -382,7 +382,7 @@ L$를 받은 후 L$를 사용해 보십시오.
       <button
        follows="top|left|right"
        height="20"
-       label="Buy now"
+       label="지금 구매"
        layout="topleft"
        left="151"
        name="buy_btn"
@@ -391,7 +391,7 @@ L$를 받은 후 L$를 사용해 보십시오.
       <button
        follows="top|left|right"
        height="20"
-       label="Cancel"
+       label="취소"
        layout="topleft"
        left_pad="10"     
        name="cancel_btn"

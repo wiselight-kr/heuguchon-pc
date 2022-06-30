@@ -80,7 +80,7 @@
              parameter="fs_protectedfolders" />
         </menu_item_check>
         <menu_item_check
-            label="가장 좋아하는 옷"
+            label="즐겨찾는 의상"
             name="WearableFavorites">
             <menu_item_check.on_click
              function="Floater.Toggle"
@@ -2225,7 +2225,7 @@
         visible="true">
 <!--
         <menu_item_call
-             label="Search"
+             label="검색"
              name="Search">
              <menu_item_call.on_click
                  function="Floater.Show"

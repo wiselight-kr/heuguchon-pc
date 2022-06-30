@@ -49,7 +49,7 @@
      width="500">
         <panel
          height="150"
-         label="Search"
+         label="검색"
          layout="topleft"
          left="6"
          help_topic="avatarpicker"
@@ -81,7 +81,7 @@
             <button
              follows="top|right"
              height="23"
-             label="Go"
+             label="가기"
              label_selected="Go"
              layout="topleft"
              left_pad="5"
@@ -97,7 +97,7 @@
            top="52"
            width="132">
             <columns
-              label="Name"
+              label="이름"
               name="name"
               width="150" />
             <columns

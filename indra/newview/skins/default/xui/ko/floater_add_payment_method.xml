@@ -63,7 +63,7 @@
     <button
      follows="top|left|right"
      height="24"
-     label="Later"
+     label="나중에"
      layout="topleft"
      left_pad="9"
      name="close_btn"

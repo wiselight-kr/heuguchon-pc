@@ -170,7 +170,7 @@
      <!-- <FS:Zi> This text changes color when hovered over, implemented in llstatusbar.cpp
                   Colors are defined in colors.xml as ParcelNormalColor and ParcelHoverColor -->
      <text
-	   tool_tip="Name of land parcel on which you are standing. Click for About Land."
+	   tool_tip="현재 서 있는 토지 구획의 이름입니다. 토지 정보를 보려면 클릭하십시오."
        text_color="ParcelNormalColor"
        follows="left|top|right"
        height="16"

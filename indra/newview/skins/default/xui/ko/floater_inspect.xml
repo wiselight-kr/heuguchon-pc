@@ -157,7 +157,7 @@ VRAM: [VRAM_USAGE] KB
      height="23"
      image_selected="Toolbar_Middle_Selected"
      image_unselected="Toolbar_Middle_Off"
-     label="See Creator Profile..."
+     label="창조자 프로필 보기..."
      layout="topleft"
      left_pad="2"
      name="button creator"

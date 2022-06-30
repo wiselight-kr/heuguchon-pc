@@ -24,7 +24,7 @@
           height="23"
           layout="topleft"
           left="6"
-          label="Filter"
+          label="필터"
           max_length_chars="300"
           name="blocked_filter_input"
           top="4"

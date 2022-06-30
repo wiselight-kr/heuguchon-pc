@@ -550,7 +550,7 @@
             name="autoplay_enabled"
             value="1"/>
         <!--<item
-            label="Ask"
+            label="묻기"
             name="autoplay_ask"
             value="2"/>-->
       </combo_box>
@@ -1772,7 +1772,7 @@
          layout="topleft"
          left_pad="1"
          width="17"
-         tool_tip="Reset to the default UUID.">
+         tool_tip="기본 UUID로 초기화.">
 		    <button.commit_callback
              function="ResetControl"
              parameter="UISndNewIncomingIMSession"/>

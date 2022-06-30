@@ -20,7 +20,7 @@
          border="true"
          follows="left|top|right|bottom"
          height="347"
-         label="Grid"
+         label="그리드"
          layout="topleft"
          left="1"
          mouse_opaque="false"

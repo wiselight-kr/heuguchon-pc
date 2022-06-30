@@ -785,14 +785,14 @@
          width="70">
           <radio_item
            height="16"
-           label="Low"
+           label="낮음"
            layout="topleft"
            name="0"
            top="3"
            width="50" />
           <radio_item
            height="16"
-           label="High"
+           label="높음"
            layout="topleft"
            name="2"
            top_delta="16"

@@ -66,13 +66,13 @@
                     height="21" />
             <button
                     height="23"
-                    label="Import"
+                    label="불러오기"
                     follows="right|top"
                     right="-10"
                     font="SansSerif"
                     top_delta="0"
                     name="btn_import"
-                    tool_tip="디스크에서 레거시 설정 가져오기." 
+                    tool_tip="디스크에서 레거시 설정 불러오기." 
                     width="96" />
         </layout_panel>
         <layout_panel name="content"
@@ -540,7 +540,7 @@
                                 border="true"
                                 class="panel_settings_water"
                                 filename="panel_settings_water.xml"
-                                label="Water"
+                                label="물"
                                 layout="topleft"
                                 left_delta="0"
                                 top_pad="5"
@@ -600,7 +600,7 @@
                                 border="true"
                                 class="panel_settings_density"
                                 filename="panel_settings_sky_density.xml"
-                                label="Density"
+                                label="밀도"
                                 layout="topleft"
                                 left_delta="0"
                                 top_pad="5"

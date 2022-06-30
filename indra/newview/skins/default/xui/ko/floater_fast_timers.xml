@@ -23,7 +23,7 @@
              width="150"
              height="20">
     <item name="2x Average" label="2x 평균"/>
-    <item name="Max" label="Max"/>
+    <item name="Max" label="최대"/>
     <item name="Recent Max" label="최근 최대"/>
     <item name="100ms" label="100ms"/>
   </combo_box>

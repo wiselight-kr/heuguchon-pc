@@ -73,7 +73,7 @@
     <check_box
      follows="left|bottom"
      height="16"
-     label="Wear clothing now"
+     label="지금 의상 입기"
      layout="topleft"
      left="10"
      name="wear_check"
@@ -81,7 +81,7 @@
     <button
      follows="right|bottom"
      height="23"
-     label="Buy"
+     label="구매"
      label_selected="Buy"
      layout="topleft"
      left="65"

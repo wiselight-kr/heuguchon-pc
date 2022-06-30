@@ -269,7 +269,7 @@
          name="send_notice"
          top_pad="10"
          height="23"
-         label="Send"
+         label="전송"
          width="100"
          follows="bottom|right"
          layout="topleft" />

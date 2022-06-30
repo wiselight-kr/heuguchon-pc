@@ -2076,19 +2076,19 @@ even though the user gets a free copy.
                 <combo_box.item
                  label="기본값"
                  name="Default"
-                 value="Default" />
+                 value="기본값" />
                 <combo_box.item
                  label="원"
                  name="Circle"
-                 value="Circle" />
+                 value="원" />
                 <combo_box.item
                  label="사각형"
                  name="Square"
-                 value="Square" />
+                 value="사각형" />
                 <combo_box.item
                  label="삼각형"
                  name="Triangle"
-                 value="Triangle" />
+                 value="삼각형" />
             </combo_box>
             <text
              type="string"
@@ -2607,7 +2607,7 @@ even though the user gets a free copy.
           halign="center"
           name="LOD_swap_defaults_label"
           top_pad="3"
-          value="Default"
+          value="기본값"
           tool_tip="기본 LOD 요인 대부분의 뷰어에 의해 적용될 것입니다."
           visible="true"
           width="60" />
@@ -3259,7 +3259,7 @@ even though the user gets a free copy.
          follows="left|top"
          height="23"
          label="랜드에 대하여"
-         label_selected="About Land"
+         label_selected="랜드에 대하여"
          layout="topleft"
          left_delta="0"
          name="button about land"

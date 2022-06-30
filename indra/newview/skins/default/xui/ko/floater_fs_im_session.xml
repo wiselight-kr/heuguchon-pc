@@ -666,7 +666,7 @@
               height="24"
               follows="left|right|bottom"
               name="send_chat"
-              label="Send"
+              label="전송"
               tool_tip="IM 전송" />
             </layout_panel>
           </layout_stack>

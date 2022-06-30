@@ -9735,7 +9735,7 @@ Please check your network and firewall setup.
   </notification>
   <notification
   name="HintChat"
-  label="Chat"
+  label="대화"
   type="hint">
     <unique/>
 대화에 참여하려면 아래 대화 필드에 입력하십시오.
@@ -9743,15 +9743,15 @@ Please check your network and firewall setup.
 
   <notification
   name="HintSit"
-  label="Stand"
+  label="일어서기"
   type="hint">
     <unique/>
-일어서서 앉은 자세를 종료하려면 스탠드 단추를 클릭합니다.
+일어서서 앉은 자세를 종료하려면 일어서기 단추를 클릭합니다.
   </notification>
 
   <notification
   name="HintSpeak"
-  label="Speak"
+  label="말하기"
   type="hint">
     <unique/>    
 말하기 단추를 클릭하여 마이크를 켜고 끕니다.
@@ -9779,7 +9779,7 @@ Please check your network and firewall setup.
 
   <notification
   name="HintMove"
-  label="Move"
+  label="이동"
   type="hint">
     <unique/>
 걷거나 실행하려면 이동 패널을 열고 방향 화살표를 사용하여 탐색합니다. 키보드의 방향 키를 사용할 수도 있습니다.
@@ -9809,7 +9809,7 @@ Please check your network and firewall setup.
 
   <notification
   name="HintView"
-  label="View"
+  label="보기"
   type="hint">
     <unique/>
 카메라 보기를 변경하려면 궤도 및 이동 컨트롤을 사용하십시오. 탈출 또는 걷기를 눌러 보기를 재설정합니다.
@@ -9818,7 +9818,7 @@ Please check your network and firewall setup.
 
   <notification
   name="HintInventory"
-  label="Inventory"
+  label="인벤토리"
   type="hint">
     <unique/>
 항목을 찾으려면 인벤토리를 확인하십시오. 최신 항목은 최근 탭에서 쉽게 찾을 수 있습니다.

@@ -3,7 +3,7 @@
  left="0" bottom="0" visible="false"
  mouse_opaque="false" opaque="true" color="MenuDefaultBgColor">
   <menu_item_call
-   label="Activate"
+   label="활성화"
    name="Activate">
     <menu_item_call.on_click
      function="People.Groups.Action"
@@ -33,7 +33,7 @@
      parameter="copy_slurl" />
   </menu_item_call>
   <menu_item_call
-   label="Chat"
+   label="채팅"
    name="Chat">
     <menu_item_call.on_click
      function="People.Groups.Action"
@@ -54,7 +54,7 @@
   </menu_item_call>
   <menu_item_separator />
   <menu_item_call
-   label="Leave"
+   label="떠나기"
    name="Leave">
     <menu_item_call.on_click
      function="People.Groups.Action"

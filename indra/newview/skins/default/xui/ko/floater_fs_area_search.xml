@@ -28,7 +28,7 @@
 		<panel
 		 border="true"
 		 follows="all"
-		 label="List"
+		 label="목록"
 		 layout="topleft"
 		 left="0"
 		 name="area_search_list_panel"
@@ -54,7 +54,7 @@
 			 search_column="1">
 				<fs_scroll_list.columns
 				 name="distance"
-				 label="Dist"
+				 label="거리"
 				 width="40"
 				 tool_tip="아바타에서 개체까지의 거리."/>
 				<fs_scroll_list.columns

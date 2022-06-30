@@ -121,7 +121,7 @@ L$[AMUT]에 구매:
     <button
      follows="right|bottom"
      height="23"
-     label="Buy"
+     label="구매"
      label_selected="Buy"
      layout="topleft"
      left="65"
@@ -131,7 +131,7 @@ L$[AMUT]에 구매:
     <button
      follows="right|bottom"
      height="23"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      left_pad="5"

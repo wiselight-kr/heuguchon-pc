@@ -67,7 +67,7 @@
     <button
      follows="right|bottom"
      height="22"
-     label="Cancel"
+     label="취소"
      label_selected="Cancel"
      layout="topleft"
      name="cancel_btn"

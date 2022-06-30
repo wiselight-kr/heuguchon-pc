@@ -198,7 +198,7 @@
      height="23"
      increment="1"
      initial_value="2"
-     label="Priority"
+     label="우선순위"
      label_width="88"
      layout="topleft"
      left="10"
@@ -209,7 +209,7 @@
     <check_box
      top_pad="0"
      height="23"
-     label="Loop"
+     label="루프"
      layout="topleft"
      left="10"
      width="100"
@@ -498,8 +498,8 @@
          value="앉기"
          name="Sitting" />
         <item
-         label="Flying"
-         value="Flying"
+         label="비행"
+         value="비행"
          name="Flying" />
     </combo_box>
     <spinner

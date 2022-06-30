@@ -11,7 +11,7 @@
     <button
      follows="left|bottom"
      height="19"
-     label="Stand"
+     label="일어서기"
      layout="topleft"
      left="1"
      name="stand_btn"

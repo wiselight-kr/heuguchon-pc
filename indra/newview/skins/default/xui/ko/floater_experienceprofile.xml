@@ -370,7 +370,7 @@
               <button
                 follows="bottom|left"
                 height="23"
-                label="Allow"
+                label="허가"
                 layout="topleft"
                 name="allow_btn"
                 width="94"
@@ -390,7 +390,7 @@
               <button
                 follows="bottom|left"
                 height="23"
-                label="Block"
+                label="차단"
                 layout="topleft"
                 name="block_btn"
                 width="94"
@@ -506,7 +506,7 @@
             width="125"
             height="23"
             name="Group_btn"
-            label="Group"
+            label="그룹"
             />
           <text
             type="string"

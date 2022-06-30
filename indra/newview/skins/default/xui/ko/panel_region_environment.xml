@@ -892,14 +892,14 @@
             <button
                     follows="top|left"
                     height="23"
-                    label="Apply"
+                    label="적용"
                     top_pad="5"
                     name="btn_apply"
                     width="100" />
             <button
                     follows="top|left"
                     height="23"
-                    label="Reset"
+                    label="초기화"
                     layout="topleft"
                     left_pad="10"
                     top_delta="0"
