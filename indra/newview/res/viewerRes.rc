@@ -59,21 +59,21 @@ IDI_LCD_LL_ICON         ICON                    "heuguchon_icon.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// Gif
+// Bitmap
 //
-IDR_HEUGU_EARTH         GIF                     "heuguchon_earth.gif"
+IDB_HO_BITMAP           BITMAP                  "heuguchon_icon.BMP"
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Dialog
 //
 
-SPLASHSCREEN DIALOG  32, 32, 264, 34
-STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE
+SPLASHSCREEN DIALOG  32, 32, 170, 166
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_VISIBLE
 FONT 8, "MS Sans Serif"
 BEGIN
-    ICON            IDI_LL_ICON,IDC_STATIC,7,7,20,20
-    LTEXT           "Loading Firestorm ...",666,36,13,211,8
+    CONTROL         IDB_HO_BITMAP,IDC_STATIC,"Static",SS_BITMAP,0,0,170,158
+    LTEXT           "Loading Heuguchon ...",666,0,158,170,8
 END
 
 
@@ -87,11 +87,7 @@ GUIDELINES DESIGNINFO
 BEGIN
     "SPLASHSCREEN", DIALOG
     BEGIN
-        LEFTMARGIN, 7
-        RIGHTMARGIN, 257
         VERTGUIDE, 36
-        TOPMARGIN, 7
-        BOTTOMMARGIN, 27
     END
 END
 #endif    // APSTUDIO_INVOKED

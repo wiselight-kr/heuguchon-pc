@@ -1960,7 +1960,6 @@ if (WINDOWS)
         res/lltooltranslate.cur
         res/lltoolzoomin.cur
         res/lltoolzoomout.cur
-		res/heuguchon_earth.gif
         res/heuguchon_icon.BMP
         res/heuguchon_icon.ico
         res-sdl/heuguchon_icon.BMP
