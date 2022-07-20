@@ -1768,7 +1768,7 @@ if (DARWIN)
     heuguchon_icon.icns
     macview.r
     Info-Firestorm.plist
-    Firestorm.xib/
+    Heuguchon.xib/
     # CMake doesn't seem to support Xcode language variants well just yet
     English.lproj/InfoPlist.strings
     English.lproj/language.txt
